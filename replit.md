@@ -122,6 +122,7 @@ The application uses a modern import system with:
 Changelog:
 - June 25, 2025. Initial setup
 - June 25, 2025. Created marketing website with animated use case showcase featuring family life, friendships, group trips, productivity, home management, and special occasions. Implemented app integration view with iframe placeholder.
+- June 25, 2025. Resolved SSH port conflict (port 3000 blocked), switched to port 5173. Fixed PostCSS and Tailwind CSS configuration issues. Marketing website now running successfully with smooth animations.
 ```
 
 ## User Preferences

@@ -1,17 +1,17 @@
-# Honeydew Family Management App
+# Honeydew Marketing Website
 
 ## Overview
 
-Honeydew is a comprehensive React+TypeScript family management application that helps families organize their schedules, manage lists, and coordinate activities. The app features calendar views, list management, and family collaboration tools with a focus on user-friendly interfaces and modern development practices.
+Created a modern marketing website for the Honeydew family management app featuring tasteful animations and comprehensive showcase of use cases. The website transforms visitors through an engaging journey highlighting how Honeydew revolutionizes family life, friendships, group adventures, productivity, home management, and special occasions. Built with React, TypeScript, Tailwind CSS, and Framer Motion for smooth animations.
 
 ## System Architecture
 
-### Frontend Architecture
+### Marketing Website Architecture
 - **Framework**: React with TypeScript
-- **State Management**: React Context for authentication and global state
-- **Styling**: Tailwind CSS with component-based design system
-- **Build Tool**: Vite for development and production builds
-- **Component Organization**: Feature-based architecture with shared component library
+- **Animation Library**: Framer Motion for smooth, performant animations
+- **Styling**: Tailwind CSS with custom gradients and animations
+- **Build Tool**: Vite for fast development and optimized production builds
+- **Component Organization**: Modern component architecture with reusable sections
 
 ### Backend Architecture
 - **Authentication**: Firebase Auth integration
@@ -121,6 +121,7 @@ The application uses a modern import system with:
 ```
 Changelog:
 - June 25, 2025. Initial setup
+- June 25, 2025. Created marketing website with animated use case showcase featuring family life, friendships, group trips, productivity, home management, and special occasions. Implemented app integration view with iframe placeholder.
 ```
 
 ## User Preferences

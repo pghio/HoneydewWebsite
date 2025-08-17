@@ -2,16 +2,15 @@
 
 ## Overview
 
-Created a modern marketing website for the Honeydew family management app featuring tasteful animations and comprehensive showcase of use cases. The website transforms visitors through an engaging journey highlighting how Honeydew revolutionizes family life, friendships, group adventures, productivity, home management, and special occasions. Built with React, TypeScript, Tailwind CSS, and Framer Motion for smooth animations.
+Simple, clean HTML marketing website for the Honeydew family management app. Single self-contained HTML file with embedded CSS and JavaScript - no frameworks, no build process, no dependencies. Features gradient hero section, responsive design, and smooth scrolling navigation.
 
 ## System Architecture
 
 ### Marketing Website Architecture
-- **Framework**: React with TypeScript
-- **Animation Library**: Framer Motion for smooth, performant animations
-- **Styling**: Tailwind CSS with custom gradients and animations
-- **Build Tool**: Vite for fast development and optimized production builds
-- **Component Organization**: Modern component architecture with reusable sections
+- **Framework**: Pure HTML5, CSS3, and vanilla JavaScript
+- **Styling**: Embedded CSS with CSS Grid and Flexbox for responsive design
+- **Server**: Simple Python HTTP server for local development
+- **Deployment**: Single HTML file that works independently
 
 ### Backend Architecture
 - **Authentication**: Firebase Auth integration

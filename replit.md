@@ -124,6 +124,7 @@ Changelog:
 - June 25, 2025. Created marketing website with animated use case showcase featuring family life, friendships, group trips, productivity, home management, and special occasions. Implemented app integration view with iframe placeholder.
 - June 25, 2025. Resolved SSH port conflict (port 3000 blocked), switched to port 5173. Fixed PostCSS and Tailwind CSS configuration issues. Marketing website now running successfully with smooth animations.
 - June 25, 2025. Fixed fundamental infrastructure misconfiguration: Added missing dev script to package.json with ES modules support, updated PostCSS configuration, created stable Express/Vite server wrapper (server.js) to maintain persistent connection. Website now properly accessible on port 3000.
+- August 17, 2025. Resolved run button and port conflict issues: Changed from port 3000 to 4173 to avoid conflicts with other projects. Created proper Replit workflow "Run" with Sequential mode using Execute Shell Command. Fixed PostCSS configuration to use @tailwindcss/postcss instead of legacy tailwindcss plugin. Website now fully functional with working run button and proper Tailwind styling.
 ```
 
 ## User Preferences

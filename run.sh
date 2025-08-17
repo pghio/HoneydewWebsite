@@ -1,3 +1,5 @@
 #!/bin/bash
-cd /home/runner/workspace
-python3 server.py
+echo "Installing dependencies..."
+npm install
+echo "Starting Honeydew React website..."
+npm run dev

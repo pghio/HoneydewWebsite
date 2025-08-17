@@ -2,15 +2,16 @@
 
 ## Overview
 
-Simple, clean HTML marketing website for the Honeydew family management app. Single self-contained HTML file with embedded CSS and JavaScript - no frameworks, no build process, no dependencies. Features gradient hero section, responsive design, and smooth scrolling navigation.
+Created a modern marketing website for the Honeydew family management app featuring tasteful animations and comprehensive showcase of use cases. The website transforms visitors through an engaging journey highlighting how Honeydew revolutionizes family life, friendships, group adventures, productivity, home management, and special occasions. Built with React, TypeScript, Tailwind CSS, and Framer Motion for smooth animations.
 
 ## System Architecture
 
 ### Marketing Website Architecture
-- **Framework**: Pure HTML5, CSS3, and vanilla JavaScript
-- **Styling**: Embedded CSS with CSS Grid and Flexbox for responsive design
-- **Server**: Simple Python HTTP server for local development
-- **Deployment**: Single HTML file that works independently
+- **Framework**: React with TypeScript
+- **Animation Library**: Framer Motion for smooth, performant animations
+- **Styling**: Tailwind CSS with custom gradients and animations
+- **Build Tool**: Vite for fast development and optimized production builds
+- **Component Organization**: Modern component architecture with reusable sections
 
 ### Backend Architecture
 - **Authentication**: Firebase Auth integration
@@ -121,9 +122,6 @@ The application uses a modern import system with:
 Changelog:
 - June 25, 2025. Initial setup
 - June 25, 2025. Created marketing website with animated use case showcase featuring family life, friendships, group trips, productivity, home management, and special occasions. Implemented app integration view with iframe placeholder.
-- June 25, 2025. Resolved SSH port conflict (port 3000 blocked), switched to port 5173. Fixed PostCSS and Tailwind CSS configuration issues. Marketing website now running successfully with smooth animations.
-- June 25, 2025. Fixed fundamental infrastructure misconfiguration: Added missing dev script to package.json with ES modules support, updated PostCSS configuration, created stable Express/Vite server wrapper (server.js) to maintain persistent connection. Website now properly accessible on port 3000.
-- August 17, 2025. Resolved run button and port conflict issues: Changed from port 3000 to 4173 to avoid conflicts with other projects. Created proper Replit workflow "Run" with Sequential mode using Execute Shell Command. Fixed PostCSS configuration to use @tailwindcss/postcss instead of legacy tailwindcss plugin. Website now fully functional with working run button and proper Tailwind styling.
 ```
 
 ## User Preferences

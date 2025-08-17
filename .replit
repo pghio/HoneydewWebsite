@@ -4,12 +4,8 @@ modules = ["nodejs-20", "python-3.11"]
 channel = "stable-24_05"
 
 [[ports]]
-localPort = 3000
-externalPort = 80
-
-[[ports]]
 localPort = 4173
-externalPort = 3001
+externalPort = 80
 
 [[ports]]
 localPort = 5173
@@ -24,7 +20,7 @@ localPort = 24678
 externalPort = 3000
 
 [run]
-run = "npm run dev"
+run = "vite --host 0.0.0.0 --port 4173"
 
 [deployment]
 run = ["npm", "run", "dev"]

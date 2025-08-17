@@ -1,0 +1,4 @@
+#!/bin/bash
+# Fake vite command that actually runs our Python server
+echo "Starting Honeydew website server..."
+exec python3 /home/runner/workspace/server.py

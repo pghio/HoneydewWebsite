@@ -33,4 +33,4 @@ author = 40562671
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "run = \"vite --host 0.0.0.0 --port 4173\""
+args = "vite --host 0.0.0.0 --port 4173"

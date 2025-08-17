@@ -5,13 +5,36 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Honeydew - Transform Your Family Life</title>
-    <meta name="description" content="AI-powered family management that transforms your daily life, friendships, group trips, and productivity. Create smart lists, coordinate schedules, and bring families together.">
-    <meta property="og:title" content="Honeydew - Transform Your Family Life">
-    <meta property="og:description" content="AI-powered family management that transforms your daily life, friendships, group trips, and productivity.">
-    <meta property="og:type" content="website">
+    <style>
+      body { 
+        margin: 0; 
+        font-family: system-ui, sans-serif; 
+        background: #f0f9ff; 
+      }
+      #root { 
+        min-height: 100vh; 
+      }
+      .loading { 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        min-height: 100vh; 
+        font-size: 24px; 
+        color: #0ea5e9; 
+      }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="loading">Loading Honeydew...</div>
+    </div>
+    <script>
+      console.log('HTML loaded, about to load React...')
+      window.addEventListener('error', function(e) {
+        console.error('Global error:', e.error)
+        document.getElementById('root').innerHTML = '<div style="padding:40px;color:red;">JavaScript Error: ' + (e.error ? e.error.message : e.message) + '</div>'
+      })
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

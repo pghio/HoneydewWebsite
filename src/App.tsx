@@ -1,64 +1,34 @@
-console.log('App.tsx loading...')
+import { useState } from 'react'
+import { AnimatePresence } from 'framer-motion'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import UseCaseShowcase from './components/UseCaseShowcase'
+import Features from './components/Features'
+import HowItWorks from './components/HowItWorks'
+import CallToAction from './components/CallToAction'
+import Footer from './components/Footer'
+import AppView from './components/AppView'
 
 function App() {
-  console.log('App component rendering...')
-  
+  const [currentView, setCurrentView] = useState<'website' | 'app'>('website')
+
   return (
-    <div style={{ 
-      padding: '40px', 
-      minHeight: '100vh',
-      backgroundColor: '#f0f9ff',
-      fontFamily: 'system-ui, sans-serif'
-    }}>
-      <div style={{ 
-        maxWidth: '800px', 
-        margin: '0 auto',
-        backgroundColor: 'white',
-        padding: '40px',
-        borderRadius: '12px',
-        boxShadow: '0 4px 20px rgba(0,0,0,0.1)'
-      }}>
-        <h1 style={{ 
-          fontSize: '48px', 
-          color: '#0ea5e9',
-          marginBottom: '20px',
-          textAlign: 'center'
-        }}>
-          🍯 Honeydew
-        </h1>
-        <h2 style={{ 
-          fontSize: '24px', 
-          color: '#374151',
-          textAlign: 'center',
-          marginBottom: '30px',
-          fontWeight: 'normal'
-        }}>
-          Transform Your Family Life
-        </h2>
-        <div style={{ 
-          backgroundColor: '#ecfdf5',
-          padding: '20px',
-          borderRadius: '8px',
-          border: '1px solid #10b981'
-        }}>
-          <p style={{ color: '#065f46', margin: 0, textAlign: 'center' }}>
-            ✅ Website is working! React components are rendering successfully.
-          </p>
-        </div>
-        <div style={{ marginTop: '30px', textAlign: 'center' }}>
-          <button style={{
-            backgroundColor: '#0ea5e9',
-            color: 'white',
-            padding: '12px 24px',
-            border: 'none',
-            borderRadius: '8px',
-            fontSize: '16px',
-            cursor: 'pointer'
-          }}>
-            Get Started
-          </button>
-        </div>
-      </div>
+    <div className="min-h-screen bg-white">
+      <AnimatePresence mode="wait">
+        {currentView === 'website' ? (
+          <div key="website">
+            <Navbar onUseApp={() => setCurrentView('app')} />
+            <Hero onUseApp={() => setCurrentView('app')} />
+            <UseCaseShowcase />
+            <Features />
+            <HowItWorks />
+            <CallToAction onUseApp={() => setCurrentView('app')} />
+            <Footer />
+          </div>
+        ) : (
+          <AppView key="app" onBackToWebsite={() => setCurrentView('website')} />
+        )}
+      </AnimatePresence>
     </div>
   )
 }

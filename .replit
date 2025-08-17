@@ -8,6 +8,10 @@ localPort = 3000
 externalPort = 80
 
 [[ports]]
+localPort = 4173
+externalPort = 3001
+
+[[ports]]
 localPort = 5173
 externalPort = 5173
 
@@ -20,7 +24,7 @@ localPort = 24678
 externalPort = 3000
 
 [run]
-command = "npm run dev"
+run = "npm run dev"
 
 [deployment]
 run = ["npm", "run", "dev"]

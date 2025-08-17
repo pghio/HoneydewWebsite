@@ -8,7 +8,7 @@ localPort = 5173
 externalPort = 80
 
 [deployment]
-run = ["npm", "run", "dev"]
+run = ["bash", "replit-start.sh"]
 
 [workflows]
 
@@ -18,4 +18,4 @@ mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "npm install && npm run dev"
+args = "./replit-start.sh"

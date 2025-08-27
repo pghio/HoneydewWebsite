@@ -1,11 +1,8 @@
 import { motion } from 'framer-motion'
 import { ArrowLeft, ExternalLink } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
-interface AppViewProps {
-  onBackToWebsite: () => void
-}
-
-const AppView = ({ onBackToWebsite }: AppViewProps) => {
+const AppPage = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -17,14 +14,17 @@ const AppView = ({ onBackToWebsite }: AppViewProps) => {
       {/* App Header */}
       <header className="bg-white shadow-sm border-b border-gray-200 px-4 py-3">
         <div className="flex items-center justify-between max-w-7xl mx-auto">
-          <motion.button
-            onClick={onBackToWebsite}
-            className="flex items-center space-x-2 text-gray-600 hover:text-gray-900 transition-colors"
+          <motion.div
             whileHover={{ x: -2 }}
           >
-            <ArrowLeft className="w-5 h-5" />
-            <span>Back to Website</span>
-          </motion.button>
+            <Link 
+              to="/"
+              className="flex items-center space-x-2 text-gray-600 hover:text-gray-900 transition-colors"
+            >
+              <ArrowLeft className="w-5 h-5" />
+              <span>Back to Website</span>
+            </Link>
+          </motion.div>
           
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 honeydew-gradient rounded-lg flex items-center justify-center">
@@ -76,7 +76,7 @@ const AppView = ({ onBackToWebsite }: AppViewProps) => {
           transition={{ delay: 2.5, duration: 0.5 }}
           className="w-full h-full"
         >
-          {/* Demo App Interface */}
+          {/* Demo App Interface - Replace this with your actual app iframe */}
           <div className="w-full h-full bg-white p-6">
             <div className="max-w-6xl mx-auto h-full">
               {/* Demo Content */}
@@ -95,12 +95,27 @@ const AppView = ({ onBackToWebsite }: AppViewProps) => {
                   </h2>
                   
                   <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                    This is a demo view of the Honeydew app. In the real implementation, 
-                    this would be an iframe containing your actual DoveTail/Honeydew application.
+                    This is a demo view of the Honeydew app. To integrate your actual app, 
+                    replace this content with an iframe pointing to your app's URL.
                   </p>
 
+                  {/* Example of how to embed your actual app */}
+                  <div className="bg-blue-50 rounded-lg p-6 border border-blue-200 mb-8">
+                    <h4 className="font-semibold text-blue-900 mb-2">To embed your actual app:</h4>
+                    <div className="text-left text-blue-800 text-sm">
+                      <p className="mb-2">Replace the demo content above with:</p>
+                      <code className="bg-blue-100 px-2 py-1 rounded text-xs block">
+                        {`<iframe 
+  src="https://your-honeydew-app.com" 
+  className="w-full h-full border-0 rounded-lg"
+  title="Honeydew App"
+/>`}
+                      </code>
+                    </div>
+                  </div>
+
                   {/* Demo Features */}
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <motion.div
                       className="bg-white rounded-lg p-6 shadow-sm"
                       whileHover={{ y: -2 }}
@@ -128,15 +143,6 @@ const AppView = ({ onBackToWebsite }: AppViewProps) => {
                       <p className="text-gray-600 text-sm">Real-time collaboration and coordination</p>
                     </motion.div>
                   </div>
-
-                  <div className="bg-blue-50 rounded-lg p-6 border border-blue-200">
-                    <h4 className="font-semibold text-blue-900 mb-2">Implementation Note</h4>
-                    <p className="text-blue-800 text-sm">
-                      To integrate your actual Honeydew/DoveTail app, replace this demo content 
-                      with an iframe pointing to your app's URL. The iframe will provide seamless 
-                      access to all your app's features within this marketing website.
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
@@ -147,4 +153,4 @@ const AppView = ({ onBackToWebsite }: AppViewProps) => {
   )
 }
 
-export default AppView
+export default AppPage

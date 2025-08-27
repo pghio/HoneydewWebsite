@@ -1,12 +1,9 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { ArrowRight, Star, Users, Zap } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
-interface CallToActionProps {
-  onUseApp: () => void
-}
-
-const CallToAction = ({ onUseApp }: CallToActionProps) => {
+const CallToAction = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
@@ -63,20 +60,23 @@ const CallToAction = ({ onUseApp }: CallToActionProps) => {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.4 }}
             >
-              <motion.button
-                onClick={onUseApp}
-                className="group bg-white text-primary-600 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-gray-50 transition-all duration-300 flex items-center gap-3 shadow-xl"
+              <motion.div
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Start Your Free Trial
-                <motion.div
-                  animate={{ x: [0, 5, 0] }}
-                  transition={{ duration: 1.5, repeat: Infinity }}
+                <Link
+                  to="/app"
+                  className="group bg-white text-primary-600 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-gray-50 transition-all duration-300 flex items-center gap-3 shadow-xl inline-block"
                 >
-                  <ArrowRight className="w-6 h-6" />
-                </motion.div>
-              </motion.button>
+                  Start Your Free Trial
+                  <motion.div
+                    animate={{ x: [0, 5, 0] }}
+                    transition={{ duration: 1.5, repeat: Infinity }}
+                  >
+                    <ArrowRight className="w-6 h-6" />
+                  </motion.div>
+                </Link>
+              </motion.div>
               
               <div className="text-center sm:text-left">
                 <div className="text-sm opacity-75 mb-1">🎉 No credit card required</div>

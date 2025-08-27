@@ -1,11 +1,8 @@
 import { motion } from 'framer-motion'
 import { ArrowRight, Sparkles } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
-interface HeroProps {
-  onUseApp: () => void
-}
-
-const Hero = ({ onUseApp }: HeroProps) => {
+const Hero = () => {
   return (
     <section className="pt-24 pb-16 bg-gradient-to-br from-blue-50 via-white to-yellow-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -52,15 +49,18 @@ const Hero = ({ onUseApp }: HeroProps) => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
           >
-            <motion.button
-              onClick={onUseApp}
-              className="bg-primary-500 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-primary-600 transition-all duration-200 flex items-center justify-center gap-2 animate-pulse-glow"
+            <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Start Organizing Today
-              <ArrowRight className="w-5 h-5" />
-            </motion.button>
+              <Link
+                to="/app"
+                className="bg-primary-500 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-primary-600 transition-all duration-200 flex items-center justify-center gap-2 animate-pulse-glow inline-block"
+              >
+                Start Organizing Today
+                <ArrowRight className="w-5 h-5" />
+              </Link>
+            </motion.div>
             
             <motion.button
               className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-xl font-semibold text-lg hover:border-primary-300 hover:text-primary-600 transition-all duration-200"

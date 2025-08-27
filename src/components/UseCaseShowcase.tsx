@@ -4,10 +4,8 @@ import {
   Users, 
   Plane, 
   Heart, 
-  Calendar, 
   Home, 
   Briefcase,
-  Coffee,
   Gift
 } from 'lucide-react'
 

@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion'
 import { Heart, Menu, X } from 'lucide-react'
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -35,12 +34,14 @@ const Navbar = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Link
-                to="/app"
+              <a
+                href="https://app.tryhoneydew.app"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-primary-500 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-600 transition-colors inline-block"
               >
                 Try Honeydew
-              </Link>
+              </a>
             </motion.div>
           </div>
 
@@ -67,12 +68,14 @@ const Navbar = () => {
               <a href="#features" className="text-gray-600 hover:text-primary-600 transition-colors">Features</a>
               <a href="#how-it-works" className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
               <a href="#use-cases" className="text-gray-600 hover:text-primary-600 transition-colors">Use Cases</a>
-              <Link
-                to="/app"
+              <a
+                href="https://app.tryhoneydew.app"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-primary-500 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-600 transition-colors w-full inline-block text-center"
               >
                 Try Honeydew
-              </Link>
+              </a>
             </div>
           </motion.div>
         )}

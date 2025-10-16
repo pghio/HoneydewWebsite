@@ -18,24 +18,24 @@ const Footer = () => {
       { name: 'Contact', href: '#contact' }
     ],
     Resources: [
-      { name: 'Help Center', href: '#help' },
-      { name: 'Documentation', href: '#docs' },
-      { name: 'API Reference', href: '#api' },
-      { name: 'Community', href: '#community' }
+      { name: 'Help Center', href: '/support' },
+      { name: 'Documentation', href: '/docs' },
+      { name: 'API Reference', href: '/api' },
+      { name: 'Community', href: '/community' }
     ],
     Legal: [
-      { name: 'Privacy Policy', href: '#privacy' },
-      { name: 'Terms of Service', href: '#terms' },
-      { name: 'Cookie Policy', href: '#cookies' },
-      { name: 'Security', href: '#security' }
+      { name: 'Privacy Policy', href: '/privacy' },
+      { name: 'Terms of Service', href: '/terms' },
+      { name: 'Cookie Policy', href: '/cookies' },
+      { name: 'Security', href: '/security' }
     ]
   }
 
   const socialLinks = [
-    { icon: Twitter, href: '#twitter', label: 'Twitter' },
-    { icon: Github, href: '#github', label: 'GitHub' },
-    { icon: Linkedin, href: '#linkedin', label: 'LinkedIn' },
-    { icon: Mail, href: '#email', label: 'Email' }
+    { icon: Twitter, href: 'https://twitter.com/gethoneydew', label: 'Twitter' },
+    { icon: Github, href: 'https://github.com/gethoneydew', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/company/gethoneydew', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:pete@gethoneydew.app', label: 'Email' }
   ]
 
   return (
@@ -129,8 +129,8 @@ const Footer = () => {
         </motion.div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-          <div className="text-gray-400 text-sm mb-4 md:mb-0">
+        <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="text-gray-400 text-sm">
             © {currentYear} Honeydew. All rights reserved. Made with{' '}
             <motion.span
               className="inline-block text-red-500"
@@ -141,14 +141,17 @@ const Footer = () => {
             </motion.span>{' '}
             for families everywhere.
           </div>
-          <div className="flex items-center space-x-6 text-sm text-gray-400">
-            <a href="#status" className="hover:text-white transition-colors">
-              System Status
+          <div className="flex flex-wrap items-center justify-center gap-6 text-sm">
+            <a href="/privacy" className="text-white font-semibold hover:text-primary-400 transition-colors">
+              Privacy Policy
             </a>
-            <a href="#changelog" className="hover:text-white transition-colors">
-              Changelog
+            <a href="/terms" className="text-white font-semibold hover:text-primary-400 transition-colors">
+              Terms of Service
             </a>
-            <div className="flex items-center space-x-2">
+            <a href="/support" className="text-gray-400 hover:text-white transition-colors">
+              Support
+            </a>
+            <div className="flex items-center space-x-2 text-gray-400">
               <div className="w-2 h-2 bg-green-500 rounded-full"></div>
               <span>All systems operational</span>
             </div>

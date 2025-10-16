@@ -34,7 +34,7 @@ const AppPage = () => {
           </div>
 
           <motion.a
-            href="https://your-actual-honeydew-app.com"
+            href="https://app.gethoneydew.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 bg-primary-500 text-white px-4 py-2 rounded-lg hover:bg-primary-600 transition-colors"

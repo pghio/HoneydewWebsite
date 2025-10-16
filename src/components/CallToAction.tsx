@@ -1,7 +1,6 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { ArrowRight, Star, Users, Zap } from 'lucide-react'
-import { Link } from 'react-router-dom'
 
 const CallToAction = () => {
   const ref = useRef(null)
@@ -64,8 +63,10 @@ const CallToAction = () => {
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <Link
-                  to="/app"
+                <a
+                  href="https://app.gethoneydew.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="group bg-white text-primary-600 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-gray-50 transition-all duration-300 flex items-center gap-3 shadow-xl inline-block"
                 >
                   Start Your Free Trial
@@ -75,7 +76,7 @@ const CallToAction = () => {
                   >
                     <ArrowRight className="w-6 h-6" />
                   </motion.div>
-                </Link>
+                </a>
               </motion.div>
               
               <div className="text-center sm:text-left">

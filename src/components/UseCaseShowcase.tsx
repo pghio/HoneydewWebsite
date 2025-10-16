@@ -31,7 +31,7 @@ const useCases: UseCase[] = [
     gradient: 'from-blue-500 to-blue-600',
     description: 'Transform daily chaos into organized harmony with smart family coordination.',
     features: ['Shared calendars', 'Chore assignments', 'Family goals', 'Real-time sync'],
-    example: '"Plan our weekly family activities" → Automatically organizes dinner plans, sports practice, homework time, and family movie night.'
+    example: '"Plan our weekly family activities" → AI agent analyzes patterns, creates optimized schedule, generates shopping lists, and coordinates with family calendars.'
   },
   {
     id: 'friendship',
@@ -42,7 +42,7 @@ const useCases: UseCase[] = [
     gradient: 'from-pink-500 to-pink-600',
     description: 'Keep friendships thriving with effortless coordination and shared experiences.',
     features: ['Group events', 'Gift planning', 'Shared memories', 'Easy coordination'],
-    example: '"Organize Sarah\'s surprise birthday" → Creates guest list, venue booking, gift ideas, decorations, and timeline coordination.'
+    example: '"Organize Sarah\'s surprise birthday" → AI agent creates comprehensive plan with guest list, venue suggestions, gift ideas, decorations, timeline, and coordinates with all participants.'
   },
   {
     id: 'trips',
@@ -53,7 +53,7 @@ const useCases: UseCase[] = [
     gradient: 'from-green-500 to-green-600',
     description: 'From weekend getaways to epic adventures, plan trips that everyone will remember.',
     features: ['Travel itineraries', 'Packing lists', 'Budget tracking', 'Group coordination'],
-    example: '"Plan our ski weekend in Aspen" → Generates equipment checklist, accommodation booking, weather preparation, and group activity schedule.'
+    example: '"Plan our ski weekend in Aspen" → AI agent creates comprehensive packing list, checks weather forecasts, suggests optimal timing, coordinates group transportation, and syncs with all calendars.'
   },
   {
     id: 'productivity',
@@ -64,7 +64,7 @@ const useCases: UseCase[] = [
     gradient: 'from-purple-500 to-purple-600',
     description: 'Turn aspirations into achievements with intelligent goal tracking and habit building.',
     features: ['Goal setting', 'Habit tracking', 'Progress monitoring', 'Smart reminders'],
-    example: '"Start my morning wellness routine" → Creates meditation schedule, workout plans, healthy breakfast ideas, and gradual habit building.'
+    example: '"Start my morning wellness routine" → AI agent creates personalized schedule, tracks progress, suggests optimal timing, and adapts based on your sleep patterns and energy levels.'
   },
   {
     id: 'home',
@@ -75,7 +75,7 @@ const useCases: UseCase[] = [
     gradient: 'from-orange-500 to-orange-600',
     description: 'Create a harmonious living space with intelligent home organization and maintenance.',
     features: ['Maintenance schedules', 'Seasonal tasks', 'Home projects', 'Family coordination'],
-    example: '"Prepare home for winter" → Organizes heating check, weatherproofing, seasonal decorating, and emergency supplies preparation.'
+    example: '"Prepare home for winter" → AI agent creates comprehensive checklist, schedules maintenance, tracks seasonal tasks, and coordinates with family members for shared responsibilities.'
   },
   {
     id: 'events',
@@ -86,7 +86,7 @@ const useCases: UseCase[] = [
     gradient: 'from-red-500 to-red-600',
     description: 'Make every celebration unforgettable with comprehensive event planning and coordination.',
     features: ['Event planning', 'Guest management', 'Timeline creation', 'Vendor coordination'],
-    example: '"Host the perfect dinner party" → Creates menu planning, guest coordination, table setting, entertainment, and timing checklist.'
+    example: '"Host the perfect dinner party" → AI agent creates detailed menu with dietary considerations, coordinates guest responses, suggests optimal timing, and manages all logistics from invitations to cleanup.'
   }
 ]
 

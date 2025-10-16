@@ -28,6 +28,8 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#features" className="text-gray-600 hover:text-primary-600 transition-colors">Features</a>
+            <a href="#multimodal-demo" className="text-gray-600 hover:text-primary-600 transition-colors">AI Demo</a>
+            <a href="#case-studies" className="text-gray-600 hover:text-primary-600 transition-colors">Case Studies</a>
             <a href="#how-it-works" className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
             <a href="#use-cases" className="text-gray-600 hover:text-primary-600 transition-colors">Use Cases</a>
             <motion.div
@@ -35,7 +37,7 @@ const Navbar = () => {
               whileTap={{ scale: 0.95 }}
             >
               <a
-                href="https://app.tryhoneydew.app"
+                href="https://app.gethoneydew.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary-500 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-600 transition-colors inline-block"
@@ -66,10 +68,12 @@ const Navbar = () => {
           >
             <div className="flex flex-col space-y-4">
               <a href="#features" className="text-gray-600 hover:text-primary-600 transition-colors">Features</a>
+              <a href="#multimodal-demo" className="text-gray-600 hover:text-primary-600 transition-colors">AI Demo</a>
+              <a href="#case-studies" className="text-gray-600 hover:text-primary-600 transition-colors">Case Studies</a>
               <a href="#how-it-works" className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
               <a href="#use-cases" className="text-gray-600 hover:text-primary-600 transition-colors">Use Cases</a>
               <a
-                href="https://app.tryhoneydew.app"
+                href="https://app.gethoneydew.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary-500 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-600 transition-colors w-full inline-block text-center"

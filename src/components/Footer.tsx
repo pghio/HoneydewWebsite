@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { Heart, Mail, Twitter, Github, Linkedin } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -81,17 +82,33 @@ const Footer = () => {
             <div key={category}>
               <h3 className="text-lg font-semibold mb-4">{category}</h3>
               <ul className="space-y-3">
-                {links.map((link) => (
-                  <li key={link.name}>
-                    <motion.a
-                      href={link.href}
-                      className="text-gray-400 hover:text-white transition-colors"
-                      whileHover={{ x: 2 }}
-                    >
-                      {link.name}
-                    </motion.a>
-                  </li>
-                ))}
+                {links.map((link) => {
+                  const isInternalLink = link.href.startsWith('/') && !link.href.startsWith('/#')
+                  const isHashLink = link.href.startsWith('#')
+                  
+                  return (
+                    <li key={link.name}>
+                      {isInternalLink ? (
+                        <Link to={link.href}>
+                          <motion.span
+                            className="text-gray-400 hover:text-white transition-colors inline-block"
+                            whileHover={{ x: 2 }}
+                          >
+                            {link.name}
+                          </motion.span>
+                        </Link>
+                      ) : (
+                        <motion.a
+                          href={link.href}
+                          className="text-gray-400 hover:text-white transition-colors"
+                          whileHover={{ x: 2 }}
+                        >
+                          {link.name}
+                        </motion.a>
+                      )}
+                    </li>
+                  )
+                })}
               </ul>
             </div>
           ))}
@@ -142,15 +159,15 @@ const Footer = () => {
             for families everywhere.
           </div>
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm">
-            <a href="/privacy" className="text-white font-semibold hover:text-primary-400 transition-colors">
+            <Link to="/privacy" className="text-white font-semibold hover:text-primary-400 transition-colors">
               Privacy Policy
-            </a>
-            <a href="/terms" className="text-white font-semibold hover:text-primary-400 transition-colors">
+            </Link>
+            <Link to="/terms" className="text-white font-semibold hover:text-primary-400 transition-colors">
               Terms of Service
-            </a>
-            <a href="/support" className="text-gray-400 hover:text-white transition-colors">
+            </Link>
+            <Link to="/support" className="text-gray-400 hover:text-white transition-colors">
               Support
-            </a>
+            </Link>
             <div className="flex items-center space-x-2 text-gray-400">
               <div className="w-2 h-2 bg-green-500 rounded-full"></div>
               <span>All systems operational</span>

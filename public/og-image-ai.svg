@@ -1,0 +1,56 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  
+  <!-- Logo Circle (Top Left) -->
+  <circle cx="80" cy="80" r="35" fill="white" opacity="0.2"/>
+  <text x="80" y="95" font-size="40" text-anchor="middle" fill="white">❤️</text>
+  
+  <!-- Main Content -->
+  <g>
+    <!-- Brand Name -->
+    <text x="600" y="200" font-family="Arial, sans-serif" font-size="80" font-weight="bold" text-anchor="middle" fill="white">
+      Honeydew
+    </text>
+    
+    <!-- Tagline -->
+    <text x="600" y="270" font-family="Arial, sans-serif" font-size="42" text-anchor="middle" fill="white" opacity="0.95">
+      Your AI-Powered Family Assistant
+    </text>
+    
+    <!-- Features Row -->
+    <g transform="translate(150, 350)">
+      <!-- Feature 1: AI -->
+      <g>
+        <text x="0" y="0" font-size="48">🤖</text>
+        <text x="60" y="0" font-family="Arial, sans-serif" font-size="24" fill="white" opacity="0.9">Natural Language AI</text>
+      </g>
+      
+      <!-- Feature 2: Voice -->
+      <g transform="translate(0, 70)">
+        <text x="0" y="0" font-size="48">🎙️</text>
+        <text x="60" y="0" font-family="Arial, sans-serif" font-size="24" fill="white" opacity="0.9">Voice Commands</text>
+      </g>
+      
+      <!-- Feature 3: Image -->
+      <g transform="translate(0, 140)">
+        <text x="0" y="0" font-size="48">📸</text>
+        <text x="60" y="0" font-family="Arial, sans-serif" font-size="24" fill="white" opacity="0.9">Image Processing</text>
+      </g>
+    </g>
+    
+    <!-- Bottom Tagline -->
+    <text x="600" y="590" font-family="Arial, sans-serif" font-size="32" font-style="italic" text-anchor="middle" fill="white" opacity="0.85">
+      "Just Tell It What You Need"
+    </text>
+  </g>
+</svg>
+

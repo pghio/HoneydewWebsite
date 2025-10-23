@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Heart, Mail, Twitter, Github, Linkedin } from 'lucide-react'
+import { Heart, Mail } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -7,22 +7,13 @@ const Footer = () => {
 
   const footerLinks = {
     Product: [
-      { name: 'Features', href: '#features' },
-      { name: 'How It Works', href: '#how-it-works' },
-      { name: 'Use Cases', href: '#use-cases' },
-      { name: 'Pricing', href: '#pricing' }
-    ],
-    Company: [
-      { name: 'About Us', href: '#about' },
-      { name: 'Blog', href: '#blog' },
-      { name: 'Careers', href: '#careers' },
-      { name: 'Contact', href: '#contact' }
+      { name: 'Features', href: '/#features' },
+      { name: 'How It Works', href: '/#how-it-works' },
+      { name: 'Use Cases', href: '/#use-cases' },
+      { name: 'Case Studies', href: '/#case-studies' }
     ],
     Resources: [
-      { name: 'Help Center', href: '/support' },
-      { name: 'Documentation', href: '/docs' },
-      { name: 'API Reference', href: '/api' },
-      { name: 'Community', href: '/community' }
+      { name: 'Support', href: '/support' }
     ],
     Legal: [
       { name: 'Privacy Policy', href: '/privacy' },
@@ -31,13 +22,6 @@ const Footer = () => {
       { name: 'Security', href: '/security' }
     ]
   }
-
-  const socialLinks = [
-    { icon: Twitter, href: 'https://twitter.com/gethoneydew', label: 'Twitter' },
-    { icon: Github, href: 'https://github.com/gethoneydew', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/company/gethoneydew', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:pete@gethoneydew.app', label: 'Email' }
-  ]
 
   return (
     <footer className="bg-gray-900 text-white">
@@ -60,20 +44,12 @@ const Footer = () => {
               Making coordination effortless and bringing families closer together.
             </p>
             
-            {/* Social Links */}
-            <div className="flex space-x-4">
-              {socialLinks.map((social) => (
-                <motion.a
-                  key={social.label}
-                  href={social.href}
-                  className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-primary-600 transition-colors"
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.95 }}
-                  aria-label={social.label}
-                >
-                  <social.icon className="w-5 h-5" />
-                </motion.a>
-              ))}
+            {/* Contact */}
+            <div className="flex items-center space-x-2 text-gray-400">
+              <Mail className="w-5 h-5" />
+              <a href="mailto:pete@gethoneydew.app" className="hover:text-white transition-colors">
+                pete@gethoneydew.app
+              </a>
             </div>
           </div>
 
@@ -84,8 +60,7 @@ const Footer = () => {
               <ul className="space-y-3">
                 {links.map((link) => {
                   const isInternalLink = link.href.startsWith('/') && !link.href.startsWith('/#')
-                  const isHashLink = link.href.startsWith('#')
-                  
+
                   return (
                     <li key={link.name}>
                       {isInternalLink ? (
@@ -113,37 +88,6 @@ const Footer = () => {
             </div>
           ))}
         </div>
-
-        {/* Newsletter Signup */}
-        <motion.div
-          className="mt-12 pt-8 border-t border-gray-800"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-        >
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div>
-              <h3 className="text-2xl font-bold mb-2">Stay in the loop</h3>
-              <p className="text-gray-400">
-                Get the latest updates on new features, family organization tips, and AI innovations.
-              </p>
-            </div>
-            <div className="flex gap-4">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:border-primary-500 transition-colors"
-              />
-              <motion.button
-                className="bg-primary-500 text-white px-6 py-3 rounded-lg font-medium hover:bg-primary-600 transition-colors"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Subscribe
-              </motion.button>
-            </div>
-          </div>
-        </motion.div>
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">

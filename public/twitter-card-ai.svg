@@ -1,0 +1,49 @@
+<svg width="1200" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="bgGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#bgGradient2)"/>
+  
+  <!-- Left Side: Logo and Icon -->
+  <g transform="translate(100, 150)">
+    <!-- Logo Circle -->
+    <circle cx="0" cy="0" r="80" fill="white" opacity="0.2"/>
+    <text x="0" y="30" font-size="90" text-anchor="middle" fill="white">❤️</text>
+    
+    <!-- AI Robot Icon -->
+    <text x="0" y="200" font-size="120" text-anchor="middle">🤖</text>
+  </g>
+  
+  <!-- Right Side: Content -->
+  <g transform="translate(350, 180)">
+    <!-- Brand Name -->
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="white">
+      Honeydew
+    </text>
+    
+    <!-- Tagline -->
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="36" fill="white" opacity="0.95">
+      AI-Powered Family Assistant
+    </text>
+    
+    <!-- Features -->
+    <g transform="translate(0, 140)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="28" fill="white" opacity="0.9">
+        ✓ Natural Language Understanding
+      </text>
+      <text x="0" y="50" font-family="Arial, sans-serif" font-size="28" fill="white" opacity="0.9">
+        ✓ Voice Commands
+      </text>
+      <text x="0" y="100" font-family="Arial, sans-serif" font-size="28" fill="white" opacity="0.9">
+        ✓ Image Processing
+      </text>
+    </g>
+  </g>
+</svg>
+

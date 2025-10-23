@@ -1,9 +1,21 @@
 import { motion } from 'framer-motion'
-import { Heart, Menu, X } from 'lucide-react'
+import { Heart, Menu, X, ChevronDown } from 'lucide-react'
 import { useState } from 'react'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isWhyHoneydewOpen, setIsWhyHoneydewOpen] = useState(false)
+
+  const whyHoneydewLinks = [
+    { title: 'vs. Skylight Calendar', href: '/why-honeydew/vs-skylight' },
+    { title: 'vs. Cozi', href: '/why-honeydew/vs-cozi' },
+    { title: 'vs. TimeTree', href: '/why-honeydew/vs-timetree' },
+    { title: 'vs. Hearth Display', href: '/why-honeydew/vs-hearth' },
+    { title: 'vs. FamilyWall', href: '/why-honeydew/vs-familywall' },
+    { title: 'vs. Echo Show', href: '/why-honeydew/vs-echoshow' },
+    { title: 'vs. Google Calendar', href: '/why-honeydew/vs-google' },
+    { title: 'vs. Mango Display', href: '/why-honeydew/vs-mango' },
+  ]
 
   return (
     <motion.nav
@@ -19,19 +31,51 @@ const Navbar = () => {
             className="flex items-center space-x-2"
             whileHover={{ scale: 1.05 }}
           >
-            <div className="w-8 h-8 honeydew-gradient rounded-lg flex items-center justify-center">
-              <Heart className="w-5 h-5 text-white" />
-            </div>
-            <span className="text-xl font-bold honeydew-text-gradient">Honeydew</span>
+            <a href="/" className="flex items-center space-x-2">
+              <div className="w-8 h-8 honeydew-gradient rounded-lg flex items-center justify-center">
+                <Heart className="w-5 h-5 text-white" />
+              </div>
+              <span className="text-xl font-bold honeydew-text-gradient">Honeydew</span>
+            </a>
           </motion.div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#features" className="text-gray-600 hover:text-primary-600 transition-colors">Features</a>
             <a href="#multimodal-demo" className="text-gray-600 hover:text-primary-600 transition-colors">AI Demo</a>
-            <a href="#case-studies" className="text-gray-600 hover:text-primary-600 transition-colors">Case Studies</a>
+            
+            {/* Why Honeydew Dropdown */}
+            <div 
+              className="relative"
+              onMouseEnter={() => setIsWhyHoneydewOpen(true)}
+              onMouseLeave={() => setIsWhyHoneydewOpen(false)}
+            >
+              <button className="text-gray-600 hover:text-primary-600 transition-colors flex items-center gap-1">
+                Why Honeydew
+                <ChevronDown className="w-4 h-4" />
+              </button>
+              
+              {isWhyHoneydewOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: 10 }}
+                  className="absolute top-full left-0 mt-2 w-72 bg-white rounded-lg shadow-xl border border-gray-100 py-2"
+                >
+                  {whyHoneydewLinks.map((link, index) => (
+                    <a
+                      key={index}
+                      href={link.href}
+                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-primary-600 transition-colors"
+                    >
+                      {link.title}
+                    </a>
+                  ))}
+                </motion.div>
+              )}
+            </div>
+
             <a href="#how-it-works" className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
-            <a href="#use-cases" className="text-gray-600 hover:text-primary-600 transition-colors">Use Cases</a>
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -69,9 +113,32 @@ const Navbar = () => {
             <div className="flex flex-col space-y-4">
               <a href="#features" className="text-gray-600 hover:text-primary-600 transition-colors">Features</a>
               <a href="#multimodal-demo" className="text-gray-600 hover:text-primary-600 transition-colors">AI Demo</a>
-              <a href="#case-studies" className="text-gray-600 hover:text-primary-600 transition-colors">Case Studies</a>
+              
+              {/* Why Honeydew - Mobile Expandable */}
+              <div>
+                <button 
+                  onClick={() => setIsWhyHoneydewOpen(!isWhyHoneydewOpen)}
+                  className="text-gray-600 hover:text-primary-600 transition-colors flex items-center gap-1 w-full"
+                >
+                  Why Honeydew
+                  <ChevronDown className={`w-4 h-4 transition-transform ${isWhyHoneydewOpen ? 'rotate-180' : ''}`} />
+                </button>
+                {isWhyHoneydewOpen && (
+                  <div className="ml-4 mt-2 space-y-2">
+                    {whyHoneydewLinks.map((link, index) => (
+                      <a
+                        key={index}
+                        href={link.href}
+                        className="block text-sm text-gray-600 hover:text-primary-600 transition-colors"
+                      >
+                        {link.title}
+                      </a>
+                    ))}
+                  </div>
+                )}
+              </div>
+
               <a href="#how-it-works" className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
-              <a href="#use-cases" className="text-gray-600 hover:text-primary-600 transition-colors">Use Cases</a>
               <a
                 href="https://app.gethoneydew.app/"
                 target="_blank"

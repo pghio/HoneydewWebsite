@@ -3,7 +3,7 @@ import { ArrowRight, Sparkles } from 'lucide-react'
 
 const Hero = () => {
   return (
-    <section className="pt-24 pb-16 bg-gradient-to-br from-blue-50 via-white to-yellow-50">
+    <section className="pt-24 pb-16 bg-gradient-to-br from-[#5DADE2] via-white to-[#F7DC6F]/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* Main Headline */}
@@ -23,7 +23,7 @@ const Hero = () => {
               🤖 Your AI-Powered Family Assistant
             </motion.div>
 
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
               Just Tell Honeydew{' '}
               <motion.span
                 className="honeydew-text-gradient inline-block"
@@ -35,9 +35,13 @@ const Hero = () => {
               </motion.span>
             </h1>
 
+            <p className="text-lg md:text-xl font-semibold text-gray-700 mb-4">
+              The family organizer that thinks.
+            </p>
+
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
-              Type it. Say it. Photograph it. Honeydew's AI agent understands natural language, learns your patterns,
-              and handles complex requests in seconds - all while coordinating seamlessly with your family.
+              In just three seconds Honeydew turns one sentence into 25-40 organized items, with calendars, smart lists,
+              and reminders linked automatically. Type it, say it, or photograph it—our AI understands your family and keeps everyone in sync.
             </p>
 
             {/* Interactive Demo */}
@@ -91,28 +95,36 @@ const Hero = () => {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
           >
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
+            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <a
                 href="https://app.gethoneydew.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-gradient-to-r from-purple-500 to-blue-500 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-purple-600 hover:to-blue-600 transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl inline-block"
+                className="bg-[#92C5A7] text-gray-900 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#86b89b] transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl inline-block"
               >
-                Try the AI Agent Free
+                Start Organizing Better
                 <ArrowRight className="w-5 h-5" />
               </a>
             </motion.div>
 
-            <motion.button
-              className="border-2 border-purple-300 text-purple-700 px-8 py-4 rounded-xl font-semibold text-lg hover:border-purple-400 hover:bg-purple-50 transition-all duration-200"
+            <motion.a
+              href="#multimodal-demo"
+              className="border-2 border-[#92C5A7] text-[#2F3C36] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#92C5A7]/10 transition-all duration-200 inline-block"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               See Voice & Image Demo
-            </motion.button>
+            </motion.a>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.9 }}
+            className="inline-flex items-center bg-white/80 px-5 py-3 rounded-full shadow-sm border border-[#E2E8F0] text-sm font-medium text-gray-700"
+          >
+            <img src="/assets/honeydew-heart-icon.svg" alt="Honeydew heart icon" className="w-6 h-6 mr-2" />
+            Trusted by thousands of families every week
           </motion.div>
 
           {/* Hero Visual */}
@@ -136,7 +148,7 @@ const Hero = () => {
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {/* AI Assistant - Primary Feature */}
                     <motion.div
-                      className="md:col-span-2 bg-gradient-to-br from-purple-50 to-blue-50 p-6 rounded-xl border-2 border-purple-200 relative overflow-hidden"
+                      className="md:col-span-2 bg-gradient-to-br from-[#B794F6]/30 via-white to-[#A992FA]/30 p-6 rounded-xl border-2 border-[#B794F6]/40 relative overflow-hidden"
                       animate={{ y: [0, -5, 0] }}
                       transition={{ duration: 2, repeat: Infinity, delay: 0 }}
                     >
@@ -162,7 +174,7 @@ const Hero = () => {
 
                     {/* Integration Features */}
                     <motion.div
-                      className="bg-green-50 p-4 rounded-lg"
+                      className="bg-[#9DC3FF]/30 p-4 rounded-lg border border-[#63B3ED]/40"
                       animate={{ y: [0, -5, 0] }}
                       transition={{ duration: 2, repeat: Infinity, delay: 0.7 }}
                     >
@@ -187,29 +199,29 @@ const Hero = () => {
               </div>
 
               {/* Floating Elements */}
-              <motion.div
-                className="absolute -top-4 -left-4 bg-gradient-to-r from-purple-500 to-blue-500 text-white p-3 rounded-lg shadow-lg"
-                animate={{ rotate: [0, 5, 0], y: [0, -10, 0] }}
+              <motion.img
+                src="/assets/honeydew-heart-icon.svg"
+                alt="Honeydew AI agent"
+                className="absolute -top-4 -left-4 w-16 h-16 drop-shadow-lg"
+                animate={{ rotate: [0, 6, 0], y: [0, -10, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
-              >
-                🤖 AI Agent
-              </motion.div>
+              />
 
-              <motion.div
-                className="absolute -top-4 -right-4 bg-gradient-to-r from-green-500 to-teal-500 text-white p-3 rounded-lg shadow-lg"
-                animate={{ rotate: [0, -5, 0], y: [0, -8, 0] }}
+              <motion.img
+                src="/assets/honeydew-logo-with-wordmark.svg"
+                alt="Honeydew logo"
+                className="absolute -top-6 -right-10 w-28 drop-shadow-lg"
+                animate={{ rotate: [0, -6, 0], y: [0, -8, 0] }}
                 transition={{ duration: 3, repeat: Infinity, delay: 1 }}
-              >
-                🎙️ Voice Input
-              </motion.div>
+              />
 
-              <motion.div
-                className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-orange-500 to-red-500 text-white p-3 rounded-lg shadow-lg"
-                animate={{ rotate: [0, 3, 0], y: [0, 8, 0] }}
+              <motion.img
+                src="/assets/honeydew-heart-green.svg"
+                alt="Honeydew image processing"
+                className="absolute -bottom-6 left-1/2 -translate-x-1/2 w-20 drop-shadow-lg"
+                animate={{ rotate: [0, 4, 0], y: [0, 8, 0] }}
                 transition={{ duration: 3, repeat: Infinity, delay: 2 }}
-              >
-                📸 Image Processing
-              </motion.div>
+              />
             </div>
           </motion.div>
         </div>

@@ -1,0 +1,387 @@
+# Honeydew Website - AI Assistant Instructions
+
+## Project Overview
+This is the Honeydew marketing website - a React/TypeScript SPA built with Vite, Tailwind CSS, and Framer Motion. The site showcases Honeydew, an AI-powered family organization app.
+
+## Content Hopper System 🎯
+
+### What is the Content Hopper?
+A dead-simple content management system where you drop markdown articles in a folder and they automatically get scheduled for publishing every Monday and Thursday.
+
+**Location:** `/blog/` directory structure
+
+### Directory Structure
+```
+/blog/
+  ├── queue/          ← DROP NEW ARTICLES HERE (AI assistants should write articles here)
+  ├── scheduled/      ← Auto-scheduled articles (read-only, managed by system)
+  └── templates/      ← Article templates for consistency
+```
+
+### How to Add Content (For AI Assistants)
+
+**Step 1: Write Article**
+Create a markdown file in `/blog/queue/` with any filename:
+
+```markdown
+---
+title: "Your Article Title"
+description: "Brief description for SEO"
+keywords: "keyword1, keyword2, keyword3"
+category: "Comparison|Guide|Tutorial"
+featured: true|false
+---
+
+# Your Article Title
+
+Your content here in markdown format...
+```
+
+**Note:** Do NOT set `publishDate` - the system auto-assigns the next available Mon/Thu slot.
+
+**Step 2: Run Scheduler**
+```bash
+npm run schedule-content
+```
+
+This command:
+- Reads all files from `/blog/queue/`
+- Assigns next available Mon/Thu publish dates
+- Generates proper slugs
+- Adds missing frontmatter
+- Moves files to `/blog/scheduled/` and `/public/blog/`
+- Sends email notification (if configured)
+- Deletes from queue
+
+**Step 3: Done!**
+Articles are now scheduled and will auto-publish on their assigned dates.
+
+### Email Notifications
+
+Configuration file: `scripts/hopper-config.json`
+
+```json
+{
+  "emailNotifications": {
+    "enabled": true,
+    "recipients": ["pete@gethoneydew.app"],
+    "notifyOn": {
+      "contentScheduled": true,
+      "contentPublished": true,
+      "weeklyDigest": true
+    }
+  }
+}
+```
+
+**What gets emailed:**
+- When content is scheduled (immediate notification)
+- When content goes live (publish date notification)
+- Weekly digest (upcoming publications)
+
+### Article Templates
+
+**Template Location:** `/blog/templates/`
+
+Available templates:
+1. `best-of-template.md` - For "Best [X] Apps" articles
+2. `comparison-template.md` - For "X vs Y" comparisons
+3. `guide-template.md` - For comprehensive guides
+4. `how-to-template.md` - For tutorials
+
+**Usage:**
+```bash
+cp blog/templates/best-of-template.md blog/queue/my-new-article.md
+# Edit the file
+npm run schedule-content
+```
+
+### Viewing Content
+
+**Preview (Hidden):**
+- List: `http://localhost:5173/blog-preview`
+- Individual: `http://localhost:5173/blog-preview/[slug]`
+
+**Published:**
+- List: `http://localhost:5173/blog`
+- Individual: `http://localhost:5173/blog/[slug]`
+
+### Date-Based Auto-Publishing
+
+Articles in `/blog/scheduled/` only appear on the public site if:
+```javascript
+new Date(article.publishDate) <= new Date()
+```
+
+This check happens in:
+- `BlogPreviewPage.tsx` (shows all for preview)
+- Future: `BlogPage.tsx` (shows only published)
+
+---
+
+## Content Strategy
+
+### Current Articles (5 completed)
+1. Best AI Calendar Apps for Families 2025 (Oct 28)
+2. Best Voice-Controlled Family Apps 2025 (Oct 31)
+3. Honeydew vs Cozi Comparison (Nov 4)
+4. Best Family Organization Apps 2025 (Nov 7)
+5. Best Apps for Multi-Family Coordination (Nov 11)
+
+### Planned Articles (15 remaining)
+See: `/LLM_SEO_MASTER_GAMEPLAN.md` for complete strategy
+
+### Content Guidelines
+
+**Every article should include:**
+- ✅ Answer-first format (first 100 words directly answer the query)
+- ✅ Comparison tables (LLMs love citing tables)
+- ✅ Specific metrics (80% cache hit, <50ms latency, etc.)
+- ✅ Real use cases with examples
+- ✅ FAQ section at bottom
+- ✅ Schema markup in frontmatter
+- ✅ TikTok script ideas at end
+- ✅ Internal links to related articles
+- ✅ 3,000-7,000 words (comprehensive)
+
+**SEO Keywords:**
+Target keywords for family organization category:
+- AI family calendar, voice controlled family apps
+- Multi-family coordination, divorced parents app
+- Best family organization apps, family planner
+- Honeydew vs [competitor]
+
+**LLM Optimization:**
+- Use question-based H2/H3 headers
+- Include comparison tables
+- Cite specific technical details
+- Answer common queries directly
+- Link to authoritative sources
+
+---
+
+## Tech Stack
+
+**Core:**
+- React 19 + TypeScript
+- Vite (build tool)
+- React Router (routing)
+- Tailwind CSS v4 (styling)
+- Framer Motion (animations)
+
+**Blog System:**
+- react-markdown (markdown rendering)
+- remark-gfm (GitHub Flavored Markdown)
+- Custom date-based filtering
+
+**Deployment:**
+- Vercel (hosting)
+- Auto-deploy on git push
+
+---
+
+## Key Commands
+
+```bash
+# Development
+npm run dev                    # Start dev server (localhost:5173)
+
+# Content Management
+npm run schedule-content       # Auto-schedule articles from queue
+
+# Build & Deploy
+npm run build                  # Build for production
+git push                       # Auto-deploys to Vercel
+
+# Maintenance
+npm install                    # Install dependencies
+```
+
+---
+
+## File Locations
+
+**Key Files:**
+- `/blog/queue/` - Drop new articles here
+- `/blog/scheduled/` - Auto-scheduled articles
+- `/public/blog/` - Published articles (served by website)
+- `/scripts/schedule-content.js` - Hopper automation
+- `/scripts/hopper-config.json` - Configuration
+
+**React Pages:**
+- `/src/pages/BlogPreviewPage.tsx` - Preview dashboard
+- `/src/pages/BlogPostPreviewPage.tsx` - Individual article preview
+- `/src/App.tsx` - Routing configuration
+
+**Documentation:**
+- `/LLM_SEO_MASTER_GAMEPLAN.md` - Complete SEO strategy
+- `/LLM_SEO_EXECUTION_CHECKLIST.md` - Actionable checklist
+- `/USER_SEARCH_JOURNEY_COMPLETE.md` - All user searches mapped
+- `/CONTENT_HOPPER_GUIDE.md` - Hopper usage guide
+- `/BLOG_PREVIEW_GUIDE.md` - Preview system guide
+
+---
+
+## For Future AI Assistants
+
+### Common Tasks
+
+**Task: Write a new blog article**
+1. Check `/LLM_SEO_MASTER_GAMEPLAN.md` for strategy
+2. Check `/USER_SEARCH_JOURNEY_COMPLETE.md` for target keywords
+3. Write article following existing article format (see `/blog/scheduled/` for examples)
+4. Save to `/blog/queue/[descriptive-filename].md`
+5. Run `npm run schedule-content`
+6. Confirm scheduling worked
+
+**Task: Review scheduled content**
+- Check `/blog/scheduled/` directory
+- Each file has `publishDate` in frontmatter
+- Files auto-publish when `publishDate` arrives
+
+**Task: Bulk content creation**
+1. Write multiple articles
+2. Save all to `/blog/queue/`
+3. Run `npm run schedule-content` once
+4. System schedules all articles across multiple weeks (2 per week)
+
+**Task: Update hopper configuration**
+- Edit `/scripts/hopper-config.json`
+- Change email recipients, publishing days, etc.
+
+### Important Notes
+
+**DO:**
+- ✅ Write articles directly to `/blog/queue/`
+- ✅ Use existing articles as templates for style/format
+- ✅ Include comprehensive frontmatter
+- ✅ Follow LLM optimization guidelines (answer-first, tables, metrics)
+- ✅ Include TikTok scripts at end of articles
+
+**DON'T:**
+- ❌ Manually set `publishDate` (system auto-assigns)
+- ❌ Edit files in `/blog/scheduled/` (managed by system)
+- ❌ Create duplicate slugs
+- ❌ Skip frontmatter (system needs it for SEO)
+
+### Code Style
+
+**This project uses:**
+- TypeScript (strict mode)
+- Functional React components
+- Tailwind for styling (utility-first)
+- Framer Motion for animations
+- ESLint + Prettier (follow existing patterns)
+
+**Naming conventions:**
+- Components: PascalCase (BlogPreviewPage.tsx)
+- Files: kebab-case for content (best-ai-apps-2025.md)
+- Variables: camelCase
+
+---
+
+## Deployment
+
+**Automatic:**
+- Push to `main` branch → Auto-deploys to Vercel
+- No manual deployment needed
+
+**Environment:**
+- Production: https://gethoneydew.app
+- Preview: Vercel generates preview URLs for PRs
+
+---
+
+## SEO & LLM Strategy
+
+**Goal:** Dominate AI search (ChatGPT, Perplexity, Claude, Google AI Overviews) for family organization category
+
+**Strategy:**
+1. Comprehensive content (150+ articles planned)
+2. Answer every search query in user journey (awareness → advocacy)
+3. LLM-optimized formatting (tables, metrics, question-headers)
+4. Schema markup on all content
+5. Internal linking strategy
+6. Backlink building (guest posts, podcasts, press)
+
+**Current Status:**
+- 5 articles written (32,800 words)
+- 15 more articles planned
+- Publishing 2x/week (Mon/Thu)
+- Targeting 30+ high-value keywords
+
+**See:** `/LLM_SEO_MASTER_GAMEPLAN.md` for complete strategy
+
+---
+
+## Troubleshooting
+
+**"Dev server won't start"**
+```bash
+npm install
+npm run dev
+```
+
+**"Articles not appearing in preview"**
+- Check files are in `/public/blog/`
+- Clear browser cache
+- Check browser console for errors
+
+**"Hopper not scheduling"**
+- Check files are in `/blog/queue/` and end with `.md`
+- Run with verbose: `node scripts/schedule-content.js`
+- Check permissions on directories
+
+**"Email notifications not working"**
+- Check `scripts/hopper-config.json` has correct emails
+- Email functionality requires implementation (placeholder ready)
+
+---
+
+## Quick Reference
+
+**Honeydew Product Info (for articles):**
+- AI Agent: 27+ tools
+- Voice: Whisper AI transcription (>95% accuracy)
+- Multi-Family: Unlimited family groups
+- Calendar: Two-way sync with Google/Apple (15-min intervals)
+- Learning: 80% cache hit rate, <500ms cached responses
+- Collaboration: <50ms WebSocket latency
+- OCR: Image processing for handwritten lists
+- Pricing: Free tier; Premium $9.99/mo or $99/yr
+
+**Competitors to Compare:**
+- Cozi (main competitor - simple, no AI, $30/yr)
+- Google Calendar (free, basic AI, not family-focused)
+- TimeTree (calendar-only, no AI, free)
+- OurHome (chore-focused, no AI)
+- Any.do (individual, basic AI)
+- Todoist (power users, not family)
+
+**Honeydew Advantages:**
+1. Only app with advanced AI agent (27+ tools)
+2. Only app with multi-family architecture
+3. Best voice recognition (Whisper AI)
+4. Two-way calendar sync (not one-way)
+5. Knowledge graph learning
+6. Real-time collaboration
+
+---
+
+## Contact & Support
+
+**Owner:** Pete Ghiorse  
+**Email:** pete@gethoneydew.app  
+**Website:** https://gethoneydew.app  
+
+**For AI Assistants:**
+- Follow this .cursorrules file for all tasks
+- Check existing documentation before creating new
+- Maintain consistency with existing code style
+- Ask user for clarification if strategy is unclear
+
+---
+
+**Last Updated:** October 23, 2025
+**Version:** 1.0
+

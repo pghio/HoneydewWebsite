@@ -103,9 +103,9 @@ const BlogListPage = () => {
 
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-br from-[#5DADE2] via-white to-[#F7DC6F]/60">
+      <div className="min-h-screen bg-white">
         {/* Hero Header */}
-        <header className="pt-24 pb-16">
+        <header className="pt-24 pb-16 bg-gradient-to-b from-[#92C5A7]/10 to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -114,18 +114,18 @@ const BlogListPage = () => {
               className="text-center"
             >
               <motion.div
-                className="inline-flex items-center bg-gradient-to-r from-purple-50 to-blue-50 text-purple-700 px-4 py-2 rounded-full text-sm font-medium mb-6"
+                className="inline-flex items-center bg-[#92C5A7]/10 text-[#4A5568] px-4 py-2 rounded-full text-sm font-medium mb-6 border border-[#92C5A7]/20"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.2 }}
               >
-                <Sparkles className="w-4 h-4 mr-2" />
+                <Sparkles className="w-4 h-4 mr-2 text-[#92C5A7]" />
                 Insights on AI & Family Organization
               </motion.div>
               <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-                Honeydew <span className="honeydew-text-gradient">Blog</span>
+                Honeydew <span className="text-[#92C5A7]">Blog</span>
               </h1>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              <p className="text-xl text-[#4A5568] max-w-3xl mx-auto leading-relaxed">
                 Real stories, practical guides, and deep dives into how AI is transforming family life
               </p>
             </motion.div>
@@ -143,7 +143,7 @@ const BlogListPage = () => {
               className="mb-16"
             >
               <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-2">
-                <Sparkles className="w-8 h-8 text-purple-500" />
+                <Sparkles className="w-8 h-8 text-[#92C5A7]" />
                 Featured Stories
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -195,6 +195,18 @@ const ArticleCard = ({ article, index, featured }: ArticleCardProps) => {
     return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
   }
 
+  // Category color mapping based on Honeydew brand guide
+  const getCategoryColor = (category: string) => {
+    const colors: { [key: string]: string } = {
+      'Case Study': '#92C5A7', // Honeydew Green
+      'Comparison': '#9DC3FF', // Light Blue
+      'Guide': '#B794F6', // Purple
+      'Article': '#78E6AF', // Light Mint Green
+      'Tutorial': '#FFD166', // Yellow
+    }
+    return colors[category] || '#92C5A7'
+  }
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -204,19 +216,22 @@ const ArticleCard = ({ article, index, featured }: ArticleCardProps) => {
       className="group"
     >
       <Link to={`/blog/${article.slug}`}>
-        <div className={`h-full bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200 ${featured ? 'ring-2 ring-purple-500' : ''}`}>
+        <div className={`h-full bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border-2 ${featured ? 'border-[#92C5A7]' : 'border-gray-100'}`}>
           {/* Category Badge */}
-          <div className="honeydew-gradient px-6 py-3">
+          <div 
+            className="px-6 py-3"
+            style={{ backgroundColor: getCategoryColor(article.category) }}
+          >
             <span className="text-sm font-bold text-white uppercase tracking-wider">{article.category}</span>
           </div>
 
           {/* Content */}
           <div className="p-6">
-            <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:honeydew-text-gradient transition-all line-clamp-2">
+            <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#92C5A7] transition-all line-clamp-2">
               {article.title}
             </h3>
             
-            <p className="text-gray-600 mb-4 line-clamp-3 leading-relaxed">
+            <p className="text-[#4A5568] mb-4 line-clamp-3 leading-relaxed">
               {article.description}
             </p>
 
@@ -224,14 +239,14 @@ const ArticleCard = ({ article, index, featured }: ArticleCardProps) => {
             <div className="flex items-center justify-between text-sm text-gray-500 mb-4 pb-4 border-b border-gray-100">
               {article.publishDate && (
                 <div className="flex items-center gap-2">
-                  <Calendar className="w-4 h-4 text-purple-500" />
+                  <Calendar className="w-4 h-4 text-[#92C5A7]" />
                   <span>{formatDate(article.publishDate)}</span>
                 </div>
               )}
             </div>
 
             {/* Read More */}
-            <div className="flex items-center gap-2 text-purple-600 font-semibold group-hover:gap-4 transition-all">
+            <div className="flex items-center gap-2 text-[#92C5A7] font-semibold group-hover:gap-4 transition-all">
               <span>Read Article</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </div>

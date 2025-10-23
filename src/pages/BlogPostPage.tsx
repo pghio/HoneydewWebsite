@@ -86,14 +86,14 @@ const BlogPostPage = () => {
         className="min-h-screen bg-white"
       >
         {/* Header */}
-        <header className="bg-gradient-to-r from-purple-500 to-blue-500 text-white py-16">
+        <header className="bg-gradient-to-br from-[#92C5A7] to-[#78E6AF] text-white py-16">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <Link 
-              to="/"
-              className="inline-flex items-center space-x-2 text-white/80 hover:text-white mb-8 transition-colors"
+              to="/blog"
+              className="inline-flex items-center space-x-2 text-white/90 hover:text-white mb-8 transition-colors font-medium"
             >
               <ArrowLeft className="w-4 h-4" />
-              <span>Back to Home</span>
+              <span>Back to Blog</span>
             </Link>
 
             <motion.div
@@ -150,15 +150,15 @@ const BlogPostPage = () => {
               prose-h3:text-2xl prose-h3:mb-4 prose-h3:mt-8 prose-h3:text-gray-800
               prose-h4:text-xl prose-h4:mb-3 prose-h4:mt-6 prose-h4:text-gray-700 prose-h4:font-semibold
               prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-6 prose-p:text-lg
-              prose-a:text-purple-600 prose-a:font-medium prose-a:no-underline hover:prose-a:underline hover:prose-a:text-purple-700
+              prose-a:text-[#92C5A7] prose-a:font-medium prose-a:no-underline hover:prose-a:underline hover:prose-a:text-[#78E6AF]
               prose-strong:text-gray-900 prose-strong:font-bold prose-strong:bg-yellow-50 prose-strong:px-1 prose-strong:rounded
               prose-em:text-gray-600 prose-em:italic
               prose-ul:my-6 prose-ul:space-y-2
               prose-ol:my-6 prose-ol:space-y-2
               prose-li:text-gray-700 prose-li:leading-relaxed prose-li:text-lg
-              prose-li::marker:text-purple-500 prose-li::marker:font-bold
-              prose-blockquote:border-l-4 prose-blockquote:border-purple-500 prose-blockquote:bg-purple-50 prose-blockquote:pl-6 prose-blockquote:py-4 prose-blockquote:italic prose-blockquote:text-gray-700 prose-blockquote:rounded-r-lg prose-blockquote:my-6
-              prose-code:text-purple-600 prose-code:bg-purple-50 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:text-base prose-code:font-mono prose-code:before:content-none prose-code:after:content-none
+              prose-li::marker:text-[#92C5A7] prose-li::marker:font-bold
+              prose-blockquote:border-l-4 prose-blockquote:border-[#92C5A7] prose-blockquote:bg-[#92C5A7]/5 prose-blockquote:pl-6 prose-blockquote:py-4 prose-blockquote:italic prose-blockquote:text-gray-700 prose-blockquote:rounded-r-lg prose-blockquote:my-6
+              prose-code:text-[#92C5A7] prose-code:bg-[#92C5A7]/10 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:text-base prose-code:font-mono prose-code:before:content-none prose-code:after:content-none
               prose-pre:bg-gradient-to-br prose-pre:from-gray-900 prose-pre:to-gray-800 prose-pre:text-gray-100 prose-pre:p-6 prose-pre:rounded-xl prose-pre:overflow-x-auto prose-pre:shadow-lg prose-pre:my-8
               prose-hr:border-gray-200 prose-hr:my-12
               prose-img:rounded-xl prose-img:shadow-2xl prose-img:my-8"
@@ -175,7 +175,7 @@ const BlogPostPage = () => {
                   </div>
                 ),
                 thead: ({node, ...props}) => (
-                  <thead className="bg-gradient-to-r from-purple-500 to-blue-500" {...props} />
+                  <thead className="bg-gradient-to-r from-[#92C5A7] to-[#78E6AF]" {...props} />
                 ),
                 th: ({node, ...props}) => (
                   <th className="px-6 py-4 text-left text-sm font-bold text-white uppercase tracking-wider" {...props} />
@@ -192,7 +192,7 @@ const BlogPostPage = () => {
                 
                 // Enhanced headings
                 h1: ({node, ...props}) => (
-                  <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-6 mt-8" {...props} />
+                  <h1 className="text-4xl font-bold text-[#92C5A7] mb-6 mt-8" {...props} />
                 ),
                 h2: ({node, ...props}) => (
                   <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12 pb-3 border-b-2 border-gray-200" {...props} />
@@ -203,7 +203,7 @@ const BlogPostPage = () => {
                 
                 // Beautiful blockquotes
                 blockquote: ({node, ...props}) => (
-                  <blockquote className="border-l-4 border-purple-500 bg-gradient-to-r from-purple-50 to-blue-50 pl-6 pr-6 py-4 italic text-gray-700 rounded-r-lg my-6 shadow-sm" {...props} />
+                  <blockquote className="border-l-4 border-[#92C5A7] bg-[#92C5A7]/5 pl-6 pr-6 py-4 italic text-gray-700 rounded-r-lg my-6 shadow-sm" {...props} />
                 ),
                 
                 // Styled lists with better spacing
@@ -258,19 +258,19 @@ const BlogPostPage = () => {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.5 }}
-            className="mt-12 bg-gradient-to-r from-purple-500 to-blue-500 rounded-2xl p-8 text-white text-center"
+            className="mt-12 bg-gradient-to-br from-[#92C5A7] to-[#78E6AF] rounded-xl p-8 text-white text-center shadow-lg"
           >
             <h3 className="text-2xl font-bold mb-4">
               Ready to Transform Your Family Organization?
             </h3>
-            <p className="text-lg opacity-90 mb-6">
+            <p className="text-lg opacity-95 mb-6">
               Join thousands of families using Honeydew's AI-powered coordination
             </p>
             <motion.a
               href="https://app.gethoneydew.app/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center bg-white text-purple-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-50 transition-colors"
+              className="inline-flex items-center justify-center bg-white text-[#92C5A7] px-8 py-4 rounded-lg font-bold hover:bg-gray-50 transition-colors shadow-md"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >

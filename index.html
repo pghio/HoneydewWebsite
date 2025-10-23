@@ -2,8 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.honeydew.app/" />
     
     <!-- Enhanced SEO Meta Tags -->
     <title>Honeydew - AI-Powered Family Assistant | Natural Language Organization</title>
@@ -13,18 +16,54 @@
     <!-- Google Site Verification -->
     <meta name="google-site-verification" content="3yDbYBTI_7twBNwJzpvXWCQEiB0rcMkfOjKCldvayrs" />
     
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4X6LYQ296G"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-4X6LYQ296G', {
+        'send_page_view': true,
+        'cookie_flags': 'SameSite=None;Secure'
+      });
+      
+      // Custom event tracking for blog engagement
+      window.trackBlogEvent = function(action, label) {
+        gtag('event', action, {
+          'event_category': 'Blog',
+          'event_label': label
+        });
+      };
+      
+      // Track case study expansions
+      window.trackCaseStudyExpand = function(caseStudyTitle) {
+        gtag('event', 'case_study_expand', {
+          'event_category': 'Engagement',
+          'event_label': caseStudyTitle
+        });
+      };
+      
+      // Track CTA clicks
+      window.trackCTA = function(ctaLocation) {
+        gtag('event', 'cta_click', {
+          'event_category': 'Conversion',
+          'event_label': ctaLocation
+        });
+      };
+    </script>
+    
     <!-- Enhanced Open Graph Tags -->
     <meta property="og:title" content="Honeydew - Your AI-Powered Family Assistant | 27+ AI Tools">
     <meta property="og:description" content="🤖 Just tell Honeydew what you need! AI agent with natural language understanding, voice commands, image processing, and intelligent automation. Type it, say it, or photograph it - handles complex family requests in seconds.">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="/og-image-ai.jpg">
+    <meta property="og:image" content="https://www.honeydew.app/og-image-ai.jpg">
     <meta property="og:url" content="https://www.honeydew.app">
 
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Honeydew - AI-Powered Family Assistant | Natural Language Organization">
     <meta name="twitter:description" content="🤖 Your family's AI assistant understands natural language, voice commands, and even photographs! 27+ AI tools for intelligent family coordination.">
-    <meta name="twitter:image" content="/twitter-card-ai.jpg">
+    <meta name="twitter:image" content="https://www.honeydew.app/twitter-card-ai.jpg">
     
     <!-- Structured Data - FAQ Schema -->
     <script type="application/ld+json">

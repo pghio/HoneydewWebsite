@@ -246,7 +246,12 @@ const BlogCaseStudies = () => {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="group cursor-pointer"
-              onClick={() => setSelectedCase(selectedCase === index ? null : index)}
+              onClick={() => {
+                setSelectedCase(selectedCase === index ? null : index)
+                if (selectedCase !== index && typeof window !== 'undefined' && (window as any).trackCaseStudyExpand) {
+                  (window as any).trackCaseStudyExpand(study.title)
+                }
+              }}
             >
               <div className={`bg-white rounded-2xl p-6 shadow-lg border-2 transition-all duration-300 h-full ${
                 selectedCase === index 
@@ -366,14 +371,22 @@ const BlogCaseStudies = () => {
               These aren't curated success stories—they're real results from families who implemented AI-powered coordination.
               Your results may vary, but the principles work.
             </p>
-            <motion.button
+            <motion.a
+              href="https://app.gethoneydew.app/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-white text-purple-600 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={() => {
+                if (typeof window !== 'undefined' && (window as any).trackCTA) {
+                  (window as any).trackCTA('Case Studies Bottom CTA')
+                }
+              }}
             >
               <span>Try Honeydew Free</span>
               <ArrowRight className="w-5 h-5" />
-            </motion.button>
+            </motion.a>
             <p className="mt-4 text-sm opacity-75">
               No credit card required • See results in your first week • Cancel anytime
             </p>

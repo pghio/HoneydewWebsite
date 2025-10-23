@@ -145,24 +145,110 @@ const BlogPostPage = () => {
             transition={{ delay: 0.3 }}
             className="prose prose-lg prose-slate max-w-none
               prose-headings:font-bold prose-headings:text-gray-900
-              prose-h1:text-4xl prose-h1:mb-6 prose-h1:mt-8
-              prose-h2:text-3xl prose-h2:mb-4 prose-h2:mt-8 prose-h2:pb-2 prose-h2:border-b prose-h2:border-gray-200
-              prose-h3:text-2xl prose-h3:mb-3 prose-h3:mt-6
-              prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-4
-              prose-a:text-primary-600 prose-a:no-underline hover:prose-a:underline
-              prose-strong:text-gray-900 prose-strong:font-semibold
-              prose-ul:my-4 prose-ul:list-disc prose-ul:pl-6
-              prose-ol:my-4 prose-ol:list-decimal prose-ol:pl-6
-              prose-li:text-gray-700 prose-li:my-2
-              prose-blockquote:border-l-4 prose-blockquote:border-primary-500 prose-blockquote:pl-4 prose-blockquote:italic prose-blockquote:text-gray-600
-              prose-code:text-primary-600 prose-code:bg-gray-100 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-code:text-sm prose-code:before:content-none prose-code:after:content-none
-              prose-pre:bg-gray-900 prose-pre:text-gray-100 prose-pre:p-4 prose-pre:rounded-lg prose-pre:overflow-x-auto
-              prose-table:w-full prose-table:border-collapse prose-table:my-6
-              prose-th:bg-gray-100 prose-th:border prose-th:border-gray-300 prose-th:px-4 prose-th:py-2 prose-th:text-left prose-th:font-semibold
-              prose-td:border prose-td:border-gray-300 prose-td:px-4 prose-td:py-2
-              prose-img:rounded-lg prose-img:shadow-lg prose-img:my-6"
+              prose-h1:text-4xl prose-h1:mb-6 prose-h1:mt-8 prose-h1:bg-gradient-to-r prose-h1:from-purple-600 prose-h1:to-blue-600 prose-h1:bg-clip-text prose-h1:text-transparent
+              prose-h2:text-3xl prose-h2:mb-6 prose-h2:mt-12 prose-h2:pb-3 prose-h2:border-b-2 prose-h2:border-gradient-to-r prose-h2:from-purple-200 prose-h2:to-blue-200
+              prose-h3:text-2xl prose-h3:mb-4 prose-h3:mt-8 prose-h3:text-gray-800
+              prose-h4:text-xl prose-h4:mb-3 prose-h4:mt-6 prose-h4:text-gray-700 prose-h4:font-semibold
+              prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-6 prose-p:text-lg
+              prose-a:text-purple-600 prose-a:font-medium prose-a:no-underline hover:prose-a:underline hover:prose-a:text-purple-700
+              prose-strong:text-gray-900 prose-strong:font-bold prose-strong:bg-yellow-50 prose-strong:px-1 prose-strong:rounded
+              prose-em:text-gray-600 prose-em:italic
+              prose-ul:my-6 prose-ul:space-y-2
+              prose-ol:my-6 prose-ol:space-y-2
+              prose-li:text-gray-700 prose-li:leading-relaxed prose-li:text-lg
+              prose-li::marker:text-purple-500 prose-li::marker:font-bold
+              prose-blockquote:border-l-4 prose-blockquote:border-purple-500 prose-blockquote:bg-purple-50 prose-blockquote:pl-6 prose-blockquote:py-4 prose-blockquote:italic prose-blockquote:text-gray-700 prose-blockquote:rounded-r-lg prose-blockquote:my-6
+              prose-code:text-purple-600 prose-code:bg-purple-50 prose-code:px-2 prose-code:py-1 prose-code:rounded prose-code:text-base prose-code:font-mono prose-code:before:content-none prose-code:after:content-none
+              prose-pre:bg-gradient-to-br prose-pre:from-gray-900 prose-pre:to-gray-800 prose-pre:text-gray-100 prose-pre:p-6 prose-pre:rounded-xl prose-pre:overflow-x-auto prose-pre:shadow-lg prose-pre:my-8
+              prose-hr:border-gray-200 prose-hr:my-12
+              prose-img:rounded-xl prose-img:shadow-2xl prose-img:my-8"
           >
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            <ReactMarkdown 
+              remarkPlugins={[remarkGfm]}
+              components={{
+                // Beautiful gradient tables
+                table: ({node, ...props}) => (
+                  <div className="my-8 overflow-hidden rounded-xl shadow-lg border border-gray-200">
+                    <div className="overflow-x-auto">
+                      <table className="min-w-full divide-y divide-gray-200" {...props} />
+                    </div>
+                  </div>
+                ),
+                thead: ({node, ...props}) => (
+                  <thead className="bg-gradient-to-r from-purple-500 to-blue-500" {...props} />
+                ),
+                th: ({node, ...props}) => (
+                  <th className="px-6 py-4 text-left text-sm font-bold text-white uppercase tracking-wider" {...props} />
+                ),
+                tbody: ({node, ...props}) => (
+                  <tbody className="bg-white divide-y divide-gray-100" {...props} />
+                ),
+                tr: ({node, ...props}) => (
+                  <tr className="hover:bg-gray-50 transition-colors" {...props} />
+                ),
+                td: ({node, ...props}) => (
+                  <td className="px-6 py-4 text-gray-700 text-base" {...props} />
+                ),
+                
+                // Enhanced headings
+                h1: ({node, ...props}) => (
+                  <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-6 mt-8" {...props} />
+                ),
+                h2: ({node, ...props}) => (
+                  <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12 pb-3 border-b-2 border-gray-200" {...props} />
+                ),
+                h3: ({node, ...props}) => (
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4 mt-8" {...props} />
+                ),
+                
+                // Beautiful blockquotes
+                blockquote: ({node, ...props}) => (
+                  <blockquote className="border-l-4 border-purple-500 bg-gradient-to-r from-purple-50 to-blue-50 pl-6 pr-6 py-4 italic text-gray-700 rounded-r-lg my-6 shadow-sm" {...props} />
+                ),
+                
+                // Styled lists with better spacing
+                ul: ({node, ...props}) => (
+                  <ul className="space-y-3 my-6 ml-6" {...props} />
+                ),
+                ol: ({node, ...props}) => (
+                  <ol className="space-y-3 my-6 ml-6" {...props} />
+                ),
+                li: ({node, ...props}) => (
+                  <li className="text-gray-700 leading-relaxed text-lg pl-2" {...props} />
+                ),
+                
+                // Enhanced paragraphs with emoji highlighting
+                p: ({node, children, ...props}) => {
+                  const content = String(children)
+                  // Highlight special markers
+                  if (content.includes('✅')) {
+                    return (
+                      <div className="flex items-start gap-3 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg my-4">
+                        <span className="text-green-500 text-xl flex-shrink-0 mt-1">✅</span>
+                        <p className="text-gray-700 flex-1 m-0" {...props}>{content.replace('✅', '').trim()}</p>
+                      </div>
+                    )
+                  }
+                  if (content.includes('❌')) {
+                    return (
+                      <div className="flex items-start gap-3 p-4 bg-red-50 border-l-4 border-red-500 rounded-r-lg my-4">
+                        <span className="text-red-500 text-xl flex-shrink-0 mt-1">❌</span>
+                        <p className="text-gray-700 flex-1 m-0" {...props}>{content.replace('❌', '').trim()}</p>
+                      </div>
+                    )
+                  }
+                  if (content.includes('⚠️')) {
+                    return (
+                      <div className="flex items-start gap-3 p-4 bg-yellow-50 border-l-4 border-yellow-500 rounded-r-lg my-4">
+                        <span className="text-yellow-500 text-xl flex-shrink-0 mt-1">⚠️</span>
+                        <p className="text-gray-700 flex-1 m-0" {...props}>{content.replace('⚠️', '').trim()}</p>
+                      </div>
+                    )
+                  }
+                  return <p className="text-gray-700 leading-relaxed mb-6 text-lg" {...props}>{children}</p>
+                },
+              }}
+            >
               {content}
             </ReactMarkdown>
           </motion.div>

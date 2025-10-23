@@ -1,0 +1,15 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grad9)"/>
+  <text x="600" y="260" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="white" text-anchor="middle">Honeydew vs TimeTree</text>
+  <text x="600" y="330" font-family="Arial, sans-serif" font-size="36" fill="rgba(255,255,255,0.9)" text-anchor="middle">Family Calendar Comparison</text>
+  <rect x="250" y="400" width="220" height="160" rx="10" fill="rgba(255,255,255,0.2)"/>
+  <rect x="730" y="400" width="220" height="160" rx="10" fill="rgba(255,255,255,0.2)"/>
+  <text x="360" y="490" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">Honeydew</text>
+  <text x="840" y="490" font-family="Arial, sans-serif" font-size="28" fill="white" text-anchor="middle">TimeTree</text>
+</svg>

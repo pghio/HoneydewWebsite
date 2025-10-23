@@ -1,0 +1,14 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="trip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#trip)"/>
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="white" text-anchor="middle">Plan Family Trips</text>
+  <text x="600" y="360" font-family="Arial, sans-serif" font-size="40" fill="rgba(255,255,255,0.9)" text-anchor="middle">With Honeydew AI</text>
+  <circle cx="300" cy="500" r="40" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="600" cy="480" r="50" fill="rgba(255,255,255,0.25)"/>
+  <circle cx="900" cy="500" r="40" fill="rgba(255,255,255,0.2)"/>
+</svg>

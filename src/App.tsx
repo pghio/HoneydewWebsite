@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import HomePage from './pages/HomePage'
 import AppPage from './pages/AppPage'
 import BlogPostPage from './pages/BlogPostPage'
+import BlogListPage from './pages/BlogListPage'
 import BlogPreviewPage from './pages/BlogPreviewPage'
 import BlogPostPreviewPage from './pages/BlogPostPreviewPage'
 import SupportPage from './pages/SupportPage'
@@ -53,6 +54,7 @@ function AppContent() {
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<HomePage />} />
           <Route path="/app" element={<AppPage />} />
+          <Route path="/blog" element={<BlogListPage />} />
           <Route path="/blog/:slug" element={<BlogPostPage />} />
           <Route path="/blog-preview" element={<BlogPreviewPage />} />
           <Route path="/blog-preview/:slug" element={<BlogPostPreviewPage />} />

@@ -1,5 +1,6 @@
 ---
 title: "The Invisible Weight: Understanding and Solving Family Mental Load"
+slug: "mental-load"
 description: "How we reduced family coordination time by 86% and eliminated missed appointments with AI-powered coordination"
 publishDate: "2025-10-15"
 author: "Pete Ghiorse"

@@ -1,5 +1,6 @@
 ---
 title: "AI-Powered Meal Planning: From 90 Minutes to 22 Minutes Weekly"
+slug: "meal-planning"
 description: "How AI reduced meal planning time by 76% while improving nutrition and reducing food waste by 42%"
 publishDate: "2025-10-21"
 author: "Pete Ghiorse"

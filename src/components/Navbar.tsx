@@ -60,17 +60,19 @@ const Navbar = () => {
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: 10 }}
-                  className="absolute top-full left-0 mt-2 w-72 bg-white rounded-lg shadow-xl border border-gray-100 py-2"
+                  className="absolute top-full left-0 pt-2"
                 >
-                  {whyHoneydewLinks.map((link, index) => (
-                    <a
-                      key={index}
-                      href={link.href}
-                      className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-primary-600 transition-colors"
-                    >
-                      {link.title}
-                    </a>
-                  ))}
+                  <div className="w-72 bg-white rounded-lg shadow-xl border border-gray-100 py-2">
+                    {whyHoneydewLinks.map((link, index) => (
+                      <a
+                        key={index}
+                        href={link.href}
+                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-primary-600 transition-colors"
+                      >
+                        {link.title}
+                      </a>
+                    ))}
+                  </div>
                 </motion.div>
               )}
             </div>

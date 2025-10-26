@@ -92,17 +92,20 @@ const useCases: UseCase[] = [
 
 const UseCaseShowcase = () => {
   const [activeUseCase, setActiveUseCase] = useState(0)
+  const [isPaused, setIsPaused] = useState(false)
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
-  // Auto-rotate through use cases
+  // Auto-rotate through use cases with pause capability
   useEffect(() => {
+    if (isPaused) return
+    
     const interval = setInterval(() => {
       setActiveUseCase((prev) => (prev + 1) % useCases.length)
-    }, 4000)
+    }, 7000) // Increased from 4000 to 7000 (7 seconds)
     
     return () => clearInterval(interval)
-  }, [])
+  }, [isPaused])
 
   const currentUseCase = useCases[activeUseCase]
 
@@ -134,7 +137,11 @@ const UseCaseShowcase = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div 
+          className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+          onMouseEnter={() => setIsPaused(true)}
+          onMouseLeave={() => setIsPaused(false)}
+        >
           {/* Use Case Navigation */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}

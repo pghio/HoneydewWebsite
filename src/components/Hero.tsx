@@ -20,7 +20,7 @@ const Hero = () => {
               transition={{ delay: 0.2 }}
             >
               <Sparkles className="w-4 h-4 mr-2" />
-              🤖 Your AI-Powered Family Assistant
+              Your AI-Powered Family Assistant
             </motion.div>
 
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
@@ -36,12 +36,12 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg md:text-xl font-semibold text-gray-700 mb-4">
-              The family organizer that thinks.
+              AI that actually plans, not just stores dates.
             </p>
 
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
-              In just three seconds Honeydew turns one sentence into 25-40 organized items, with calendars, smart lists,
-              and reminders linked automatically. Type it, say it, or photograph it—our AI understands your family and keeps everyone in sync.
+              Say "plan camping trip" and get a complete packing list with calendar event—in 3 seconds. 
+              Type it, speak it, or photograph it. Honeydew handles the details so you can focus on family time.
             </p>
 
             {/* Interactive Demo */}
@@ -102,7 +102,7 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 className="bg-[#92C5A7] text-gray-900 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#86b89b] transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl inline-block"
               >
-                Start Organizing Better
+                Try Honeydew Free
                 <ArrowRight className="w-5 h-5" />
               </a>
             </motion.div>
@@ -124,7 +124,7 @@ const Hero = () => {
             className="inline-flex items-center bg-white/80 px-5 py-3 rounded-full shadow-sm border border-[#E2E8F0] text-sm font-medium text-gray-700"
           >
             <img src="/assets/honeydew-heart-icon.svg" alt="Honeydew heart icon" className="w-6 h-6 mr-2" />
-            Trusted by thousands of families every week
+            2,400+ families organized this week
           </motion.div>
 
           {/* Hero Visual */}

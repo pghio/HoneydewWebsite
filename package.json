@@ -9,6 +9,7 @@
     "start": "npx serve dist -p $PORT",
     "preview": "vite preview",
     "schedule-content": "node scripts/schedule-content.js",
+    "generate-sitemap": "node scripts/generate-sitemap.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -26,6 +27,7 @@
     "autoprefixer": "^10.4.21",
     "drizzle-zod": "^0.8.2",
     "framer-motion": "^12.19.1",
+    "googleapis": "^133.0.0",
     "lucide-react": "^0.523.0",
     "postcss": "^8.5.6",
     "react": "^19.1.0",

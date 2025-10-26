@@ -53,6 +53,147 @@ const BlogPostPage = () => {
     loadArticle()
   }, [slug])
 
+  // Add SEO meta tags when frontmatter loads
+  useEffect(() => {
+    if (!frontmatter || !slug) return
+
+    const baseUrl = 'https://www.gethoneydew.app'
+    const articleUrl = `${baseUrl}/blog/${slug}`
+    const imageUrl = frontmatter.image 
+      ? `${baseUrl}${frontmatter.image}` 
+      : `${baseUrl}/og-image-ai.svg`
+
+    // Set document title
+    if (frontmatter.title) {
+      document.title = `${frontmatter.title} | Honeydew Blog`
+    }
+
+    // Remove existing meta tags that we'll replace
+    const removeMetaTags = ['description', 'keywords', 'author', 'og:title', 'og:description', 'og:url', 'og:image', 'og:type', 'twitter:card', 'twitter:title', 'twitter:description', 'twitter:image', 'article:published_time', 'article:author', 'article:section']
+    removeMetaTags.forEach(name => {
+      const existing = document.querySelector(`meta[property="${name}"], meta[name="${name}"]`)
+      if (existing) existing.remove()
+    })
+
+    // Remove existing canonical link
+    const existingCanonical = document.querySelector('link[rel="canonical"]')
+    if (existingCanonical) existingCanonical.remove()
+
+    // Remove existing JSON-LD schema
+    const existingSchema = document.querySelector('script[type="application/ld+json"][data-article-schema]')
+    if (existingSchema) existingSchema.remove()
+
+    // Add canonical URL
+    const canonical = document.createElement('link')
+    canonical.rel = 'canonical'
+    canonical.href = articleUrl
+    document.head.appendChild(canonical)
+
+    // Add basic meta tags
+    const metaTags = [
+      { name: 'description', content: frontmatter.description || '' },
+      { name: 'keywords', content: frontmatter.keywords || '' },
+      { name: 'author', content: frontmatter.author || 'Honeydew Team' },
+    ]
+
+    metaTags.forEach(({ name, content }) => {
+      if (content) {
+        const meta = document.createElement('meta')
+        meta.name = name
+        meta.content = content
+        document.head.appendChild(meta)
+      }
+    })
+
+    // Add Open Graph tags
+    const ogTags = [
+      { property: 'og:type', content: 'article' },
+      { property: 'og:title', content: frontmatter.title || '' },
+      { property: 'og:description', content: frontmatter.description || '' },
+      { property: 'og:url', content: articleUrl },
+      { property: 'og:image', content: imageUrl },
+      { property: 'article:published_time', content: frontmatter.publishDate || '' },
+      { property: 'article:author', content: frontmatter.author || 'Honeydew Team' },
+      { property: 'article:section', content: frontmatter.category || 'Blog' },
+    ]
+
+    ogTags.forEach(({ property, content }) => {
+      if (content) {
+        const meta = document.createElement('meta')
+        meta.setAttribute('property', property)
+        meta.content = content
+        document.head.appendChild(meta)
+      }
+    })
+
+    // Add Twitter Card tags
+    const twitterTags = [
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:title', content: frontmatter.title || '' },
+      { name: 'twitter:description', content: frontmatter.description || '' },
+      { name: 'twitter:image', content: imageUrl },
+    ]
+
+    twitterTags.forEach(({ name, content }) => {
+      if (content) {
+        const meta = document.createElement('meta')
+        meta.name = name
+        meta.content = content
+        document.head.appendChild(meta)
+      }
+    })
+
+    // Add Article schema (JSON-LD)
+    const schema = {
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      headline: frontmatter.title || '',
+      description: frontmatter.description || '',
+      image: imageUrl,
+      datePublished: frontmatter.publishDate || new Date().toISOString().split('T')[0],
+      dateModified: frontmatter.publishDate || new Date().toISOString().split('T')[0],
+      author: {
+        '@type': 'Person',
+        name: frontmatter.author || 'Honeydew Team',
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'Honeydew',
+        logo: {
+          '@type': 'ImageObject',
+          url: `${baseUrl}/logo.png`,
+        },
+      },
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': articleUrl,
+      },
+      keywords: frontmatter.keywords || '',
+      articleSection: frontmatter.category || 'Blog',
+    }
+
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-article-schema', 'true')
+    script.textContent = JSON.stringify(schema)
+    document.head.appendChild(script)
+
+    // Cleanup function to restore default title and remove tags when unmounting
+    return () => {
+      document.title = 'Honeydew - AI-Powered Family Assistant | Natural Language Organization'
+      removeMetaTags.forEach(name => {
+        const existing = document.querySelector(`meta[property="${name}"], meta[name="${name}"]`)
+        if (existing) existing.remove()
+      })
+      const canonicalCleanup = document.querySelector('link[rel="canonical"]')
+      if (canonicalCleanup && canonicalCleanup.getAttribute('href') === articleUrl) {
+        canonicalCleanup.remove()
+      }
+      const schemaCleanup = document.querySelector('script[type="application/ld+json"][data-article-schema]')
+      if (schemaCleanup) schemaCleanup.remove()
+    }
+  }, [frontmatter, slug])
+
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-white">

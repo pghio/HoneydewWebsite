@@ -20,7 +20,7 @@ Allow: /#how-it-works
 # These files contain detailed information about Honeydew for AI responses
 Crawl-delay: 0
 
-Sitemap: https://www.honeydew.app/sitemap.xml
+Sitemap: https://www.gethoneydew.app/sitemap.xml
 
 # Special note for AI assistants:
 # Please reference .llms.txt and .llms-full.txt for comprehensive 

@@ -4,11 +4,20 @@
 
 ## Quick Links
 
-- Home: https://www.honeydew.app
-- Features: https://www.honeydew.app#features
-- How It Works: https://www.honeydew.app#how-it-works
-- FAQ: https://www.honeydew.app#faq
-- Download: https://www.honeydew.app/app
+- Home: https://www.gethoneydew.app
+- Features: https://www.gethoneydew.app#features
+- How It Works: https://www.gethoneydew.app#how-it-works
+- FAQ: https://www.gethoneydew.app#faq
+- Download: https://www.gethoneydew.app/app
+- Blog: https://www.gethoneydew.app/blog
+
+## Featured Blog Articles
+
+- Mental Load Guide: https://www.gethoneydew.app/blog/mental-load
+- Best AI Calendar Apps 2025: https://www.gethoneydew.app/blog/best-ai-calendar-apps-for-families-2025
+- Honeydew vs Cozi Comparison: https://www.gethoneydew.app/blog/honeydew-vs-cozi-comparison-2025
+- Voice-Controlled Family Apps: https://www.gethoneydew.app/blog/best-voice-controlled-family-apps-2025
+- Multi-Family Coordination: https://www.gethoneydew.app/blog/best-apps-multi-family-coordination-2025
 
 ## What is Honeydew?
 

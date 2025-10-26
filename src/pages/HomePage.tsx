@@ -2,6 +2,7 @@ import Hero from '../components/Hero'
 import MultimodalDemo from '../components/MultimodalDemo'
 import UseCaseShowcase from '../components/UseCaseShowcase'
 import Features from '../components/Features'
+import Pricing from '../components/Pricing'
 import BlogCaseStudies from '../components/BlogCaseStudies'
 import HowItWorks from '../components/HowItWorks'
 import CompetitorComparison from '../components/CompetitorComparison'
@@ -16,6 +17,7 @@ const HomePage = () => {
       <MultimodalDemo />
       <UseCaseShowcase />
       <Features />
+      <Pricing />
       <BlogCaseStudies />
       <HowItWorks />
       <CompetitorComparison />

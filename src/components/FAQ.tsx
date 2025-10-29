@@ -72,6 +72,13 @@ const faqs = [
     icon: Heart,
     color: 'text-teal-600',
     bgColor: 'bg-teal-50'
+  },
+  {
+    question: "How much does Honeydew cost?",
+    answer: "Honeydew offers a free tier to get started. Premium features unlock unlimited AI planning, advanced family coordination, and multi-family support for $9.99/month or $99/year (save 17%). That's less than the cost of a Skylight Calendar ($300+) or hiring someone to organize your life, and you get AI intelligence that actually saves you 3-5 hours per week.",
+    icon: Lightbulb,
+    color: 'text-emerald-600',
+    bgColor: 'bg-emerald-50'
   }
 ]
 

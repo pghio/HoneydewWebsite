@@ -18,70 +18,30 @@ const BlogListPage = () => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    // Fetch articles from public/blog directory
+    // Fetch articles from blog manifest (auto-generated during build)
     const fetchArticles = async () => {
-      const articleSlugs = [
-        'mental-load',
-        'multi-generational',
-        'meal-planning',
-        'activity-coordination',
-        'household-management',
-        'best-ai-calendar-apps-for-families-2025',
-        'best-voice-controlled-family-apps-2025',
-        'honeydew-vs-cozi-comparison-2025',
-        'best-family-organization-apps-2025',
-        'best-apps-multi-family-coordination-2025',
-        'how-ai-transforms-family-organization',
-        'how-honeydew-ai-agent-works',
-        'voice-input-whisper-ai-guide',
-      ]
-
-      const loadedArticles: Article[] = []
-
-      for (const slug of articleSlugs) {
-        try {
-          const response = await fetch(`/blog/${slug}.md`)
-          if (response.ok) {
-            const text = await response.text()
-            const match = text.match(/^---\n([\s\S]*?)\n---/)
-            if (match) {
-              const frontmatterText = match[1]
-              const fm: any = {}
-              frontmatterText.split('\n').forEach(line => {
-                const [key, ...valueParts] = line.split(':')
-                if (key && valueParts.length) {
-                  const value = valueParts.join(':').trim().replace(/^["']|["']$/g, '')
-                  fm[key.trim()] = value
-                }
-              })
-
-              // Only include published articles (current or past date)
-              if (!fm.publishDate || new Date(fm.publishDate) <= new Date()) {
-                loadedArticles.push({
-                  slug,
-                  title: fm.title || slug,
-                  description: fm.description || '',
-                  publishDate: fm.publishDate || '',
-                  category: fm.category || 'Article',
-                  featured: fm.featured === 'true' || fm.featured === true,
-                })
-              }
-            }
-          }
-        } catch (error) {
-          console.error(`Error loading ${slug}:`, error)
+      try {
+        const response = await fetch('/blog-manifest.json')
+        if (!response.ok) {
+          throw new Error('Manifest not found')
         }
+        
+        const manifest = await response.json()
+        
+        // Filter to only published articles (current or past date)
+        const published = manifest.articles.filter((article: Article) => {
+          if (!article.publishDate) return true
+          return new Date(article.publishDate) <= new Date()
+        })
+        
+        setArticles(published)
+      } catch (error) {
+        console.error('Error loading blog manifest:', error)
+        // Fallback: manifest not found, site will show no articles
+        // To fix: run `npm run generate-blog-manifest`
+      } finally {
+        setLoading(false)
       }
-
-      // Sort by date (newest first)
-      loadedArticles.sort((a, b) => {
-        const dateA = new Date(a.publishDate || 0)
-        const dateB = new Date(b.publishDate || 0)
-        return dateB.getTime() - dateA.getTime()
-      })
-
-      setArticles(loadedArticles)
-      setLoading(false)
     }
 
     fetchArticles()

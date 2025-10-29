@@ -166,6 +166,16 @@ const BlogPostPreviewPage = () => {
                   }
                   return <p {...props}>{children}</p>
                 },
+                
+                // Images with proper alt text and lazy loading
+                img: ({node, ...props}) => (
+                  <img 
+                    {...props} 
+                    alt={props.alt || 'Blog image'} 
+                    loading="lazy"
+                    className="rounded-xl shadow-lg w-full"
+                  />
+                ),
               }}
             >
               {content}

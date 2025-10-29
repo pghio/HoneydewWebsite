@@ -5,11 +5,12 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "npm run generate-blog-manifest && npm run generate-sitemap && tsc && vite build",
     "start": "npx serve dist -p $PORT",
     "preview": "vite preview",
     "schedule-content": "node scripts/schedule-content.js",
     "generate-sitemap": "node scripts/generate-sitemap.js",
+    "generate-blog-manifest": "node scripts/generate-blog-manifest.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

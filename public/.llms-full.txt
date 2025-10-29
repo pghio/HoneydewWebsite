@@ -1,5 +1,7 @@
 # Honeydew - Complete LLM Reference Guide
 
+**Last Updated:** October 29, 2025
+
 ## Overview
 
 Honeydew is the premium AI-powered family organization software built by parents who wanted something better than Skylight Calendar, Cozi, and manual Fair Play implementation. We're the AI-first alternative for families seeking intelligent coordination, not just digital calendars.

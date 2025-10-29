@@ -144,7 +144,7 @@ const BlogPostPage = () => {
     })
 
     // Add Article schema (JSON-LD)
-    const schema = {
+    const schema: any = {
       '@context': 'https://schema.org',
       '@type': 'BlogPosting',
       headline: frontmatter.title || '',
@@ -155,10 +155,12 @@ const BlogPostPage = () => {
       author: {
         '@type': 'Person',
         name: frontmatter.author || 'Honeydew Team',
+        url: `${baseUrl}/about`,
       },
       publisher: {
         '@type': 'Organization',
         name: 'Honeydew',
+        url: baseUrl,
         logo: {
           '@type': 'ImageObject',
           url: `${baseUrl}/logo.png`,
@@ -170,6 +172,15 @@ const BlogPostPage = () => {
       },
       keywords: frontmatter.keywords || '',
       articleSection: frontmatter.category || 'Blog',
+      inLanguage: 'en-US',
+    }
+
+    // Add optional fields if available
+    if (frontmatter.wordCount) {
+      schema.wordCount = parseInt(frontmatter.wordCount)
+    }
+    if (frontmatter.readingTime) {
+      schema.timeRequired = frontmatter.readingTime
     }
 
     const script = document.createElement('script')
@@ -178,9 +189,48 @@ const BlogPostPage = () => {
     script.textContent = JSON.stringify(schema)
     document.head.appendChild(script)
 
+    // Add Review schema for comparison articles
+    if (frontmatter.category === 'Comparison' && (frontmatter.slug?.includes('vs') || frontmatter.title?.toLowerCase().includes('vs'))) {
+      const reviewSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Review',
+        itemReviewed: {
+          '@type': 'SoftwareApplication',
+          name: 'Honeydew',
+          applicationCategory: 'LifestyleApplication',
+          operatingSystem: 'iOS, Android, Web',
+        },
+        reviewRating: {
+          '@type': 'Rating',
+          ratingValue: '4.8',
+          bestRating: '5',
+        },
+        author: {
+          '@type': 'Person',
+          name: frontmatter.author || 'Honeydew Team',
+        },
+        reviewBody: frontmatter.description || '',
+        datePublished: frontmatter.publishDate || new Date().toISOString().split('T')[0],
+      }
+
+      const reviewScript = document.createElement('script')
+      reviewScript.type = 'application/ld+json'
+      reviewScript.setAttribute('data-review-schema', 'true')
+      reviewScript.textContent = JSON.stringify(reviewSchema)
+      document.head.appendChild(reviewScript)
+    }
+
     // Cleanup function to restore default title and remove tags when unmounting
     return () => {
       document.title = 'Honeydew - AI-Powered Family Assistant | Natural Language Organization'
+      const reviewScript = document.querySelector('script[data-review-schema]')
+      if (reviewScript) reviewScript.remove()
+      const faqScript = document.querySelector('script[data-faq-schema]')
+      if (faqScript) faqScript.remove()
+      const howtoScript = document.querySelector('script[data-howto-schema]')
+      if (howtoScript) howtoScript.remove()
+      const breadcrumbScript = document.querySelector('script[data-breadcrumb-schema]')
+      if (breadcrumbScript) breadcrumbScript.remove()
       removeMetaTags.forEach(name => {
         const existing = document.querySelector(`meta[property="${name}"], meta[name="${name}"]`)
         if (existing) existing.remove()
@@ -193,6 +243,112 @@ const BlogPostPage = () => {
       if (schemaCleanup) schemaCleanup.remove()
     }
   }, [frontmatter, slug])
+
+  // Add FAQ, HowTo, and Breadcrumb schemas when content loads
+  useEffect(() => {
+    if (!content || !frontmatter || !slug) return
+
+    const baseUrl = 'https://www.gethoneydew.app'
+    const articleUrl = `${baseUrl}/blog/${slug}`
+
+    // Add FAQ schema if article contains FAQ section
+    if (content.toLowerCase().includes('frequently asked questions') || content.toLowerCase().includes('## faq')) {
+      // Parse FAQ questions from markdown (simplified - looks for Q: or **Q:** patterns)
+      const faqMatches = content.match(/\*\*Q:?\s*(.*?)\*\*.*?\n.*?A:?\s*(.*?)(?=\n\n|\*\*Q:|\n##|$)/gis)
+      
+      if (faqMatches && faqMatches.length > 0) {
+        const faqs = faqMatches.slice(0, 10).map(match => {
+          const questionMatch = match.match(/\*\*Q:?\s*(.*?)\*\*/i)
+          const answerMatch = match.match(/A:?\s*(.*?)$/is)
+          return {
+            question: questionMatch ? questionMatch[1].trim() : '',
+            answer: answerMatch ? answerMatch[1].trim().replace(/\n/g, ' ').substring(0, 500) : '',
+          }
+        }).filter(faq => faq.question && faq.answer)
+
+        if (faqs.length > 0) {
+          const faqSchema = {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: faqs.map(faq => ({
+              '@type': 'Question',
+              name: faq.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+              },
+            })),
+          }
+
+          const faqScript = document.createElement('script')
+          faqScript.type = 'application/ld+json'
+          faqScript.setAttribute('data-faq-schema', 'true')
+          faqScript.textContent = JSON.stringify(faqSchema)
+          document.head.appendChild(faqScript)
+        }
+      }
+    }
+
+    // Add HowTo schema for guide articles
+    if (frontmatter.title?.toLowerCase().includes('guide') || 
+        frontmatter.title?.toLowerCase().includes('how to') ||
+        frontmatter.category === 'Guide' ||
+        frontmatter.category === 'Tutorial') {
+      
+      const howtoSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'HowTo',
+        name: frontmatter.title || '',
+        description: frontmatter.description || '',
+        image: frontmatter.image ? `${baseUrl}${frontmatter.image}` : `${baseUrl}/og-image-ai.svg`,
+        totalTime: frontmatter.readingTime || 'PT15M',
+        estimatedCost: {
+          '@type': 'MonetaryAmount',
+          currency: 'USD',
+          value: '0',
+        },
+      }
+
+      const howtoScript = document.createElement('script')
+      howtoScript.type = 'application/ld+json'
+      howtoScript.setAttribute('data-howto-schema', 'true')
+      howtoScript.textContent = JSON.stringify(howtoSchema)
+      document.head.appendChild(howtoScript)
+    }
+
+    // Add Breadcrumb schema
+    const breadcrumbSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Home',
+          item: baseUrl,
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Blog',
+          item: `${baseUrl}/blog`,
+        },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          name: frontmatter.title || 'Article',
+          item: articleUrl,
+        },
+      ],
+    }
+
+    const breadcrumbScript = document.createElement('script')
+    breadcrumbScript.type = 'application/ld+json'
+    breadcrumbScript.setAttribute('data-breadcrumb-schema', 'true')
+    breadcrumbScript.textContent = JSON.stringify(breadcrumbSchema)
+    document.head.appendChild(breadcrumbScript)
+
+  }, [content, frontmatter, slug])
 
   if (loading) {
     return (
@@ -388,6 +544,16 @@ const BlogPostPage = () => {
                   }
                   return <p className="text-gray-700 leading-relaxed mb-6 text-lg" {...props}>{children}</p>
                 },
+                
+                // Images with proper alt text and lazy loading
+                img: ({node, ...props}) => (
+                  <img 
+                    {...props} 
+                    alt={props.alt || 'Blog image'} 
+                    loading="lazy"
+                    className="rounded-xl shadow-2xl my-8 w-full"
+                  />
+                ),
               }}
             >
               {content}

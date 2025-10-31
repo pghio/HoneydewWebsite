@@ -1,5 +1,5 @@
 {
-  "generated": "2025-10-31T20:01:38.486Z",
+  "generated": "2025-10-31T20:04:12.931Z",
   "articles": [
     {
       "slug": "unicorn-space-reclaiming-your-right-to-be-interesting-how-digital-tools-make-personal-time-actually-",
@@ -200,6 +200,17 @@
       "image": ""
     },
     {
+      "slug": "best-apps-for-coordinating-multi-family-groups-2025",
+      "title": "Best Apps for Coordinating Multiple Family Groups in 2025 (Divorced Parents, Extended Family)",
+      "description": "Find the best apps for coordinating across multiple family groups. Compare Honeydew's multi-family architecture vs Cozi, TimeTree, and others for divorced parents, extended family care, and friend groups. Features, pricing, and real use cases.",
+      "publishDate": "2025-11-11",
+      "category": "Comparison",
+      "featured": true,
+      "keywords": "multi-family coordination app, divorced parents app, coordinate between two households, extended family app, blended family app, multiple family groups app, co-parenting app",
+      "author": "Honeydew Team",
+      "image": ""
+    },
+    {
       "slug": "best-apps-multi-family-coordination-2025",
       "title": "Best Apps for Coordinating Multi-Family Groups in 2025 (Divorced Parents, Extended Family)",
       "description": "Find the best apps for coordinating across multiple family groups. Honeydew's multi-family architecture vs Cozi, TimeTree, and others for divorced parents, extended family care, and friend groups. Compare features and pricing.",
@@ -275,6 +286,17 @@
       "keywords": "voice controlled family apps, hands-free family organization, AI voice assistant for families, voice command family organizer, best voice family app, family app with voice control",
       "author": "Honeydew Team",
       "image": "/blog-images/voice-controlled-family-apps.jpg"
+    },
+    {
+      "slug": "best-voice-controlled-family-organization-apps-2025",
+      "title": "Best Voice-Controlled Family Organization Apps in 2025",
+      "description": "Compare the best voice-controlled family organization apps. Honeydew's Whisper AI transcription vs Alexa, Siri, Google Assistant. Test results show 95%+ accuracy for natural family requests. Voice-first coordination for busy parents.",
+      "publishDate": "2025-10-31",
+      "category": "Comparison",
+      "featured": true,
+      "keywords": "voice controlled family app, hands-free family organization, voice family calendar, voice assistant family app, best voice family planner, Alexa family app alternative",
+      "author": "Honeydew Team",
+      "image": ""
     },
     {
       "slug": "best-family-trip-planning-apps-2025",
@@ -377,8 +399,8 @@
     }
   ],
   "stats": {
-    "total": 34,
-    "published": 10,
-    "scheduled": 24
+    "total": 36,
+    "published": 11,
+    "scheduled": 25
   }
 }

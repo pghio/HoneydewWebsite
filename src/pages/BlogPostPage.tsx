@@ -79,9 +79,13 @@ const BlogPostPage = () => {
     const existingCanonical = document.querySelector('link[rel="canonical"]')
     if (existingCanonical) existingCanonical.remove()
 
-    // Remove existing JSON-LD schema
+    // Remove existing JSON-LD schemas
     const existingSchema = document.querySelector('script[type="application/ld+json"][data-article-schema]')
     if (existingSchema) existingSchema.remove()
+    
+    // Remove any existing FAQ schemas to prevent duplicates
+    const existingFaq = document.querySelector('script[type="application/ld+json"][data-faq-schema]')
+    if (existingFaq) existingFaq.remove()
 
     // Add canonical URL
     const canonical = document.createElement('link')
@@ -236,8 +240,9 @@ const BlogPostPage = () => {
         if (existing) existing.remove()
       })
       const canonicalCleanup = document.querySelector('link[rel="canonical"]')
-      if (canonicalCleanup && canonicalCleanup.getAttribute('href') === articleUrl) {
-        canonicalCleanup.remove()
+      if (canonicalCleanup) {
+        // Reset to homepage canonical
+        canonicalCleanup.setAttribute('href', 'https://www.gethoneydew.app/')
       }
       const schemaCleanup = document.querySelector('script[type="application/ld+json"][data-article-schema]')
       if (schemaCleanup) schemaCleanup.remove()

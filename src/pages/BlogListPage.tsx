@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { Calendar, ArrowRight, Sparkles } from 'lucide-react'
 import { useState, useEffect } from 'react'
 import Footer from '../components/Footer'
+import useSEO from '../utils/useSEO'
 
 interface Article {
   slug: string
@@ -16,6 +17,15 @@ interface Article {
 const BlogListPage = () => {
   const [articles, setArticles] = useState<Article[]>([])
   const [loading, setLoading] = useState(true)
+
+  useSEO({
+    title: 'Honeydew Blog - AI Family Organization Tips & Guides',
+    description: 'Expert guides on AI-powered family coordination, organization tips, app comparisons, and smart parenting strategies. Learn how to transform family chaos into seamless coordination.',
+    canonical: '/blog',
+    keywords: 'family organization blog, AI family assistant tips, family coordination guides, smart parenting, family app comparisons, household management tips',
+    image: '/og-image-ai.jpg',
+    type: 'website'
+  })
 
   useEffect(() => {
     // Fetch articles from blog manifest (auto-generated during build)

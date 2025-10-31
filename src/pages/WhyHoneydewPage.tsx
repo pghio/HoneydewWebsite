@@ -2,6 +2,8 @@ import { motion } from 'framer-motion'
 import { Check, X, ArrowRight } from 'lucide-react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import useSEO from '../utils/useSEO'
+import { useLocation } from 'react-router-dom'
 
 interface ComparisonPageProps {
   competitor: string
@@ -29,6 +31,17 @@ const ComparisonPage = ({
   features,
   bestFor
 }: ComparisonPageProps) => {
+  const location = useLocation()
+  
+  useSEO({
+    title: `Honeydew vs ${competitor} - Comparison & Review 2025`,
+    description: `Compare Honeydew and ${competitor}. See features, pricing, and why families are switching to Honeydew's AI-powered family organization. ${competitor} ${competitorPrice} vs Honeydew Free-$99/yr.`,
+    canonical: location.pathname,
+    keywords: `honeydew vs ${competitor.toLowerCase()}, ${competitor.toLowerCase()} alternative, best family organization app, AI family planner, family coordination app`,
+    image: '/og-image-ai.jpg',
+    type: 'website'
+  })
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-blue-50">
       <Navbar />

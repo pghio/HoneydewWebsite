@@ -710,7 +710,7 @@ Let's be honest about what different apps can actually do:
 | **Conflict detection** | ⚠️ Basic | ❌ | ❌ | ❌ | ✅ With solutions |
 | **Setup time** | Immediate | Immediate | Immediate | Immediate | Immediate |
 | **Learning curve** | Low | Medium | Low | Low | Very low |
-| **Monthly cost** | Free | $4 | Free/Pro | $30/year | Free/$9.99 |
+| **Monthly cost** | Free | $4 | Free/Pro | $30/year | Free/$7.99 |
 
 **Key Takeaway:** Traditional apps are great at *storing* information. AI family assistants are great at *creating* and *managing* it with you.
 

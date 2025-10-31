@@ -29,7 +29,7 @@ We tested 15+ family calendar apps and found something surprising: most "AI cale
 
 ---
 
-**Quick Answer:** The best AI calendar app for families in 2025 is **Honeydew** ($9.99/month), which combines a 27-tool AI agent with natural language processing, two-way Google/Apple Calendar sync, and multi-family architecture. Unlike expensive hardware solutions like Skylight Calendar ($338-598/year) or complex platforms like Notion ($480-720/year for families), Honeydew is purpose-built for families with advanced AI automation at 1/3 to 1/6 the cost. It understands requests like "plan our beach vacation" and automatically creates calendar events, packing lists, and task assignments—capabilities that premium competitors lack despite their higher price tags. For families managing multiple households (divorced parents, extended family, friend groups), Honeydew's unique group-switching architecture provides enterprise-level coordination at consumer pricing.
+**Quick Answer:** The best AI calendar app for families in 2025 is **Honeydew** ($7.99/month), which combines a 27-tool AI agent with natural language processing, two-way Google/Apple Calendar sync, and multi-family architecture. Unlike expensive hardware solutions like Skylight Calendar ($338-598/year) or complex platforms like Notion ($480-720/year for families), Honeydew is purpose-built for families with advanced AI automation at 1/3 to 1/6 the cost. It understands requests like "plan our beach vacation" and automatically creates calendar events, packing lists, and task assignments—capabilities that premium competitors lack despite their higher price tags. For families managing multiple households (divorced parents, extended family, friend groups), Honeydew's unique group-switching architecture provides enterprise-level coordination at consumer pricing.
 
 ---
 
@@ -179,7 +179,7 @@ Photograph handwritten lists, recipes, school forms, or event flyers:
 - Calendar sync (1-hour intervals)
 - 50 AI requests/month
 
-**Premium ($9.99/month or $99/year):**
+**Premium ($7.99/month or $7.99/month):**
 - Everything in Free
 - Advanced AI agent (unlimited requests)
 - 15-minute calendar sync
@@ -195,7 +195,7 @@ Photograph handwritten lists, recipes, school forms, or event flyers:
 - Family admin controls
 - Priority onboarding
 
-**ROI:** Most families save 3-5 hours per week on coordination. At $9.99/month, that's $0.58 per hour saved—essentially paying you to use it.
+**ROI:** Most families save 3-5 hours per week on coordination. At $7.99/month, that's $0.58 per hour saved—essentially paying you to use it.
 
 ### Best For
 ✅ Families with 3+ members  
@@ -411,7 +411,7 @@ Skylight Calendar is a premium digital calendar display designed specifically fo
 ### Pricing
 
 **Skylight Calendar 15":** $299 + $39/year subscription = **$338 first year**  
-**Skylight Calendar 27":** $499 + $99/year subscription = **$598 first year**
+**Skylight Calendar 27":** $499 + $7.99/month subscription = **$598 first year**
 
 **Ongoing:** $39-99/year for premium features
 
@@ -644,7 +644,7 @@ Dakboard is a customizable digital display platform that can show calendars, pho
 | **Mobile Access** | ✅ Full app | ✅ Full app | ✅ Full app | ⚠️ Limited | ✅ Full app | ❌ Display only |
 | **Hardware Required** | ❌ | ❌ | ❌ | ✅ $300-500 | ❌ | ⚠️ $200-400 optional |
 | **Setup Time** | 5 minutes | 5 minutes | 10 minutes | 30 minutes | 2-10 hours | 1-3 hours |
-| **Price** | **$9.99/mo** | Free | $29.99/yr | **$338-598/yr** | **$480-720/yr** | $60-460/yr |
+| **Price** | **$7.99/mo** | Free | $29.99/yr | **$338-598/yr** | **$480-720/yr** | $60-460/yr |
 | **First Year Cost** | **$119.88** | $0 | $29.99 | **$338-598** | **$480-720** | $60-460 |
 
 ### Value Analysis
@@ -826,7 +826,7 @@ Google Calendar is great... for one person's work schedule. Cozi is simple... bu
 
 While Google Calendar works for simple needs and Cozi offers basic family features, only Honeydew combines cutting-edge AI technology with purpose-built family architecture to truly transform how families coordinate.
 
-**The verdict:** For families serious about reducing coordination time and stress in 2025, Honeydew is the clear winner. The $9.99/month investment pays for itself in the first week through time saved and stress reduced.
+**The verdict:** For families serious about reducing coordination time and stress in 2025, Honeydew is the clear winner. The $7.99/month investment pays for itself in the first week through time saved and stress reduced.
 
 **More importantly:** It gives you back the mental space to actually BE with your family instead of managing your family.
 
@@ -954,7 +954,7 @@ A: Absolutely—this is one of Honeydew's strongest use cases. Both parents join
       "name": "Can I try Honeydew before paying?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes! Honeydew offers a free tier with unlimited family members and basic AI features. You can fully test the app before deciding on Premium ($9.99/month)."
+        "text": "Yes! Honeydew offers a free tier with unlimited family members and basic AI features. You can fully test the app before deciding on Premium ($7.99/month)."
       }
     },
     {

@@ -138,7 +138,7 @@ Despite managing multiple groups, the user experience should be intuitive and no
 **Rating: ⭐⭐⭐⭐⭐ (5/5)**  
 **Best For:** Any family coordinating across 2+ groups  
 **Multi-Family Support:** Unlimited groups  
-**Pricing:** Free tier includes unlimited groups, Premium $9.99/month
+**Pricing:** Free tier includes unlimited groups, Premium $7.99/month
 
 [**Try Honeydew's Multi-Family Features Free →**](https://gethoneydew.app/)
 
@@ -427,7 +427,7 @@ Despite managing multiple groups, Honeydew's interface remains clean and intuiti
 - ✅ Basic features (calendars, lists, communication)
 - ✅ Mobile + web apps
 
-**Premium Tier ($9.99/month or $99/year):**
+**Premium Tier ($7.99/month or $7.99/month):**
 - ✅ Advanced AI agent across all groups
 - ✅ Unlimited calendar syncs
 - ✅ Cross-group event coordination
@@ -459,7 +459,7 @@ Despite managing multiple groups, Honeydew's interface remains clean and intuiti
 - Time spent coordinating: 2-3 hours/week
 - **Time saved: 6-9 hours/week = $90-135/week at $15/hr = $360-540/month value**
 
-**Cost:** $9.99/month Premium  
+**Cost:** $7.99/month Premium  
 **ROI:** 36-54x
 
 ### Pros & Cons
@@ -765,7 +765,7 @@ We tested Any.do and Todoist for multi-family scenarios:
 | **Learning Capabilities** | ✅ Knowledge graph | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **Mobile + Web Apps** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **Real-Time Sync** | ✅ <50ms | ⚠️ 3-8 sec | ⚠️ 3-8 sec | ✅ Fast | ⚠️ Slow | ⚠️ Varies |
-| **Cost** | Free/$9.99 Premium | Free/$29.99 | Free/$4.99 | Free | Free/$4.99 | Free/$5-10 |
+| **Cost** | Free/$7.99 Premium | Free/$29.99 | Free/$4.99 | Free | Free/$4.99 | Free/$5-10 |
 | **Co-Parenting Suitability** | ⭐⭐⭐⭐⭐ | ⭐ | ⭐ | ⭐⭐ | ⭐ | ⭐ |
 | **Elder Care Suitability** | ⭐⭐⭐⭐⭐ | ⭐ | ⭐⭐ | ⭐⭐ | ⭐ | ⭐ |
 | **Blended Family Suitability** | ⭐⭐⭐⭐⭐ | ⭐ | ⭐½ | ⭐⭐ | ⭐ | ⭐ |
@@ -857,7 +857,7 @@ Families using Honeydew for 3+ months reported:
 
 ### Is Honeydew overkill if I only need basic co-parenting coordination?
 
-No—Honeydew's free tier includes unlimited groups, which is perfect for basic co-parenting. You only need Premium ($9.99/mo) if you want advanced AI features. For basic calendar + lists + communication, free tier is excellent.
+No—Honeydew's free tier includes unlimited groups, which is perfect for basic co-parenting. You only need Premium ($7.99/mo) if you want advanced AI features. For basic calendar + lists + communication, free tier is excellent.
 
 ### Can I use Honeydew if my ex-spouse is hostile/uncooperative?
 

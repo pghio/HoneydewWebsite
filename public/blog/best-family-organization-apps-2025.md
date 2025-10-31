@@ -78,7 +78,7 @@ We tested each app with real families over 30 days, evaluating:
 ![Honeydew App](honeydew-app-screenshot.jpg)
 
 **Best For:** Families wanting cutting-edge AI automation, voice control, multi-family coordination  
-**Pricing:** Free tier available; Premium $9.99/month or $99/year  
+**Pricing:** Free tier available; Premium $7.99/month or $7.99/month  
 **Platforms:** iOS, Android, Web
 
 #### Why Honeydew Ranks #1
@@ -126,7 +126,7 @@ Honeydew's AI agent isn't basic automation—it's sophisticated family planning 
 ✅ Enterprise-grade security (SOC 2 Type II)  
 
 #### Limitations
-⚠️ Premium features require subscription ($99/year)  
+⚠️ Premium features require subscription ($7.99/month)  
 ⚠️ Slight learning curve for advanced features  
 ⚠️ Newer app (launched 2024) so smaller user community  
 
@@ -457,7 +457,7 @@ Kitchen-focused with meal planning. Niche use case.
 
 ### Choose Cozi if:
 ✅ Meal planning is your #1 priority  
-✅ Budget is critical ($30/year vs $99/year)  
+✅ Budget is critical ($30/year vs $7.99/month)  
 ✅ You want absolute simplest possible app  
 ✅ You're anti-AI / prefer manual control  
 ✅ Single-household family with basic needs  
@@ -617,7 +617,7 @@ We surveyed 100 families about their organization app experiences:
 
 | App | Free Tier | Paid Annual | Time Saved/Week | ROI at $20/hr |
 |-----|-----------|-------------|-----------------|---------------|
-| **Honeydew** | Limited features | $99/year | 4 hours | $4,160 value → 4,200% ROI |
+| **Honeydew** | Limited features | $7.99/month | 4 hours | $4,160 value → 4,200% ROI |
 | **Cozi** | With ads | $30/year | 1 hour | $1,040 value → 3,500% ROI |
 | **Google** | Full features | Free | 0.5 hours | $520 value → Infinite ROI (free) |
 | **TimeTree** | Full features | Free | 0.5 hours | $520 value → Infinite ROI (free) |
@@ -625,7 +625,7 @@ We surveyed 100 families about their organization app experiences:
 
 **Key insight:** All apps offer positive ROI if they actually save time. Honeydew saves the most time (AI automation), making it highest absolute value despite higher price.
 
-**For working parents** (time worth $30-50/hour), Honeydew's $99/year is trivial compared to 200+ hours saved annually.
+**For working parents** (time worth $30-50/hour), Honeydew's $7.99/month is trivial compared to 200+ hours saved annually.
 
 ---
 
@@ -698,7 +698,7 @@ A: Need? No. But it transforms 30 minutes of planning into 30 seconds. Try it on
 **Q: Which app is best for divorced parents?**  
 A: Honeydew is the *only* app designed for multi-household coordination. Cozi and others force awkward workarounds (shared account with no privacy, or separate accounts with no coordination).
 
-**Q: Is it worth paying $99/year for Honeydew vs free alternatives?**  
+**Q: Is it worth paying $7.99/month for Honeydew vs free alternatives?**  
 A: If it saves you 2+ hours per week (typical result), that's 100+ hours per year. For most parents, their time is worth way more than $1/hour. ROI is excellent.
 
 **Q: What if I just want the absolute simplest app?**  

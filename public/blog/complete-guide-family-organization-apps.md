@@ -97,7 +97,7 @@ The distinction matters: sharing a Google Calendar works for small families, but
 - Better work-life balance
 - Improved family relationships
 
-**ROI is enormous.** Even paid apps ($99/year) pay for themselves in the first week.
+**ROI is enormous.** Even paid apps ($7.99/month) pay for themselves in the first week.
 
 ---
 
@@ -513,7 +513,7 @@ The distinction matters: sharing a Google Calendar works for small families, but
 
 **Pricing:**
 - Free: Unlimited family groups, basic AI (50 requests/month)
-- Premium: $99/year (unlimited AI, voice control, advanced features)
+- Premium: $7.99/month (unlimited AI, voice control, advanced features)
 - Family: $149/year (up to 6 accounts)
 
 **Strengths:**
@@ -917,11 +917,11 @@ People resist complete change
 "We'll use free Google Calendar" when family actually needs AI-powered solution
 
 **Reality:**
-Spending 5 hours/week on coordination to save $99/year is poor ROI
+Spending 5 hours/week on coordination to save $7.99/month is poor ROI
 
 **Solution:**
 - Calculate time cost
-- $99/year ÷ 200 hours saved = $0.50/hour
+- $7.99/month ÷ 200 hours saved = $0.50/hour
 - Invest appropriately
 
 ---
@@ -986,7 +986,7 @@ Behavior change takes 2-3 weeks
 - Modern families need AI automation (3-5 hours/week savings)
 - Voice control essential for busy parents
 - Multi-family coordination increasingly common
-- ROI is excellent ($99/year for 200+ hours saved)
+- ROI is excellent ($7.99/month for 200+ hours saved)
 - Technology that learns and improves
 
 **If you have 3+ family members, busy schedules, or spend 30+ minutes daily on coordination, Honeydew is the clear choice.**

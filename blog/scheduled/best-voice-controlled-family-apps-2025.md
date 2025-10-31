@@ -276,7 +276,7 @@ Unlike apps requiring screen interaction:
 - Basic voice recognition
 - Manual transcription review
 
-**Premium ($9.99/month):**
+**Premium ($7.99/month):**
 - **Unlimited voice requests**
 - Whisper AI transcription
 - Real-time streaming
@@ -672,7 +672,7 @@ Todoist is excellent for personal productivity, but Honeydew is purpose-built fo
 | **Calendar + Lists Integration** | ✅ Seamless | ⚠️ Separate apps | ⚠️ Fragmented | ⚠️ Basic | ⚠️ Limited | ⚠️ One-way |
 | **Multi-Family Groups** | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **Background Noise Handling** | ✅ Excellent | ⚠️ Good | ⚠️ Good | ⚠️ Fair | ⚠️ Fair | ⚠️ Fair |
-| **Price** | $9.99/mo | Free + hardware | Free | Free + hardware | $59.99/yr | $48/yr |
+| **Price** | $7.99/mo | Free + hardware | Free | Free + hardware | $59.99/yr | $48/yr |
 
 ---
 
@@ -790,7 +790,7 @@ Todoist is excellent for personal productivity, but Honeydew is purpose-built fo
 ✅ You need to handle complex requests ("plan trip with lists and calendar")  
 ✅ You want mobile-first (works anywhere, not tied to home)  
 ✅ You manage multiple family groups (extended family, divorced parents)  
-✅ You're willing to invest $9.99/month for serious time savings  
+✅ You're willing to invest $7.99/month for serious time savings  
 ✅ You want family-specific AI (not general-purpose assistant)  
 
 ### Choose Alexa if:
@@ -836,7 +836,7 @@ While Alexa and Google Assistant are convenient for basic voice commands around 
 
 Honeydew was built from the ground up as a **voice-first family assistant**—and the difference is transformative.
 
-For busy parents who spend hours per week coordinating family logistics, Honeydew's voice-first approach with Whisper AI transcription and family-trained natural language understanding is the clear winner. The $9.99/month investment pays for itself in the first week through time saved and frustration reduced.
+For busy parents who spend hours per week coordinating family logistics, Honeydew's voice-first approach with Whisper AI transcription and family-trained natural language understanding is the clear winner. The $7.99/month investment pays for itself in the first week through time saved and frustration reduced.
 
 ---
 

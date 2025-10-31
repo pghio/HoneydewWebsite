@@ -33,7 +33,7 @@ Many families want the *idea* of Skylight—a centralized family hub—without t
 
 | Feature | Skylight Calendar | Honeydew | Cozi | TimeTree | Hearth Display | Google Calendar | FamilyWall | Echo Show |
 |---------|-------------------|----------|------|----------|----------------|-----------------|------------|-----------|
-| **Price** | $300 + $79/yr | Free–$99/yr | Free–$30/yr | Free | $500+ | Free | Free–$60/yr | $90–$270 |
+| **Price** | $300 + $79/yr | Free–$7.99/mo (Honeydew More) | Free–$30/yr | Free | $500+ | Free | Free–$60/yr | $90–$270 |
 | **Hardware Needed** | Yes (display) | No | No | No | Yes (display) | No | No | Optional |
 | **AI Planning** | No | Yes | No | No | Limited | Basic | No | Voice only |
 | **Voice Input** | No | Yes | No | No | No | Yes | No | Yes |
@@ -46,7 +46,7 @@ Many families want the *idea* of Skylight—a centralized family hub—without t
 
 ## 1. Honeydew: Best Overall Alternative (AI + No Hardware)
 
-**Price:** Free tier; Premium $9.99/mo or $99/yr  
+**Price:** Free tier; Premium $7.99/mo or $7.99/mo  
 **Platform:** iOS, Android, Web
 
 ### What Makes Honeydew Different
@@ -64,7 +64,7 @@ Honeydew replaces Skylight's wall display with AI that works on devices you alre
 | What You Get | Skylight Calendar | Honeydew |
 |--------------|-------------------|----------|
 | **Setup** | Wall mount, power, WiFi | Download app, sign in (2 min) |
-| **Cost** | $300 upfront + $79/yr | Free or $99/yr for premium |
+| **Cost** | $300 upfront + $79/yr | Free or $7.99/mo for premium |
 | **Planning** | Manual entry | AI generates lists and schedules |
 | **Voice** | No | Yes—speak requests hands-free |
 | **Photos** | Limited | Yes—photograph lists, receipts |
@@ -337,7 +337,7 @@ Mango Display offers more customization than Skylight but requires more setup wo
 
 ### Is Skylight Calendar worth the money?
 
-Skylight Calendar works well for what it does—a dedicated family calendar display. But at $300+ upfront plus $79/year subscription, it's expensive compared to software-only alternatives like Honeydew (free or $99/year) or Cozi ($30/year) that offer more features.
+Skylight Calendar works well for what it does—a dedicated family calendar display. But at $300+ upfront plus $79/year subscription, it's expensive compared to software-only alternatives like Honeydew (free or $7.99/month) or Cozi ($30/year) that offer more features.
 
 ### What's the cheapest Skylight alternative?
 
@@ -363,7 +363,7 @@ Yes. Most alternatives let you import Google Calendar or Apple Calendar events. 
 
 ## Bottom Line: Best Skylight Calendar Alternative
 
-For most families, **Honeydew** is the best Skylight Calendar alternative. You get more features (AI planning, voice, photos, multiple families) at lower cost ($0–$99/year vs. $300+ upfront + $79/year), without buying hardware that stays on your wall.
+For most families, **Honeydew** is the best Skylight Calendar alternative. You get more features (AI planning, voice, photos, multiple families) at lower cost ($0–$7.99/month vs. $300+ upfront + $79/year), without buying hardware that stays on your wall.
 
 If you want something simpler and cheaper, **Cozi** ($0–$30/year) covers the basics well.
 

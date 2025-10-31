@@ -455,7 +455,7 @@ More secure than using multiple apps with varying security standards.
 
 ### Q: How much does this really cost?
 
-**A:** Honeydew costs $9.99/month or $99/year. But you typically eliminate $30-50/month in other subscriptions. Net cost is often negative (you save money).
+**A:** Honeydew costs $7.99/month or $7.99/month. But you typically eliminate $30-50/month in other subscriptions. Net cost is often negative (you save money).
 
 ## Conclusion: The Invisible Weight Made Visible
 

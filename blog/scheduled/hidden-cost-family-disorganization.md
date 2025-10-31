@@ -140,7 +140,7 @@ This article makes the invisible visible.
 
 **Value saved: $6,175-9,880/year (at $25-40/hour)**
 
-**Cost of organization system: $99/year (Honeydew Premium)**
+**Cost of organization system: $7.99/month (Honeydew Premium)**
 
 **ROI: 62-100x return on investment**
 
@@ -575,7 +575,7 @@ This article makes the invisible visible.
 - Health/stress: $2,400/year
 - **Total cost: $15,180/year**
 
-**After Honeydew ($99/year):**
+**After Honeydew ($7.99/month):**
 - Time waste: 1 hour/week × $30/hour = $30/week = $1,560/year (savings: $7,020)
 - Forgotten appointments: $50/year (savings: $300)
 - Duplicate purchases: $150/year (savings: $650)
@@ -585,7 +585,7 @@ This article makes the invisible visible.
 - **Total cost: $3,110/year**
 
 **Savings: $12,070/year**
-**Honeydew cost: $99/year**
+**Honeydew cost: $7.99/month**
 **Net benefit: $11,971/year**
 **ROI: 121x**
 
@@ -621,22 +621,22 @@ This article makes the invisible visible.
 
 ---
 
-### $99/year is Cheap
+### $7.99/month is Cheap
 
-**Honeydew at $99/year:**
+**Honeydew at $7.99/month:**
 - Saves $6,000-18,000/year
 - Reclaims 150-250 hours per year
 - Reduces stress dramatically
 - Improves relationships
 - Improves health
 
-**$99/year is an investment that returns 50-180x.**
+**$7.99/month is an investment that returns 50-180x.**
 
 ---
 
 ### Perspective
 
-**What else costs $99/year?**
+**What else costs $7.99/month?**
 - Spotify: $120/year (entertainment)
 - Netflix: $180/year (entertainment)
 - Gym membership: $600/year (if you go)

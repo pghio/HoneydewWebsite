@@ -30,7 +30,7 @@ This comparison shows you exactly what you're getting with free Google Calendar 
 
 ---
 
-**Quick Answer:** **Google Calendar** is excellent for individual calendaring and works adequately for basic family coordination when budget is zero. However, **Honeydew** is purpose-built for families and dramatically superior for family organization through its 27-tool AI agent, natural language understanding, Whisper AI voice control, integrated list management, and multi-family architecture. Google Calendar forces families to use 3-5 separate apps (Calendar + Tasks + Keep + Gmail + messaging), while Honeydew integrates everything families need in one cohesive experience. The trade-off: Google Calendar is free, Honeydew is $9.99/month ($99/year). For families spending 30+ minutes daily on coordination, Honeydew's time savings (3-5 hours per week) justify the cost within the first week. For families with simple needs and tight budgets, Google Calendar's free tier remains a solid baseline option.
+**Quick Answer:** **Google Calendar** is excellent for individual calendaring and works adequately for basic family coordination when budget is zero. However, **Honeydew** is purpose-built for families and dramatically superior for family organization through its 27-tool AI agent, natural language understanding, Whisper AI voice control, integrated list management, and multi-family architecture. Google Calendar forces families to use 3-5 separate apps (Calendar + Tasks + Keep + Gmail + messaging), while Honeydew integrates everything families need in one cohesive experience. The trade-off: Google Calendar is free, Honeydew is $7.99/month ($7.99/month). For families spending 30+ minutes daily on coordination, Honeydew's time savings (3-5 hours per week) justify the cost within the first week. For families with simple needs and tight budgets, Google Calendar's free tier remains a solid baseline option.
 
 ---
 
@@ -374,7 +374,7 @@ This comprehensive comparison examines both honestly, including when Google Cale
 - Lists and tasks
 - No ads
 
-**Premium ($9.99/month or $99/year):**
+**Premium ($7.99/month or $7.99/month):**
 - Everything in Free
 - Unlimited AI requests
 - Whisper AI voice control
@@ -393,7 +393,7 @@ This comprehensive comparison examines both honestly, including when Google Cale
 
 **Google Calendar:** $0/year, requires 5-10+ hours/week coordination time
 
-**Honeydew:** $99/year, reduces coordination time to 1-2 hours/week
+**Honeydew:** $7.99/month, reduces coordination time to 1-2 hours/week
 
 **Time saved:** 3-5 hours per week = 150-250 hours per year
 
@@ -411,7 +411,7 @@ This comprehensive comparison examines both honestly, including when Google Cale
 
 | Feature | Google Calendar | Honeydew |
 |---------|----------------|----------|
-| **Price** | Free | $0-$99/year |
+| **Price** | Free | $0-$7.99/month |
 | **AI Agent** | ⚠️ Basic Gemini | ✅ 27-tool agent |
 | **Natural Language** | ⚠️ Simple only | ✅ Advanced |
 | **Voice Control** | ⚠️ Assistant (basic) | ✅ Whisper AI |
@@ -461,7 +461,7 @@ This comprehensive comparison examines both honestly, including when Google Cale
 
 **Honeydew:**
 - ⚠️ Free tier works but limited AI (50 requests/month)
-- ⚠️ Premium features ($99/year) not in budget
+- ⚠️ Premium features ($7.99/month) not in budget
 - ✅ AI features would save time
 - ❌ Can't justify expense on tight budget
 
@@ -501,11 +501,11 @@ This comprehensive comparison examines both honestly, including when Google Cale
 
 **Time saved:** 4-5 hours per week
 
-**Value calculation:** $99/year ÷ 250 hours saved = $0.40/hour saved
+**Value calculation:** $7.99/month ÷ 250 hours saved = $0.40/hour saved
 
 **Winner for Martinez family: Honeydew**
 
-**Why:** The AI and voice features save 4-5 hours per week. For two working parents, time is money. $99/year is an absolute steal for reclaiming 250 hours annually.
+**Why:** The AI and voice features save 4-5 hours per week. For two working parents, time is money. $7.99/month is an absolute steal for reclaiming 250 hours annually.
 
 ---
 
@@ -647,7 +647,7 @@ Despite Honeydew winning most categories, **Google Calendar is legitimately bett
 
 ✅ **You have complex family coordination needs** - 3+ kids, multiple activities, busy schedules
 
-✅ **Time is more valuable than money** - $99/year for 200+ hours saved is excellent ROI
+✅ **Time is more valuable than money** - $7.99/month for 200+ hours saved is excellent ROI
 
 ✅ **You value modern technology** - 2024 AI vs 2006 manual calendar
 
@@ -689,7 +689,7 @@ If you're currently using Google Calendar and want to try Honeydew:
 ### Week 4: Evaluate
 - Time saved?
 - Stress reduced?
-- Worth $99/year?
+- Worth $7.99/month?
 - Decide whether to commit
 
 **Many families continue using both:** Honeydew for planning and coordination, Google Calendar for viewing and ecosystem integration. The two-way sync makes this seamless.
@@ -749,7 +749,7 @@ A: Yes, Honeydew syncs with Google Workspace accounts. You can have work calenda
 A: For simple families (2 people, minimal activities), yes. For families with 3+ members, multiple activities, complex schedules—Google Calendar requires significant manual coordination time. Honeydew's AI reduces this by 80%.
 
 **Q: Why pay for Honeydew when Google Calendar is free?**  
-A: Time savings. If Honeydew saves you 4 hours per week, that's 200+ hours per year. $99/year ÷ 200 hours = $0.50 per hour saved. If your time is worth more than $0.50/hour (it is), the investment pays for itself.
+A: Time savings. If Honeydew saves you 4 hours per week, that's 200+ hours per year. $7.99/month ÷ 200 hours = $0.50 per hour saved. If your time is worth more than $0.50/hour (it is), the investment pays for itself.
 
 **Q: What if my family is already comfortable with Google Calendar?**  
 A: Keep using it! Add Honeydew's features on top via two-way sync. Your family can continue viewing in Google Calendar while you use Honeydew's AI for planning. No disruption to their workflow.
@@ -829,7 +829,7 @@ A: Keep using it! Add Honeydew's features on top via two-way sync. Your family c
       "name": "Why pay for Honeydew when Google Calendar is free?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Time savings. If Honeydew saves you 4 hours per week, that's 200+ hours per year. $99/year ÷ 200 hours = $0.50 per hour saved. If your time is worth more than $0.50/hour, the investment pays for itself."
+        "text": "Time savings. If Honeydew saves you 4 hours per week, that's 200+ hours per year. $7.99/month ÷ 200 hours = $0.50 per hour saved. If your time is worth more than $0.50/hour, the investment pays for itself."
       }
     },
     {
@@ -918,7 +918,7 @@ A: Keep using it! Add Honeydew's features on top via two-way sync. Your family c
     - Honeydew saves 4 hours/week
     - 4 hours × $10/hour (conservative) = $40/week
     - 52 weeks = $2,080/year in time value
-    - Honeydew costs $99/year
+    - Honeydew costs $7.99/month
     - ROI: 2000%
     - "Math doesn't lie"
 

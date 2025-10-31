@@ -20,8 +20,8 @@ const plans = [
     highlighted: false
   },
   {
-    name: 'Premium',
-    price: '$9.99',
+    name: 'Honeydew More',
+    price: '$7.99',
     period: '/month',
     description: 'Everything you need for family organization',
     features: [
@@ -39,21 +39,20 @@ const plans = [
     badge: 'Most Popular'
   },
   {
-    name: 'Annual',
-    price: '$99',
-    period: '/year',
-    description: 'Save 17% with annual billing',
+    name: 'Honeydew All',
+    price: 'Coming Soon',
+    period: '',
+    description: 'Advanced features for power users',
     features: [
-      'Everything in Premium',
-      '2 months free',
-      'Lifetime feature updates',
-      'Early access to new features',
-      'Dedicated support'
+      'Everything in Honeydew More',
+      'Advanced AI capabilities',
+      'Premium integrations',
+      'Family insights & analytics',
+      'Dedicated account support'
     ],
-    cta: 'Start Annual Plan',
+    cta: 'Join Waitlist',
     href: 'https://app.gethoneydew.app/',
-    highlighted: false,
-    savings: 'Save $20/year'
+    highlighted: false
   }
 ]
 
@@ -100,12 +99,6 @@ const Pricing = () => {
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-purple-500 to-blue-500 text-white px-4 py-1 rounded-full text-sm font-semibold flex items-center gap-1">
                     <Sparkles className="w-3 h-3" />
                     {plan.badge}
-                  </div>
-                )}
-
-                {plan.savings && (
-                  <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-4 py-1 rounded-full text-sm font-semibold">
-                    {plan.savings}
                   </div>
                 )}
 

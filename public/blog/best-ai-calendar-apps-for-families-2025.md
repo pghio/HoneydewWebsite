@@ -162,7 +162,7 @@ Photograph handwritten lists, recipes, school forms, or event flyers:
 - Calendar sync (1-hour intervals)
 - 50 AI requests/month
 
-**Premium ($9.99/month or $99/year):**
+**Premium ($7.99/month or $7.99/month):**
 - Everything in Free
 - Advanced AI agent (unlimited requests)
 - 15-minute calendar sync
@@ -178,7 +178,7 @@ Photograph handwritten lists, recipes, school forms, or event flyers:
 - Family admin controls
 - Priority onboarding
 
-**ROI:** Most families save 3-5 hours per week on coordination. At $9.99/month, that's $0.58 per hour saved—essentially paying you to use it.
+**ROI:** Most families save 3-5 hours per week on coordination. At $7.99/month, that's $0.58 per hour saved—essentially paying you to use it.
 
 ### Best For
 ✅ Families with 3+ members  
@@ -554,7 +554,7 @@ Unless meal planning is your primary use case, Honeydew's modern technology, AI 
 | **Learning AI** | ✅ 80% cache | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **Image OCR** | ✅ | ❌ | ❌ | ✅ Photos | ❌ | ❌ |
 | **Meal Planning** | ⚠️ Via lists | ❌ | ✅ | ❌ | ❌ | ✅ Dedicated |
-| **Price** | $9.99/mo | Free | $29.99/yr | Free | $59.99/yr | $4.99/mo |
+| **Price** | $7.99/mo | Free | $29.99/yr | Free | $59.99/yr | $4.99/mo |
 
 ---
 
@@ -639,7 +639,7 @@ In 2025, family organization has evolved beyond basic shared calendars. Modern f
 
 While Google Calendar works for simple needs and Cozi offers basic family features, only Honeydew combines cutting-edge AI technology with purpose-built family architecture to truly transform how families coordinate.
 
-**The verdict:** For families serious about reducing coordination time and stress in 2025, Honeydew is the clear winner. The $9.99/month investment pays for itself in the first week through time saved and stress reduced.
+**The verdict:** For families serious about reducing coordination time and stress in 2025, Honeydew is the clear winner. The $7.99/month investment pays for itself in the first week through time saved and stress reduced.
 
 ---
 
@@ -765,7 +765,7 @@ A: Absolutely—this is one of Honeydew's strongest use cases. Both parents join
       "name": "Can I try Honeydew before paying?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes! Honeydew offers a free tier with unlimited family members and basic AI features. You can fully test the app before deciding on Premium ($9.99/month)."
+        "text": "Yes! Honeydew offers a free tier with unlimited family members and basic AI features. You can fully test the app before deciding on Premium ($7.99/month)."
       }
     },
     {

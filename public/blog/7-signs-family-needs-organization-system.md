@@ -650,7 +650,7 @@ A: If the system is easier than texting Mom, yes. Voice control especially helps
 A: Start with your own life. Use it for your schedule, your lists, your tasks. When family sees you less stressed and more organized, they'll get curious. Lead by example.
 
 **Q: Is AI family organization worth paying for?**  
-A: If you're spending 3+ hours per week on coordination (156 hours/year), and AI reduces that by 70%, you save 110 hours/year. $99/year ÷ 110 hours = $0.90/hour saved. Your time is worth more than that.
+A: If you're spending 3+ hours per week on coordination (156 hours/year), and AI reduces that by 70%, you save 110 hours/year. $7.99/month ÷ 110 hours = $0.90/hour saved. Your time is worth more than that.
 
 **Q: We tried a family app before and it didn't stick. Why would this be different?**  
 A: Voice control is the difference. Previous attempts failed because typing into apps adds friction. Voice is faster than texting, so adoption is natural. Also, AI generates lists automatically—people don't abandon a system that does the work for them.
@@ -665,7 +665,7 @@ A: Voice control is the difference. Previous attempts failed because typing into
 
 **If you have 5+ of these signs:** You need AI-powered automation. Your family has exceeded manual coordination capacity.
 
-**The investment:** $99/year  
+**The investment:** $7.99/month  
 **The return:** 150-250 hours reclaimed, dramatically reduced stress, improved family relationships
 
 **Most families cross the threshold around 3 kids or when both parents work full-time.** If you're reading this article, you probably already know you need help.

@@ -32,7 +32,7 @@ This comparison will show you exactly what you're missing—and whether it's wor
 
 ---
 
-**Quick Answer:** **Honeydew** is the better choice for most families in 2025, especially those wanting AI automation, voice control, multi-family coordination (divorced parents, extended family), or modern technology. While **Cozi** offers simplicity and has a decade of family-focused development, it lacks any AI features, has no voice input, is limited to single-family households, and feels dated compared to modern alternatives. Honeydew delivers 3-5 hours of time savings per week through its 27-tool AI agent, natural language processing, and Whisper AI voice control—features Cozi simply doesn't have. However, Cozi remains a solid choice for families wanting the absolute simplest calendar and list app with no AI features, especially on tight budgets (Cozi is cheaper at $29.99/year vs Honeydew's $9.99/month).
+**Quick Answer:** **Honeydew** is the better choice for most families in 2025, especially those wanting AI automation, voice control, multi-family coordination (divorced parents, extended family), or modern technology. While **Cozi** offers simplicity and has a decade of family-focused development, it lacks any AI features, has no voice input, is limited to single-family households, and feels dated compared to modern alternatives. Honeydew delivers 3-5 hours of time savings per week through its 27-tool AI agent, natural language processing, and Whisper AI voice control—features Cozi simply doesn't have. However, Cozi remains a solid choice for families wanting the absolute simplest calendar and list app with no AI features, especially on tight budgets (Cozi is cheaper at $29.99/year vs Honeydew's $7.99/month).
 
 ---
 
@@ -393,7 +393,7 @@ Many families use their personal Google/Apple Calendar for work, personal, and f
 - Lists and tasks
 - No ads ever
 
-**Premium ($9.99/month or $99/year):**
+**Premium ($7.99/month or $7.99/month):**
 - **Everything in Free, plus:**
 - Unlimited AI requests
 - Whisper AI voice input (unlimited)
@@ -419,14 +419,14 @@ Many families use their personal Google/Apple Calendar for work, personal, and f
 **Time savings:**
 - Average family saves 3-5 hours per week with Honeydew's AI
 - 4 hours/week × 52 weeks = 208 hours/year
-- $99/year ÷ 208 hours = **$0.48 per hour saved**
+- $7.99/month ÷ 208 hours = **$0.48 per hour saved**
 
 **You're essentially being paid to use Honeydew** when you account for time saved.
 
 **Winner: Depends on budget**
 - **Tightest budget:** Cozi Free ($0)
 - **Budget-conscious:** Cozi Gold ($30/year)
-- **Value AI & time savings:** Honeydew Premium ($99/year)
+- **Value AI & time savings:** Honeydew Premium ($7.99/month)
 - **Large family wanting AI:** Honeydew Family ($149/year)
 
 ---
@@ -626,7 +626,7 @@ She tells Maria: *"This one I actually use!"*
 - Free tier works but doesn't need most features
 - AI feels like overkill for simple needs
 - Wants to use voice but free tier limited to 50 requests/month
-- Would need to pay $99/year for full features
+- Would need to pay $7.99/month for full features
 
 **With Cozi:**
 - Free version with ads is annoying but usable
@@ -698,7 +698,7 @@ She tells Maria: *"This one I actually use!"*
 - Love the modern design
 - Knowledge graph learning impresses them
 - Show it off to friends
-- Worth every penny of $99/year
+- Worth every penny of $7.99/month
 
 **Winner for Williams family: Honeydew** (Cozi feels like a relic to tech-savvy users)
 
@@ -754,7 +754,7 @@ Despite Honeydew winning most categories, **Cozi is legitimately better for some
 ✅ **You value modern technology** (2024 standards vs 2005)  
 ✅ **You want two-way calendar sync** (essential if using Google/Apple Calendar)  
 ✅ **You have complex family coordination needs** (Honeydew scales to complexity)  
-✅ **Time is more valuable than money** ($99/year for 200+ hours saved is a steal)  
+✅ **Time is more valuable than money** ($7.99/month for 200+ hours saved is a steal)  
 ✅ **You're tech-comfortable** (Honeydew is intuitive but has more features to learn)  
 
 ---
@@ -816,7 +816,7 @@ Despite Honeydew winning most categories, **Cozi is legitimately better for some
 - Technology that learns and improves
 - Time savings pay for the subscription multiple times over
 
-**Investment worth it?** If your time is worth $5/hour, Honeydew pays for itself ($99/year ÷ 200 hours saved = $0.50/hour). For most working parents, time is worth way more than $5/hour.
+**Investment worth it?** If your time is worth $5/hour, Honeydew pays for itself ($7.99/month ÷ 200 hours saved = $0.50/hour). For most working parents, time is worth way more than $5/hour.
 
 ### For Budget-Conscious Families: Try Both
 

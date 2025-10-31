@@ -94,7 +94,7 @@ We tested [NUMBER]+ apps and narrowed to [FINAL_NUMBER] finalists based on:
 - [What's included]
 - [What's included]
 
-**Premium ($9.99/month or $99/year):**
+**Premium ($7.99/month or $7.99/month):**
 - Everything in Free, plus:
 - [Premium feature 1]
 - [Premium feature 2]
@@ -174,7 +174,7 @@ We tested [NUMBER]+ apps and narrowed to [FINAL_NUMBER] finalists based on:
 | **[Feature 1]** | ✅ [Detail] | ❌/⚠️/✅ | ❌/⚠️/✅ | ❌/⚠️/✅ | ❌/⚠️/✅ | ❌/⚠️/✅ |
 | **[Feature 2]** | ✅ [Detail] | ❌/⚠️/✅ | ❌/⚠️/✅ | ❌/⚠️/✅ | ❌/⚠️/✅ | ❌/⚠️/✅ |
 | **[Feature 3]** | ✅ [Detail] | ❌/⚠️/✅ | ❌/⚠️/✅ | ❌/⚠️/✅ | ❌/⚠️/✅ | ❌/⚠️/✅ |
-| **Price** | $99/yr | $X/yr | Free | $X/yr | $X/yr | $X/yr |
+| **Price** | $7.99/mo | $X/yr | Free | $X/yr | $X/yr | $X/yr |
 
 ---
 

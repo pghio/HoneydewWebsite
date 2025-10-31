@@ -551,7 +551,7 @@ A: Absolutely! Many couples use Honeydew to digitize their existing physical car
 A: Honeydew uses enterprise-grade encryption and doesn't share or sell your family data. Your Fair Play implementation stays completely private within your family.
 
 **Q: How much does this cost?**
-A: Honeydew Premium is $9.99/month or $99/year. The Fair Play implementation features are included. No separate cost for card templates or AI features.
+A: Honeydew Premium is $7.99/month or $7.99/month. The Fair Play implementation features are included. No separate cost for card templates or AI features.
 
 **Q: How long does it take to see results?**
 A: Most couples report 40-50% mental load reduction within the first 30 days. By 90 days, the average reduction is 75-85% with significant relationship improvements.

@@ -255,7 +255,7 @@ image: "/blog-images/multi-family-coordination.jpg"
 - Unlimited members per group
 - Basic features
 
-**Premium ($9.99/month or $99/year):**
+**Premium ($7.99/month or $7.99/month):**
 - **Still unlimited groups** ✅
 - Advanced AI features
 - Voice control
@@ -472,7 +472,7 @@ image: "/blog-images/multi-family-coordination.jpg"
 | **Group Member Management** | ✅ Role-based | ❌ | ⚠️ Per-calendar | ⚠️ Per-calendar | ❌ |
 | **Group Notifications** | ✅ Context-aware | ❌ | ⚠️ All or nothing | ⚠️ Per calendar | ❌ |
 | **Group Lists + Calendar** | ✅ Integrated | ❌ | ❌ Separate apps | ❌ Calendar only | ❌ |
-| **Price** | $99/yr (unlimited groups) | $30/yr (1 group) | Free (DIY) | Free (multiple cals) | Varies |
+| **Price** | $7.99/mo (unlimited groups) | $30/yr (1 group) | Free (DIY) | Free (multiple cals) | Varies |
 
 **Clear winner for multi-family: Honeydew** (not even close)
 

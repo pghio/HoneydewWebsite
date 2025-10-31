@@ -12,7 +12,7 @@ image: "/blog-images/honeydew-vs-skylight-calendar.jpg"
 
 # Honeydew vs Skylight Calendar: Which Family Organizer is Better in 2025?
 
-**Quick Answer:** **Honeydew** is the better choice for most families in 2025, especially those wanting AI automation, voice control, comprehensive planning features, and device flexibility without buying new hardware. While **Skylight Calendar** offers a beautiful wall-mounted display and visual presence in your kitchen, it costs $300+ for hardware plus $79/year for premium features, lacks AI capabilities, has limited functionality beyond basic calendar viewing, and can't be used while traveling. Honeydew delivers 3-5 hours of time savings per week through its 27-tool AI agent, voice control, photo recognition, and works on all your existing devices at a fraction of the cost ($0-$99/year vs Skylight's $379 first year). However, Skylight remains a solid choice for families specifically wanting a dedicated kitchen display and don't need planning help or mobile access.
+**Quick Answer:** **Honeydew** is the better choice for most families in 2025, especially those wanting AI automation, voice control, comprehensive planning features, and device flexibility without buying new hardware. While **Skylight Calendar** offers a beautiful wall-mounted display and visual presence in your kitchen, it costs $300+ for hardware plus $79/year for premium features, lacks AI capabilities, has limited functionality beyond basic calendar viewing, and can't be used while traveling. Honeydew delivers 3-5 hours of time savings per week through its 27-tool AI agent, voice control, photo recognition, and works on all your existing devices at a fraction of the cost ($0-$7.99/month vs Skylight's $379 first year). However, Skylight remains a solid choice for families specifically wanting a dedicated kitchen display and don't need planning help or mobile access.
 
 ---
 
@@ -311,7 +311,7 @@ All managed in one app with instant group switching.
 | **Works While Traveling** | ✅ Yes | ❌ No (display at home) |
 | **Device Flexibility** | ✅ iOS, Android, Web | ⚠️ Display + limited app |
 | **Learning Capabilities** | ✅ Gets smarter over time | ❌ Static functionality |
-| **First Year Cost** | Free–$99/yr | $300-$400 + $79/yr = **$379-$479** |
+| **First Year Cost** | Free–$7.99/mo (Honeydew More) | $300-$400 + $79/yr = **$379-$479** |
 | **Ongoing Annual Cost** | $0-$99 | $79 (Premium required for features) |
 
 **Summary:**
@@ -463,7 +463,7 @@ All managed in one app with instant group switching.
 - Calendar sync
 - Basic lists
 
-**Premium ($9.99/month or $99/year):**
+**Premium ($7.99/month or $7.99/month):**
 - Unlimited AI requests
 - Unlimited family groups
 - Advanced features
@@ -559,7 +559,7 @@ Despite Honeydew winning most categories, **Skylight Calendar is legitimately be
 > *"Skylight looked beautiful on our kitchen wall, but it was useless when I was at work or the grocery store—which is when I actually needed to coordinate. I'd forget to add items to the list because I couldn't do it from my phone. With Honeydew, I add everything via voice while driving or working. The calendar lives with me, not on my wall at home."*
 
 > **Amanda, Busy Professional:**  
-> *"The Skylight was $379 for first year. Then I realized I still needed separate apps for grocery lists, packing lists, and meal planning. With Honeydew, I get all that PLUS AI planning PLUS voice control for $99/year. And I didn't need to mount anything on my wall or buy hardware. The ROI is obvious."*
+> *"The Skylight was $379 for first year. Then I realized I still needed separate apps for grocery lists, packing lists, and meal planning. With Honeydew, I get all that PLUS AI planning PLUS voice control for $7.99/month. And I didn't need to mount anything on my wall or buy hardware. The ROI is obvious."*
 
 ---
 
@@ -625,7 +625,7 @@ Despite Honeydew winning most categories, **Skylight Calendar is legitimately be
 
 **For 80%+ of families, Honeydew is the better choice** because:
 1. More features (AI, voice, photo, lists, meal planning)
-2. Less cost ($0-$99/year vs $379+ first year)
+2. Less cost ($0-$7.99/month vs $379+ first year)
 3. Better flexibility (works everywhere, not just kitchen wall)
 4. Smarter over time (AI learns your family)
 5. Modern family architecture (multi-family support)
@@ -664,7 +664,7 @@ A: Honeydew. We have two-way sync (changes flow both directions), while Skylight
 A: No. Skylight's single-family architecture doesn't support this. You'd need two separate displays and subscriptions ($758+ first year) and even then couldn't coordinate across households. Honeydew's multi-family architecture is purpose-built for this exact scenario.
 
 **Q: Does the free version of Honeydew work as well as Skylight?**  
-A: Honeydew's free tier includes calendar sync, basic lists, and limited AI—already more features than Skylight. Honeydew Premium ($99/year) adds unlimited AI, advanced features, and multi-family support, and still costs $280 less than Skylight's first year.
+A: Honeydew's free tier includes calendar sync, basic lists, and limited AI—already more features than Skylight. Honeydew Premium ($7.99/month) adds unlimited AI, advanced features, and multi-family support, and still costs $280 less than Skylight's first year.
 
 **Q: What if my wall-mounted Skylight breaks?**  
 A: You'll need to buy a new display ($179-$399). With Honeydew, if your phone breaks, your account and data are safe—just log in on any device. No dedicated hardware means no hardware failure risk.

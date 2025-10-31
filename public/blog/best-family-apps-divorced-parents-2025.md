@@ -242,7 +242,7 @@ Gets smarter over time.
 - Calendar sync (1-hour intervals)
 - Good for testing
 
-**Premium ($9.99/month or $99/year per parent):**
+**Premium ($7.99/month or $7.99/month per parent):**
 - Unlimited AI requests
 - Whisper AI voice control
 - 15-minute calendar sync
@@ -332,7 +332,7 @@ OurFamilyWizard is the gold standard for **high-conflict co-parenting** where le
 
 ### Pricing
 
-**Standard ($99/year per parent):**
+**Standard ($7.99/month per parent):**
 - All core features
 
 **Premium ($199/year per parent):**
@@ -528,7 +528,7 @@ Coparently (formerly 2Houses) is built specifically for divorced parents. It has
 - Basic calendar
 - Basic messaging
 
-**Premium ($12.99/month or $99/year per parent):**
+**Premium ($12.99/month or $7.99/month per parent):**
 - All features
 - Document storage
 - Expense tracking
@@ -539,7 +539,7 @@ Coparently (formerly 2Houses) is built specifically for divorced parents. It has
 ✅ Medium-conflict situations  
 
 ### Why You Might Choose Honeydew Instead
-Similar price to Honeydew ($99/year), but Honeydew offers AI, voice control, modern interface, and household management—features Coparently lacks.
+Similar price to Honeydew ($7.99/month), but Honeydew offers AI, voice control, modern interface, and household management—features Coparently lacks.
 
 ---
 
@@ -591,7 +591,7 @@ Talking Parents is similar to OurFamilyWizard—emphasis on accountable communic
 **Free (limited):**
 - Basic calendar and messaging
 
-**Premium ($9.99/month or $99/year per parent):**
+**Premium ($7.99/month or $7.99/month per parent):**
 - Unlimited messaging
 - Document storage
 - Payment tracking
@@ -847,7 +847,7 @@ A: You can still use Honeydew for your household organization. Sync your kids' s
 A: Yes, but it's basic (attach expense notes to events, create shared expense lists). For robust expense tracking with reimbursement requests, OurFamilyWizard or Coparently are better. For integrated coordination + basic expenses, Honeydew works well.
 
 **Q: Is Honeydew worth paying for if my ex won't split the cost?**  
-A: Even paying full $99/year yourself is worth it for time savings (3-5 hours/week) and stress reduction. Your time is valuable. $99/year ÷ 150 hours saved = $0.66/hour. Your time is worth more than that.
+A: Even paying full $7.99/month yourself is worth it for time savings (3-5 hours/week) and stress reduction. Your time is valuable. $7.99/month ÷ 150 hours saved = $0.66/hour. Your time is worth more than that.
 
 ---
 
@@ -970,7 +970,7 @@ A: Even paying full $99/year yourself is worth it for time savings (3-5 hours/we
    - One app handles it all
    - "Only app that works for blended families"
 
-9. **"What $99/year gets you as a divorced parent"** (60 sec)
+9. **"What $7.99/month gets you as a divorced parent"** (60 sec)
    - Time saved: 4 hours/week = 200 hours/year
    - Stress reduced: Dramatically
    - Coordination texts: 80% reduction

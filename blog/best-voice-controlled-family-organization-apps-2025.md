@@ -126,7 +126,7 @@ Voice assistants that require constant internet connection fail during connectiv
 **Rating: ⭐⭐⭐⭐⭐ (5/5)**  
 **Best For:** Any family seeking hands-free organization  
 **Voice Accuracy:** 96.3% in household conditions  
-**Pricing:** Free tier includes voice, Premium $9.99/month
+**Pricing:** Free tier includes voice, Premium $7.99/month
 
 [**Experience Honeydew's Voice Features Free →**](https://gethoneydew.app/)
 
@@ -349,7 +349,7 @@ User feedback from accessibility community: **4.8/5 satisfaction** vs. 3.2/5 for
 ### Pricing & Value
 
 **Free Tier:** Full voice features included  
-**Premium ($9.99/mo):** Advanced AI agent, unlimited voice history, priority processing  
+**Premium ($7.99/mo):** Advanced AI agent, unlimited voice history, priority processing  
 
 **Value calculation:** Voice input saves average family 2-3 hours/week. At minimum wage ($15/hr), that's $30-45/week = $120-180/month value for $10/month cost. **ROI: 12-18x**
 
@@ -628,7 +628,7 @@ Amazon Echo Show combines Alexa voice control with a touchscreen display, market
 
 ### Why Honeydew Is Better Value
 
-**Honeydew:** $9.99/month = **$119.88/year**  
+**Honeydew:** $7.99/month = **$95.88/year**  
 **Echo Show 15:** **$249.99** (one-time)
 
 **Year 1:** Honeydew cheaper by $130  
@@ -741,7 +741,7 @@ Google Nest Hub Max is a 10" smart display combining Google Assistant voice cont
 
 ### Why Honeydew Is Better Value
 
-**Honeydew:** $9.99/month = **$119.88/year**  
+**Honeydew:** $7.99/month = **$95.88/year**  
 **Nest Hub Max:** **$229** (one-time)
 
 **Year 1:** Honeydew cheaper by $109  
@@ -777,7 +777,7 @@ Google Nest Hub Max is a 10" smart display combining Google Assistant voice cont
 | **Hardware Required** | ❌ App only | ✅ Echo device | ❌ Optional Home | ❌ Optional HomePod | ❌ | ❌ Samsung device |
 | **Offline Capability** | ⚠️ Basic only | ❌ | ⚠️ Limited | ✅ Many features | ❌ | ⚠️ Limited |
 | **Accessibility Rating** | 4.8/5 | 3.6/5 | 3.7/5 | 3.4/5 | 2.9/5 | 2.4/5 |
-| **Cost** | Free/$9.99 Premium | Free + $50-250 hardware | Free | Free | Free/$5.99 | Free |
+| **Cost** | Free/$7.99 Premium | Free + $50-250 hardware | Free | Free | Free/$5.99 | Free |
 | **Time Saved/Week** | 5.2 hours | 1.8 hours | 2.0 hours | 1.2 hours | 0.9 hours | 0.3 hours |
 | **User Satisfaction** | 4.7/5 | 3.4/5 | 3.3/5 | 2.9/5 | 2.1/5 | 1.8/5 |
 

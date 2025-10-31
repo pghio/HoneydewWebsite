@@ -11,7 +11,7 @@ featured: true
 
 # Honeydew vs TimeTree: Which Family Calendar is Better in 2025?
 
-**Quick Answer:** **TimeTree** is an excellent free family calendar with unique social features (comments, reactions, photo sharing per event), making it ideal for families who primarily need calendar-only coordination and enjoy social interactions around events. However, **Honeydew** is the superior choice for families needing comprehensive organization through its 27-tool AI agent, Whisper AI voice control, integrated list management, and multi-family architecture. The key difference: TimeTree is a calendar with social features; Honeydew is an AI-powered family coordination system. TimeTree is completely free (ad-supported) making it unbeatable for budget-conscious families wanting just a calendar, while Honeydew ($99/year) delivers 3-5 hours per week in time savings through AI automation, making it the better investment for busy families spending significant time on coordination.
+**Quick Answer:** **TimeTree** is an excellent free family calendar with unique social features (comments, reactions, photo sharing per event), making it ideal for families who primarily need calendar-only coordination and enjoy social interactions around events. However, **Honeydew** is the superior choice for families needing comprehensive organization through its 27-tool AI agent, Whisper AI voice control, integrated list management, and multi-family architecture. The key difference: TimeTree is a calendar with social features; Honeydew is an AI-powered family coordination system. TimeTree is completely free (ad-supported) making it unbeatable for budget-conscious families wanting just a calendar, while Honeydew ($7.99/month) delivers 3-5 hours per week in time savings through AI automation, making it the better investment for busy families spending significant time on coordination.
 
 ---
 
@@ -329,7 +329,7 @@ If you use both calendars, you must decide where to create events. Create in Tim
 - Lists and tasks
 - No ads
 
-**Premium ($9.99/month or $99/year):**
+**Premium ($7.99/month or $7.99/month):**
 - Unlimited AI requests
 - Whisper AI voice control
 - 15-minute calendar sync
@@ -353,7 +353,7 @@ If you use both calendars, you must decide where to create events. Create in Tim
 **Honeydew: Time-Saving Investment**
 - Reduce coordination time by 80% (save 3-5 hours per week)
 - 200+ hours saved per year
-- $99/year ÷ 200 hours = $0.50 per hour saved
+- $7.99/month ÷ 200 hours = $0.50 per hour saved
 - Excellent ROI if your time is worth more than $0.50/hour (it is)
 
 **Winner: Depends on priorities**
@@ -410,7 +410,7 @@ If you use both calendars, you must decide where to create events. Create in Tim
 - ⚠️ All manual entry (no AI)
 
 **Honeydew:**
-- ⚠️ Would need to pay $99/year
+- ⚠️ Would need to pay $7.99/month
 - ✅ AI and lists would help
 - ❌ Don't value AI features enough to pay for them
 - ❌ Social features less developed
@@ -446,7 +446,7 @@ If you use both calendars, you must decide where to create events. Create in Tim
 - ✅ Lists attach to calendar events (one app, complete picture)
 - ✅ Smart notifications reduce coordination texts 70%
 - ✅ Time saved: 4 hours per week
-- ✅ $99/year ÷ 200 hours = $0.50/hour (excellent ROI)
+- ✅ $7.99/month ÷ 200 hours = $0.50/hour (excellent ROI)
 - **Coordination time drops to 1 hour/week**
 
 **Winner for Martinez family: Honeydew**
@@ -507,7 +507,7 @@ If you use both calendars, you must decide where to create events. Create in Tim
 
 **Honeydew:**
 - ⚠️ AI would help but not essential
-- ⚠️ $99/year is outside budget
+- ⚠️ $7.99/month is outside budget
 - ⚠️ Features feel like overkill for simple needs
 
 **Winner for Wilson family: TimeTree**
@@ -615,7 +615,7 @@ If you use both calendars, you must decide where to create events. Create in Tim
 - Want integrated lists + calendar
 - Manage multi-household coordination
 
-**Honeydew is worth the investment.** $99/year for 200+ hours saved is exceptional ROI.
+**Honeydew is worth the investment.** $7.99/month for 200+ hours saved is exceptional ROI.
 
 ---
 
@@ -639,7 +639,7 @@ For most busy families in 2025, **time is the scarcest resource**, making Honeyd
 1. Continue using TimeTree (keep what works)
 2. Add Honeydew (free tier)
 3. Test AI features for 2-3 weeks
-4. Evaluate: Do time savings justify $99/year?
+4. Evaluate: Do time savings justify $7.99/month?
 
 **No risk, no commitment. Just real-world testing.**
 
@@ -738,9 +738,9 @@ For most busy families in 2025, **time is the scarcest resource**, making Honeyd
    - Create anywhere, appears everywhere
    - "This matters more than you think"
 
-8. **"$99/year saved me 200 hours"** (60 sec)
+8. **"$7.99/month saved me 200 hours"** (60 sec)
    - TimeTree: Free but manual (5 hours/week)
-   - Honeydew: $99/year with AI (1 hour/week)
+   - Honeydew: $7.99/month with AI (1 hour/week)
    - 4 hours saved × 52 weeks = 208 hours
    - $99 ÷ 208 hours = $0.48 per hour saved
    - "Best investment I made"

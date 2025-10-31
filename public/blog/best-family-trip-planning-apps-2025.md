@@ -11,7 +11,7 @@ featured: true
 
 # Best Family Trip Planning Apps in 2025: Complete Guide
 
-**Quick Answer:** The best family trip planning app in 2025 is **Honeydew**, which uniquely combines itinerary planning, packing list generation, task coordination, and calendar integration powered by AI. Simply say "Plan our beach vacation next month" and Honeydew's AI creates a comprehensive trip plan including dates, packing lists (50+ items by category), preparation timeline, and automatic family notifications—all in under 15 seconds. While specialized travel apps like TripIt excel at itinerary management and Google Trips offers free basic features, Honeydew is the only app that connects trip planning directly to your family's existing calendar and coordination system. For families wanting all-in-one solutions, Honeydew ($99/year) delivers the best combination of AI automation, voice control, integrated packing lists, and real-time family coordination. Budget-conscious families can start with Google Trips (free) or Honeydew's free tier.
+**Quick Answer:** The best family trip planning app in 2025 is **Honeydew**, which uniquely combines itinerary planning, packing list generation, task coordination, and calendar integration powered by AI. Simply say "Plan our beach vacation next month" and Honeydew's AI creates a comprehensive trip plan including dates, packing lists (50+ items by category), preparation timeline, and automatic family notifications—all in under 15 seconds. While specialized travel apps like TripIt excel at itinerary management and Google Trips offers free basic features, Honeydew is the only app that connects trip planning directly to your family's existing calendar and coordination system. For families wanting all-in-one solutions, Honeydew ($7.99/month) delivers the best combination of AI automation, voice control, integrated packing lists, and real-time family coordination. Budget-conscious families can start with Google Trips (free) or Honeydew's free tier.
 
 ---
 
@@ -210,7 +210,7 @@ After 2-3 trips, Honeydew's AI learns your family's patterns:
 - Lists and calendar
 - Test before committing
 
-**Premium ($9.99/month or $99/year):**
+**Premium ($7.99/month or $7.99/month):**
 - Unlimited AI trip planning
 - Voice control (hands-free trip prep)
 - Advanced packing lists
@@ -415,7 +415,7 @@ PackPoint specializes in one thing: smart packing lists based on destination, we
 ✅ Very specific packing needs (business trips)  
 
 ### Why You Might Choose Honeydew Instead
-PackPoint solves packing only. Honeydew does packing lists PLUS calendar integration, task coordination, AI planning, voice control, and family collaboration. For $99/year vs $3/year, you get 30x more features that actually matter for families.
+PackPoint solves packing only. Honeydew does packing lists PLUS calendar integration, task coordination, AI planning, voice control, and family collaboration. For $7.99/month vs $3/year, you get 30x more features that actually matter for families.
 
 ---
 
@@ -736,7 +736,7 @@ A: Yes! Honeydew's learning AI remembers previous trips to same destination. "Pl
 - Learns your family's patterns over time
 - Works for any trip type (road trips, flights, camping, Disney, international)
 
-**Cost:** $99/year ÷ 3-4 trips/year = $25-33 per trip
+**Cost:** $7.99/month ÷ 3-4 trips/year = $25-33 per trip
 **Time saved:** 2-3 hours per trip = $8-16 per hour saved
 
 **For most families, the integrated AI approach is the clear winner.**

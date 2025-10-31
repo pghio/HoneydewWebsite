@@ -521,13 +521,23 @@ const BlogPostPage = () => {
                 
                 // Enhanced paragraphs with emoji highlighting
                 p: ({node, children, ...props}) => {
-                  const content = String(children)
+                  // Only process simple text content, not complex React elements
+                  const isSimpleText = typeof children === 'string' || 
+                    (Array.isArray(children) && children.every(child => typeof child === 'string'))
+                  
+                  if (!isSimpleText) {
+                    // Has complex children (links, bold, etc) - render normally
+                    return <p className="text-gray-700 leading-relaxed mb-6 text-lg" {...props}>{children}</p>
+                  }
+
+                  const content = Array.isArray(children) ? children.join('') : String(children)
+                  
                   // Highlight special markers
                   if (content.includes('✅')) {
                     return (
                       <div className="flex items-start gap-3 p-4 bg-green-50 border-l-4 border-green-500 rounded-r-lg my-4">
                         <span className="text-green-500 text-xl flex-shrink-0 mt-1">✅</span>
-                        <p className="text-gray-700 flex-1 m-0" {...props}>{content.replace('✅', '').trim()}</p>
+                        <p className="text-gray-700 flex-1 m-0">{content.replace('✅', '').trim()}</p>
                       </div>
                     )
                   }
@@ -535,7 +545,7 @@ const BlogPostPage = () => {
                     return (
                       <div className="flex items-start gap-3 p-4 bg-red-50 border-l-4 border-red-500 rounded-r-lg my-4">
                         <span className="text-red-500 text-xl flex-shrink-0 mt-1">❌</span>
-                        <p className="text-gray-700 flex-1 m-0" {...props}>{content.replace('❌', '').trim()}</p>
+                        <p className="text-gray-700 flex-1 m-0">{content.replace('❌', '').trim()}</p>
                       </div>
                     )
                   }
@@ -543,7 +553,7 @@ const BlogPostPage = () => {
                     return (
                       <div className="flex items-start gap-3 p-4 bg-yellow-50 border-l-4 border-yellow-500 rounded-r-lg my-4">
                         <span className="text-yellow-500 text-xl flex-shrink-0 mt-1">⚠️</span>
-                        <p className="text-gray-700 flex-1 m-0" {...props}>{content.replace('⚠️', '').trim()}</p>
+                        <p className="text-gray-700 flex-1 m-0">{content.replace('⚠️', '').trim()}</p>
                       </div>
                     )
                   }

@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { Heart, Menu, X, ChevronDown } from 'lucide-react'
 import { useState } from 'react'
+import { trackLinkClick } from '../utils/analytics'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -16,6 +17,8 @@ const Navbar = () => {
     { title: 'vs. Google Calendar', href: '/why-honeydew/vs-google' },
     { title: 'vs. Mango Display', href: '/why-honeydew/vs-mango' },
   ]
+
+  const navCtaHref = 'https://app.gethoneydew.app/?utm_source=website&utm_medium=nav&utm_campaign=primary_cta'
 
   return (
     <motion.nav
@@ -83,10 +86,18 @@ const Navbar = () => {
               whileTap={{ scale: 0.95 }}
             >
               <a
-                href="https://app.gethoneydew.app/"
+                href={navCtaHref}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary-500 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-600 transition-colors inline-block"
+                onClick={() =>
+                  trackLinkClick({
+                    href: navCtaHref,
+                    source: 'navbar',
+                    variant: 'desktop',
+                    medium: 'navigation',
+                  })
+                }
               >
                 Try Honeydew
               </a>
@@ -142,10 +153,18 @@ const Navbar = () => {
 
               <a href="#how-it-works" className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
               <a
-                href="https://app.gethoneydew.app/"
+                href={navCtaHref}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary-500 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-600 transition-colors w-full inline-block text-center"
+                onClick={() =>
+                  trackLinkClick({
+                    href: navCtaHref,
+                    source: 'navbar',
+                    variant: 'mobile',
+                    medium: 'navigation',
+                  })
+                }
               >
                 Try Honeydew
               </a>

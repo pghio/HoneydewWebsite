@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
+import { trackPageView } from './utils/analytics'
 import Navbar from './components/Navbar'
 import HomePage from './pages/HomePage'
 import AppPage from './pages/AppPage'
@@ -32,19 +33,7 @@ function AppContent() {
   const isSpecialPage = ['/help', '/docs', '/api', '/community', '/privacy', '/terms', '/cookies', '/security', '/blog-preview'].includes(location.pathname) || location.pathname.startsWith('/blog-preview/')
 
   useEffect(() => {
-    if (typeof window === 'undefined') {
-      return
-    }
-
-    const gtag = (window as typeof window & { gtag?: (...args: unknown[]) => void }).gtag
-
-    if (gtag) {
-      gtag('event', 'page_view', {
-        page_path: location.pathname + location.search,
-        page_location: window.location.href,
-        page_title: document.title
-      })
-    }
+    trackPageView()
   }, [location.pathname, location.search])
 
   return (

@@ -1,10 +1,14 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { ArrowRight, Star, Users, Zap } from 'lucide-react'
+import { trackLinkClick } from '../utils/analytics'
 
 const CallToAction = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
+
+  const trialHref =
+    'https://app.gethoneydew.app/?utm_source=website&utm_medium=cta_section&utm_campaign=primary_cta'
 
   const stats = [
     { icon: Users, value: '50K+', label: 'Families Organized' },
@@ -64,10 +68,17 @@ const CallToAction = () => {
                 whileTap={{ scale: 0.95 }}
               >
                 <a
-                  href="https://app.gethoneydew.app/"
+                  href={trialHref}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group bg-white text-primary-600 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-gray-50 transition-all duration-300 flex items-center gap-3 shadow-xl inline-block"
+                  onClick={() =>
+                    trackLinkClick({
+                      href: trialHref,
+                      source: 'call_to_action',
+                      medium: 'page_section',
+                    })
+                  }
                 >
                   Start Your Free Trial
                   <motion.div

@@ -1,6 +1,7 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef, useState } from 'react'
 import { ChevronDown, ChevronUp, Heart, BookOpen, Lightbulb } from 'lucide-react'
+import { trackLinkClick } from '../utils/analytics'
 
 const faqs = [
   {
@@ -86,6 +87,8 @@ const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0) // Open first question by default to show story
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
+  const faqCtaHref =
+    'https://app.gethoneydew.app/?utm_source=website&utm_medium=faq&utm_campaign=secondary_cta'
 
   return (
     <section id="faq" className="py-20 bg-gradient-to-br from-gray-50 to-white">
@@ -176,12 +179,19 @@ const FAQ = () => {
               Join 2,400+ families who use Honeydew to save time and reduce stress every week.
             </p>
             <motion.a
-              href="https://app.gethoneydew.app/"
+              href={faqCtaHref}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-primary-600 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-50 transition-colors inline-block"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={() =>
+                trackLinkClick({
+                  href: faqCtaHref,
+                  source: 'faq',
+                  medium: 'page_section',
+                })
+              }
             >
               Try Honeydew Free
             </motion.a>

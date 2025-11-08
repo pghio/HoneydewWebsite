@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import useSEO from '../utils/useSEO'
 import { useLocation } from 'react-router-dom'
+import { trackLinkClick } from '../utils/analytics'
 
 interface ComparisonPageProps {
   competitor: string
@@ -41,6 +42,9 @@ const ComparisonPage = ({
     image: '/og-image-ai.jpg',
     type: 'website'
   })
+
+  const competitorSlug = competitor.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || 'comparison'
+  const comparisonCtaHref = `https://app.gethoneydew.app/?utm_source=website&utm_medium=why_honeydew&utm_campaign=comparison_page&utm_content=${encodeURIComponent(competitorSlug)}`
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-blue-50">
@@ -103,12 +107,21 @@ const ComparisonPage = ({
                 ))}
               </div>
               <motion.a
-                href="https://app.gethoneydew.app/"
+                href={comparisonCtaHref}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-6 bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-50 transition-all duration-200 flex items-center justify-center gap-2 w-full"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
+                onClick={() =>
+                  trackLinkClick({
+                    href: comparisonCtaHref,
+                    source: 'why_honeydew',
+                    variant: 'compare-card',
+                    medium: 'page_section',
+                    additionalParams: { competitor },
+                  })
+                }
               >
                 Try Honeydew Free
                 <ArrowRight className="w-5 h-5" />
@@ -214,12 +227,21 @@ const ComparisonPage = ({
               Join thousands of families using Honeydew's AI to save hours every week on planning and coordination.
             </p>
             <motion.a
-              href="https://app.gethoneydew.app/"
+              href={comparisonCtaHref}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-purple-600 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-yellow-50 transition-all duration-200 inline-flex items-center gap-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={() =>
+                trackLinkClick({
+                  href: comparisonCtaHref,
+                  source: 'why_honeydew',
+                  variant: 'final-cta',
+                  medium: 'page_section',
+                  additionalParams: { competitor },
+                })
+              }
             >
               Try Honeydew Free
               <ArrowRight className="w-5 h-5" />

@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import Footer from '../components/Footer'
+import { trackLinkClick } from '../utils/analytics'
 
 const BlogPostPage = () => {
   const { slug } = useParams()
@@ -379,6 +380,8 @@ const BlogPostPage = () => {
     )
   }
 
+  const blogCtaHref = `https://app.gethoneydew.app/?utm_source=blog&utm_medium=organic&utm_campaign=blog_cta&utm_content=${encodeURIComponent(slug ?? 'blog')}`
+
   return (
     <>
       <motion.div
@@ -510,13 +513,13 @@ const BlogPostPage = () => {
                 
                 // Styled lists with better spacing
                 ul: ({node, ...props}) => (
-                  <ul className="space-y-3 my-6 ml-6" {...props} />
+                  <ul className="list-disc space-y-3 my-6 pl-6 marker:text-[#92C5A7] marker:font-semibold" {...props} />
                 ),
                 ol: ({node, ...props}) => (
-                  <ol className="space-y-3 my-6 ml-6" {...props} />
+                  <ol className="list-decimal space-y-3 my-6 pl-6 marker:text-[#92C5A7] marker:font-semibold" {...props} />
                 ),
                 li: ({node, ...props}) => (
-                  <li className="text-gray-700 leading-relaxed text-lg pl-2" {...props} />
+                  <li className="text-gray-700 leading-relaxed text-lg" {...props} />
                 ),
                 
                 // Enhanced paragraphs with emoji highlighting
@@ -589,12 +592,22 @@ const BlogPostPage = () => {
               Join thousands of families using Honeydew's AI-powered coordination
             </p>
             <motion.a
-              href="https://app.gethoneydew.app/"
+              href={blogCtaHref}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-white text-[#92C5A7] px-8 py-4 rounded-lg font-bold hover:bg-gray-50 transition-colors shadow-md"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={() =>
+                trackLinkClick({
+                  href: blogCtaHref,
+                  source: 'blog_post_footer',
+                  label: frontmatter.title ?? slug ?? 'blog_post',
+                  additionalParams: {
+                    blog_slug: slug,
+                  },
+                })
+              }
             >
               Try Honeydew Free
             </motion.a>

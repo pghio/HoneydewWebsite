@@ -269,3 +269,11 @@ If you see these, pause the campaign:
 
 **Ready?** Start with Campaign 1 (Google Competitor) - it's likely to have the best ROI! 🚀
 
+
+
+
+
+
+
+
+

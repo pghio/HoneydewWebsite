@@ -1,6 +1,7 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { Check, Sparkles } from 'lucide-react'
+import { trackLinkClick } from '../utils/analytics'
 
 const plans = [
   {
@@ -16,7 +17,7 @@ const plans = [
       'Mobile & web apps'
     ],
     cta: 'Start Free',
-    href: 'https://app.gethoneydew.app/',
+    href: 'https://app.gethoneydew.app/?utm_source=website&utm_medium=pricing&utm_campaign=pricing_grid&utm_content=plan-free',
     highlighted: false
   },
   {
@@ -34,7 +35,7 @@ const plans = [
       'Multi-family coordination'
     ],
     cta: 'Try 14 Days Free',
-    href: 'https://app.gethoneydew.app/',
+    href: 'https://app.gethoneydew.app/?utm_source=website&utm_medium=pricing&utm_campaign=pricing_grid&utm_content=plan-honeydew-more',
     highlighted: true,
     badge: 'Most Popular'
   },
@@ -51,7 +52,7 @@ const plans = [
       'Dedicated account support'
     ],
     cta: 'Join Waitlist',
-    href: 'https://app.gethoneydew.app/',
+    href: 'https://app.gethoneydew.app/?utm_source=website&utm_medium=pricing&utm_campaign=pricing_grid&utm_content=plan-honeydew-all',
     highlighted: false
   }
 ]
@@ -140,6 +141,18 @@ const Pricing = () => {
                   }`}
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
+                  onClick={() =>
+                    trackLinkClick({
+                      href: plan.href,
+                      source: 'pricing',
+                      variant: plan.name,
+                      medium: 'page_section',
+                      additionalParams: {
+                        pricing_plan: plan.name,
+                        pricing_highlighted: plan.highlighted,
+                      },
+                    })
+                  }
                 >
                   {plan.cta}
                 </motion.a>

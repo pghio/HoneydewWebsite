@@ -1,8 +1,11 @@
 import { motion } from 'framer-motion'
 import { ArrowLeft, ExternalLink } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import { trackLinkClick } from '../utils/analytics'
 
 const AppPage = () => {
+  const appLaunchHref = 'https://app.gethoneydew.app/?utm_source=website&utm_medium=app_preview&utm_campaign=app_launch'
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -34,12 +37,19 @@ const AppPage = () => {
           </div>
 
           <motion.a
-            href="https://app.gethoneydew.app/"
+            href={appLaunchHref}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center space-x-2 bg-primary-500 text-white px-4 py-2 rounded-lg hover:bg-primary-600 transition-colors"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() =>
+              trackLinkClick({
+                href: appLaunchHref,
+                source: 'app_page',
+                medium: 'page_section',
+              })
+            }
           >
             <span>Open Full App</span>
             <ExternalLink className="w-4 h-4" />

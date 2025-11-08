@@ -12,6 +12,7 @@ import {
   CheckCircle,
   ExternalLink
 } from 'lucide-react'
+import { trackEvent, trackLinkClick } from '../utils/analytics'
 
 interface CaseStudy {
   id: string
@@ -205,6 +206,8 @@ const BlogCaseStudies = () => {
   const [selectedCase, setSelectedCase] = useState<number | null>(null)
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
+  const caseStudiesCtaHref =
+    'https://app.gethoneydew.app/?utm_source=website&utm_medium=case_studies&utm_campaign=secondary_cta'
 
   return (
     <section id="case-studies" className="py-20 bg-gradient-to-br from-gray-50 to-white">
@@ -247,9 +250,14 @@ const BlogCaseStudies = () => {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               className="group cursor-pointer"
               onClick={() => {
-                setSelectedCase(selectedCase === index ? null : index)
-                if (selectedCase !== index && typeof window !== 'undefined' && (window as any).trackCaseStudyExpand) {
-                  (window as any).trackCaseStudyExpand(study.title)
+                const willExpand = selectedCase !== index
+                setSelectedCase(willExpand ? index : null)
+                if (willExpand) {
+                  trackEvent('case_study_expand', {
+                    event_category: 'engagement',
+                    event_label: study.title,
+                    case_study_id: study.id,
+                  })
                 }
               }}
             >
@@ -372,17 +380,19 @@ const BlogCaseStudies = () => {
               Your results may vary, but the principles work.
             </p>
             <motion.a
-              href="https://app.gethoneydew.app/"
+              href={caseStudiesCtaHref}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-purple-600 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-50 transition-colors inline-flex items-center space-x-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => {
-                if (typeof window !== 'undefined' && (window as any).trackCTA) {
-                  (window as any).trackCTA('Case Studies Bottom CTA')
-                }
-              }}
+              onClick={() =>
+                trackLinkClick({
+                  href: caseStudiesCtaHref,
+                  source: 'case_studies',
+                  medium: 'page_section',
+                })
+              }
             >
               <span>Try Honeydew Free</span>
               <ArrowRight className="w-5 h-5" />

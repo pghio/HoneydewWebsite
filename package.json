@@ -11,7 +11,9 @@
     "schedule-content": "node scripts/schedule-content.js",
     "generate-sitemap": "node scripts/generate-sitemap.js",
     "generate-blog-manifest": "node scripts/generate-blog-manifest.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:e2e",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed"
   },
   "keywords": [],
   "author": "",
@@ -43,5 +45,8 @@
     "typescript": "^5.8.3",
     "vite": "^6.3.5",
     "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
   }
 }

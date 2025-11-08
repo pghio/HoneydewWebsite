@@ -10,6 +10,7 @@ import {
   Shield,
   Sparkles
 } from 'lucide-react'
+import { trackLinkClick } from '../utils/analytics'
 
 const features = [
   {
@@ -82,6 +83,8 @@ const features = [
 const Features = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
+  const featuresCtaHref =
+    'https://app.gethoneydew.app/?utm_source=website&utm_medium=features&utm_campaign=secondary_cta'
 
   return (
     <section id="features" className="py-20 bg-white">
@@ -169,12 +172,19 @@ const Features = () => {
               Join 2,400+ families who use Honeydew to handle the mental load. From "plan vacation" to "organize dinner"—just tell it what you need.
             </p>
             <motion.a
-              href="https://app.gethoneydew.app/"
+              href={featuresCtaHref}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-purple-600 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-50 transition-colors inline-block"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={() =>
+                trackLinkClick({
+                  href: featuresCtaHref,
+                  source: 'features',
+                  medium: 'page_section',
+                })
+              }
             >
               Try Honeydew Free
             </motion.a>

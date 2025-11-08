@@ -1,5 +1,9 @@
 import { motion } from 'framer-motion'
 import { ArrowRight, Sparkles } from 'lucide-react'
+import { trackLinkClick } from '../utils/analytics'
+
+const heroCtaHref =
+  'https://app.gethoneydew.app/?utm_source=website&utm_medium=hero&utm_campaign=primary_cta'
 
 const Hero = () => {
   return (
@@ -97,10 +101,17 @@ const Hero = () => {
           >
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <a
-                href="https://app.gethoneydew.app/"
+                href={heroCtaHref}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#92C5A7] text-gray-900 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#86b89b] transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl inline-block"
+                onClick={() =>
+                  trackLinkClick({
+                    href: heroCtaHref,
+                    source: 'hero',
+                    medium: 'page_section',
+                  })
+                }
               >
                 Try Honeydew Free
                 <ArrowRight className="w-5 h-5" />

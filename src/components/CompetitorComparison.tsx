@@ -1,15 +1,18 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { 
-  Check, 
-  X, 
-  Smartphone, 
-  Zap, 
-  Brain, 
-  Cloud, 
+import { Link } from 'react-router-dom'
+import {
+  Check,
+  X,
+  Smartphone,
+  Zap,
+  Brain,
+  Cloud,
   DollarSign,
-  Sparkles
+  Sparkles,
+  ArrowRight,
 } from 'lucide-react'
+import comparisonLinks from '../utils/comparisonLinks'
 
 interface ComparisonFeature {
   feature: string
@@ -140,6 +143,18 @@ const CompetitorComparison = () => {
             Traditional family apps require manual entry. Honeydew's AI agent understands natural language,
             learns your patterns, and handles complex requests in seconds. Here's why families choose intelligence over basic tools.
           </p>
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
+            {comparisonLinks.slice(0, 5).map(link => (
+              <Link
+                key={link.slug}
+                to={link.href}
+                className="inline-flex items-center gap-2 bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2 rounded-full text-sm font-semibold transition-colors"
+              >
+                {link.label}
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            ))}
+          </div>
         </motion.div>
 
         {/* Comparison Table */}
@@ -279,21 +294,25 @@ const CompetitorComparison = () => {
               and costs less than a single Skylight display.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <motion.button
+              <motion.a
+                href="https://app.gethoneydew.app/?utm_source=website&utm_medium=competitor_comparison&utm_campaign=primary_cta"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-white text-primary-600 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-gray-50 transition-colors inline-flex items-center justify-center gap-2"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <Sparkles className="w-5 h-5" />
                 Start Free Trial
-              </motion.button>
-              <motion.button
-                className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/10 transition-colors"
+              </motion.a>
+              <motion.a
+                href="#how-it-works"
+                className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-white/10 transition-colors inline-flex items-center justify-center"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
                 See AI in Action
-              </motion.button>
+              </motion.a>
             </div>
             <p className="mt-6 text-sm opacity-75">
               No credit card required • Works on all your devices • Unlimited AI planning

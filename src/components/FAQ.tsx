@@ -1,6 +1,7 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef, useState } from 'react'
 import { ChevronDown, ChevronUp, Heart, BookOpen, Lightbulb } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import { trackLinkClick } from '../utils/analytics'
 
 const faqs = [
@@ -13,14 +14,14 @@ const faqs = [
   },
   {
     question: "How is Honeydew different from Cozi?",
-    answer: "Cozi requires manual entry for everything. Honeydew's AI generates complete lists from one sentence. Tell it 'beach day' and get sunscreen, towels, snacks, toys—everything you'd forget. It also works with Apple Calendar (Cozi doesn't) and handles multiple family groups for divorced parents.",
+    answer: "Cozi requires manual entry for everything. Honeydew's AI generates complete lists from one sentence. Tell it 'beach day' and get sunscreen, towels, snacks, toys—everything you'd forget. It also works with Apple Calendar (Cozi doesn't) and handles multiple family groups for divorced parents. [See full comparison →](/why-honeydew/vs-cozi)",
     icon: BookOpen,
     color: 'text-blue-600',
     bgColor: 'bg-blue-50'
   },
   {
     question: "How does Honeydew compare to Skylight Calendar?",
-    answer: "Skylight is a $300+ wall display that shows your calendar. Honeydew works on all your devices (phone, laptop, tablet) and actually helps you plan. Skylight shows 'Soccer Practice Thursday 5pm'—Honeydew reminds you to pack gear, fill water bottles, and check weather. Plus you can use it at the grocery store, not just at home.",
+    answer: "Skylight is a $300+ wall display that shows your calendar. Honeydew works on all your devices (phone, laptop, tablet) and actually helps you plan. Skylight shows 'Soccer Practice Thursday 5pm'—Honeydew reminds you to pack gear, fill water bottles, and check weather. Plus you can use it at the grocery store, not just at home. [See full comparison →](/why-honeydew/vs-skylight)",
     icon: Lightbulb,
     color: 'text-yellow-600',
     bgColor: 'bg-yellow-50'
@@ -82,6 +83,48 @@ const faqs = [
     bgColor: 'bg-emerald-50'
   }
 ]
+
+// Function to render answer with markdown-style links
+const renderAnswerWithLinks = (answer: string) => {
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g
+  const parts = []
+  let lastIndex = 0
+  let match
+
+  while ((match = linkRegex.exec(answer)) !== null) {
+    // Add text before the link
+    if (match.index > lastIndex) {
+      parts.push(answer.slice(lastIndex, match.index))
+    }
+
+    // Add the link
+    const linkText = match[1]
+    const linkHref = match[2]
+    parts.push(
+      <Link
+        key={match.index}
+        to={linkHref}
+        className="text-primary-600 hover:text-primary-700 font-medium underline"
+        onClick={() => trackLinkClick({
+          href: linkHref,
+          source: 'faq',
+          medium: 'internal_link'
+        })}
+      >
+        {linkText}
+      </Link>
+    )
+
+    lastIndex = match.index + match[0].length
+  }
+
+  // Add remaining text
+  if (lastIndex < answer.length) {
+    parts.push(answer.slice(lastIndex))
+  }
+
+  return parts
+}
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0) // Open first question by default to show story
@@ -154,7 +197,7 @@ const FAQ = () => {
                   <div className={`px-6 pb-6 ${faq.bgColor}`}>
                     <div className="pl-14">
                       <p className="text-gray-700 leading-relaxed text-base">
-                        {faq.answer}
+                        {renderAnswerWithLinks(faq.answer)}
                       </p>
                     </div>
                   </div>

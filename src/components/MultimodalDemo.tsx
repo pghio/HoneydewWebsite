@@ -266,14 +266,17 @@ const MultimodalDemo = () => {
             <p className="text-gray-600 mb-6">
               See how Honeydew's AI agent handles any input method with intelligent, contextual responses.
             </p>
-            <motion.button
-              className="bg-gradient-to-r from-purple-500 to-blue-500 text-white px-6 py-3 rounded-xl font-semibold hover:from-purple-600 hover:to-blue-600 transition-all duration-200 flex items-center space-x-2 mx-auto"
+            <motion.a
+              href="https://app.gethoneydew.app/?utm_source=website&utm_medium=multimodal_demo&utm_campaign=secondary_cta"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-purple-500 to-blue-500 text-white px-6 py-3 rounded-xl font-semibold hover:from-purple-600 hover:to-blue-600 transition-all duration-200 flex items-center space-x-2 mx-auto inline-flex"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
               <span>Try All Input Methods</span>
               <ArrowRight className="w-4 h-4" />
-            </motion.button>
+            </motion.a>
           </div>
         </motion.div>
       </div>

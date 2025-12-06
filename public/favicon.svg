@@ -1,15 +1,19 @@
-<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
+<svg width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Honeydew">
   <defs>
     <linearGradient id="faviconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="0%" stop-color="#92C5A7" />
+      <stop offset="100%" stop-color="#5DADE2" />
     </linearGradient>
   </defs>
-  
-  <!-- Background -->
-  <rect width="32" height="32" rx="8" fill="url(#faviconGradient)"/>
-  
-  <!-- Heart -->
-  <text x="16" y="24" font-size="20" text-anchor="middle" fill="white">❤️</text>
+
+  <rect x="0" y="0" width="100" height="100" rx="24" fill="url(#faviconGradient)" />
+  <path
+    d="M50 75L30 55C25 50 25 42 30 37C35 32 43 32 48 37L50 39L52 37C57 32 65 32 70 37C75 42 75 50 70 55L50 75Z"
+    fill="white"
+    fill-opacity="0.95"
+    stroke="white"
+    stroke-width="2.5"
+    opacity="0.96"
+  />
 </svg>
 

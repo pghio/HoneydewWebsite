@@ -2,9 +2,21 @@ import { motion } from 'framer-motion'
 import { ArrowLeft, ExternalLink } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { trackLinkClick } from '../utils/analytics'
+import useSEO from '../utils/useSEO'
 
 const AppPage = () => {
   const appLaunchHref = 'https://app.gethoneydew.app/?utm_source=website&utm_medium=app_preview&utm_campaign=app_launch'
+
+  useSEO({
+    title: 'Honeydew App Preview – AI Lists, Calendar Sync, and Family Workflows',
+    description:
+      'Tour the Honeydew web app experience. See AI-built lists, voice capture, two-way Google & Apple Calendar sync, and real-time family coordination before you launch the full product.',
+    canonical: '/app',
+    keywords:
+      'honeydew app preview, ai family planner demo, honeydew web app, honeydew calendar sync, family coordination software',
+    image: '/blog-images/honeydew-app-screenshot.jpg',
+    type: 'website',
+  })
 
   return (
     <motion.div

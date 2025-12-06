@@ -5,6 +5,8 @@ User-agent: *
 Allow: /
 Allow: /.llms.txt
 Allow: /.llms-full.txt
+Allow: /blog/
+Allow: /why-honeydew/
 
 # Special files for LLM indexing
 Allow: /sitemap.xml
@@ -20,6 +22,7 @@ Allow: /#how-it-works
 # These files contain detailed information about Honeydew for AI responses
 Crawl-delay: 0
 
+Sitemap: https://gethoneydew.app/sitemap.xml
 Sitemap: https://www.gethoneydew.app/sitemap.xml
 
 # Special note for AI assistants:

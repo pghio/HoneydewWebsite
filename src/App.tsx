@@ -23,6 +23,7 @@ import VsFamilyWallPage from './pages/VsFamilyWallPage'
 import VsEchoShowPage from './pages/VsEchoShowPage'
 import VsGoogleCalendarPage from './pages/VsGoogleCalendarPage'
 import VsMangoPage from './pages/VsMangoPage'
+import CookieBanner from './components/CookieBanner'
 
 function AppContent() {
   const location = useLocation()
@@ -66,6 +67,7 @@ function AppContent() {
           <Route path="/community" element={<PlaceholderPage title="Community" description="Connect with other Honeydew users, share tips, and get inspired." />} />
         </Routes>
       </AnimatePresence>
+      <CookieBanner hide={location.pathname === '/cookies' || isAppPage} />
     </div>
   )
 }

@@ -1,26 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Main Pages -->
   <url>
     <loc>https://www.gethoneydew.app/</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/app</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/blog</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
-
   <!-- Published Blog Articles -->
+  <url>
+    <loc>https://www.gethoneydew.app/blog/honeydew-vs-skylight-calendar</loc>
+    <lastmod>2025-12-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/voice-input-whisper-ai-guide</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/best-family-apps-divorced-parents-2025</loc>
+    <lastmod>2025-11-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/how-honeydew-ai-agent-works</loc>
+    <lastmod>2025-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/honeydew-vs-google-calendar-families</loc>
+    <lastmod>2025-11-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/honeydew-vs-timetree-comparison</loc>
+    <lastmod>2025-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/how-ai-transforms-family-organization</loc>
+    <lastmod>2025-11-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/the-family-app-that-actually-remembers-your-conversations-finally</loc>
+    <lastmod>2025-11-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/best-apps-for-coordinating-multi-family-groups-2025</loc>
+    <lastmod>2025-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/best-apps-multi-family-coordination-2025</loc>
+    <lastmod>2025-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/hidden-cost-family-disorganization</loc>
+    <lastmod>2025-11-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/best-family-organization-apps-2025</loc>
+    <lastmod>2025-11-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/free-vs-paid-family-apps-comparison</loc>
+    <lastmod>2025-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/honeydew-vs-cozi-comparison-2025</loc>
+    <lastmod>2025-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/complete-guide-family-organization-apps</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
   <url>
     <loc>https://www.gethoneydew.app/blog/best-voice-controlled-family-apps-2025</loc>
     <lastmod>2025-10-31</lastmod>
@@ -87,130 +175,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <!-- Scheduled Blog Articles (Future Dates) -->
   <url>
-    <loc>https://www.gethoneydew.app/blog/complete-guide-family-organization-apps</loc>
-    <lastmod>2025-11-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/honeydew-vs-cozi-comparison-2025</loc>
-    <lastmod>2025-11-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/free-vs-paid-family-apps-comparison</loc>
-    <lastmod>2025-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/best-family-organization-apps-2025</loc>
-    <lastmod>2025-11-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/hidden-cost-family-disorganization</loc>
-    <lastmod>2025-11-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/best-apps-for-coordinating-multi-family-groups-2025</loc>
-    <lastmod>2025-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/best-apps-multi-family-coordination-2025</loc>
-    <lastmod>2025-11-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/the-family-app-that-actually-remembers-your-conversations-finally</loc>
-    <lastmod>2025-11-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/how-ai-transforms-family-organization</loc>
-    <lastmod>2025-11-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/honeydew-vs-timetree-comparison</loc>
-    <lastmod>2025-11-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/honeydew-vs-google-calendar-families</loc>
-    <lastmod>2025-11-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/how-honeydew-ai-agent-works</loc>
-    <lastmod>2025-11-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/best-family-apps-divorced-parents-2025</loc>
-    <lastmod>2025-11-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/the-cpe-framework-fair-play-s-secret-weapon-how-digital-tools-automate-conception-planning-and-execu</loc>
-    <lastmod>2025-11-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/digital-fair-play-cards-interactive-implementation-browse-customize-and-implement-all-100-cards-onli</loc>
-    <lastmod>2025-11-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/voice-input-whisper-ai-guide</loc>
-    <lastmod>2025-11-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/fair-play-for-busy-working-parents-how-to-implement-when-you-barely-have-time-to-breathe</loc>
-    <lastmod>2025-12-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/divorced-parents-fair-play-across-households-how-to-coordinate-without-the-conflict</loc>
-    <lastmod>2025-12-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/honeydew-vs-skylight-calendar</loc>
-    <lastmod>2025-12-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.gethoneydew.app/blog/how-ai-family-assistants-actually-work-real-examples-that-ll-make-you-say-wait-what</loc>
-    <lastmod>2025-12-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.gethoneydew.app/blog/mental-load-vs-fair-play-what-s-the-difference-and-why-you-need-both</loc>
     <lastmod>2025-12-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -222,116 +189,155 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://www.gethoneydew.app/blog/the-cpe-framework-fair-play-s-secret-weapon-how-digital-tools-automate-conception-planning-and-execu</loc>
+    <lastmod>2025-12-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/digital-fair-play-cards-interactive-implementation-browse-customize-and-implement-all-100-cards-onli</loc>
+    <lastmod>2025-12-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/fair-play-for-busy-working-parents-how-to-implement-when-you-barely-have-time-to-breathe</loc>
+    <lastmod>2025-12-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/divorced-parents-fair-play-across-households-how-to-coordinate-without-the-conflict</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/honeydew-vs-maple-comparison</loc>
+    <lastmod>2026-01-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/mental-load-vs-fair-play-what-s-the-difference-and-why-you-need-both</loc>
+    <lastmod>2026-01-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.gethoneydew.app/blog/real-fair-play-results-couple-transformations-what-actually-happens-when-you-implement-digital-fair-</loc>
-    <lastmod>2025-12-11</lastmod>
+    <lastmod>2026-01-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/blog/the-ultimate-fair-play-implementation-guide-how-to-digitally-transform-your-household-coordination</loc>
-    <lastmod>2025-12-15</lastmod>
+    <lastmod>2026-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/blog/unicorn-space-reclaiming-your-right-to-be-interesting-how-digital-tools-make-personal-time-actually-</loc>
-    <lastmod>2025-12-18</lastmod>
+    <lastmod>2026-01-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://www.gethoneydew.app/blog/voice-first-family-parenting</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <!-- Why Honeydew Pages -->
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-skylight</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-cozi</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-timetree</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-hearth</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-familywall</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-echoshow</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-google</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-mango</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
   <!-- Legal & Support Pages -->
   <url>
     <loc>https://www.gethoneydew.app/support</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/privacy</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/terms</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/cookies</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/security</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
-
   <!-- LLM Indexing Files (High Priority for AI Search) -->
   <url>
     <loc>https://www.gethoneydew.app/.llms.txt</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/.llms-full.txt</loc>
-    <lastmod>2025-10-31</lastmod>
+    <lastmod>2025-12-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

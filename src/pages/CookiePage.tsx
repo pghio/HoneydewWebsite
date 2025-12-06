@@ -1,6 +1,21 @@
 import { motion } from 'framer-motion'
+import useSEO from '../utils/useSEO'
+import { useLocation } from 'react-router-dom'
 
 const CookiePage = () => {
+  const location = useLocation()
+
+  useSEO({
+    title: 'Honeydew Cookie Policy – Understanding Tracking & Preferences',
+    description:
+      'Learn how Honeydew uses essential, performance, and analytics cookies to deliver secure AI planning experiences, plus how to control your preferences.',
+    canonical: location.pathname,
+    keywords:
+      'honeydew cookie policy, honeydew cookies, honeydew tracking technologies, honeydew analytics cookies',
+    image: '/blog-images/honeydew-app-screenshot.jpg',
+    type: 'website',
+  })
+
   return (
     <div className="min-h-screen bg-white">
       <motion.div 

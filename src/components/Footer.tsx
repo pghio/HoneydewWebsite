@@ -14,7 +14,8 @@ const Footer = () => {
     ],
     Resources: [
       { name: 'Blog', href: '/blog' },
-      { name: 'Support', href: '/support' }
+      { name: 'Support', href: '/support' },
+      { name: 'Sitemap', href: '/sitemap.xml' }
     ],
     Legal: [
       { name: 'Privacy Policy', href: '/privacy' },
@@ -90,6 +91,36 @@ const Footer = () => {
           ))}
         </div>
 
+        <div className="mt-10 p-4 border border-gray-800 rounded-2xl bg-white/5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <div className="text-sm font-semibold text-white">Compliance & trust</div>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              to="/privacy"
+              className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-white/20 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
+            >
+              Privacy
+            </Link>
+            <Link
+              to="/terms"
+              className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-white/20 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
+            >
+              Terms
+            </Link>
+            <Link
+              to="/cookies"
+              className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-white/20 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
+            >
+              Cookies
+            </Link>
+            <Link
+              to="/security"
+              className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-white/20 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
+            >
+              Security
+            </Link>
+          </div>
+        </div>
+
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-gray-400 text-sm">
@@ -113,6 +144,9 @@ const Footer = () => {
             <Link to="/support" className="text-gray-400 hover:text-white transition-colors">
               Support
             </Link>
+            <a href="/sitemap.xml" className="text-gray-400 hover:text-white transition-colors">
+              Sitemap
+            </a>
             <div className="flex items-center space-x-2 text-gray-400">
               <div className="w-2 h-2 bg-green-500 rounded-full"></div>
               <span>All systems operational</span>

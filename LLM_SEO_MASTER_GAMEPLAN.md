@@ -16,6 +16,22 @@ This gameplan represents a comprehensive strategy to make Honeydew the **definit
 
 ---
 
+### November 2025 Opportunity Keywords
+To capture emerging "command center" and alternative-intent searches, add the following articles to the Q4 content queue (Mon/Thu cadence):
+
+- **Article:** "Best Digital Family Command Center Software (vs Wall Calendars)" – target “family command center digital”, “wall calendar alternative software”.
+- **Guide:** "Family Chore Chart App with Calendar, Meal Planning, and Shared Grocery Lists" – combine chores + planning keywords competitors rank for.
+- **Comparison Hub:** "Skylight Calendar Alternatives for Renters & Multi-Home Families (2025)" – lead into Honeydew vs Skylight, Mango, Hearth.
+- **Comparison Hub:** "Maple (formerly Mango) Alternatives with AI Automation" – focus on Mango/Maple alternative intent.
+- **Comparison Series:** "Cozi Alternatives for Apple Calendar Families (2025 Update)" – tailored to Apple-first households.
+- **Use-Case Article:** "Co-Parenting Calendar & Custody Schedule App with Voice Automation" – align with “co-parenting calendar & custody schedule” demand.
+- **Persona Article:** "Family To-Do List with Voice Capture for Neurodivergent Households" – highlight Whisper AI advantage.
+- **Freshness Module:** Add “Updated on” badge + change log snippet to all live “Best of” and “vs” articles (completed via template update in this sprint).
+
+Each new article must include FAQ schema, table comparisons, internal links to all `why-honeydew` comparison pages, and TikTok script ideas per existing guideline.
+
+---
+
 ## Part 1: The Complete User Search Journey
 
 ### Stage 1: Problem Awareness (Searches 1-3)

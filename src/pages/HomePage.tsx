@@ -13,10 +13,12 @@ import useSEO from '../utils/useSEO'
 
 const HomePage = () => {
   useSEO({
-    title: 'Honeydew - AI-Powered Family Assistant | Natural Language Organization',
-    description: '🤖 Your AI-powered family assistant with 27+ tools. Just tell Honeydew what you need - type it, say it, or photograph it. Natural language understanding, voice commands, image processing, and intelligent automation for modern families.',
+    title: 'Honeydew – AI-First Family OS | Mobile Command Center (No Hardware)',
+    description:
+      'Honeydew is the AI-first, mobile-first family command center. Voice-controlled lists, two-way Google & Apple calendar sync, co-parenting hand-offs, AI meal planning, and multi-family workflows—no wall hardware required.',
     canonical: '/',
-    keywords: 'AI family assistant, AI-powered family organizer, natural language family app, voice-controlled family planner, image processing family app, multimodal family assistant, smart family calendar, intelligent task management, AI agent for families, family coordination AI, better than Cozi, Skylight Calendar alternative, Fair Play AI',
+    keywords:
+      'AI-first family OS, voice-controlled family app, no hardware family calendar, AI meal planning for families, co-parenting automation, multi-family coordination app, Honeydew vs Skylight, Honeydew vs Cozi, mobile family command center',
     image: '/og-image-ai.jpg',
     type: 'website'
   })

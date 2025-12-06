@@ -1,6 +1,21 @@
 import { motion } from 'framer-motion'
+import useSEO from '../utils/useSEO'
+import { useLocation } from 'react-router-dom'
 
 const PrivacyPage = () => {
+  const location = useLocation()
+
+  useSEO({
+    title: 'Honeydew Privacy Policy – How We Protect Family Data',
+    description:
+      'Review Honeydew’s privacy practices: data collection, Google Calendar permissions, security safeguards, retention policies, and how to exercise your rights.',
+    canonical: location.pathname,
+    keywords:
+      'honeydew privacy policy, honeydew data protection, google calendar limited use, honeydew gdpr, honeydew ccpa',
+    image: '/blog-images/honeydew-app-screenshot.jpg',
+    type: 'website',
+  })
+
   return (
     <div className="min-h-screen bg-white">
       <motion.div 

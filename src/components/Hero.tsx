@@ -134,7 +134,15 @@ const Hero = () => {
             transition={{ delay: 0.9 }}
             className="inline-flex items-center bg-white/80 px-5 py-3 rounded-full shadow-sm border border-[#E2E8F0] text-sm font-medium text-gray-700"
           >
-            <img src="/assets/honeydew-heart-icon.svg" alt="Honeydew heart icon" className="w-6 h-6 mr-2" />
+            <img
+              src="/assets/honeydew-heart-icon.svg"
+              alt="Honeydew heart icon"
+              className="w-6 h-6 mr-2"
+              loading="lazy"
+              decoding="async"
+              width={24}
+              height={24}
+            />
             2,400+ families organized this week
           </motion.div>
 
@@ -214,6 +222,10 @@ const Hero = () => {
                 src="/assets/honeydew-heart-icon.svg"
                 alt="Honeydew AI agent"
                 className="absolute -top-4 -left-4 w-16 h-16 drop-shadow-lg"
+                loading="lazy"
+                decoding="async"
+                width={64}
+                height={64}
                 animate={{ rotate: [0, 6, 0], y: [0, -10, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
               />
@@ -222,6 +234,10 @@ const Hero = () => {
                 src="/assets/honeydew-logo-with-wordmark.svg"
                 alt="Honeydew logo"
                 className="absolute -top-6 -right-10 w-28 drop-shadow-lg"
+                loading="lazy"
+                decoding="async"
+                width={112}
+                height={112}
                 animate={{ rotate: [0, -6, 0], y: [0, -8, 0] }}
                 transition={{ duration: 3, repeat: Infinity, delay: 1 }}
               />
@@ -230,6 +246,10 @@ const Hero = () => {
                 src="/assets/honeydew-heart-green.svg"
                 alt="Honeydew image processing"
                 className="absolute -bottom-6 left-1/2 -translate-x-1/2 w-20 drop-shadow-lg"
+                loading="lazy"
+                decoding="async"
+                width={80}
+                height={80}
                 animate={{ rotate: [0, 4, 0], y: [0, 8, 0] }}
                 transition={{ duration: 3, repeat: Infinity, delay: 2 }}
               />

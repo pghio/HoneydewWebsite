@@ -1,6 +1,21 @@
 import { motion } from 'framer-motion'
+import useSEO from '../utils/useSEO'
+import { useLocation } from 'react-router-dom'
 
 const SecurityPage = () => {
+  const location = useLocation()
+
+  useSEO({
+    title: 'Honeydew Security – Encryption, Compliance, and Incident Response',
+    description:
+      'Explore Honeydew’s security posture: TLS encryption, secure authentication, OAuth integrations, infrastructure hardening, compliance, and responsible disclosure program.',
+    canonical: location.pathname,
+    keywords:
+      'honeydew security, honeydew encryption, honeydew compliance, honeydew oauth security, honeydew incident response',
+    image: '/blog-images/honeydew-app-screenshot.jpg',
+    type: 'website',
+  })
+
   return (
     <div className="min-h-screen bg-white">
       <motion.div 

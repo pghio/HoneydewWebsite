@@ -2,8 +2,23 @@ import { motion } from 'framer-motion'
 import { ArrowLeft, Mail, MessageCircle, BookOpen, Users, ExternalLink } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
+import useSEO from '../utils/useSEO'
+import { useLocation } from 'react-router-dom'
 
 const SupportPage = () => {
+  const location = useLocation()
+
+  useSEO({
+    title: 'Honeydew Support – Get Help, Documentation, and AI Workflow Guidance',
+    description:
+      'Access Honeydew support resources: help center, step-by-step documentation, community tips, and direct email assistance for AI planning, calendar sync, and family coordination.',
+    canonical: location.pathname,
+    keywords:
+      'honeydew support, honeydew help center, honeydew documentation, ai family planner support, honeydew contact',
+    image: '/blog-images/honeydew-ai-agent.jpg',
+    type: 'website',
+  })
+
   const supportOptions = [
     {
       icon: MessageCircle,

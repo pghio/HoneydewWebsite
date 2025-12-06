@@ -1,6 +1,21 @@
 import { motion } from 'framer-motion'
+import useSEO from '../utils/useSEO'
+import { useLocation } from 'react-router-dom'
 
 const TermsPage = () => {
+  const location = useLocation()
+
+  useSEO({
+    title: 'Honeydew Terms of Service – Usage, Responsibilities, and Rights',
+    description:
+      'Read the Honeydew Terms of Service covering account responsibilities, acceptable use, integrations, limitations of liability, and dispute resolution.',
+    canonical: location.pathname,
+    keywords:
+      'honeydew terms of service, honeydew tos, honeydew legal terms, ai family planner terms, honeydew user agreement',
+    image: '/blog-images/honeydew-ai-agent.jpg',
+    type: 'website',
+  })
+
   return (
     <div className="min-h-screen bg-white">
       <motion.div 

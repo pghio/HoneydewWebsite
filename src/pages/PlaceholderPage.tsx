@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion'
 import { ArrowLeft, ExternalLink } from 'lucide-react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import Footer from '../components/Footer'
+import useSEO from '../utils/useSEO'
 
 interface PlaceholderPageProps {
   title: string
@@ -10,6 +11,17 @@ interface PlaceholderPageProps {
 }
 
 const PlaceholderPage = ({ title, description, comingSoon = true }: PlaceholderPageProps) => {
+  const location = useLocation()
+
+  useSEO({
+    title: `${title} | Honeydew`,
+    description: `${description} Stay tuned for the full Honeydew experience with AI-powered workflows and resources.`,
+    canonical: location.pathname,
+    keywords: `${title.toLowerCase()} honeydew, honeydew ${title.toLowerCase()} resources, honeydew coming soon`,
+    image: '/blog-images/honeydew-ai-agent.jpg',
+    type: 'website',
+  })
+
   return (
     <motion.div
       initial={{ opacity: 0 }}

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, Calendar, Tag } from 'lucide-react'
+import { ArrowLeft, Calendar, Tag, RefreshCcw, ArrowRight } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
@@ -156,7 +156,7 @@ const BlogPostPage = () => {
       description: frontmatter.description || '',
       image: imageUrl,
       datePublished: frontmatter.publishDate || new Date().toISOString().split('T')[0],
-      dateModified: frontmatter.publishDate || new Date().toISOString().split('T')[0],
+      dateModified: frontmatter.updatedOn || frontmatter.publishDate || new Date().toISOString().split('T')[0],
       author: {
         '@type': 'Person',
         name: frontmatter.author || 'Honeydew Team',
@@ -381,6 +381,12 @@ const BlogPostPage = () => {
   }
 
   const blogCtaHref = `https://app.gethoneydew.app/?utm_source=blog&utm_medium=organic&utm_campaign=blog_cta&utm_content=${encodeURIComponent(slug ?? 'blog')}`
+  const relatedInternalLinks = [
+    { label: 'Honeydew vs Skylight Calendar', href: '/why-honeydew/vs-skylight' },
+    { label: 'Honeydew vs Cozi', href: '/why-honeydew/vs-cozi' },
+    { label: 'Honeydew vs Google Calendar', href: '/why-honeydew/vs-google' },
+    { label: 'See all articles', href: '/blog' },
+  ]
 
   return (
     <>
@@ -416,7 +422,7 @@ const BlogPostPage = () => {
               )}
 
               <div className="flex flex-wrap items-center gap-4 text-sm text-white/80">
-                {frontmatter.publishDate && (
+              {frontmatter.publishDate && (
                   <>
                     <div className="flex items-center space-x-2">
                       <Calendar className="w-4 h-4" />
@@ -425,6 +431,22 @@ const BlogPostPage = () => {
                     <span>•</span>
                   </>
                 )}
+              {frontmatter.updatedOn && (
+                <>
+                  <div className="flex items-center space-x-2">
+                    <RefreshCcw className="w-4 h-4" />
+                    <span>
+                      Updated{' '}
+                      {new Date(frontmatter.updatedOn).toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                      })}
+                    </span>
+                  </div>
+                  <span>•</span>
+                </>
+              )}
                 {frontmatter.author && (
                   <>
                     <span>By {frontmatter.author}</span>
@@ -577,6 +599,25 @@ const BlogPostPage = () => {
               {content}
             </ReactMarkdown>
           </motion.div>
+
+          <div className="mt-12 bg-gray-50 border border-gray-200 rounded-2xl p-8">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Explore Honeydew resources</h3>
+            <p className="text-gray-600 mb-6">
+              See how Honeydew compares and why the AI-first, no-hardware family OS is replacing wall calendars and manual list apps.
+            </p>
+            <div className="grid gap-3 md:grid-cols-2">
+              {relatedInternalLinks.map(link => (
+                <Link
+                  key={link.href}
+                  to={link.href}
+                  className="flex items-center justify-between bg-white rounded-xl border border-gray-200 px-4 py-3 text-gray-800 font-semibold hover:border-[#92C5A7] hover:text-[#2F3C36] transition-colors"
+                >
+                  <span>{link.label}</span>
+                  <ArrowRight className="w-4 h-4 text-gray-500" />
+                </Link>
+              ))}
+            </div>
+          </div>
 
           {/* CTA */}
           <motion.div

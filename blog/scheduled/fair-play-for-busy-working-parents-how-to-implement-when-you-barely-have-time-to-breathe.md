@@ -1,7 +1,7 @@
 ---
 title: "Fair Play for Busy Working Parents: How to Implement When You Barely Have Time to Breathe"
 slug: "fair-play-for-busy-working-parents-how-to-implement-when-you-barely-have-time-to-breathe"
-publishDate: "2025-12-01"
+publishDate: "2025-12-29"
 author: "Honeydew Team"
 description: "15-minute Fair Play setup for working parents using voice-first AI coordination. Real case studies show 75% reduction in coordination time, 80% reduction in work interruptions, and 300% increase in couple time. Learn how to implement Eve Rodsky's method when you're already overwhelmed."
 keywords: "fair play method for busy couples, fair play working parents, fair play voice commands, mental load working parents, household coordination busy schedules, AI family organization"

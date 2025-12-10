@@ -10,7 +10,7 @@ import os from 'os'
 import path from 'path'
 import { google } from 'googleapis'
 
-const SCOPES = ['https://www.googleapis.com/auth/webmasters.readonly']
+const SCOPES = ['https://www.googleapis.com/auth/webmasters']
 
 function parseArgs(argv) {
   const args = argv.slice(2)
@@ -167,6 +167,24 @@ async function runSitemapSubmit(searchconsole, options) {
   console.log('\n⏳ Check Search Console → Sitemaps for processing status.')
 }
 
+async function runSiteList(searchconsole) {
+  const { data } = await searchconsole.sites.list()
+  const sites = data.siteEntry || []
+
+  if (sites.length === 0) {
+    console.log('No sites found. Ensure the service account is added as a user in Search Console.')
+    return
+  }
+
+  const headers = ['Site URL', 'Permission Level']
+  const rows = sites.map(site => [
+    site.siteUrl,
+    site.permissionLevel
+  ])
+
+  printTable(headers, rows)
+}
+
 function printTable(headers, rows) {
   const columnWidths = headers.map((header, index) => {
     const maxCell = rows.reduce((max, row) => Math.max(max, String(row[index] ?? '').length), header.length)
@@ -204,6 +222,9 @@ async function main() {
       case 'sitemap-submit':
         await runSitemapSubmit(searchconsole, options)
         break
+      case 'site-list':
+        await runSiteList(searchconsole)
+        break
       default:
         throw new Error(`Unknown command: ${command}`)
     }
@@ -223,7 +244,8 @@ function printHelp() {
   console.log(`Commands:`)
   console.log(`  search-analytics   Query performance data for a property`)
   console.log(`  sitemap-list       List submitted sitemaps`)
-  console.log(`  sitemap-submit     Submit a sitemap URL\n`)
+  console.log(`  sitemap-submit     Submit a sitemap URL`)
+  console.log(`  site-list          List all accessible properties\n`)
   console.log(`Common options:`)
   console.log(`  --property=<url>   Property URL (e.g. https://www.honeydew.app)`)
   console.log(`  --start=<date>     Start date (YYYY-MM-DD)`)
@@ -240,4 +262,3 @@ function printHelp() {
 }
 
 main()
-

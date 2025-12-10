@@ -6,6 +6,12 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import Footer from '../components/Footer'
 import { trackLinkClick } from '../utils/analytics'
+import { 
+  createScrollTracker, 
+  startTimeTracking, 
+  buildBlogCTALink,
+  trackAppStoreClick 
+} from '../utils/funnelTracking'
 
 const BlogPostPage = () => {
   const { slug } = useParams()
@@ -250,6 +256,24 @@ const BlogPostPage = () => {
     }
   }, [frontmatter, slug])
 
+  // Scroll depth and time tracking for funnel analytics
+  useEffect(() => {
+    if (!slug || loading) return
+    
+    // Start scroll tracking
+    const cleanupScroll = createScrollTracker(slug, () => {
+      // Milestone callback - tracking handled in createScrollTracker
+    })
+    
+    // Start time tracking
+    const cleanupTime = startTimeTracking(slug)
+    
+    return () => {
+      cleanupScroll()
+      cleanupTime()
+    }
+  }, [slug, loading])
+
   // Add FAQ, HowTo, and Breadcrumb schemas when content loads
   useEffect(() => {
     if (!content || !frontmatter || !slug) return
@@ -380,7 +404,7 @@ const BlogPostPage = () => {
     )
   }
 
-  const blogCtaHref = `https://app.gethoneydew.app/?utm_source=blog&utm_medium=organic&utm_campaign=blog_cta&utm_content=${encodeURIComponent(slug ?? 'blog')}`
+  const blogCtaHref = buildBlogCTALink(slug ?? 'unknown', 'bottom')
   const relatedInternalLinks = [
     { label: 'Honeydew vs Skylight Calendar', href: '/why-honeydew/vs-skylight' },
     { label: 'Honeydew vs Cozi', href: '/why-honeydew/vs-cozi' },
@@ -639,16 +663,19 @@ const BlogPostPage = () => {
               className="inline-flex items-center justify-center bg-white text-[#92C5A7] px-8 py-4 rounded-lg font-bold hover:bg-gray-50 transition-colors shadow-md"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() =>
+              onClick={() => {
                 trackLinkClick({
                   href: blogCtaHref,
                   source: 'blog_post_footer',
                   label: frontmatter.title ?? slug ?? 'blog_post',
+                  campaign: 'article_conversion',
                   additionalParams: {
                     blog_slug: slug,
+                    article_category: frontmatter.category,
                   },
                 })
-              }
+                trackAppStoreClick('blog_cta', `article_${slug}`, 'web')
+              }}
             >
               Try Honeydew Free
             </motion.a>

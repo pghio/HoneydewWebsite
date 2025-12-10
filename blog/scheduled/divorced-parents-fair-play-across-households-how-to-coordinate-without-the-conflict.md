@@ -1,7 +1,7 @@
 ---
 title: "Divorced Parents: Fair Play Across Households - How to Coordinate Without the Conflict"
 slug: "divorced-parents-fair-play-across-households-how-to-coordinate-without-the-conflict"
-publishDate: "2025-12-04"
+publishDate: "2026-01-01"
 author: "Honeydew Team"
 description: "Digital Fair Play for divorced and separated parents reduces coordination texts by 86%, eliminates missed handoffs, and maintains complete privacy between households. Learn how multi-family architecture enables seamless kids' coordination while protecting personal boundaries. Real co-parenting case studies included."
 keywords: "fair play divorced parents, co-parenting coordination, fair play multi-household, separated parents organization, custody coordination app, co-parenting fair play, fair play for blended families"

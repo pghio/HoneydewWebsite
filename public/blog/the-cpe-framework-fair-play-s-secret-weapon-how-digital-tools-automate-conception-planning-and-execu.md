@@ -1,7 +1,7 @@
 ---
 title: "The CPE Framework: Fair Play's Secret Weapon - How Digital Tools Automate Conception, Planning, and Execution"
 slug: "the-cpe-framework-fair-play-s-secret-weapon-how-digital-tools-automate-conception-planning-and-execu"
-publishDate: "2025-11-24"
+publishDate: "2025-12-22"
 author: "Honeydew Team"
 description: "Most Fair Play implementations fail at the CPE (Conception, Planning, Execution) framework. Digital automation transforms each phase from mental burden to effortless workflow. Learn how AI handles context gathering, optimizes scheduling, and automates tracking - achieving 95% completion rates vs. 70% with manual CPE."
 keywords: "fair play cpe system, conception planning execution, fair play cpe framework, fair play implementation guide, digital fair play automation, household task management, fair play execution phase"

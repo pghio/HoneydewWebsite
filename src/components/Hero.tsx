@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion'
 import { ArrowRight, Sparkles } from 'lucide-react'
 import { trackLinkClick } from '../utils/analytics'
+import { APP_LINKS, trackAppStoreClick } from '../utils/funnelTracking'
 
-const heroCtaHref =
-  'https://app.gethoneydew.app/?utm_source=website&utm_medium=hero&utm_campaign=primary_cta'
+const heroCtaHref = APP_LINKS.heroPrimary
 
 const Hero = () => {
   return (
@@ -105,13 +105,15 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#92C5A7] text-gray-900 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#86b89b] transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl inline-block"
-                onClick={() =>
+                onClick={() => {
                   trackLinkClick({
                     href: heroCtaHref,
                     source: 'hero',
                     medium: 'page_section',
+                    campaign: 'primary_cta',
                   })
-                }
+                  trackAppStoreClick('hero', 'primary_cta', 'web')
+                }}
               >
                 Try Honeydew Free
                 <ArrowRight className="w-5 h-5" />

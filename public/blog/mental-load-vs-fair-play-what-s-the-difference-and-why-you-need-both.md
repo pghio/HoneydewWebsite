@@ -1,7 +1,7 @@
 ---
 title: "Mental Load vs Fair Play: What's the Difference and Why You Need Both"
 slug: "mental-load-vs-fair-play-what-s-the-difference-and-why-you-need-both"
-publishDate: "2025-12-08"
+publishDate: "2026-01-08"
 author: "Honeydew Team"
 description: "Mental load is the problem (invisible cognitive burden). Fair Play is the solution (systematic distribution). But you need both for lasting change. Learn how digital tools solve mental load awareness AND Fair Play implementation simultaneously, achieving 95% problem resolution vs. 30-40% with just awareness or structure alone."
 keywords: "mental load vs fair play, mental load solution, fair play method, invisible work, emotional labor, household division of labor, fair play and mental load, cognitive burden families"

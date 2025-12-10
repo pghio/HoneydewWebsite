@@ -9,21 +9,15 @@
   "routes": [
     {
       "src": "/llms.txt",
-      "headers": { 
-        "Content-Type": "text/plain; charset=utf-8",
-        "Cache-Control": "s-maxage=0, max-age=0, must-revalidate",
-        "CDN-Cache-Control": "no-cache",
-        "Vercel-CDN-Cache-Control": "no-cache"
-      },
-      "continue": true
+      "dest": "/api/llms.txt"
     },
     {
       "src": "/.llms.txt",
       "headers": { 
         "Content-Type": "text/plain; charset=utf-8",
-        "Cache-Control": "s-maxage=0, max-age=0, must-revalidate",
-        "CDN-Cache-Control": "no-cache",
-        "Vercel-CDN-Cache-Control": "no-cache"
+        "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+        "CDN-Cache-Control": "no-store",
+        "Vercel-CDN-Cache-Control": "no-store"
       },
       "continue": true
     },
@@ -31,9 +25,9 @@
       "src": "/.llms-full.txt",
       "headers": { 
         "Content-Type": "text/plain; charset=utf-8",
-        "Cache-Control": "s-maxage=0, max-age=0, must-revalidate",
-        "CDN-Cache-Control": "no-cache",
-        "Vercel-CDN-Cache-Control": "no-cache"
+        "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+        "CDN-Cache-Control": "no-store",
+        "Vercel-CDN-Cache-Control": "no-store"
       },
       "continue": true
     },
@@ -49,9 +43,9 @@
       "src": "/sitemap.xml",
       "headers": { 
         "Content-Type": "application/xml; charset=utf-8",
-        "Cache-Control": "s-maxage=0, max-age=0, must-revalidate",
-        "CDN-Cache-Control": "no-cache",
-        "Vercel-CDN-Cache-Control": "no-cache"
+        "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+        "CDN-Cache-Control": "no-store",
+        "Vercel-CDN-Cache-Control": "no-store"
       },
       "continue": true
     },

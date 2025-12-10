@@ -11,6 +11,7 @@
     "start": "npx serve dist -p $PORT",
     "preview": "vite preview",
     "schedule-content": "node scripts/schedule-content.js",
+    "ga4-setup": "node scripts/ga4-cli.js setup-funnel --property=properties/465457170",
     "seo-check": "node scripts/seo-check.js",
     "generate-sitemap": "node scripts/generate-sitemap.js",
     "generate-blog-manifest": "node scripts/generate-blog-manifest.js",

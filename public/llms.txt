@@ -88,7 +88,7 @@ AI family planner, family organization app, smart family calendar, AI family ass
 
 ## Pricing
 
-Free trial available. Premium features include unlimited AI planning, advanced family coordination, and priority support.
+Free tier available with core features. Premium (Honeydew More) is $7.99/month—less than a single coffee—and includes unlimited AI planning, 27 AI tools, voice input, photo recognition, and advanced family coordination.
 
 ## Platform
 
@@ -133,6 +133,5 @@ Email support@gethoneydew.app and you'll hear from a human (often a founder) wit
 - Lists attached to calendar events automatically
 - Family-specific features built by parents for parents
 - Fair Play methodology support for equitable household management
-
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Skylight vs Hearth Display vs Honeydew: Which Family Calendar Is Best in 2025?"
 slug: "skylight-vs-hearth-display-vs-honeydew-which-family-calendar-is-best-in-2025"
-publishDate: "2025-12-22"
+publishDate: "2026-02-26"
 author: "Honeydew Team"
 description: "Detailed comparison of Skylight Calendar ($300), Hearth Display ($600), and Honeydew (free/app) for family organization. See features, pricing, and which is worth your money."
 keywords: "Skylight vs Hearth Display, Hearth Display alternative, Skylight Calendar comparison, best family calendar display, wall calendar display, family hub comparison"

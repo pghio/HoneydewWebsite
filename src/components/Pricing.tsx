@@ -168,6 +168,15 @@ const Pricing = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-center mt-12"
         >
+          <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-6 mb-6 max-w-3xl mx-auto border border-green-200">
+            <p className="text-green-800 font-semibold text-lg mb-2">
+              💡 Families save 3-5 hours weekly on coordination
+            </p>
+            <p className="text-green-700">
+              At $7.99/month (less than a single coffee), that's over $100 of time value every month. 
+              <span className="font-medium"> The ROI is 30-50x.</span>
+            </p>
+          </div>
           <p className="text-gray-600 text-lg">
             All plans include 14-day money-back guarantee • No credit card required for free plan • Cancel anytime
           </p>

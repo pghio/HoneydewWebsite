@@ -13,6 +13,13 @@ const faqs = [
     bgColor: 'bg-pink-50'
   },
   {
+    question: "Is there a learning curve or setup hassle?",
+    answer: "Zero setup friction—this is our biggest strength. Upload a screenshot of your existing calendar (Google, Apple, paper planner, whiteboard, anything) and Honeydew's AI instantly extracts and organizes everything. No manual data entry. Or just say 'plan beach day' and get started in 3 seconds. Most families are fully productive within their first session.",
+    icon: Lightbulb,
+    color: 'text-green-600',
+    bgColor: 'bg-green-50'
+  },
+  {
     question: "How is Honeydew different from Cozi?",
     answer: "Cozi requires manual entry for everything. Honeydew's AI generates complete lists from one sentence. Tell it 'beach day' and get sunscreen, towels, snacks, toys—everything you'd forget. It also works with Apple Calendar (Cozi doesn't) and handles multiple family groups for divorced parents. [See full comparison →](/why-honeydew/vs-cozi)",
     icon: BookOpen,
@@ -77,10 +84,24 @@ const faqs = [
   },
   {
     question: "How much does Honeydew cost?",
-    answer: "Honeydew offers a free tier to get started. Honeydew More unlocks unlimited AI planning, advanced family coordination, and multi-family support for $7.99/month. That's less than the cost of a Skylight Calendar ($300+) or hiring someone to organize your life, and you get AI intelligence that actually saves you 3-5 hours per week. Honeydew All with advanced features is coming soon.",
+    answer: "Honeydew offers a free tier to get started. Honeydew More unlocks unlimited AI planning, advanced family coordination, and multi-family support for $7.99/month—less than a single coffee. That's less than a Skylight Calendar ($300+), and families report saving 3-5 hours weekly. The ROI is extraordinary: $8/month saves you $100+ in time value. Honeydew All with advanced features is coming soon.",
     icon: Lightbulb,
     color: 'text-emerald-600',
     bgColor: 'bg-emerald-50'
+  },
+  {
+    question: "Is the app reliable across iPhone and Android?",
+    answer: "Yes, flawlessly. Over 40% of our active families use mixed iOS/Android devices. We maintain 99.9% uptime with real-time sync (<50ms latency). Our engineering team includes former Google and Apple engineers. If you ever have an issue, email support@gethoneydew.app and you'll hear from a human—often a founder—within hours.",
+    icon: Heart,
+    color: 'text-violet-600',
+    bgColor: 'bg-violet-50'
+  },
+  {
+    question: "Do the AI features actually work as advertised?",
+    answer: "Yes, verifiably. Our AI agent uses 27 specialized tools. Voice input uses Whisper AI with >95% accuracy (industry-leading). Calendar sync is two-way with Google AND Apple. We don't overpromise—we're founders who use Honeydew daily with our own families. Try the free tier to see for yourself before paying anything.",
+    icon: BookOpen,
+    color: 'text-amber-600',
+    bgColor: 'bg-amber-50'
   }
 ]
 

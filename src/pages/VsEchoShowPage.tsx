@@ -52,7 +52,7 @@ const VsEchoShowPage = () => {
         ],
       }}
       seo={{
-        title: 'Honeydew vs Echo Show Calendar – AI Planner vs Smart Display',
+        title: 'Honeydew Family App vs Echo Show Calendar – AI Planner vs Smart Display',
         description:
           'Echo Show is a smart display with a basic calendar. Honeydew is an AI planner that automates lists, routines, and multi-home coordination across every device.',
         keywords:

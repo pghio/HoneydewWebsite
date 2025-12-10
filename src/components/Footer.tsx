@@ -39,7 +39,7 @@ const Footer = () => {
               <div className="w-8 h-8 honeydew-gradient rounded-lg flex items-center justify-center">
                 <Heart className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold honeydew-text-gradient">Honeydew</span>
+              <span className="text-xl font-bold honeydew-text-gradient">Honeydew Family App</span>
             </motion.div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Transforming family organization through AI-powered intelligence. 
@@ -121,10 +121,14 @@ const Footer = () => {
           </div>
         </div>
 
+        <div className="mt-6 text-sm text-gray-400">
+          Looking for the data platform? That&apos;s honeydew.ai. We&apos;re the Honeydew Family App—the AI family organizer for households.
+        </div>
+
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-gray-400 text-sm">
-            © {currentYear} Honeydew. All rights reserved. Made with{' '}
+            © {currentYear} Honeydew Family App. All rights reserved. Made with{' '}
             <motion.span
               className="inline-block text-red-500"
               animate={{ scale: [1, 1.2, 1] }}

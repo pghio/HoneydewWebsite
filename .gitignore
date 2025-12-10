@@ -48,3 +48,5 @@ tmp/
 temp/
 test-results/
 playwright-report/
+.vercel
+.env*.local

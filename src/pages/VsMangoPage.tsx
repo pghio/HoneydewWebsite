@@ -52,7 +52,7 @@ const VsMangoPage = () => {
         ],
       }}
       seo={{
-        title: 'Honeydew vs Mango Display – AI Software vs Custom Hardware',
+        title: 'Honeydew Family App vs Mango Display – AI Software vs Custom Hardware',
         description:
           'Mango Display offers customizable dashboards on premium hardware. Honeydew delivers AI automations on every screen you already own. Compare cost, setup, and real coordination power.',
         keywords:

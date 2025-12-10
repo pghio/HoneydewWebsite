@@ -54,7 +54,7 @@ const VsFamilyWallPage = () => {
         ],
       }}
       seo={{
-        title: 'Honeydew vs FamilyWall – Automation for Blended Families (2025)',
+        title: 'Honeydew Family App vs FamilyWall – Automation for Blended Families (2025)',
         description:
           'FamilyWall offers chat and location sharing. Honeydew adds AI planning, two-way Apple sync, and multi-household automations that keep divorced or blended families on track.',
         keywords:

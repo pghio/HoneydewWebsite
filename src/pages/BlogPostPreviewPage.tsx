@@ -103,7 +103,7 @@ const BlogPostPreviewPage = () => {
 
             {frontmatter.title && (
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                {frontmatter.title}
+                Honeydew Family App: {frontmatter.title}
               </h1>
             )}
 
@@ -145,7 +145,11 @@ const BlogPostPreviewPage = () => {
               remarkPlugins={[remarkGfm]}
               components={{
                 // Custom rendering for specific elements
-                h1: ({node, ...props}) => <h1 className="honeydew-text-gradient" {...props} />,
+                h1: ({node, children, ...props}) => (
+                  <h1 className="honeydew-text-gradient" {...props}>
+                    Honeydew Family App: {children}
+                  </h1>
+                ),
                 h2: ({node, ...props}) => <h2 className="text-gray-900 border-b-2 border-gray-100 pb-2" {...props} />,
                 table: ({node, ...props}) => (
                   <div className="overflow-x-auto my-6">

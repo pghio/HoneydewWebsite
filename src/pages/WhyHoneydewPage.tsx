@@ -89,7 +89,7 @@ const ComparisonPage = ({
     ]
 
     return {
-      title: `Honeydew vs ${competitor} – 2025 Family Planner Breakdown`,
+      title: `Honeydew Family App vs ${competitor} – 2025 Family Planner Breakdown`,
       description: `See how Honeydew automates what ${competitor} leaves manual: AI-built lists, two-way Apple & Google Calendar sync, and real-time coordination for busy families. Pricing, features, and migration tips inside.`,
       keywords: seo?.keywords ?? baseKeywords.join(', '),
       image: seo?.image ?? '/og-image-ai.jpg',
@@ -167,7 +167,7 @@ const ComparisonPage = ({
             className="text-center mb-16"
           >
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Honeydew vs. {competitor}
+              Honeydew Family App vs. {competitor}
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{heroCopy}</p>
           </motion.div>

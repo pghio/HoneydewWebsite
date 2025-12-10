@@ -96,7 +96,7 @@ export const useSEO = ({
     // Cleanup function
     return () => {
       // Reset to default homepage values when component unmounts
-      document.title = 'Honeydew - AI-Powered Family Assistant | Natural Language Organization'
+      document.title = 'Honeydew Family App – AI Organizer with 27+ Tools'
       
       const canonicalReset = document.querySelector('link[rel="canonical"]')
       if (canonicalReset) {

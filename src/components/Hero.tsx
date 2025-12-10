@@ -28,7 +28,7 @@ const Hero = () => {
             </motion.div>
 
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
-              Just Tell Honeydew{' '}
+              Just Tell the Honeydew Family App{' '}
               <motion.span
                 className="honeydew-text-gradient inline-block"
                 initial={{ opacity: 0 }}

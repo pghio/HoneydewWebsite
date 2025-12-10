@@ -13,6 +13,13 @@ const faqs = [
     bgColor: 'bg-pink-50'
   },
   {
+    question: "Is this Honeydew the same as honeydew.ai?",
+    answer: "Nope. We are the Honeydew Family App (aka Honeydew Organizer)—the consumer AI family OS. honeydew.ai is a data intelligence platform for businesses. If you landed here looking for their product, head to honeydew.ai. If you need an AI planner for your family, you’re in the right place.",
+    icon: Lightbulb,
+    color: 'text-blue-600',
+    bgColor: 'bg-blue-50'
+  },
+  {
     question: "Is there a learning curve or setup hassle?",
     answer: "Zero setup friction—this is our biggest strength. Upload a screenshot of your existing calendar (Google, Apple, paper planner, whiteboard, anything) and Honeydew's AI instantly extracts and organizes everything. No manual data entry. Or just say 'plan beach day' and get started in 3 seconds. Most families are fully productive within their first session.",
     icon: Lightbulb,

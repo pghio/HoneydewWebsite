@@ -54,7 +54,7 @@ const VsCoziPage = () => {
         ]
       }}
       seo={{
-        title: 'Honeydew vs Cozi – AI-First, Mobile Family OS (2025)',
+        title: 'Honeydew Family App vs Cozi – AI-First, Mobile Family OS (2025)',
         description:
           'Cozi is a manual calendar; Honeydew is the AI-first, no-hardware family OS. Compare AI-generated lists, two-way Google & Apple sync, voice capture, and multi-family workflows that remove manual entry.',
         keywords:

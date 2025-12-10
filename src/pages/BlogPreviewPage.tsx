@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { Calendar, TrendingUp, Users, Mic, FileText } from 'lucide-react'
+import useSEO from '../utils/useSEO'
 
 const articles = [
   {
@@ -30,14 +31,14 @@ const articles = [
   {
     id: 3,
     slug: 'honeydew-vs-cozi-comparison-2025',
-    title: 'Honeydew vs Cozi: Which Family App is Better in 2025?',
-    description: 'Detailed comparison of Honeydew vs Cozi. AI automation vs traditional simplicity.',
+    title: 'Honeydew Family App vs Cozi: Which Family App is Better in 2025?',
+    description: 'Detailed comparison of Honeydew Family App vs Cozi. AI automation vs traditional simplicity.',
     publishDate: '2025-11-04',
     category: 'Comparison',
     icon: TrendingUp,
     featured: true,
     readTime: '22 min',
-    keywords: ['Honeydew vs Cozi', 'comparison', 'AI vs traditional']
+    keywords: ['Honeydew Family App vs Cozi', 'comparison', 'AI vs traditional']
   },
   {
     id: 4,
@@ -66,6 +67,16 @@ const articles = [
 ]
 
 const BlogPreviewPage = () => {
+  useSEO({
+    title: 'Honeydew Family App Blog Preview – Hidden Review Queue',
+    description: 'Hidden queue to review Honeydew Family App long-form articles before they are auto-scheduled by the Content Hopper.',
+    canonical: '/blog-preview',
+    keywords: 'Honeydew Family App blog preview, Honeydew Organizer content queue, Honeydew articles review',
+    image: '/og-image-ai.jpg',
+    type: 'website',
+    noindex: true,
+  })
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-yellow-50">
       {/* Header */}
@@ -74,7 +85,7 @@ const BlogPreviewPage = () => {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Blog Preview
+                Honeydew Family App Blog Preview
               </h1>
               <p className="text-sm text-gray-600 mt-1">
                 Hidden preview page - Review articles before publishing

@@ -9,7 +9,7 @@ const SupportPage = () => {
   const location = useLocation()
 
   useSEO({
-    title: 'Honeydew Support – Get Help, Documentation, and AI Workflow Guidance',
+    title: 'Honeydew Family App Support – Get Help, Documentation, and AI Workflow Guidance',
     description:
       'Access Honeydew support resources: help center, step-by-step documentation, community tips, and direct email assistance for AI planning, calendar sync, and family coordination.',
     canonical: location.pathname,
@@ -93,7 +93,7 @@ const SupportPage = () => {
             transition={{ delay: 0.2 }}
           >
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Honeydew Support
+              Honeydew Family App Support
             </h1>
             <p className="text-xl text-gray-600 mb-6">
               We're here to help you get the most out of Honeydew. Choose the support option that works best for you.

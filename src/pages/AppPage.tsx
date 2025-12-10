@@ -8,7 +8,7 @@ const AppPage = () => {
   const appLaunchHref = 'https://app.gethoneydew.app/?utm_source=website&utm_medium=app_preview&utm_campaign=app_launch'
 
   useSEO({
-    title: 'Honeydew App Preview – AI Lists, Calendar Sync, and Family Workflows',
+    title: 'Honeydew Family App Preview – AI Lists, Calendar Sync, and Family Workflows',
     description:
       'Tour the Honeydew web app experience. See AI-built lists, voice capture, two-way Google & Apple Calendar sync, and real-time family coordination before you launch the full product.',
     canonical: '/app',
@@ -45,7 +45,7 @@ const AppPage = () => {
             <div className="w-8 h-8 honeydew-gradient rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">H</span>
             </div>
-            <span className="text-lg font-semibold text-gray-900">Honeydew App</span>
+            <span className="text-lg font-semibold text-gray-900">Honeydew Family App</span>
           </div>
 
           <motion.a
@@ -86,7 +86,7 @@ const AppPage = () => {
             >
               <span className="text-white font-bold text-xl">H</span>
             </motion.div>
-            <div className="text-lg font-medium text-gray-900 mb-2">Loading Honeydew...</div>
+            <div className="text-lg font-medium text-gray-900 mb-2">Loading the Honeydew Family App...</div>
             <div className="text-gray-600">Preparing your family workspace</div>
           </div>
         </motion.div>
@@ -113,7 +113,7 @@ const AppPage = () => {
                   </motion.div>
                   
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                    Welcome to Honeydew Demo
+                    Welcome to the Honeydew Family App Demo
                   </h2>
                   
                   <p className="text-lg text-gray-600 mb-8 leading-relaxed">

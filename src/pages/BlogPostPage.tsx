@@ -72,7 +72,7 @@ const BlogPostPage = () => {
 
     // Set document title
     if (frontmatter.title) {
-      document.title = `${frontmatter.title} | Honeydew Blog`
+      document.title = `${frontmatter.title} | Honeydew Family App Blog`
     }
 
     // Remove existing meta tags that we'll replace
@@ -170,7 +170,8 @@ const BlogPostPage = () => {
       },
       publisher: {
         '@type': 'Organization',
-        name: 'Honeydew',
+        name: 'Honeydew Family App',
+        alternateName: 'Honeydew Organizer',
         url: baseUrl,
         logo: {
           '@type': 'ImageObject',
@@ -207,7 +208,8 @@ const BlogPostPage = () => {
         '@type': 'Review',
         itemReviewed: {
           '@type': 'SoftwareApplication',
-          name: 'Honeydew',
+          name: 'Honeydew Family App',
+          alternateName: 'Honeydew Organizer',
           applicationCategory: 'LifestyleApplication',
           operatingSystem: 'iOS, Android, Web',
         },
@@ -233,7 +235,7 @@ const BlogPostPage = () => {
 
     // Cleanup function to restore default title and remove tags when unmounting
     return () => {
-      document.title = 'Honeydew - AI-Powered Family Assistant | Natural Language Organization'
+      document.title = 'Honeydew Family App – AI Organizer with 27+ Tools'
       const reviewScript = document.querySelector('script[data-review-schema]')
       if (reviewScript) reviewScript.remove()
       const faqScript = document.querySelector('script[data-faq-schema]')
@@ -395,7 +397,7 @@ const BlogPostPage = () => {
     return (
       <div className="min-h-screen flex items-center justify-center bg-white">
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Article Not Found</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Honeydew Family App Article Not Found</h1>
           <Link to="/" className="text-primary-600 hover:text-primary-700">
             Return to Home
           </Link>
@@ -406,9 +408,9 @@ const BlogPostPage = () => {
 
   const blogCtaHref = buildBlogCTALink(slug ?? 'unknown', 'bottom')
   const relatedInternalLinks = [
-    { label: 'Honeydew vs Skylight Calendar', href: '/why-honeydew/vs-skylight' },
-    { label: 'Honeydew vs Cozi', href: '/why-honeydew/vs-cozi' },
-    { label: 'Honeydew vs Google Calendar', href: '/why-honeydew/vs-google' },
+    { label: 'Honeydew Family App vs Skylight Calendar', href: '/why-honeydew/vs-skylight' },
+    { label: 'Honeydew Family App vs Cozi', href: '/why-honeydew/vs-cozi' },
+    { label: 'Honeydew Family App vs Google Calendar', href: '/why-honeydew/vs-google' },
     { label: 'See all articles', href: '/blog' },
   ]
 
@@ -437,7 +439,7 @@ const BlogPostPage = () => {
               transition={{ delay: 0.2 }}
             >
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                {frontmatter.title}
+                Honeydew Family App: {frontmatter.title}
               </h1>
               {frontmatter.description && (
                 <p className="text-xl text-white/90 mb-6">
@@ -542,8 +544,10 @@ const BlogPostPage = () => {
                 ),
                 
                 // Enhanced headings
-                h1: ({node, ...props}) => (
-                  <h1 className="text-4xl font-bold text-[#92C5A7] mb-6 mt-8" {...props} />
+                h1: ({node, children, ...props}) => (
+                  <h1 className="text-4xl font-bold text-[#92C5A7] mb-6 mt-8" {...props}>
+                    Honeydew Family App: {children}
+                  </h1>
                 ),
                 h2: ({node, ...props}) => (
                   <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12 pb-3 border-b-2 border-gray-200" {...props} />
@@ -625,9 +629,9 @@ const BlogPostPage = () => {
           </motion.div>
 
           <div className="mt-12 bg-gray-50 border border-gray-200 rounded-2xl p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Explore Honeydew resources</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Explore Honeydew Family App resources</h3>
             <p className="text-gray-600 mb-6">
-              See how Honeydew compares and why the AI-first, no-hardware family OS is replacing wall calendars and manual list apps.
+              See how the Honeydew Family App compares and why the AI-first, no-hardware family OS is replacing wall calendars and manual list apps.
             </p>
             <div className="grid gap-3 md:grid-cols-2">
               {relatedInternalLinks.map(link => (
@@ -654,7 +658,7 @@ const BlogPostPage = () => {
               Ready to Transform Your Family Organization?
             </h3>
             <p className="text-lg opacity-95 mb-6">
-              Join thousands of families using Honeydew's AI-powered coordination
+              Join thousands of families using the Honeydew Family App&#39;s AI-powered coordination
             </p>
             <motion.a
               href={blogCtaHref}

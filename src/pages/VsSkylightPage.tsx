@@ -56,7 +56,7 @@ const VsSkylightPage = () => {
         ]
       }}
       seo={{
-        title: 'Honeydew vs Skylight Calendar – AI-First, Mobile Command Center (No Hardware)',
+        title: 'Honeydew Family App vs Skylight Calendar – AI-First, Mobile Command Center (No Hardware)',
         description:
           'Skylight needs a wall display. Honeydew is the AI-first family OS that runs on every device—no hardware. Compare automation, pricing, and how Honeydew handles voice capture, meal planning, and multi-family sync.',
         keywords:

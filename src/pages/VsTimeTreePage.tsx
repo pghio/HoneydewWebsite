@@ -55,7 +55,7 @@ const VsTimeTreePage = () => {
         ],
       }}
       seo={{
-        title: 'Honeydew vs TimeTree – AI Planning vs Shared Calendar (2025)',
+        title: 'Honeydew Family App vs TimeTree – AI Planning vs Shared Calendar (2025)',
         description:
           'TimeTree shares a calendar. Honeydew plans the work behind every event—packing lists, reminders, travel logistics, and real-time updates. Compare workflows before you choose.',
         keywords:

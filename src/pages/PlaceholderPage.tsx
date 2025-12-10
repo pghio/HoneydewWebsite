@@ -14,7 +14,7 @@ const PlaceholderPage = ({ title, description, comingSoon = true }: PlaceholderP
   const location = useLocation()
 
   useSEO({
-    title: `${title} | Honeydew`,
+    title: `${title} | Honeydew Family App`,
     description: `${description} Stay tuned for the full Honeydew experience with AI-powered workflows and resources.`,
     canonical: location.pathname,
     keywords: `${title.toLowerCase()} honeydew, honeydew ${title.toLowerCase()} resources, honeydew coming soon`,
@@ -46,7 +46,7 @@ const PlaceholderPage = ({ title, description, comingSoon = true }: PlaceholderP
             transition={{ delay: 0.2 }}
           >
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              {title}
+              Honeydew Family App: {title}
             </h1>
             <p className="text-xl text-gray-600 mb-6">
               {description}

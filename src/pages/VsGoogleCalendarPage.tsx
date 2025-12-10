@@ -52,7 +52,7 @@ const VsGoogleCalendarPage = () => {
         ],
       }}
       seo={{
-        title: 'Honeydew vs Google Calendar – When to Add AI Planning (2025)',
+        title: 'Honeydew Family App vs Google Calendar – When to Add AI Planning (2025)',
         description:
           'Google Calendar is great for scheduling. Honeydew adds AI-generated lists, routines, and family automations that Google still leaves manual. See when to layer Honeydew on top.',
         keywords:

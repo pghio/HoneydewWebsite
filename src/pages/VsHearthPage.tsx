@@ -54,7 +54,7 @@ const VsHearthPage = () => {
         ],
       }}
       seo={{
-        title: 'Honeydew vs Hearth Display – Software AI vs Wall Hardware (2025)',
+        title: 'Honeydew Family App vs Hearth Display – Software AI vs Wall Hardware (2025)',
         description:
           'Hearth is a $500 wall display. Honeydew is software that automates planning across every device. Compare costs, setup, and real family workflows before choosing a command center.',
         keywords:

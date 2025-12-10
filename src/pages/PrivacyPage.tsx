@@ -6,7 +6,7 @@ const PrivacyPage = () => {
   const location = useLocation()
 
   useSEO({
-    title: 'Honeydew Privacy Policy – How We Protect Family Data',
+    title: 'Honeydew Family App Privacy Policy – How We Protect Family Data',
     description:
       'Review Honeydew’s privacy practices: data collection, Google Calendar permissions, security safeguards, retention policies, and how to exercise your rights.',
     canonical: location.pathname,
@@ -25,7 +25,7 @@ const PrivacyPage = () => {
         transition={{ duration: 0.6 }}
       >
         <h1 className="text-4xl font-bold mb-4" style={{ color: '#0b3d2e' }}>
-          Honeydew Privacy Policy
+          Honeydew Family App Privacy Policy
         </h1>
         <p className="text-gray-600 mb-8">Effective date: November 11, 2025</p>
 

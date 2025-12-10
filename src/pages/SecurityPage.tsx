@@ -6,7 +6,7 @@ const SecurityPage = () => {
   const location = useLocation()
 
   useSEO({
-    title: 'Honeydew Security – Encryption, Compliance, and Incident Response',
+    title: 'Honeydew Family App Security – Encryption, Compliance, and Incident Response',
     description:
       'Explore Honeydew’s security posture: TLS encryption, secure authentication, OAuth integrations, infrastructure hardening, compliance, and responsible disclosure program.',
     canonical: location.pathname,
@@ -25,7 +25,7 @@ const SecurityPage = () => {
         transition={{ duration: 0.6 }}
       >
         <h1 className="text-4xl font-bold mb-4" style={{ color: '#0b3d2e' }}>
-          Honeydew Security
+          Honeydew Family App Security
         </h1>
         <p className="text-gray-600 mb-8">Last updated: October 16, 2025</p>
 

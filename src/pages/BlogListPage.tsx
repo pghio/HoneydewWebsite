@@ -19,12 +19,12 @@ const BlogListPage = () => {
   const [loading, setLoading] = useState(true)
 
   useSEO({
-    title: 'Honeydew Blog – AI-First Family OS Guides, Comparisons, and Playbooks',
+    title: 'Honeydew Family App Blog – AI Organizer Guides & Playbooks',
     description:
-      'Deep dives on the AI-first, no-hardware family OS. Voice-controlled family workflows, Honeydew vs competitors, AI meal planning, co-parenting automation, and mobile command center guides.',
+      'Deep dives on the AI-first, no-hardware family OS. Voice-controlled family workflows, Honeydew Family App vs competitors, AI meal planning, co-parenting automation, and mobile command center guides.',
     canonical: '/blog',
     keywords:
-      'voice-controlled family app, no hardware family calendar, AI meal planning for families, Honeydew vs Skylight, Honeydew vs Cozi, AI family organization tips, co-parenting automation, family OS blog',
+      'voice-controlled family app, no hardware family calendar, AI meal planning for families, Honeydew Family App vs Skylight, Honeydew Family App vs Cozi, AI family organization tips, co-parenting automation, family OS blog',
     image: '/og-image-ai.jpg',
     type: 'website'
   })
@@ -95,7 +95,7 @@ const BlogListPage = () => {
                 Insights on AI & Family Organization
               </motion.div>
               <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-                Honeydew <span className="text-[#92C5A7]">Blog</span>
+                Honeydew Family App <span className="text-[#92C5A7]">Blog</span>
               </h1>
               <p className="text-xl text-[#4A5568] max-w-3xl mx-auto leading-relaxed">
                 Real stories, practical guides, and deep dives into how AI is transforming family life

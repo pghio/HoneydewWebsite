@@ -6,7 +6,7 @@ const TermsPage = () => {
   const location = useLocation()
 
   useSEO({
-    title: 'Honeydew Terms of Service – Usage, Responsibilities, and Rights',
+    title: 'Honeydew Family App Terms of Service – Usage, Responsibilities, and Rights',
     description:
       'Read the Honeydew Terms of Service covering account responsibilities, acceptable use, integrations, limitations of liability, and dispute resolution.',
     canonical: location.pathname,
@@ -25,7 +25,7 @@ const TermsPage = () => {
         transition={{ duration: 0.6 }}
       >
         <h1 className="text-4xl font-bold mb-4" style={{ color: '#0b3d2e' }}>
-          Honeydew Terms of Service
+          Honeydew Family App Terms of Service
         </h1>
         <p className="text-gray-600 mb-8">Effective date: September 20, 2025</p>
 

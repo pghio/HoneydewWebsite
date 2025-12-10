@@ -6,7 +6,7 @@ const CookiePage = () => {
   const location = useLocation()
 
   useSEO({
-    title: 'Honeydew Cookie Policy – Understanding Tracking & Preferences',
+    title: 'Honeydew Family App Cookie Policy – Understanding Tracking & Preferences',
     description:
       'Learn how Honeydew uses essential, performance, and analytics cookies to deliver secure AI planning experiences, plus how to control your preferences.',
     canonical: location.pathname,
@@ -25,7 +25,7 @@ const CookiePage = () => {
         transition={{ duration: 0.6 }}
       >
         <h1 className="text-4xl font-bold mb-4" style={{ color: '#0b3d2e' }}>
-          Honeydew Cookie Policy
+          Honeydew Family App Cookie Policy
         </h1>
         <p className="text-gray-600 mb-8">Effective date: October 16, 2025</p>
 

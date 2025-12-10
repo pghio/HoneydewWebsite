@@ -13,12 +13,12 @@ import useSEO from '../utils/useSEO'
 
 const HomePage = () => {
   useSEO({
-    title: 'Honeydew – AI-First Family OS | Mobile Command Center (No Hardware)',
+    title: 'Honeydew Family App – AI Organizer & Mobile Command Center (No Hardware)',
     description:
-      'Honeydew is the AI-first, mobile-first family command center. Voice-controlled lists, two-way Google & Apple calendar sync, co-parenting hand-offs, AI meal planning, and multi-family workflows—no wall hardware required.',
+      'Honeydew Family App (Honeydew Organizer) is the AI-first, mobile-first family command center. Voice-controlled lists, two-way Google & Apple calendar sync, co-parenting hand-offs, AI meal planning, and multi-family workflows—no wall hardware required.',
     canonical: '/',
     keywords:
-      'AI-first family OS, voice-controlled family app, no hardware family calendar, AI meal planning for families, co-parenting automation, multi-family coordination app, Honeydew vs Skylight, Honeydew vs Cozi, mobile family command center',
+      'AI-first family OS, voice-controlled family app, no hardware family calendar, AI meal planning for families, co-parenting automation, multi-family coordination app, Honeydew Family App vs Skylight, Honeydew Family App vs Cozi, mobile family command center',
     image: '/og-image-ai.jpg',
     type: 'website'
   })

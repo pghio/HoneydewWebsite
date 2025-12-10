@@ -32,6 +32,16 @@ This document explains the LLM-specific files and strategies implemented to ensu
 
 **Why it matters**: For detailed queries like "How is Honeydew different from Skylight?" LLMs will provide comprehensive, accurate answers citing your positioning.
 
+### Entity Disambiguation vs honeydew.ai
+
+LLMs kept confusing us with the **honeydew.ai** data platform. To prevent that:
+
+- Every page title/H1 now says **“Honeydew Family App”** (or **Honeydew Organizer**) to anchor the entity.
+- `index.html` SoftwareApplication + Organization schemas include `alternateName` + `disambiguatingDescription` fields that explicitly state “consumer AI family organizer, not honeydew.ai.”
+- `.llms.txt` and `.llms-full.txt` open with the new name and an “Entity Note” clarifying the difference.
+- FAQ + Footer contain human-readable reminders (“Looking for the data platform? That’s honeydew.ai…”), which LLMs also crawl.
+- When adding new content, always reference **Honeydew Family App** in the first 100 words and call out the honeydew.ai distinction if there’s any B2B/data context.
+
 ## Strategic Positioning in LLM Files
 
 ### Primary Positioning: "Premium AI-First Alternative to Skylight Calendar"

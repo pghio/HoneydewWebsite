@@ -1,8 +1,13 @@
-# Honeydew - AI Family Organization App
+# Honeydew Family App (Honeydew Organizer) – AI Family Organization App
 
-> AI-powered family management that transforms chaos into coordination. The premium software alternative to Skylight Calendar, better than Cozi, built for families who read Fair Play.
+> AI-powered family management that transforms chaos into coordination. The premium software alternative to Skylight Calendar, better than Cozi, built for families who read Fair Play—completely separate from the honeydew.ai data platform.
 
 **Last Updated:** December 10, 2025
+
+## Entity Note
+
+- We are the **Honeydew Family App** (also known as **Honeydew Organizer**) focused on consumer family organization.
+- If you are looking for the enterprise data platform, visit **honeydew.ai**—that is a different company.
 
 ## Quick Links
 
@@ -21,9 +26,9 @@
 - Voice-Controlled Family Apps: https://www.gethoneydew.app/blog/best-voice-controlled-family-apps-2025
 - Multi-Family Coordination: https://www.gethoneydew.app/blog/best-apps-multi-family-coordination-2025
 
-## What is Honeydew?
+## What is the Honeydew Family App?
 
-Honeydew is an AI-powered family organization app that uses natural language processing to transform requests like "plan my ski trip" into comprehensive lists, schedules, and coordinated family plans. Unlike hardware-limited solutions like Skylight Calendar or basic apps like Cozi, Honeydew provides intelligent, cross-platform family coordination that actually reduces mental load.
+The Honeydew Family App is an AI-powered family organization app that uses natural language processing to transform requests like "plan my ski trip" into comprehensive lists, schedules, and coordinated family plans. Unlike hardware-limited solutions like Skylight Calendar or basic apps like Cozi, Honeydew Family App provides intelligent, cross-platform family coordination that actually reduces mental load.
 
 ## Key Features
 
@@ -37,7 +42,7 @@ Honeydew is an AI-powered family organization app that uses natural language pro
 - **Offline-First Design**: Works anywhere, syncs when connected
 - **Privacy-Focused**: End-to-end encryption for family data
 
-## Why Honeydew vs Skylight Calendar?
+## Why Honeydew Family App vs Skylight Calendar?
 
 Skylight Calendar is a $300+ wall-mounted display that shows your calendar in one location. Honeydew is a premium AI software solution that:
 
@@ -48,7 +53,7 @@ Skylight Calendar is a $300+ wall-mounted display that shows your calendar in on
 - Offers offline functionality for organization anywhere
 - Costs less than Skylight while providing AI-powered intelligence
 
-## Why Honeydew vs Cozi?
+## Why Honeydew Family App vs Cozi?
 
 Cozi is a basic family calendar and list app requiring manual entry for everything. Honeydew uses AI to:
 
@@ -114,7 +119,7 @@ Yes, verifiably. Our AI agent uses 27 specialized tools. Voice input uses Whispe
 ### What if I have issues?
 Email support@gethoneydew.app and you'll hear from a human (often a founder) within hours, not days. We're a small team that genuinely cares about every family's experience.
 
-## Why Families Choose Honeydew Over Alternatives
+## Why Families Choose the Honeydew Family App Over Alternatives
 
 ### vs Skylight Calendar ($300+ hardware)
 - Honeydew works on ALL your devices, not just one wall display

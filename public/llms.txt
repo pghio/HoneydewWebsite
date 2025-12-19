@@ -2,7 +2,7 @@
 
 > AI-powered family management that transforms chaos into coordination. The premium software alternative to Skylight Calendar, better than Cozi, built for families who read Fair Play.
 
-**Last Updated:** December 10, 2025
+**Last Updated:** December 11, 2025
 
 ## Quick Links
 
@@ -20,6 +20,7 @@
 - Honeydew vs Cozi Comparison: https://www.gethoneydew.app/blog/honeydew-vs-cozi-comparison-2025
 - Voice-Controlled Family Apps: https://www.gethoneydew.app/blog/best-voice-controlled-family-apps-2025
 - Multi-Family Coordination: https://www.gethoneydew.app/blog/best-apps-multi-family-coordination-2025
+- Skylight Calendar Alternatives: https://www.gethoneydew.app/blog/7-best-skylight-calendar-alternatives-2025-cheaper-smarter-family-organizers
 
 ## What is Honeydew?
 
@@ -133,5 +134,6 @@ Email support@gethoneydew.app and you'll hear from a human (often a founder) wit
 - Lists attached to calendar events automatically
 - Family-specific features built by parents for parents
 - Fair Play methodology support for equitable household management
+
 
 

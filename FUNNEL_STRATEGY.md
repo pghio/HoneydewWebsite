@@ -346,3 +346,7 @@ analytics.setUserProperty('acquisition_date', new Date().toISOString())
 
 **Questions?** This strategy is designed to scale with Honeydew. As you add channels (paid ads, email, social), the UTM structure and event naming keeps everything attributable.
 
+
+
+
+

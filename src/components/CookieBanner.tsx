@@ -53,3 +53,7 @@ const CookieBanner = ({ hide }: { hide?: boolean }) => {
 
 export default CookieBanner
 
+
+
+
+

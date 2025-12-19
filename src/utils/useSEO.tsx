@@ -26,6 +26,7 @@ export const useSEO = ({
   useEffect(() => {
     const baseUrl = 'https://www.gethoneydew.app'
     const fullCanonical = canonical ? `${baseUrl}${canonical}` : baseUrl
+    // Default to the share-friendly OG JPG (fallback exists in /public).
     const fullImage = image ? `${baseUrl}${image}` : `${baseUrl}/og-image-ai.jpg`
 
     // Update title

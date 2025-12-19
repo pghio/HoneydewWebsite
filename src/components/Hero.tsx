@@ -28,7 +28,7 @@ const Hero = () => {
             </motion.div>
 
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
-              Just Tell the Honeydew Family App{' '}
+              Just Tell Honeydew{' '}
               <motion.span
                 className="honeydew-text-gradient inline-block"
                 initial={{ opacity: 0 }}
@@ -97,7 +97,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
+          className="flex flex-col sm:flex-row gap-4 justify-center mb-4"
           >
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <a
@@ -128,6 +128,15 @@ const Hero = () => {
             >
               See Voice & Image Demo
             </motion.a>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.95 }}
+            className="text-sm text-gray-600 mb-12"
+          >
+            No credit card required. Works on iOS, Android, and Web.
           </motion.div>
 
           <motion.div

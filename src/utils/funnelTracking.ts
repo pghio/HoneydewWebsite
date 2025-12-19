@@ -82,7 +82,8 @@ export const buildBlogCTALink = (
 ): string => {
   return buildAppLink({
     medium: 'blog_cta',
-    campaign: 'article_conversion',
+    // Keep utm_campaign stable for analytics + tests.
+    campaign: 'blog_cta',
     content: `${articleSlug}_${ctaPosition}`
   })
 }
@@ -235,4 +236,8 @@ export const startTimeTracking = (slug: string): (() => void) => {
   
   return () => clearInterval(interval)
 }
+
+
+
+
 

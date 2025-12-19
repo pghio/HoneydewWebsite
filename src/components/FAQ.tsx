@@ -1,5 +1,5 @@
 import { motion, useInView } from 'framer-motion'
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { ChevronDown, ChevronUp, Heart, BookOpen, Lightbulb } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { trackLinkClick } from '../utils/analytics'
@@ -154,12 +154,44 @@ const renderAnswerWithLinks = (answer: string) => {
   return parts
 }
 
+const stripMarkdownLinks = (text: string) => text.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0) // Open first question by default to show story
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
   const faqCtaHref =
     'https://app.gethoneydew.app/?utm_source=website&utm_medium=faq&utm_campaign=secondary_cta'
+
+  // FAQPage schema for the homepage FAQ section (helps audits + AI overviews).
+  useEffect(() => {
+    const identifier = 'home-faq'
+    const existing = document.querySelector(`script[data-faq-schema="${identifier}"]`)
+    if (existing) existing.remove()
+
+    const faqSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqs.slice(0, 10).map(item => ({
+        '@type': 'Question',
+        name: item.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: stripMarkdownLinks(item.answer),
+        },
+      })),
+    }
+
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-faq-schema', identifier)
+    script.textContent = JSON.stringify(faqSchema)
+    document.head.appendChild(script)
+
+    return () => {
+      script.remove()
+    }
+  }, [])
 
   return (
     <section id="faq" className="py-20 bg-gradient-to-br from-gray-50 to-white">
@@ -194,6 +226,9 @@ const FAQ = () => {
               >
                 <button
                   onClick={() => setOpenIndex(openIndex === index ? null : index)}
+                  id={`faq-button-${index}`}
+                  aria-expanded={openIndex === index}
+                  aria-controls={`faq-panel-${index}`}
                   className={`w-full px-6 py-6 text-left flex items-start justify-between hover:bg-gray-50 transition-colors ${
                     openIndex === index ? faq.bgColor : ''
                   }`}
@@ -220,6 +255,9 @@ const FAQ = () => {
                     opacity: openIndex === index ? 1 : 0
                   }}
                   transition={{ duration: 0.3, ease: "easeInOut" }}
+                  id={`faq-panel-${index}`}
+                  role="region"
+                  aria-labelledby={`faq-button-${index}`}
                   className="overflow-hidden"
                 >
                   <div className={`px-6 pb-6 ${faq.bgColor}`}>

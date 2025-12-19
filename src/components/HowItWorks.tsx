@@ -1,5 +1,5 @@
 import { motion, useInView } from 'framer-motion'
-import { useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { MessageSquare, Sparkles, Share2, CheckCircle } from 'lucide-react'
 
 const steps = [
@@ -44,6 +44,37 @@ const steps = [
 const HowItWorks = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
+
+  // HowTo schema for the homepage "How it works" section (helps audits + rich results).
+  useEffect(() => {
+    const identifier = 'home-how-it-works'
+    const existing = document.querySelector(`script[data-howto-schema="${identifier}"]`)
+    if (existing) existing.remove()
+
+    const howtoSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'HowTo',
+      name: 'How Honeydew Works',
+      description:
+        'From thought to organized action in four steps: speak naturally, let AI plan, collaborate, and execute together.',
+      step: steps.map((step, index) => ({
+        '@type': 'HowToStep',
+        position: index + 1,
+        name: step.title,
+        text: step.description,
+      })),
+    }
+
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-howto-schema', identifier)
+    script.textContent = JSON.stringify(howtoSchema)
+    document.head.appendChild(script)
+
+    return () => {
+      script.remove()
+    }
+  }, [])
 
   return (
     <section id="how-it-works" className="py-20 bg-gradient-to-br from-gray-50 to-white">

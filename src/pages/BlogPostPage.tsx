@@ -407,12 +407,51 @@ const BlogPostPage = () => {
   }
 
   const blogCtaHref = buildBlogCTALink(slug ?? 'unknown', 'bottom')
+  const midArticleCtaHref = buildBlogCTALink(slug ?? 'unknown', 'inline')
   const relatedInternalLinks = [
     { label: 'Honeydew Family App vs Skylight Calendar', href: '/why-honeydew/vs-skylight' },
     { label: 'Honeydew Family App vs Cozi', href: '/why-honeydew/vs-cozi' },
     { label: 'Honeydew Family App vs Google Calendar', href: '/why-honeydew/vs-google' },
     { label: 'See all articles', href: '/blog' },
   ]
+
+  const MidArticleCTA = () => (
+    <div className="my-10 rounded-2xl border border-[#92C5A7]/30 bg-gradient-to-br from-[#92C5A7]/15 via-white to-[#78E6AF]/10 p-6 shadow-sm">
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+        <div>
+          <p className="text-sm font-semibold text-[#2F3C36]">Want the “done-for-you” version of this?</p>
+          <h3 className="text-xl font-bold text-gray-900 mt-1">
+            Try Honeydew free and let AI build the plan
+          </h3>
+          <p className="text-gray-700 mt-2">
+            Voice, text, or photo → lists + calendar in seconds. No hardware required.
+          </p>
+        </div>
+        <a
+          href={midArticleCtaHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center rounded-xl bg-[#92C5A7] px-5 py-3 font-semibold text-gray-900 hover:bg-[#86b89b] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#92C5A7]/50"
+          onClick={() => {
+            trackLinkClick({
+              href: midArticleCtaHref,
+              source: 'blog_post_mid',
+              label: frontmatter.title ?? slug ?? 'blog_post',
+              campaign: 'article_conversion_mid',
+              additionalParams: {
+                blog_slug: slug,
+                article_category: frontmatter.category,
+              },
+            })
+            trackAppStoreClick('blog_cta_mid', `article_${slug}`, 'web')
+          }}
+        >
+          Try Honeydew Free
+          <ArrowRight className="ml-2 w-4 h-4" />
+        </a>
+      </div>
+    </div>
+  )
 
   return (
     <>
@@ -492,6 +531,10 @@ const BlogPostPage = () => {
 
         {/* Content */}
         <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          {/*
+            Inject a mid-article CTA after the first H2.
+            This addresses “CTA clarity mid-page” without requiring content edits per-post.
+          */}
           <motion.div
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -516,6 +559,9 @@ const BlogPostPage = () => {
               prose-hr:border-gray-200 prose-hr:my-12
               prose-img:rounded-xl prose-img:shadow-2xl prose-img:my-8"
           >
+            {(() => {
+              let h2Count = 0
+              return (
             <ReactMarkdown 
               remarkPlugins={[remarkGfm]}
               components={{
@@ -549,9 +595,26 @@ const BlogPostPage = () => {
                     Honeydew Family App: {children}
                   </h1>
                 ),
-                h2: ({node, ...props}) => (
-                  <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12 pb-3 border-b-2 border-gray-200" {...props} />
-                ),
+                h2: ({ node, ...props }) => {
+                  h2Count += 1
+                  if (h2Count === 1) {
+                    return (
+                      <>
+                        <h2
+                          className="text-3xl font-bold text-gray-900 mb-6 mt-12 pb-3 border-b-2 border-gray-200"
+                          {...props}
+                        />
+                        <MidArticleCTA />
+                      </>
+                    )
+                  }
+                  return (
+                    <h2
+                      className="text-3xl font-bold text-gray-900 mb-6 mt-12 pb-3 border-b-2 border-gray-200"
+                      {...props}
+                    />
+                  )
+                },
                 h3: ({node, ...props}) => (
                   <h3 className="text-2xl font-bold text-gray-800 mb-4 mt-8" {...props} />
                 ),
@@ -626,6 +689,8 @@ const BlogPostPage = () => {
             >
               {content}
             </ReactMarkdown>
+              )
+            })()}
           </motion.div>
 
           <div className="mt-12 bg-gray-50 border border-gray-200 rounded-2xl p-8">

@@ -30,8 +30,7 @@
       });
       
       // Google Ads Configuration (for conversion tracking)
-      // TODO: Replace AW-XXXXXXXXX with your actual Google Ads Conversion ID
-      // gtag('config', 'AW-XXXXXXXXX');
+      gtag('config', 'AW-2683156260');
       
       // Custom event tracking for blog engagement
       window.trackBlogEvent = function(action, label) {
@@ -57,12 +56,12 @@
           'event_label': ctaLocation
         });
         
-        // Google Ads Conversion (uncomment when ID is added)
-        // gtag('event', 'conversion', {
-        //   'send_to': 'AW-XXXXXXXXX/CONVERSION_LABEL',
-        //   'value': 1.0,
-        //   'currency': 'USD'
-        // });
+        // Google Ads Conversion - CTA Click
+        gtag('event', 'conversion', {
+          'send_to': 'AW-2683156260/cta_click',
+          'value': 1.0,
+          'currency': 'USD'
+        });
       };
       
       // Track App Store / Signup clicks - KEY CONVERSION
@@ -74,12 +73,12 @@
           'value': 2.0
         });
         
-        // Google Ads Conversion (uncomment when ID is added)
-        // gtag('event', 'conversion', {
-        //   'send_to': 'AW-XXXXXXXXX/SIGNUP_LABEL',
-        //   'value': 2.0,
-        //   'currency': 'USD'
-        // });
+        // Google Ads Conversion - App/Signup Click (Primary)
+        gtag('event', 'conversion', {
+          'send_to': 'AW-2683156260/purchase',
+          'value': 2.0,
+          'currency': 'USD'
+        });
       };
     </script>
     

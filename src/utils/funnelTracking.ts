@@ -134,6 +134,11 @@ export const trackAppStoreClick = (
     click_source: source,
     campaign,
   })
+  
+  // Also fire the global Google Ads conversion tracker
+  if (typeof window !== 'undefined' && (window as Window & { trackAppClick?: (source: string) => void }).trackAppClick) {
+    (window as Window & { trackAppClick?: (source: string) => void }).trackAppClick(`${source}_${campaign}`)
+  }
 }
 
 /**

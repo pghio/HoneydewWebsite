@@ -16,16 +16,22 @@
     <!-- Google Site Verification -->
     <meta name="google-site-verification" content="3yDbYBTI_7twBNwJzpvXWCQEiB0rcMkfOjKCldvayrs" />
     
-    <!-- Google Analytics 4 -->
+    <!-- Google Analytics 4 + Google Ads Conversion Tracking -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4X6LYQ296G"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+      
+      // GA4 Configuration
       gtag('config', 'G-4X6LYQ296G', {
         'send_page_view': true,
         'cookie_flags': 'SameSite=None;Secure'
       });
+      
+      // Google Ads Configuration (for conversion tracking)
+      // TODO: Replace AW-XXXXXXXXX with your actual Google Ads Conversion ID
+      // gtag('config', 'AW-XXXXXXXXX');
       
       // Custom event tracking for blog engagement
       window.trackBlogEvent = function(action, label) {
@@ -43,12 +49,37 @@
         });
       };
       
-      // Track CTA clicks
+      // Track CTA clicks - fires both GA4 event and Google Ads conversion
       window.trackCTA = function(ctaLocation) {
+        // GA4 Event
         gtag('event', 'cta_click', {
           'event_category': 'Conversion',
           'event_label': ctaLocation
         });
+        
+        // Google Ads Conversion (uncomment when ID is added)
+        // gtag('event', 'conversion', {
+        //   'send_to': 'AW-XXXXXXXXX/CONVERSION_LABEL',
+        //   'value': 1.0,
+        //   'currency': 'USD'
+        // });
+      };
+      
+      // Track App Store / Signup clicks - KEY CONVERSION
+      window.trackAppClick = function(source) {
+        // GA4 Event
+        gtag('event', 'app_store_click', {
+          'event_category': 'Conversion',
+          'event_label': source,
+          'value': 2.0
+        });
+        
+        // Google Ads Conversion (uncomment when ID is added)
+        // gtag('event', 'conversion', {
+        //   'send_to': 'AW-XXXXXXXXX/SIGNUP_LABEL',
+        //   'value': 2.0,
+        //   'currency': 'USD'
+        // });
       };
     </script>
     

@@ -19,7 +19,12 @@
     "index-build:qa": "node scripts/index-build.js dist-qa",
     "test": "npm run test:e2e",
     "test:e2e": "playwright test",
-    "test:e2e:headed": "playwright test --headed"
+    "test:e2e:headed": "playwright test --headed",
+    "ads:setup": "node scripts/google-ads-cli.js setup",
+    "ads:optimize": "node scripts/ads-optimizer.js run",
+    "ads:daemon": "node scripts/ads-optimizer.js daemon",
+    "ads:report": "node scripts/ads-optimizer.js report",
+    "ads:status": "node scripts/google-ads-cli.js status"
   },
   "keywords": [],
   "author": "",

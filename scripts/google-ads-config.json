@@ -1,0 +1,190 @@
+{
+  "campaign": {
+    "name": "Honeydew - Family Organization",
+    "dailyBudget": 5.00,
+    "targetCPA": 4.00,
+    "biddingStrategy": "MAXIMIZE_CONVERSIONS",
+    "networks": ["SEARCH"],
+    "startDate": null,
+    "endDate": null
+  },
+  "adGroups": [
+    {
+      "name": "Competitor - Cozi Alternative",
+      "keywords": [
+        { "text": "cozi alternative", "matchType": "EXACT" },
+        { "text": "cozi app alternative", "matchType": "PHRASE" },
+        { "text": "better than cozi", "matchType": "BROAD" },
+        { "text": "cozi replacement", "matchType": "EXACT" }
+      ],
+      "landingPage": "/why-honeydew/vs-cozi",
+      "budgetShare": 0.35
+    },
+    {
+      "name": "Competitor - Skylight Alternative",
+      "keywords": [
+        { "text": "skylight calendar alternative", "matchType": "EXACT" },
+        { "text": "skylight alternative", "matchType": "PHRASE" },
+        { "text": "cheaper than skylight", "matchType": "BROAD" }
+      ],
+      "landingPage": "/why-honeydew/vs-skylight",
+      "budgetShare": 0.25
+    },
+    {
+      "name": "Problem - Family Organization",
+      "keywords": [
+        { "text": "family organization app", "matchType": "PHRASE" },
+        { "text": "family coordination help", "matchType": "BROAD" },
+        { "text": "organize family life", "matchType": "PHRASE" },
+        { "text": "family scheduling chaos", "matchType": "BROAD" }
+      ],
+      "landingPage": "/",
+      "budgetShare": 0.25
+    },
+    {
+      "name": "AI Family App",
+      "keywords": [
+        { "text": "ai family app", "matchType": "EXACT" },
+        { "text": "ai family organizer", "matchType": "PHRASE" },
+        { "text": "smart family planner", "matchType": "PHRASE" }
+      ],
+      "landingPage": "/",
+      "budgetShare": 0.15
+    }
+  ],
+  "ads": [
+    {
+      "adGroup": "Competitor - Cozi Alternative",
+      "headlines": [
+        "Better Than Cozi - AI Family App",
+        "Upgrade From Cozi Today",
+        "AI-Powered Family Organizer",
+        "Stop Typing Lists Manually",
+        "Try Honeydew Free"
+      ],
+      "descriptions": [
+        "AI creates lists, schedules & coordinates your family automatically. Natural language planning. Free trial.",
+        "From vacation planning to daily tasks - AI handles it. Join thousands of organized families."
+      ]
+    },
+    {
+      "adGroup": "Competitor - Skylight Alternative",
+      "headlines": [
+        "Smarter Than Skylight Calendar",
+        "AI Family Calendar Alternative",
+        "Skip the $160 Display",
+        "Family Calendar on Any Device",
+        "Try Honeydew Free Today"
+      ],
+      "descriptions": [
+        "Get AI-powered family organization on your phone. Lists attached to events. Voice input. Free trial.",
+        "No expensive hardware needed. Honeydew works on any device with smarter AI features."
+      ]
+    },
+    {
+      "adGroup": "Problem - Family Organization",
+      "headlines": [
+        "End Family Scheduling Chaos",
+        "AI Organizes Your Family Life",
+        "Finally Get Organized",
+        "Save 5+ Hours Per Week",
+        "Try Honeydew Free"
+      ],
+      "descriptions": [
+        "Stop juggling family schedules. AI creates lists, prevents conflicts & keeps everyone in sync.",
+        "From chaos to coordination in minutes. AI handles the details while you enjoy family time."
+      ]
+    },
+    {
+      "adGroup": "AI Family App",
+      "headlines": [
+        "AI Family Assistant App",
+        "Smart Family Organization",
+        "Just Say What You Need",
+        "AI Creates Lists Instantly",
+        "The Future of Family Apps"
+      ],
+      "descriptions": [
+        "Say 'plan camping trip' - AI creates packing list, calendar event & coordinates everyone. Try free.",
+        "Revolutionary AI understands your family. Natural language planning made simple. Start today."
+      ]
+    }
+  ],
+  "targeting": {
+    "locations": ["US", "CA", "GB", "AU"],
+    "languages": ["en"],
+    "demographics": {
+      "parentalStatus": ["PARENT"],
+      "ageRanges": ["25_34", "35_44", "45_54"],
+      "householdIncome": ["TOP_10_PERCENT", "11_TO_20_PERCENT", "21_TO_30_PERCENT"]
+    },
+    "deviceTargeting": {
+      "mobile": 1.2,
+      "desktop": 1.0,
+      "tablet": 0.8
+    }
+  },
+  "conversions": [
+    {
+      "name": "signup_complete",
+      "category": "SIGNUP",
+      "value": 2.00,
+      "countingType": "ONE_PER_CLICK",
+      "primary": true
+    },
+    {
+      "name": "family_created",
+      "category": "LEAD",
+      "value": 1.00,
+      "countingType": "ONE_PER_CLICK",
+      "primary": false
+    },
+    {
+      "name": "first_ai_use",
+      "category": "OTHER",
+      "value": 1.50,
+      "countingType": "ONE_PER_CLICK",
+      "primary": false
+    },
+    {
+      "name": "trial_started",
+      "category": "LEAD",
+      "value": 5.00,
+      "countingType": "ONE_PER_CLICK",
+      "primary": true
+    },
+    {
+      "name": "purchase_complete",
+      "category": "PURCHASE",
+      "value": null,
+      "countingType": "ONE_PER_CLICK",
+      "primary": true,
+      "useDynamicValue": true
+    }
+  ],
+  "optimization": {
+    "pauseThreshold": {
+      "spend": 3.00,
+      "conversions": 0
+    },
+    "boostThreshold": {
+      "ctr": 0.05,
+      "conversionRate": 0.03
+    },
+    "bidAdjustments": {
+      "increasePercent": 20,
+      "decreasePercent": 15
+    },
+    "checkIntervalHours": 6
+  },
+  "reporting": {
+    "emailRecipients": ["pete@gethoneydew.app"],
+    "dailyReport": true,
+    "weeklyReport": true,
+    "alertThresholds": {
+      "budgetSpentPercent": 90,
+      "cpaExceeded": 8.00,
+      "noConversions24h": true
+    }
+  }
+}

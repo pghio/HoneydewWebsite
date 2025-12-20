@@ -83,7 +83,7 @@ const MultimodalDemo = () => {
   const currentStep = demoSteps[activeStep]
 
   return (
-    <section id="multimodal-demo" className="py-20 bg-gradient-to-br from-purple-50 via-white to-blue-50">
+    <section id="multimodal-demo" className="scroll-mt-24 py-20 bg-gradient-to-br from-purple-50 via-white to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" ref={ref}>
         {/* Section Header */}
         <motion.div

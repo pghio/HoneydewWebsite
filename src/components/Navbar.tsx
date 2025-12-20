@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Heart, Menu, X, ChevronDown } from 'lucide-react'
+import { Menu, X, ChevronDown } from 'lucide-react'
 import { useState } from 'react'
 import { trackLinkClick } from '../utils/analytics'
 
@@ -28,59 +28,70 @@ const Navbar = () => {
       className="fixed top-0 left-0 right-0 bg-white/90 backdrop-blur-md z-50 border-b border-gray-100"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex items-center h-16">
           {/* Logo */}
           <motion.div 
-            className="flex items-center space-x-2"
+            className="flex items-center space-x-2 flex-shrink-0"
             whileHover={{ scale: 1.05 }}
           >
             <a href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 honeydew-gradient rounded-lg flex items-center justify-center">
-                <Heart className="w-5 h-5 text-white" />
-              </div>
+              <img
+                src="/logo.png"
+                alt="Honeydew logo"
+                className="w-8 h-8 rounded-lg"
+                decoding="async"
+                width={32}
+                height={32}
+              />
               <span className="text-xl font-bold honeydew-text-gradient">Honeydew Family App</span>
             </a>
           </motion.div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-gray-600 hover:text-primary-600 transition-colors">Features</a>
-            <a href="#multimodal-demo" className="text-gray-600 hover:text-primary-600 transition-colors">AI Demo</a>
-            
-            {/* Why Honeydew Dropdown */}
-            <div 
-              className="relative"
-              onMouseEnter={() => setIsWhyHoneydewOpen(true)}
-              onMouseLeave={() => setIsWhyHoneydewOpen(false)}
-            >
-              <button className="text-gray-600 hover:text-primary-600 transition-colors flex items-center gap-1">
-                Why Honeydew
-                <ChevronDown className="w-4 h-4" />
-              </button>
+          {/* Desktop Navigation (centered) */}
+          <div className="hidden md:flex flex-1 items-center justify-center">
+            <div className="flex items-center space-x-8">
+              <a href="#features" className="text-gray-600 hover:text-primary-600 transition-colors">Features</a>
+              <a href="#multimodal-demo" className="text-gray-600 hover:text-primary-600 transition-colors">AI Demo</a>
               
-              {isWhyHoneydewOpen && (
-                <motion.div
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: 10 }}
-                  className="absolute top-full left-0 pt-2"
-                >
-                  <div className="w-72 bg-white rounded-lg shadow-xl border border-gray-100 py-2">
-                    {whyHoneydewLinks.map((link, index) => (
-                      <a
-                        key={index}
-                        href={link.href}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-primary-600 transition-colors"
-                      >
-                        {link.title}
-                      </a>
-                    ))}
-                  </div>
-                </motion.div>
-              )}
-            </div>
+              {/* Why Honeydew Dropdown */}
+              <div 
+                className="relative"
+                onMouseEnter={() => setIsWhyHoneydewOpen(true)}
+                onMouseLeave={() => setIsWhyHoneydewOpen(false)}
+              >
+                <button className="text-gray-600 hover:text-primary-600 transition-colors flex items-center gap-1">
+                  Why Honeydew
+                  <ChevronDown className="w-4 h-4" />
+                </button>
+                
+                {isWhyHoneydewOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 10 }}
+                    className="absolute top-full left-0 pt-2"
+                  >
+                    <div className="w-72 bg-white rounded-lg shadow-xl border border-gray-100 py-2">
+                      {whyHoneydewLinks.map((link, index) => (
+                        <a
+                          key={index}
+                          href={link.href}
+                          className="block px-4 py-2 text-sm text-gray-700 hover:bg-purple-50 hover:text-primary-600 transition-colors"
+                        >
+                          {link.title}
+                        </a>
+                      ))}
+                    </div>
+                  </motion.div>
+                )}
+              </div>
 
-            <a href="#how-it-works" className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
+              <a href="#how-it-works" className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
+            </div>
+          </div>
+
+          {/* Desktop CTA (right-aligned) */}
+          <div className="hidden md:flex items-center flex-shrink-0">
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -105,7 +116,7 @@ const Navbar = () => {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="md:hidden ml-auto">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-gray-600 hover:text-gray-900"

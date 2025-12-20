@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Heart, Mail } from 'lucide-react'
+import { Mail } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -36,9 +36,14 @@ const Footer = () => {
               className="flex items-center space-x-2 mb-4"
               whileHover={{ scale: 1.05 }}
             >
-              <div className="w-8 h-8 honeydew-gradient rounded-lg flex items-center justify-center">
-                <Heart className="w-5 h-5 text-white" />
-              </div>
+              <img
+                src="/logo.png"
+                alt="Honeydew logo"
+                className="w-8 h-8 rounded-lg"
+                decoding="async"
+                width={32}
+                height={32}
+              />
               <span className="text-xl font-bold honeydew-text-gradient">Honeydew Family App</span>
             </motion.div>
             <p className="text-gray-400 mb-6 leading-relaxed">

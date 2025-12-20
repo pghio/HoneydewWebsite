@@ -97,14 +97,14 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
-          className="flex flex-col sm:flex-row gap-4 justify-center mb-4"
+            className="relative z-10 flex flex-col sm:flex-row gap-4 justify-center mb-4"
           >
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <a
                 href={heroCtaHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#92C5A7] text-gray-900 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#86b89b] transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl inline-block"
+                className="pointer-events-auto bg-[#92C5A7] text-gray-900 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#86b89b] transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl inline-block"
                 onClick={() => {
                   trackLinkClick({
                     href: heroCtaHref,
@@ -122,7 +122,7 @@ const Hero = () => {
 
             <motion.a
               href="#multimodal-demo"
-              className="border-2 border-[#92C5A7] text-[#2F3C36] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#92C5A7]/10 transition-all duration-200 inline-block"
+              className="pointer-events-auto border-2 border-[#92C5A7] text-[#2F3C36] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#92C5A7]/10 transition-all duration-200 inline-block"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -146,8 +146,8 @@ const Hero = () => {
             className="inline-flex items-center bg-white/80 px-5 py-3 rounded-full shadow-sm border border-[#E2E8F0] text-sm font-medium text-gray-700"
           >
             <img
-              src="/assets/honeydew-heart-icon.svg"
-              alt="Honeydew heart icon"
+              src="/logo.png"
+              alt="Honeydew logo"
               className="w-6 h-6 mr-2"
               loading="lazy"
               decoding="async"
@@ -230,8 +230,8 @@ const Hero = () => {
 
               {/* Floating Elements */}
               <motion.img
-                src="/assets/honeydew-heart-icon.svg"
-                alt="Honeydew AI agent"
+                src="/logo.png"
+                alt="Honeydew logo"
                 className="absolute -top-4 -left-4 w-16 h-16 drop-shadow-lg"
                 loading="lazy"
                 decoding="async"
@@ -242,20 +242,20 @@ const Hero = () => {
               />
 
               <motion.img
-                src="/assets/honeydew-logo-with-wordmark.svg"
+                src="/logo.png"
                 alt="Honeydew logo"
-                className="absolute -top-6 -right-10 w-28 drop-shadow-lg"
+                className="absolute -top-6 -right-10 w-20 h-20 drop-shadow-lg"
                 loading="lazy"
                 decoding="async"
-                width={112}
-                height={112}
+                width={80}
+                height={80}
                 animate={{ rotate: [0, -6, 0], y: [0, -8, 0] }}
                 transition={{ duration: 3, repeat: Infinity, delay: 1 }}
               />
 
               <motion.img
-                src="/assets/honeydew-heart-green.svg"
-                alt="Honeydew image processing"
+                src="/logo.png"
+                alt="Honeydew logo"
                 className="absolute -bottom-6 left-1/2 -translate-x-1/2 w-20 drop-shadow-lg"
                 loading="lazy"
                 decoding="async"

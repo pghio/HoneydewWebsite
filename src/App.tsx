@@ -24,6 +24,7 @@ import VsEchoShowPage from './pages/VsEchoShowPage'
 import VsGoogleCalendarPage from './pages/VsGoogleCalendarPage'
 import VsMangoPage from './pages/VsMangoPage'
 import CookieBanner from './components/CookieBanner'
+import ComparisonsHubPage from './pages/ComparisonsHubPage'
 
 function AppContent() {
   const location = useLocation()
@@ -44,6 +45,8 @@ function AppContent() {
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<HomePage />} />
           <Route path="/app" element={<AppPage />} />
+          <Route path="/compare" element={<ComparisonsHubPage />} />
+          <Route path="/alternatives" element={<ComparisonsHubPage />} />
           <Route path="/blog" element={<BlogListPage />} />
           <Route path="/blog/:slug" element={<BlogPostPage />} />
           <Route path="/blog-preview" element={<BlogPreviewPage />} />

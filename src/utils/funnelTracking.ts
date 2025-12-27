@@ -78,7 +78,7 @@ export const APP_LINKS = {
  */
 export const buildBlogCTALink = (
   articleSlug: string,
-  ctaPosition: 'inline' | 'bottom' | 'sidebar' = 'bottom'
+  ctaPosition: 'inline' | 'bottom' | 'sidebar' | 'sticky' = 'bottom'
 ): string => {
   return buildAppLink({
     medium: 'blog_cta',
@@ -136,8 +136,11 @@ export const trackAppStoreClick = (
   })
   
   // Also fire the global Google Ads conversion tracker
-  if (typeof window !== 'undefined' && (window as Window & { trackAppClick?: (source: string) => void }).trackAppClick) {
-    (window as Window & { trackAppClick?: (source: string) => void }).trackAppClick(`${source}_${campaign}`)
+  if (typeof window !== 'undefined') {
+    const maybeTracker = (window as Window & { trackAppClick?: (source: string) => void }).trackAppClick
+    if (typeof maybeTracker === 'function') {
+      maybeTracker(`${source}_${campaign}`)
+    }
   }
 }
 

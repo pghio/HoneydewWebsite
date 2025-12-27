@@ -1,0 +1,54 @@
+{
+  "lastRun": "2025-12-20T18:37:41.642Z",
+  "lastReport": null,
+  "optimizationHistory": [
+    {
+      "timestamp": "2025-12-20T18:37:41.642Z",
+      "paused": 3,
+      "boosted": 2,
+      "alerts": 1
+    }
+  ],
+  "pausedKeywords": [
+    {
+      "keyword": "family organization app",
+      "pausedAt": "2025-12-20T18:37:41.641Z",
+      "reason": "Spent $4.80 with 0 conversions"
+    },
+    {
+      "keyword": "ai family app",
+      "pausedAt": "2025-12-20T18:37:41.641Z",
+      "reason": "Spent $4.00 with 0 conversions"
+    },
+    {
+      "keyword": "organize family life",
+      "pausedAt": "2025-12-20T18:37:41.641Z",
+      "reason": "Spent $3.60 with 0 conversions"
+    }
+  ],
+  "boostedKeywords": [
+    {
+      "keyword": "cozi alternative",
+      "boostedAt": "2025-12-20T18:37:41.641Z",
+      "reason": "2 conversions at $4.20 CPA"
+    },
+    {
+      "keyword": "skylight calendar alternative",
+      "boostedAt": "2025-12-20T18:37:41.642Z",
+      "reason": "1 conversions at $7.20 CPA"
+    }
+  ],
+  "alerts": [
+    {
+      "type": "cpa_spike",
+      "severity": "high",
+      "message": "CPA of $10.97 is 2.7x target",
+      "timestamp": "2025-12-20T18:37:41.642Z"
+    }
+  ],
+  "metrics": {
+    "totalSpend": 0,
+    "totalConversions": 0,
+    "totalClicks": 0
+  }
+}

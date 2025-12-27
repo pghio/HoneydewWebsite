@@ -24,7 +24,8 @@
     "ads:optimize": "node scripts/ads-optimizer.js run",
     "ads:daemon": "node scripts/ads-optimizer.js daemon",
     "ads:report": "node scripts/ads-optimizer.js report",
-    "ads:status": "node scripts/google-ads-cli.js status"
+    "ads:status": "node scripts/google-ads-cli.js status",
+    "gsc:wow": "node scripts/gsc-cli.js week-over-week --property=https://www.gethoneydew.app"
   },
   "keywords": [],
   "author": "",

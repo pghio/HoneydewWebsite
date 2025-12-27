@@ -86,6 +86,20 @@ function buildSitemapXml({ baseUrl, publishedArticles, scheduledArticles, today 
     priority: '0.9',
   });
 
+  addUrlEntry(lines, {
+    loc: `${baseUrl}/compare`,
+    lastmod: today,
+    changefreq: 'monthly',
+    priority: '0.8',
+  });
+
+  addUrlEntry(lines, {
+    loc: `${baseUrl}/alternatives`,
+    lastmod: today,
+    changefreq: 'monthly',
+    priority: '0.7',
+  });
+
   if (publishedArticles.length > 0) {
     lines.push('  <!-- Published Blog Articles -->');
     publishedArticles.forEach((article) => {
@@ -199,7 +213,7 @@ export function generateSitemapFile({
 
   fs.writeFileSync(outputPath, xml);
 
-  const staticUrlCount = 17;
+  const staticUrlCount = 19;
   const totalUrls = articleSource.length + staticUrlCount;
 
   if (log) {

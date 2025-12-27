@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, Calendar, Tag, RefreshCcw, ArrowRight } from 'lucide-react'
-import { useEffect, useState } from 'react'
+import { ArrowLeft, Calendar, Tag, RefreshCcw, ArrowRight, X } from 'lucide-react'
+import { useEffect, useMemo, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import Footer from '../components/Footer'
@@ -12,12 +12,85 @@ import {
   buildBlogCTALink,
   trackAppStoreClick 
 } from '../utils/funnelTracking'
+import { buildRelatedComparisonLinks } from '../utils/comparisonLinks'
+
+type TocItem = {
+  id: string
+  level: 2 | 3
+  text: string
+}
+
+type ManifestArticle = {
+  slug: string
+  title: string
+  description?: string
+  publishDate?: string
+  category?: string
+  featured?: boolean
+  keywords?: string
+}
+
+function stripFencedCodeBlocks(markdown: string) {
+  // Best-effort removal of fenced code blocks so headings inside code fences don't appear in TOC.
+  return markdown.replace(/```[\s\S]*?```/g, '')
+}
+
+function slugifyHeading(text: string) {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/[`~!@#$%^&*()+={}\[\]|\\:;"'<>,.?/]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/(^-|-$)/g, '')
+}
+
+function getPlainText(node: unknown): string {
+  if (typeof node === 'string') return node
+  if (Array.isArray(node)) return node.map(getPlainText).join('')
+  // ReactMarkdown children can include nested elements; keep a safe fallback.
+  if (node && typeof node === 'object' && 'props' in (node as any)) {
+    return getPlainText((node as any).props?.children)
+  }
+  return ''
+}
+
+function buildToc(markdown: string): TocItem[] {
+  const text = stripFencedCodeBlocks(markdown || '')
+  const lines = text.split('\n')
+  const counts = new Map<string, number>()
+  const items: TocItem[] = []
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim()
+    const match = /^(##|###)\s+(.+)$/.exec(line)
+    if (!match) continue
+
+    const level = match[1] === '##' ? 2 : 3
+    const headingText = match[2].trim().replace(/\s+#\s*$/, '').trim()
+    if (!headingText) continue
+
+    const base = slugifyHeading(headingText) || 'section'
+    const next = (counts.get(base) ?? 0) + 1
+    counts.set(base, next)
+    const id = next === 1 ? base : `${base}-${next}`
+
+    items.push({ id, level, text: headingText })
+  }
+
+  return items
+}
 
 const BlogPostPage = () => {
   const { slug } = useParams()
   const [content, setContent] = useState('')
   const [frontmatter, setFrontmatter] = useState<any>(null)
   const [loading, setLoading] = useState(true)
+  const [relatedArticles, setRelatedArticles] = useState<ManifestArticle[]>([])
+  const [showStickyCTA, setShowStickyCTA] = useState(false)
+  const [stickyDismissed, setStickyDismissed] = useState(false)
+
+  const tocItems = useMemo(() => buildToc(content), [content])
 
   useEffect(() => {
     const loadArticle = async () => {
@@ -59,6 +132,73 @@ const BlogPostPage = () => {
 
     loadArticle()
   }, [slug])
+
+  // Sticky CTA: show after user scrolls a bit (dismissed per-article).
+  useEffect(() => {
+    if (!slug) return
+    const key = `hd_blog_sticky_dismissed:${slug}`
+    setStickyDismissed(typeof window !== 'undefined' ? window.sessionStorage.getItem(key) === '1' : false)
+
+    const handleScroll = () => {
+      if (typeof window === 'undefined') return
+      setShowStickyCTA(window.scrollY > 520)
+    }
+
+    handleScroll()
+    window.addEventListener('scroll', handleScroll, { passive: true } as any)
+    return () => window.removeEventListener('scroll', handleScroll as any)
+  }, [slug])
+
+  // Related articles: load manifest and pick the most similar posts.
+  useEffect(() => {
+    if (!slug || !frontmatter) return
+
+    const loadRelated = async () => {
+      try {
+        const res = await fetch('/blog-manifest.json')
+        if (!res.ok) return
+        const manifest = await res.json()
+        const articles: ManifestArticle[] = Array.isArray(manifest?.articles) ? manifest.articles : []
+
+        const now = new Date()
+        const published = articles.filter(a => {
+          if (!a?.slug || a.slug === slug) return false
+          if (!a.publishDate) return true
+          return new Date(a.publishDate) <= now
+        })
+
+        const currentCategory = String(frontmatter.category || '').trim().toLowerCase()
+        const currentKeywords = String(frontmatter.keywords || '')
+          .split(',')
+          .map(k => k.trim().toLowerCase())
+          .filter(Boolean)
+        const currentKeywordSet = new Set(currentKeywords)
+
+        const scored = published
+          .map(a => {
+            const kw = String(a.keywords || '')
+              .split(',')
+              .map(k => k.trim().toLowerCase())
+              .filter(Boolean)
+            let score = 0
+            if (currentCategory && String(a.category || '').trim().toLowerCase() === currentCategory) score += 4
+            for (const k of kw) if (currentKeywordSet.has(k)) score += 2
+            if (a.featured) score += 1
+            const dateValue = a.publishDate ? new Date(a.publishDate).getTime() : 0
+            return { a, score, dateValue }
+          })
+          .sort((x, y) => (y.score - x.score) || (y.dateValue - x.dateValue))
+          .slice(0, 6)
+          .map(x => x.a)
+
+        setRelatedArticles(scored)
+      } catch {
+        // Non-fatal
+      }
+    }
+
+    loadRelated()
+  }, [frontmatter, slug])
 
   // Add SEO meta tags when frontmatter loads
   useEffect(() => {
@@ -408,12 +548,8 @@ const BlogPostPage = () => {
 
   const blogCtaHref = buildBlogCTALink(slug ?? 'unknown', 'bottom')
   const midArticleCtaHref = buildBlogCTALink(slug ?? 'unknown', 'inline')
-  const relatedInternalLinks = [
-    { label: 'Honeydew Family App vs Skylight Calendar', href: '/why-honeydew/vs-skylight' },
-    { label: 'Honeydew Family App vs Cozi', href: '/why-honeydew/vs-cozi' },
-    { label: 'Honeydew Family App vs Google Calendar', href: '/why-honeydew/vs-google' },
-    { label: 'See all articles', href: '/blog' },
-  ]
+  const stickyCtaHref = buildBlogCTALink(slug ?? 'unknown', 'sticky')
+  const relatedComparisonLinks = buildRelatedComparisonLinks('__none__', 4)
 
   const MidArticleCTA = () => (
     <div className="my-10 rounded-2xl border border-[#92C5A7]/30 bg-gradient-to-br from-[#92C5A7]/15 via-white to-[#78E6AF]/10 p-6 shadow-sm">
@@ -531,6 +667,30 @@ const BlogPostPage = () => {
 
         {/* Content */}
         <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          {/* Table of Contents (quick UX win + better engagement) */}
+          {tocItems.length > 1 && (
+            <div className="mb-10 rounded-2xl border border-gray-200 bg-white shadow-sm">
+              <div className="px-6 py-4 border-b border-gray-200">
+                <p className="font-bold text-gray-900">On this page</p>
+                <p className="text-sm text-gray-600 mt-1">Jump to the section you need.</p>
+              </div>
+              <div className="px-6 py-4">
+                <ul className="space-y-2">
+                  {tocItems.slice(0, 18).map(item => (
+                    <li key={item.id} className={item.level === 3 ? 'pl-4' : ''}>
+                      <a
+                        href={`#${item.id}`}
+                        className="text-sm font-medium text-gray-700 hover:text-[#2F3C36] hover:underline underline-offset-2"
+                      >
+                        {item.text}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          )}
+
           {/*
             Inject a mid-article CTA after the first H2.
             This addresses “CTA clarity mid-page” without requiring content edits per-post.
@@ -561,6 +721,13 @@ const BlogPostPage = () => {
           >
             {(() => {
               let h2Count = 0
+              const headingCounts = new Map<string, number>()
+              const nextHeadingId = (headingText: string) => {
+                const base = slugifyHeading(headingText) || 'section'
+                const next = (headingCounts.get(base) ?? 0) + 1
+                headingCounts.set(base, next)
+                return next === 1 ? base : `${base}-${next}`
+              }
               return (
             <ReactMarkdown 
               remarkPlugins={[remarkGfm]}
@@ -595,13 +762,16 @@ const BlogPostPage = () => {
                     Honeydew Family App: {children}
                   </h1>
                 ),
-                h2: ({ node, ...props }) => {
+                h2: ({ node, children, ...props }) => {
                   h2Count += 1
+                  const text = getPlainText(children)
+                  const id = nextHeadingId(text)
                   if (h2Count === 1) {
                     return (
                       <>
                         <h2
                           className="text-3xl font-bold text-gray-900 mb-6 mt-12 pb-3 border-b-2 border-gray-200"
+                          id={id}
                           {...props}
                         />
                         <MidArticleCTA />
@@ -611,13 +781,16 @@ const BlogPostPage = () => {
                   return (
                     <h2
                       className="text-3xl font-bold text-gray-900 mb-6 mt-12 pb-3 border-b-2 border-gray-200"
+                      id={id}
                       {...props}
                     />
                   )
                 },
-                h3: ({node, ...props}) => (
-                  <h3 className="text-2xl font-bold text-gray-800 mb-4 mt-8" {...props} />
-                ),
+                h3: ({ node, children, ...props }) => {
+                  const text = getPlainText(children)
+                  const id = nextHeadingId(text)
+                  return <h3 className="text-2xl font-bold text-gray-800 mb-4 mt-8" id={id} {...props} />
+                },
                 
                 // Beautiful blockquotes
                 blockquote: ({node, ...props}) => (
@@ -693,22 +866,56 @@ const BlogPostPage = () => {
             })()}
           </motion.div>
 
-          <div className="mt-12 bg-gray-50 border border-gray-200 rounded-2xl p-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Explore Honeydew Family App resources</h3>
-            <p className="text-gray-600 mb-6">
-              See how the Honeydew Family App compares and why the AI-first, no-hardware family OS is replacing wall calendars and manual list apps.
-            </p>
-            <div className="grid gap-3 md:grid-cols-2">
-              {relatedInternalLinks.map(link => (
+          <div className="mt-12 grid gap-6 md:grid-cols-2">
+            <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Related articles</h3>
+              <p className="text-gray-600 mb-6">Keep reading (and keep the whole family system consistent).</p>
+              <div className="grid gap-3">
+                {relatedArticles.length > 0 ? (
+                  relatedArticles.slice(0, 5).map(a => (
+                    <Link
+                      key={a.slug}
+                      to={`/blog/${a.slug}`}
+                      className="flex items-center justify-between bg-white rounded-xl border border-gray-200 px-4 py-3 text-gray-800 font-semibold hover:border-[#92C5A7] hover:text-[#2F3C36] transition-colors"
+                    >
+                      <span className="line-clamp-1">{a.title}</span>
+                      <ArrowRight className="w-4 h-4 text-gray-500" />
+                    </Link>
+                  ))
+                ) : (
+                  <Link
+                    to="/blog"
+                    className="flex items-center justify-between bg-white rounded-xl border border-gray-200 px-4 py-3 text-gray-800 font-semibold hover:border-[#92C5A7] hover:text-[#2F3C36] transition-colors"
+                  >
+                    <span>Browse all articles</span>
+                    <ArrowRight className="w-4 h-4 text-gray-500" />
+                  </Link>
+                )}
+              </div>
+            </div>
+
+            <div className="bg-gray-50 border border-gray-200 rounded-2xl p-8">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Compare Honeydew</h3>
+              <p className="text-gray-600 mb-6">See how the AI-first, no-hardware family OS stacks up.</p>
+              <div className="grid gap-3">
                 <Link
-                  key={link.href}
-                  to={link.href}
+                  to="/compare"
                   className="flex items-center justify-between bg-white rounded-xl border border-gray-200 px-4 py-3 text-gray-800 font-semibold hover:border-[#92C5A7] hover:text-[#2F3C36] transition-colors"
                 >
-                  <span>{link.label}</span>
+                  <span>All comparisons</span>
                   <ArrowRight className="w-4 h-4 text-gray-500" />
                 </Link>
-              ))}
+                {relatedComparisonLinks.map(link => (
+                  <Link
+                    key={link.href}
+                    to={link.href}
+                    className="flex items-center justify-between bg-white rounded-xl border border-gray-200 px-4 py-3 text-gray-800 font-semibold hover:border-[#92C5A7] hover:text-[#2F3C36] transition-colors"
+                  >
+                    <span>{link.label}</span>
+                    <ArrowRight className="w-4 h-4 text-gray-500" />
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
 
@@ -752,6 +959,65 @@ const BlogPostPage = () => {
         </article>
       </motion.div>
       <Footer />
+
+      {/* Sticky CTA (conversion win without rewriting content) */}
+      {showStickyCTA && !stickyDismissed && (
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 40 }}
+          className="fixed bottom-4 left-4 right-4 md:right-6 md:left-auto md:w-[420px] z-40 drop-shadow-2xl"
+        >
+          <div className="rounded-2xl bg-gradient-to-r from-[#92C5A7] to-[#78E6AF] text-gray-900 border border-white/30 backdrop-blur-md">
+            <div className="p-5">
+              <div className="flex items-start justify-between gap-3">
+                <div>
+                  <p className="text-xs uppercase tracking-wide text-gray-900/70 mb-1">Try the “done-for-you” version</p>
+                  <p className="text-lg font-semibold leading-snug">
+                    Turn voice, text, or photos into lists + calendar events in seconds.
+                  </p>
+                </div>
+                <button
+                  className="rounded-lg p-2 text-gray-900/70 hover:text-gray-900 hover:bg-white/20 transition-colors"
+                  aria-label="Dismiss"
+                  onClick={() => {
+                    if (typeof window !== 'undefined' && slug) {
+                      window.sessionStorage.setItem(`hd_blog_sticky_dismissed:${slug}`, '1')
+                    }
+                    setStickyDismissed(true)
+                  }}
+                >
+                  <X className="w-5 h-5" />
+                </button>
+              </div>
+              <motion.a
+                href={stickyCtaHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-white text-gray-900 font-semibold px-4 py-3 hover:bg-gray-50 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+                whileHover={{ scale: 1.01 }}
+                whileTap={{ scale: 0.99 }}
+                onClick={() => {
+                  trackLinkClick({
+                    href: stickyCtaHref,
+                    source: 'blog_post_sticky',
+                    label: frontmatter.title ?? slug ?? 'blog_post',
+                    campaign: 'article_conversion_sticky',
+                    additionalParams: {
+                      blog_slug: slug,
+                      article_category: frontmatter.category,
+                    },
+                  })
+                  trackAppStoreClick('blog_cta_sticky', `article_${slug}`, 'web')
+                }}
+              >
+                Try Honeydew Free
+                <ArrowRight className="w-4 h-4" />
+              </motion.a>
+            </div>
+          </div>
+        </motion.div>
+      )}
     </>
   )
 }

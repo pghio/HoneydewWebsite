@@ -1,6 +1,34 @@
 {
-  "generated": "2025-12-19T22:51:54.549Z",
+  "generated": "2025-12-22T03:02:13.769Z",
   "articles": [
+    {
+      "slug": "co-parenting-schedule-changes-without-conflict-2025-templates-rules-and-app-setup",
+      "title": "Co-Parenting Schedule Changes Without Conflict (2025): Templates, Rules, and App Setup",
+      "description": "A practical, low-drama system for custody schedule changes: message templates, decision rules, and a shared calendar setup that reduces back-and-forth. Built for divorced and separated parents in 2025.",
+      "publishDate": "2026-03-05",
+      "publishDateValue": "2026-03-05T00:00:00.000Z",
+      "category": "Guide",
+      "featured": false,
+      "keywords": "co-parenting schedule changes, custody schedule change template, co-parenting calendar app, parenting schedule swap request, shared custody calendar, divorced parents app",
+      "author": "Honeydew Team",
+      "image": "/blog-images/honeydew-multi-family.jpg",
+      "fileName": "co-parenting-schedule-changes-without-conflict-2025-templates-rules-and-app-setup.md",
+      "absolutePath": "/Users/peterghiorse/HoneydewWebsite/public/blog/co-parenting-schedule-changes-without-conflict-2025-templates-rules-and-app-setup.md"
+    },
+    {
+      "slug": "carpool-sports-coordination-across-multiple-families-2025-the-no-drama-system",
+      "title": "Carpool & Sports Coordination Across Multiple Families (2025): The No-Drama System",
+      "description": "A practical guide to coordinating carpools, practices, and game-day logistics across multiple families. Includes a shared calendar setup, carpool templates, and an AI-assisted workflow.",
+      "publishDate": "2026-03-02",
+      "publishDateValue": "2026-03-02T00:00:00.000Z",
+      "category": "Guide",
+      "featured": false,
+      "keywords": "carpool coordination app, sports team carpool schedule, multi-family coordination, shared calendar for sports, team logistics app, family carpool organizer",
+      "author": "Honeydew Team",
+      "image": "/blog-images/multi-family-coordination.jpg",
+      "fileName": "carpool-sports-coordination-across-multiple-families-2025-the-no-drama-system.md",
+      "absolutePath": "/Users/peterghiorse/HoneydewWebsite/public/blog/carpool-sports-coordination-across-multiple-families-2025-the-no-drama-system.md"
+    },
     {
       "slug": "why-apple-google-calendar-ai-won-t-replace-family-apps-in-2025",
       "title": "Why Apple & Google Calendar AI Won't Replace Family Apps in 2025",
@@ -829,8 +857,8 @@
     }
   ],
   "stats": {
-    "total": 59,
+    "total": 61,
     "published": 31,
-    "scheduled": 28
+    "scheduled": 30
   }
 }

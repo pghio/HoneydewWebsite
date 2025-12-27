@@ -8,6 +8,7 @@ const Navbar = () => {
   const [isWhyHoneydewOpen, setIsWhyHoneydewOpen] = useState(false)
 
   const whyHoneydewLinks = [
+    { title: 'All comparisons', href: '/compare' },
     { title: 'vs. Skylight Calendar', href: '/why-honeydew/vs-skylight' },
     { title: 'vs. Cozi', href: '/why-honeydew/vs-cozi' },
     { title: 'vs. TimeTree', href: '/why-honeydew/vs-timetree' },
@@ -86,6 +87,7 @@ const Navbar = () => {
                 )}
               </div>
 
+              <a href="/blog" className="text-gray-600 hover:text-primary-600 transition-colors">Blog</a>
               <a href="#how-it-works" className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
             </div>
           </div>
@@ -162,6 +164,7 @@ const Navbar = () => {
                 )}
               </div>
 
+              <a href="/blog" className="text-gray-600 hover:text-primary-600 transition-colors">Blog</a>
               <a href="#how-it-works" className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
               <a
                 href={navCtaHref}

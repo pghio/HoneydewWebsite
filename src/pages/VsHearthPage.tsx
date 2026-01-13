@@ -58,7 +58,7 @@ const VsHearthPage = () => {
         description:
           'Hearth is a $500 wall display. Honeydew is software that automates planning across every device. Compare costs, setup, and real family workflows before choosing a command center.',
         keywords:
-          'honeydew vs hearth display, hearth display alternative, family command center app, smart family dashboard, ai family organizer vs hardware',
+          'honeydew vs hearth display, hearth display alternative, hearth display alternatives, hearth display competitors, family command center app, smart family dashboard, ai family organizer vs hardware',
         image: '/blog-images/honeydew-app-screenshot.jpg',
         heroCopy:
           'Hearth sells premium hardware. Honeydew removes the hardware requirement—use any screen while AI handles the coordination work Hearth still leaves manual.',
@@ -90,6 +90,11 @@ const VsHearthPage = () => {
       ]}
       faq={[
         {
+          question: 'What are the best Hearth Display alternatives in 2026?',
+          answer:
+            'If you’re evaluating Hearth Display alternatives, the top path is usually “tablet + family app.” You get the same kitchen focal point (mount a tablet) plus automation, portability, and multi-household sharing—without committing to proprietary hardware and subscriptions.',
+        },
+        {
           question: 'Can Honeydew run on a wall display like Hearth?',
           answer:
             'Yes. Mount an iPad or inexpensive tablet and load Honeydew’s dashboard. You get the same focal point without committing to proprietary hardware.',
@@ -98,6 +103,11 @@ const VsHearthPage = () => {
           question: 'How does total cost compare over time?',
           answer:
             'Hearth runs $500+ upfront plus $39/month. Honeydew offers a free tier and $99/year premium plan. Over three years, families save ~$1,600 with Honeydew.',
+        },
+        {
+          question: 'If I care about smart home controls (Nest/Ring), is Honeydew still a fit?',
+          answer:
+            'Often yes—use your existing smart home setup for controls, and use Honeydew for the coordination layer (calendar + lists + reminders + multi-household sharing). Hearth’s smart home dashboard is a real advantage; Honeydew wins when you want planning automation and portability.',
         },
         {
           question: 'Does Honeydew integrate with smart home devices?',

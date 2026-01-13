@@ -12,7 +12,7 @@ const comparisonLinks: ComparisonLink[] = [
   { slug: 'vs-familywall', label: 'Honeydew vs FamilyWall', href: '/why-honeydew/vs-familywall' },
   { slug: 'vs-echoshow', label: 'Honeydew vs Echo Show', href: '/why-honeydew/vs-echoshow' },
   { slug: 'vs-google', label: 'Honeydew vs Google Calendar', href: '/why-honeydew/vs-google' },
-  { slug: 'vs-mango', label: 'Honeydew vs Maple', href: '/why-honeydew/vs-mango' },
+  { slug: 'vs-mango', label: 'Honeydew vs Mango Display', href: '/why-honeydew/vs-mango' },
 ]
 
 export const buildRelatedComparisonLinks = (excludeSlug: string, limit = 4): ComparisonLink[] => {

@@ -124,6 +124,11 @@ Honeydew is designed for this exact problem:
 
 If you’re comparing options: **[All Honeydew comparisons](/compare)**.
 
+### Related reading (deeper systems + tools)
+- **Multi-family coordination tools**: **[Best apps for multi-family coordination (2025)](/blog/best-apps-multi-family-coordination-2025)**
+- **Why “lists attached to events” matters**: **[Family coordination vs calendar apps](/blog/family-coordination-vs-calendar-apps-why-lists-attached-to-events-changes-everything)**
+- **Big-picture family OS**: **[Best family organization apps (2025)](/blog/best-family-organization-apps-2025)**
+
 ---
 
 ## Quick comparison: “team logistics” options in 2025

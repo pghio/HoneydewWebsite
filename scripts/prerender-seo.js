@@ -1,0 +1,319 @@
+#!/usr/bin/env node
+
+/**
+ * SEO Prerender Script
+ * 
+ * Generates static HTML files for blog posts and comparison pages
+ * with correct meta tags (title, description, canonical) so that
+ * search engine crawlers see the right SEO data without needing
+ * to execute JavaScript.
+ * 
+ * The HTML files still load the React SPA, which hydrates on top.
+ * 
+ * Usage: npm run prerender (runs automatically after build)
+ */
+
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const DIST_DIR = path.join(__dirname, '../dist');
+const PUBLIC_BLOG_DIR = path.join(__dirname, '../public/blog');
+const BASE_URL = 'https://www.gethoneydew.app';
+
+// Comparison pages with their SEO data
+const COMPARISON_PAGES = [
+  {
+    path: '/why-honeydew/vs-skylight',
+    title: 'Honeydew vs Skylight Calendar – AI Software vs Wall Display (2025)',
+    description: 'Compare Honeydew and Skylight Calendar. See why AI-powered software beats a $300 wall display for family organization. Features, pricing, and real workflows.',
+    keywords: 'honeydew vs skylight, skylight calendar alternative, skylight alternative, family calendar comparison'
+  },
+  {
+    path: '/why-honeydew/vs-cozi',
+    title: 'Honeydew vs Cozi – AI Family App vs Manual Entry (2025)',
+    description: 'Honeydew automates what Cozi leaves manual. Compare AI planning, voice input, and multi-family support. See which family organizer fits your needs.',
+    keywords: 'honeydew vs cozi, cozi alternative, best family organization app, cozi replacement'
+  },
+  {
+    path: '/why-honeydew/vs-timetree',
+    title: 'Honeydew vs TimeTree – Full Family OS vs Calendar App (2025)',
+    description: 'TimeTree is a shared calendar. Honeydew is an AI family OS with lists, automation, and coordination. Compare features and find the right fit.',
+    keywords: 'honeydew vs timetree, timetree alternative, family calendar app, shared calendar comparison'
+  },
+  {
+    path: '/why-honeydew/vs-hearth',
+    title: 'Honeydew vs Hearth Display – AI Software vs $500 Hardware (2025)',
+    description: 'Hearth Display costs $500+ for wall hardware. Honeydew runs on any device with AI automations. Compare costs, features, and family workflows.',
+    keywords: 'honeydew vs hearth display, hearth display alternative, hearth display competitors, family command center app'
+  },
+  {
+    path: '/why-honeydew/vs-familywall',
+    title: 'Honeydew vs FamilyWall – AI Planning vs Basic Chores (2025)',
+    description: 'FamilyWall tracks chores. Honeydew automates entire family workflows with AI. Compare features for modern family coordination.',
+    keywords: 'honeydew vs familywall, familywall alternative, family chore app, family organization comparison'
+  },
+  {
+    path: '/why-honeydew/vs-echoshow',
+    title: 'Honeydew vs Echo Show – AI Family App vs Smart Display (2025)',
+    description: 'Echo Show shows your calendar. Honeydew plans your family life with AI. Compare smart display vs dedicated family coordination.',
+    keywords: 'honeydew vs echo show, echo show family calendar, alexa family calendar, smart display family'
+  },
+  {
+    path: '/why-honeydew/vs-google',
+    title: 'Honeydew vs Google Calendar – AI Family OS vs Basic Calendar (2025)',
+    description: 'Google Calendar is free and basic. Honeydew adds AI planning, lists attached to events, and multi-family support. See the full comparison.',
+    keywords: 'honeydew vs google calendar, google calendar family, family calendar app, google calendar alternative'
+  },
+  {
+    path: '/why-honeydew/vs-mango',
+    title: 'Honeydew vs Mango Display – AI Software vs Custom Dashboard Hardware (2025)',
+    description: 'Mango Display offers custom dashboards on $400 hardware. Honeydew delivers AI automations on every screen you own. Compare costs and features.',
+    keywords: 'honeydew vs mango display, mango display alternative, family dashboard app, digital command center'
+  },
+];
+
+// Read the base index.html template
+function readIndexTemplate() {
+  const indexPath = path.join(DIST_DIR, 'index.html');
+  if (!fs.existsSync(indexPath)) {
+    throw new Error('dist/index.html not found. Run npm run build first.');
+  }
+  return fs.readFileSync(indexPath, 'utf-8');
+}
+
+// Parse frontmatter from markdown file
+function parseFrontmatter(content) {
+  const match = content.match(/^---\n([\s\S]*?)\n---/);
+  if (!match) return {};
+  
+  const fm = {};
+  match[1].split('\n').forEach(line => {
+    const colonIndex = line.indexOf(':');
+    if (colonIndex > 0) {
+      const key = line.slice(0, colonIndex).trim();
+      const value = line.slice(colonIndex + 1).trim().replace(/^["']|["']$/g, '');
+      fm[key] = value;
+    }
+  });
+  return fm;
+}
+
+// Load blog articles from public/blog
+function loadBlogArticles() {
+  const articles = [];
+  
+  if (!fs.existsSync(PUBLIC_BLOG_DIR)) {
+    console.warn('public/blog directory not found');
+    return articles;
+  }
+  
+  const files = fs.readdirSync(PUBLIC_BLOG_DIR).filter(f => f.endsWith('.md') && f !== 'CONTENT_STATUS.md');
+  
+  for (const file of files) {
+    const content = fs.readFileSync(path.join(PUBLIC_BLOG_DIR, file), 'utf-8');
+    const fm = parseFrontmatter(content);
+    
+    if (fm.slug || fm.title) {
+      const slug = fm.slug || file.replace('.md', '');
+      articles.push({
+        slug,
+        title: fm.title || slug,
+        description: fm.description || '',
+        keywords: fm.keywords || '',
+        publishDate: fm.publishDate || '',
+        category: fm.category || 'Blog',
+        featured: fm.featured === 'true' || fm.featured === true,
+      });
+    }
+  }
+  
+  return articles;
+}
+
+// Generate HTML with correct SEO meta tags
+function generateSEOHtml(template, { path: pagePath, title, description, keywords, type = 'website' }) {
+  const canonicalUrl = `${BASE_URL}${pagePath}`;
+  const imageUrl = `${BASE_URL}/og-image-ai.jpg`;
+  
+  // Build the new head content
+  const seoMeta = `
+    <!-- SEO: Prerendered meta tags for ${pagePath} -->
+    <title>${escapeHtml(title)}</title>
+    <meta name="description" content="${escapeHtml(description)}">
+    ${keywords ? `<meta name="keywords" content="${escapeHtml(keywords)}">` : ''}
+    <link rel="canonical" href="${canonicalUrl}">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="${type}">
+    <meta property="og:title" content="${escapeHtml(title)}">
+    <meta property="og:description" content="${escapeHtml(description)}">
+    <meta property="og:url" content="${canonicalUrl}">
+    <meta property="og:image" content="${imageUrl}">
+    <meta property="og:site_name" content="Honeydew Family App">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="${escapeHtml(title)}">
+    <meta name="twitter:description" content="${escapeHtml(description)}">
+    <meta name="twitter:image" content="${imageUrl}">
+  `;
+  
+  // Replace the existing title and canonical in the template
+  let html = template;
+  
+  // Remove the old title tag
+  html = html.replace(/<title>[^<]*<\/title>/i, '');
+  
+  // Remove old meta description
+  html = html.replace(/<meta name="description"[^>]*>/i, '');
+  
+  // Remove old meta keywords
+  html = html.replace(/<meta name="keywords"[^>]*>/i, '');
+  
+  // Remove old canonical (keep the data attribute marker for the SPA to recognize)
+  html = html.replace(/<link rel="canonical"[^>]*>/i, '');
+  
+  // Remove old OG tags
+  html = html.replace(/<meta property="og:[^"]*"[^>]*>/gi, '');
+  
+  // Remove old Twitter tags
+  html = html.replace(/<meta name="twitter:[^"]*"[^>]*>/gi, '');
+  
+  // Insert our SEO meta tags right after <head>
+  html = html.replace(/<head>/i, `<head>${seoMeta}`);
+  
+  return html;
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+// Ensure directory exists
+function ensureDir(dir) {
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+}
+
+// Write prerendered HTML file
+function writePrerenderedFile(pagePath, html) {
+  // Convert path like /blog/my-article to dist/blog/my-article/index.html
+  // Or /why-honeydew/vs-skylight to dist/why-honeydew/vs-skylight/index.html
+  const targetDir = path.join(DIST_DIR, pagePath);
+  ensureDir(targetDir);
+  
+  const targetFile = path.join(targetDir, 'index.html');
+  fs.writeFileSync(targetFile, html);
+  
+  return targetFile;
+}
+
+async function main() {
+  console.log('🔍 SEO Prerender: Generating static HTML for crawlers...\n');
+  
+  // Check dist exists
+  if (!fs.existsSync(DIST_DIR)) {
+    console.error('❌ dist/ directory not found. Run npm run build first.');
+    process.exit(1);
+  }
+  
+  const template = readIndexTemplate();
+  const articles = loadBlogArticles();
+  
+  let prerenderedCount = 0;
+  
+  // Prerender blog posts
+  console.log(`📝 Prerendering ${articles.length} blog posts...`);
+  
+  const now = new Date();
+  for (const article of articles) {
+    // Only prerender published articles
+    if (article.publishDate && new Date(article.publishDate) > now) {
+      continue;
+    }
+    
+    const pagePath = `/blog/${article.slug}`;
+    const title = `${article.title} | Honeydew Family App Blog`;
+    
+    const html = generateSEOHtml(template, {
+      path: pagePath,
+      title,
+      description: article.description,
+      keywords: article.keywords,
+      type: 'article',
+    });
+    
+    const targetFile = writePrerenderedFile(pagePath, html);
+    prerenderedCount++;
+    
+    if (prerenderedCount <= 5 || article.featured) {
+      console.log(`   ✓ ${pagePath}`);
+    }
+  }
+  
+  if (articles.length > 5) {
+    console.log(`   ... and ${articles.length - 5} more blog posts`);
+  }
+  
+  // Prerender comparison pages
+  console.log(`\n🆚 Prerendering ${COMPARISON_PAGES.length} comparison pages...`);
+  
+  for (const page of COMPARISON_PAGES) {
+    const html = generateSEOHtml(template, {
+      path: page.path,
+      title: page.title,
+      description: page.description,
+      keywords: page.keywords,
+      type: 'website',
+    });
+    
+    writePrerenderedFile(page.path, html);
+    prerenderedCount++;
+    console.log(`   ✓ ${page.path}`);
+  }
+  
+  // Prerender other important pages
+  const otherPages = [
+    {
+      path: '/blog',
+      title: 'Honeydew Family App Blog – AI Organizer Guides & Playbooks',
+      description: 'Deep dives on the AI-first family OS. Voice-controlled family workflows, comparisons, AI meal planning, co-parenting automation, and command center guides.',
+      keywords: 'family organization blog, AI family app guides, Honeydew vs Skylight, family calendar tips',
+    },
+    {
+      path: '/compare',
+      title: 'Compare Honeydew to Other Family Apps – Side-by-Side Features',
+      description: 'See how Honeydew stacks up against Skylight, Cozi, TimeTree, and more. Compare AI features, pricing, and real family workflows.',
+      keywords: 'family app comparison, Honeydew alternatives, family calendar comparison, best family apps',
+    },
+  ];
+  
+  console.log(`\n📄 Prerendering ${otherPages.length} other pages...`);
+  
+  for (const page of otherPages) {
+    const html = generateSEOHtml(template, page);
+    writePrerenderedFile(page.path, html);
+    prerenderedCount++;
+    console.log(`   ✓ ${page.path}`);
+  }
+  
+  console.log(`\n✅ SEO Prerender complete! Generated ${prerenderedCount} static HTML files.`);
+  console.log('   Crawlers will now see correct title, description, and canonical tags.\n');
+}
+
+main().catch((error) => {
+  console.error('❌ Prerender failed:', error);
+  process.exit(1);
+});
+

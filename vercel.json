@@ -67,5 +67,7 @@
   ],
   "rewrites": [
     { "source": "/((?!api|assets|.*\\.txt$|.*\\.xml$|.*\\.json$|.*\\.js$|.*\\.css$|.*\\.ico$|.*\\.png$|.*\\.jpg$|.*\\.svg$).*)", "destination": "/index.html" }
-  ]
+  ],
+  "trailingSlash": false,
+  "cleanUrls": true
 }

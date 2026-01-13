@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, Sparkles } from 'lucide-react'
 import Footer from '../components/Footer'
@@ -6,6 +7,8 @@ import useSEO from '../utils/useSEO'
 import comparisonLinks from '../utils/comparisonLinks'
 
 const ComparisonsHubPage = () => {
+  const baseUrl = 'https://www.gethoneydew.app'
+
   useSEO({
     title: 'Honeydew Comparisons – Alternatives to Cozi, Skylight, TimeTree, and more',
     description:
@@ -16,6 +19,45 @@ const ComparisonsHubPage = () => {
     image: '/og-image-ai.jpg',
     type: 'website',
   })
+
+  useEffect(() => {
+    const identifier = 'compare-hub-itemlist'
+    const existing = document.querySelector(`script[type="application/ld+json"][data-schema="${identifier}"]`)
+    if (existing) existing.remove()
+
+    const itemList = {
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: 'Honeydew comparisons and alternatives',
+      itemListOrder: 'https://schema.org/ItemListOrderAscending',
+      numberOfItems: comparisonLinks.length,
+      itemListElement: comparisonLinks.map((link, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: link.label,
+        url: `${baseUrl}${link.href}`,
+      })),
+    }
+
+    const breadcrumb = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
+        { '@type': 'ListItem', position: 2, name: 'Compare', item: `${baseUrl}/compare` },
+      ],
+    }
+
+    const script = document.createElement('script')
+    script.type = 'application/ld+json'
+    script.setAttribute('data-schema', identifier)
+    script.textContent = JSON.stringify([itemList, breadcrumb])
+    document.head.appendChild(script)
+
+    return () => {
+      script.remove()
+    }
+  }, [baseUrl])
 
   return (
     <>
@@ -34,6 +76,15 @@ const ComparisonsHubPage = () => {
                 Fast, practical breakdowns of AI capabilities, two-way calendar sync, multi-family coordination, and total
                 cost (including hardware).
               </p>
+
+              <div className="mt-6 max-w-3xl rounded-2xl border border-gray-200 bg-white p-5 shadow-sm">
+                <p className="text-sm font-semibold text-gray-900">Quick answer</p>
+                <p className="text-gray-700 mt-2 leading-relaxed">
+                  If you’re choosing a family calendar or organizer, compare for three things: <strong>real automation</strong>{' '}
+                  (not just reminders), <strong>two-way calendar sync</strong>, and <strong>multi-family coordination</strong>{' '}
+                  (co-parents, grandparents, sitters, carpools). The pages below show the trade-offs clearly.
+                </p>
+              </div>
             </motion.div>
           </div>
         </header>

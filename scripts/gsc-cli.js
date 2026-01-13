@@ -197,6 +197,241 @@ async function fetchTotals(searchconsole, { property, startDate, endDate, filter
   return { ...totals, ctr, daysReturned: rows.length }
 }
 
+async function fetchDimensionRows(searchconsole, { property, startDate, endDate, dimension, rowLimit = 250, filterJson }) {
+  const requestBody = {
+    startDate,
+    endDate,
+    dimensions: [dimension],
+    rowLimit,
+  }
+
+  if (filterJson) {
+    try {
+      requestBody.dimensionFilterGroups = JSON.parse(filterJson)
+    } catch (error) {
+      throw new Error('Invalid JSON for --filter. Provide a valid JSON string for dimensionFilterGroups.')
+    }
+  }
+
+  const { data } = await searchconsole.searchanalytics.query({
+    siteUrl: property,
+    requestBody,
+  })
+
+  const rows = data.rows || []
+  return rows.map(row => ({
+    key: (row.keys || [])[0] ?? '',
+    clicks: row.clicks ?? 0,
+    impressions: row.impressions ?? 0,
+    ctr: row.ctr ?? 0,
+    position: row.position ?? 0,
+  }))
+}
+
+function safePathFromGscKey(key) {
+  try {
+    const url = new URL(String(key))
+    return url.pathname || '/'
+  } catch {
+    // If it's already a path (or a query), just return as-is.
+    return String(key || '')
+  }
+}
+
+function pageSectionFromPath(pathname) {
+  const p = String(pathname || '')
+  if (p === '/' || p === '') return '/'
+  if (p === '/blog') return '/blog'
+  const parts = p.split('/').filter(Boolean)
+  if (parts.length === 0) return '/'
+  return `/${parts[0]}`
+}
+
+function formatMetricDelta(current, previous, metricName) {
+  const cur = Number(current?.[metricName] || 0)
+  const prev = Number(previous?.[metricName] || 0)
+  const delta = cur - prev
+  const pct = prev > 0 ? (delta / prev) * 100 : cur > 0 ? 100 : 0
+  return { cur, prev, delta, pct }
+}
+
+function formatSignedPercentPoints(pp, digits = 2) {
+  const num = Number(pp || 0)
+  const rounded = Math.abs(num).toFixed(digits)
+  if (num > 0) return `+${rounded}pp`
+  if (num < 0) return `-${rounded}pp`
+  return `${rounded}pp`
+}
+
+function printTopDeltas({ title, deltas, limit = 10 }) {
+  console.log(`\n${title}`)
+  const headers = ['Key', 'Clicks', 'Impressions', 'CTR', 'Δ Clicks', 'Δ Impr', 'Δ CTR']
+  const rows = deltas
+    .slice(0, limit)
+    .map(item => [
+      item.key,
+      Math.round(item.current.clicks),
+      Math.round(item.current.impressions),
+      `${(item.current.ctr * 100).toFixed(2)}%`,
+      `${formatSignedNumber(item.deltaClicks)} (${formatSignedPercent(item.pctClicks)})`,
+      `${formatSignedNumber(item.deltaImpressions)} (${formatSignedPercent(item.pctImpressions)})`,
+      formatSignedPercentPoints((item.current.ctr - item.previous.ctr) * 100, 2),
+    ])
+  if (rows.length === 0) {
+    console.log('No rows.')
+    return
+  }
+  printTable(headers, rows)
+}
+
+function mergeByKey(currentRows, previousRows) {
+  const currentMap = new Map(currentRows.map(r => [r.key, r]))
+  const previousMap = new Map(previousRows.map(r => [r.key, r]))
+  const keys = new Set([...currentMap.keys(), ...previousMap.keys()])
+
+  const merged = []
+  for (const key of keys) {
+    const current = currentMap.get(key) || { key, clicks: 0, impressions: 0, ctr: 0, position: 0 }
+    const previous = previousMap.get(key) || { key, clicks: 0, impressions: 0, ctr: 0, position: 0 }
+    const deltaClicks = current.clicks - previous.clicks
+    const deltaImpressions = current.impressions - previous.impressions
+    const pctClicks = previous.clicks > 0 ? (deltaClicks / previous.clicks) * 100 : current.clicks > 0 ? 100 : 0
+    const pctImpressions =
+      previous.impressions > 0 ? (deltaImpressions / previous.impressions) * 100 : current.impressions > 0 ? 100 : 0
+    merged.push({
+      key,
+      current,
+      previous,
+      deltaClicks,
+      deltaImpressions,
+      pctClicks,
+      pctImpressions,
+    })
+  }
+  return merged
+}
+
+async function runWeekOverWeekBreakdown(searchconsole, options) {
+  const property = options.property || options.site || options.siteUrl
+  if (!property) {
+    throw new Error('Missing required option: --property=https://www.honeydew.app')
+  }
+
+  const days = options.days ? Number(options.days) : 7
+  if (!Number.isFinite(days) || days <= 0 || Math.floor(days) !== days) {
+    throw new Error('Invalid --days value. Provide a positive integer, e.g. --days=7')
+  }
+
+  const explicitEnd = options.end || options.endDate
+  const endUtc =
+    (explicitEnd ? parseIsoDate(explicitEnd) : null) ||
+    addUtcDays(new Date(Date.UTC(new Date().getUTCFullYear(), new Date().getUTCMonth(), new Date().getUTCDate())), -1)
+
+  if (!endUtc) {
+    throw new Error('Invalid --end date. Provide --end=YYYY-MM-DD')
+  }
+
+  const currentStart = addUtcDays(endUtc, -(days - 1))
+  const previousEnd = addUtcDays(currentStart, -1)
+  const previousStart = addUtcDays(previousEnd, -(days - 1))
+
+  const currentRange = {
+    startDate: toIsoDateString(currentStart),
+    endDate: toIsoDateString(endUtc),
+  }
+  const previousRange = {
+    startDate: toIsoDateString(previousStart),
+    endDate: toIsoDateString(previousEnd),
+  }
+
+  const filterJson = options.filter || null
+  const dimensions = options.dimensions
+    ? options.dimensions.split(',').map(d => d.trim()).filter(Boolean)
+    : ['page', 'query']
+  const rowLimit = options.limit ? Number(options.limit) : 250
+  const topN = options.top ? Number(options.top) : 10
+
+  console.log(`\n📊 Week-over-week breakdown (GSC)`)
+  console.log(`Property: ${property}`)
+  console.log(`Current:  ${currentRange.startDate} → ${currentRange.endDate}`)
+  console.log(`Previous: ${previousRange.startDate} → ${previousRange.endDate}`)
+  if (filterJson) console.log(`Filter: ${filterJson}`)
+  console.log('')
+
+  for (const dimension of dimensions) {
+    const currentRows = await fetchDimensionRows(searchconsole, {
+      property,
+      startDate: currentRange.startDate,
+      endDate: currentRange.endDate,
+      dimension,
+      rowLimit,
+      filterJson,
+    })
+    const previousRows = await fetchDimensionRows(searchconsole, {
+      property,
+      startDate: previousRange.startDate,
+      endDate: previousRange.endDate,
+      dimension,
+      rowLimit,
+      filterJson,
+    })
+
+    const merged = mergeByKey(currentRows, previousRows)
+    const byDeltaClicks = [...merged].sort((a, b) => b.deltaClicks - a.deltaClicks)
+    const byDeltaImpr = [...merged].sort((a, b) => b.deltaImpressions - a.deltaImpressions)
+
+    console.log(`\n— Dimension: ${dimension} (rowLimit=${rowLimit}) —`)
+    printTopDeltas({ title: `Top +Δ Clicks`, deltas: byDeltaClicks.filter(d => d.deltaClicks > 0), limit: topN })
+    printTopDeltas({ title: `Top +Δ Impressions`, deltas: byDeltaImpr.filter(d => d.deltaImpressions > 0), limit: topN })
+
+    if (dimension === 'page') {
+      const sectionAgg = new Map()
+      for (const item of merged) {
+        const pathname = safePathFromGscKey(item.key)
+        const section = pageSectionFromPath(pathname)
+        const existing =
+          sectionAgg.get(section) || {
+            key: section,
+            current: { clicks: 0, impressions: 0, ctr: 0 },
+            previous: { clicks: 0, impressions: 0, ctr: 0 },
+          }
+        existing.current.clicks += item.current.clicks
+        existing.current.impressions += item.current.impressions
+        existing.previous.clicks += item.previous.clicks
+        existing.previous.impressions += item.previous.impressions
+        sectionAgg.set(section, existing)
+      }
+
+      const sectionRows = []
+      for (const [key, value] of sectionAgg.entries()) {
+        const currentCtr = value.current.impressions > 0 ? value.current.clicks / value.current.impressions : 0
+        const previousCtr = value.previous.impressions > 0 ? value.previous.clicks / value.previous.impressions : 0
+        const deltaClicks = value.current.clicks - value.previous.clicks
+        const deltaImpressions = value.current.impressions - value.previous.impressions
+        const pctClicks = value.previous.clicks > 0 ? (deltaClicks / value.previous.clicks) * 100 : value.current.clicks > 0 ? 100 : 0
+        const pctImpressions =
+          value.previous.impressions > 0
+            ? (deltaImpressions / value.previous.impressions) * 100
+            : value.current.impressions > 0
+              ? 100
+              : 0
+        sectionRows.push({
+          key,
+          current: { clicks: value.current.clicks, impressions: value.current.impressions, ctr: currentCtr },
+          previous: { clicks: value.previous.clicks, impressions: value.previous.impressions, ctr: previousCtr },
+          deltaClicks,
+          deltaImpressions,
+          pctClicks,
+          pctImpressions,
+        })
+      }
+
+      const sectionSorted = sectionRows.sort((a, b) => b.deltaClicks - a.deltaClicks)
+      printTopDeltas({ title: `Section rollup (+Δ Clicks)`, deltas: sectionSorted.filter(d => d.deltaClicks !== 0), limit: 20 })
+    }
+  }
+}
+
 async function runWeekOverWeek(searchconsole, options) {
   const property = options.property || options.site || options.siteUrl
   if (!property) {
@@ -394,6 +629,10 @@ async function main() {
       case 'wow':
         await runWeekOverWeek(searchconsole, options)
         break
+      case 'week-over-week-breakdown':
+      case 'wow-breakdown':
+        await runWeekOverWeekBreakdown(searchconsole, options)
+        break
       case 'sitemap-list':
         await runSitemapList(searchconsole, options)
         break
@@ -422,6 +661,7 @@ function printHelp() {
   console.log(`Commands:`)
   console.log(`  search-analytics   Query performance data for a property`)
   console.log(`  week-over-week     Week-over-week totals (clicks/impressions)`)
+  console.log(`  wow-breakdown      Week-over-week breakdown by dimension (page/query)`)
   console.log(`  sitemap-list       List submitted sitemaps`)
   console.log(`  sitemap-submit     Submit a sitemap URL`)
   console.log(`  site-list          List all accessible properties\n`)
@@ -430,6 +670,8 @@ function printHelp() {
   console.log(`  --start=<date>     Start date (YYYY-MM-DD)`)
   console.log(`  --end=<date>       End date (YYYY-MM-DD)`)
   console.log(`  --days=<number>    Days per period for week-over-week (default 7)`)
+  console.log(`  --dimensions=a,b   For wow-breakdown: page,query (default: page,query)`)
+  console.log(`  --top=<number>     For wow-breakdown: number of rows to print (default 10)`)
   console.log(`  --dimensions=a,b   Comma-separated dimensions (query,page,device,country)`)
   console.log(`  --limit=<number>   Row limit (default 10)`)
   console.log(`  --offset=<number>  Start row offset (default 0)`)

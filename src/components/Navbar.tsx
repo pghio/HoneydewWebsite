@@ -1,11 +1,18 @@
 import { motion } from 'framer-motion'
 import { Menu, X, ChevronDown } from 'lucide-react'
 import { useState } from 'react'
+import { useLocation } from 'react-router-dom'
 import { trackLinkClick } from '../utils/analytics'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isWhyHoneydewOpen, setIsWhyHoneydewOpen] = useState(false)
+  const location = useLocation()
+
+  const isHomePage = location.pathname === '/'
+  const featuresHref = isHomePage ? '#features' : '/#features'
+  const demoHref = isHomePage ? '#multimodal-demo' : '/#multimodal-demo'
+  const howItWorksHref = isHomePage ? '#how-it-works' : '/#how-it-works'
 
   const whyHoneydewLinks = [
     { title: 'All comparisons', href: '/compare' },
@@ -51,8 +58,8 @@ const Navbar = () => {
           {/* Desktop Navigation (centered) */}
           <div className="hidden md:flex flex-1 items-center justify-center">
             <div className="flex items-center space-x-8">
-              <a href="#features" className="text-gray-600 hover:text-primary-600 transition-colors">Features</a>
-              <a href="#multimodal-demo" className="text-gray-600 hover:text-primary-600 transition-colors">AI Demo</a>
+              <a href={featuresHref} className="text-gray-600 hover:text-primary-600 transition-colors">Features</a>
+              <a href={demoHref} className="text-gray-600 hover:text-primary-600 transition-colors">AI Demo</a>
               
               {/* Why Honeydew Dropdown */}
               <div 
@@ -88,7 +95,7 @@ const Navbar = () => {
               </div>
 
               <a href="/blog" className="text-gray-600 hover:text-primary-600 transition-colors">Blog</a>
-              <a href="#how-it-works" className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
+              <a href={howItWorksHref} className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
             </div>
           </div>
 
@@ -137,8 +144,8 @@ const Navbar = () => {
             className="md:hidden py-4 border-t border-gray-100"
           >
             <div className="flex flex-col space-y-4">
-              <a href="#features" className="text-gray-600 hover:text-primary-600 transition-colors">Features</a>
-              <a href="#multimodal-demo" className="text-gray-600 hover:text-primary-600 transition-colors">AI Demo</a>
+              <a href={featuresHref} className="text-gray-600 hover:text-primary-600 transition-colors">Features</a>
+              <a href={demoHref} className="text-gray-600 hover:text-primary-600 transition-colors">AI Demo</a>
               
               {/* Why Honeydew - Mobile Expandable */}
               <div>
@@ -165,7 +172,7 @@ const Navbar = () => {
               </div>
 
               <a href="/blog" className="text-gray-600 hover:text-primary-600 transition-colors">Blog</a>
-              <a href="#how-it-works" className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
+              <a href={howItWorksHref} className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
               <a
                 href={navCtaHref}
                 target="_blank"

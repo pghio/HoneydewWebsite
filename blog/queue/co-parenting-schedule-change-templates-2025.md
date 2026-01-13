@@ -158,6 +158,12 @@ This prevents “case-by-case” arguments that never end.
 
 If you need a full custody scheduling app comparison, see **[Best custody schedule apps](/blog/best-custody-schedule-apps-2025)**.
 
+### Related reading (for divorced / blended families)
+- **Best apps for divorced parents**: **[Best family apps for divorced parents (2025)](/blog/best-family-apps-divorced-parents-2025)**
+- **Honeydew vs OurFamilyWizard**: **[Comparison](/blog/honeydew-vs-ourfamilywizard-comparison-2025)**
+- **Honeydew vs TalkingParents**: **[Comparison](/blog/honeydew-vs-talking-parents-comparison-2025)**
+- **Coordination without conflict**: **[Divorced parents + Fair Play across households](/blog/divorced-parents-fair-play-across-households-how-to-coordinate-without-the-conflict)**
+
 ---
 
 ## FAQ

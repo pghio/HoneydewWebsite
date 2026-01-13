@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "prebuild": "node scripts/prebuild.js",
-    "build": "npm run prebuild && tsc --incremental --pretty false && vite build",
+    "build": "npm run prebuild && tsc --incremental --pretty false && vite build && npm run prerender",
+    "prerender": "node scripts/prerender-seo.js",
     "build:qa": "npm run prebuild && tsc --incremental --pretty false && vite build --mode qa --outDir dist-qa",
     "start": "npx serve dist -p $PORT",
     "preview": "vite preview",

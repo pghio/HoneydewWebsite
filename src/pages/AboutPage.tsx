@@ -16,7 +16,6 @@ const AboutPage = () => {
 
   useEffect(() => {
     const baseUrl = 'https://www.gethoneydew.app'
-    const pageUrl = `${baseUrl}/about`
 
     const schema = {
       '@context': 'https://schema.org',

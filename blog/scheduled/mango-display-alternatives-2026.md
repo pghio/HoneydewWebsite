@@ -1,5 +1,7 @@
 ---
 title: "Best Mango Display Alternatives (2026): What to Buy Instead (and Why)"
+slug: "mango-display-alternatives-2026"
+publishDate: "2026-03-06"
 description: "Looking for a Mango Display alternative? Compare the best alternatives (tablet + app, Skylight, Echo Show, Nest Hub) and learn which setup actually reduces family coordination work."
 keywords: "mango display alternative, mango display alternatives, mango display competitors, family dashboard alternative, family calendar display, digital family command center"
 category: "Guide"

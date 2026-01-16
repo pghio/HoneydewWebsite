@@ -1,5 +1,7 @@
 ---
-title: "Best Hearth Display Alternatives (2026): A Practical Buyer’s Guide"
+title: "Best Hearth Display Alternatives (2026): A Practical Buyer's Guide"
+slug: "hearth-display-alternatives-2026"
+publishDate: "2026-03-03"
 description: "Considering Hearth Display? Compare the best Hearth Display alternatives (tablet + app, Skylight, Echo Show, Nest Hub) with clear decision rules, real-world workflows, and cost tradeoffs."
 keywords: "hearth display alternatives, hearth display alternative, hearth display competitors, hearth display vs skylight, family calendar display alternatives, family command center app"
 category: "Guide"

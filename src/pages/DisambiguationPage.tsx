@@ -15,9 +15,6 @@ const DisambiguationPage = () => {
   })
 
   useEffect(() => {
-    const baseUrl = 'https://www.gethoneydew.app'
-    const pageUrl = `${baseUrl}/disambiguation`
-
     const schema = {
       '@context': 'https://schema.org',
       '@type': 'FAQPage',

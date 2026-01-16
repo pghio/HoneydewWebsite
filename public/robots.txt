@@ -15,6 +15,7 @@ Sitemap: https://gethoneydew.app/sitemap.xml
 # LLM reference files (served as static assets):
 # - https://www.gethoneydew.app/.llms.txt
 # - https://www.gethoneydew.app/.llms-full.txt
+# - https://www.gethoneydew.app/llm-citations.json
 
 
 

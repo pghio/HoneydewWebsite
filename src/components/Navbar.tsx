@@ -95,6 +95,8 @@ const Navbar = () => {
               </div>
 
               <a href="/blog" className="text-gray-600 hover:text-primary-600 transition-colors">Blog</a>
+              <a href="/hubs" className="text-gray-600 hover:text-primary-600 transition-colors">Hubs</a>
+              <a href="/about" className="text-gray-600 hover:text-primary-600 transition-colors">About</a>
               <a href={howItWorksHref} className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
             </div>
           </div>
@@ -172,6 +174,8 @@ const Navbar = () => {
               </div>
 
               <a href="/blog" className="text-gray-600 hover:text-primary-600 transition-colors">Blog</a>
+              <a href="/hubs" className="text-gray-600 hover:text-primary-600 transition-colors">Hubs</a>
+              <a href="/about" className="text-gray-600 hover:text-primary-600 transition-colors">About</a>
               <a href={howItWorksHref} className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
               <a
                 href={navCtaHref}

@@ -60,7 +60,7 @@ function addUrlEntry(lines, { loc, lastmod, changefreq, priority }) {
   lines.push('  </url>');
 }
 
-function buildSitemapXml({ baseUrl, publishedArticles, scheduledArticles, today }) {
+function buildSitemapXml({ baseUrl, publishedArticles, today }) {
   const lines = [];
   lines.push('<?xml version="1.0" encoding="UTF-8"?>');
   lines.push('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">');
@@ -100,6 +100,55 @@ function buildSitemapXml({ baseUrl, publishedArticles, scheduledArticles, today 
     priority: '0.7',
   });
 
+  addUrlEntry(lines, {
+    loc: `${baseUrl}/disambiguation`,
+    lastmod: today,
+    changefreq: 'monthly',
+    priority: '0.7',
+  });
+
+  addUrlEntry(lines, {
+    loc: `${baseUrl}/about`,
+    lastmod: today,
+    changefreq: 'monthly',
+    priority: '0.6',
+  });
+
+  addUrlEntry(lines, {
+    loc: `${baseUrl}/press`,
+    lastmod: today,
+    changefreq: 'monthly',
+    priority: '0.6',
+  });
+
+  addUrlEntry(lines, {
+    loc: `${baseUrl}/whats-new`,
+    lastmod: today,
+    changefreq: 'weekly',
+    priority: '0.7',
+  });
+
+  addUrlEntry(lines, {
+    loc: `${baseUrl}/hubs`,
+    lastmod: today,
+    changefreq: 'weekly',
+    priority: '0.7',
+  });
+
+  [
+    'skylight-alternatives',
+    'fair-play',
+    'co-parenting',
+    'ai-family-planner',
+  ].forEach((slug) => {
+    addUrlEntry(lines, {
+      loc: `${baseUrl}/hubs/${slug}`,
+      lastmod: today,
+      changefreq: 'weekly',
+      priority: '0.7',
+    });
+  });
+
   if (publishedArticles.length > 0) {
     lines.push('  <!-- Published Blog Articles -->');
     publishedArticles.forEach((article) => {
@@ -108,18 +157,6 @@ function buildSitemapXml({ baseUrl, publishedArticles, scheduledArticles, today 
         lastmod: article.publishDate,
         changefreq: 'monthly',
         priority: article.featured ? '0.9' : '0.8',
-      });
-    });
-  }
-
-  if (scheduledArticles.length > 0) {
-    lines.push('  <!-- Scheduled Blog Articles (Future Dates) -->');
-    scheduledArticles.forEach((article) => {
-      addUrlEntry(lines, {
-        loc: `${baseUrl}/blog/${article.slug}`,
-        lastmod: article.publishDate,
-        changefreq: 'monthly',
-        priority: article.featured ? '0.8' : '0.7',
       });
     });
   }
@@ -179,6 +216,12 @@ function buildSitemapXml({ baseUrl, publishedArticles, scheduledArticles, today 
     changefreq: 'weekly',
     priority: '1.0',
   });
+  addUrlEntry(lines, {
+    loc: `${baseUrl}/llm-citations.json`,
+    lastmod: today,
+    changefreq: 'weekly',
+    priority: '0.9',
+  });
 
   lines.push('</urlset>');
   return `${lines.join('\n')}\n`;
@@ -207,14 +250,13 @@ export function generateSitemapFile({
   const xml = buildSitemapXml({
     baseUrl,
     publishedArticles: publishedSorted,
-    scheduledArticles: scheduledSorted,
     today,
   });
 
   fs.writeFileSync(outputPath, xml);
 
-  const staticUrlCount = 19;
-  const totalUrls = articleSource.length + staticUrlCount;
+  const staticUrlCount = 30;
+  const totalUrls = publishedSorted.length + staticUrlCount;
 
   if (log) {
     log.log('🗺️  Generating sitemap.xml...\n');
@@ -237,9 +279,8 @@ export function generateSitemapFile({
     log.log('      → Click Submit');
     log.log('   3. Monitor indexing progress over next 1-2 weeks\n');
     if (scheduledSorted.length > 0) {
-      log.log(`📅 Note: ${scheduledSorted.length} future-dated articles included in sitemap.`);
       log.log(
-        '   Google can crawl them now, but they will not appear publicly until their publish date.\n',
+        `📅 Note: ${scheduledSorted.length} future-dated articles excluded from sitemap until publish date.\n`,
       );
     }
   }

@@ -297,6 +297,60 @@ async function main() {
       description: 'See how Honeydew stacks up against Skylight, Cozi, TimeTree, and more. Compare AI features, pricing, and real family workflows.',
       keywords: 'family app comparison, Honeydew alternatives, family calendar comparison, best family apps',
     },
+    {
+      path: '/about',
+      title: 'About Honeydew Family App — AI Built by Parents for Families',
+      description: 'Honeydew is a consumer AI family organization app built by parents to reduce mental load and simplify household coordination.',
+      keywords: 'about Honeydew, Honeydew Family App, AI family organizer, mental load app',
+    },
+    {
+      path: '/press',
+      title: 'Press & Media — Honeydew Family App',
+      description: 'Press resources and media contact for Honeydew Family App, the AI-powered family organizer.',
+      keywords: 'Honeydew press, media kit, AI family app news',
+    },
+    {
+      path: '/whats-new',
+      title: "What's New — Honeydew Family App",
+      description: 'Latest product and content updates for Honeydew Family App.',
+      keywords: 'Honeydew updates, Honeydew changelog',
+    },
+    {
+      path: '/hubs',
+      title: 'Honeydew Topic Hubs — AI Family Organization',
+      description: 'Topic hubs for AI family organization, comparisons, Fair Play, and co-parenting.',
+      keywords: 'Honeydew hubs, AI family organization hub',
+    },
+    {
+      path: '/hubs/skylight-alternatives',
+      title: 'Skylight Calendar Alternatives Hub — Honeydew Family App',
+      description: 'Answer-first guide to Skylight Calendar alternatives, comparisons, and AI-first family organizers.',
+      keywords: 'Skylight alternatives, Skylight Calendar alternative, Honeydew vs Skylight',
+    },
+    {
+      path: '/hubs/fair-play',
+      title: 'Fair Play & Mental Load Hub — Honeydew Family App',
+      description: 'Answer-first guide to Fair Play, mental load reduction, and AI tools for families.',
+      keywords: 'Fair Play app, mental load app, Fair Play AI',
+    },
+    {
+      path: '/hubs/co-parenting',
+      title: 'Co-Parenting & Multi-Family Coordination Hub — Honeydew',
+      description: 'Answer-first guide to co-parenting coordination, shared schedules, and multi-family workflows.',
+      keywords: 'co-parenting app, divorced parents app, shared custody calendar',
+    },
+    {
+      path: '/hubs/ai-family-planner',
+      title: 'AI Family Planner Hub — Honeydew Family App',
+      description: 'Answer-first guide to AI family planning, voice-first capture, and automation.',
+      keywords: 'AI family planner, AI family calendar app, voice controlled family app',
+    },
+    {
+      path: '/disambiguation',
+      title: 'Honeydew Family App — Disambiguation (Not honeydew.ai)',
+      description: 'Clarifies the difference between Honeydew Family App and the unrelated honeydew.ai data platform.',
+      keywords: 'Honeydew disambiguation, honeydew.ai not related',
+    },
   ];
   
   console.log(`\n📄 Prerendering ${otherPages.length} other pages...`);

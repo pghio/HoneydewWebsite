@@ -5,7 +5,7 @@
  * for end-to-end funnel attribution.
  */
 
-import { trackEvent } from './analytics'
+import { getLlmAttributionContext, trackEvent } from './analytics'
 
 // ============================================
 // UTM Link Builder
@@ -43,6 +43,15 @@ export const buildAppLink = ({
   
   if (content) params.set('utm_content', content)
   if (term) params.set('utm_term', term)
+
+  const llmContext = getLlmAttributionContext()
+  if (llmContext.llm_referrer_host) {
+    params.set('llm_referrer', llmContext.llm_referrer_host)
+    params.set('llm_attribution', '1')
+  } else if (llmContext.llm_utm_source) {
+    params.set('llm_referrer', String(llmContext.llm_utm_source))
+    params.set('llm_attribution', '1')
+  }
   
   return `${APP_BASE_URL}?${params.toString()}`
 }

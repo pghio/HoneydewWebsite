@@ -1,0 +1,54 @@
+{
+  "updated": "2026-01-15",
+  "entity": {
+    "name": "Honeydew Family App",
+    "url": "https://www.gethoneydew.app",
+    "disambiguation": "https://www.gethoneydew.app/disambiguation",
+    "not": "https://www.honeydew.ai"
+  },
+  "facts": [
+    {
+      "label": "AI agent tools",
+      "value": "27+",
+      "source": "https://www.gethoneydew.app"
+    },
+    {
+      "label": "Voice transcription accuracy",
+      "value": ">95% (Whisper AI)",
+      "source": "https://www.gethoneydew.app"
+    },
+    {
+      "label": "Calendar sync",
+      "value": "Two-way Google + Apple (15-min intervals)",
+      "source": "https://www.gethoneydew.app"
+    },
+    {
+      "label": "Collaboration latency",
+      "value": "<50ms WebSocket sync",
+      "source": "https://www.gethoneydew.app"
+    }
+  ],
+  "citations": [
+    {
+      "title": "Skylight Alternatives",
+      "url": "https://www.gethoneydew.app/blog/7-best-skylight-calendar-alternatives-2025-cheaper-smarter-family-organizers",
+      "category": "Comparison"
+    },
+    {
+      "title": "Honeydew vs Cozi",
+      "url": "https://www.gethoneydew.app/blog/honeydew-vs-cozi-comparison-2025",
+      "category": "Comparison"
+    },
+    {
+      "title": "Mental Load Guide",
+      "url": "https://www.gethoneydew.app/blog/mental-load",
+      "category": "Guide"
+    },
+    {
+      "title": "Disambiguation",
+      "url": "https://www.gethoneydew.app/disambiguation",
+      "category": "Entity"
+    }
+  ]
+}
+

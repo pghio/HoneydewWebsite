@@ -13,7 +13,11 @@ const Footer = () => {
       { name: 'Case Studies', href: '/#case-studies' }
     ],
     Resources: [
+      { name: 'About', href: '/about' },
       { name: 'Blog', href: '/blog' },
+      { name: 'Topic Hubs', href: '/hubs' },
+      { name: "What's New", href: '/whats-new' },
+      { name: 'Press', href: '/press' },
       { name: 'Support', href: '/support' },
       { name: 'Sitemap', href: '/sitemap.xml' }
     ],

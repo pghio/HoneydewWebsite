@@ -250,6 +250,115 @@
 
 ---
 
+## 🌐 Expanded Keyword Universe (Dominate Adjacent Demand)
+
+### 1) Family Operations / Household Management
+- "household management system"
+- "family operations app"
+- "family ops template"
+- "home management dashboard"
+- "household command center app"
+- "family admin system"
+
+### 2) Scheduling + Coordination (Core)
+- "shared family calendar"
+- "family schedule app"
+- "calendar with shared lists"
+- "two-way calendar sync app"
+- "calendar + tasks for families"
+- "family calendar with chores"
+
+### 3) List Intelligence + Capture
+- "voice grocery list app"
+- "photo to grocery list"
+- "OCR grocery list app"
+- "handwritten list digitizer"
+- "smart packing list app"
+- "AI list generator for families"
+
+### 4) Co-Parenting + Multi-Household
+- "co-parenting calendar app"
+- "custody schedule app"
+- "shared calendar for divorced parents"
+- "multi-household family calendar"
+- "blended family coordination"
+
+### 5) Parenting Logistics
+- "kids activity schedule app"
+- "sports practice schedule organizer"
+- "school schedule app for parents"
+- "PTO calendar organizer"
+- "camp registration checklist"
+
+### 6) Neurodivergent / ADHD / Overwhelm
+- "family organizer for ADHD parents"
+- "executive function support app for parents"
+- "routine planner for ADHD families"
+- "low-friction family planning app"
+
+### 7) Meal Planning + Grocery Automation
+- "AI meal planning app for families"
+- "meal plan to grocery list app"
+- "family grocery list with reminders"
+- "shared grocery list with voice"
+
+### 8) Time + Mental Load
+- "mental load app"
+- "invisible labor tracker"
+- "Fair Play app alternative"
+- "reduce mental load with AI"
+
+### 9) Caregiving + Multi-Generational
+- "caregiving coordination app"
+- "elder care calendar"
+- "medical appointment organizer for families"
+- "family care plan template"
+
+### 10) Device / Platform + Integrations
+- "family organizer app for iPhone"
+- "family organizer app for Android"
+- "family app that works with Apple Calendar"
+- "Google Calendar family sharing alternative"
+
+### 11) Hardware vs Software (Command Center)
+- "Skylight Calendar alternatives"
+- "digital family command center app"
+- "wall calendar alternative app"
+- "family command center without subscription"
+
+### 12) Seasonal + Event-Based
+- "back to school organization checklist"
+- "holiday coordination planner"
+- "family vacation planning app"
+- "birthday party planning checklist"
+
+### 13) Price + Value
+- "free family organization app"
+- "best free shared calendar app"
+- "family app worth paying for"
+- "Cozi alternative free"
+
+### 14) Productivity App Crossovers
+- "Notion for family organization"
+- "Todoist for families"
+- "Asana for family tasks"
+- "Trello family board"
+
+### 15) LLM / AI Discovery Queries
+- "best AI family assistant"
+- "AI for parents"
+- "AI household manager"
+- "voice assistant for family planning"
+- "AI calendar that plans for you"
+
+### 16) Templates / Checklists / Worksheets
+- "family weekly planning template"
+- "family chore chart template"
+- "meal plan template for families"
+- "family schedule template"
+
+---
+
 ## 💡 Content Format Opportunities
 
 ### Interactive Tools (High Engagement, High Backlink Potential)

@@ -58,6 +58,17 @@ interface ComparisonPageProps {
   }>
 }
 
+const getWebpSource = (src?: string) => {
+  if (!src) return null
+  const normalized = src.toLowerCase()
+  if (!normalized.startsWith('/blog-images/')) return null
+  if (normalized.endsWith('.webp')) return src
+  if (/\.(jpg|jpeg|png)$/.test(normalized)) {
+    return src.replace(/\.(jpg|jpeg|png)$/i, '.webp')
+  }
+  return null
+}
+
 const ComparisonPage = ({
   competitor,
   competitorPrice,
@@ -78,6 +89,7 @@ const ComparisonPage = ({
 
   const competitorSlug = competitor.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || 'comparison'
   const comparisonCtaHref = `https://app.gethoneydew.app/?utm_source=website&utm_medium=why_honeydew&utm_campaign=comparison_page&utm_content=${encodeURIComponent(competitorSlug)}`
+  const midCtaHref = stickyCta?.href ?? comparisonCtaHref
 
   const seoDefaults = useMemo(() => {
     const baseKeywords = [
@@ -309,6 +321,41 @@ const ComparisonPage = ({
             </div>
           </motion.div>
 
+          {/* Mid-page CTA */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.25 }}
+            className="mb-16 rounded-3xl border border-purple-100 bg-gradient-to-br from-purple-50 via-white to-blue-50 p-10 text-center"
+          >
+            <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+              Ready to replace {competitor} with AI-powered planning?
+            </h3>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-6">
+              Try Honeydew free and get lists, calendar sync, and family hand-offs handled for you in minutes.
+            </p>
+            <motion.a
+              href={midCtaHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-xl bg-purple-600 px-6 py-3 text-white font-semibold hover:bg-purple-700 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-purple-300"
+              whileHover={{ scale: 1.03 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={() =>
+                trackLinkClick({
+                  href: midCtaHref,
+                  source: 'why_honeydew',
+                  variant: 'mid-cta',
+                  medium: 'page_section',
+                  additionalParams: { competitor },
+                })
+              }
+            >
+              {stickyCta?.ctaLabel ?? 'Try Honeydew Free'}
+              <ArrowRight className="w-5 h-5" />
+            </motion.a>
+          </motion.div>
+
           {/* Who Should Choose */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -348,12 +395,18 @@ const ComparisonPage = ({
               transition={{ delay: 0.35 }}
               className="mb-20 bg-white rounded-2xl shadow-lg border border-gray-200 overflow-hidden"
             >
-              <img
-                src={proof.src}
-                alt={proof.alt}
-                loading="lazy"
-                className="w-full h-auto object-cover"
-              />
+              <picture>
+                {getWebpSource(proof.src) && (
+                  <source srcSet={getWebpSource(proof.src) ?? undefined} type="image/webp" />
+                )}
+                <img
+                  src={proof.src}
+                  alt={proof.alt}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-auto object-cover"
+                />
+              </picture>
               {proof.caption && (
                 <figcaption className="p-6 text-sm text-gray-600 bg-gray-50 border-t border-gray-200">
                   {proof.caption}

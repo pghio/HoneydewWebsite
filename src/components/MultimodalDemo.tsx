@@ -140,6 +140,8 @@ const MultimodalDemo = () => {
                 } ${index === activeStep ? `border-${step.color.split('-')[1]}-300` : ''}`}
                 whileHover={{ scale: index === activeStep ? 1.05 : 1.02 }}
                 whileTap={{ scale: 0.98 }}
+                aria-pressed={index === activeStep}
+                aria-label={`${step.title} input demo`}
               >
                 <div className="flex items-center space-x-4">
                   <div className={`w-12 h-12 rounded-xl bg-gradient-to-r ${step.gradient} flex items-center justify-center`}>
@@ -248,6 +250,8 @@ const MultimodalDemo = () => {
                 index === activeStep ? demoSteps[index].gradient.replace('from-', 'bg-').replace(' to-green-600', '') : 'bg-gray-300'
               }`}
               whileHover={{ scale: 1.2 }}
+              aria-pressed={index === activeStep}
+              aria-label={`${demoSteps[index].title} demo`}
             />
           ))}
         </motion.div>

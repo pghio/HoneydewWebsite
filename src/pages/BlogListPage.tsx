@@ -4,6 +4,8 @@ import { Calendar, ArrowRight, Sparkles } from 'lucide-react'
 import { useState, useEffect } from 'react'
 import Footer from '../components/Footer'
 import useSEO from '../utils/useSEO'
+import { buildAppLink } from '../utils/funnelTracking'
+import { trackLinkClick } from '../utils/analytics'
 
 interface Article {
   slug: string
@@ -17,6 +19,7 @@ interface Article {
 const BlogListPage = () => {
   const [articles, setArticles] = useState<Article[]>([])
   const [loading, setLoading] = useState(true)
+  const blogCtaHref = buildAppLink({ medium: 'blog_list', campaign: 'primary_cta', content: 'start_free' })
 
   useSEO({
     title: 'Honeydew Family App Blog – AI Organizer Guides & Playbooks',
@@ -106,6 +109,43 @@ const BlogListPage = () => {
 
         {/* Content */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.15 }}
+            className="mb-14 rounded-3xl border border-[#92C5A7]/30 bg-gradient-to-br from-[#92C5A7]/15 via-white to-[#78E6AF]/10 p-8"
+          >
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+              <div>
+                <p className="text-sm font-semibold text-[#2F3C36] uppercase tracking-wide">Start here</p>
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mt-2">
+                  See Honeydew build a family plan in minutes
+                </h2>
+                <p className="text-gray-700 mt-2 max-w-2xl">
+                  Turn a voice note or photo into lists, calendar events, and shared hand-offs—no setup required.
+                </p>
+              </div>
+              <motion.a
+                href={blogCtaHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center rounded-xl bg-[#92C5A7] px-6 py-3 font-semibold text-gray-900 hover:bg-[#86b89b] transition-colors"
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                onClick={() =>
+                  trackLinkClick({
+                    href: blogCtaHref,
+                    source: 'blog_list',
+                    medium: 'page_section',
+                    campaign: 'primary_cta',
+                  })
+                }
+              >
+                Try Honeydew Free
+                <ArrowRight className="ml-2 w-4 h-4" />
+              </motion.a>
+            </div>
+          </motion.div>
           {/* Featured Articles */}
           {featuredArticles.length > 0 && (
             <motion.div

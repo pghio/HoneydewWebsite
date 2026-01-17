@@ -67,7 +67,12 @@ const Navbar = () => {
                 onMouseEnter={() => setIsWhyHoneydewOpen(true)}
                 onMouseLeave={() => setIsWhyHoneydewOpen(false)}
               >
-                <button className="text-gray-600 hover:text-primary-600 transition-colors flex items-center gap-1">
+                <button
+                  className="text-gray-600 hover:text-primary-600 transition-colors flex items-center gap-1"
+                  aria-haspopup="true"
+                  aria-expanded={isWhyHoneydewOpen}
+                  aria-controls="why-honeydew-menu"
+                >
                   Why Honeydew
                   <ChevronDown className="w-4 h-4" />
                 </button>
@@ -78,6 +83,7 @@ const Navbar = () => {
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 10 }}
                     className="absolute top-full left-0 pt-2"
+                    id="why-honeydew-menu"
                   >
                     <div className="w-72 bg-white rounded-lg shadow-xl border border-gray-100 py-2">
                       {whyHoneydewLinks.map((link, index) => (
@@ -131,6 +137,9 @@ const Navbar = () => {
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="text-gray-600 hover:text-gray-900"
+              aria-label={isMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+              aria-expanded={isMenuOpen}
+              aria-controls="mobile-nav"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -144,6 +153,7 @@ const Navbar = () => {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden py-4 border-t border-gray-100"
+            id="mobile-nav"
           >
             <div className="flex flex-col space-y-4">
               <a href={featuresHref} className="text-gray-600 hover:text-primary-600 transition-colors">Features</a>
@@ -151,15 +161,18 @@ const Navbar = () => {
               
               {/* Why Honeydew - Mobile Expandable */}
               <div>
-                <button 
+                <button
                   onClick={() => setIsWhyHoneydewOpen(!isWhyHoneydewOpen)}
                   className="text-gray-600 hover:text-primary-600 transition-colors flex items-center gap-1 w-full"
+                  aria-haspopup="true"
+                  aria-expanded={isWhyHoneydewOpen}
+                  aria-controls="why-honeydew-menu-mobile"
                 >
                   Why Honeydew
                   <ChevronDown className={`w-4 h-4 transition-transform ${isWhyHoneydewOpen ? 'rotate-180' : ''}`} />
                 </button>
                 {isWhyHoneydewOpen && (
-                  <div className="ml-4 mt-2 space-y-2">
+                  <div className="ml-4 mt-2 space-y-2" id="why-honeydew-menu-mobile">
                     {whyHoneydewLinks.map((link, index) => (
                       <a
                         key={index}

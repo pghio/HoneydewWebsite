@@ -55,6 +55,17 @@ function getPlainText(node: unknown): string {
   return ''
 }
 
+function getWebpSource(src?: string): string | null {
+  if (!src) return null
+  const normalized = src.toLowerCase()
+  if (!normalized.startsWith('/blog-images/')) return null
+  if (normalized.endsWith('.webp')) return src
+  if (/\.(jpg|jpeg|png)$/.test(normalized)) {
+    return src.replace(/\.(jpg|jpeg|png)$/i, '.webp')
+  }
+  return null
+}
+
 function buildToc(markdown: string): TocItem[] {
   const text = stripFencedCodeBlocks(markdown || '')
   const lines = text.split('\n')
@@ -850,14 +861,23 @@ const BlogPostPage = () => {
                 },
                 
                 // Images with proper alt text and lazy loading
-                img: ({node, ...props}) => (
-                  <img 
-                    {...props} 
-                    alt={props.alt || 'Blog image'} 
-                    loading="lazy"
-                    className="rounded-xl shadow-2xl my-8 w-full"
-                  />
-                ),
+                img: ({node, ...props}) => {
+                  const originalSrc = typeof props.src === 'string' ? props.src : undefined
+                  const webpSrc = getWebpSource(originalSrc)
+                  return (
+                    <picture>
+                      {webpSrc && <source srcSet={webpSrc} type="image/webp" />}
+                      <img
+                        {...props}
+                        src={originalSrc}
+                        alt={props.alt || 'Blog image'}
+                        loading="lazy"
+                        decoding="async"
+                        className="rounded-xl shadow-2xl my-8 w-full"
+                      />
+                    </picture>
+                  )
+                },
               }}
             >
               {content}

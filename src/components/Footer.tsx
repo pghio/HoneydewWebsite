@@ -51,8 +51,8 @@ const Footer = () => {
               <span className="text-xl font-bold honeydew-text-gradient">Honeydew Family App</span>
             </motion.div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Transforming family organization through AI-powered intelligence. 
-              Making coordination effortless and bringing families closer together.
+              AI planning that syncs calendars every 15 minutes and keeps family updates under 50ms.
+              Built for multi-household coordination without the manual busywork.
             </p>
             
             {/* Contact */}

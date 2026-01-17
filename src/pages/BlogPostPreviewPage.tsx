@@ -5,6 +5,17 @@ import remarkGfm from 'remark-gfm'
 import { motion } from 'framer-motion'
 import { ArrowLeft, Calendar, Tag } from 'lucide-react'
 
+const getWebpSource = (src?: string): string | null => {
+  if (!src) return null
+  const normalized = src.toLowerCase()
+  if (!normalized.startsWith('/blog-images/')) return null
+  if (normalized.endsWith('.webp')) return src
+  if (/\.(jpg|jpeg|png)$/.test(normalized)) {
+    return src.replace(/\.(jpg|jpeg|png)$/i, '.webp')
+  }
+  return null
+}
+
 const BlogPostPreviewPage = () => {
   const { slug } = useParams()
   const [content, setContent] = useState('')
@@ -173,12 +184,23 @@ const BlogPostPreviewPage = () => {
                 
                 // Images with proper alt text and lazy loading
                 img: ({node, ...props}) => (
-                  <img 
-                    {...props} 
-                    alt={props.alt || 'Blog image'} 
-                    loading="lazy"
-                    className="rounded-xl shadow-lg w-full"
-                  />
+                  (() => {
+                    const originalSrc = typeof props.src === 'string' ? props.src : undefined
+                    const webpSrc = getWebpSource(originalSrc)
+                    return (
+                      <picture>
+                        {webpSrc && <source srcSet={webpSrc} type="image/webp" />}
+                        <img
+                          {...props}
+                          src={originalSrc}
+                          alt={props.alt || 'Blog image'}
+                          loading="lazy"
+                          decoding="async"
+                          className="rounded-xl shadow-lg w-full"
+                        />
+                      </picture>
+                    )
+                  })()
                 ),
               }}
             >

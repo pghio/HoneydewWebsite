@@ -40,7 +40,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-lg md:text-xl font-semibold text-gray-700 mb-4">
-              AI that actually plans, not just stores dates.
+              AI that turns a 6-word request into lists + calendar updates in ~3 seconds.
             </p>
 
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
@@ -264,6 +264,39 @@ const Hero = () => {
                 animate={{ rotate: [0, 4, 0], y: [0, 8, 0] }}
                 transition={{ duration: 3, repeat: Infinity, delay: 2 }}
               />
+            </div>
+          </motion.div>
+
+          {/* Real app screenshots */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.1 }}
+            className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto"
+          >
+            <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-200 bg-white">
+              <picture>
+                <source srcSet="/blog-images/iphone-1-agent-conversation.webp" type="image/webp" />
+                <img
+                  src="/blog-images/iphone-1-agent-conversation.png"
+                  alt="Honeydew AI agent conversation building a family plan"
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-auto"
+                />
+              </picture>
+            </div>
+            <div className="rounded-3xl overflow-hidden shadow-xl border border-gray-200 bg-white">
+              <picture>
+                <source srcSet="/blog-images/iphone-2-calendar-month.webp" type="image/webp" />
+                <img
+                  src="/blog-images/iphone-2-calendar-month.png"
+                  alt="Honeydew family calendar month view with shared events"
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-auto"
+                />
+              </picture>
             </div>
           </motion.div>
         </div>

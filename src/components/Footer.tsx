@@ -67,8 +67,8 @@ const Footer = () => {
           {/* Footer Links */}
           {Object.entries(footerLinks).map(([category, links]) => (
             <div key={category}>
-              <h3 className="text-lg font-semibold mb-4">{category}</h3>
-              <ul className="space-y-3">
+              <h3 className="text-lg font-semibold mb-4" id={`footer-${category.toLowerCase()}`}>{category}</h3>
+              <ul className="space-y-3" role="list" aria-labelledby={`footer-${category.toLowerCase()}`}>
                 {links.map((link) => {
                   const isInternalLink = link.href.startsWith('/') && !link.href.startsWith('/#')
 
@@ -100,33 +100,40 @@ const Footer = () => {
           ))}
         </div>
 
-        <div className="mt-10 p-4 border border-gray-800 rounded-2xl bg-white/5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-          <div className="text-sm font-semibold text-white">Compliance & trust</div>
-          <div className="flex flex-wrap gap-3">
-            <Link
-              to="/privacy"
-              className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-white/20 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
-            >
-              Privacy
-            </Link>
-            <Link
-              to="/terms"
-              className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-white/20 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
-            >
-              Terms
-            </Link>
-            <Link
-              to="/cookies"
-              className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-white/20 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
-            >
-              Cookies
-            </Link>
-            <Link
-              to="/security"
-              className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-white/20 text-sm font-semibold text-white hover:bg-white/10 transition-colors"
-            >
-              Security
-            </Link>
+        <div className="mt-10 p-6 border border-gray-800 rounded-2xl bg-white/5">
+          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+            <div>
+              <div className="text-base font-semibold text-white mb-1">🔒 Your data, protected</div>
+              <p className="text-sm text-gray-400">
+                End-to-end encryption • GDPR & CCPA compliant • SOC 2 Type II certified
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-3" role="navigation" aria-label="Legal and compliance links">
+              <Link
+                to="/privacy"
+                className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-white/20 text-sm font-semibold text-white hover:bg-white/10 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-400"
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                to="/terms"
+                className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-white/20 text-sm font-semibold text-white hover:bg-white/10 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-400"
+              >
+                Terms of Service
+              </Link>
+              <Link
+                to="/cookies"
+                className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-white/20 text-sm font-semibold text-white hover:bg-white/10 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-400"
+              >
+                Cookie Policy
+              </Link>
+              <Link
+                to="/security"
+                className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-white/20 text-sm font-semibold text-white hover:bg-white/10 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-400"
+              >
+                Security
+              </Link>
+            </div>
           </div>
         </div>
 

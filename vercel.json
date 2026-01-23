@@ -36,9 +36,9 @@
       "source": "/sitemap.xml",
       "headers": [
         { "key": "Content-Type", "value": "application/xml; charset=utf-8" },
-        { "key": "Cache-Control", "value": "public, max-age=0, s-maxage=0, must-revalidate" },
-        { "key": "CDN-Cache-Control", "value": "public, max-age=0, must-revalidate" },
-        { "key": "Vercel-CDN-Cache-Control", "value": "public, max-age=0, must-revalidate" }
+        { "key": "Cache-Control", "value": "public, max-age=3600, s-maxage=3600" },
+        { "key": "CDN-Cache-Control", "value": "public, max-age=3600" },
+        { "key": "Vercel-CDN-Cache-Control", "value": "public, max-age=3600" }
       ]
     },
     {
@@ -54,9 +54,9 @@
       "source": "/robots.txt",
       "headers": [
         { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
-        { "key": "Cache-Control", "value": "public, max-age=0, s-maxage=0, must-revalidate" },
-        { "key": "CDN-Cache-Control", "value": "public, max-age=0, must-revalidate" },
-        { "key": "Vercel-CDN-Cache-Control", "value": "public, max-age=0, must-revalidate" }
+        { "key": "Cache-Control", "value": "public, max-age=3600, s-maxage=3600" },
+        { "key": "CDN-Cache-Control", "value": "public, max-age=3600" },
+        { "key": "Vercel-CDN-Cache-Control", "value": "public, max-age=3600" }
       ]
     }
   ],
@@ -75,7 +75,29 @@
     }
   ],
   "rewrites": [
-    { "source": "/((?!api|assets|.*\\.txt$|.*\\.xml$|.*\\.json$|.*\\.js$|.*\\.css$|.*\\.ico$|.*\\.png$|.*\\.jpg$|.*\\.svg$).*)", "destination": "/index.html" }
+    { "source": "/app", "destination": "/index.html" },
+    { "source": "/blog", "destination": "/index.html" },
+    { "source": "/blog/:slug*", "destination": "/index.html" },
+    { "source": "/blog-preview", "destination": "/index.html" },
+    { "source": "/blog-preview/:slug*", "destination": "/index.html" },
+    { "source": "/compare", "destination": "/index.html" },
+    { "source": "/alternatives", "destination": "/index.html" },
+    { "source": "/disambiguation", "destination": "/index.html" },
+    { "source": "/about", "destination": "/index.html" },
+    { "source": "/press", "destination": "/index.html" },
+    { "source": "/whats-new", "destination": "/index.html" },
+    { "source": "/hubs", "destination": "/index.html" },
+    { "source": "/hubs/:path*", "destination": "/index.html" },
+    { "source": "/support", "destination": "/index.html" },
+    { "source": "/privacy", "destination": "/index.html" },
+    { "source": "/terms", "destination": "/index.html" },
+    { "source": "/cookies", "destination": "/index.html" },
+    { "source": "/security", "destination": "/index.html" },
+    { "source": "/why-honeydew/:path*", "destination": "/index.html" },
+    { "source": "/help", "destination": "/index.html" },
+    { "source": "/docs", "destination": "/index.html" },
+    { "source": "/api", "destination": "/index.html" },
+    { "source": "/community", "destination": "/index.html" }
   ],
   "trailingSlash": false,
   "cleanUrls": true

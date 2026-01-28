@@ -53,6 +53,13 @@ Once running, the website will be available at:
 - **Vite** - Fast build tool and dev server
 - **Lucide React** - Beautiful icons
 
+## 🤖 Automation & CLI
+
+- CLI integrations map: `CLI_INTEGRATIONS.md`
+- Google Ads setup: `GOOGLE_ADS_SETUP.md`
+- $5/day ads plan: `GOOGLE_ADS_5_DOLLAR_CAMPAIGN.md`
+- End-to-end analytics: `ANALYTICS_END_TO_END.md`
+
 ## 📁 Project Structure
 
 ```

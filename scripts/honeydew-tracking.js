@@ -73,7 +73,7 @@
     subscription_renewed: { category: 'revenue', value: null, dynamic: true },
     
     // Retention Events
-    d1_return: { category: 'retention', value: 0.25 },
+    d1_return: { category: 'retention', value: 0.25, googleAdsAction: 'd1_return', isPrimary: true },
     d7_return: { category: 'retention', value: 0.50 },
     d30_return: { category: 'retention', value: 1.00 },
     
@@ -190,6 +190,9 @@
         referral_code: referralCode,
       });
       
+      // Store signup timestamp for retention milestones.
+      this._setStoredValue('honeydew_signup_date', new Date().toISOString());
+
       // Also set user properties
       this.setUserProperties({
         signup_date: new Date().toISOString(),

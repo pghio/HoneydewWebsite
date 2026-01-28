@@ -20,21 +20,21 @@
     <!-- Google Site Verification -->
     <meta name="google-site-verification" content="3yDbYBTI_7twBNwJzpvXWCQEiB0rcMkfOjKCldvayrs" />
     
-    <!-- Google Analytics 4 + Google Ads Conversion Tracking -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4X6LYQ296G"></script>
+    <!-- Google Tag (Google Ads + GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17819845292"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       
-      // GA4 Configuration
-      gtag('config', 'G-4X6LYQ296G', {
-        'send_page_view': true,
-        'cookie_flags': 'SameSite=None;Secure'
-      });
-      
       // Google Ads Configuration (for conversion tracking)
       gtag('config', 'AW-17819845292');
+      
+      // GA4 Configuration
+      gtag('config', 'G-4X6LYQ296G', {
+        'send_page_view': false,
+        'cookie_flags': 'SameSite=None;Secure'
+      });
       
       // Custom event tracking for blog engagement
       window.trackBlogEvent = function(action, label) {

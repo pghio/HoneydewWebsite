@@ -2,89 +2,107 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.gethoneydew.app/</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/app</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/blog</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/compare</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/alternatives</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/disambiguation</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/about</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/press</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/whats-new</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/hubs</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/hubs/skylight-alternatives</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/hubs/fair-play</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/hubs/co-parenting</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/hubs/ai-family-planner</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <!-- Published Blog Articles -->
+  <url>
+    <loc>https://www.gethoneydew.app/blog/honeydew-vs-talking-parents-comparison-2025</loc>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/honeydew-vs-ourfamilywizard-comparison-2025</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.gethoneydew.app/blog/unicorn-space-reclaiming-your-right-to-be-interesting-how-digital-tools-make-personal-time-actually-</loc>
+    <lastmod>2026-01-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
   <url>
     <loc>https://www.gethoneydew.app/blog/the-ultimate-fair-play-implementation-guide-how-to-digitally-transform-your-household-coordination</loc>
     <lastmod>2026-01-15</lastmod>
@@ -364,99 +382,99 @@
   <!-- Why Honeydew Pages -->
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-skylight</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-cozi</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-timetree</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-hearth</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-familywall</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-echoshow</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-google</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/why-honeydew/vs-mango</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <!-- Legal & Support Pages -->
   <url>
     <loc>https://www.gethoneydew.app/support</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/privacy</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/terms</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/cookies</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/security</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <!-- LLM Indexing Files (High Priority for AI Search) -->
   <url>
     <loc>https://www.gethoneydew.app/.llms.txt</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/.llms-full.txt</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.gethoneydew.app/llm-citations.json</loc>
-    <lastmod>2026-01-17</lastmod>
+    <lastmod>2026-01-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>

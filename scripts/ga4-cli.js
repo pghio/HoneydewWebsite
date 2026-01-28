@@ -269,7 +269,7 @@ async function setupFunnel(analyticsAdmin, propertyId) {
   console.log(`\n🚀 Setting up funnel tracking for ${propertyId}\n`)
   
   // Conversions to create
-  const conversions = ['cta_click', 'app_store_click']
+  const conversions = ['cta_click', 'app_store_click', 'signup_complete', 'd1_return', 'd7_return', 'd30_return']
   
   // Dimensions to create
   const dimensions = [
@@ -355,6 +355,7 @@ async function main() {
 }
 
 main()
+
 
 
 

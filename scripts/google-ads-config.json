@@ -18,7 +18,7 @@
         { "text": "cozi replacement", "matchType": "EXACT" }
       ],
       "landingPage": "/why-honeydew/vs-cozi",
-      "budgetShare": 0.35
+      "budgetShare": 0.30
     },
     {
       "name": "Competitor - Skylight Alternative",
@@ -28,7 +28,7 @@
         { "text": "cheaper than skylight", "matchType": "BROAD" }
       ],
       "landingPage": "/why-honeydew/vs-skylight",
-      "budgetShare": 0.25
+      "budgetShare": 0.20
     },
     {
       "name": "Problem - Family Organization",
@@ -39,7 +39,20 @@
         { "text": "family scheduling chaos", "matchType": "BROAD" }
       ],
       "landingPage": "/",
-      "budgetShare": 0.25
+      "budgetShare": 0.20
+    },
+    {
+      "name": "Mental Load - Fair Play",
+      "keywords": [
+        { "text": "mental load app", "matchType": "PHRASE" },
+        { "text": "family mental load", "matchType": "PHRASE" },
+        { "text": "cant keep up with kids schedules", "matchType": "PHRASE" },
+        { "text": "overwhelmed mom schedule", "matchType": "PHRASE" },
+        { "text": "fair play cards app", "matchType": "PHRASE" },
+        { "text": "fair play system app", "matchType": "PHRASE" }
+      ],
+      "landingPage": "/",
+      "budgetShare": 0.15
     },
     {
       "name": "AI Family App",
@@ -96,6 +109,20 @@
       ]
     },
     {
+      "adGroup": "Mental Load - Fair Play",
+      "headlines": [
+        "Reduce the Family Mental Load",
+        "Share the Invisible Work",
+        "Keep Up With Kids Schedules",
+        "Finally Feel On Top of It",
+        "Try Honeydew Free"
+      ],
+      "descriptions": [
+        "Honeydew helps families share planning, lists, and schedules so one person doesn't carry it all.",
+        "Less nagging, fewer missed tasks, more calm. AI helps coordinate the daily chaos."
+      ]
+    },
+    {
       "adGroup": "AI Family App",
       "headlines": [
         "AI Family Assistant App",
@@ -129,6 +156,13 @@
       "name": "signup_complete",
       "category": "SIGNUP",
       "value": 2.00,
+      "countingType": "ONE_PER_CLICK",
+      "primary": false
+    },
+    {
+      "name": "d1_return",
+      "category": "OTHER",
+      "value": 0.25,
       "countingType": "ONE_PER_CLICK",
       "primary": true
     },

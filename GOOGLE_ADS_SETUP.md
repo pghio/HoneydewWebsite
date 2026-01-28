@@ -4,6 +4,8 @@
 **Goal:** Full-funnel tracking from ad click → signup → activation → purchase  
 **Status:** Ready for credentials
 
+Reference plan: `GOOGLE_ADS_5_DOLLAR_CAMPAIGN.md`
+
 ---
 
 ## Quick Start Checklist
@@ -27,12 +29,31 @@
 - [ ] Download client secret JSON
 
 ### 4. Configure Environment Variables
+
+Local (shell or `.env.local`):
 ```bash
 export GOOGLE_ADS_CUSTOMER_ID="123-456-7890"
+export GOOGLE_ADS_LOGIN_CUSTOMER_ID="123-456-7890" # MCC/manager account
 export GOOGLE_ADS_DEVELOPER_TOKEN="your_developer_token"
 export GOOGLE_ADS_CLIENT_ID="your_oauth_client_id"
 export GOOGLE_ADS_CLIENT_SECRET="your_oauth_client_secret"
 export GOOGLE_ADS_REFRESH_TOKEN="your_refresh_token"
+```
+
+Vercel (store as secrets/env vars, never commit):
+```bash
+npx vercel env add GOOGLE_ADS_CUSTOMER_ID production
+npx vercel env add GOOGLE_ADS_LOGIN_CUSTOMER_ID production
+npx vercel env add GOOGLE_ADS_DEVELOPER_TOKEN production
+npx vercel env add GOOGLE_ADS_CLIENT_ID production
+npx vercel env add GOOGLE_ADS_CLIENT_SECRET production
+npx vercel env add GOOGLE_ADS_REFRESH_TOKEN production
+```
+
+Minimum required for status/monitoring:
+```bash
+export GOOGLE_ADS_CUSTOMER_ID="123-456-7890"
+export GOOGLE_ADS_DEVELOPER_TOKEN="your_developer_token"
 ```
 
 ### 5. Run Setup
@@ -63,6 +84,44 @@ Honeydew - Family Organization ($5/day)
     └── Landing: /
 ```
 
+### Sitelink Assets (use live website URLs)
+Sitelinks should point to real pages on the website (not the app store). Recommended set:
+
+| Sitelink | Final URL | Description 1 | Description 2 |
+|---|---|---|---|
+| Try Honeydew | https://gethoneydew.app/app | Start free in minutes | AI-powered family planner |
+| Compare to Cozi | https://gethoneydew.app/why-honeydew/vs-cozi | See why families switch | Better AI + multi-family |
+| Compare to Skylight | https://gethoneydew.app/why-honeydew/vs-skylight | Smarter than digital frames | Real-time family planning |
+| Family Planner Hub | https://gethoneydew.app/hubs/ai-family-planner | AI tips and workflows | Plan faster, stress less |
+| Co-Parenting Hub | https://gethoneydew.app/hubs/co-parenting | Coordinate across households | Shared calendars and lists |
+| Support | https://gethoneydew.app/support | Get help fast | FAQs and guidance |
+| Blog | https://gethoneydew.app/blog | Guides for busy parents | Best apps + comparisons |
+| About Honeydew | https://gethoneydew.app/about | The mission and team | Built for families |
+
+Tip: Keep at least 6 sitelinks active for maximum eligibility and rotate seasonally.
+
+### Image & Video Asset Recommendations
+Use existing site assets where possible and add a few purpose-built creatives for ads.
+
+**Recommended existing images (crop into required sizes):**
+- 1.91:1 landscape: `public/og-image-ai.jpg`, `public/blog-images/honeydew-calendar-hero.jpg`
+- 1:1 square: `public/blog-images/honeydew-app-screenshot.jpg`, `public/blog-images/honeydew-ai-agent.jpg`
+- 4:5 portrait: `public/blog-images/honeydew-working-parents.jpg`, `public/blog-images/honeydew-multi-family.jpg`
+- Logos: `public/logo.png`, `public/assets/honeydew-logo-with-wordmark.svg` (export PNG)
+
+**Suggested new image assets to create (high-impact):**
+- Lifestyle + app composite: busy parent + Honeydew calendar overlay (1200x628 and 1200x1200)
+- Voice-first moment: “Add soccer practice” voice bubble + calendar update (1200x1200)
+- Multi-family coordination: split-screen of two households sharing events (960x1200)
+
+**Recommended video assets (build these first):**
+- 15s vertical (1080x1920): Voice add → calendar auto-populates → family gets updates.
+- 30s square (1080x1080): 3 feature beats (AI agent, multi-family, two-way sync).
+- 6s bumper (1920x1080): “Organize your family in seconds” with app UI.
+
+**Existing video you can use now:**
+- `public/reviewer/honeydew-google-calendar-review.webm` (trim to 15–30s if needed)
+
 ### Conversion Events (Google Ads + GA4)
 
 | Event | Category | Value | Tracks |
@@ -86,6 +145,15 @@ Honeydew - Family Organization ($5/day)
 ---
 
 ## Conversion Tracking Implementation
+
+## Manager vs Client Accounts (Important)
+
+Google Ads uses a **Manager (MCC)** account to oversee one or more **Client** accounts where ads actually run.
+
+- **Manager (MCC)**: use for `GOOGLE_ADS_LOGIN_CUSTOMER_ID`
+- **Client**: use for `GOOGLE_ADS_CUSTOMER_ID`
+
+The CLI now auto-resolves to a valid client account if the configured ID is not accessible.
 
 ### On app.gethoneydew.app
 

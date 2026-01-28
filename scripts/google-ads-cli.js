@@ -21,6 +21,7 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import { GoogleAdsApi } from 'google-ads-api'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -33,39 +34,160 @@ const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'))
 // Google Ads API Client (requires credentials)
 // ===========================================
 
+const sanitizeEnvValue = value => value?.trim().replace(/\\n/g, '')
+
+const toNumber = value => {
+  if (value === null || value === undefined || value === '') return 0
+  const parsed = Number(value)
+  return Number.isNaN(parsed) ? 0 : parsed
+}
+
+const normalizeDateRange = (dateRange, fallbackDays = 7) => {
+  const supported = new Set([7, 14, 30, 90])
+  const days = dateRange?.days ? Number(dateRange.days) : null
+  if (days && supported.has(days)) {
+    return `LAST_${days}_DAYS`
+  }
+
+  if (dateRange?.startDate === '7daysAgo') return 'LAST_7_DAYS'
+  if (dateRange?.startDate === '14daysAgo') return 'LAST_14_DAYS'
+  if (dateRange?.startDate === '30daysAgo') return 'LAST_30_DAYS'
+  if (dateRange?.startDate === '90daysAgo') return 'LAST_90_DAYS'
+
+  return `LAST_${supported.has(fallbackDays) ? fallbackDays : 7}_DAYS`
+}
+
 class GoogleAdsClient {
   constructor(credentials) {
     this.credentials = credentials
-    this.customerId = credentials?.customerId || process.env.GOOGLE_ADS_CUSTOMER_ID
-    this.developerToken = credentials?.developerToken || process.env.GOOGLE_ADS_DEVELOPER_TOKEN
+    const rawCustomerId = sanitizeEnvValue(
+      credentials?.customerId || process.env.GOOGLE_ADS_CUSTOMER_ID
+    )
+    this.customerId = rawCustomerId ? rawCustomerId.replace(/-/g, '') : rawCustomerId
+    this.developerToken = sanitizeEnvValue(
+      credentials?.developerToken || process.env.GOOGLE_ADS_DEVELOPER_TOKEN
+    )
+    this.clientId = sanitizeEnvValue(credentials?.clientId || process.env.GOOGLE_ADS_CLIENT_ID)
+    this.clientSecret = sanitizeEnvValue(
+      credentials?.clientSecret || process.env.GOOGLE_ADS_CLIENT_SECRET
+    )
+    this.refreshToken = sanitizeEnvValue(
+      credentials?.refreshToken || process.env.GOOGLE_ADS_REFRESH_TOKEN
+    )
+    const rawLoginCustomerId = sanitizeEnvValue(
+      credentials?.loginCustomerId || process.env.GOOGLE_ADS_LOGIN_CUSTOMER_ID
+    )
+    this.loginCustomerId = rawLoginCustomerId ? rawLoginCustomerId.replace(/-/g, '') : rawLoginCustomerId
     this.initialized = false
+    this.useSimulation = false
   }
 
   async init() {
-    if (!this.customerId || !this.developerToken) {
+    if (!this.customerId || !this.developerToken || !this.clientId || !this.clientSecret || !this.refreshToken) {
       console.log('\n⚠️  Google Ads credentials not configured.')
       console.log('   See GOOGLE_ADS_SETUP.md for instructions.\n')
+      this.useSimulation = true
       return false
     }
 
-    // In production, this would initialize the google-ads-api client
-    // For now, we'll use placeholder logic that can be swapped in
     try {
-      // const { GoogleAdsApi } = await import('google-ads-api')
-      // this.client = new GoogleAdsApi({
-      //   client_id: process.env.GOOGLE_ADS_CLIENT_ID,
-      //   client_secret: process.env.GOOGLE_ADS_CLIENT_SECRET,
-      //   developer_token: this.developerToken
-      // })
-      // this.customer = this.client.Customer({
-      //   customer_id: this.customerId,
-      //   refresh_token: process.env.GOOGLE_ADS_REFRESH_TOKEN
-      // })
+      this.client = new GoogleAdsApi({
+        client_id: this.clientId,
+        client_secret: this.clientSecret,
+        developer_token: this.developerToken,
+        login_customer_id: this.loginCustomerId || this.customerId
+      })
+      const resolvedCustomerId = await this.resolveCustomerId()
+      if (resolvedCustomerId && resolvedCustomerId !== this.customerId) {
+        console.log(`   Using customer ID ${resolvedCustomerId} (auto-resolved)`)
+        this.customerId = resolvedCustomerId
+      }
+
+      this.customer = this.client.Customer({
+        customer_id: this.customerId,
+        refresh_token: this.refreshToken,
+        login_customer_id: this.loginCustomerId || this.customerId
+      })
       this.initialized = true
       return true
     } catch (error) {
       console.error('Failed to initialize Google Ads client:', error.message)
+      this.initialized = false
+      this.useSimulation = false
       return false
+    }
+  }
+
+  async resolveCustomerId() {
+    const accessible = await this.listAccessibleCustomers()
+    if (!accessible.length) {
+      return this.customerId
+    }
+
+    if (!this.customerId) {
+      return accessible.find(id => id !== this.loginCustomerId) || accessible[0]
+    }
+
+    if (accessible.includes(this.customerId)) {
+      return this.customerId
+    }
+
+    const fallback = accessible.find(id => id !== this.loginCustomerId) || accessible[0]
+    console.log(`   Customer ID ${this.customerId} not accessible; falling back to ${fallback}`)
+    return fallback
+  }
+
+  async query(gaql) {
+    if (!this.initialized || !this.customer) {
+      if (this.useSimulation) {
+        return this.simulateResponse('query', { gaql })
+      }
+      console.error('Google Ads API not initialized.')
+      return null
+    }
+
+    try {
+      return await this.customer.query(gaql)
+    } catch (error) {
+      console.error('Google Ads API query failed:', error.message)
+      if (error?.errors?.length) {
+        for (const err of error.errors) {
+          if (err?.message) {
+            console.error(`  • ${err.message}`)
+          }
+        }
+      }
+      if (error?.response?.errors?.length) {
+        for (const err of error.response.errors) {
+          if (err?.message) {
+            console.error(`  • ${err.message}`)
+          }
+        }
+      }
+      if (error?.response?.data) {
+        try {
+          console.error('  • API response:', JSON.stringify(error.response.data))
+        } catch {
+          console.error('  • API response available (failed to serialize)')
+        }
+      }
+      return null
+    }
+  }
+
+  async listAccessibleCustomers() {
+    if (!this.client || !this.refreshToken) {
+      return []
+    }
+
+    try {
+      const { resource_names: resourceNames = [] } = await this.client.listAccessibleCustomers(
+        this.refreshToken
+      )
+      return resourceNames.map(name => name.replace('customers/', ''))
+    } catch (error) {
+      console.error('Failed to list accessible customers:', error.message)
+      return []
     }
   }
 
@@ -79,10 +201,47 @@ class GoogleAdsClient {
     // return await this.customer.campaigns.create(campaignConfig)
   }
 
-  async getCampaigns() {
+  async getCampaigns(dateRange) {
     if (!this.initialized) {
-      return this.simulateResponse('getCampaigns')
+      return this.useSimulation ? this.simulateResponse('getCampaigns') : []
     }
+
+    const range = normalizeDateRange(dateRange)
+    const rows = await this.query(`
+      SELECT
+        campaign.id,
+        campaign.name,
+        campaign.status,
+        campaign_budget.amount_micros,
+        metrics.impressions,
+        metrics.clicks,
+        metrics.ctr,
+        metrics.average_cpc,
+        metrics.cost_micros,
+        metrics.conversions
+      FROM campaign
+      WHERE segments.date DURING ${range}
+    `)
+
+    if (!rows) return []
+
+    return rows.map(row => {
+      const budgetMicros = toNumber(row.campaign_budget?.amount_micros)
+      return {
+        id: row.campaign.id,
+        name: row.campaign.name,
+        status: row.campaign.status,
+        budget: { daily: budgetMicros ? budgetMicros / 1_000_000 : null },
+        metrics: {
+          impressions: toNumber(row.metrics.impressions),
+          clicks: toNumber(row.metrics.clicks),
+          cost: toNumber(row.metrics.cost_micros) / 1_000_000,
+          conversions: toNumber(row.metrics.conversions),
+          ctr: toNumber(row.metrics.ctr),
+          cpc: toNumber(row.metrics.average_cpc) / 1_000_000
+        }
+      }
+    })
   }
 
   async updateCampaignBudget(campaignId, newBudget) {
@@ -98,10 +257,34 @@ class GoogleAdsClient {
     }
   }
 
-  async getAdGroups(campaignId) {
+  async getAdGroups(campaignId, dateRange) {
     if (!this.initialized) {
-      return this.simulateResponse('getAdGroups', { campaignId })
+      return this.useSimulation ? this.simulateResponse('getAdGroups', { campaignId }) : []
     }
+
+    const range = normalizeDateRange(dateRange)
+    const filter = campaignId ? `AND campaign.id = ${campaignId}` : ''
+    const rows = await this.query(`
+      SELECT
+        ad_group.id,
+        ad_group.name,
+        metrics.clicks,
+        metrics.conversions,
+        metrics.cost_micros
+      FROM ad_group
+      WHERE segments.date DURING ${range}
+      ${filter}
+    `)
+
+    if (!rows) return []
+
+    return rows.map(row => ({
+      id: row.ad_group.id,
+      name: row.ad_group.name,
+      clicks: toNumber(row.metrics.clicks),
+      conversions: toNumber(row.metrics.conversions),
+      cost: toNumber(row.metrics.cost_micros) / 1_000_000
+    }))
   }
 
   // Keyword Management
@@ -132,14 +315,60 @@ class GoogleAdsClient {
 
   async getKeywordPerformance(dateRange) {
     if (!this.initialized) {
-      return this.simulateResponse('keywordPerformance', dateRange)
+      return this.useSimulation ? this.simulateResponse('keywordPerformance', dateRange) : []
     }
+
+    const range = normalizeDateRange(dateRange)
+    const rows = await this.query(`
+      SELECT
+        ad_group_criterion.keyword.text,
+        ad_group_criterion.keyword.match_type,
+        metrics.clicks,
+        metrics.conversions,
+        metrics.cost_micros,
+        metrics.ctr,
+        metrics.average_cpc
+      FROM keyword_view
+      WHERE segments.date DURING ${range}
+        AND ad_group_criterion.status = ENABLED
+    `)
+
+    if (!rows) return []
+
+    return rows.map(row => ({
+      keyword: row.ad_group_criterion.keyword.text,
+      matchType: row.ad_group_criterion.keyword.match_type,
+      clicks: toNumber(row.metrics.clicks),
+      conversions: toNumber(row.metrics.conversions),
+      cost: toNumber(row.metrics.cost_micros) / 1_000_000,
+      ctr: toNumber(row.metrics.ctr),
+      cpc: toNumber(row.metrics.average_cpc) / 1_000_000
+    }))
   }
 
   async getConversionData(dateRange) {
     if (!this.initialized) {
-      return this.simulateResponse('conversions', dateRange)
+      return this.useSimulation ? this.simulateResponse('conversions', dateRange) : []
     }
+
+    const range = normalizeDateRange(dateRange)
+    const rows = await this.query(`
+      SELECT
+        segments.conversion_action_name,
+        metrics.conversions,
+        metrics.conversion_value
+      FROM customer
+      WHERE segments.date DURING ${range}
+        AND metrics.conversions > 0
+    `)
+
+    if (!rows) return []
+
+    return rows.map(row => ({
+      name: row.segments.conversion_action_name || 'conversion',
+      count: toNumber(row.metrics.conversions),
+      value: toNumber(row.metrics.conversion_value)
+    }))
   }
 
   // Simulation mode for development/testing
@@ -256,7 +485,7 @@ async function setupCampaign(client) {
 async function runOptimization(client) {
   console.log('\n⚙️  Running Optimization Cycle\n')
   
-  const dateRange = { startDate: '7daysAgo', endDate: 'today' }
+  const dateRange = { days: 7 }
   
   // 1. Get current performance
   console.log('📊 Fetching performance data...')
@@ -297,7 +526,7 @@ async function runOptimization(client) {
 
   // 4. Budget reallocation recommendations
   console.log('\n💰 Budget Allocation Analysis:')
-  const adGroups = await client.getAdGroups()
+  const adGroups = await client.getAdGroups(undefined, dateRange)
   const totalConversions = adGroups.reduce((sum, ag) => sum + ag.conversions, 0)
   
   for (const ag of adGroups) {
@@ -324,11 +553,12 @@ async function generateReport(client, days = 7) {
   console.log(`\n📊 Google Ads Performance Report (Last ${days} days)\n`)
   console.log('═'.repeat(60))
   
-  const campaigns = await client.getCampaigns()
+  const dateRange = { days }
+  const campaigns = await client.getCampaigns(dateRange)
   const campaign = campaigns[0]
   
   if (!campaign) {
-    console.log('No campaign data available.')
+    console.log('No campaign data available. Check API access or date range.')
     return
   }
 
@@ -354,7 +584,7 @@ async function generateReport(client, days = 7) {
   // Keyword Performance
   console.log('\n🔑 TOP KEYWORDS')
   console.log('─'.repeat(40))
-  const keywords = await client.getKeywordPerformance()
+  const keywords = await client.getKeywordPerformance(dateRange)
   keywords.sort((a, b) => b.conversions - a.conversions || b.clicks - a.clicks)
   
   console.log('Keyword                              Clicks  Conv   Cost    CTR')
@@ -370,7 +600,7 @@ async function generateReport(client, days = 7) {
   // Conversion Breakdown
   console.log('\n🎯 CONVERSION BREAKDOWN')
   console.log('─'.repeat(40))
-  const conversions = await client.getConversionData()
+  const conversions = await client.getConversionData(dateRange)
   for (const conv of conversions) {
     console.log(`${conv.name.padEnd(25)} ${conv.count} × $${(conv.value / conv.count).toFixed(2)} = $${conv.value.toFixed(2)}`)
   }
@@ -412,16 +642,20 @@ async function showStatus(client) {
   
   // Campaign status
   console.log('\n📊 Campaign:')
-  const campaigns = await client.getCampaigns()
-  if (campaigns.length > 0) {
+  const campaigns = await client.getCampaigns({ days: 7 })
+  if (campaigns && campaigns.length > 0) {
     const c = campaigns[0]
     console.log(`   Name: ${c.name}`)
     console.log(`   Status: ${c.status}`)
-    console.log(`   Budget: $${c.budget.daily}/day`)
+    console.log(`   Budget: ${c.budget.daily ? '$' + c.budget.daily + '/day' : 'N/A'}`)
     console.log(`   Spend (7d): $${c.metrics.cost.toFixed(2)}`)
     console.log(`   Conversions (7d): ${c.metrics.conversions}`)
   } else {
-    console.log('   No campaigns found')
+    console.log('   No campaigns found (or API access issue)')
+    const accessible = await client.listAccessibleCustomers()
+    if (accessible.length > 0) {
+      console.log(`   Accessible customer IDs: ${accessible.join(', ')}`)
+    }
   }
 
   // Conversion tracking status
@@ -501,7 +735,10 @@ async function main() {
 
   const client = new GoogleAdsClient({
     customerId: process.env.GOOGLE_ADS_CUSTOMER_ID,
-    developerToken: process.env.GOOGLE_ADS_DEVELOPER_TOKEN
+    developerToken: process.env.GOOGLE_ADS_DEVELOPER_TOKEN,
+    clientId: process.env.GOOGLE_ADS_CLIENT_ID,
+    clientSecret: process.env.GOOGLE_ADS_CLIENT_SECRET,
+    refreshToken: process.env.GOOGLE_ADS_REFRESH_TOKEN
   })
   
   await client.init()

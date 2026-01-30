@@ -75,6 +75,12 @@
     }
   ],
   "rewrites": [
+    { "source": "/sitemap.xml", "destination": "/sitemap.xml" },
+    { "source": "/robots.txt", "destination": "/robots.txt" },
+    { "source": "/llms.txt", "destination": "/llms.txt" },
+    { "source": "/.llms.txt", "destination": "/.llms.txt" },
+    { "source": "/.llms-full.txt", "destination": "/.llms-full.txt" },
+    { "source": "/llm-citations.json", "destination": "/llm-citations.json" },
     { "source": "/app", "destination": "/index.html" },
     { "source": "/blog", "destination": "/index.html" },
     { "source": "/blog/:slug*", "destination": "/index.html" },

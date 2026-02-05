@@ -582,7 +582,7 @@ For medium-conflict situations, many families use both apps:
 **Savings:** $265/year
 **Better features:** AI, voice, multi-family, calendar sync
 
-> "Talking Parents felt adversarial. Like we were preparing for battle. Honeydew feels like we're on the same team trying to coordinate kids."
+The key difference: Talking Parents is built for documentation and accountability. Honeydew is built for coordination and efficiency. One feels like preparing for battle; the other feels like working together for the kids.
 
 ---
 
@@ -630,7 +630,7 @@ For medium-conflict situations, many families use both apps:
 **Combined cost:** $95 (Honeydew) + $360 (Talking Parents) = $455/year
 **What they get:** Documentation when needed + efficiency always
 
-> "I don't want to type every grocery list into Talking Parents. But I do want schedule change requests documented. Using both makes sense for where we are."
+For many families, the ideal setup is: Talking Parents for schedule change requests and anything that might need documentation. Honeydew for daily logistics, grocery lists, and efficient coordination. Each tool serves its purpose.
 
 ---
 

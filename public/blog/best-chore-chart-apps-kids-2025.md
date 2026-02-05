@@ -117,16 +117,16 @@ If you want chores as **part of family life** (not a separate game), Honeydew in
 | Calendar Integration | ✅ Full integration |
 
 #### Best For
-✅ Families wanting ONE app for everything  
-✅ Parents using voice-first organization  
-✅ Teaching kids real organizational tools  
-✅ Reducing app fatigue  
-✅ Chores as part of life, not separate game  
+✅ Families wanting ONE app for everything 
+✅ Parents using voice-first organization 
+✅ Teaching kids real organizational tools 
+✅ Reducing app fatigue 
+✅ Chores as part of life, not separate game 
 
 #### Limitations
-⚠️ No gamification (points, badges, achievements)  
-⚠️ No built-in allowance banking  
-⚠️ Less "fun" for younger kids who need games  
+⚠️ No gamification (points, badges, achievements) 
+⚠️ No built-in allowance banking 
+⚠️ Less "fun" for younger kids who need games 
 
 **[Try Honeydew Free →](https://gethoneydew.app/)**
 
@@ -178,16 +178,16 @@ OurHome is **purpose-built for family chores and rewards**. If you want a dedica
 | Voice Input | ❌ None |
 
 #### Best For
-✅ Families wanting dedicated chore system  
-✅ Connecting chores to allowance  
-✅ Multiple kids with points competition  
-✅ Teaching financial responsibility  
+✅ Families wanting dedicated chore system 
+✅ Connecting chores to allowance 
+✅ Multiple kids with points competition 
+✅ Teaching financial responsibility 
 
 #### Limitations
-⚠️ Not a complete family organizer  
-⚠️ Separate from your main calendar  
-⚠️ No voice input  
-⚠️ No AI assistance  
+⚠️ Not a complete family organizer 
+⚠️ Separate from your main calendar 
+⚠️ No voice input 
+⚠️ No AI assistance 
 
 ---
 
@@ -225,15 +225,15 @@ S'moresUp turns chores into an actual **game with levels, achievements, and char
 - Real money connection
 
 #### Best For
-✅ Young kids (4-10)  
-✅ Kids who need game-like motivation  
-✅ Teaching financial literacy  
-✅ Making chores "fun"  
+✅ Young kids (4-10) 
+✅ Kids who need game-like motivation 
+✅ Teaching financial literacy 
+✅ Making chores "fun" 
 
 #### Limitations
-⚠️ Younger kid focus (teens find it childish)  
-⚠️ Not integrated with family calendar  
-⚠️ Separate system to manage  
+⚠️ Younger kid focus (teens find it childish) 
+⚠️ Not integrated with family calendar 
+⚠️ Separate system to manage 
 
 ---
 
@@ -265,15 +265,15 @@ Homey offers **straightforward chore tracking** without complexity. If you want 
 - Full functionality at no cost
 
 #### Best For
-✅ Families wanting simplest option  
-✅ Basic chore-to-allowance connection  
-✅ No-cost solution  
+✅ Families wanting simplest option 
+✅ Basic chore-to-allowance connection 
+✅ No-cost solution 
 
 #### Limitations
-⚠️ Very basic features  
-⚠️ No gamification  
-⚠️ Limited customization  
-⚠️ Not updated frequently  
+⚠️ Very basic features 
+⚠️ No gamification 
+⚠️ Limited customization 
+⚠️ Not updated frequently 
 
 ---
 
@@ -301,14 +301,14 @@ ChoreMonster uses **monsters and fun visuals** to motivate young kids. Kids earn
 - Simple completion tracking
 
 #### Best For
-✅ Very young kids (4-8)  
-✅ Kids motivated by collecting/characters  
-✅ Non-money-focused rewards  
+✅ Very young kids (4-8) 
+✅ Kids motivated by collecting/characters 
+✅ Non-money-focused rewards 
 
 #### Limitations
-⚠️ Very young focus  
-⚠️ Basic features  
-⚠️ Limited development  
+⚠️ Very young focus 
+⚠️ Basic features 
+⚠️ Limited development 
 
 ---
 
@@ -341,14 +341,14 @@ Greenlight is primarily a **kids' debit card and banking app** with chore featur
 - Financial literacy built in
 
 #### Best For
-✅ Families prioritizing financial education  
-✅ Wanting real debit card for kids  
-✅ Teaching actual banking  
+✅ Families prioritizing financial education 
+✅ Wanting real debit card for kids 
+✅ Teaching actual banking 
 
 #### Limitations
-⚠️ Primarily a banking app (chores secondary)  
-⚠️ Monthly subscription required  
-⚠️ Overkill if you just want chore chart  
+⚠️ Primarily a banking app (chores secondary) 
+⚠️ Monthly subscription required 
+⚠️ Overkill if you just want chore chart 
 
 ---
 
@@ -371,27 +371,27 @@ Greenlight is primarily a **kids' debit card and banking app** with chore featur
 
 ### Choose Gamified Chore App (OurHome, S'moresUp) If:
 
-✅ Kids need external motivation to do chores  
-✅ You want chores connected to allowance with built-in tracking  
-✅ Multiple kids competing for points motivates them  
-✅ Younger kids respond to game-like elements  
-✅ You're okay managing a separate chore system  
+✅ Kids need external motivation to do chores 
+✅ You want chores connected to allowance with built-in tracking 
+✅ Multiple kids competing for points motivates them 
+✅ Younger kids respond to game-like elements 
+✅ You're okay managing a separate chore system 
 
 ### Choose Integrated Family App (Honeydew) If:
 
-✅ You want ONE app for family organization (including chores)  
-✅ Kids are old enough to participate in real organization  
-✅ You prefer voice commands over app navigation  
-✅ Chores should feel like family contribution, not just earning points  
-✅ You're already managing calendar, lists, tasks digitally  
-✅ Teaching long-term organizational skills matters  
+✅ You want ONE app for family organization (including chores) 
+✅ Kids are old enough to participate in real organization 
+✅ You prefer voice commands over app navigation 
+✅ Chores should feel like family contribution, not just earning points 
+✅ You're already managing calendar, lists, tasks digitally 
+✅ Teaching long-term organizational skills matters 
 
 ### Choose Banking App (Greenlight) If:
 
-✅ Financial education is primary goal  
-✅ Kids are ready for real debit card  
-✅ Allowance and money management is focus  
-✅ Chore feature is bonus, not main need  
+✅ Financial education is primary goal 
+✅ Kids are ready for real debit card 
+✅ Allowance and money management is focus 
+✅ Chore feature is bonus, not main need 
 
 ---
 
@@ -519,43 +519,43 @@ A: Start with Honeydew's integrated approach—it's a family calendar that happe
 ## TikTok Script Ideas (6 videos)
 
 1. **"Chore apps kids actually use"** (60 sec)
-   - Show OurHome gamification
-   - Show Honeydew integration
-   - Different approaches for different kids
-   - "Match app to your kid"
+ - Show OurHome gamification
+ - Show Honeydew integration
+ - Different approaches for different kids
+ - "Match app to your kid"
 
 2. **"AI assigned my kids' chores"** (30 sec)
-   - "Create chore list for ages 8 and 11"
-   - AI generates age-appropriate tasks
-   - "5 seconds vs 20 minutes of thinking"
+ - "Create chore list for ages 8 and 11"
+ - AI generates age-appropriate tasks
+ - "5 seconds vs 20 minutes of thinking"
 
 3. **"Voice assigning chores while cooking"** (30 sec)
-   - Hands covered in food
-   - "Remind Jake to take out trash at 5pm"
-   - Done without stopping
-   - "Chore nagging without nagging"
+ - Hands covered in food
+ - "Remind Jake to take out trash at 5pm"
+ - Done without stopping
+ - "Chore nagging without nagging"
 
 4. **"Why I chose integrated over gamified"** (60 sec)
-   - Used OurHome for 2 years
-   - Kids outgrew the game
-   - Switched to Honeydew
-   - "Same tools adults use"
-   - "Real organization skills"
+ - Used OurHome for 2 years
+ - Kids outgrew the game
+ - Switched to Honeydew
+ - "Same tools adults use"
+ - "Real organization skills"
 
 5. **"Gamified chores for young kids"** (45 sec)
-   - S'moresUp or OurHome
-   - Points, badges, rewards
-   - Works great ages 4-10
-   - "Sometimes fun is necessary"
+ - S'moresUp or OurHome
+ - Points, badges, rewards
+ - Works great ages 4-10
+ - "Sometimes fun is necessary"
 
 6. **"The chore chart that finally worked"** (45 sec)
-   - Paper failed
-   - App #1 failed
-   - What worked:
-   - Integrated with family calendar
-   - Voice reminders
-   - Consistent follow-through
-   - "System matters less than consistency"
+ - Paper failed
+ - App #1 failed
+ - What worked:
+ - Integrated with family calendar
+ - Voice reminders
+ - Consistent follow-through
+ - "System matters less than consistency"
 
 ---
 

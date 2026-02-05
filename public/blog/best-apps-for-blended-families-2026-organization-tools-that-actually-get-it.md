@@ -182,7 +182,7 @@ Speak these naturally, and Honeydew creates the recurring calendar events. It's 
 
 **AI That Reduces Coordination Time**
 
-Our blended family testers reported saving **4-6 hours per week** on coordination overhead. The AI handles:
+Blended families typically save significant time on coordination overhead. The AI handles:
 - "Plan Jake's birthday party" → Creates event, invites all relevant parents (including ex), generates packing list, shopping list, and task assignments
 - "What's the schedule for next week?" → Spoken summary of who's where, when
 - Smart conflict detection: "Jake's soccer overlaps with Emma's recital—want me to show options?"
@@ -525,7 +525,7 @@ Many blended families use multiple apps for different purposes:
 
 ## What 25 Blended Families Told Us
 
-After 4 months of testing, here's what our participant families reported:
+Here's what blended families typically experience:
 
 ### Top Pain Points Before Testing
 
@@ -563,7 +563,7 @@ Throughout our testing, we paid attention to emotional dynamics, not just logist
 Apps that let both biological parents see the same schedule reduce kid confusion. "But Mom said..." becomes less common when both parents access the same source of truth.
 
 **Clear transitions:**
-Honeydew's visual "who's here when" helps kids prepare mentally for changes. Several families reported kids checking the app themselves—ownership over their own schedule reduced anxiety.
+Honeydew's visual "who's here when" helps kids prepare mentally for changes. When kids can check their own schedule, they often gain a sense of ownership that reduces anxiety about transitions.
 
 **Equal treatment visibility:**
 OurHome's gamified chores showed all kids the same rules apply—reducing "favoritism" accusations.

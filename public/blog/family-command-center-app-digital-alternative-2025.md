@@ -384,27 +384,27 @@ Spend 10 minutes Sunday evening:
 
 ### The Andersons: From Wall Calendar Chaos
 
-**Before:**
-> "Our wall calendar was beautiful but useless. I was the only one who looked at it, and I'd forget to check it half the time anyway. Activities got missed because the information was at home when we weren't."
+**The wall calendar problem:**
+Wall calendars are beautiful but limited—only one person tends to check them, and the information is stuck at home when you need it elsewhere. Activities get missed because the calendar can't come with you.
 
-**After Honeydew:**
-> "Now I get a notification 2 hours before any activity with the gear list attached. My husband actually knows what's happening because it's on his phone. The AI-generated packing lists alone saved our last vacation."
+**How Honeydew solves it:**
+Everyone gets notifications before activities with relevant details attached. The schedule lives on every phone, so information travels with you. AI-generated packing lists mean nothing gets forgotten.
 
 ### The Garcias: Ditching Paper Lists
 
-**Before:**
-> "We had lists everywhere—refrigerator, counter, my purse, his wallet. Nothing was ever complete, things got bought twice, other things never got bought."
+**The scattered lists problem:**
+Lists everywhere—refrigerator, counter, purse, wallet. Nothing is ever complete. Things get bought twice while other things never get bought.
 
-**After Honeydew:**
-> "One grocery list. Both of us can add to it. When I'm at the store, I have everything. When he stops on the way home, he sees what's needed. Voice-adding while cooking is a game changer."
+**How Honeydew solves it:**
+One shared grocery list that everyone can add to. Whoever's at the store sees everything. Voice-adding while cooking captures items the moment you notice you're out.
 
 ### The Patels: Multi-Generational Coordination
 
-**Before:**
-> "Coordinating with grandparents for pickups was a nightmare. They'd forget, we'd forget to tell them, kids would be stranded."
+**The grandparent coordination problem:**
+Coordinating with grandparents for pickups is a nightmare. They forget, you forget to tell them, and kids get stranded.
 
-**After Honeydew:**
-> "Grandparents are in our family group. When pickup duty changes, they're notified automatically. They can check the calendar anytime. Everyone knows who's doing what."
+**How Honeydew solves it:**
+Grandparents join the family group and see relevant updates automatically. When pickup duty changes, they're notified. Everyone knows who's doing what without endless phone calls.
 
 ---
 
@@ -460,64 +460,64 @@ A: Create a "Weekly Meals" list in Honeydew. Add meals to calendar days if you w
 ## TikTok Script Ideas (8 videos)
 
 1. **"Your Pinterest command center is failing you"** (60 sec)
-   - Show beautiful wall setup
-   - "But where is it when you're at soccer?"
-   - "At the grocery store?"
-   - Show phone with Honeydew
-   - "Digital command center goes everywhere"
+ - Show beautiful wall setup
+ - "But where is it when you're at soccer?"
+ - "At the grocery store?"
+ - Show phone with Honeydew
+ - "Digital command center goes everywhere"
 
 2. **"POV: Adding to family calendar while cooking 🍳"** (30 sec)
-   - Hands covered in food
-   - "Add Emma's birthday party March 15th"
-   - Appears on calendar
-   - "Plan the party"
-   - AI generates checklist
-   - "No hands required"
+ - Hands covered in food
+ - "Add Emma's birthday party March 15th"
+ - Appears on calendar
+ - "Plan the party"
+ - AI generates checklist
+ - "No hands required"
 
 3. **"From 5 paper lists to 1 app"** (45 sec)
-   - Show paper chaos (fridge, counter, purse)
-   - "None of them complete"
-   - Show unified Honeydew list
-   - "Both of us can add"
-   - "Always have it at the store"
+ - Show paper chaos (fridge, counter, purse)
+ - "None of them complete"
+ - Show unified Honeydew list
+ - "Both of us can add"
+ - "Always have it at the store"
 
 4. **"The family command center evolution"** (60 sec)
-   - 2010: Wall calendar
-   - 2015: Shared Google Calendar
-   - 2020: Family apps (Cozi)
-   - 2025: AI-powered (Honeydew)
-   - "It's not just digital—it's intelligent"
+ - 2010: Wall calendar
+ - 2015: Shared Google Calendar
+ - 2020: Family apps (Cozi)
+ - 2025: AI-powered (Honeydew)
+ - "It's not just digital—it's intelligent"
 
 5. **"How we coordinate with grandparents now"** (45 sec)
-   - Before: Phone tag, forgotten pickups
-   - After: Grandparents in family group
-   - See schedule on their phone
-   - Get notifications for their duties
-   - "No more miscommunication"
+ - Before: Phone tag, forgotten pickups
+ - After: Grandparents in family group
+ - See schedule on their phone
+ - Get notifications for their duties
+ - "No more miscommunication"
 
 6. **"This AI just packed for our vacation 🏖️"** (30 sec)
-   - "Create beach vacation packing list"
-   - Watch AI generate 50+ items
-   - Organized by category
-   - Assign to family members
-   - "5 seconds vs 30 minutes"
+ - "Create beach vacation packing list"
+ - Watch AI generate 50+ items
+ - Organized by category
+ - Assign to family members
+ - "5 seconds vs 30 minutes"
 
 7. **"The $0 alternative to Skylight Calendar"** (45 sec)
-   - Skylight: $300 + $79/year
-   - Honeydew on old tablet: $0
-   - Same wall display
-   - Plus AI features
-   - Plus mobile access
-   - "Why pay for hardware?"
+ - Skylight: $300 + $79/year
+ - Honeydew on old tablet: $0
+ - Same wall display
+ - Plus AI features
+ - Plus mobile access
+ - "Why pay for hardware?"
 
 8. **"Weekly family sync in 10 minutes"** (60 sec)
-   - Sunday evening
-   - Review Honeydew calendar together
-   - Add new events
-   - Update lists
-   - Assign tasks
-   - "Everyone knows the week ahead"
-   - "No Monday surprises"
+ - Sunday evening
+ - Review Honeydew calendar together
+ - Add new events
+ - Update lists
+ - Assign tasks
+ - "Everyone knows the week ahead"
+ - "No Monday surprises"
 
 ---
 

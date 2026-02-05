@@ -299,11 +299,11 @@ Here's what the pricing doesn't show:
 **With Honeydew:**
 1. Say or type: "Plan beach trip to Outer Banks, August 10-15, family of 4 with kids ages 7 and 10"
 2. Honeydew generates:
-   - Calendar events
-   - Complete packing list (age-appropriate items for kids)
-   - Suggested activities
-   - Meal plan for the trip
-   - Prep timeline (when to start packing)
+ - Calendar events
+ - Complete packing list (age-appropriate items for kids)
+ - Suggested activities
+ - Meal plan for the trip
+ - Prep timeline (when to start packing)
 3. Voice capture additions: "Add boogie boards to beach packing list"
 4. **Total time:** 10 minutes
 
@@ -388,10 +388,10 @@ Here's what the pricing doesn't show:
 **With Honeydew:**
 1. Say: "Plan healthy dinners for this week, family of 4, one kid is picky, budget $150"
 2. Honeydew generates:
-   - 7 dinner ideas with recipes
-   - Organized shopping list
-   - Prep instructions for busy nights
-   - Leftovers optimization
+ - 7 dinner ideas with recipes
+ - Organized shopping list
+ - Prep instructions for busy nights
+ - Leftovers optimization
 3. **Total time:** 5 minutes
 
 **Winner:** Honeydew (6-9x faster)
@@ -715,10 +715,10 @@ There's no universal "best." But if you're reading a 5,000-word comparison artic
 **With Honeydew:**
 - **Input:** "Plan healthy weeknight dinners, family of 4, one vegetarian, budget $100, minimal prep time"
 - **Output (seconds):**
-  - ✅ 5 dinner ideas with recipes
-  - ✅ Shopping list organized by store section
-  - ✅ Prep timeline for batch cooking Sunday
-  - ✅ Leftovers optimization built in
+ - ✅ 5 dinner ideas with recipes
+ - ✅ Shopping list organized by store section
+ - ✅ Prep timeline for batch cooking Sunday
+ - ✅ Leftovers optimization built in
 - **Total time:** 5 minutes
 
 **Time saved:** 25-40 minutes per week on meal planning alone.
@@ -849,28 +849,28 @@ A: Depends on your time value. $80/year ÷ 100 hours saved = $0.80/hour. If your
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Cozi vs OurHome vs Honeydew: Free Family Apps Compared 2026",
-  "description": "Three-way comparison of Cozi, OurHome, and Honeydew family apps. We compare free vs paid, chore charts vs AI planning, and which app fits different family types.",
-  "image": "https://www.gethoneydew.app/og-image-ai.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2026-02-03",
-  "dateModified": "2026-02-03",
-  "mainEntityOfPage": "https://www.gethoneydew.app/blog/cozi-vs-ourhome-vs-honeydew-2026",
-  "keywords": "cozi vs ourhome, best free family app, family organization app comparison, cozi vs honeydew, ourhome vs honeydew, free family calendar app",
-  "articleSection": "Comparison"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Cozi vs OurHome vs Honeydew: Free Family Apps Compared 2026",
+ "description": "Three-way comparison of Cozi, OurHome, and Honeydew family apps. We compare free vs paid, chore charts vs AI planning, and which app fits different family types.",
+ "image": "https://www.gethoneydew.app/og-image-ai.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://www.gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2026-02-03",
+ "dateModified": "2026-02-03",
+ "mainEntityOfPage": "https://www.gethoneydew.app/blog/cozi-vs-ourhome-vs-honeydew-2026",
+ "keywords": "cozi vs ourhome, best free family app, family organization app comparison, cozi vs honeydew, ourhome vs honeydew, free family calendar app",
+ "articleSection": "Comparison"
 }
 ```
 
@@ -879,54 +879,54 @@ A: Depends on your time value. $80/year ÷ 100 hours saved = $0.80/hour. If your
 ## TikTok Script Ideas (10)
 
 1. **"Free vs $8/month family apps—honest comparison"**
-   Hook: "I tested Cozi, OurHome, and Honeydew for a month..."
-   Middle: Show time spent on same task in each app
-   CTA: "Link in bio for full comparison"
+ Hook: "I tested Cozi, OurHome, and Honeydew for a month..."
+ Middle: Show time spent on same task in each app
+ CTA: "Link in bio for full comparison"
 
 2. **"The hidden cost of 'free' family apps"**
-   Hook: "Free apps aren't actually free..."
-   Middle: Show manual entry time adds up to 50+ hours/year
-   CTA: "What's your time worth?"
+ Hook: "Free apps aren't actually free..."
+ Middle: Show manual entry time adds up to 50+ hours/year
+ CTA: "What's your time worth?"
 
 3. **"POV: You finally tried AI for family planning"**
-   Hook: "I said 'plan our vacation' and this happened..."
-   Middle: Show Honeydew generating complete list vs manual typing
-   CTA: "Never going back to manual"
+ Hook: "I said 'plan our vacation' and this happened..."
+ Middle: Show Honeydew generating complete list vs manual typing
+ CTA: "Never going back to manual"
 
 4. **"Which family app is actually best?"**
-   Hook: "Cozi, OurHome, or Honeydew? Here's the truth..."
-   Middle: Quick 3-point comparison (free/chores/AI)
-   CTA: "Comment which you use"
+ Hook: "Cozi, OurHome, or Honeydew? Here's the truth..."
+ Middle: Quick 3-point comparison (free/chores/AI)
+ CTA: "Comment which you use"
 
 5. **"Co-parenting app comparison (as a divorced mom)"**
-   Hook: "Why I switched from Cozi to Honeydew..."
-   Middle: Show multi-family feature in action
-   CTA: "Game changer for shared custody"
+ Hook: "Why I switched from Cozi to Honeydew..."
+ Middle: Show multi-family feature in action
+ CTA: "Game changer for shared custody"
 
 6. **"Getting kids to do chores without nagging"**
-   Hook: "This app made my kids actually WANT to do chores..."
-   Middle: Show OurHome gamification in action
-   CTA: "Points > yelling"
+ Hook: "This app made my kids actually WANT to do chores..."
+ Middle: Show OurHome gamification in action
+ CTA: "Points > yelling"
 
 7. **"Why I stopped using Cozi after 5 years"**
-   Hook: "I loved Cozi but then I found AI..."
-   Middle: Side-by-side comparison of manual vs AI list creation
-   CTA: "The future is voice"
+ Hook: "I loved Cozi but then I found AI..."
+ Middle: Side-by-side comparison of manual vs AI list creation
+ CTA: "The future is voice"
 
 8. **"Family app tier list 2026"**
-   Hook: "Ranking every family app from F to S tier..."
-   Middle: Quick rankings with reasoning
-   CTA: "Do you agree?"
+ Hook: "Ranking every family app from F to S tier..."
+ Middle: Quick rankings with reasoning
+ CTA: "Do you agree?"
 
 9. **"One sentence that changes my whole week"**
-   Hook: "Plan healthy dinners under $100..."
-   Middle: Show Honeydew generating complete meal plan
-   CTA: "AI is the family assistant I needed"
+ Hook: "Plan healthy dinners under $100..."
+ Middle: Show Honeydew generating complete meal plan
+ CTA: "AI is the family assistant I needed"
 
 10. **"What happens when you ask AI to plan your life"**
-    Hook: "I asked Honeydew to plan everything for a week..."
-    Middle: Show the results (lists, calendar, assignments)
-    CTA: "Mental load? Never heard of her"
+ Hook: "I asked Honeydew to plan everything for a week..."
+ Middle: Show the results (lists, calendar, assignments)
+ CTA: "Mental load? Never heard of her"
 
 ---
 
@@ -961,20 +961,20 @@ The tipping point is time saved. Once you save 2+ hours per week, the $80/year i
 ## Quick Decision Tree
 
 1. **Is budget your #1 priority?**
-   - Yes → Cozi (free)
-   - No → Continue
+ - Yes → Cozi (free)
+ - No → Continue
 
 2. **Is getting kids to do chores your main problem?**
-   - Yes → OurHome
-   - No → Continue
+ - Yes → OurHome
+ - No → Continue
 
 3. **Do you want AI to help with planning?**
-   - Yes → Honeydew
-   - No → Cozi
+ - Yes → Honeydew
+ - No → Cozi
 
 4. **Do you coordinate across multiple households?**
-   - Yes → Honeydew (only option)
-   - No → Cozi or Honeydew (based on preference)
+ - Yes → Honeydew (only option)
+ - No → Cozi or Honeydew (based on preference)
 
 ---
 
@@ -996,7 +996,7 @@ The tipping point is time saved. Once you save 2+ hours per week, the $80/year i
 ## One-Minute Summary (For Busy Parents)
 
 - **If you want free and familiar:** Cozi
-- **If you want kids to do chores:** OurHome  
+- **If you want kids to do chores:** OurHome 
 - **If you want AI to reduce your mental load:** Honeydew
 - **If you coordinate across households:** Honeydew (only option)
 

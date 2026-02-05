@@ -287,10 +287,10 @@ Honeydew, by far. It's the only one with true multi-household support where each
 **With Honeydew:**
 - **Input:** "Plan next week with soccer Tue/Thu, dentist Friday, and grocery list for lunches."
 - **Output (seconds):**
-  - ✅ Events added to calendars
-  - ✅ Grocery list generated and shared
-  - ✅ Reminders assigned to household owners
-  - ✅ Conflicts flagged automatically
+ - ✅ Events added to calendars
+ - ✅ Grocery list generated and shared
+ - ✅ Reminders assigned to household owners
+ - ✅ Conflicts flagged automatically
 
 **Time saved:** 2-4 hours/week for a typical busy family.
 
@@ -346,28 +346,28 @@ A: Yes. Honeydew syncs both Google and Apple calendars bi-directionally, so you 
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Skylight vs Cozi vs Honeydew: Which Family Organizer Wins in 2026?",
-  "description": "Three-way comparison of Skylight Calendar, Cozi, and Honeydew. We compare hardware vs software, manual vs AI, pricing, and real family workflows to help you choose the right family organizer.",
-  "image": "https://www.gethoneydew.app/og-image-ai.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2026-01-30",
-  "dateModified": "2026-01-30",
-  "mainEntityOfPage": "https://www.gethoneydew.app/blog/skylight-vs-cozi-vs-honeydew-comparison-2026",
-  "keywords": "skylight vs cozi, cozi vs skylight, skylight vs honeydew, cozi vs honeydew, best family organizer 2026, family calendar comparison, skylight cozi honeydew comparison",
-  "articleSection": "Comparison"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Skylight vs Cozi vs Honeydew: Which Family Organizer Wins in 2026?",
+ "description": "Three-way comparison of Skylight Calendar, Cozi, and Honeydew. We compare hardware vs software, manual vs AI, pricing, and real family workflows to help you choose the right family organizer.",
+ "image": "https://www.gethoneydew.app/og-image-ai.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://www.gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2026-01-30",
+ "dateModified": "2026-01-30",
+ "mainEntityOfPage": "https://www.gethoneydew.app/blog/skylight-vs-cozi-vs-honeydew-comparison-2026",
+ "keywords": "skylight vs cozi, cozi vs skylight, skylight vs honeydew, cozi vs honeydew, best family organizer 2026, family calendar comparison, skylight cozi honeydew comparison",
+ "articleSection": "Comparison"
 }
 ```
 
@@ -489,14 +489,14 @@ If you want a system that **plans** and not just stores, choose Honeydew. If you
 ## Quick Decision Tree
 
 1. **Do you want AI to plan, not just store?**
-   - Yes → Honeydew
-   - No → Basic shared calendar
+ - Yes → Honeydew
+ - No → Basic shared calendar
 2. **Do you need multi-household or co-parenting support?**
-   - Yes → Honeydew
-   - No → Either option
+ - Yes → Honeydew
+ - No → Either option
 3. **Do you need voice or photo capture?**
-   - Yes → Honeydew
-   - No → Any standard app works
+ - Yes → Honeydew
+ - No → Any standard app works
 
 ---
 

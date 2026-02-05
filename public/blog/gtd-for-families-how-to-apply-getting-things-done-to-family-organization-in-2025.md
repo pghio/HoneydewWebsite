@@ -200,32 +200,32 @@ For those new to GTD, here's the 60-second version:
 **Family Weekly Review Agenda (30-45 min):**
 
 1. **Clear the inboxes** (5 min)
-   - Process physical inbox
-   - Process digital captures
-   - Process email/texts with family items
+ - Process physical inbox
+ - Process digital captures
+ - Process email/texts with family items
 
 2. **Review calendar** (5 min)
-   - What's happening this week?
-   - What's happening next week?
-   - Any conflicts or prep needed?
+ - What's happening this week?
+ - What's happening next week?
+ - Any conflicts or prep needed?
 
 3. **Review projects** (10 min)
-   - Are active projects moving?
-   - Next actions identified for each?
-   - Any stuck projects?
+ - Are active projects moving?
+ - Next actions identified for each?
+ - Any stuck projects?
 
 4. **Review next actions** (10 min)
-   - Anything to add?
-   - Anything to delegate?
-   - Anything done that wasn't marked?
+ - Anything to add?
+ - Anything to delegate?
+ - Anything done that wasn't marked?
 
 5. **Review waiting for** (5 min)
-   - Follow up on outstanding items?
-   - Anyone we need to nudge?
+ - Follow up on outstanding items?
+ - Anyone we need to nudge?
 
 6. **Review someday/maybe** (5 min)
-   - Anything to activate?
-   - Any new ideas to add?
+ - Anything to activate?
+ - Any new ideas to add?
 
 **Timing:** Sunday evening or Monday morning works for most families.
 
@@ -338,15 +338,15 @@ Traditional GTD requires significant **manual processing**—reading each item, 
 Project created: Beach Vacation 2025
 - Calendar: Aug 15-22 with packing list attached
 - Tasks:
-  - Book hotel (assigned: Dad, due: July 1)
-  - Request time off work (Mom + Dad, due: June 15)
-  - Cancel mail (assigned: Mom, due: Aug 13)
-  - Pack car (assigned: Dad, due: Aug 14)
-  - Pack kids' clothes (assigned: Mom, due: Aug 14)
+ - Book hotel (assigned: Dad, due: July 1)
+ - Request time off work (Mom + Dad, due: June 15)
+ - Cancel mail (assigned: Mom, due: Aug 13)
+ - Pack car (assigned: Dad, due: Aug 14)
+ - Pack kids' clothes (assigned: Mom, due: Aug 14)
 - Packing list: AI-generated based on past trips
-  - Beach gear
-  - Kids' stuff (Emma's floaties, Jake's sand toys)
-  - Don't forget: Phone charger (flagged as "you forgot this last time")
+ - Beach gear
+ - Kids' stuff (Emma's floaties, Jake's sand toys)
+ - Don't forget: Phone charger (flagged as "you forgot this last time")
 
 **Review:** Weekly reviews track progress, catch any slipping items
 
@@ -596,11 +596,11 @@ When you're not holding 100 things in your head, you can:
 
 ## Frequently Asked Questions
 
-**Q: What makes Honeydew different from hardware calendars?**  
+**Q: What makes Honeydew different from hardware calendars?** 
 A: Honeydew uses AI planning, voice, and photo input—no $300 hardware required.
 
-**Q: Do I need a credit card to try Honeydew?**  
+**Q: Do I need a credit card to try Honeydew?** 
 A: No. The free tier works on iOS, Android, and Web with no card required.
 
-**Q: How fast is the AI?**  
+**Q: How fast is the AI?** 
 A: Cached responses return in under 500ms, with >95% voice transcription accuracy.

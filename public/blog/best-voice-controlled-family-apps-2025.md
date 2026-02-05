@@ -127,7 +127,7 @@ This is where Honeydew separates from basic voice assistants:
 
 **Scenario 1: Morning Rush**
 
-> **You say (while packing lunches):**  
+> **You say (while packing lunches):** 
 > "We need to plan Jake's soccer carpool for this week. Add practice Wednesday and Saturday at 4pm, coordinate with the Smith family, and create a snack rotation list."
 
 > **Honeydew AI responds (5 seconds):**
@@ -141,7 +141,7 @@ This is where Honeydew separates from basic voice assistants:
 
 **Scenario 2: Cooking Dinner**
 
-> **You say (stirring pasta):**  
+> **You say (stirring pasta):** 
 > "Add eggs, milk, and bread to the grocery list. Oh, and we're running low on dog food too."
 
 > **Honeydew responds (2 seconds):**
@@ -151,7 +151,7 @@ This is where Honeydew separates from basic voice assistants:
 
 **Scenario 3: Driving Home**
 
-> **You say (hands-free):**  
+> **You say (hands-free):** 
 > "Create a birthday party checklist for Emma's 8th birthday next month. Make it comprehensive."
 
 > **Honeydew responds (4 seconds):**
@@ -165,13 +165,13 @@ This is where Honeydew separates from basic voice assistants:
 
 Honeydew understands **conversational context**:
 
-> "Add milk to the list"  
+> "Add milk to the list" 
 > **Honeydew knows:** Which list? (grocery list, based on context)
 > 
-> "Also eggs"  
+> "Also eggs" 
 > **Honeydew knows:** Also means add to same list
 > 
-> "Actually make that a dozen eggs"  
+> "Actually make that a dozen eggs" 
 > **Honeydew knows:** Edit previous item
 
 **No other family app has this level of contextual understanding.**
@@ -269,17 +269,17 @@ Unlike apps requiring screen interaction:
 - Multi-user voice profiles
 
 ### Best For
-✅ Busy parents who multitask constantly  
-✅ Families with young children (hands often full)  
-✅ Anyone with accessibility needs  
-✅ Families who want true hands-free coordination  
-✅ Non-technical family members (speaking is easier than typing)  
-✅ Bilingual families  
-✅ Grandparents coordinating with family  
+✅ Busy parents who multitask constantly 
+✅ Families with young children (hands often full) 
+✅ Anyone with accessibility needs 
+✅ Families who want true hands-free coordination 
+✅ Non-technical family members (speaking is easier than typing) 
+✅ Bilingual families 
+✅ Grandparents coordinating with family 
 
 ### Limitations
-⚠️ Requires internet connection (for now—offline mode coming)  
-⚠️ Premium required for unlimited voice (free tier limited to 25/month)  
+⚠️ Requires internet connection (for now—offline mode coming) 
+⚠️ Premium required for unlimited voice (free tier limited to 25/month) 
 
 **[Try Honeydew Voice Free →](https://app.gethoneydew.app/)**
 
@@ -351,15 +351,15 @@ Alexa offers family organization through Echo smart speakers and displays, with 
 
 ### Pricing
 
-**Echo Devices:** $24.99 - $299.99  
-**Alexa Service:** Free  
+**Echo Devices:** $24.99 - $299.99 
+**Alexa Service:** Free 
 **Amazon Kids+:** $4.99/month (optional)
 
 ### Best For
-✅ Families already with Echo devices  
-✅ Heavy Amazon shoppers  
-✅ Smart home enthusiasts  
-✅ Single-household families  
+✅ Families already with Echo devices 
+✅ Heavy Amazon shoppers 
+✅ Smart home enthusiasts 
+✅ Single-household families 
 
 ### Why You Might Choose Honeydew Instead
 If you want mobile-first voice control, complex family coordination, multi-family architecture, or don't want to buy hardware, Honeydew's app-based approach with superior AI is the better choice.
@@ -429,10 +429,10 @@ Google Assistant offers voice control across Android devices and Google Home spe
 **Free** (requires Google account)
 
 ### Best For
-✅ Android-heavy families  
-✅ Families using Google services extensively  
-✅ Basic voice reminder needs  
-✅ Budget-conscious (free)  
+✅ Android-heavy families 
+✅ Families using Google services extensively 
+✅ Basic voice reminder needs 
+✅ Budget-conscious (free) 
 
 ### Why You Might Choose Honeydew Instead
 Google Assistant is great for general queries but lacks family-specific intelligence. If you need dedicated family coordination, natural language planning, or multi-family architecture, Honeydew's purpose-built approach delivers vastly better results.
@@ -501,10 +501,10 @@ Siri offers voice control on all Apple devices with shared Reminders and Calenda
 **Free** (requires Apple device: $429+ for iPhone SE)
 
 ### Best For
-✅ All-Apple families  
-✅ Privacy-conscious users  
-✅ Basic reminder sharing needs  
-✅ Users preferring Apple ecosystem  
+✅ All-Apple families 
+✅ Privacy-conscious users 
+✅ Basic reminder sharing needs 
+✅ Users preferring Apple ecosystem 
 
 ### Why You Might Choose Honeydew Instead
 Siri is convenient for quick reminders but isn't designed for family coordination. Honeydew works on iOS *and* Android, offers vastly superior AI, and provides dedicated family organization features Siri doesn't have.
@@ -562,13 +562,13 @@ Any.do offers voice task entry with natural language date parsing, but it's desi
 - Voice limited to 2 reminders per task
 
 ### Pricing
-**Free:** Basic features  
+**Free:** Basic features 
 **Premium:** $5.99/month or $59.99/year
 
 ### Best For
-✅ Individuals or couples  
-✅ Personal task management over family coordination  
-✅ Quick voice task capture  
+✅ Individuals or couples 
+✅ Personal task management over family coordination 
+✅ Quick voice task capture 
 
 ### Why You Might Choose Honeydew Instead
 Any.do is built for "me," not "us." If you have a family of 3+ people who need coordinated organization, Honeydew's family-first architecture with superior voice AI is night and day better.
@@ -622,14 +622,14 @@ Todoist offers voice task entry via mobile apps, but like Any.do, it's designed 
 - Family features need Business plan (expensive)
 
 ### Pricing
-**Free:** Limited features  
-**Pro:** $4/month  
+**Free:** Limited features 
+**Pro:** $4/month 
 **Business:** $6/member/month (required for teams)
 
 ### Best For
-✅ Power users who live in task managers  
-✅ Individuals needing project management  
-✅ Integration enthusiasts  
+✅ Power users who live in task managers 
+✅ Individuals needing project management 
+✅ Integration enthusiasts 
 
 ### Why You Might Choose Honeydew Instead
 Todoist is excellent for personal productivity, but Honeydew is purpose-built for family coordination with vastly superior voice AI and family-specific features.
@@ -733,7 +733,7 @@ Todoist is excellent for personal productivity, but Honeydew is purpose-built fo
 > **Total time: 10 seconds, 1 voice command**
 
 ### Using Alexa (Voice):
-> **You:** "Alexa, add camping trip to my calendar for next Saturday"  
+> **You:** "Alexa, add camping trip to my calendar for next Saturday" 
 > **Alexa:** "I've added camping trip to your calendar for Saturday."
 > 
 > Then manually:
@@ -747,7 +747,7 @@ Todoist is excellent for personal productivity, but Honeydew is purpose-built fo
 > **Total time: 45+ minutes, 20+ steps**
 
 ### Using Siri (Voice):
-> **You:** "Hey Siri, add camping trip next Saturday"  
+> **You:** "Hey Siri, add camping trip next Saturday" 
 > **Siri:** "I've added camping trip next Saturday to your calendar."
 > 
 > Then manually:
@@ -762,38 +762,38 @@ Todoist is excellent for personal productivity, but Honeydew is purpose-built fo
 ## How to Choose the Right Voice-Controlled Family App
 
 ### Choose Honeydew if:
-✅ You want professional-grade voice recognition (Whisper AI)  
-✅ You need hands-free family coordination (not just reminders)  
-✅ You want natural language understanding (no command memorization)  
-✅ You need to handle complex requests ("plan trip with lists and calendar")  
-✅ You want mobile-first (works anywhere, not tied to home)  
-✅ You manage multiple family groups (extended family, divorced parents)  
-✅ You're willing to invest $7.99/month for serious time savings  
-✅ You want family-specific AI (not general-purpose assistant)  
+✅ You want professional-grade voice recognition (Whisper AI) 
+✅ You need hands-free family coordination (not just reminders) 
+✅ You want natural language understanding (no command memorization) 
+✅ You need to handle complex requests ("plan trip with lists and calendar") 
+✅ You want mobile-first (works anywhere, not tied to home) 
+✅ You manage multiple family groups (extended family, divorced parents) 
+✅ You're willing to invest $7.99/month for serious time savings 
+✅ You want family-specific AI (not general-purpose assistant) 
 
 ### Choose Alexa if:
-✅ You already own Echo devices  
-✅ Smart home control is equally important  
-✅ You primarily need voice at home (not mobile)  
-✅ Basic shopping lists and reminders suffice  
-✅ You're comfortable with hardware dependency  
+✅ You already own Echo devices 
+✅ Smart home control is equally important 
+✅ You primarily need voice at home (not mobile) 
+✅ Basic shopping lists and reminders suffice 
+✅ You're comfortable with hardware dependency 
 
 ### Choose Google Assistant if:
-✅ You're Android-heavy household  
-✅ You use Google services extensively  
-✅ Basic voice reminders meet your needs  
-✅ Free is priority (no subscription budget)  
+✅ You're Android-heavy household 
+✅ You use Google services extensively 
+✅ Basic voice reminders meet your needs 
+✅ Free is priority (no subscription budget) 
 
 ### Choose Siri if:
-✅ You're all-Apple family  
-✅ Privacy is paramount concern  
-✅ Basic reminders are enough  
-✅ You prioritize Apple ecosystem integration  
+✅ You're all-Apple family 
+✅ Privacy is paramount concern 
+✅ Basic reminders are enough 
+✅ You prioritize Apple ecosystem integration 
 
 ### Choose Any.do or Todoist if:
-✅ You're an individual or couple (not full family)  
-✅ Personal task management > family coordination  
-✅ You prefer traditional task apps with voice addition  
+✅ You're an individual or couple (not full family) 
+✅ Personal task management > family coordination 
+✅ You prefer traditional task apps with voice addition 
 
 ---
 
@@ -820,31 +820,31 @@ For busy parents who spend hours per week coordinating family logistics, Honeyde
 
 ## Frequently Asked Questions
 
-**Q: Is voice recognition really accurate enough?**  
+**Q: Is voice recognition really accurate enough?** 
 A: Honeydew's Whisper AI achieves >>95% accuracy even with background noise—comparable to professional transcription services. It works reliably in kitchens, cars, and with kids playing nearby.
 
-**Q: Do I need to memorize specific commands?**  
+**Q: Do I need to memorize specific commands?** 
 A: No! Unlike Alexa or Siri, Honeydew understands natural language. You can phrase requests however you naturally speak. Say "we need milk" or "add milk to list" or "put milk on shopping list"—all work.
 
-**Q: Can it understand my accent?**  
+**Q: Can it understand my accent?** 
 A: Whisper AI is trained on 50+ languages and diverse accents. It handles non-native English speakers, regional dialects, and bilingual families better than any consumer voice assistant.
 
-**Q: What if I'm in a loud environment?**  
+**Q: What if I'm in a loud environment?** 
 A: Honeydew's noise cancellation works in kitchens with running water, cars with road noise, and outdoors with wind. While quieter is always better, it's remarkably robust to real-world family noise.
 
-**Q: Does it work offline?**  
+**Q: Does it work offline?** 
 A: Currently requires internet (voice processing happens in cloud for accuracy). Offline mode is in development for basic commands.
 
-**Q: Is my voice data private?**  
+**Q: Is my voice data private?** 
 A: Voice processing is secure and encrypted. Recordings aren't stored without permission, and you can delete voice history anytime. Honeydew doesn't use voice data for advertising.
 
-**Q: Can my kids use voice control?**  
+**Q: Can my kids use voice control?** 
 A: Yes! Kids as young as 5-6 can use voice commands. It's actually easier for kids than navigating apps with tiny buttons. Parents can set permissions for what kids can do via voice.
 
-**Q: Will my spouse need to learn how to use it?**  
+**Q: Will my spouse need to learn how to use it?** 
 A: The beauty of voice is that speaking is intuitive. Most family members are fully comfortable within the first day—they just talk to Honeydew like they'd ask you to add something to a list.
 
-**Q: How does it compare to ChatGPT's voice mode?**  
+**Q: How does it compare to ChatGPT's voice mode?** 
 A: Similar underlying technology (Whisper AI), but Honeydew is specifically trained for family coordination with direct integration to calendars, lists, and notifications. ChatGPT is conversational; Honeydew is actionable.
 
 ---
@@ -870,64 +870,64 @@ A: Similar underlying technology (Whisper AI), but Honeydew is specifically trai
 ## TikTok Script Ideas (15 videos)
 
 1. **"POV: You're cooking and just said 'add eggs to grocery list' 🎤"** (30 sec)
-   - Hands busy cooking
-   - Say command naturally
-   - Show it appear on phone
-   - "This is the future"
+ - Hands busy cooking
+ - Say command naturally
+ - Show it appear on phone
+ - "This is the future"
 
 2. **"Watch me plan a vacation using ONLY my voice 🤯"** (60 sec)
-   - One voice command
-   - Show everything it creates
-   - Calendar, lists, tasks, notifications
-   - Mind blown
+ - One voice command
+ - Show everything it creates
+ - Calendar, lists, tasks, notifications
+ - Mind blown
 
 3. **"Alexa vs Siri vs Honeydew for family organization"** (60 sec)
-   - Same request to all three
-   - Show what each produces
-   - Honeydew wins dramatically
-   - "It's not even close"
+ - Same request to all three
+ - Show what each produces
+ - Honeydew wins dramatically
+ - "It's not even close"
 
 4. **"Hands-free family organization while driving 🚗"** (45 sec)
-   - Dashboard cam view
-   - Voice commands while driving
-   - Safe, legal, effective
-   - "How did I live without this"
+ - Dashboard cam view
+ - Voice commands while driving
+ - Safe, legal, effective
+ - "How did I live without this"
 
 5. **"This app understands my accent better than my family 😂"** (30 sec)
-   - Non-native speaker demo
-   - Show perfect transcription
-   - Whisper AI shoutout
-   - Relatable
+ - Non-native speaker demo
+ - Show perfect transcription
+ - Whisper AI shoutout
+ - Relatable
 
 6. **"Voice control while holding a baby 👶"** (45 sec)
-   - Hands full, baby in arms
-   - Use voice for everything
-   - Life saver for new parents
-   - "Where was this 3 kids ago"
+ - Hands full, baby in arms
+ - Use voice for everything
+ - Life saver for new parents
+ - "Where was this 3 kids ago"
 
 7. **"I tested voice recognition with my kids screaming in background 📣"** (45 sec)
-   - Intentionally noisy
-   - Still works perfectly
-   - Show transcription accuracy
-   - "Actually impressive"
+ - Intentionally noisy
+ - Still works perfectly
+ - Show transcription accuracy
+ - "Actually impressive"
 
 8. **"'Plan my camping trip' - what happens next will shock you 🏕️"** (60 sec)
-   - Say simple command
-   - Show comprehensive output
-   - Packing list, calendar, tasks
-   - "All from ONE voice command"
+ - Say simple command
+ - Show comprehensive output
+ - Packing list, calendar, tasks
+ - "All from ONE voice command"
 
 9. **"Voice commands every busy parent needs 🎙️"** (60 sec)
-   - Rapid-fire demos
-   - 10 commands in 60 seconds
-   - Show variety of uses
-   - "Game changer"
+ - Rapid-fire demos
+ - 10 commands in 60 seconds
+ - Show variety of uses
+ - "Game changer"
 
 10. **"This is why you need voice control for family organization"** (60 sec)
-    - Day in the life montage
-    - All the moments hands are full
-    - Voice solves every time
-    - Relatable AF
+ - Day in the life montage
+ - All the moments hands are full
+ - Voice solves every time
+ - Relatable AF
 
 *(5 more scripts follow similar patterns - let me know if you want all 15!)*
 

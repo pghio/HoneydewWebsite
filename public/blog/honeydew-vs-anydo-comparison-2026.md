@@ -148,10 +148,10 @@ This distinction shapes everything—from AI capabilities to pricing structure t
 - Cross-group coordination for shared events
 - Privacy by default (groups don't see each other)
 - Perfect for:
-  - Divorced/separated parents coordinating across households
-  - Extended family care coordination
-  - Multi-generational households
-  - Neighborhood/friend group coordination
+ - Divorced/separated parents coordinating across households
+ - Extended family care coordination
+ - Multi-generational households
+ - Neighborhood/friend group coordination
 
 **Real-world example:**
 - "Kids - Mom & Dad" group (divorced parents coordinate)
@@ -362,9 +362,9 @@ Elena and Miguel have four kids—Sofia (14), Luis (11), Maya (8), and baby Carl
 **With Any.Do:**
 - **Problem #1:** Family plan maxes at 4 members
 - Options:
-  1. Only include parents + 2 kids (exclude grandparents who help daily) ❌
-  2. Pay for multiple family plans (expensive, separate systems) ❌
-  3. Share login credentials (security nightmare, whose tasks are whose?) ❌
+ 1. Only include parents + 2 kids (exclude grandparents who help daily) ❌
+ 2. Pay for multiple family plans (expensive, separate systems) ❌
+ 3. Share login credentials (security nightmare, whose tasks are whose?) ❌
 - **Result:** Any.Do can't accommodate this family structure
 
 **With Honeydew:**
@@ -388,9 +388,9 @@ Jennifer and Marcus are divorced. They share custody of twins (age 9). Jennifer 
 **With Any.Do:**
 - Single family space only
 - Options:
-  1. Share one Any.Do account (Jennifer's new spouse sees everything Marcus does—awkward)
-  2. Separate accounts (can't actually coordinate—defeats purpose)
-  3. Use something else for co-parenting (adds complexity)
+ 1. Share one Any.Do account (Jennifer's new spouse sees everything Marcus does—awkward)
+ 2. Separate accounts (can't actually coordinate—defeats purpose)
+ 3. Use something else for co-parenting (adds complexity)
 - **Result:** Any.Do wasn't designed for this
 
 **With Honeydew:**
@@ -555,19 +555,19 @@ If you've been using Any.Do and want to try Honeydew:
 
 ## What Any.Do Users Say After Trying Honeydew
 
-> **Rachel M., Mom of 4:**  
+> **Rachel M., Mom of 4:** 
 > *"Any.Do worked great when it was just me and my husband. Then we had our third kid, and suddenly 4 members wasn't enough. My mom helps with pickups—she needed to see the schedule. Honeydew's unlimited members solved this immediately."*
 
-> **Derek T., Divorced Dad:**  
+> **Derek T., Divorced Dad:** 
 > *"I tried to make Any.Do work for coordinating with my ex. It was impossible. Separate accounts meant we couldn't actually coordinate. Shared account meant she saw my personal stuff. Honeydew's multi-family groups are exactly what we needed."*
 
-> **Amanda S., Working Mom:**  
+> **Amanda S., Working Mom:** 
 > *"I loved Any.Do's clean interface, but I spent SO much time manually entering everything. The first time I told Honeydew 'plan birthday party for 7-year-old' and watched a complete checklist appear in 5 seconds... I was sold."*
 
-> **Michael R., Productivity Enthusiast:**  
+> **Michael R., Productivity Enthusiast:** 
 > *"Honestly? For my personal tasks, I still prefer Any.Do's 'My Day' feature. But for family stuff, there's no contest. I use Any.Do for work, Honeydew for family. Best of both worlds."*
 
-> **Sarah K., Mom of 5:**  
+> **Sarah K., Mom of 5:** 
 > *"Any.Do couldn't even accept our whole family. We have 5 kids. Their family plan maxes at 4 members total including parents. Did they think families stop at 2 kids?"*
 
 ---
@@ -615,28 +615,28 @@ AI handles the coordination overhead. You're not just organizing faster—you're
 
 ## Frequently Asked Questions
 
-**Q: Can Any.Do's family plan work for divorced parents?**  
+**Q: Can Any.Do's family plan work for divorced parents?** 
 A: Not effectively. Any.Do has a single family space with no ability to create separate groups. Divorced parents would either need to share everything (including new relationships, personal tasks) or maintain separate accounts that can't coordinate. Honeydew's multi-family architecture was specifically designed for this.
 
-**Q: What if my family has exactly 4 members? Is Any.Do fine then?**  
+**Q: What if my family has exactly 4 members? Is Any.Do fine then?** 
 A: If you're certain you'll never add grandparents, babysitters, or family helpers to your coordination system, and you don't need AI automation, Any.Do can work. But families often grow—third kid, grandparents helping more, nanny joining. Honeydew scales; Any.Do doesn't.
 
-**Q: Is Honeydew's AI actually better, or is it marketing?**  
+**Q: Is Honeydew's AI actually better, or is it marketing?** 
 A: Try this test: Ask Any.Do "create a packing list for a family camping trip." Then ask Honeydew the same thing. Any.Do will add a task called "create a packing list." Honeydew will generate 50+ categorized items in 5 seconds. The difference is dramatic and immediately obvious.
 
-**Q: Can I use Any.Do for personal tasks and Honeydew for family?**  
+**Q: Can I use Any.Do for personal tasks and Honeydew for family?** 
 A: Yes, and some people do exactly this. Any.Do for individual work productivity, Honeydew for family coordination. Both sync with Google/Apple Calendar so there's no duplication.
 
-**Q: Why doesn't Any.Do just increase their family member limit?**  
+**Q: Why doesn't Any.Do just increase their family member limit?** 
 A: Their architecture wasn't designed for family complexity. Adding more members to a single shared space doesn't solve the multi-family problem. They'd need to rebuild their family features from scratch—which is essentially what Honeydew did from day one.
 
-**Q: Is the price difference worth it?**  
+**Q: Is the price difference worth it?** 
 A: Any.Do Family: $60/year. Honeydew Premium: $99/year. Difference: $39/year ($3.25/month). If Honeydew saves you even 1 hour per month, it's paying for itself. Most families save 10-20 hours/month.
 
-**Q: What about Any.Do's location-based reminders?**  
+**Q: What about Any.Do's location-based reminders?** 
 A: This is a genuine Any.Do advantage. Honeydew doesn't have location reminders yet (coming soon). If "remind me to buy milk when I'm near the grocery store" is critical for you, Any.Do has this now.
 
-**Q: Does Honeydew have a "My Day" feature like Any.Do?**  
+**Q: Does Honeydew have a "My Day" feature like Any.Do?** 
 A: Not an identical feature. Honeydew's approach is family-day focused rather than individual-day focused. You see what's happening for the whole family today, not a personal planning workflow. Different philosophies.
 
 ---

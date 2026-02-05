@@ -18,10 +18,10 @@ image: "/blog-images/multi-family-coordination.jpg"
 
 ## The Modern Family Reality: Complex and Multi-Group
 
-**Your household has a group chat.**  
-**Your extended family has another.**  
-**Your kids' divorced parents have a third.**  
-**Your camping trip crew has a fourth.**  
+**Your household has a group chat.** 
+**Your extended family has another.** 
+**Your kids' divorced parents have a third.** 
+**Your camping trip crew has a fourth.** 
 **Managing modern family life shouldn't require a dozen apps.**
 
 ### The Statistics Tell the Story:
@@ -70,12 +70,12 @@ image: "/blog-images/multi-family-coordination.jpg"
 
 ### The Core Requirements:
 
-✅ **Multiple distinct groups** (not just one shared calendar)  
-✅ **Privacy by default** (groups don't see each other unless you choose)  
-✅ **Easy switching** (one-tap between contexts)  
-✅ **Group-specific calendars and lists** (isolated by default)  
-✅ **Cross-group coordination when needed** (e.g., holiday involving household + extended family)  
-✅ **Role-based permissions** (admin, member, guest)  
+✅ **Multiple distinct groups** (not just one shared calendar) 
+✅ **Privacy by default** (groups don't see each other unless you choose) 
+✅ **Easy switching** (one-tap between contexts) 
+✅ **Group-specific calendars and lists** (isolated by default) 
+✅ **Cross-group coordination when needed** (e.g., holiday involving household + extended family) 
+✅ **Role-based permissions** (admin, member, guest) 
 
 ---
 
@@ -129,29 +129,29 @@ image: "/blog-images/multi-family-coordination.jpg"
 
 **Sarah's Honeydew Groups:**
 1. **"Kids - Mom & Dad"** (Sarah + Miguel + Jake + Emma)
-   - Kids' school calendars
-   - Activities (soccer, piano, swim)
-   - Medical appointments
-   - Custody schedule
-   - Shared expenses
-   
+ - Kids' school calendars
+ - Activities (soccer, piano, swim)
+ - Medical appointments
+ - Custody schedule
+ - Shared expenses
+ 
 2. **"Sarah's Household"** (Sarah + her partner Alex)
-   - Personal calendar
-   - Household tasks
-   - Sarah & Alex's date nights
-   - Step-kid coordination
-   - Private—Miguel doesn't see this
+ - Personal calendar
+ - Household tasks
+ - Sarah & Alex's date nights
+ - Step-kid coordination
+ - Private—Miguel doesn't see this
 
 **Miguel's Honeydew Groups:**
 1. **"Kids - Mom & Dad"** (Same shared group with Sarah)
-   - Both parents see kids' activities
-   - Both can add/edit
-   - Real-time updates
-   
+ - Both parents see kids' activities
+ - Both can add/edit
+ - Real-time updates
+ 
 2. **"Miguel's Household"** (Miguel + his partner Lisa)
-   - Personal calendar
-   - His household tasks
-   - Private—Sarah doesn't see this
+ - Personal calendar
+ - His household tasks
+ - Private—Sarah doesn't see this
 
 **How It Works:**
 - Sarah creates "Kids - Mom & Dad" group, invites Miguel
@@ -161,9 +161,9 @@ image: "/blog-images/multi-family-coordination.jpg"
 - Each parent's personal life stays private
 - No awkward "I can see your date night on the shared calendar"
 
-**Time saved:** 6+ hours/week (eliminates 100+ coordination texts per month)  
-**Stress reduced:** Immeasurable  
-**Kids benefit:** Seamless coordination across two homes  
+**Time saved:** 6+ hours/week (eliminates 100+ coordination texts per month) 
+**Stress reduced:** Immeasurable 
+**Kids benefit:** Seamless coordination across two homes 
 
 #### Real-World Scenario: Extended Family Care
 
@@ -173,18 +173,18 @@ image: "/blog-images/multi-family-coordination.jpg"
 
 **Amy's Honeydew Groups:**
 1. **"Mom & Dad Care"** (All 4 siblings + spouses)
-   - Medical appointments calendar
-   - Medication schedules
-   - Visit rotation
-   - Task assignments (who's picking up prescriptions?)
-   - Medical notes and updates
-   - Doctor instructions
-   
+ - Medical appointments calendar
+ - Medication schedules
+ - Visit rotation
+ - Task assignments (who's picking up prescriptions?)
+ - Medical notes and updates
+ - Doctor instructions
+ 
 2. **"Amy's Family"** (Amy + husband + 2 kids)
-   - Personal family calendar
-   - Kids' activities
-   - Household tasks
-   - Private from siblings
+ - Personal family calendar
+ - Kids' activities
+ - Household tasks
+ - Private from siblings
 
 **How It Works:**
 - Weekly rotation: Each sibling visits parents twice
@@ -215,17 +215,17 @@ image: "/blog-images/multi-family-coordination.jpg"
 
 **Group Leader's Honeydew Groups:**
 1. **"Annual Camping 2025"** (All 6 families invited)
-   - Trip dates and location
-   - Who's bringing what (equipment, food, etc.)
-   - Meal planning rotation
-   - Activity planning
-   - Budget tracking
-   - Packing lists
-   
+ - Trip dates and location
+ - Who's bringing what (equipment, food, etc.)
+ - Meal planning rotation
+ - Activity planning
+ - Budget tracking
+ - Packing lists
+ 
 2. **Personal "Smith Family"** (Just the Smiths)
-   - Their personal packing list
-   - Family prep tasks
-   - Private family planning
+ - Their personal packing list
+ - Family prep tasks
+ - Private family planning
 
 **How It Works:**
 - One person creates "Annual Camping 2025" group
@@ -264,12 +264,12 @@ image: "/blog-images/multi-family-coordination.jpg"
 **No additional cost for multiple groups.** Most competitors charge per group or don't allow it at all.
 
 #### Perfect For
-✅ Divorced/separated parents coordinating kids  
-✅ Adult siblings coordinating aging parent care  
-✅ Blended families with complex step-relationships  
-✅ Families coordinating with extended family (grandparents, etc.)  
-✅ Friend groups planning trips, carpools, activities  
-✅ Anyone managing 2+ distinct family contexts  
+✅ Divorced/separated parents coordinating kids 
+✅ Adult siblings coordinating aging parent care 
+✅ Blended families with complex step-relationships 
+✅ Families coordinating with extended family (grandparents, etc.) 
+✅ Friend groups planning trips, carpools, activities 
+✅ Anyone managing 2+ distinct family contexts 
 
 **[Try Honeydew's Multi-Family Features Free →](https://app.gethoneydew.app/)**
 
@@ -293,37 +293,37 @@ image: "/blog-images/multi-family-coordination.jpg"
 **Workaround 1: Share Single Account with Everyone**
 - Put divorced parents + extended family + friends all in one Cozi account
 - **Problems:**
-  - Zero privacy (ex-spouses see each other's personal events)
-  - Chaos with 15+ people in one calendar
-  - Can't separate kids' activities from personal household
-  - Awkward for everyone
+ - Zero privacy (ex-spouses see each other's personal events)
+ - Chaos with 15+ people in one calendar
+ - Can't separate kids' activities from personal household
+ - Awkward for everyone
 
 **Workaround 2: Create Multiple Cozi Accounts**
 - Sarah has Account A (kids activities)
 - Miguel has Account B (kids activities - duplicate)
 - Each has to manually duplicate every kid event
 - **Problems:**
-  - Constant logging in/out between accounts
-  - Double entry (type everything twice)
-  - Changes don't sync (Sarah updates soccer time, Miguel doesn't know)
-  - Defeats the entire purpose
+ - Constant logging in/out between accounts
+ - Double entry (type everything twice)
+ - Changes don't sync (Sarah updates soccer time, Miguel doesn't know)
+ - Defeats the entire purpose
 
 **Workaround 3: Use Cozi + Another App**
 - Cozi for household
 - Google Calendar for extended family
 - Different app for friend group
 - **Problems:**
-  - Managing 3+ different apps
-  - Coordination nightmare
-  - Notification chaos
-  - Defeats point of having "one system"
+ - Managing 3+ different apps
+ - Coordination nightmare
+ - Notification chaos
+ - Defeats point of having "one system"
 
 **Bottom line:** Cozi was designed in 2005 when "family" meant one household. Modern complexity makes it unusable for multi-family scenarios.
 
 #### When Cozi Works (Single-Household Only)
-✅ One household, no extended family coordination  
-✅ No divorced parent complexity  
-✅ Don't need to coordinate with external groups  
+✅ One household, no extended family coordination 
+✅ No divorced parent complexity 
+✅ Don't need to coordinate with external groups 
 
 **For everyone else:** Cozi's limitation is a dealbreaker.
 
@@ -377,17 +377,17 @@ image: "/blog-images/multi-family-coordination.jpg"
 
 #### When Google Calendar Works for Multi-Family
 
-✅ Tech-savvy families comfortable with complexity  
-✅ Don't need lists (calendar only)  
-✅ Free budget (can't afford Honeydew)  
-✅ Already deep in Google ecosystem  
+✅ Tech-savvy families comfortable with complexity 
+✅ Don't need lists (calendar only) 
+✅ Free budget (can't afford Honeydew) 
+✅ Already deep in Google ecosystem 
 
 #### When It Doesn't Work
 
-❌ Want simple group-switching (toggling 10 calendars ≠ simple)  
-❌ Need lists attached to groups (not possible)  
-❌ Want clean, organized interface (calendar soup is messy)  
-❌ Non-technical family members (too confusing)  
+❌ Want simple group-switching (toggling 10 calendars ≠ simple) 
+❌ Need lists attached to groups (not possible) 
+❌ Want clean, organized interface (calendar soup is messy) 
+❌ Non-technical family members (too confusing) 
 
 ---
 
@@ -433,27 +433,27 @@ image: "/blog-images/multi-family-coordination.jpg"
 
 #### When TimeTree Works
 
-✅ Only need calendar (no list management)  
-✅ Like social features (comments, reactions)  
-✅ Free budget  
-✅ Basic multi-calendar needs  
+✅ Only need calendar (no list management) 
+✅ Like social features (comments, reactions) 
+✅ Free budget 
+✅ Basic multi-calendar needs 
 
 #### When It Doesn't
 
-❌ Need lists and tasks (not just calendar)  
-❌ Want true "family group" concept  
-❌ Need unified dashboard across groups  
+❌ Need lists and tasks (not just calendar) 
+❌ Want true "family group" concept 
+❌ Need unified dashboard across groups 
 
 ---
 
 ### ❌ #5-10: Other Apps (None Support Multi-Family)
 
-**OurHome:** Single family only  
-**Any.do:** Individual user model  
-**Todoist:** Business "teams" model (not family groups)  
-**FamCal:** Single family only  
-**Picniic:** Single family only  
-**FamilyWall:** Single family only  
+**OurHome:** Single family only 
+**Any.do:** Individual user model 
+**Todoist:** Business "teams" model (not family groups) 
+**FamCal:** Single family only 
+**Picniic:** Single family only 
+**FamilyWall:** Single family only 
 
 **Conclusion:** The family organization app market is **fundamentally designed for single households**. Only Honeydew recognized that modern families are more complex.
 
@@ -480,16 +480,16 @@ image: "/blog-images/multi-family-coordination.jpg"
 
 ## Real Families Share Their Multi-Family Stories
 
-> **Jessica L., Divorced Mom of 2:**  
+> **Jessica L., Divorced Mom of 2:** 
 > *"I tried Cozi with my ex. We had to share ONE account to see the kids' activities. That meant he could see my personal stuff, I could see his. So awkward. We ended up going back to text messages (nightmare). Then I found Honeydew. We have a shared 'Kids' group, and each of us has our own household group. FINALLY it works. Worth every penny."*
 
-> **Brian M., Coordinating Parent Care:**  
+> **Brian M., Coordinating Parent Care:** 
 > *"My 3 siblings and I were using a shared Google Calendar for Mom's care. It worked okayish, but we couldn't share task lists, and it got confusing with all our personal calendars mixed in. Honeydew's 'Mom Care' group is perfect—we all switch to that context when dealing with Mom stuff, then back to our own families. Game changer."*
 
-> **Amanda R., Blended Family:**  
+> **Amanda R., Blended Family:** 
 > *"My husband and I both have kids from previous marriages. That's FOUR households to coordinate (our house, my ex's house, his ex's house, shared activities). Cozi couldn't handle it. Google Calendar was chaos with 8 different colors overlapping. Honeydew's multiple groups mean we can see just what we need, when we need it. The organization of my dreams."*
 
-> **The Miller Gang, Friend Group:**  
+> **The Miller Gang, Friend Group:** 
 > *"We've been doing an annual camping trip with real families for 10 years. Coordination was always a nightmare of email chains. This year we used Honeydew—created a 'Camping 2025' group, everyone joined, and we planned the whole thing in the app. Packing lists, meal rotation, who's bringing what. So smooth. Can't believe we suffered through emails for a decade."*
 
 ---
@@ -564,11 +564,11 @@ image: "/blog-images/multi-family-coordination.jpg"
 **Week 1: Set Up Groups**
 1. Create Honeydew account
 2. Create all your family groups:
-   - "Kids - Mom & Dad" (if divorced)
-   - "Your Household"
-   - "Extended Family"
-   - "Friend Groups"
-   - etc.
+ - "Kids - Mom & Dad" (if divorced)
+ - "Your Household"
+ - "Extended Family"
+ - "Friend Groups"
+ - etc.
 3. Invite members to each group
 
 **Week 2: Transfer Content**
@@ -611,28 +611,28 @@ image: "/blog-images/multi-family-coordination.jpg"
 
 ## Frequently Asked Questions
 
-**Q: How many family groups can I have in Honeydew?**  
+**Q: How many family groups can I have in Honeydew?** 
 A: Unlimited! Both free and premium tiers support unlimited groups.
 
-**Q: Do other family members need Honeydew Premium?**  
+**Q: Do other family members need Honeydew Premium?** 
 A: No! You can invite anyone to your groups. They can use free tier. Only the person who wants unlimited AI, voice, etc. needs Premium.
 
-**Q: Can my kids be in multiple groups?**  
+**Q: Can my kids be in multiple groups?** 
 A: Yes! Kids can be in "Mom's Household," "Dad's Household," and "Kids - Mom & Dad" shared group. They see what's relevant to them in each context.
 
-**Q: How does privacy work?**  
+**Q: How does privacy work?** 
 A: Groups are private by default. Your ex-spouse in "Kids" group can't see your "Personal Household" group unless you explicitly share an event with both groups.
 
-**Q: Can I have some groups with AI and others without?**  
+**Q: Can I have some groups with AI and others without?** 
 A: Your Premium subscription applies to all your groups. But family members without Premium can still participate (they just don't get AI features themselves).
 
-**Q: What if my ex-spouse refuses to use Honeydew?**  
+**Q: What if my ex-spouse refuses to use Honeydew?** 
 A: You can still use Honeydew for your household and export/sync to Google Calendar to share with them. Not ideal, but better than nothing.
 
-**Q: Is there a limit to group members?**  
+**Q: Is there a limit to group members?** 
 A: No hard limit. Most groups have 3-10 members. We've seen camping trip groups with 30+ people work fine.
 
-**Q: Can I delete a family group?**  
+**Q: Can I delete a family group?** 
 A: Yes! Admins can delete groups. All members get notified before deletion.
 
 ---
@@ -665,38 +665,38 @@ A: Yes! Admins can delete groups. All members get notified before deletion.
 ## TikTok Script Ideas (10 videos)
 
 1. **"POV: You're a divorced parent trying to coordinate 💔"** (60 sec)
-   - Show text message chaos (100+ messages)
-   - "There has to be a better way"
-   - Show Honeydew multi-family groups
-   - Shared "Kids" group + separate households
-   - "Why didn't anyone tell me about this"
+ - Show text message chaos (100+ messages)
+ - "There has to be a better way"
+ - Show Honeydew multi-family groups
+ - Shared "Kids" group + separate households
+ - "Why didn't anyone tell me about this"
 
 2. **"The ONE app that actually works for divorced parents 🙏"** (45 sec)
-   - Show Cozi's limitation (single family)
-   - Show Google Calendar chaos (calendar soup)
-   - Show Honeydew's solution
-   - "Finally"
+ - Show Cozi's limitation (single family)
+ - Show Google Calendar chaos (calendar soup)
+ - Show Honeydew's solution
+ - "Finally"
 
 3. **"Apps that claim to do multi-family vs reality 🚩"** (60 sec)
-   - Test each app's multi-family capability
-   - Cozi: Can't do it
-   - Google: Clunky workaround
-   - TimeTree: Calendar-only
-   - Honeydew: Purpose-built
-   - "Only one actually works"
+ - Test each app's multi-family capability
+ - Cozi: Can't do it
+ - Google: Clunky workaround
+ - TimeTree: Calendar-only
+ - Honeydew: Purpose-built
+ - "Only one actually works"
 
 4. **"Coordinating my family across 4 households with AI 🤯"** (60 sec)
-   - Blended family complexity
-   - Show 4 different groups in Honeydew
-   - One-tap switching
-   - "Organization of my dreams"
+ - Blended family complexity
+ - Show 4 different groups in Honeydew
+ - One-tap switching
+ - "Organization of my dreams"
 
 5. **"My siblings and I coordinate Mom's care in one app 👵"** (60 sec)
-   - Extended family care story
-   - Before: 50+ texts/week
-   - After: Honeydew "Mom Care" group
-   - Visit rotation, med schedule, tasks
-   - "Life changing"
+ - Extended family care story
+ - Before: 50+ texts/week
+ - After: Honeydew "Mom Care" group
+ - Visit rotation, med schedule, tasks
+ - "Life changing"
 
 *(5 more scripts with similar patterns)*
 

@@ -709,28 +709,28 @@ Both apps offer free tiers:
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Honeydew vs OurHome: Family Chore Apps Compared 2026",
-  "description": "Deep-dive comparison of Honeydew vs OurHome family apps. OurHome offers gamified chores with points and rewards for kids. Honeydew provides AI-powered family planning with calendar, lists, and voice control.",
-  "image": "https://www.gethoneydew.app/og-image-ai.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2026-02-04",
-  "dateModified": "2026-02-04",
-  "mainEntityOfPage": "https://www.gethoneydew.app/blog/honeydew-vs-ourhome-deep-dive-2026",
-  "keywords": "ourhome app review, ourhome alternative, best chore app for families, family chore chart app, ourhome vs honeydew",
-  "articleSection": "Comparison"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Honeydew vs OurHome: Family Chore Apps Compared 2026",
+ "description": "Deep-dive comparison of Honeydew vs OurHome family apps. OurHome offers gamified chores with points and rewards for kids. Honeydew provides AI-powered family planning with calendar, lists, and voice control.",
+ "image": "https://www.gethoneydew.app/og-image-ai.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://www.gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2026-02-04",
+ "dateModified": "2026-02-04",
+ "mainEntityOfPage": "https://www.gethoneydew.app/blog/honeydew-vs-ourhome-deep-dive-2026",
+ "keywords": "ourhome app review, ourhome alternative, best chore app for families, family chore chart app, ourhome vs honeydew",
+ "articleSection": "Comparison"
 }
 ```
 

@@ -463,8 +463,8 @@ The distinction matters: sharing a Google Calendar works for small families, but
 
 ### Is AI Worth Paying For?
 
-**Cost:** $99-149/year for AI-powered apps  
-**Time saved:** 200 hours/year  
+**Cost:** $99-149/year for AI-powered apps 
+**Time saved:** 200 hours/year 
 **Cost per hour saved:** $0.50-0.75
 
 **If your time is worth more than $0.75/hour** (it is), AI family apps have positive ROI.
@@ -969,9 +969,9 @@ Behavior change takes 2-3 weeks
 
 ### The Trajectory is Clear
 
-**2015:** Paper calendars + texts  
-**2020:** Digital shared calendars + separate list apps  
-**2025:** AI-powered integrated family systems  
+**2015:** Paper calendars + texts 
+**2020:** Digital shared calendars + separate list apps 
+**2025:** AI-powered integrated family systems 
 **2030:** Ambient AI family coordination (mostly invisible)
 
 **We're in the middle of this transition.** Early adopters of AI family systems (2024-2025) will have a significant advantage as the technology matures.
@@ -1055,25 +1055,25 @@ Behavior change takes 2-3 weeks
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Complete Guide to Family Organization Apps: Everything You Need to Know in 2025",
-  "description": "The ultimate guide to family organization apps: types, features, pricing, how to choose, and implementation strategies for finding your perfect match.",
-  "image": "https://gethoneydew.app/blog-images/family-organization-guide.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2025-11-28",
-  "dateModified": "2025-11-28"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Complete Guide to Family Organization Apps: Everything You Need to Know in 2025",
+ "description": "The ultimate guide to family organization apps: types, features, pricing, how to choose, and implementation strategies for finding your perfect match.",
+ "image": "https://gethoneydew.app/blog-images/family-organization-guide.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2025-11-28",
+ "dateModified": "2025-11-28"
 }
 ```
 

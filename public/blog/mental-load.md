@@ -302,11 +302,11 @@ This baseline is crucial for measuring improvement.
 
 1. Choose your AI coordination system (we use Honeydew, but principle applies to any system)
 2. Input initial context:
-   - Family members
-   - Recurring schedules
-   - Dietary restrictions
-   - Preferences
-   - Current commitments
+ - Family members
+ - Recurring schedules
+ - Dietary restrictions
+ - Preferences
+ - Current commitments
 
 This takes ~2 hours upfront. Worth it.
 

@@ -99,25 +99,25 @@ Honeydew isn't just a "travel app"—it's a family organization system that incl
 1. **Analyzes family calendars** → suggests optimal dates (when everyone is free)
 2. **Creates 7-day trip event** on family calendar
 3. **Generates comprehensive beach packing list** (50+ items):
-   - Clothes (by family member and weather)
-   - Beach gear (sunscreen, toys, umbrellas)
-   - Kids' items (diapers, snacks, entertainment)
-   - Documents (IDs, confirmations, insurance)
-   - Electronics (chargers, cameras, tablets)
-   - First aid
-   - Activities (books, games, sports equipment)
+ - Clothes (by family member and weather)
+ - Beach gear (sunscreen, toys, umbrellas)
+ - Kids' items (diapers, snacks, entertainment)
+ - Documents (IDs, confirmations, insurance)
+ - Electronics (chargers, cameras, tablets)
+ - First aid
+ - Activities (books, games, sports equipment)
 4. **Creates pre-trip preparation timeline:**
-   - 4 weeks before: Book accommodations
-   - 3 weeks before: Arrange pet/house care
-   - 2 weeks before: Buy new sunscreen/supplies
-   - 1 week before: Confirm reservations
-   - 2 days before: Start packing
-   - 1 day before: Prepare car, cooler, snacks
+ - 4 weeks before: Book accommodations
+ - 3 weeks before: Arrange pet/house care
+ - 2 weeks before: Buy new sunscreen/supplies
+ - 1 week before: Confirm reservations
+ - 2 days before: Start packing
+ - 1 day before: Prepare car, cooler, snacks
 5. **Assigns tasks** to family members
 6. **Notifies everyone** automatically
 7. **Attaches everything to calendar event**
 
-**Time:** 15 seconds  
+**Time:** 15 seconds 
 **Quality:** Comprehensive and complete
 
 **Traditional manual approach:** 2-4 hours spread across weeks
@@ -222,15 +222,15 @@ After 2-3 trips, Honeydew's AI learns your family's patterns:
 - Everyone gets premium features
 
 ### Best For
-✅ Families who want trip planning integrated with daily coordination  
-✅ Parents needing voice control (multitasking while planning)  
-✅ Families taking 3+ trips per year  
-✅ Anyone wanting AI to handle packing lists automatically  
-✅ Families coordinating across multiple households (grandparents joining trip)  
+✅ Families who want trip planning integrated with daily coordination 
+✅ Parents needing voice control (multitasking while planning) 
+✅ Families taking 3+ trips per year 
+✅ Anyone wanting AI to handle packing lists automatically 
+✅ Families coordinating across multiple households (grandparents joining trip) 
 
 ### Limitations
-⚠️ Not as specialized as dedicated travel apps (TripIt has more detailed itinerary features)  
-⚠️ Premium features require subscription  
+⚠️ Not as specialized as dedicated travel apps (TripIt has more detailed itinerary features) 
+⚠️ Premium features require subscription 
 
 **[Try Honeydew Free →](https://gethoneydew.app/)**
 
@@ -289,13 +289,13 @@ TripIt automatically organizes travel plans by forwarding confirmation emails. I
 
 ### Pricing
 
-**Free:** Basic itinerary management  
+**Free:** Basic itinerary management 
 **TripIt Pro:** $49/year (flight alerts, seat tracking)
 
 ### Best For
-✅ Frequent business travelers  
-✅ Solo travelers or couples  
-✅ Families who need detailed itinerary management  
+✅ Frequent business travelers 
+✅ Solo travelers or couples 
+✅ Families who need detailed itinerary management 
 
 ### Why You Might Choose Honeydew Instead
 Honeydew integrates trip planning with family coordination, includes AI packing lists, voice control, and task management—features TripIt lacks. For families, the integrated approach is more valuable than TripIt's specialized itinerary features.
@@ -351,9 +351,9 @@ Google Trips (now "Google Travel") aggregates travel info from Gmail and provide
 **Free**
 
 ### Best For
-✅ Solo travelers  
-✅ Very tight budgets  
-✅ Simple trip organization  
+✅ Solo travelers 
+✅ Very tight budgets 
+✅ Simple trip organization 
 
 ### Why You Might Choose Honeydew Instead
 Google Trips is calendar/email only. Honeydew adds AI trip planning, packing lists, family collaboration, voice control, and integrated coordination—essential for family travel.
@@ -407,12 +407,12 @@ PackPoint specializes in one thing: smart packing lists based on destination, we
 
 ### Pricing
 
-**Free:** Basic packing lists  
+**Free:** Basic packing lists 
 **Premium ($2.99/year):** More features, no ads
 
 ### Best For
-✅ Solo travelers who only need packing lists  
-✅ Very specific packing needs (business trips)  
+✅ Solo travelers who only need packing lists 
+✅ Very specific packing needs (business trips) 
 
 ### Why You Might Choose Honeydew Instead
 PackPoint solves packing only. Honeydew does packing lists PLUS calendar integration, task coordination, AI planning, voice control, and family collaboration. For $7.99/month vs $3/year, you get 30x more features that actually matter for families.
@@ -463,13 +463,13 @@ Wanderlog lets groups plan trips together—add places, vote on activities, shar
 
 ### Pricing
 
-**Free:** Most features  
+**Free:** Most features 
 **Wanderlog Plus ($50/year):** Offline access, premium features
 
 ### Best For
-✅ Group trips with friends  
-✅ Couples planning together  
-✅ Visual/map-based planners  
+✅ Group trips with friends 
+✅ Couples planning together 
+✅ Visual/map-based planners 
 
 ### Why You Might Choose Honeydew Instead
 Wanderlog is itinerary-focused. Honeydew covers entire trip lifecycle: planning, packing, tasks, calendar, coordination. For families, comprehensive coverage matters more than detailed itineraries.
@@ -525,12 +525,12 @@ Trello is a project management tool that CAN be adapted for trip planning, but r
 
 ### Pricing
 
-**Free:** Basic features  
-**Standard ($5/month):** More features  
+**Free:** Basic features 
+**Standard ($5/month):** More features 
 
 ### Best For
-✅ Tech-savvy families comfortable with customization  
-✅ Very specific workflow needs  
+✅ Tech-savvy families comfortable with customization 
+✅ Very specific workflow needs 
 
 ### Why You Might Choose Honeydew Instead
 Trello requires 2-3 hours of setup per trip. Honeydew's AI generates complete trip plan in 15 seconds. Unless you enjoy customization for its own sake, Honeydew is dramatically more efficient.
@@ -559,10 +559,10 @@ Trello requires 2-3 hours of setup per trip. Honeydew's AI generates complete tr
 **Honeydew approach:**
 1. Mom says: "Plan our Outer Banks beach trip June 15-22"
 2. AI generates (15 seconds):
-   - Calendar event (6/15-22)
-   - Beach packing list (75 items for 5 people)
-   - Pre-trip tasks with timeline
-   - Notifies family
+ - Calendar event (6/15-22)
+ - Beach packing list (75 items for 5 people)
+ - Pre-trip tasks with timeline
+ - Notifies family
 3. Family collaborates in real-time (add items, assign tasks)
 4. Day of trip: Everything packed, nothing forgotten
 
@@ -592,10 +592,10 @@ Trello requires 2-3 hours of setup per trip. Honeydew's AI generates complete tr
 - TripIt: Beautiful itinerary with flight/hotel details
 - PackPoint: Good packing list
 - But:
-  - Two separate apps to check
-  - No pre-trip task coordination
-  - No family collaboration (can't assign "Dad handles dining reservations")
-  - Packing list doesn't include Disney-specific items (autograph books, ponchos, portable chargers for long days)
+ - Two separate apps to check
+ - No pre-trip task coordination
+ - No family collaboration (can't assign "Dad handles dining reservations")
+ - Packing list doesn't include Disney-specific items (autograph books, ponchos, portable chargers for long days)
 
 **Time: 2 hours setup**
 
@@ -626,9 +626,9 @@ Trello requires 2-3 hours of setup per trip. Honeydew's AI generates complete tr
 - "Family Reunion" group (all 3 families)
 - Shared packing list (collaborative)
 - Assign tasks across families:
-  - Smith family: Bring breakfast supplies
-  - Johnson family: Bring lunch stuff
-  - Williams family: Bring dinner items
+ - Smith family: Bring breakfast supplies
+ - Johnson family: Bring lunch stuff
+ - Williams family: Bring dinner items
 - Everyone sees real-time updates
 - One app, 15 people coordinated
 
@@ -645,34 +645,34 @@ Trello requires 2-3 hours of setup per trip. Honeydew's AI generates complete tr
 ## How to Choose the Right Trip Planning App
 
 ### Choose Honeydew if:
-✅ You want comprehensive family trip planning (all-in-one)  
-✅ You value AI automation (time savings)  
-✅ You need packing lists + itinerary + tasks + calendar integrated  
-✅ You're coordinating multiple family members or households  
-✅ You take 3+ family trips per year  
-✅ Voice control matters (planning while multitasking)  
+✅ You want comprehensive family trip planning (all-in-one) 
+✅ You value AI automation (time savings) 
+✅ You need packing lists + itinerary + tasks + calendar integrated 
+✅ You're coordinating multiple family members or households 
+✅ You take 3+ family trips per year 
+✅ Voice control matters (planning while multitasking) 
 
 ### Choose TripIt if:
-✅ You only need detailed itineraries  
-✅ You frequently travel for business (Pro features valuable)  
-✅ Forward-emails-to-organize appeals to you  
-✅ You use separate apps for packing and are fine with that  
+✅ You only need detailed itineraries 
+✅ You frequently travel for business (Pro features valuable) 
+✅ Forward-emails-to-organize appeals to you 
+✅ You use separate apps for packing and are fine with that 
 
 ### Choose Google Trips if:
-✅ Budget is absolutely zero  
-✅ You have very simple trip organization needs  
-✅ You're already deeply in Google ecosystem  
-✅ Solo/couple travel (not full family)  
+✅ Budget is absolutely zero 
+✅ You have very simple trip organization needs 
+✅ You're already deeply in Google ecosystem 
+✅ Solo/couple travel (not full family) 
 
 ### Choose PackPoint if:
-✅ You ONLY need packing lists (nothing else)  
-✅ Weather-smart packing is your priority  
-✅ Solo traveler or couples  
+✅ You ONLY need packing lists (nothing else) 
+✅ Weather-smart packing is your priority 
+✅ Solo traveler or couples 
 
 ### Choose Wanderlog if:
-✅ Group trip with friends (not family with kids)  
-✅ Collaborative itinerary planning is #1 priority  
-✅ Map-based planning appeals to you  
+✅ Group trip with friends (not family with kids) 
+✅ Collaborative itinerary planning is #1 priority 
+✅ Map-based planning appeals to you 
 
 ---
 
@@ -704,22 +704,22 @@ Trip planning isn't separate from family life—it's part of it.
 
 ## Frequently Asked Questions
 
-**Q: Can I use Honeydew for trip planning even if I use TripIt for itineraries?**  
+**Q: Can I use Honeydew for trip planning even if I use TripIt for itineraries?** 
 A: Yes! Many families use TripIt for detailed itineraries and Honeydew for packing lists, tasks, and family coordination. They complement each other.
 
-**Q: Does Honeydew work offline (on airplane)?**  
+**Q: Does Honeydew work offline (on airplane)?** 
 A: Lists and calendar cached locally are accessible offline. Real-time sync requires connection. Download key lists before flights.
 
-**Q: Can I share a Honeydew trip with people outside my family group?**  
+**Q: Can I share a Honeydew trip with people outside my family group?** 
 A: Yes! Create a family group for the trip and invite anyone (friends, extended family). Perfect for group trips.
 
-**Q: How detailed should I be when asking AI to plan a trip?**  
+**Q: How detailed should I be when asking AI to plan a trip?** 
 A: More detail = better results. "Beach trip" works, but "Beach trip to Outer Banks, 2 adults and 3 kids ages 4/7/10, staying in house with kitchen, planning to do water sports and visit aquarium" generates much more specific packing list.
 
-**Q: Does Honeydew integrate with airline/hotel booking?**  
+**Q: Does Honeydew integrate with airline/hotel booking?** 
 A: Not directly. You book travel wherever you prefer, then add details to Honeydew via voice or photo (OCR). Future integrations planned for 2026.
 
-**Q: Can I reuse a trip plan for annual vacations?**  
+**Q: Can I reuse a trip plan for annual vacations?** 
 A: Yes! Honeydew's learning AI remembers previous trips to same destination. "Plan our annual beach trip" will suggest based on what you packed last year, with improvements ("Last year you added bug spray on day 2, including it this time").
 
 ---
@@ -758,25 +758,25 @@ A: Yes! Honeydew's learning AI remembers previous trips to same destination. "Pl
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Best Family Trip Planning Apps in 2025: Complete Guide",
-  "description": "Comprehensive guide to the best apps for planning family vacations and trips, including Honeydew, TripIt, Google Trips, and more.",
-  "image": "https://gethoneydew.app/blog-images/family-trip-planning.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2025-12-05",
-  "dateModified": "2025-12-05"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Best Family Trip Planning Apps in 2025: Complete Guide",
+ "description": "Comprehensive guide to the best apps for planning family vacations and trips, including Honeydew, TripIt, Google Trips, and more.",
+ "image": "https://gethoneydew.app/blog-images/family-trip-planning.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2025-12-05",
+ "dateModified": "2025-12-05"
 }
 ```
 

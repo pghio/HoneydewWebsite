@@ -950,7 +950,7 @@ Apple Calendar is free, built into every Apple device, and works well. For all-A
 **Before AI (Cozi, TimeTree):**
 ```
 Type: "Soccer practice"
-Type: "Wednesday"  
+Type: "Wednesday" 
 Type: "4pm"
 Type: "Jefferson Park"
 Set reminder: "3pm"

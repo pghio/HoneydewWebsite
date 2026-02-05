@@ -150,11 +150,11 @@ Family events aren't just appointments—they have STUFF associated with them.
 
 **Honeydew's approach:**
 - "Beach Vacation Aug 15-22" event has:
-  - ✅ Packing list (AI-generated based on your past trips)
-  - ✅ Itinerary (day-by-day schedule)
-  - ✅ Reservations (hotels, restaurants)
-  - ✅ Task checklist (cancel mail, set thermostat, water plants)
-  - ✅ Grocery list for the drive
+ - ✅ Packing list (AI-generated based on your past trips)
+ - ✅ Itinerary (day-by-day schedule)
+ - ✅ Reservations (hotels, restaurants)
+ - ✅ Task checklist (cancel mail, set thermostat, water plants)
+ - ✅ Grocery list for the drive
 - Everything in ONE place, attached to ONE event
 - Lists auto-surface when event approaches
 

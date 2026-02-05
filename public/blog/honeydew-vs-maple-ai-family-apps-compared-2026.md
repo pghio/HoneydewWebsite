@@ -333,11 +333,11 @@ Modern families are complicated. 50% of marriages involve divorce or remarriage.
 - Instant switching (<1 second)
 - Privacy between groups by default
 - Examples:
-  - "Kids - Mom & Dad" (co-parenting)
-  - "Dad's House" (private)
-  - "Mom's House" (private)
-  - "Grandparents" (extended family)
-  - "Soccer Carpool" (community)
+ - "Kids - Mom & Dad" (co-parenting)
+ - "Dad's House" (private)
+ - "Mom's House" (private)
+ - "Grandparents" (extended family)
+ - "Soccer Carpool" (community)
 
 **Real-world scenario:**
 
@@ -791,7 +791,7 @@ Works, but no privacy between households.
 
 **With Honeydew:**
 1. Create "Kids - Both Parents" shared group
-2. Create "Mom's House" private group  
+2. Create "Mom's House" private group 
 3. Create "Dad's House" private group
 4. Add handoff to shared group
 5. Each parent adds private prep notes to their group

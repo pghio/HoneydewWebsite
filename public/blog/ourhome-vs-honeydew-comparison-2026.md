@@ -277,10 +277,10 @@ Honeydew. It offers two-way sync with both Google and Apple calendars, lists att
 **With Honeydew:**
 - **Input:** "Plan next week with soccer Tue/Thu, dentist Friday, and grocery list for lunches."
 - **Output (seconds):**
-  - ✅ Events added to calendars
-  - ✅ Grocery list generated and shared
-  - ✅ Reminders assigned to household owners
-  - ✅ Conflicts flagged automatically
+ - ✅ Events added to calendars
+ - ✅ Grocery list generated and shared
+ - ✅ Reminders assigned to household owners
+ - ✅ Conflicts flagged automatically
 
 **Time saved:** 2-4 hours/week for a typical busy family.
 
@@ -336,28 +336,28 @@ A: Yes. Honeydew syncs both Google and Apple calendars bi-directionally, so you 
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "OurHome vs Honeydew (2026): Chore Charts vs AI Family Planning",
-  "description": "Compare OurHome and Honeydew family apps. OurHome focuses on gamified chores; Honeydew offers AI planning. We break down features, pricing, and which app fits your family's needs.",
-  "image": "https://www.gethoneydew.app/og-image-ai.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2026-02-10",
-  "dateModified": "2026-02-10",
-  "mainEntityOfPage": "https://www.gethoneydew.app/blog/ourhome-vs-honeydew-comparison-2026",
-  "keywords": "ourhome vs honeydew, ourhome app review, ourhome alternative, family chore app comparison, best family organizer app, honeydew vs ourhome, ourhome family organizer",
-  "articleSection": "Comparison"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "OurHome vs Honeydew (2026): Chore Charts vs AI Family Planning",
+ "description": "Compare OurHome and Honeydew family apps. OurHome focuses on gamified chores; Honeydew offers AI planning. We break down features, pricing, and which app fits your family's needs.",
+ "image": "https://www.gethoneydew.app/og-image-ai.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://www.gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2026-02-10",
+ "dateModified": "2026-02-10",
+ "mainEntityOfPage": "https://www.gethoneydew.app/blog/ourhome-vs-honeydew-comparison-2026",
+ "keywords": "ourhome vs honeydew, ourhome app review, ourhome alternative, family chore app comparison, best family organizer app, honeydew vs ourhome, ourhome family organizer",
+ "articleSection": "Comparison"
 }
 ```
 
@@ -479,14 +479,14 @@ If you want a system that **plans** and not just stores, choose Honeydew. If you
 ## Quick Decision Tree
 
 1. **Do you want AI to plan, not just store?**
-   - Yes → Honeydew
-   - No → Basic shared calendar
+ - Yes → Honeydew
+ - No → Basic shared calendar
 2. **Do you need multi-household or co-parenting support?**
-   - Yes → Honeydew
-   - No → Either option
+ - Yes → Honeydew
+ - No → Either option
 3. **Do you need voice or photo capture?**
-   - Yes → Honeydew
-   - No → Any standard app works
+ - Yes → Honeydew
+ - No → Any standard app works
 
 ---
 

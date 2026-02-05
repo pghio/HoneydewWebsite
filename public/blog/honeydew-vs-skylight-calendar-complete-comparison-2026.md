@@ -76,10 +76,10 @@ The pitch is simple: Put a beautiful 15" or 27" touchscreen on your kitchen wall
 
 **Subscription:**
 - Skylight Plus: $49.99/year ($4.17/month)
-  - Required for most features
-  - Multiple calendar sync
-  - Chore assignments
-  - Photo display
+ - Required for most features
+ - Multiple calendar sync
+ - Chore assignments
+ - Photo display
 
 **First Year Total Cost:**
 - 15" with Plus: $429
@@ -299,7 +299,7 @@ The irony: You buy a $400 calendar to help coordinate your busy family, but you 
 **Skylight Calendar's Lists:**
 - ⚠️ Basic chore charts only
 - ❌ No grocery lists
-- ❌ No packing lists  
+- ❌ No packing lists 
 - ❌ No project lists
 - ❌ No AI generation
 - ❌ Cannot attach lists to calendar events
@@ -413,7 +413,7 @@ Want a kitchen display AND full functionality? Here's the $50 solution:
 
 **Honeydew's Time Savings:**
 - AI planning: ~2 hours/week saved
-- Voice input: ~1 hour/week saved  
+- Voice input: ~1 hour/week saved 
 - Coordination elimination: ~1 hour/week saved
 - Smart suggestions: ~30 min/week saved
 - **Total: 4.5+ hours/week = 234 hours/year**
@@ -445,11 +445,11 @@ Cost: $429 first year ($50/year ongoing)
 - Beautiful display in kitchen looks great
 - Kids can see the week's schedule when eating breakfast
 - **But:**
-  - Can't add items from the office when schedule changes
-  - Can't coordinate while commuting
-  - No AI to help plan activities
-  - When either parent travels, Skylight is useless
-  - Still doing 100% of planning work manually
+ - Can't add items from the office when schedule changes
+ - Can't coordinate while commuting
+ - No AI to help plan activities
+ - When either parent travels, Skylight is useless
+ - Still doing 100% of planning work manually
 - **Time saved:** ~2 hours/week (better visibility at home)
 
 **With Honeydew:**
@@ -474,9 +474,9 @@ Cost: $429 first year ($50/year ongoing)
 - Large display easy to glance at while multitasking
 - Nice photo display when not viewing calendar
 - **But:**
-  - Hands often full with kids—can't touch screen
-  - Can't add items from backyard, playroom, or car
-  - No AI to help plan meals or activities
+ - Hands often full with kids—can't touch screen
+ - Can't add items from backyard, playroom, or car
+ - No AI to help plan meals or activities
 - **Time saved:** ~3 hours/week
 
 **With Honeydew:**
@@ -557,9 +557,9 @@ Cost: $429 first year ($50/year ongoing)
 - More features than they need
 - AI capabilities feel like overkill
 - **But:**
-  - Could coordinate with adult kids and grandkids via multi-family
-  - Useful when traveling (they travel often)
-  - Voice control is actually easier than navigating menus
+ - Could coordinate with adult kids and grandkids via multi-family
+ - Useful when traveling (they travel often)
+ - Voice control is actually easier than navigating menus
 
 **Winner for Empty Nesters: Skylight** (slight edge) — If visual simplicity at home is the primary need and travel coordination isn't important, Skylight's dedicated display fits their lifestyle. However, if they travel frequently or want to coordinate with grandkids, Honeydew becomes more valuable.
 

@@ -105,16 +105,16 @@ Related: **[Best smart display alternatives](/blog/best-smart-display-alternativ
 
 ## Decision framework: pick your Mango Display alternative
 
-1) **I want a pretty dashboard and I enjoy tinkering.**  
+1) **I want a pretty dashboard and I enjoy tinkering.** 
 → Mango can still be right. If you’re switching, look at **Hearth** (premium) or a **tablet dashboard** setup.
 
-2) **I want less weekly planning work.**  
+2) **I want less weekly planning work.** 
 → Choose **tablet + family app** (software-first).
 
-3) **I want a wall calendar and nothing else.**  
+3) **I want a wall calendar and nothing else.** 
 → Choose **Skylight**.
 
-4) **I want voice and smart home controls on the wall.**  
+4) **I want voice and smart home controls on the wall.** 
 → Choose **Echo Show / Nest Hub** (or Hearth if you want premium).
 
 ---
@@ -131,8 +131,8 @@ Related: **[Best smart display alternatives](/blog/best-smart-display-alternativ
 
 ## TikTok / Reels script ideas
 
-1) “A dashboard doesn’t organize your family. A workflow does.”  
-2) “Here’s how to replace a $400 display with a $25 mount and better software.”  
+1) “A dashboard doesn’t organize your family. A workflow does.” 
+2) “Here’s how to replace a $400 display with a $25 mount and better software.” 
 3) “Pick your family command center in 30 seconds: Skylight vs Mango vs tablet.”
 
 

@@ -80,9 +80,9 @@ Honeydew transforms Fair Play from a static system into a dynamic, AI-powered co
 1. **Open Honeydew** and tap the **family group selector** in the top navigation bar
 2. **Create "Fair Play Household"** as your main coordination group
 3. **Add Individual Spaces** for each partner:
-   - "Sarah's Personal" (private to Sarah)
-   - "Mike's Personal" (private to Mike)
-   - "Shared Family" (visible to both)
+ - "Sarah's Personal" (private to Sarah)
+ - "Mike's Personal" (private to Mike)
+ - "Shared Family" (visible to both)
 4. **Configure Privacy Settings** so each partner only sees their assigned cards and shared items
 
 **Pro Tip**: Use Honeydew's **one-tap switching** between "Family Coordination" and "My Personal" views to maintain the right balance of transparency and privacy.
@@ -340,10 +340,10 @@ The Conception phase is where you and your partner decide how each card will wor
 - **Fairness Perception**: Significantly more equal division of labor
 
 ### Relationship Impact Metrics
-- **Coordination Texts/Calls**: 90% reduction (from 50/week to 5/week)
+- **Coordination Texts/Calls**: significant reduction
 - **Forgotten Tasks**: 100% elimination
 - **Arguments About Tasks**: 85% reduction
-- **Date Nights**: 150% increase (from 1/month to 2.5/month)
+- **Date Nights**: substantial increase
 
 ---
 
@@ -563,7 +563,7 @@ A: Most couples report 40-50% mental load reduction within the first 30 days. By
 A: The voice-first interface means you can use the entire system by just talking. No complex setup or technical skills required.
 
 **Q: Can single parents use this system?**
-A: Yes! The AI becomes your coordination partner. Single parents report 65% mental load reduction and significantly reduced stress.
+A: Yes! The AI becomes your coordination partner. Single parents find significant mental load reduction when they have an AI assistant handling the coordination overhead that would otherwise fall entirely on them.
 
 ---
 

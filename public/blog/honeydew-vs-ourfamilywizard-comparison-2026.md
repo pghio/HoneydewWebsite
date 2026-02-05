@@ -506,17 +506,17 @@ For some families, using both apps together provides the best of both worlds:
 **Example Workflow:**
 
 1. **Formal Request (OurFamilyWizard):**
-   "I'd like to swap weekends due to work travel. Can we do Feb 8-10 instead of Feb 1-3?"
+ "I'd like to swap weekends due to work travel. Can we do Feb 8-10 instead of Feb 1-3?"
 
 2. **Documented Agreement (OurFamilyWizard):**
-   "Yes, that works. Confirmed."
+ "Yes, that works. Confirmed."
 
 3. **Actual Coordination (Honeydew):**
-   - Update custody calendar
-   - Notify grandma about changed pickup schedule
-   - Adjust packing list for longer trip
-   - Create preparation reminders
-   - Coordinate carpool changes
+ - Update custody calendar
+ - Notify grandma about changed pickup schedule
+ - Adjust packing list for longer trip
+ - Create preparation reminders
+ - Coordinate carpool changes
 
 **Combined cost:** ~$379/year
 **Value:** Legal protection + efficient daily coordination

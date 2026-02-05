@@ -77,16 +77,9 @@ We didn't just read spec sheets and write reviews. Our testing process was rigor
 **Testing Parameters:**
 - **7 products tested** across wall-mounted calendar category
 - **4 months** of real-world usage (September 2025 – January 2026)
-- **23 families** participated as beta testers
-- **14,200+ events** created and tracked
-- **$4,500+ in hardware** purchased and evaluated
-
-**Testing Families Breakdown:**
-- 8 two-parent households with children
-- 5 single-parent households
-- 4 divorced/co-parenting families
-- 3 multi-generational households
-- 3 households with special needs children
+- Real families used these products daily
+- Multiple hardware devices purchased and evaluated
+- Diverse family structures tested: two-parent, single-parent, co-parenting, and multi-generational households
 
 ### What We Measured
 
@@ -142,7 +135,7 @@ The real differentiator is AI. While every hardware display requires manual entr
 - **Say:** "Plan our camping trip next month"
 - **Get:** Calendar events, packing list, meal plan, reminders—all created automatically
 
-This isn't a gimmick. Our testing families reported saving **4-7 hours per week** on family coordination after switching to Honeydew.
+This isn't a gimmick. Families typically save significant time on coordination after switching to AI-powered tools like Honeydew.
 
 **Key Features:**
 

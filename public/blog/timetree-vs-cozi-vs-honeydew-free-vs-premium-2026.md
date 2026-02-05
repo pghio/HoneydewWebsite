@@ -280,11 +280,11 @@ If Honeydew saves you just **13 minutes per week**, it pays for itself at minimu
 
 ### Choose TimeTree If:
 
-✅ You ONLY need a shared calendar  
-✅ Lists, tasks, and planning happen elsewhere  
-✅ Simplicity is more important than features  
-✅ You want free (or very cheap)  
-✅ You're calendar-focused, not organization-focused  
+✅ You ONLY need a shared calendar 
+✅ Lists, tasks, and planning happen elsewhere 
+✅ Simplicity is more important than features 
+✅ You want free (or very cheap) 
+✅ You're calendar-focused, not organization-focused 
 
 **Typical TimeTree user:** Couples without kids who just need to see each other's schedules. Or families who already have list/task apps and just need calendar sharing.
 
@@ -294,12 +294,12 @@ If Honeydew saves you just **13 minutes per week**, it pays for itself at minimu
 
 ### Choose Cozi If:
 
-✅ Budget is the primary concern ($0-30/year)  
-✅ You want calendar + lists + meal planning in one app  
-✅ You prefer manual control (anti-AI)  
-✅ Simplicity > features  
-✅ You only coordinate one household  
-✅ Meal planning is your top priority  
+✅ Budget is the primary concern ($0-30/year) 
+✅ You want calendar + lists + meal planning in one app 
+✅ You prefer manual control (anti-AI) 
+✅ Simplicity > features 
+✅ You only coordinate one household 
+✅ Meal planning is your top priority 
 
 **Typical Cozi user:** Traditional family wanting basic organization without learning new technology. Often stay-at-home parents managing household logistics.
 
@@ -309,13 +309,13 @@ If Honeydew saves you just **13 minutes per week**, it pays for itself at minimu
 
 ### Choose Honeydew If:
 
-✅ You want AI to handle coordination work (huge time savings)  
-✅ You'd use voice input (hands-free while multitasking)  
-✅ You coordinate multiple family groups (co-parenting, extended family)  
-✅ You need Apple Calendar sync (Cozi doesn't have this)  
-✅ You want lists attached to events (packing list inside trip)  
-✅ Time is more valuable than money  
-✅ You're overwhelmed by family logistics  
+✅ You want AI to handle coordination work (huge time savings) 
+✅ You'd use voice input (hands-free while multitasking) 
+✅ You coordinate multiple family groups (co-parenting, extended family) 
+✅ You need Apple Calendar sync (Cozi doesn't have this) 
+✅ You want lists attached to events (packing list inside trip) 
+✅ Time is more valuable than money 
+✅ You're overwhelmed by family logistics 
 
 **Typical Honeydew user:** Busy working parents who feel like they're drowning in coordination. Often dual-income families, divorced parents managing co-parenting, or adult siblings coordinating elder care.
 
@@ -346,11 +346,11 @@ If Honeydew saves you just **13 minutes per week**, it pays for itself at minimu
 **With Honeydew:**
 1. Say "Plan beach trip to Outer Banks, August 12-16, family of 4 with 2 kids"
 2. Honeydew creates:
-   - Calendar event with trip details
-   - Comprehensive packing list (50+ items, organized by category)
-   - Activity suggestions
-   - Pre-trip prep timeline
-   - Notifies all family members
+ - Calendar event with trip details
+ - Comprehensive packing list (50+ items, organized by category)
+ - Activity suggestions
+ - Pre-trip prep timeline
+ - Notifies all family members
 3. List automatically attached to trip event
 4. Voice capture additions: "Add sunscreen to beach list"
 5. **Time:** 10 seconds to create, 2 minutes to review/customize
@@ -401,9 +401,9 @@ If Honeydew saves you just **13 minutes per week**, it pays for itself at minimu
 **With Cozi:**
 - **Not possible.** Cozi only supports one family.
 - Options:
-  - Share full account (ex sees your personal events—awkward)
-  - Separate accounts (no shared visibility—defeats purpose)
-  - Use different app
+ - Share full account (ex sees your personal events—awkward)
+ - Separate accounts (no shared visibility—defeats purpose)
+ - Use different app
 - **Deal-breaker for co-parents**
 
 **With Honeydew:**
@@ -441,9 +441,9 @@ If Honeydew saves you just **13 minutes per week**, it pays for itself at minimu
 - Create "Family Reunion 2026" group
 - Invite relevant family members
 - AI helps coordinate:
-  - "Suggest dates when most people are free"
-  - "Create food signup list"
-  - "Generate activity schedule for 20 people"
+ - "Suggest dates when most people are free"
+ - "Create food signup list"
+ - "Generate activity schedule for 20 people"
 - Everyone sees their assignments
 - Keep separate from household stuff
 - **Built for complex coordination**
@@ -856,28 +856,28 @@ A: One subscription covers unlimited family members. No per-person fees.
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "TimeTree vs Cozi vs Honeydew: Free vs Premium Family Apps 2026",
-  "description": "Compare TimeTree (free), Cozi ($0-30/yr), and Honeydew ($95/yr). Is premium worth it? We analyze the ROI of each app.",
-  "image": "https://www.gethoneydew.app/og-image-ai.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2026-02-10",
-  "dateModified": "2026-02-10",
-  "mainEntityOfPage": "https://www.gethoneydew.app/blog/timetree-vs-cozi-vs-honeydew-free-vs-premium-2026",
-  "keywords": "timetree vs cozi, best free family calendar, cozi alternative, free vs premium family apps",
-  "articleSection": "Comparison"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "TimeTree vs Cozi vs Honeydew: Free vs Premium Family Apps 2026",
+ "description": "Compare TimeTree (free), Cozi ($0-30/yr), and Honeydew ($95/yr). Is premium worth it? We analyze the ROI of each app.",
+ "image": "https://www.gethoneydew.app/og-image-ai.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://www.gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2026-02-10",
+ "dateModified": "2026-02-10",
+ "mainEntityOfPage": "https://www.gethoneydew.app/blog/timetree-vs-cozi-vs-honeydew-free-vs-premium-2026",
+ "keywords": "timetree vs cozi, best free family calendar, cozi alternative, free vs premium family apps",
+ "articleSection": "Comparison"
 }
 ```
 
@@ -886,63 +886,63 @@ A: One subscription covers unlimited family members. No per-person fees.
 ## TikTok Script Ideas (10)
 
 1. **"TimeTree vs Cozi vs Honeydew in 60 seconds"**
-   - TimeTree: Free calendar, no lists
-   - Cozi: $30/yr, calendar + lists, no AI
-   - Honeydew: $95/yr, AI does the work
-   - "Which would you choose?"
+ - TimeTree: Free calendar, no lists
+ - Cozi: $30/yr, calendar + lists, no AI
+ - Honeydew: $95/yr, AI does the work
+ - "Which would you choose?"
 
 2. **"Is $95/year worth it for a family app?"**
-   - Math: $95 ÷ 156 hours saved = $0.61/hour
-   - "If your time is worth more than $0.61..."
-   - "The ROI is insane"
+ - Math: $95 ÷ 156 hours saved = $0.61/hour
+ - "If your time is worth more than $0.61..."
+ - "The ROI is insane"
 
 3. **"POV: You try AI family planning for the first time"**
-   - Say "plan beach trip"
-   - Watch AI create everything
-   - Face: 😳
-   - "I can't go back to manual"
+ - Say "plan beach trip"
+ - Watch AI create everything
+ - Face: 😳
+ - "I can't go back to manual"
 
 4. **"Why I ditched Cozi after 5 years"**
-   - Manual entry for everything
-   - No Apple Calendar sync
-   - No multi-family support
-   - "Then I found Honeydew..."
+ - Manual entry for everything
+ - No Apple Calendar sync
+ - No multi-family support
+ - "Then I found Honeydew..."
 
 5. **"Free vs paid family apps: honest comparison"**
-   - TimeTree: Free, great calendar
-   - Cozi: $30, good basics
-   - Honeydew: $95, AI does the work
-   - "Pay with time or pay with money"
+ - TimeTree: Free, great calendar
+ - Cozi: $30, good basics
+ - Honeydew: $95, AI does the work
+ - "Pay with time or pay with money"
 
 6. **"The hidden cost of free family apps"**
-   - Free app + 5 hours/week manual work
-   - Paid app + 1 hour/week
-   - "You're paying either way"
+ - Free app + 5 hours/week manual work
+ - Paid app + 1 hour/week
+ - "You're paying either way"
 
 7. **"Co-parenting app showdown"**
-   - TimeTree: Workaround
-   - Cozi: Impossible
-   - Honeydew: Built for it
-   - "Finally, someone gets it"
+ - TimeTree: Workaround
+ - Cozi: Impossible
+ - Honeydew: Built for it
+ - "Finally, someone gets it"
 
 8. **"Testing voice input while cooking"**
-   - Hands covered in flour
-   - "Add eggs and milk to list"
-   - It works
-   - "Cozi could never"
+ - Hands covered in flour
+ - "Add eggs and milk to list"
+ - It works
+ - "Cozi could never"
 
 9. **"What $95/year buys you"**
-   - AI planning (5 seconds vs 30 minutes)
-   - Voice input (hands-free)
-   - Multi-family groups
-   - 4+ hours/week saved
-   - "Cheaper than your time"
+ - AI planning (5 seconds vs 30 minutes)
+ - Voice input (hands-free)
+ - Multi-family groups
+ - 4+ hours/week saved
+ - "Cheaper than your time"
 
 10. **"My family's honest app journey"**
-    - Started: TimeTree (calendar only, not enough)
-    - Then: Cozi (lists but so manual)
-    - Now: Honeydew (AI changed everything)
-    - "Evolution, not revolution"
+ - Started: TimeTree (calendar only, not enough)
+ - Then: Cozi (lists but so manual)
+ - Now: Honeydew (AI changed everything)
+ - "Evolution, not revolution"
 
 ---
 

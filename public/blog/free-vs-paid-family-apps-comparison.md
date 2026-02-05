@@ -198,7 +198,7 @@ featured: true
 
 ---
 
-**Better than Google Calendar by:** $3,158-4,118/year  
+**Better than Google Calendar by:** $3,158-4,118/year 
 **But still expensive in time**
 
 ---
@@ -797,7 +797,7 @@ But Cozi Gold doesn't save much time (no AI), so ROI is modest.
 **For time-conscious families:**
 **Free is expensive. Paid AI is cheap.**
 
-**The question isn't whether you can afford $7.99/month.**  
+**The question isn't whether you can afford $7.99/month.** 
 **The question is whether you can afford to waste $6,000-10,000/year.**
 
 ---
@@ -823,25 +823,25 @@ But Cozi Gold doesn't save much time (no AI), so ROI is modest.
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Free vs Paid Family Apps: Complete Cost-Benefit Analysis 2025",
-  "description": "Comprehensive cost-benefit analysis of free vs paid family organization apps, including real ROI calculations and decision frameworks.",
-  "image": "https://gethoneydew.app/blog-images/free-vs-paid-apps.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2025-12-23",
-  "dateModified": "2025-12-23"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Free vs Paid Family Apps: Complete Cost-Benefit Analysis 2025",
+ "description": "Comprehensive cost-benefit analysis of free vs paid family organization apps, including real ROI calculations and decision frameworks.",
+ "image": "https://gethoneydew.app/blog-images/free-vs-paid-apps.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2025-12-23",
+ "dateModified": "2025-12-23"
 }
 ```
 

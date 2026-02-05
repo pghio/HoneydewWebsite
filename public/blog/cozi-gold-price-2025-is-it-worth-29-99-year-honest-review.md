@@ -156,7 +156,7 @@ For most families, the answer is **yes**. Honeydew's AI saves 3-5 hours/week—t
 | **Modern Design** | ❌ Dated | ✅ 2024 |
 | **No Ads** | ✅ | ✅ |
 
-**Cozi Gold wins:** Dedicated meal planning view  
+**Cozi Gold wins:** Dedicated meal planning view 
 **Honeydew Premium wins:** Everything else (13 categories)
 
 ---
@@ -186,25 +186,25 @@ For most families, the answer is **yes**. Honeydew's AI saves 3-5 hours/week—t
 ## When to Choose Cozi Gold vs Honeydew
 
 ### Choose Cozi Gold ($30/year) If:
-✅ Meal planning is your #1 priority (Cozi's best feature)  
-✅ You want the absolute simplest app  
-✅ Budget is extremely tight  
-✅ You have a single-family household  
-✅ You don't need AI, voice, or automation  
+✅ Meal planning is your #1 priority (Cozi's best feature) 
+✅ You want the absolute simplest app 
+✅ Budget is extremely tight 
+✅ You have a single-family household 
+✅ You don't need AI, voice, or automation 
 ✅ You've used Cozi for years and it works for you
 
 ### Choose Honeydew Premium ($96/year) If:
-✅ You want AI to reduce coordination overhead  
-✅ Voice control matters (multitasking parents)  
-✅ You have divorced/separated co-parents  
-✅ You coordinate extended family (grandparents, siblings)  
-✅ Two-way calendar sync is important  
-✅ You value modern features and design  
+✅ You want AI to reduce coordination overhead 
+✅ Voice control matters (multitasking parents) 
+✅ You have divorced/separated co-parents 
+✅ You coordinate extended family (grandparents, siblings) 
+✅ Two-way calendar sync is important 
+✅ You value modern features and design 
 ✅ Time savings justify the extra cost
 
 ### Choose Honeydew Free If:
-✅ You want to try AI features without paying  
-✅ 50 AI requests/month is enough  
+✅ You want to try AI features without paying 
+✅ 50 AI requests/month is enough 
 ✅ Multi-family support is essential but budget is tight
 
 ---

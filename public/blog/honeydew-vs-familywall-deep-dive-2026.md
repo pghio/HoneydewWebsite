@@ -260,10 +260,10 @@ Most families have work calendars in Google or Outlook, personal events in Apple
 - Cross-group coordination for holidays/events
 - Privacy by default (groups don't see each other)
 - Perfect for:
-  - Divorced/separated parents
-  - Extended family coordination
-  - Multi-generational households
-  - Friend group coordination
+ - Divorced/separated parents
+ - Extended family coordination
+ - Multi-generational households
+ - Friend group coordination
 
 **FamilyWall: ⚠️ Single Primary Family**
 - Designed around one primary family unit
@@ -857,67 +857,67 @@ The AI automation, voice control, and multi-family architecture represent the fu
 ## TikTok Script Ideas (10 videos)
 
 1. **"FamilyWall is great for location... but organization? 🤔"** (45 sec)
-   - Show: Know where kids are ✅
-   - Show: AI planning? ❌
-   - Show: Voice control? ❌
-   - "It's a location app, not an organizer"
+ - Show: Know where kids are ✅
+ - Show: AI planning? ❌
+ - Show: Voice control? ❌
+ - "It's a location app, not an organizer"
 
 2. **"POV: You add an event in FamilyWall vs Honeydew"** (60 sec)
-   - Split screen
-   - FamilyWall: tap, type, tap, type, save
-   - Honeydew: "Add soccer practice Wednesdays at 4"
-   - Done in 3 seconds
-   - "Welcome to 2026"
+ - Split screen
+ - FamilyWall: tap, type, tap, type, save
+ - Honeydew: "Add soccer practice Wednesdays at 4"
+ - Done in 3 seconds
+ - "Welcome to 2026"
 
 3. **"Why I use TWO family apps 📱📱"** (45 sec)
-   - FamilyWall for: Teen location, peace of mind
-   - Honeydew for: AI planning, lists, voice control
-   - "Different tools, different jobs"
-   - "Best of both worlds"
+ - FamilyWall for: Teen location, peace of mind
+ - Honeydew for: AI planning, lists, voice control
+ - "Different tools, different jobs"
+ - "Best of both worlds"
 
 4. **"FamilyWall review: The honest truth"** (60 sec)
-   - Location tracking: 10/10
-   - Calendar: 5/10
-   - Lists: 4/10
-   - AI: 0/10
-   - "Know what you're getting"
+ - Location tracking: 10/10
+ - Calendar: 5/10
+ - Lists: 4/10
+ - AI: 0/10
+ - "Know what you're getting"
 
 5. **"My parents love FamilyWall. I love Honeydew."** (45 sec)
-   - Parents: Simple, location, messaging
-   - Me: AI, voice, automation
-   - "Different generations, different needs"
-   - Both valid
+ - Parents: Simple, location, messaging
+ - Me: AI, voice, automation
+ - "Different generations, different needs"
+ - Both valid
 
 6. **"Creating a back-to-school list in 2026"** (60 sec)
-   - FamilyWall: Type 50 items manually (time lapse)
-   - Honeydew: "Create back to school list for two kids"
-   - AI generates everything
-   - "8 seconds vs 25 minutes"
+ - FamilyWall: Type 50 items manually (time lapse)
+ - Honeydew: "Create back to school list for two kids"
+ - AI generates everything
+ - "8 seconds vs 25 minutes"
 
 7. **"The problem with FamilyWall for divorced parents"** (45 sec)
-   - Single family design
-   - No household separation
-   - Ex sees everything or nothing
-   - "Honeydew's multi-family fixed this"
+ - Single family design
+ - No household separation
+ - Ex sees everything or nothing
+ - "Honeydew's multi-family fixed this"
 
 8. **"Location apps vs Organization apps: Know the difference"** (30 sec)
-   - Life360/FamilyWall = WHERE is my family
-   - Honeydew = WHAT is my family doing
-   - "You might need both"
+ - Life360/FamilyWall = WHERE is my family
+ - Honeydew = WHAT is my family doing
+ - "You might need both"
 
 9. **"FamilyWall at $5/month vs Honeydew at $10/month"** (60 sec)
-   - FamilyWall: Location + basic calendar
-   - Honeydew: AI saves 4 hours/week
-   - 4 hours × 52 = 208 hours/year
-   - Extra $60/year for 200 hours
-   - "$0.30 per hour saved"
+ - FamilyWall: Location + basic calendar
+ - Honeydew: AI saves 4 hours/week
+ - 4 hours × 52 = 208 hours/year
+ - Extra $60/year for 200 hours
+ - "$0.30 per hour saved"
 
 10. **"What I wish FamilyWall had in 2026"** (45 sec)
-    - Voice control 🎤
-    - AI planning 🤖
-    - Two-way calendar sync 📅
-    - Multi-family groups 👨‍👩‍👧‍👦
-    - "Basically... Honeydew features"
+ - Voice control 🎤
+ - AI planning 🤖
+ - Two-way calendar sync 📅
+ - Multi-family groups 👨‍👩‍👧‍👦
+ - "Basically... Honeydew features"
 
 ---
 

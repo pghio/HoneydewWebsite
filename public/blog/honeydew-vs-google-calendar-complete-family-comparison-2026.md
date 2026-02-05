@@ -65,13 +65,13 @@ Most "vs" comparisons position apps as competitors. But Honeydew and Google Cale
 1. **Google Calendar** stays your universal calendar (work, personal, everything)
 2. **Honeydew** connects via two-way sync (every 15 minutes)
 3. **Changes flow both directions:**
-   - Create event in Honeydew → appears in Google Calendar
-   - Create event in Google Calendar → appears in Honeydew
+ - Create event in Honeydew → appears in Google Calendar
+ - Create event in Google Calendar → appears in Honeydew
 4. **Honeydew adds the features Google Calendar lacks:**
-   - AI that plans for you
-   - Voice control while multitasking
-   - Lists attached to calendar events
-   - Multi-family groups with instant switching
+ - AI that plans for you
+ - Voice control while multitasking
+ - Lists attached to calendar events
+ - Multi-family groups with instant switching
 
 ### Why This Matters
 
@@ -589,9 +589,9 @@ This isn't migration—it's **augmentation**. You're not leaving Google Calendar
 
 - Continue using Google Calendar normally
 - Test Honeydew AI features:
-  - "Create packing list for weekend trip"
-  - "Plan dinner party for Saturday"
-  - "Schedule soccer practice Tuesdays at 4pm"
+ - "Create packing list for weekend trip"
+ - "Plan dinner party for Saturday"
+ - "Schedule soccer practice Tuesdays at 4pm"
 - Notice: Events appear in both apps automatically
 
 ### Week 3: Shift Primary Coordination

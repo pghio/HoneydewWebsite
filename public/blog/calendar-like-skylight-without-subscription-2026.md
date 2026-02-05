@@ -258,10 +258,10 @@ A $100 tablet + free family app gives you:
 **With Honeydew:**
 - **Input:** "Plan next week with soccer Tue/Thu, dentist Friday, and grocery list for lunches."
 - **Output (seconds):**
-  - ✅ Events added to calendars
-  - ✅ Grocery list generated and shared
-  - ✅ Reminders assigned to household owners
-  - ✅ Conflicts flagged automatically
+ - ✅ Events added to calendars
+ - ✅ Grocery list generated and shared
+ - ✅ Reminders assigned to household owners
+ - ✅ Conflicts flagged automatically
 
 **Time saved:** 2-4 hours/week for a typical busy family.
 
@@ -317,28 +317,28 @@ A: Yes. Honeydew syncs both Google and Apple calendars bi-directionally, so you 
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Calendar Like Skylight Without Subscription (2026): Free & Low-Cost Alternatives",
-  "description": "Want a family calendar display like Skylight but without the $79/year subscription? Here are the best subscription-free alternatives, from DIY tablet setups to one-time-purchase displays.",
-  "image": "https://www.gethoneydew.app/og-image-ai.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2026-01-20",
-  "dateModified": "2026-01-20",
-  "mainEntityOfPage": "https://www.gethoneydew.app/blog/calendar-like-skylight-without-subscription-2026",
-  "keywords": "calendar like skylight without subscription, skylight alternative no subscription, skylight calendar alternative free, family calendar no subscription, skylight calendar free alternative, wall calendar without subscription",
-  "articleSection": "Comparison"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Calendar Like Skylight Without Subscription (2026): Free & Low-Cost Alternatives",
+ "description": "Want a family calendar display like Skylight but without the $79/year subscription? Here are the best subscription-free alternatives, from DIY tablet setups to one-time-purchase displays.",
+ "image": "https://www.gethoneydew.app/og-image-ai.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://www.gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2026-01-20",
+ "dateModified": "2026-01-20",
+ "mainEntityOfPage": "https://www.gethoneydew.app/blog/calendar-like-skylight-without-subscription-2026",
+ "keywords": "calendar like skylight without subscription, skylight alternative no subscription, skylight calendar alternative free, family calendar no subscription, skylight calendar free alternative, wall calendar without subscription",
+ "articleSection": "Comparison"
 }
 ```
 
@@ -460,14 +460,14 @@ If you want a system that **plans** and not just stores, choose Honeydew. If you
 ## Quick Decision Tree
 
 1. **Do you want AI to plan, not just store?**
-   - Yes → Honeydew
-   - No → Basic shared calendar
+ - Yes → Honeydew
+ - No → Basic shared calendar
 2. **Do you need multi-household or co-parenting support?**
-   - Yes → Honeydew
-   - No → Either option
+ - Yes → Honeydew
+ - No → Either option
 3. **Do you need voice or photo capture?**
-   - Yes → Honeydew
-   - No → Any standard app works
+ - Yes → Honeydew
+ - No → Any standard app works
 
 ---
 

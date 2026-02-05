@@ -41,24 +41,24 @@ Each takes a fundamentally different approach to family organization. Let's brea
 
 ## Skylight Calendar: The Budget Hardware Option
 
-**Price:** $299 hardware + $79/year for Plus features  
+**Price:** $299 hardware + $79/year for Plus features 
 **What it is:** A 15" touchscreen display that mounts on your wall
 
 ### What Skylight Does Well
 
-✅ **Simple setup** — Mount, connect WiFi, sync calendars  
-✅ **Family photo display** — Shows photos when not viewing calendar  
-✅ **Color-coded family members** — Each person gets their color  
-✅ **Reliable and focused** — Does one thing: calendar display  
+✅ **Simple setup** — Mount, connect WiFi, sync calendars 
+✅ **Family photo display** — Shows photos when not viewing calendar 
+✅ **Color-coded family members** — Each person gets their color 
+✅ **Reliable and focused** — Does one thing: calendar display 
 ✅ **Established brand** — Been around since 2019, refined product
 
 ### Skylight's Limitations
 
-❌ **No AI or smart features** — Manual entry for everything  
-❌ **No voice control** — Must tap the screen  
-❌ **One-way calendar sync** — Changes don't flow back to Google/Apple  
-❌ **Single family only** — Can't manage divorced parent households  
-❌ **Fixed location** — Stays on your wall, doesn't travel  
+❌ **No AI or smart features** — Manual entry for everything 
+❌ **No voice control** — Must tap the screen 
+❌ **One-way calendar sync** — Changes don't flow back to Google/Apple 
+❌ **Single family only** — Can't manage divorced parent households 
+❌ **Fixed location** — Stays on your wall, doesn't travel 
 ❌ **Subscription creep** — $79/year for features that should be included
 
 ### Who Should Choose Skylight
@@ -74,24 +74,24 @@ Each takes a fundamentally different approach to family organization. Let's brea
 
 ## Hearth Display: The Premium Hardware Choice
 
-**Price:** $549-$699 hardware + optional subscription  
+**Price:** $549-$699 hardware + optional subscription 
 **What it is:** A gorgeous 27" touchscreen smart home hub
 
 ### What Hearth Does Well
 
-✅ **Stunning design** — 27" display looks like wall art  
-✅ **Smart home integration** — Controls Nest, Ring, Sonos, etc.  
-✅ **Photo slideshow** — Beautiful digital frame mode  
-✅ **Premium build quality** — Looks and feels expensive (because it is)  
+✅ **Stunning design** — 27" display looks like wall art 
+✅ **Smart home integration** — Controls Nest, Ring, Sonos, etc. 
+✅ **Photo slideshow** — Beautiful digital frame mode 
+✅ **Premium build quality** — Looks and feels expensive (because it is) 
 ✅ **Customizable widgets** — Weather, calendar, photos, tasks
 
 ### Hearth's Limitations
 
-❌ **Extremely expensive** — $549-$699 upfront  
-❌ **No AI planning** — Still manual entry  
-❌ **No voice control** — Tap-only interface  
-❌ **Single family architecture** — Same limitation as Skylight  
-❌ **Wall-mounted only** — Not portable  
+❌ **Extremely expensive** — $549-$699 upfront 
+❌ **No AI planning** — Still manual entry 
+❌ **No voice control** — Tap-only interface 
+❌ **Single family architecture** — Same limitation as Skylight 
+❌ **Wall-mounted only** — Not portable 
 ❌ **Limited family features** — Smart home focus > family coordination
 
 ### Who Should Choose Hearth
@@ -107,25 +107,25 @@ Each takes a fundamentally different approach to family organization. Let's brea
 
 ## Honeydew: The AI-Powered Software Alternative
 
-**Price:** Free tier, or Premium at $7.99/month ($95.88/year)  
+**Price:** Free tier, or Premium at $7.99/month ($95.88/year) 
 **What it is:** An AI-powered family organization app for all your devices
 
 ### What Honeydew Does Well
 
-✅ **AI agent with 27+ tools** — "Plan our camping trip" → done in seconds  
-✅ **Voice control** — Whisper AI at >>95% accuracy  
-✅ **Multi-family groups** — Divorced parents, extended family, friend groups  
-✅ **Two-way calendar sync** — Google/Apple changes flow both directions  
-✅ **Works everywhere** — Phone, tablet, computer, any screen  
-✅ **Photo/OCR input** — Snap a handwritten list, it's digitized  
-✅ **Real-time collaboration** — <50ms updates via WebSocket  
+✅ **AI agent with 27+ tools** — "Plan our camping trip" → done in seconds 
+✅ **Voice control** — Whisper AI at >>95% accuracy 
+✅ **Multi-family groups** — Divorced parents, extended family, friend groups 
+✅ **Two-way calendar sync** — Google/Apple changes flow both directions 
+✅ **Works everywhere** — Phone, tablet, computer, any screen 
+✅ **Photo/OCR input** — Snap a handwritten list, it's digitized 
+✅ **Real-time collaboration** — <50ms updates via WebSocket 
 ✅ **Knowledge graph learning** — Gets smarter over time
 
 ### Honeydew's Limitations
 
-❌ **No dedicated hardware** — Must use your own devices  
-❌ **No wall display** — Unless you mount a tablet  
-❌ **Learning curve** — AI features take time to master  
+❌ **No dedicated hardware** — Must use your own devices 
+❌ **No wall display** — Unless you mount a tablet 
+❌ **Learning curve** — AI features take time to master 
 ❌ **Requires internet** — For real-time features
 
 ### Who Should Choose Honeydew
@@ -359,7 +359,7 @@ This is why **software-first approaches like Honeydew can iterate faster** than 
 3. Install Honeydew (free-$7.99/mo)
 4. Use always-on display mode
 
-**Total cost:** $120-550 + $0-96/yr  
+**Total cost:** $120-550 + $0-96/yr 
 **Features:** Everything Skylight has + AI + voice + multi-family
 
 This "DIY family hub" approach gives you the best of both worlds.
@@ -386,25 +386,25 @@ All three have acceptable support. Hardware companies (Skylight, Hearth) have mo
 ## Bottom Line: Which Should You Choose?
 
 ### Choose Skylight Calendar if:
-✅ You specifically want a dedicated wall display  
-✅ Budget is moderate ($300-500 total)  
-✅ Simple needs: calendar + photos  
-✅ Single-family household  
+✅ You specifically want a dedicated wall display 
+✅ Budget is moderate ($300-500 total) 
+✅ Simple needs: calendar + photos 
+✅ Single-family household 
 ✅ Don't need AI or voice control
 
 ### Choose Hearth Display if:
-✅ Design and aesthetics are top priority  
-✅ You're building a smart home hub  
-✅ Budget is not a concern ($700+)  
-✅ Single-family household  
+✅ Design and aesthetics are top priority 
+✅ You're building a smart home hub 
+✅ Budget is not a concern ($700+) 
+✅ Single-family household 
 ✅ Want the most premium hardware experience
 
 ### Choose Honeydew if:
-✅ You want AI to reduce coordination work  
-✅ Voice control is important (multitasking parents)  
-✅ You have a modern family structure (divorced, extended, multiple groups)  
-✅ Budget matters (free tier is genuinely useful)  
-✅ You value portability (phone always with you)  
+✅ You want AI to reduce coordination work 
+✅ Voice control is important (multitasking parents) 
+✅ You have a modern family structure (divorced, extended, multiple groups) 
+✅ Budget matters (free tier is genuinely useful) 
+✅ You value portability (phone always with you) 
 ✅ Two-way calendar sync is important
 
 ---

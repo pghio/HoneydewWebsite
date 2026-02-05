@@ -678,7 +678,7 @@ If your co-parenting relationship is cooperative, you don't need a specialized c
 
 ### Q: Is Honeydew worth paying for?
 
-**A:** At $7.99/month ($79/year), Honeydew pays for itself if it saves you 2+ hours per week in coordination time. Our testing families reported 4-7 hours saved weekly. Even splitting the Family plan ($149/year) between co-parents costs $1.44/week each—less than a coffee for significant time and stress savings.
+**A:** At $7.99/month ($79/year), Honeydew pays for itself if it saves you 2+ hours per week in coordination time. Families typically save significant time weekly on coordination overhead. Even splitting the Family plan ($149/year) between co-parents costs $1.44/week each—less than a coffee for meaningful time and stress savings.
 
 ---
 
@@ -844,22 +844,22 @@ Don't overcomplicate things. Start simple and add tools only as needed.
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Best Apps for Divorced Parents 2026: Complete Guide by Category",
-  "description": "Comprehensive guide to apps for divorced parents in 2026, covering coordination, legal documentation, expense tracking, calendars, and communication.",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.gethoneydew.app/logo.png"
-    }
-  }
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Best Apps for Divorced Parents 2026: Complete Guide by Category",
+ "description": "Comprehensive guide to apps for divorced parents in 2026, covering coordination, legal documentation, expense tracking, calendars, and communication.",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://www.gethoneydew.app/logo.png"
+ }
+ }
 }
 ```
 

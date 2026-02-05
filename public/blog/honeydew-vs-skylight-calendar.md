@@ -114,10 +114,10 @@ This comprehensive comparison evaluates both solutions across every dimension th
 
 **Example:**
 - Kid brings home field trip permission slip → Photograph it → Honeydew extracts:
-  - Event: "Science Museum Field Trip"
-  - Date: March 15, 2025
-  - Items needed: Lunch, permission form, $10
-  - Creates calendar event + checklist automatically
+ - Event: "Science Museum Field Trip"
+ - Date: March 15, 2025
+ - Items needed: Lunch, permission form, $10
+ - Creates calendar event + checklist automatically
 
 **Skylight Calendar: ❌ No Photo Recognition**
 - Cannot process images
@@ -142,15 +142,15 @@ This comprehensive comparison evaluates both solutions across every dimension th
 
 **Skylight Calendar: ⚠️ Hardware Required**
 - **Requires buying physical hardware:**
-  - 15" Display: $179-$249
-  - 27" Display: $299-$399
+ - 15" Display: $179-$249
+ - 27" Display: $299-$399
 - Must mount on wall (installation required)
 - Requires power outlet nearby
 - Requires stable WiFi connection
 - **Limited mobile app:**
-  - Can view calendar
-  - Can add events
-  - **Cannot** access premium features without display
+ - Can view calendar
+ - Can add events
+ - **Cannot** access premium features without display
 - Useless while traveling (calendar is on your kitchen wall)
 - Takes up wall space
 
@@ -201,7 +201,7 @@ This comprehensive comparison evaluates both solutions across every dimension th
 **Skylight Calendar:**
 - ✅ Syncs with Google Calendar and Apple Calendar
 - ⚠️ One-way sync only (external calendars → Skylight)
-  - Changes in Skylight don't update Google/Apple
+ - Changes in Skylight don't update Google/Apple
 - ⚠️ Single family only
 - ❌ Can't attach lists to events
 - ❌ No smart scheduling
@@ -223,10 +223,10 @@ This comprehensive comparison evaluates both solutions across every dimension th
 - Cross-group coordination for holidays/events
 - Privacy by default (groups don't see each other)
 - Perfect for:
-  - Divorced/separated parents (coordinate across two households)
-  - Extended family care (siblings coordinating aging parent care)
-  - Multi-generational households
-  - Friend group coordination (trips, carpools)
+ - Divorced/separated parents (coordinate across two households)
+ - Extended family care (siblings coordinating aging parent care)
+ - Multi-generational households
+ - Friend group coordination (trips, carpools)
 
 **Real-world example:**
 - "Kids - Mom & Dad" group (both parents coordinate)
@@ -336,11 +336,11 @@ All managed in one app with instant group switching.
 - Beautiful wall display in kitchen
 - Can see upcoming events when home
 - **BUT:**
-  - Can't add items while at work or grocery store
-  - No AI to help plan or suggest
-  - No voice input while cooking
-  - Doesn't help with meal planning or grocery lists
-  - Screen is blank when they're away (which is most of the day)
+ - Can't add items while at work or grocery store
+ - No AI to help plan or suggest
+ - No voice input while cooking
+ - Doesn't help with meal planning or grocery lists
+ - Screen is blank when they're away (which is most of the day)
 - **Time saved:** ~2 hours/week (better visibility at home)
 
 **With Honeydew:**
@@ -371,9 +371,9 @@ All managed in one app with instant group switching.
 - Large display easy to glance at
 - Physical touchscreen feels tangible
 - **BUT:**
-  - Still no AI help planning activities
-  - No voice input (hands often full with kids)
-  - Can't add items from backyard, car, or other rooms
+ - Still no AI help planning activities
+ - No voice input (hands often full with kids)
+ - Can't add items from backyard, car, or other rooms
 - **Time saved:** ~3 hours/week
 
 **With Honeydew:**
@@ -410,8 +410,8 @@ All managed in one app with instant group switching.
 - Phone-based (prefer physical display)
 - AI feels like overkill
 - **BUT:**
-  - Could use for coordinating with adult kids and grandkids
-  - Useful while traveling (they travel often)
+ - Could use for coordinating with adult kids and grandkids
+ - Useful while traveling (they travel often)
 - **Time saved:** ~2 hours/week
 
 **Winner for Empty Nesters: Skylight** (simplicity + visual presence fits their lifestyle)
@@ -439,9 +439,9 @@ All managed in one app with instant group switching.
 **With Honeydew:**
 - One app for both parents
 - Multi-family architecture perfect for this:
-  - "Kids - Rachel & David" (shared coordination)
-  - "Rachel's Household" (her home only)
-  - "David's Household" (his home only)
+ - "Kids - Rachel & David" (shared coordination)
+ - "Rachel's Household" (her home only)
+ - "David's Household" (his home only)
 - Kids see everything on their own devices
 - Both parents update from anywhere
 - Seamless handoff coordination
@@ -470,7 +470,7 @@ All managed in one app with instant group switching.
 - Priority support
 - All future features included
 
-**First Year Cost:** $0-$99  
+**First Year Cost:** $0-$99 
 **5-Year Cost:** $0-$495
 
 **Hardware Required:** $0 (works on your existing devices)
@@ -489,7 +489,7 @@ All managed in one app with instant group switching.
 - Meal planner view (very basic)
 - Premium calendar features
 
-**First Year Cost:** $300 (hardware) + $79 (subscription) = **$379-$479**  
+**First Year Cost:** $300 (hardware) + $79 (subscription) = **$379-$479** 
 **5-Year Cost:** $300 (hardware) + $395 (5 years subscription) = **$695-$795**
 
 **Note:** If display breaks or you want upgrade, hardware cost repeats.
@@ -509,7 +509,7 @@ All managed in one app with instant group switching.
 - Smart suggestions: ~30 min/week saved
 - **Total: 4+ hours/week = 208 hours/year**
 
-**Value at $25/hour:** $5,200/year in reclaimed time  
+**Value at $25/hour:** $5,200/year in reclaimed time 
 **5-year value:** $26,000
 
 **Skylight's Time Savings:**
@@ -517,7 +517,7 @@ All managed in one app with instant group switching.
 - Quick glances: ~30 min/week saved
 - **Total: 1.5 hours/week = 78 hours/year**
 
-**Value at $25/hour:** $1,950/year in reclaimed time  
+**Value at $25/hour:** $1,950/year in reclaimed time 
 **5-year value:** $9,750
 
 **Honeydew wins:** 2.6x more time saved annually
@@ -529,36 +529,36 @@ All managed in one app with instant group switching.
 Despite Honeydew winning most categories, **Skylight Calendar is legitimately better for some families:**
 
 ### Choose Skylight Calendar if:
-✅ You specifically want a dedicated wall display in your kitchen  
-✅ Visual presence matters more than features  
-✅ You're home most of the time (don't need mobile coordination)  
-✅ You have simple needs (just calendar viewing)  
-✅ You have the budget for hardware ($379+ first year)  
-✅ Tech-averse and want physical interface  
-✅ Single family household (no divorced parents, no extended family coordination)  
-✅ Don't need AI, voice control, or advanced planning  
+✅ You specifically want a dedicated wall display in your kitchen 
+✅ Visual presence matters more than features 
+✅ You're home most of the time (don't need mobile coordination) 
+✅ You have simple needs (just calendar viewing) 
+✅ You have the budget for hardware ($379+ first year) 
+✅ Tech-averse and want physical interface 
+✅ Single family household (no divorced parents, no extended family coordination) 
+✅ Don't need AI, voice control, or advanced planning 
 
 ### Choose Honeydew if:
-✅ You want AI to do planning work for you  
-✅ Need voice and photo input for hands-free adding  
-✅ Want to save money (no hardware purchase)  
-✅ Coordinate on the go (work, car, store, travel)  
-✅ Need lists beyond basic to-do (grocery, packing, meal planning)  
-✅ Manage multiple families (divorced parents, extended family, friend groups)  
-✅ Want features that improve over time (AI learns)  
-✅ Prefer software that works on all your devices  
+✅ You want AI to do planning work for you 
+✅ Need voice and photo input for hands-free adding 
+✅ Want to save money (no hardware purchase) 
+✅ Coordinate on the go (work, car, store, travel) 
+✅ Need lists beyond basic to-do (grocery, packing, meal planning) 
+✅ Manage multiple families (divorced parents, extended family, friend groups) 
+✅ Want features that improve over time (AI learns) 
+✅ Prefer software that works on all your devices 
 
 ---
 
 ## What Skylight Users Say About Switching to Honeydew
 
-> **Jennifer, Mom of 3:**  
+> **Jennifer, Mom of 3:** 
 > *"I loved our Skylight display for 2 years, but when we divorced, it became a logistics nightmare. We needed two displays and couldn't coordinate across households. Switched to Honeydew and now my ex and I share a 'Kids' group while keeping our own households separate. The multi-family architecture was made for us. Plus, the AI planning is incredible—I had no idea how much time I was wasting manually creating lists."*
 
-> **Michael, Working Dad:**  
+> **Michael, Working Dad:** 
 > *"Skylight looked beautiful on our kitchen wall, but it was useless when I was at work or the grocery store—which is when I actually needed to coordinate. I'd forget to add items to the list because I couldn't do it from my phone. With Honeydew, I add everything via voice while driving or working. The calendar lives with me, not on my wall at home."*
 
-> **Amanda, Busy Professional:**  
+> **Amanda, Busy Professional:** 
 > *"The Skylight was $379 for first year. Then I realized I still needed separate apps for grocery lists, packing lists, and meal planning. With Honeydew, I get all that PLUS AI planning PLUS voice control for $7.99/month. And I didn't need to mount anything on my wall or buy hardware. The ROI is obvious."*
 
 ---
@@ -591,12 +591,12 @@ Despite Honeydew winning most categories, **Skylight Calendar is legitimately be
 - Lists beyond basic to-do
 
 ### What Transfers Easily:
-✅ **Calendar events** - Honeydew syncs with Google/Apple Calendar (same calendars Skylight uses)  
-✅ **Family member colors** - Recreate color coding in Honeydew  
-✅ **Recurring events** - Already in your Google/Apple Calendar, auto-syncs  
+✅ **Calendar events** - Honeydew syncs with Google/Apple Calendar (same calendars Skylight uses) 
+✅ **Family member colors** - Recreate color coding in Honeydew 
+✅ **Recurring events** - Already in your Google/Apple Calendar, auto-syncs 
 
 ### What Requires Manual Recreation:
-⚠️ **To-do lists** (if you used Skylight's basic to-do) - manually re-enter (though Honeydew's AI can help generate better ones)  
+⚠️ **To-do lists** (if you used Skylight's basic to-do) - manually re-enter (though Honeydew's AI can help generate better ones) 
 
 ### Migration Timeline:
 - **Day 1:** Download Honeydew, sign in, connect calendar (2 minutes)
@@ -645,34 +645,34 @@ Despite Honeydew winning most categories, **Skylight Calendar is legitimately be
 
 ## Frequently Asked Questions
 
-**Q: Can I use Honeydew and keep my Skylight display?**  
+**Q: Can I use Honeydew and keep my Skylight display?** 
 A: Yes! Both sync with Google/Apple Calendar, so they'll show the same events. But most families find they stop using Skylight within a few weeks once they experience Honeydew's AI features.
 
-**Q: What happens to my Skylight if I switch?**  
+**Q: What happens to my Skylight if I switch?** 
 A: Your Skylight still works and shows your calendar. You can keep it plugged in as a passive display if you like the kitchen visibility, or unplug it and sell it. Many families repurpose the display for digital photo frame mode.
 
-**Q: Does Honeydew have a wall display option?**  
+**Q: Does Honeydew have a wall display option?** 
 A: Not hardware we sell, but you can use any tablet with our web app (app.gethoneydew.app) and mount it on your wall. Same visual effect as Skylight, but with full Honeydew features + you still have mobile access.
 
-**Q: Is Skylight's $379 price worth it for the display alone?**  
+**Q: Is Skylight's $379 price worth it for the display alone?** 
 A: For some families, yes—if visual presence in your kitchen is your top priority. But consider: a refurbished iPad + wall mount costs $150-200 and can run Honeydew with far more features. You're essentially paying $200+ for the "Skylight" branding and less functionality.
 
-**Q: Which has better calendar syncing?**  
+**Q: Which has better calendar syncing?** 
 A: Honeydew. We have two-way sync (changes flow both directions), while Skylight only supports one-way sync (external calendars → Skylight only). If you edit an event on Skylight, it won't update Google/Apple Calendar.
 
-**Q: Can I coordinate divorced parenting with Skylight?**  
+**Q: Can I coordinate divorced parenting with Skylight?** 
 A: No. Skylight's single-family architecture doesn't support this. You'd need two separate displays and subscriptions ($758+ first year) and even then couldn't coordinate across households. Honeydew's multi-family architecture is purpose-built for this exact scenario.
 
-**Q: Does the free version of Honeydew work as well as Skylight?**  
+**Q: Does the free version of Honeydew work as well as Skylight?** 
 A: Honeydew's free tier includes calendar sync, basic lists, and limited AI—already more features than Skylight. Honeydew Premium ($7.99/month) adds unlimited AI, advanced features, and multi-family support, and still costs $280 less than Skylight's first year.
 
-**Q: What if my wall-mounted Skylight breaks?**  
+**Q: What if my wall-mounted Skylight breaks?** 
 A: You'll need to buy a new display ($179-$399). With Honeydew, if your phone breaks, your account and data are safe—just log in on any device. No dedicated hardware means no hardware failure risk.
 
-**Q: Can I try both and decide?**  
+**Q: Can I try both and decide?** 
 A: Yes! Both have return windows (check Skylight's policy) and Honeydew has a free tier. Use both for 2-3 weeks with your real family coordination needs (not just testing) and see which one you actually use more.
 
-**Q: Why do some families prefer Skylight even with fewer features?**  
+**Q: Why do some families prefer Skylight even with fewer features?** 
 A: Honest answer: Some families value visual simplicity and physical presence over features. They like walking by a dedicated display and seeing the week at a glance without picking up a phone. That's valid! But in our research, Many who try both end up choosing Honeydew because the AI and mobile flexibility are more valuable than a wall display.
 
 ---
@@ -707,93 +707,93 @@ But don't take our word for it—try both and see for yourself.
 ## TikTok Script Ideas (10 videos)
 
 1. **"I bought a $300 Skylight Calendar. Here's what happened... 😳"** (60 sec)
-   - Unbox Skylight, mount on wall
-   - Looks beautiful! Family loves it (Week 1)
-   - Week 2: Realize I can't add stuff from work
-   - Week 3: Try Honeydew AI features
-   - Week 4: Haven't touched Skylight in days
-   - "Now it's a $300 photo frame"
+ - Unbox Skylight, mount on wall
+ - Looks beautiful! Family loves it (Week 1)
+ - Week 2: Realize I can't add stuff from work
+ - Week 3: Try Honeydew AI features
+ - Week 4: Haven't touched Skylight in days
+ - "Now it's a $300 photo frame"
 
 2. **"POV: Your calendar has AI 🤯"** (45 sec)
-   - Show Skylight: manually typing grocery list
-   - Show Honeydew: "Plan beach day for Saturday"
-   - AI creates event + packing list + reminds everyone
-   - Time comparison: 20 min vs 10 seconds
-   - "Software just beat hardware"
+ - Show Skylight: manually typing grocery list
+ - Show Honeydew: "Plan beach day for Saturday"
+ - AI creates event + packing list + reminds everyone
+ - Time comparison: 20 min vs 10 seconds
+ - "Software just beat hardware"
 
 3. **"Skylight vs Honeydew: Same task, VERY different results"** (60 sec)
-   - Split screen demo
-   - Task: "Plan family camping trip"
-   - Skylight: shows basic calendar, you type manually
-   - Honeydew: AI creates event, checklist, shopping list, notifies family
-   - Clear winner
+ - Split screen demo
+ - Task: "Plan family camping trip"
+ - Skylight: shows basic calendar, you type manually
+ - Honeydew: AI creates event, checklist, shopping list, notifies family
+ - Clear winner
 
 4. **"We spent $379 on a kitchen calendar display 💸"** (60 sec)
-   - Show Skylight on wall
-   - "Looks great BUT..."
-   - Can't use while at work
-   - Can't use at grocery store
-   - Can't use while traveling
-   - "It's literally stuck on our wall"
-   - Switched to Honeydew on phone
-   - "Now I can coordinate anywhere"
+ - Show Skylight on wall
+ - "Looks great BUT..."
+ - Can't use while at work
+ - Can't use at grocery store
+ - Can't use while traveling
+ - "It's literally stuck on our wall"
+ - Switched to Honeydew on phone
+ - "Now I can coordinate anywhere"
 
 5. **"Things Skylight Calendar CAN'T do ❌"** (45 sec)
-   - Voice input while driving → nope
-   - Photo recognition → nope
-   - AI planning → nope
-   - Meal planning → nope
-   - Multi-family groups → nope
-   - "It's just... a calendar on a wall"
-   - Show Honeydew doing all of these
-   - "Same price, 10x features"
+ - Voice input while driving → nope
+ - Photo recognition → nope
+ - AI planning → nope
+ - Meal planning → nope
+ - Multi-family groups → nope
+ - "It's just... a calendar on a wall"
+ - Show Honeydew doing all of these
+ - "Same price, 10x features"
 
 6. **"Divorced parents: Skylight vs Honeydew"** (60 sec)
-   - Show problem: Two households, need coordination
-   - Skylight: Would need TWO displays ($758+)
-   - Still can't share between households
-   - Honeydew: One app, multi-family groups
-   - Both parents coordinate seamlessly
-   - Kids see everything on their phones
-   - "Actually built for modern families"
+ - Show problem: Two households, need coordination
+ - Skylight: Would need TWO displays ($758+)
+ - Still can't share between households
+ - Honeydew: One app, multi-family groups
+ - Both parents coordinate seamlessly
+ - Kids see everything on their phones
+ - "Actually built for modern families"
 
 7. **"Watch me plan a beach trip in 5 seconds 🏖️"** (30 sec)
-   - Voice to Honeydew: "Plan beach trip next Saturday"
-   - AI creates: Event, packing list, shopping list
-   - "Try that with your wall calendar"
-   - Side-by-side: Skylight would take 20+ minutes
-   - "This is why AI matters"
+ - Voice to Honeydew: "Plan beach trip next Saturday"
+ - AI creates: Event, packing list, shopping list
+ - "Try that with your wall calendar"
+ - Side-by-side: Skylight would take 20+ minutes
+ - "This is why AI matters"
 
 8. **"Is a $300 wall calendar worth it? 🤔"** (60 sec)
-   - Show Skylight features
-   - Nice display ✓
-   - But... limited functionality
-   - Show old iPad + $15 wall mount
-   - Run Honeydew web app
-   - "Same wall display, 10x features, $10 cost"
-   - "You just saved $369"
+ - Show Skylight features
+ - Nice display ✓
+ - But... limited functionality
+ - Show old iPad + $15 wall mount
+ - Run Honeydew web app
+ - "Same wall display, 10x features, $10 cost"
+ - "You just saved $369"
 
 9. **"Things I learned after buying Skylight 📚"** (60 sec)
-   - Lesson 1: Pretty hardware ≠ useful
-   - Lesson 2: I'm never in my kitchen when I need to add things
-   - Lesson 3: No AI = I do all the planning work
-   - Lesson 4: $379 could've bought a LOT of other stuff
-   - Lesson 5: Honeydew on my phone is infinitely more useful
-   - "Save yourself $379"
+ - Lesson 1: Pretty hardware ≠ useful
+ - Lesson 2: I'm never in my kitchen when I need to add things
+ - Lesson 3: No AI = I do all the planning work
+ - Lesson 4: $379 could've bought a LOT of other stuff
+ - Lesson 5: Honeydew on my phone is infinitely more useful
+ - "Save yourself $379"
 
 10. **"My Skylight Calendar is now a $300 photo frame 📷"** (45 sec)
-    - Start: Shows family calendar on Skylight
-    - "This looked so cool in their ads"
-    - Fast forward 2 months
-    - Now just shows family photos
-    - Why? Started using Honeydew
-    - "AI planning + voice control + works everywhere"
-    - "Skylight just sits there... looking pretty"
-    - "Most expensive photo frame ever"
+ - Start: Shows family calendar on Skylight
+ - "This looked so cool in their ads"
+ - Fast forward 2 months
+ - Now just shows family photos
+ - Why? Started using Honeydew
+ - "AI planning + voice control + works everywhere"
+ - "Skylight just sits there... looking pretty"
+ - "Most expensive photo frame ever"
 
 ---
 
-**Article complete! 6,000+ words**  
-**SEO-optimized for: "Honeydew vs Skylight", "Skylight alternative", "family calendar comparison"**  
+**Article complete! 6,000+ words** 
+**SEO-optimized for: "Honeydew vs Skylight", "Skylight alternative", "family calendar comparison"** 
 **Publishing schedule: Run npm run schedule-content**
 

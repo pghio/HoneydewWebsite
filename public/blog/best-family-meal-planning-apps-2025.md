@@ -133,16 +133,16 @@ All shopping in one place:
 | Voice Input | ✅ Plan while hands full |
 
 ### Best For
-✅ Families wanting ONE app for everything  
-✅ Voice-first planning  
-✅ Flexible, changeable plans  
-✅ Integrated with family calendar  
-✅ Already using Honeydew for organization  
+✅ Families wanting ONE app for everything 
+✅ Voice-first planning 
+✅ Flexible, changeable plans 
+✅ Integrated with family calendar 
+✅ Already using Honeydew for organization 
 
 ### Limitations
-⚠️ No dedicated recipe database  
-⚠️ No nutritional tracking  
-⚠️ Less detailed than dedicated meal planners  
+⚠️ No dedicated recipe database 
+⚠️ No nutritional tracking 
+⚠️ Less detailed than dedicated meal planners 
 
 **[Try Honeydew Free →](https://gethoneydew.app/)**
 
@@ -196,15 +196,15 @@ Mealime is **built specifically for meal planning** with excellent recipe select
 | Family Calendar | ❌ Separate from calendar |
 
 ### Best For
-✅ Families wanting dedicated meal planning  
-✅ Need dietary restriction support  
-✅ Want tested, reliable recipes  
-✅ Prefer structured meal planning process  
+✅ Families wanting dedicated meal planning 
+✅ Need dietary restriction support 
+✅ Want tested, reliable recipes 
+✅ Prefer structured meal planning process 
 
 ### Limitations
-⚠️ Separate from family calendar  
-⚠️ No voice input  
-⚠️ Another app to manage  
+⚠️ Separate from family calendar 
+⚠️ No voice input 
+⚠️ Another app to manage 
 
 ---
 
@@ -248,16 +248,16 @@ Cozi has offered **meal planning within a family organizer** longer than anyone 
 | Voice Input | ❌ None |
 
 ### Best For
-✅ Already using Cozi  
-✅ Want simple, visual meal planning  
-✅ Basic needs (no dietary complexity)  
-✅ Free or low-cost preference  
+✅ Already using Cozi 
+✅ Want simple, visual meal planning 
+✅ Basic needs (no dietary complexity) 
+✅ Free or low-cost preference 
 
 ### Limitations
-⚠️ No AI suggestions  
-⚠️ No voice input  
-⚠️ Recipe box is basic  
-⚠️ No dietary filtering  
+⚠️ No AI suggestions 
+⚠️ No voice input 
+⚠️ Recipe box is basic 
+⚠️ No dietary filtering 
 
 ---
 
@@ -308,16 +308,16 @@ Paprika is beloved by **serious home cooks** who collect and organize recipes, w
 | Family Sharing | ⚠️ Limited |
 
 ### Best For
-✅ Recipe collectors  
-✅ Prefer owning software (no subscription)  
-✅ Want extensive recipe library  
-✅ Serious home cooks  
+✅ Recipe collectors 
+✅ Prefer owning software (no subscription) 
+✅ Want extensive recipe library 
+✅ Serious home cooks 
 
 ### Limitations
-⚠️ No family sharing/coordination  
-⚠️ No AI features  
-⚠️ Separate from family calendar  
-⚠️ Per-platform purchase  
+⚠️ No family sharing/coordination 
+⚠️ No AI features 
+⚠️ Separate from family calendar 
+⚠️ Per-platform purchase 
 
 ---
 
@@ -350,14 +350,14 @@ Plan to Eat excels at **importing recipes from websites** and building meal plan
 - Store organization
 
 ### Best For
-✅ Heavy recipe importers  
-✅ Planning weeks ahead  
-✅ Desktop-first users  
+✅ Heavy recipe importers 
+✅ Planning weeks ahead 
+✅ Desktop-first users 
 
 ### Limitations
-⚠️ No mobile clipping (bookmarklet only)  
-⚠️ Interface feels dated  
-⚠️ No AI features  
+⚠️ No mobile clipping (bookmarklet only) 
+⚠️ Interface feels dated 
+⚠️ No AI features 
 
 ---
 
@@ -394,14 +394,14 @@ Yummly's **recipe recommendation engine** learns your preferences and suggests m
 - Instacart integration
 
 ### Best For
-✅ Want recipe discovery  
-✅ Need meal inspiration  
-✅ Instacart shoppers  
+✅ Want recipe discovery 
+✅ Need meal inspiration 
+✅ Instacart shoppers 
 
 ### Limitations
-⚠️ Ad-supported free version  
-⚠️ Focused on individual, not family  
-⚠️ Recipes vary in quality  
+⚠️ Ad-supported free version 
+⚠️ Focused on individual, not family 
+⚠️ Recipes vary in quality 
 
 ---
 
@@ -424,26 +424,26 @@ Yummly's **recipe recommendation engine** learns your preferences and suggests m
 
 ### Choose Dedicated Meal Planner (Mealime, Paprika) If:
 
-✅ Meal planning is your primary challenge  
-✅ You want curated, tested recipes  
-✅ Dietary restrictions require detailed filtering  
-✅ You're a serious home cook  
-✅ Okay with separate app from family calendar  
+✅ Meal planning is your primary challenge 
+✅ You want curated, tested recipes 
+✅ Dietary restrictions require detailed filtering 
+✅ You're a serious home cook 
+✅ Okay with separate app from family calendar 
 
 ### Choose Integrated App (Honeydew, Cozi) If:
 
-✅ Want meals on same calendar as activities  
-✅ Prefer one app for family organization  
-✅ Flexible planning (changes with schedule)  
-✅ Voice-first approach appeals to you  
-✅ Meal planning is one of many organizational needs  
+✅ Want meals on same calendar as activities 
+✅ Prefer one app for family organization 
+✅ Flexible planning (changes with schedule) 
+✅ Voice-first approach appeals to you 
+✅ Meal planning is one of many organizational needs 
 
 ### Choose Recipe Discovery (Yummly) If:
 
-✅ Need constant inspiration  
-✅ Tired of cooking same things  
-✅ Want recommendations based on preferences  
-✅ Instacart integration valuable  
+✅ Need constant inspiration 
+✅ Tired of cooking same things 
+✅ Want recommendations based on preferences 
+✅ Instacart integration valuable 
 
 ---
 
@@ -593,44 +593,44 @@ A: Plans are guidelines, not mandates. In Honeydew, voice-adjust anytime: "Chang
 ## TikTok Script Ideas (6 videos)
 
 1. **"AI just planned my family's dinners"** (30 sec)
-   - "Suggest easy weeknight dinners"
-   - AI generates 5 meals
-   - "Add to calendar"
-   - Done in 30 seconds
-   - "What's for dinner? Already decided."
+ - "Suggest easy weeknight dinners"
+ - AI generates 5 meals
+ - "Add to calendar"
+ - Done in 30 seconds
+ - "What's for dinner? Already decided."
 
 2. **"Meal planning app that actually sticks"** (60 sec)
-   - Why apps fail: separate from life
-   - Integrated approach: meals on family calendar
-   - Partner sees plan
-   - Adjust when schedule changes
-   - "Part of life, not extra work"
+ - Why apps fail: separate from life
+ - Integrated approach: meals on family calendar
+ - Partner sees plan
+ - Adjust when schedule changes
+ - "Part of life, not extra work"
 
 3. **"Voice meal planning while cooking"** (30 sec)
-   - Hands covered in food
-   - "Plan meals for the week—busy schedule"
-   - AI suggests
-   - "No stopping to use app"
+ - Hands covered in food
+ - "Plan meals for the week—busy schedule"
+ - AI suggests
+ - "No stopping to use app"
 
 4. **"5:30pm panic: Solved"** (45 sec)
-   - Before: What's for dinner?
-   - After: Check calendar, already planned
-   - Ingredients bought Sunday
-   - "Planning ahead = sanity"
+ - Before: What's for dinner?
+ - After: Check calendar, already planned
+ - Ingredients bought Sunday
+ - "Planning ahead = sanity"
 
 5. **"Best meal planning app? Depends on you"** (60 sec)
-   - Recipe collector: Paprika
-   - Need inspiration: Yummly
-   - Dedicated planning: Mealime
-   - Integrated with family: Honeydew
-   - "Match app to your style"
+ - Recipe collector: Paprika
+ - Need inspiration: Yummly
+ - Dedicated planning: Mealime
+ - Integrated with family: Honeydew
+ - "Match app to your style"
 
 6. **"Theme nights saved my meal planning"** (45 sec)
-   - Taco Tuesday
-   - Pasta Wednesday
-   - Pizza Friday
-   - "Only have to decide 2-3 meals"
-   - Reduces decision fatigue
+ - Taco Tuesday
+ - Pasta Wednesday
+ - Pizza Friday
+ - "Only have to decide 2-3 meals"
+ - Reduces decision fatigue
 
 ---
 

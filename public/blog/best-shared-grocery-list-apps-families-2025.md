@@ -138,15 +138,15 @@ Grocery list alongside:
 | Delivery Integration | ⚠️ Manual |
 
 ### Best For
-✅ Families wanting ONE app for everything  
-✅ Voice-first shopping list management  
-✅ Grocery integrated with family calendar  
-✅ Already using Honeydew for organization  
+✅ Families wanting ONE app for everything 
+✅ Voice-first shopping list management 
+✅ Grocery integrated with family calendar 
+✅ Already using Honeydew for organization 
 
 ### Limitations
-⚠️ No barcode scanning  
-⚠️ No direct delivery service integration  
-⚠️ Less grocery-specific than dedicated apps  
+⚠️ No barcode scanning 
+⚠️ No direct delivery service integration 
+⚠️ Less grocery-specific than dedicated apps 
 
 **[Try Honeydew Free →](https://gethoneydew.app/)**
 
@@ -203,15 +203,15 @@ AnyList is **built specifically for shopping lists** with excellent family shari
 | Price | Free-$12.99/yr |
 
 ### Best For
-✅ Families wanting dedicated grocery app  
-✅ Multiple stores with different layouts  
-✅ Recipe-based shopping  
-✅ Apple Watch users  
+✅ Families wanting dedicated grocery app 
+✅ Multiple stores with different layouts 
+✅ Recipe-based shopping 
+✅ Apple Watch users 
 
 ### Limitations
-⚠️ Separate from family calendar  
-⚠️ No in-app voice input  
-⚠️ Premium for full features  
+⚠️ Separate from family calendar 
+⚠️ No in-app voice input 
+⚠️ Premium for full features 
 
 ---
 
@@ -261,14 +261,14 @@ OurGroceries offers **straightforward shared lists** without complexity.
 | Meal Planning | ❌ |
 
 ### Best For
-✅ Families wanting simple, cheap solution  
-✅ Heavy Alexa/Google Home users  
-✅ Prefer one-time purchase over subscription  
+✅ Families wanting simple, cheap solution 
+✅ Heavy Alexa/Google Home users 
+✅ Prefer one-time purchase over subscription 
 
 ### Limitations
-⚠️ Basic features only  
-⚠️ No in-app voice input  
-⚠️ No meal planning integration  
+⚠️ Basic features only 
+⚠️ No in-app voice input 
+⚠️ No meal planning integration 
 
 ---
 
@@ -311,14 +311,14 @@ Cozi includes **shopping lists within its family organizer**, providing basic sh
 | Multiple Lists | ✅ |
 
 ### Best For
-✅ Already using Cozi  
-✅ Want basic integration with family app  
-✅ Meal planning → grocery connection  
+✅ Already using Cozi 
+✅ Want basic integration with family app 
+✅ Meal planning → grocery connection 
 
 ### Limitations
-⚠️ No voice input  
-⚠️ Basic categorization  
-⚠️ One-way calendar sync  
+⚠️ No voice input 
+⚠️ Basic categorization 
+⚠️ One-way calendar sync 
 
 ---
 
@@ -363,14 +363,14 @@ Bring! offers a **beautiful visual interface** with images for each item.
 | Free | ✅ |
 
 ### Best For
-✅ Visual learners  
-✅ Quick item addition via tapping  
-✅ Free full-featured app  
+✅ Visual learners 
+✅ Quick item addition via tapping 
+✅ Free full-featured app 
 
 ### Limitations
-⚠️ Limited voice input  
-⚠️ Separate from family calendar  
-⚠️ Less customizable  
+⚠️ Limited voice input 
+⚠️ Separate from family calendar 
+⚠️ Less customizable 
 
 ---
 
@@ -406,14 +406,14 @@ If you just want **basic shared lists** with no extra app, built-in notes work.
 | Cost | Free |
 
 ### Best For
-✅ Minimal needs  
-✅ Already in Apple/Google ecosystem  
-✅ Don't want another app  
+✅ Minimal needs 
+✅ Already in Apple/Google ecosystem 
+✅ Don't want another app 
 
 ### Limitations
-⚠️ No auto-categorization  
-⚠️ No grocery-specific features  
-⚠️ Manual sharing setup  
+⚠️ No auto-categorization 
+⚠️ No grocery-specific features 
+⚠️ Manual sharing setup 
 
 ---
 
@@ -436,26 +436,26 @@ If you just want **basic shared lists** with no extra app, built-in notes work.
 
 ### Choose Integrated App (Honeydew) If:
 
-✅ Want grocery list with family calendar  
-✅ Voice input while cooking is essential  
-✅ Already using family organization app  
-✅ Prefer one app over multiple  
-✅ AI organization appeals to you  
+✅ Want grocery list with family calendar 
+✅ Voice input while cooking is essential 
+✅ Already using family organization app 
+✅ Prefer one app over multiple 
+✅ AI organization appeals to you 
 
 ### Choose Dedicated Grocery App (AnyList, OurGroceries) If:
 
-✅ Grocery list is separate concern  
-✅ Heavy smart speaker users (Alexa/Google)  
-✅ Want recipe-to-grocery integration  
-✅ Multiple stores with different layouts  
-✅ Prefer specialized tools  
+✅ Grocery list is separate concern 
+✅ Heavy smart speaker users (Alexa/Google) 
+✅ Want recipe-to-grocery integration 
+✅ Multiple stores with different layouts 
+✅ Prefer specialized tools 
 
 ### Choose Free Basic Option (Notes, Bring!) If:
 
-✅ Minimal needs  
-✅ Don't want to pay  
-✅ Simple shared checklist sufficient  
-✅ Already in single ecosystem  
+✅ Minimal needs 
+✅ Don't want to pay 
+✅ Simple shared checklist sufficient 
+✅ Already in single ecosystem 
 
 ---
 
@@ -618,44 +618,44 @@ A: Yes, probably. Review before shopping. Or set up separate "Kids' Requests" li
 ## TikTok Script Ideas (6 videos)
 
 1. **"Voice-adding to grocery while cooking 🍳"** (30 sec)
-   - Hands covered in food
-   - "Add chicken thighs and soy sauce to grocery"
-   - Appears on list
-   - "Never forget ingredients again"
+ - Hands covered in food
+ - "Add chicken thighs and soy sauce to grocery"
+ - Appears on list
+ - "Never forget ingredients again"
 
 2. **"Why our grocery list finally works"** (45 sec)
-   - Before: Paper list left at home
-   - Before: Separate phone lists
-   - After: Shared digital list
-   - Everyone can add, everyone can see
-   - "Revolutionary? No. Finally working? Yes."
+ - Before: Paper list left at home
+ - Before: Separate phone lists
+ - After: Shared digital list
+ - Everyone can add, everyone can see
+ - "Revolutionary? No. Finally working? Yes."
 
 3. **"AI organized my grocery list"** (30 sec)
-   - Add items randomly
-   - AI sorts by store section
-   - Produce, dairy, meat together
-   - "Shopping in 15 minutes instead of 45"
+ - Add items randomly
+ - AI sorts by store section
+ - Produce, dairy, meat together
+ - "Shopping in 15 minutes instead of 45"
 
 4. **"The 3-second grocery add"** (30 sec)
-   - Notice milk is low
-   - "Add milk to grocery"
-   - Done
-   - "That's it. That's the hack."
+ - Notice milk is low
+ - "Add milk to grocery"
+ - Done
+ - "That's it. That's the hack."
 
 5. **"Partner always forgets items?"** (45 sec)
-   - Before: "Did you get my items?"
-   - Before: Texts while shopping
-   - After: Real-time shared list
-   - Check off = partner sees
-   - "No more texting at the store"
+ - Before: "Did you get my items?"
+ - Before: Texts while shopping
+ - After: Real-time shared list
+ - Check off = partner sees
+ - "No more texting at the store"
 
 6. **"Grocery apps: which is worth it?"** (60 sec)
-   - Voice input: Honeydew
-   - Recipe integration: AnyList
-   - Alexa users: OurGroceries
-   - Visual: Bring!
-   - Free basic: Notes
-   - "Match app to your style"
+ - Voice input: Honeydew
+ - Recipe integration: AnyList
+ - Alexa users: OurGroceries
+ - Visual: Bring!
+ - Free basic: Notes
+ - "Match app to your style"
 
 ---
 

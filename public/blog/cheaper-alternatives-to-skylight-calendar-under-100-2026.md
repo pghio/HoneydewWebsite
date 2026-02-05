@@ -213,23 +213,23 @@ Refurbished smart displays occasionally drop under $100:
 1. **Unbox and charge the tablet** (10 minutes while you do other steps)
 
 2. **Set up the tablet**
-   - Connect to WiFi
-   - Skip Amazon account if you want (or use it for easier app installs)
-   - Install your family app (Honeydew, Google Calendar, etc.)
+ - Connect to WiFi
+ - Skip Amazon account if you want (or use it for easier app installs)
+ - Install your family app (Honeydew, Google Calendar, etc.)
 
 3. **Configure the app**
-   - Create family group
-   - Invite family members
-   - Sync with existing calendars (Google/Apple)
+ - Create family group
+ - Invite family members
+ - Sync with existing calendars (Google/Apple)
 
 4. **Enable "always-on" mode**
-   - Fire tablet: Settings > Display > Screen timeout > Never (when plugged in)
-   - Or use Amazon's "Show Mode" for ambient display
+ - Fire tablet: Settings > Display > Screen timeout > Never (when plugged in)
+ - Or use Amazon's "Show Mode" for ambient display
 
 5. **Mount the tablet**
-   - Find a spot near an outlet
-   - Use wall mount or counter stand
-   - Route power cable neatly
+ - Find a spot near an outlet
+ - Use wall mount or counter stand
+ - Route power cable neatly
 
 6. **Done!** Your family calendar is now visible.
 
@@ -335,10 +335,10 @@ A $65–100 tablet setup gives you:
 **With Honeydew:**
 - **Input:** "Plan next week with soccer Tue/Thu, dentist Friday, and grocery list for lunches."
 - **Output (seconds):**
-  - ✅ Events added to calendars
-  - ✅ Grocery list generated and shared
-  - ✅ Reminders assigned to household owners
-  - ✅ Conflicts flagged automatically
+ - ✅ Events added to calendars
+ - ✅ Grocery list generated and shared
+ - ✅ Reminders assigned to household owners
+ - ✅ Conflicts flagged automatically
 
 **Time saved:** 2-4 hours/week for a typical busy family.
 
@@ -394,28 +394,28 @@ A: Yes. Honeydew syncs both Google and Apple calendars bi-directionally, so you 
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Cheaper Alternatives to Skylight Calendar Under $100 (2026 Guide)",
-  "description": "Looking for a Skylight Calendar alternative under $100? We cover the best budget-friendly options: tablet setups, free apps, and DIY solutions that give you the same family calendar experience for a fraction of the cost.",
-  "image": "https://www.gethoneydew.app/og-image-ai.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2026-01-27",
-  "dateModified": "2026-01-27",
-  "mainEntityOfPage": "https://www.gethoneydew.app/blog/cheaper-alternatives-to-skylight-calendar-under-100-2026",
-  "keywords": "cheaper alternatives to skylight calendar, skylight calendar alternative cheaper, cheap skylight alternative, skylight calendar alternatives free, budget family calendar, skylight dupe, cheaper skylight",
-  "articleSection": "Comparison"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Cheaper Alternatives to Skylight Calendar Under $100 (2026 Guide)",
+ "description": "Looking for a Skylight Calendar alternative under $100? We cover the best budget-friendly options: tablet setups, free apps, and DIY solutions that give you the same family calendar experience for a fraction of the cost.",
+ "image": "https://www.gethoneydew.app/og-image-ai.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://www.gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2026-01-27",
+ "dateModified": "2026-01-27",
+ "mainEntityOfPage": "https://www.gethoneydew.app/blog/cheaper-alternatives-to-skylight-calendar-under-100-2026",
+ "keywords": "cheaper alternatives to skylight calendar, skylight calendar alternative cheaper, cheap skylight alternative, skylight calendar alternatives free, budget family calendar, skylight dupe, cheaper skylight",
+ "articleSection": "Comparison"
 }
 ```
 
@@ -537,14 +537,14 @@ If you want a system that **plans** and not just stores, choose Honeydew. If you
 ## Quick Decision Tree
 
 1. **Do you want AI to plan, not just store?**
-   - Yes → Honeydew
-   - No → Basic shared calendar
+ - Yes → Honeydew
+ - No → Basic shared calendar
 2. **Do you need multi-household or co-parenting support?**
-   - Yes → Honeydew
-   - No → Either option
+ - Yes → Honeydew
+ - No → Either option
 3. **Do you need voice or photo capture?**
-   - Yes → Honeydew
-   - No → Any standard app works
+ - Yes → Honeydew
+ - No → Any standard app works
 
 ---
 

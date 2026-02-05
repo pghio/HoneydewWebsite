@@ -48,7 +48,7 @@ Many families want the *idea* of Skylight—a centralized family hub—without t
 
 ## 1. Honeydew: Best Overall Alternative (AI + No Hardware)
 
-**Price:** Free tier; Premium $7.99/mo or $7.99/mo  
+**Price:** Free tier; Premium $7.99/mo or $7.99/mo 
 **Platform:** iOS, Android, Web
 
 ### What Makes Honeydew Different
@@ -87,7 +87,7 @@ Honeydew replaces Skylight's wall display with AI that works on devices you alre
 
 ## 2. Cozi Family Organizer: Best Budget-Friendly Option
 
-**Price:** Free; Premium $30/yr  
+**Price:** Free; Premium $30/yr 
 **Platform:** iOS, Android, Web
 
 ### What Cozi Does Well
@@ -116,7 +116,7 @@ Cozi costs much less than Skylight but gives you similar calendar and list featu
 
 ## 3. TimeTree: Best for Shared Calendars
 
-**Price:** Free; Premium $5/mo  
+**Price:** Free; Premium $5/mo 
 **Platform:** iOS, Android, Web
 
 ### What TimeTree Does Well
@@ -146,7 +146,7 @@ TimeTree replaces Skylight's display calendar with a mobile-first shared calenda
 
 ## 4. Hearth Display: Best Premium Hardware Alternative
 
-**Price:** $500–$700 (hardware) + optional subscription  
+**Price:** $500–$700 (hardware) + optional subscription 
 **Platform:** Custom display device
 
 ### What Hearth Display Does Well
@@ -175,7 +175,7 @@ Hearth Display is "Skylight, but nicer." If you want hardware and can afford it,
 
 ## 5. Google Family Calendar: Best Free Basic Option
 
-**Price:** Free  
+**Price:** Free 
 **Platform:** iOS, Android, Web
 
 ### What Google Calendar Does Well
@@ -204,7 +204,7 @@ Google Calendar gives you the calendar part of Skylight for free. You lose the d
 
 ## 6. FamilyWall: Best for Chore Tracking
 
-**Price:** Free; Premium $60/yr  
+**Price:** Free; Premium $60/yr 
 **Platform:** iOS, Android, Web
 
 ### What FamilyWall Does Well
@@ -233,7 +233,7 @@ FamilyWall replaces Skylight's visual calendar with a chore-first system. Better
 
 ## 7. Echo Show Calendar: Best If You Own an Echo Show
 
-**Price:** $90–$270 (device cost); no subscription  
+**Price:** $90–$270 (device cost); no subscription 
 **Platform:** Amazon Echo Show devices
 
 ### What Echo Show Does Well
@@ -262,7 +262,7 @@ Echo Show is a multi-purpose device; Skylight is purpose-built for families. Ech
 
 ## 8. Mango Display: Best Customizable Display
 
-**Price:** $400–$600 + optional subscription  
+**Price:** $400–$600 + optional subscription 
 **Platform:** Custom display device
 
 ### What Mango Display Does Well
@@ -379,42 +379,42 @@ If you specifically want a wall display, **Hearth Display** is nicer than Skylig
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is Skylight Calendar worth the money?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Skylight Calendar works well for what it does—a dedicated family calendar display. But at $300+ upfront plus $79/year subscription, it's expensive compared to software-only alternatives like Honeydew (free or $7.99/month) or Cozi ($30/year) that offer more features."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the cheapest Skylight alternative?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Google Family Calendar is completely free. Cozi is the cheapest dedicated family organizer at free or $30/year. Honeydew offers a free tier with more AI features than Skylight."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Which Skylight alternative has the best AI features?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Honeydew is the only Skylight alternative with advanced AI planning. You can type, speak, or photograph requests and the AI creates lists, schedules events, and shares with family automatically."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I use my iPad as a family calendar like Skylight?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes! Apps like Honeydew, Cozi, and TimeTree work on iPads. Mount your iPad on the wall, keep it charged, and use it like a Skylight display—but with more features and flexibility."
-      }
-    }
-  ]
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ {
+ "@type": "Question",
+ "name": "Is Skylight Calendar worth the money?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Skylight Calendar works well for what it does—a dedicated family calendar display. But at $300+ upfront plus $79/year subscription, it's expensive compared to software-only alternatives like Honeydew (free or $7.99/month) or Cozi ($30/year) that offer more features."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "What's the cheapest Skylight alternative?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Google Family Calendar is completely free. Cozi is the cheapest dedicated family organizer at free or $30/year. Honeydew offers a free tier with more AI features than Skylight."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "Which Skylight alternative has the best AI features?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Honeydew is the only Skylight alternative with advanced AI planning. You can type, speak, or photograph requests and the AI creates lists, schedules events, and shares with family automatically."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "Can I use my iPad as a family calendar like Skylight?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes! Apps like Honeydew, Cozi, and TimeTree work on iPads. Mount your iPad on the wall, keep it charged, and use it like a Skylight display—but with more features and flexibility."
+ }
+ }
+ ]
 }
 ```
 

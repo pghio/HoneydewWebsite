@@ -528,56 +528,56 @@ A: Use OFW for everything the court requires. Add Honeydew for your personal hou
 ## TikTok Script Ideas (8 videos)
 
 1. **"OurFamilyWizard vs Honeydew: The honest comparison"** (60 sec)
-   - OFW: Legal documentation, court-admissible
-   - Honeydew: AI automation, daily efficiency
-   - Different tools for different needs
-   - "You might need both"
+ - OFW: Legal documentation, court-admissible
+ - Honeydew: AI automation, daily efficiency
+ - Different tools for different needs
+ - "You might need both"
 
 2. **"Why divorced parents are using TWO apps"** (45 sec)
-   - OFW for formal communication
-   - Honeydew for actual coordination
-   - Best of both worlds
-   - "Game changer for my sanity"
+ - OFW for formal communication
+ - Honeydew for actual coordination
+ - Best of both worlds
+ - "Game changer for my sanity"
 
 3. **"POV: Your co-parenting app has AI 🤖"** (45 sec)
-   - Voice command: "Emma has practice Tuesdays"
-   - AI creates event, list, notifications
-   - No typing, no back-and-forth
-   - OFW can't do this
+ - Voice command: "Emma has practice Tuesdays"
+ - AI creates event, list, notifications
+ - No typing, no back-and-forth
+ - OFW can't do this
 
 4. **"OurFamilyWizard is $400/year. Here's when it's worth it"** (60 sec)
-   - High-conflict: Yes, worth it
-   - Court-involved: Yes, necessary
-   - Low-conflict: Probably overkill
-   - Alternative: Honeydew at $149/year
+ - High-conflict: Yes, worth it
+ - Court-involved: Yes, necessary
+ - Low-conflict: Probably overkill
+ - Alternative: Honeydew at $149/year
 
 5. **"The ToneMeter saved my co-parenting 😅"** (45 sec)
-   - Show typing hostile message
-   - ToneMeter flags it
-   - Rewrite calmly
-   - "Worth $400/year for this alone"
-   - For high-conflict only
+ - Show typing hostile message
+ - ToneMeter flags it
+ - Rewrite calmly
+ - "Worth $400/year for this alone"
+ - For high-conflict only
 
 6. **"I switched from OFW to Honeydew. Here's why"** (60 sec)
-   - 4 years post-divorce
-   - Relationship improved
-   - Didn't need court documentation anymore
-   - Voice control + AI = life changing
-   - Saved $250/year
+ - 4 years post-divorce
+ - Relationship improved
+ - Didn't need court documentation anymore
+ - Voice control + AI = life changing
+ - Saved $250/year
 
 7. **"Single parent hack: Voice control while doing everything"** (45 sec)
-   - Making dinner + "add to list"
-   - Driving + "create event"
-   - Holding baby + "remind me"
-   - OFW requires typing
-   - Honeydew understands chaos
+ - Making dinner + "add to list"
+ - Driving + "create event"
+ - Holding baby + "remind me"
+ - OFW requires typing
+ - Honeydew understands chaos
 
 8. **"The $400/year question for divorced parents"** (60 sec)
-   - Do you need court-admissible records?
-   - Yes → OurFamilyWizard
-   - No → Honeydew saves money + adds features
-   - Maybe → Use both
-   - Honest breakdown
+ - Do you need court-admissible records?
+ - Yes → OurFamilyWizard
+ - No → Honeydew saves money + adds features
+ - Maybe → Use both
+ - Honest breakdown
 
 ---
 

@@ -48,7 +48,7 @@ This guide shows you how to implement Fair Play in 15 minutes, using AI automati
 - Working parents make 70+ daily decisions about household coordination
 - 71% of married couples say one partner carries Most the mental load
 - Average working parent loses 3-5 hours/week to poor coordination
-- 65% of working parents report relationship tension from task inequality
+- Most working parents report relationship tension from task inequality
 
 **But Here's the Problem**: Most working parents are too exhausted to implement traditional Fair Play. The physical card system requires:
 - Hours of initial setup and organization

@@ -523,9 +523,9 @@ This comprehensive comparison examines both honestly, including when Google Cale
 **Google Calendar:**
 - ⚠️ Option 1: Share single calendar (no privacy - awkward)
 - ⚠️ Option 2: Multiple calendars (Kids calendar + Mom calendar + Dad calendar)
-  - Confusing which calendar to use
-  - No unified family view
-  - Still coordinating via text
+ - Confusing which calendar to use
+ - No unified family view
+ - Still coordinating via text
 - ⚠️ Option 3: Both use separate Google accounts (constant switching)
 - ❌ **None of these solutions work well**
 - ❌ Can't manage "shared kids coordination" + "separate households" elegantly
@@ -736,22 +736,22 @@ If you're currently using Google Calendar and want to try Honeydew:
 
 ## Frequently Asked Questions
 
-**Q: Can I use Honeydew and Google Calendar at the same time?**  
+**Q: Can I use Honeydew and Google Calendar at the same time?** 
 A: Yes! Honeydew offers two-way sync with Google Calendar. Events created in either app appear in both. Many families use Honeydew for planning/coordination and continue viewing in Google Calendar.
 
-**Q: Will I lose my Google Calendar data if I try Honeydew?**  
+**Q: Will I lose my Google Calendar data if I try Honeydew?** 
 A: No! Honeydew syncs with Google Calendar, it doesn't replace it. Your Google Calendar data stays exactly where it is. Honeydew just adds family coordination features on top.
 
-**Q: Does Honeydew work with Google Workspace (work calendars)?**  
+**Q: Does Honeydew work with Google Workspace (work calendars)?** 
 A: Yes, Honeydew syncs with Google Workspace accounts. You can have work calendar in Google and family coordination in Honeydew, with events flowing between them.
 
-**Q: Is Google Calendar enough for basic family coordination?**  
+**Q: Is Google Calendar enough for basic family coordination?** 
 A: For simple families (2 people, minimal activities), yes. For families with 3+ members, multiple activities, complex schedules—Google Calendar requires significant manual coordination time. Honeydew's AI reduces this by 80%.
 
-**Q: Why pay for Honeydew when Google Calendar is free?**  
+**Q: Why pay for Honeydew when Google Calendar is free?** 
 A: Time savings. If Honeydew saves you 4 hours per week, that's 200+ hours per year. $7.99/month ÷ 200 hours = $0.50 per hour saved. If your time is worth more than $0.50/hour (it is), the investment pays for itself.
 
-**Q: What if my family is already comfortable with Google Calendar?**  
+**Q: What if my family is already comfortable with Google Calendar?** 
 A: Keep using it! Add Honeydew's features on top via two-way sync. Your family can continue viewing in Google Calendar while you use Honeydew's AI for planning. No disruption to their workflow.
 
 ---
@@ -789,58 +789,58 @@ A: Keep using it! Add Honeydew's features on top via two-way sync. Your family c
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Honeydew vs Google Calendar for Families: Which Wins in 2025?",
-  "description": "Comprehensive comparison of Honeydew vs Google Calendar for family coordination, including features, pricing, and real-world use cases.",
-  "image": "https://gethoneydew.app/blog-images/honeydew-vs-google-calendar.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2025-11-18",
-  "dateModified": "2025-11-18"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Honeydew vs Google Calendar for Families: Which Wins in 2025?",
+ "description": "Comprehensive comparison of Honeydew vs Google Calendar for family coordination, including features, pricing, and real-world use cases.",
+ "image": "https://gethoneydew.app/blog-images/honeydew-vs-google-calendar.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2025-11-18",
+ "dateModified": "2025-11-18"
 }
 ```
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can I use Honeydew and Google Calendar at the same time?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes! Honeydew offers two-way sync with Google Calendar. Events created in either app appear in both. Many families use Honeydew for planning/coordination and continue viewing in Google Calendar."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Why pay for Honeydew when Google Calendar is free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Time savings. If Honeydew saves you 4 hours per week, that's 200+ hours per year. $7.99/month ÷ 200 hours = $0.50 per hour saved. If your time is worth more than $0.50/hour, the investment pays for itself."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Does Honeydew work with Google Workspace accounts?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, Honeydew syncs with Google Workspace accounts via two-way Google Calendar sync. You can have work calendar in Google and family coordination in Honeydew, with events flowing between them."
-      }
-    }
-  ]
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ {
+ "@type": "Question",
+ "name": "Can I use Honeydew and Google Calendar at the same time?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes! Honeydew offers two-way sync with Google Calendar. Events created in either app appear in both. Many families use Honeydew for planning/coordination and continue viewing in Google Calendar."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "Why pay for Honeydew when Google Calendar is free?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Time savings. If Honeydew saves you 4 hours per week, that's 200+ hours per year. $7.99/month ÷ 200 hours = $0.50 per hour saved. If your time is worth more than $0.50/hour, the investment pays for itself."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "Does Honeydew work with Google Workspace accounts?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Yes, Honeydew syncs with Google Workspace accounts via two-way Google Calendar sync. You can have work calendar in Google and family coordination in Honeydew, with events flowing between them."
+ }
+ }
+ ]
 }
 ```
 
@@ -849,78 +849,78 @@ A: Keep using it! Add Honeydew's features on top via two-way sync. Your family c
 ## TikTok Script Ideas (10 videos)
 
 1. **"I use both Google Calendar AND Honeydew (here's why) 🤝"** (60 sec)
-   - Show two-way sync
-   - Google Calendar for viewing/ecosystem
-   - Honeydew for AI planning
-   - Best of both worlds
-   - "You don't have to choose"
+ - Show two-way sync
+ - Google Calendar for viewing/ecosystem
+ - Honeydew for AI planning
+ - Best of both worlds
+ - "You don't have to choose"
 
 2. **"Google Calendar is free but costs me 5 hours/week 💸"** (45 sec)
-   - Track time spent: Manual entry, coordination texts, forgotten items
-   - 5 hours × 52 weeks = 260 hours/year
-   - Your time is worth money
-   - "Sometimes free is expensive"
+ - Track time spent: Manual entry, coordination texts, forgotten items
+ - 5 hours × 52 weeks = 260 hours/year
+ - Your time is worth money
+ - "Sometimes free is expensive"
 
 3. **"Watch me plan a trip: Google Calendar vs Honeydew"** (60 sec)
-   - Split screen
-   - Google: 30 minutes of manual work
-   - Honeydew: 30 seconds with AI
-   - Side-by-side comparison
-   - Time difference is shocking
+ - Split screen
+ - Google: 30 minutes of manual work
+ - Honeydew: 30 seconds with AI
+ - Side-by-side comparison
+ - Time difference is shocking
 
 4. **"POV: Your calendar has actual AI 🤖"** (30 sec)
-   - Show Google Calendar (manual entry)
-   - Show Honeydew (voice command → everything done)
-   - "This is what AI should be"
-   - Mind blown
+ - Show Google Calendar (manual entry)
+ - Show Honeydew (voice command → everything done)
+ - "This is what AI should be"
+ - Mind blown
 
 5. **"Things Google Calendar can't do in 2025"** (45 sec)
-   - Generate lists ❌
-   - Voice control (advanced) ❌
-   - Multi-family groups ❌
-   - Learn patterns ❌
-   - Proactive suggestions ❌
-   - "Still love it but..."
+ - Generate lists ❌
+ - Voice control (advanced) ❌
+ - Multi-family groups ❌
+ - Learn patterns ❌
+ - Proactive suggestions ❌
+ - "Still love it but..."
 
 6. **"Why I switched from Google Calendar (honest)"** (60 sec)
-   - Used Google for 10 years
-   - Loved it (still do)
-   - But spending 5+ hours/week coordinating
-   - Tried Honeydew
-   - Syncs with Google (keep both)
-   - Now spend 1 hour/week
-   - "Game changer"
+ - Used Google for 10 years
+ - Loved it (still do)
+ - But spending 5+ hours/week coordinating
+ - Tried Honeydew
+ - Syncs with Google (keep both)
+ - Now spend 1 hour/week
+ - "Game changer"
 
 7. **"The two-way sync is genius 🔄"** (45 sec)
-   - Create event in Honeydew → appears in Google
-   - Create event in Google → appears in Honeydew
-   - Use both apps seamlessly
-   - Family can stay in Google Calendar
-   - I use Honeydew for AI features
-   - Everyone wins
+ - Create event in Honeydew → appears in Google
+ - Create event in Google → appears in Honeydew
+ - Use both apps seamlessly
+ - Family can stay in Google Calendar
+ - I use Honeydew for AI features
+ - Everyone wins
 
 8. **"Google Calendar is perfect until..."** (60 sec)
-   - Works great for 1-2 people
-   - Add 3 kids
-   - Add activities
-   - Add divorced parent coordination
-   - Suddenly drowning in manual work
-   - "That's when you need AI"
+ - Works great for 1-2 people
+ - Add 3 kids
+ - Add activities
+ - Add divorced parent coordination
+ - Suddenly drowning in manual work
+ - "That's when you need AI"
 
 9. **"Divorced parents: Google Calendar doesn't work (here's what does)"** (60 sec)
-   - Show Google Calendar options (all awkward)
-   - Show Honeydew multi-family groups
-   - Kids shared, households separate
-   - One-tap switching
-   - "This changes everything"
+ - Show Google Calendar options (all awkward)
+ - Show Honeydew multi-family groups
+ - Kids shared, households separate
+ - One-tap switching
+ - "This changes everything"
 
 10. **"I saved $2,000 using a $99 app"** (60 sec)
-    - Honeydew saves 4 hours/week
-    - 4 hours × $10/hour (conservative) = $40/week
-    - 52 weeks = $2,080/year in time value
-    - Honeydew costs $7.99/month
-    - ROI: Significant
-    - "Math doesn't lie"
+ - Honeydew saves 4 hours/week
+ - 4 hours × $10/hour (conservative) = $40/week
+ - 52 weeks = $2,080/year in time value
+ - Honeydew costs $7.99/month
+ - ROI: Significant
+ - "Math doesn't lie"
 
 ---
 

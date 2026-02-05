@@ -238,10 +238,10 @@ In Honeydew, here's the experience:
 **What you see:**
 ```
 📅 Camping Trip
-   Sat Aug 24 - Sun Aug 25
-   📋 Packing List (23 items)
-   📋 Pre-Trip Tasks (8 items)
-   📝 Notes: Same campsite as last year?
+ Sat Aug 24 - Sun Aug 25
+ 📋 Packing List (23 items)
+ 📋 Pre-Trip Tasks (8 items)
+ 📝 Notes: Same campsite as last year?
 ```
 
 ### Checking Items Off

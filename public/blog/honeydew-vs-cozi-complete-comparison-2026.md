@@ -586,8 +586,7 @@ Here's what users typically experience:
 
 **Adoption:** Most families get comfortable with the app within the first week or two.
 
-
- The 6% who would switch back cited meal planning as their primary use case.
+Those who prefer Cozi typically cite meal planning as their primary use case—which remains Cozi's strongest feature.
 
 ---
 

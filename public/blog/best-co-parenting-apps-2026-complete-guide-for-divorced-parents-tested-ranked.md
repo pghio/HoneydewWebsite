@@ -54,13 +54,13 @@ With that mindset, let's find the right tool for your family's unique situation.
 
 ## Why Co-Parenting Apps Matter in 2026
 
-The numbers tell the story:
+The reality for divorced families:
 
 - **50% of marriages** end in divorce
 - **40% of children** experience parental divorce
 - **Average co-parents** exchange **50+ messages per month** about logistics
-- **73% of divorced parents** report coordination stress impacts their children
-- **5+ hours per week** spent on schedule coordination for typical co-parents
+- Coordination stress is real and often impacts children's wellbeing
+- **Hours every week** spent on schedule coordination for typical co-parents
 
 **Without a system:**
 - Missed pickups and schedule confusion
@@ -82,12 +82,10 @@ The numbers tell the story:
 
 ### Our Methodology
 
-We didn't just install apps and poke around. Our comprehensive testing included:
+We didn't just install apps and poke around. Our testing included:
 
 - **12 apps tested** across the co-parenting category
-- **6 months** of real-world usage
-- **50+ divorced families** participated as testers
-- **15,000+ events** tracked and coordinated
+- **Months of real-world usage** with real families
 - **Multiple custody arrangements:** 50/50, primary/visitation, parallel parenting
 - **Various conflict levels:** Amicable to high-conflict (court-ordered)
 

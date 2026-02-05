@@ -427,8 +427,7 @@ Sarah and Mike have two kids—Ava (15) and Ethan (12). Both parents work full-t
 - ⚠️ Planning events requires manual effort
 - ⚠️ No AI to help with coordination
 
-**Sarah's experience:**
-> *"FamilyWall gives us peace of mind knowing where the kids are. That's invaluable with a new teenage driver. But for actual organization—planning, lists, coordinating schedules—I'm still doing everything manually. I spend 30 minutes every Sunday typing out the week's activities."*
+**The takeaway:** FamilyWall provides peace of mind for location tracking—invaluable for teen drivers. But for actual organization, you're still doing everything manually. Expect significant time each week on planning and typing.
 
 ---
 
@@ -446,8 +445,7 @@ Sarah and Mike have two kids—Ava (15) and Ethan (12). Both parents work full-t
 - ❌ No automatic arrival notifications
 - ❌ Must use separate app for location
 
-**Sarah's experience:**
-> *"Honeydew saves me hours on organization. The AI is amazing. But I still have Life360 running for location tracking. I wish I didn't need two apps."*
+**The takeaway:** Honeydew saves significant time on organization—the AI handles what used to be manual work. But you'll still need a separate app for location tracking.
 
 ---
 

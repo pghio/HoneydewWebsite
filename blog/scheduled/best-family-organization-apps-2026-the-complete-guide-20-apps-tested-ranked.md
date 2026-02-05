@@ -80,14 +80,12 @@ This is the **definitive guide to family organization apps in 2026**. We tested 
 
 ### Our Methodology
 
-This isn't a review based on reading feature lists. We conducted the most comprehensive family app testing ever performed:
+This isn't a review based on reading feature lists. We tested these apps through real-world usage:
 
 - **20 apps tested** across 6 categories
-- **6 months** of continuous real-world usage (January–June 2026)
-- **150 families** participated as beta testers
-- **50,000+ events** created and tracked
-- **25,000+ tasks** managed across all apps
-- **Weekly surveys** on satisfaction, time saved, and frustration points
+- **Months of continuous real-world usage**
+- **Real families** using these apps daily
+- **Evaluated on actual daily usability**, not just feature demos
 
 ### Scoring Criteria
 

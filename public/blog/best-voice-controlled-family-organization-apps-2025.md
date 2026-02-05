@@ -52,12 +52,12 @@ Over a week, voice-first families save **2-3 hours** just from input speed.
 
 ### Accessibility Across Generations
 
-Voice interfaces democratize technology. In our testing:
-- **Many aged 65+** successfully used voice commands on first try
-- **Most children aged 5-10** could add items to family lists by voice
-- **100% of adults with visual impairments** found voice superior to typing
+Voice interfaces democratize technology. In practice:
+- **Older adults** often find voice commands easier than navigating small screens
+- **Young children** can add items to family lists by voice before they can type
+- **Users with visual impairments** find voice significantly more accessible than typing
 
-Compare this to traditional app interfaces where success rates for elderly users hover around 45-60%.
+Voice removes barriers that traditional app interfaces create.
 
 ### The Natural Expression Advantage
 
@@ -278,38 +278,38 @@ Honeydew's knowledge graph learns your family's voice patterns:
 
 ### Voice in Real-World Family Scenarios
 
-We documented 1,000+ voice interactions from real families. Here are the most common use cases where Honeydew excelled:
+Here are the most common use cases where voice control shines:
 
-**Scenario 1: Cooking Dinner (42% of voice interactions)**
+**Scenario 1: Cooking Dinner (Most Common)**
 - Hands covered in food/sauce
 - Adding grocery items while realizing you're out of something
 - Adjusting calendar while dinner timer is running
 - Multitasking between cooking and helping kids
 
-**Voice success rate:** Honeydew 94%, Competitors 62%
+**Why Honeydew wins:** 96.3% accuracy handles kitchen background noise better than competitors.
 
-**Scenario 2: Driving (18% of voice interactions)**
+**Scenario 2: Driving (Very Common)**
 - Adding calendar events while commuting
 - Coordinating pickup times at stoplights
 - Shopping list updates during errand runs
 - Hands-free legally required
 
-**Voice success rate:** Honeydew 91%, Competitors 58%
+**Why Honeydew wins:** Works reliably with car noise and road conditions.
 
-**Scenario 3: Bedtime Routine (15% of voice interactions)**
+**Scenario 3: Bedtime Routine (Common)**
 - Planning tomorrow while putting kids to bed
 - Remembering forgotten tasks in dark bedroom
 - Adding items to morning checklist
 - Both hands occupied with toddler
 
-**Voice success rate:** Honeydew 96%, Competitors 71%
+**Why Honeydew wins:** Handles whispered commands in quiet rooms accurately.
 
-**Scenario 4: Working from Home (12% of voice interactions)**
+**Scenario 4: Working from Home**
 - Adding personal items during work video calls (muted, speaking quietly)
 - Quick family coordination between work tasks
 - Updating shared lists during lunch prep
 
-**Voice success rate:** Honeydew 89%, Competitors 54%
+**Why Honeydew wins:** Natural language understanding handles complex requests.
 
 ### Voice Privacy & Security
 

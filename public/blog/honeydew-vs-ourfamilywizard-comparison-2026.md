@@ -552,8 +552,7 @@ For some families, using both apps together provides the best of both worlds:
 - Voice control manages her chaotic mornings
 - AI creates packing lists for custody transitions
 
-**Jennifer's experience:**
-> "OurFamilyWizard is for my attorney. Honeydew is for my sanity. I use both, and they serve completely different purposes."
+**The takeaway:** OFW handles formal legal documentation while Honeydew handles daily sanity. They serve completely different purposes—and using both covers all bases.
 
 **Annual cost:** $379 ($300 OFW + $79 Honeydew)
 
@@ -578,8 +577,7 @@ For some families, using both apps together provides the best of both worlds:
 - Voice commands for busy schedules
 - AI handles complex multi-household logistics
 
-**David's experience:**
-> "We tried OurFamilyWizard years ago when things were harder. Now it's overkill. We text normally. Honeydew's AI is what we actually needed—it coordinates everything automatically. 'Add Lily's soccer practice Tuesdays' and both households are updated."
+**The takeaway:** For cooperative co-parents, OFW's documentation features become overkill. The AI coordination is what actually reduces daily friction.
 
 **Annual cost:** $79 (saving $221/year vs. OFW)
 
@@ -606,8 +604,7 @@ For some families, using both apps together provides the best of both worlds:
 - If cooperation continues → Stay with Honeydew alone
 - Saved $221/year by not preemptively buying conflict protection
 
-**Amanda's experience:**
-> "My attorney said to get OurFamilyWizard 'just in case.' But at $300/year, I wanted to see if I actually needed it. Six months later, we're fine. Honeydew does everything we need. If things change, I'll add OFW, but why pay for conflict that doesn't exist?"
+**The takeaway:** Starting with Honeydew lets you test whether you actually need court-level documentation. You can always add OFW later if the situation changes—but why pay for conflict protection you may not need?
 
 **Annual cost:** $79
 
@@ -633,8 +630,7 @@ For some families, using both apps together provides the best of both worlds:
 - Daily coordination → Honeydew (efficient)
 - Gradually shifting more to Honeydew as trust builds
 
-**Maria's experience:**
-> "We're healing. We don't need every conversation documented anymore. But it's scary to drop that protection completely. The plan is both apps for one more year, then Honeydew only if things stay good."
+**The takeaway:** Relationships can improve over time. Running both apps during the transition provides security while testing whether documentation is still needed.
 
 **Annual cost:** $379 (transitioning to $79)
 

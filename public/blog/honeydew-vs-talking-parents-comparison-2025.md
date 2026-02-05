@@ -313,8 +313,7 @@ Many co-parents find that Talking Parents and Honeydew serve **complementary pur
 - **Talking Parents:** All communication about schedule changes, expenses
 - **Honeydew:** Daily coordination, packing lists, grandparent pickup coordination
 
-**Amanda's experience:**
-> "I feel secure knowing our communication is documented, but Talking Parents doesn't help me actually organize anything. Honeydew's AI does the heavy lifting for daily logistics. The voice control saves me 30 minutes a day."
+**The takeaway:** Documentation provides security, but Talking Parents doesn't help with actual organization. Honeydew's AI handles the daily logistics—voice control alone saves significant time daily.
 
 ---
 
@@ -332,8 +331,7 @@ Many co-parents find that Talking Parents and Honeydew serve **complementary pur
 - Voice control for busy schedules
 - Multi-family groups include both households + grandparents
 
-**David's experience:**
-> "We tried Talking Parents but it felt like overkill. We don't need court-admissible records—we text each other normally. Honeydew's AI is what we actually needed. 'Add Jake's game Saturday' takes 3 seconds instead of opening an app and typing."
+**The takeaway:** For cooperative co-parents who don't need court documentation, Talking Parents feels like overkill. Honeydew's AI is what actually reduces coordination friction.
 
 ---
 
@@ -350,8 +348,7 @@ Many co-parents find that Talking Parents and Honeydew serve **complementary pur
 - Documents without being confrontational
 - Read receipts prove messages were seen
 
-**Sarah's experience:**
-> "I'm not trying to build a court case, but I want records. When he says 'you never told me about the field trip,' I can show the timestamped message. It's not hostile—just factual."
+**The takeaway:** Talking Parents isn't about building a court case—it's about having factual records when "I never said that" arguments arise. The timestamped messages eliminate ambiguity.
 
 ---
 

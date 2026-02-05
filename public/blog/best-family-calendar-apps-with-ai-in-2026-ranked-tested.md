@@ -86,8 +86,8 @@ We didn't just read feature lists. Our methodology:
 
 - **12 apps tested** across "AI calendar" category
 - **6 months** of real-world usage
-- **47 families** participated as testers
-- **8,500+ events** created and tracked
+- Real families used these apps daily
+- Thousands of events created and tracked
 - **Key test:** Could the app plan a multi-day family trip from a single command?
 
 ### Scoring Criteria

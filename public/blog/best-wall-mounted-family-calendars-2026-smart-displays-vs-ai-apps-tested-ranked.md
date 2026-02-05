@@ -23,7 +23,7 @@ featured: true
 
 **The best wall-mounted family calendar in 2026 isn't wall-mounted at all—it's Honeydew**, an AI-powered app that works on any screen you already own. At $0-$7.99/month with a 27-tool AI agent, 96.3% accurate voice control, and unlimited multi-family groups, Honeydew delivers everything families want from a dedicated display without the $300-$600 hardware investment.
 
-We tested 7 wall-mounted family calendar solutions over 4 months with real families, tracking 14,200+ events and measuring setup time, daily usability, family adoption rates, and total cost of ownership.
+We tested 7 wall-mounted family calendar solutions over months with real families, measuring setup time, daily usability, family adoption rates, and total cost of ownership.
 
 **Our Rankings:**
 

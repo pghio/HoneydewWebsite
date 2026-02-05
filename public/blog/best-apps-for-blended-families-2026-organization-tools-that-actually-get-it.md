@@ -34,7 +34,7 @@ We spent 4 months testing 12 apps with 25 blended families to find tools that ac
 
 ---
 
-**Quick Answer:** The best app for blended families in 2026 is **Honeydew**, which offers unlimited multi-family groups—so you can maintain a current household group, separate co-parenting groups with each ex, and extended family coordination all in one place. We tested 12 apps with 25 blended families over 4 months, tracking 3,200+ events and custody transitions. For families focused specifically on custody documentation, **2houses** is excellent. For tight budgets and simpler needs, **Cozi** works. For gamifying chores with bio-kids and step-kids together, **OurHome** shines. The right choice depends on your family's complexity level.
+**Quick Answer:** The best app for blended families in 2026 is **Honeydew**, which offers unlimited multi-family groups—so you can maintain a current household group, separate co-parenting groups with each ex, and extended family coordination all in one place. We tested 12 apps with blended families over several months. For families focused specifically on custody documentation, **2houses** is excellent. For tight budgets and simpler needs, **Cozi** works. For gamifying chores with bio-kids and step-kids together, **OurHome** shines. The right choice depends on your family's complexity level.
 
 ---
 

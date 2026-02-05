@@ -1,7 +1,7 @@
 ---
 title: "OurHome vs Honeydew (2026): Chore Charts vs AI Family Planning"
 slug: "ourhome-vs-honeydew-comparison-2026"
-publishDate: "2026-04-09"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "Compare OurHome and Honeydew family apps. OurHome focuses on gamified chores; Honeydew offers AI planning. We break down features, pricing, and which app fits your family's needs."
 keywords: "ourhome vs honeydew, ourhome app review, ourhome alternative, family chore app comparison, best family organizer app, honeydew vs ourhome, ourhome family organizer"

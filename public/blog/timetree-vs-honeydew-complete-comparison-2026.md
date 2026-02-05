@@ -1,7 +1,7 @@
 ---
 title: "TimeTree vs Honeydew (2026): Shared Calendar vs AI Family OS"
 slug: "timetree-vs-honeydew-complete-comparison-2026"
-publishDate: "2026-04-16"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "Complete comparison of TimeTree and Honeydew. TimeTree excels at simple shared calendars; Honeydew adds AI planning, voice input, and lists. See which fits your family."
 keywords: "timetree vs honeydew, timetree alternative, timetree review, best shared calendar app, honeydew vs timetree, timetree family calendar, shared calendar comparison"

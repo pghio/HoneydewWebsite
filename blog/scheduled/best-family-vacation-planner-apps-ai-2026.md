@@ -1,7 +1,7 @@
 ---
 title: "Best Family Vacation Planner Apps with AI (2026): Plan Trips in Minutes"
 slug: "best-family-vacation-planner-apps-ai-2026"
-publishDate: "2026-03-16"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "The best family vacation planning apps with AI features in 2026. Compare Honeydew, TripIt, Wanderlog, and others for AI itinerary building, packing lists, and family-friendly travel coordination."
 keywords: "best family vacation planner app, best family trip planning app, ai vacation planner, family travel app 2026, best mobile apps for family vacation planning, trip planning app with ai, family vacation organizer app"

@@ -48,7 +48,7 @@ And you know what happens by Thursday? We're ordering takeout because I forgot t
 |--------|--------|-------|-------------|
 | **Weekly Planning Time** | 90 minutes | 22 minutes | **76% reduction** |
 | **Monthly Food Waste** | $100 (~30% of groceries) | $58 (~15% of groceries) | **42% reduction** |
-| **Nutritional Balance** | 57% of meals met guidelines | 86% of meals met guidelines | **+51% improvement** |
+| **Nutritional Balance** | 57% of meals met guidelines | Most meals met guidelines | **+51% improvement** |
 | **Grocery Shopping Trips** | 3-4 per week | 1-2 per week | **50% reduction** |
 | **Takeout Frequency** | 5-6 times/week | 1-2 times/week | **70% reduction** |
 | **Recipe Repetition** | ~10 recipes in rotation | ~35 recipes in rotation | **+250% variety** |

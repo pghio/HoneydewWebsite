@@ -1,7 +1,7 @@
 ---
 title: "Co-Parenting Schedule Changes Without Conflict (2025): Templates, Rules, and App Setup"
 slug: "co-parenting-schedule-changes-without-conflict-2025-templates-rules-and-app-setup"
-publishDate: "2026-03-05"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "A practical, low-drama system for custody schedule changes: message templates, decision rules, and a shared calendar setup that reduces back-and-forth. Built for divorced and separated parents in 2025."
 keywords: "co-parenting schedule changes, custody schedule change template, co-parenting calendar app, parenting schedule swap request, shared custody calendar, divorced parents app"

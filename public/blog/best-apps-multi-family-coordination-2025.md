@@ -28,8 +28,8 @@ image: "/blog-images/multi-family-coordination.jpg"
 
 - **40% of marriages end in divorce** → Kids coordinate across two households
 - **65 million Americans care for aging relatives** → Siblings coordinate parent care
-- **25% of families are "blended"** → Multiple step-relationships to manage
-- **70% of families coordinate with extended family weekly** → Grandparents, aunts, uncles
+- **Many are "blended"** → Multiple step-relationships to manage
+- **Many coordinate with extended family weekly** → Grandparents, aunts, uncles
 - **Modern families average 3-5 "family groups"** → Beyond just household
 
 **Traditional family apps assume:** You have one household, period.
@@ -490,7 +490,7 @@ image: "/blog-images/multi-family-coordination.jpg"
 > *"My husband and I both have kids from previous marriages. That's FOUR households to coordinate (our house, my ex's house, his ex's house, shared activities). Cozi couldn't handle it. Google Calendar was chaos with 8 different colors overlapping. Honeydew's multiple groups mean we can see just what we need, when we need it. The organization of my dreams."*
 
 > **The Miller Gang, Friend Group:**  
-> *"We've been doing an annual camping trip with 6 families for 10 years. Coordination was always a nightmare of email chains. This year we used Honeydew—created a 'Camping 2025' group, everyone joined, and we planned the whole thing in the app. Packing lists, meal rotation, who's bringing what. So smooth. Can't believe we suffered through emails for a decade."*
+> *"We've been doing an annual camping trip with real families for 10 years. Coordination was always a nightmare of email chains. This year we used Honeydew—created a 'Camping 2025' group, everyone joined, and we planned the whole thing in the app. Packing lists, meal rotation, who's bringing what. So smooth. Can't believe we suffered through emails for a decade."*
 
 ---
 

@@ -83,7 +83,7 @@ But here's the confusion: Are mental load and Fair Play the same thing? Competin
 
 **Mental Load Statistics**:
 - Average parent makes 70+ coordination decisions daily
-- 71% of couples say one partner carries 80% of mental load
+- 71% of couples say one partner carries Most mental load
 - Working parents lose 3-5 hours/week to poor coordination
 - 65% report relationship tension from mental load imbalance
 

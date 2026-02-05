@@ -33,6 +33,7 @@
   "license": "ISC",
   "description": "Honeydew - Modern Task Management Website",
   "dependencies": {
+    "@google-analytics/data": "^5.2.1",
     "@hookform/resolvers": "^5.1.1",
     "@tailwindcss/postcss": "^4.1.12",
     "@tanstack/react-query": "^5.81.2",

@@ -445,7 +445,7 @@ Powerful tool for organized people. Overwhelming for ADHD. The flexibility that 
 ## What ADHD Parents Say About Honeydew
 
 > **"Voice input changed everything"** — Sarah, mom of 2, diagnosed ADHD
-> "I used to forget 80% of what I needed to add to calendars and lists. Now I speak it the moment I think it. My brain can let go because it's captured."
+> "I used to forget Most what I needed to add to calendars and lists. Now I speak it the moment I think it. My brain can let go because it's captured."
 
 > **"AI does the planning I can't"** — Marcus, dad of 3, ADHD
 > "Planning a birthday party used to take me 2 weeks of procrastination. I said 'plan birthday party' and had a complete checklist in 5 seconds. I actually did it."

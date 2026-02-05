@@ -175,7 +175,7 @@ Single parents are CONSTANTLY multitasking. Voice control is a lifesaver.
 - 🏃 Morning rush: "Create shopping list for Emma's birthday party"
 - 📞 On work call: Silently type or use voice-to-text in app
 
-**Whisper AI transcription (>95% accuracy)** works even with kids screaming in the background.
+**Whisper AI transcription (>>95% accuracy)** works even with kids screaming in the background.
 
 #### 📅 Custody Schedule + Activities in One Place
 
@@ -716,7 +716,7 @@ FamCal is a simple family calendar app. It's fine for intact families but has sa
 - Coordination texts reduced to 2-3 per week
 - Time saved: 3+ hours per week
 
-**Result:** "Honeydew eliminated 80% of our coordination texts. The multi-family groups are perfect—kids' stuff is shared, household stuff stays private. The AI is magic for packing lists." — Sarah
+**Result:** "Honeydew eliminated Most our coordination texts. The multi-family groups are perfect—kids' stuff is shared, household stuff stays private. The AI is magic for packing lists." — Sarah
 
 ---
 

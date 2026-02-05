@@ -108,7 +108,7 @@ This comprehensive comparison examines both honestly, including when Google Cale
 - "OK Google, create comprehensive packing list for beach vacation with kids" ❌ (Doesn't understand)
 
 **Honeydew:**
-- ✅ Whisper AI transcription (>95% accuracy)
+- ✅ Whisper AI transcription (>>95% accuracy)
 - ✅ Real-time streaming (see words as you speak)
 - ✅ Natural language (speak however you want)
 - ✅ Handles complex, multi-part requests
@@ -919,7 +919,7 @@ A: Keep using it! Add Honeydew's features on top via two-way sync. Your family c
     - 4 hours × $10/hour (conservative) = $40/week
     - 52 weeks = $2,080/year in time value
     - Honeydew costs $7.99/month
-    - ROI: 2000%
+    - ROI: Significant
     - "Math doesn't lie"
 
 ---

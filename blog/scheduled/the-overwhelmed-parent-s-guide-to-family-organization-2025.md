@@ -1,7 +1,7 @@
 ---
 title: "The Overwhelmed Parent's Guide to Family Organization 2025"
 slug: "the-overwhelmed-parent-s-guide-to-family-organization-2025"
-publishDate: "2026-02-19"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "Drowning in family chaos? This guide cuts through the overwhelm with practical, AI-powered strategies to organize your family life. From mental load to meal planning, here's how to regain control without adding more stress."
 keywords: "overwhelmed parent, family organization help, stressed parent tips, too much to manage family, family chaos solutions, parent overwhelm, mental load solutions"
@@ -368,7 +368,7 @@ You're overwhelmed. The temptation is to overhaul everything immediately.
 **Why we recommend it:**
 - **Multi-family groups:** Divorced parents, extended family, friend groups
 - **AI agent (27+ tools):** Generates lists, learns your family
-- **Voice-first:** Whisper AI with >95% accuracy
+- **Voice-first:** Whisper AI with >>95% accuracy
 - **Lists attached to events:** Everything in context
 - **Two-way calendar sync:** Works with Google/Apple Calendar
 - **Free tier:** Test before committing

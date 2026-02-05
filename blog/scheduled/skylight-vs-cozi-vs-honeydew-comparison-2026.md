@@ -1,7 +1,7 @@
 ---
 title: "Skylight vs Cozi vs Honeydew: Which Family Organizer Wins in 2026?"
 slug: "skylight-vs-cozi-vs-honeydew-comparison-2026"
-publishDate: "2026-04-13"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "Three-way comparison of Skylight Calendar, Cozi, and Honeydew. We compare hardware vs software, manual vs AI, pricing, and real family workflows to help you choose the right family organizer."
 keywords: "skylight vs cozi, cozi vs skylight, skylight vs honeydew, cozi vs honeydew, best family organizer 2026, family calendar comparison, skylight cozi honeydew comparison"

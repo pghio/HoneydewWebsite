@@ -1,7 +1,7 @@
 ---
 title: "Carpool & Sports Coordination Across Multiple Families (2025): The No-Drama System"
 slug: "carpool-sports-coordination-across-multiple-families-2025-the-no-drama-system"
-publishDate: "2026-03-02"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "A practical guide to coordinating carpools, practices, and game-day logistics across multiple families. Includes a shared calendar setup, carpool templates, and an AI-assisted workflow."
 keywords: "carpool coordination app, sports team carpool schedule, multi-family coordination, shared calendar for sports, team logistics app, family carpool organizer"

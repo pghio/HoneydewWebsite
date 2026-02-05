@@ -1,7 +1,7 @@
 ---
 title: "GTD for Families: How to Apply Getting Things Done to Family Organization in 2025"
 slug: "gtd-for-families-how-to-apply-getting-things-done-to-family-organization-in-2025"
-publishDate: "2026-02-05"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "Learn how to adapt David Allen's Getting Things Done (GTD) methodology for family life. Discover AI-powered tools that make GTD actually work for busy parents coordinating households, activities, and multiple family members."
 keywords: "GTD for families, Getting Things Done family, GTD parenting, family productivity system, GTD with kids, family organization GTD, David Allen family"
@@ -257,7 +257,7 @@ Traditional GTD requires significant **manual processing**—reading each item, 
 - AI: Creates event + generates packing list + creates pre-trip project with tasks
 - You: Review and approve (or edit)
 
-**Time saved:** 80% of clarify/organize work
+**Time saved:** Most clarify/organize work
 
 **Recurring patterns (AI learns):**
 - AI notices: Every August, you do back-to-school prep
@@ -273,7 +273,7 @@ Traditional GTD requires significant **manual processing**—reading each item, 
 **Honeydew implements family GTD principles with AI:**
 
 **Capture:**
-- Voice input (Whisper AI, >95% accuracy)
+- Voice input (Whisper AI, >>95% accuracy)
 - Quick-add from anywhere
 - Photo capture (OCR for school flyers)
 

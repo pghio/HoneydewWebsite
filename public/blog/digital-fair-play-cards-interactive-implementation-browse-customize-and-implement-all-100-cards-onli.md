@@ -66,33 +66,33 @@ If you've ever tried implementing Eve Rodsky's Fair Play system with physical ca
 ### Filter by Category: The 5 Card Suits
 
 **Daily Grind Cards (Red) - Recurring Household Tasks**:
-- 🧺 Laundry (85% of families use this)
-- 🍽️ Meal Planning (92% of families)
+- 🧺 Laundry (Many use this)
+- 🍽️ Meal Planning (Most families)
 - 🧹 Cleaning (78% of families)
-- 🛒 Grocery Shopping (88% of families)
+- 🛒 Grocery Shopping (Most families)
 - 👕 Kids' Clothing (71% of families)
 
 **Home Cards (Blue) - Property and Maintenance**:
-- 🏠 Home Maintenance (90% of families)
+- 🏠 Home Maintenance (Most families)
 - 🛠️ Home Repairs (55% of families)
 - 🌱 Yard Work (40% of families)
-- 💡 Utilities (85% of families)
+- 💡 Utilities (Most families)
 
 **Out Cards (Green) - Social and External Activities**:
-- 🏃 Kids' Activities (95% of families)
+- 🏃 Kids' Activities (Most families)
 - 🏖️ Travel Planning (50% of families)
 - 👫 Date Night (45% of families)
 - 🎉 Weekend Planning (75% of families)
 
 **Caregiving Cards (Orange) - Emotional and Relational Care**:
-- 👶 Kids' Morning Routine (95% of families)
-- 🌙 Kids' Bedtime Routine (92% of families)
-- 💊 Kids' Medical Care (85% of families)
-- 📞 Teacher Communication (80% of families)
+- 👶 Kids' Morning Routine (Most families)
+- 🌙 Kids' Bedtime Routine (Most families)
+- 💊 Kids' Medical Care (Most families)
+- 📞 Teacher Communication (Most families)
 
 **Magic Cards (Purple) - Joy and Connection**:
-- 🎭 Family Fun (85% of families)
-- 🎂 Birthday Planning (90% of families)
+- 🎭 Family Fun (Most families)
+- 🎂 Birthday Planning (Most families)
 - 🎁 Gift Planning (70% of families)
 - 📖 Family Traditions (60% of families)
 

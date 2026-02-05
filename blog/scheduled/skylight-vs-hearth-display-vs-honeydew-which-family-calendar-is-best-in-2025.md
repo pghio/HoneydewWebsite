@@ -1,7 +1,7 @@
 ---
 title: "Skylight vs Hearth Display vs Honeydew: Which Family Calendar Is Best in 2025?"
 slug: "skylight-vs-hearth-display-vs-honeydew-which-family-calendar-is-best-in-2025"
-publishDate: "2026-02-23"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "Detailed comparison of Skylight Calendar ($300), Hearth Display ($600), and Honeydew (free/app) for family organization. See features, pricing, and which is worth your money."
 keywords: "Skylight vs Hearth Display, Hearth Display alternative, Skylight Calendar comparison, best family calendar display, wall calendar display, family hub comparison"
@@ -113,7 +113,7 @@ Each takes a fundamentally different approach to family organization. Let's brea
 ### What Honeydew Does Well
 
 ✅ **AI agent with 27+ tools** — "Plan our camping trip" → done in seconds  
-✅ **Voice control** — Whisper AI at >95% accuracy  
+✅ **Voice control** — Whisper AI at >>95% accuracy  
 ✅ **Multi-family groups** — Divorced parents, extended family, friend groups  
 ✅ **Two-way calendar sync** — Google/Apple changes flow both directions  
 ✅ **Works everywhere** — Phone, tablet, computer, any screen  
@@ -339,7 +339,7 @@ For most families: **No.** The extra $250-$400 gets you:
 - Smart home controls
 - Better design
 
-Unless smart home control is important to you, Skylight delivers 80% of the value at 50% the cost.
+Unless smart home control is important to you, Skylight delivers Most the value at 50% the cost.
 
 ### Why doesn't Skylight or Hearth have AI?
 
@@ -411,7 +411,7 @@ All three have acceptable support. Hardware companies (Skylight, Hearth) have mo
 
 ## Our Recommendation
 
-**For 80% of families: Honeydew is the better choice.**
+**For Most families: Honeydew is the better choice.**
 
 The era of dedicated family displays (Skylight, Hearth) is ending. Modern families need:
 - AI that reduces coordination overhead

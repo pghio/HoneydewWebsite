@@ -46,7 +46,7 @@ This guide shows you how to implement Fair Play in 15 minutes, using AI automati
 
 **The Statistics Don't Lie**:
 - Working parents make 70+ daily decisions about household coordination
-- 71% of married couples say one partner carries 80% of the mental load
+- 71% of married couples say one partner carries Most the mental load
 - Average working parent loses 3-5 hours/week to poor coordination
 - 65% of working parents report relationship tension from task inequality
 
@@ -171,7 +171,7 @@ AI: "Creating Fair Play system optimized for busy schedules. Starting with 10 co
 
 ### The 80/20 Rule: Focus on High-Impact Cards
 
-**AI Analysis Shows**: 10 cards handle 80% of working parent coordination pain points. The other 90 cards can wait until you're ready.
+**AI Analysis Shows**: 10 cards handle Most working parent coordination pain points. The other 90 cards can wait until you're ready.
 
 **Pro Tip**: Let AI guide the expansion. After 30 days, it will suggest: "Based on your completion patterns, these 5 additional cards would save you the most time."
 

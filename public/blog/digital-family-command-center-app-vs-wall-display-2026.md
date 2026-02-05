@@ -1,7 +1,7 @@
 ---
 title: "Digital Family Command Center: App vs Wall Display (2026 Complete Guide)"
 slug: "digital-family-command-center-app-vs-wall-display-2026"
-publishDate: "2026-04-02"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "Should you build a digital family command center with software or hardware? We compare apps like Honeydew vs wall displays like Skylight, DIY tablet setups, and smart displays to help you choose."
 keywords: "digital family command center, family command center app, family command center digital, wall calendar alternative software, digital family dashboard, family hub app, family command center 2026"

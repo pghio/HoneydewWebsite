@@ -168,7 +168,7 @@ Humans think in natural language ("next Tuesday when everyone's free"), not in s
 
 ### 3. Voice Recognition & Transcription (Whisper AI)
 
-**What it is:** AI that converts speech to text with >95% accuracy, even in noisy environments.
+**What it is:** AI that converts speech to text with >>95% accuracy, even in noisy environments.
 
 **Why it matters for families:**
 Families are ALWAYS multitasking. Traditional apps require:
@@ -189,7 +189,7 @@ Families are ALWAYS multitasking. Traditional apps require:
 **No stopping. No typing. Just speak naturally.**
 
 **Honeydew's Whisper AI:**
-- >95% accuracy (even with kids screaming)
+- >>95% accuracy (even with kids screaming)
 - Real-time streaming (see words as you speak)
 - 50+ languages supported
 - Understands context and complex requests
@@ -240,7 +240,7 @@ AI: "Jake's soccer practice is coming up Wednesday. Should I generate the prep c
 - Remembers recurring patterns
 - Suggests optimal times based on history
 - Personalizes to your family's unique rhythms
-- 80% of requests are instant (<500ms) because they're learned patterns
+- Most requests are instant (<500ms) because they're learned patterns
 
 **Result:** The app gets smarter and faster the more you use it.
 
@@ -612,7 +612,7 @@ A: Basic features (calendar, lists, voice input) are immediately intuitive. Adva
 
 **Honeydew is the most advanced AI family organizer available in 2025:**
 - 27-tool AI agent
-- Whisper AI voice control (>95% accuracy)
+- Whisper AI voice control (>>95% accuracy)
 - Natural language understanding
 - Knowledge graph learning
 - Multi-family architecture

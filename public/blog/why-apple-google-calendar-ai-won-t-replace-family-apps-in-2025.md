@@ -1,7 +1,7 @@
 ---
 title: "Why Apple & Google Calendar AI Won't Replace Family Apps in 2025"
 slug: "why-apple-google-calendar-ai-won-t-replace-family-apps-in-2025"
-publishDate: "2026-02-26"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "Apple Intelligence and Google Gemini are adding AI to calendars—but here's why dedicated family apps like Honeydew still win for family coordination. Multi-family groups, lists attached to events, and family-context AI are features big tech won't build."
 keywords: "Apple Calendar AI, Google Calendar Gemini, Apple Intelligence calendar, best family calendar app, AI family planner, Google Calendar vs family app, Apple Calendar vs Honeydew"
@@ -223,7 +223,7 @@ Honeydew builds a **knowledge graph** of your family:
 - Limited to simple commands
 
 **What Honeydew Voice Does:**
-- **Whisper AI transcription** at >95% accuracy (even with kids screaming)
+- **Whisper AI transcription** at >>95% accuracy (even with kids screaming)
 - **Full context understanding:** "Add Jake's permission slip to the school stuff" (knows Jake is your kid, knows you have a "school" context)
 - **Complex commands:** "Plan Emma's birthday party for next Saturday" → Creates event + generates party planning checklist + suggests tasks
 - **Hands-free parenting:** Actually useful while cooking, driving, wrangling kids

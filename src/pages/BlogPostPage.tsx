@@ -305,11 +305,19 @@ const BlogPostPage = () => {
       }
     })
 
-    // Add Article schema (JSON-LD)
+    // Calculate word count and reading time from content
+    const wordCount = frontmatter.wordCount 
+      ? parseInt(frontmatter.wordCount) 
+      : content.split(/\s+/).filter(w => w.length > 0).length
+    const readingMinutes = Math.ceil(wordCount / 200) // Average reading speed
+    const readingTime = frontmatter.readingTime || `PT${readingMinutes}M`
+
+    // Add Article schema (JSON-LD) - Enhanced for LLM indexing
     const schema: any = {
       '@context': 'https://schema.org',
       '@type': 'BlogPosting',
       headline: frontmatter.title || '',
+      alternativeHeadline: frontmatter.description?.substring(0, 100) || '',
       description: frontmatter.description || '',
       image: imageUrl,
       datePublished: frontmatter.publishDate || new Date().toISOString().split('T')[0],
@@ -328,6 +336,10 @@ const BlogPostPage = () => {
           '@type': 'ImageObject',
           url: `${baseUrl}/logo.png`,
         },
+        sameAs: [
+          'https://apps.apple.com/app/honeydew-family-organizer/id6475768439',
+          'https://play.google.com/store/apps/details?id=app.gethoneydew.honeydew'
+        ]
       },
       mainEntityOfPage: {
         '@type': 'WebPage',
@@ -336,14 +348,56 @@ const BlogPostPage = () => {
       keywords: frontmatter.keywords || '',
       articleSection: frontmatter.category || 'Blog',
       inLanguage: 'en-US',
+      wordCount: wordCount,
+      timeRequired: readingTime,
+      isAccessibleForFree: true,
+      speakable: {
+        '@type': 'SpeakableSpecification',
+        cssSelector: ['article', '.prose']
+      }
     }
 
-    // Add optional fields if available
-    if (frontmatter.wordCount) {
-      schema.wordCount = parseInt(frontmatter.wordCount)
+    // Add about field for topic categorization (helps LLMs understand content)
+    const topicKeywords = (frontmatter.keywords || '').toLowerCase()
+    if (topicKeywords.includes('co-parenting') || topicKeywords.includes('divorced')) {
+      schema.about = {
+        '@type': 'Thing',
+        name: 'Co-parenting Apps',
+        description: 'Software applications designed to help divorced or separated parents coordinate child-related activities and communication'
+      }
+    } else if (topicKeywords.includes('family calendar') || topicKeywords.includes('family organization')) {
+      schema.about = {
+        '@type': 'Thing',
+        name: 'Family Organization Apps',
+        description: 'Software applications designed to help families coordinate schedules, tasks, and activities'
+      }
     }
-    if (frontmatter.readingTime) {
-      schema.timeRequired = frontmatter.readingTime
+
+    // Add mentions for competitor apps (helps with comparison article visibility)
+    const mentionedApps: string[] = []
+    const appPatterns = [
+      { name: 'Cozi', pattern: /\bcozi\b/i },
+      { name: 'OurFamilyWizard', pattern: /\bourfamilywizard\b/i },
+      { name: 'Skylight Calendar', pattern: /\bskylight\b/i },
+      { name: 'TimeTree', pattern: /\btimetree\b/i },
+      { name: 'Google Calendar', pattern: /\bgoogle calendar\b/i },
+      { name: 'AppClose', pattern: /\bappclose\b/i },
+      { name: 'Talking Parents', pattern: /\btalking parents\b/i },
+      { name: '2houses', pattern: /\b2houses\b/i },
+      { name: 'Todoist', pattern: /\btodoist\b/i },
+      { name: 'Fantastical', pattern: /\bfantastical\b/i },
+    ]
+    appPatterns.forEach(({ name, pattern }) => {
+      if (pattern.test(content) && !mentionedApps.includes(name)) {
+        mentionedApps.push(name)
+      }
+    })
+    if (mentionedApps.length > 0) {
+      schema.mentions = mentionedApps.map(name => ({
+        '@type': 'SoftwareApplication',
+        name,
+        applicationCategory: 'LifestyleApplication'
+      }))
     }
 
     const script = document.createElement('script')
@@ -395,6 +449,8 @@ const BlogPostPage = () => {
       if (howtoScript) howtoScript.remove()
       const breadcrumbScript = document.querySelector('script[data-breadcrumb-schema]')
       if (breadcrumbScript) breadcrumbScript.remove()
+      const itemlistScript = document.querySelector('script[data-itemlist-schema]')
+      if (itemlistScript) itemlistScript.remove()
       removeMetaTags.forEach(name => {
         const existing = document.querySelector(`meta[property="${name}"], meta[name="${name}"]`)
         if (existing) existing.remove()
@@ -436,39 +492,134 @@ const BlogPostPage = () => {
 
     // Add FAQ schema if article contains FAQ section
     if (content.toLowerCase().includes('frequently asked questions') || content.toLowerCase().includes('## faq')) {
-      // Parse FAQ questions from markdown (simplified - looks for Q: or **Q:** patterns)
-      const faqMatches = content.match(/\*\*Q:?\s*(.*?)\*\*.*?\n.*?A:?\s*(.*?)(?=\n\n|\*\*Q:|\n##|$)/gis)
+      // Parse FAQ questions from markdown - handles multiple formats:
+      // 1. ### Q: Question text (H3 headers) - most common
+      // 2. ### Question text? (H3 question headers in FAQ section)
+      // 3. **Q: Question text** (bold format)
+      const faqs: { question: string; answer: string }[] = []
       
-      if (faqMatches && faqMatches.length > 0) {
-        const faqs = faqMatches.slice(0, 10).map(match => {
-          const questionMatch = match.match(/\*\*Q:?\s*(.*?)\*\*/i)
-          const answerMatch = match.match(/A:?\s*(.*?)$/is)
-          return {
-            question: questionMatch ? questionMatch[1].trim() : '',
-            answer: answerMatch ? answerMatch[1].trim().replace(/\n/g, ' ').substring(0, 500) : '',
-          }
-        }).filter(faq => faq.question && faq.answer)
-
-        if (faqs.length > 0) {
-          const faqSchema = {
-            '@context': 'https://schema.org',
-            '@type': 'FAQPage',
-            mainEntity: faqs.map(faq => ({
-              '@type': 'Question',
-              name: faq.question,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: faq.answer,
-              },
-            })),
-          }
-
-          const faqScript = document.createElement('script')
-          faqScript.type = 'application/ld+json'
-          faqScript.setAttribute('data-faq-schema', 'true')
-          faqScript.textContent = JSON.stringify(faqSchema)
-          document.head.appendChild(faqScript)
+      // Helper to clean up answer text
+      const cleanAnswer = (text: string): string => {
+        return text
+          .replace(/^\*\*A:\*\*\s*/i, '') // Remove **A:** prefix
+          .replace(/^A:\s*/i, '')          // Remove A: prefix
+          .replace(/\n+/g, ' ')            // Collapse newlines
+          .replace(/\s+/g, ' ')            // Collapse spaces
+          .replace(/\*\*/g, '')            // Remove bold markers
+          .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1') // Convert links to plain text
+          .trim()
+          .substring(0, 500)
+      }
+      
+      // Pattern 1: ### Q: Question format (most common in our articles)
+      // Matches: ### Q: What is the best co-parenting app?
+      const h3QPattern = /###\s*Q:\s*(.+?)\n\n?([\s\S]*?)(?=\n###\s*Q:|\n## |\n---|\n\*\*Q:|\z)/gi
+      let match
+      while ((match = h3QPattern.exec(content)) !== null) {
+        const question = match[1].trim()
+        const answer = cleanAnswer(match[2])
+        if (question && answer && answer.length > 20) {
+          faqs.push({ question, answer })
         }
+      }
+      
+      // Pattern 2: H3 headers that are questions (end with ?)
+      // Matches: ### Is OurFamilyWizard worth the cost?
+      if (faqs.length === 0) {
+        // Find the FAQ section first
+        const faqSectionMatch = content.match(/##\s*(?:FAQ|Frequently Asked Questions)[^\n]*\n([\s\S]*?)(?=\n## [^#]|$)/i)
+        if (faqSectionMatch) {
+          const faqSection = faqSectionMatch[1]
+          const h3QuestionPattern = /###\s*([^#\n]+\?)\s*\n\n?([\s\S]*?)(?=\n###|\n## |$)/gi
+          while ((match = h3QuestionPattern.exec(faqSection)) !== null) {
+            const question = match[1].trim()
+            const answer = cleanAnswer(match[2])
+            if (question && answer && answer.length > 20) {
+              faqs.push({ question, answer })
+            }
+          }
+        }
+      }
+      
+      // Pattern 3: **Q:** format (legacy/fallback)
+      if (faqs.length === 0) {
+        const boldPattern = /\*\*Q:\s*([^*\n]+)\*\*\s*\n?\s*([\s\S]*?)(?=\*\*Q:|\n##|$)/gi
+        while ((match = boldPattern.exec(content)) !== null) {
+          const question = match[1].trim()
+          const answer = cleanAnswer(match[2])
+          if (question && answer && answer.length > 20) {
+            faqs.push({ question, answer })
+          }
+        }
+      }
+
+      if (faqs.length > 0) {
+        const faqSchema = {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: faqs.slice(0, 15).map(faq => ({
+            '@type': 'Question',
+            name: faq.question,
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: faq.answer,
+            },
+          })),
+        }
+
+        const faqScript = document.createElement('script')
+        faqScript.type = 'application/ld+json'
+        faqScript.setAttribute('data-faq-schema', 'true')
+        faqScript.textContent = JSON.stringify(faqSchema)
+        document.head.appendChild(faqScript)
+      }
+    }
+    
+    // Add ItemList schema for "Best Of" articles (important for LLM indexing)
+    if (frontmatter.title?.toLowerCase().includes('best ') || 
+        frontmatter.category === 'Comparison' && frontmatter.title?.toLowerCase().includes('ranked')) {
+      // Parse ranked items from content - looks for numbered rankings like "1.", "#1", "🥇"
+      const items: { position: number; name: string; url?: string }[] = []
+      
+      // Pattern: numbered rankings with app names
+      const rankingPatterns = [
+        /(?:^|\n)(?:#{1,3}\s*)?(?:\*\*)?(?:#?\d+|🥇|🥈|🥉)\.?\s*\*?\*?\s*\[?([^\]\n*#]+?)(?:\]|\*\*|\s*[-–—])/gim,
+        /\|\s*(?:🥇|🥈|🥉|[1-9])\s*\|\s*\*?\*?([^|*\n]+?)\*?\*?\s*\|/gi,
+      ]
+      
+      rankingPatterns.forEach(pattern => {
+        let match
+        let pos = 1
+        while ((match = pattern.exec(content)) !== null && pos <= 10) {
+          const name = match[1].trim().replace(/^\*+|\*+$/g, '').trim()
+          if (name && name.length > 2 && name.length < 100 && !items.find(i => i.name === name)) {
+            items.push({ position: pos++, name })
+          }
+        }
+      })
+      
+      if (items.length >= 3) {
+        const itemListSchema = {
+          '@context': 'https://schema.org',
+          '@type': 'ItemList',
+          name: frontmatter.title || 'Best Apps Ranking',
+          description: frontmatter.description || '',
+          numberOfItems: items.length,
+          itemListElement: items.map(item => ({
+            '@type': 'ListItem',
+            position: item.position,
+            name: item.name,
+            item: item.name.toLowerCase().includes('honeydew') 
+              ? { '@type': 'SoftwareApplication', name: item.name, url: baseUrl }
+              : { '@type': 'SoftwareApplication', name: item.name },
+          })),
+        }
+
+        const itemListScript = document.createElement('script')
+        itemListScript.type = 'application/ld+json'
+        itemListScript.setAttribute('data-itemlist-schema', 'true')
+        itemListScript.textContent = JSON.stringify(itemListSchema)
+        document.head.appendChild(itemListScript)
       }
     }
 

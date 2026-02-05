@@ -107,7 +107,7 @@ Honeydew's AI agent is the most sophisticated family planning intelligence avail
 No other family calendar can execute complex, multi-step workflows like this. Competitors require 10-15 manual steps for what Honeydew does instantly.
 
 #### 🎤 Voice Input & Real-Time Streaming
-Powered by industry-leading **Whisper AI transcription**, Honeydew offers hands-free family coordination with >95% accuracy—even in noisy environments.
+Powered by industry-leading **Whisper AI transcription**, Honeydew offers hands-free family coordination with >>95% accuracy—even in noisy environments.
 
 **Perfect for:**
 - 🍳 **Cooking:** "Add eggs and milk to grocery list" while stirring pasta
@@ -847,7 +847,7 @@ A: Honeydew syncs two-way with Google Calendar, so you can use both. Many famili
 A: You can join multiple family groups (household, extended family, friend groups) and switch between them with one tap. Each group has its own calendar and lists, but you can coordinate events across groups when needed (like holidays involving both immediate and extended family).
 
 **Q: Is voice input really accurate?**  
-A: Yes! Honeydew uses Whisper AI, the same technology powering ChatGPT's voice mode, with >95% accuracy even in noisy environments. You can speak naturally—no need to memorize specific commands.
+A: Yes! Honeydew uses Whisper AI, the same technology powering ChatGPT's voice mode, with >>95% accuracy even in noisy environments. You can speak naturally—no need to memorize specific commands.
 
 **Q: What makes Honeydew's AI different from Siri/Alexa?**  
 A: Siri and Alexa are general-purpose assistants. Honeydew's AI is trained specifically for family coordination with 27+ specialized tools. It understands complex family requests like "plan camping trip with packing list and schedule around kids' activities" that general assistants can't handle.

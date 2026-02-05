@@ -709,7 +709,7 @@ A: Yes! Calendar events can be exported/imported. Lists need manual recreation (
 A: The basics (calendar, lists) are as simple as any app. AI features are optional. Voice control is actually *easier* for non-technical users than navigating menus.
 
 **Q: Do I really need AI for family organization?**  
-A: Need? No. But it transforms 30 minutes of planning into 30 seconds. Try it once ("plan camping trip") and you'll understand why 70% of families can't go back to manual entry.
+A: Need? No. But it transforms 30 minutes of planning into 30 seconds. Try it once ("plan camping trip") and you'll understand why Many can't go back to manual entry.
 
 **Q: Which app is best for divorced parents?**  
 A: Honeydew is the *only* app designed for multi-household coordination. Cozi and others force awkward workarounds (shared account with no privacy, or separate accounts with no coordination).

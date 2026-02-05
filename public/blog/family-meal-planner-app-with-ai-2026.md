@@ -1,7 +1,7 @@
 ---
 title: "Best Family Meal Planner Apps with AI (2026): Automated Weekly Menus"
 slug: "family-meal-planner-app-with-ai-2026"
-publishDate: "2026-04-06"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "The best family meal planning apps with AI in 2026. Compare Honeydew, Mealime, Eat This Much, and others for AI-generated meal plans, automatic grocery lists, and family-friendly recipes."
 keywords: "family meal planner app, ai meal planning app, best family meal planning apps 2026, family meal planner with grocery list, meal planning app for families, ai meal prep app"

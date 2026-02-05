@@ -1,7 +1,7 @@
 ---
 title: "Cheaper Alternatives to Skylight Calendar Under $100 (2026 Guide)"
 slug: "cheaper-alternatives-to-skylight-calendar-under-100-2026"
-publishDate: "2026-03-26"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "Looking for a Skylight Calendar alternative under $100? We cover the best budget-friendly options: tablet setups, free apps, and DIY solutions that give you the same family calendar experience for a fraction of the cost."
 keywords: "cheaper alternatives to skylight calendar, skylight calendar alternative cheaper, cheap skylight alternative, skylight calendar alternatives free, budget family calendar, skylight dupe, cheaper skylight"

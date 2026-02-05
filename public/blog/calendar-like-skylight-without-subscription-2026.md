@@ -1,7 +1,7 @@
 ---
 title: "Calendar Like Skylight Without Subscription (2026): Free & Low-Cost Alternatives"
 slug: "calendar-like-skylight-without-subscription-2026"
-publishDate: "2026-03-23"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "Want a family calendar display like Skylight but without the $79/year subscription? Here are the best subscription-free alternatives, from DIY tablet setups to one-time-purchase displays."
 keywords: "calendar like skylight without subscription, skylight alternative no subscription, skylight calendar alternative free, family calendar no subscription, skylight calendar free alternative, wall calendar without subscription"

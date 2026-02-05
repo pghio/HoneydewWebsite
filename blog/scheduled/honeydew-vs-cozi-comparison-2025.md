@@ -98,7 +98,7 @@ This comprehensive comparison evaluates both apps across every dimension that ma
 ### Voice Control
 
 **Honeydew: ✅ Whisper AI Voice Input**
-- Industry-leading Whisper AI transcription (>95% accuracy)
+- Industry-leading Whisper AI transcription (>>95% accuracy)
 - Real-time streaming (see words as you speak)
 - Works with background noise (kitchen, car, kids)
 - 50+ languages supported

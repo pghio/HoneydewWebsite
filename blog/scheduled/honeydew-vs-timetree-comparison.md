@@ -125,7 +125,7 @@ This comprehensive comparison helps you understand which philosophy fits your fa
 - ❌ No hands-free operation
 
 **Honeydew:**
-- ✅ **Whisper AI transcription** (>95% accuracy)
+- ✅ **Whisper AI transcription** (>>95% accuracy)
 - ✅ Real-time streaming (see words as you speak)
 - ✅ Works with background noise
 - ✅ Natural language (speak however you want)

@@ -34,7 +34,7 @@ If you're curious about the technology that makes "one sentence → complete pla
 
 ---
 
-**Quick Answer:** Honeydew's AI agent is a sophisticated Large Language Model (LLM)-powered system with 27+ specialized tools that understands natural language family coordination requests, decomposes them into multi-step workflows, and executes automatically. When you say "plan camping trip next weekend," the AI agent: (1) invokes the calendar analysis tool to find optimal dates, (2) calls the event creation tool, (3) uses the list generation tool with camping-specific knowledge, (4) orchestrates the notification tool, and (5) employs the knowledge graph to remember patterns. The system achieves 80% cache hit rate for common requests (<500ms response), >95% accuracy in understanding intent, and learns family patterns over 2-3 months. Unlike voice assistants (Siri, Alexa) that handle single-step commands, Honeydew's agent orchestrates complex multi-tool workflows, maintains context across conversations, and improves through usage via knowledge graph learning.
+**Quick Answer:** Honeydew's AI agent is a sophisticated Large Language Model (LLM)-powered system with 27+ specialized tools that understands natural language family coordination requests, decomposes them into multi-step workflows, and executes automatically. When you say "plan camping trip next weekend," the AI agent: (1) invokes the calendar analysis tool to find optimal dates, (2) calls the event creation tool, (3) uses the list generation tool with camping-specific knowledge, (4) orchestrates the notification tool, and (5) employs the knowledge graph to remember patterns. The system achieves 80% cache hit rate for common requests (<500ms response), >>95% accuracy in understanding intent, and learns family patterns over 2-3 months. Unlike voice assistants (Siri, Alexa) that handle single-step commands, Honeydew's agent orchestrates complex multi-tool workflows, maintains context across conversations, and improves through usage via knowledge graph learning.
 
 ---
 
@@ -379,7 +379,7 @@ Family Node (Martinez Family)
 
 ```
 User speaks → 
-Whisper AI transcription (>95% accuracy) → 
+Whisper AI transcription (>>95% accuracy) → 
 Text output → 
 NLU (extract intent) → 
 LLM (plan workflow) → 
@@ -898,7 +898,7 @@ A: Yes. You can delete any learned pattern or wipe the entire knowledge graph. T
 A: AI suggestions are exactly that—suggestions. You always review before confirming. Mistakes in suggestions don't cause problems because you approve first. Over time, mistakes decrease as the AI learns.
 
 **Q: How does voice accuracy compare to Siri?**  
-A: Whisper AI (what Honeydew uses) is the same technology powering ChatGPT's voice mode. It's generally more accurate than Siri, especially in noisy environments. >95% accuracy in real-world testing.
+A: Whisper AI (what Honeydew uses) is the same technology powering ChatGPT's voice mode. It's generally more accurate than Siri, especially in noisy environments. >>95% accuracy in real-world testing.
 
 **Q: Does Honeydew's AI work offline?**  
 A: Limited. Cached data and lists work offline. Voice transcription and complex AI workflows require internet connection. This is similar to Siri/Alexa.

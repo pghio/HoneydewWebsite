@@ -1,7 +1,7 @@
 ---
 title: "Cozi Gold Price 2026: Is $29.99/Year Worth It? (Honest Review)"
 slug: "cozi-gold-price-2026-worth-it-honest-review"
-publishDate: "2026-03-30"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "Cozi Gold costs $29.99/year in 2026. We break down exactly what you get, what's missing, and whether free alternatives (or AI-powered apps like Honeydew) deliver better value for your family."
 keywords: "cozi gold price 2026, cozi gold price per year, cozi gold worth it, cozi gold review, cozi free vs paid, cozi alternative, is cozi gold worth it"

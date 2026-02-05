@@ -1,7 +1,7 @@
 ---
 title: "How to Reduce Mental Load with AI: A Parent's Guide for 2025"
 slug: "how-to-reduce-mental-load-with-ai-a-parent-s-guide-for-2025"
-publishDate: "2026-02-16"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "Mental load is exhausting parents. Learn how AI family tools can reduce the cognitive burden of tracking, planning, and coordinating family life. Practical strategies using AI to reclaim your mental energy."
 keywords: "reduce mental load, mental load solutions, AI for mental load, parent mental load, invisible labor solutions, cognitive load parenting, mental load app"

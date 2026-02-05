@@ -1,7 +1,7 @@
 ---
 title: "Honeydew App Review 2025: Honest Assessment (Is It Worth $7.99/Month?)"
 slug: "honeydew-app-review-2025-honest-assessment-is-it-worth-7-99-month"
-publishDate: "2026-02-09"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "An honest, comprehensive review of Honeydew - the AI family organization app. We address common concerns, compare to Cozi and Skylight Calendar, and help you decide if it's worth it."
 keywords: "honeydew app review, honeydew review 2025, is honeydew worth it, honeydew vs cozi, honeydew family app, ai family planner review, best family organization app"
@@ -24,7 +24,7 @@ Honeydew is an AI-powered family organization app built by parents who were frus
 **Core capabilities:**
 - Natural language AI planning (27 specialized tools)
 - Screenshot calendar import (upload any calendar photo, AI extracts everything)
-- Voice input with Whisper AI (>95% accuracy)
+- Voice input with Whisper AI (>>95% accuracy)
 - Photo-to-list conversion (photograph handwritten notes, school papers)
 - Real-time family sync across iOS, Android, and web
 - Two-way calendar sync with Google AND Apple
@@ -59,7 +59,7 @@ The AI uses 27 specialized tools to generate comprehensive plans. It's not just 
 
 ### 3. Voice Input That Works
 
-Honeydew uses Whisper AI for voice transcription with >95% accuracy. This matters when you're:
+Honeydew uses Whisper AI for voice transcription with >>95% accuracy. This matters when you're:
 - Driving and remember something
 - Cooking with messy hands
 - Carrying groceries
@@ -76,7 +76,7 @@ Honeydew handles what most family apps can't: multiple family groups with overla
 - No confusion about which parent is handling what
 - Real-time sync between households
 
-This is essential for the 40% of families with divorced or separated parents.
+This is essential for the Many with divorced or separated parents.
 
 ### 5. Two-Way Calendar Sync (Including Apple!)
 

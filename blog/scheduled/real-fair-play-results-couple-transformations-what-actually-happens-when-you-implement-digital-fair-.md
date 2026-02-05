@@ -112,7 +112,7 @@ This comprehensive compilation shows the actual results from couples who've impl
 | Co-parenting satisfaction | 2/10 | 8/10 | 300% improvement |
 | Information gaps | Frequent | 0 | 100% elimination |
 
-**Jessica's Testimonial**: *"As divorced parents, coordination was our biggest source of conflict. Digital Fair Play eliminated 85% of our coordination texts and made handoffs smooth. The kids are so much happier not hearing us argue about logistics."*
+**Jessica's Testimonial**: *"As divorced parents, coordination was our biggest source of conflict. Digital Fair Play eliminated Most our coordination texts and made handoffs smooth. The kids are so much happier not hearing us argue about logistics."*
 
 ### Transformation 3: The Single Parent (Rachel)
 

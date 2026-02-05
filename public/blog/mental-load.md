@@ -223,7 +223,7 @@ AI mistakes are usually caught during review. Human mistakes are often discovere
 
 This is important: **Mental load inequality destroys relationships.**
 
-In our household, I was carrying about 80% of the mental load. My partner did tasks, but I held the master plan. It created this dynamic:
+In our household, I was carrying about Most the mental load. My partner did tasks, but I held the master plan. It created this dynamic:
 
 **Me:** "Can you pick up groceries?"
 **Partner:** "What do we need?"

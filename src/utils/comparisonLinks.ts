@@ -13,6 +13,13 @@ const comparisonLinks: ComparisonLink[] = [
   { slug: 'vs-echoshow', label: 'Honeydew vs Echo Show', href: '/why-honeydew/vs-echoshow' },
   { slug: 'vs-google', label: 'Honeydew vs Google Calendar', href: '/why-honeydew/vs-google' },
   { slug: 'vs-mango', label: 'Honeydew vs Mango Display', href: '/why-honeydew/vs-mango' },
+  { slug: 'vs-dakboard', label: 'Honeydew vs DAKboard', href: '/why-honeydew/vs-dakboard' },
+  { slug: 'vs-2houses', label: 'Honeydew vs 2houses', href: '/why-honeydew/vs-2houses' },
+  { slug: 'vs-ourfamilywizard', label: 'Honeydew vs OurFamilyWizard', href: '/why-honeydew/vs-ourfamilywizard' },
+  { slug: 'vs-appclose', label: 'Honeydew vs AppClose', href: '/why-honeydew/vs-appclose' },
+  { slug: 'vs-fantastical', label: 'Honeydew vs Fantastical', href: '/why-honeydew/vs-fantastical' },
+  { slug: 'vs-picniic', label: 'Honeydew vs Picniic', href: '/why-honeydew/vs-picniic' },
+  { slug: 'vs-magicmirror', label: 'Honeydew vs MagicMirror', href: '/why-honeydew/vs-magicmirror' },
 ]
 
 export const buildRelatedComparisonLinks = (excludeSlug: string, limit = 4): ComparisonLink[] => {

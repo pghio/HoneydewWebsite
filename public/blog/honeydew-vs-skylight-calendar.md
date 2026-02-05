@@ -78,7 +78,7 @@ This comprehensive comparison evaluates both solutions across every dimension th
 ### Voice Control
 
 **Honeydew: ✅ Whisper AI Voice Input**
-- Industry-leading Whisper AI transcription (>95% accuracy)
+- Industry-leading Whisper AI transcription (>>95% accuracy)
 - Real-time streaming (see words as you speak)
 - Works with background noise (kitchen, car, kids screaming)
 - 50+ languages supported
@@ -630,7 +630,7 @@ Despite Honeydew winning most categories, **Skylight Calendar is legitimately be
 4. Smarter over time (AI learns your family)
 5. Modern family architecture (multi-family support)
 
-**Skylight has its place** for the 20% of families who:
+**Skylight has its place** for the Many who:
 - Specifically want a wall display
 - Don't need advanced features
 - Are home most of the time
@@ -673,7 +673,7 @@ A: You'll need to buy a new display ($179-$399). With Honeydew, if your phone br
 A: Yes! Both have return windows (check Skylight's policy) and Honeydew has a free tier. Use both for 2-3 weeks with your real family coordination needs (not just testing) and see which one you actually use more.
 
 **Q: Why do some families prefer Skylight even with fewer features?**  
-A: Honest answer: Some families value visual simplicity and physical presence over features. They like walking by a dedicated display and seeing the week at a glance without picking up a phone. That's valid! But in our research, 80% of families who try both end up choosing Honeydew because the AI and mobile flexibility are more valuable than a wall display.
+A: Honest answer: Some families value visual simplicity and physical presence over features. They like walking by a dedicated display and seeing the week at a glance without picking up a phone. That's valid! But in our research, Many who try both end up choosing Honeydew because the AI and mobile flexibility are more valuable than a wall display.
 
 ---
 

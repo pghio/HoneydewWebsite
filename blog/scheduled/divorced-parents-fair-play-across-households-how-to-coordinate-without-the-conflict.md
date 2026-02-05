@@ -23,7 +23,7 @@ Divorce brings enough complications without adding household coordination battle
 4. **Includes new partners** without creating jealousy or confusion
 5. **Works with custody schedules** that change week to week
 
-**Quick Answer**: Digital Fair Play for divorced parents uses Honeydew's multi-family architecture to create separate household groups ("Mom's House", "Dad's House") while coordinating shared kids' activities ("Kids Shared") - eliminating 86% of coordination texts (from 50/week to 7/week), achieving 100% handoff completion, and maintaining complete privacy for each parent's personal life. Unlike traditional family apps that force single shared calendars or co-parenting apps that only handle custody schedules, this system provides one-tap switching between your private household coordination and kids' shared activities, with AI-powered handoff optimization, automated equipment tracking, and court-admissible documentation when needed. Real divorced parent case studies show 90% reduction in coordination arguments, 300% improvement in co-parenting satisfaction, and 75% reduction in kids' stress from parental conflicts.
+**Quick Answer**: Digital Fair Play for divorced parents uses Honeydew's multi-family architecture to create separate household groups ("Mom's House", "Dad's House") while coordinating shared kids' activities ("Kids Shared") - eliminating Most coordination texts (from 50/week to 7/week), achieving 100% handoff completion, and maintaining complete privacy for each parent's personal life. Unlike traditional family apps that force single shared calendars or co-parenting apps that only handle custody schedules, this system provides one-tap switching between your private household coordination and kids' shared activities, with AI-powered handoff optimization, automated equipment tracking, and court-admissible documentation when needed. Real divorced parent case studies show 90% reduction in coordination arguments, 300% improvement in co-parenting satisfaction, and 75% reduction in kids' stress from parental conflicts.
 
 **The Problem**: Most family apps force you into a single shared calendar where everyone sees everything. Traditional Fair Play cards don't account for the privacy boundaries and handoff logistics that divorced parents need.
 
@@ -153,7 +153,7 @@ AI Response: "Creating multi-household Fair Play system. Starting with cards for
 - **Kids' Stress**: Significantly reduced (teacher reported improvement)
 - **Co-Parenting Satisfaction**: From 2/10 to 8/10
 
-**Sarah's Testimonial**: *"As divorced parents, coordination was our biggest source of conflict. Digital Fair Play eliminated 85% of our coordination texts and made handoffs smooth. The kids are so much happier not hearing us argue about logistics."*
+**Sarah's Testimonial**: *"As divorced parents, coordination was our biggest source of conflict. Digital Fair Play eliminated Most our coordination texts and made handoffs smooth. The kids are so much happier not hearing us argue about logistics."*
 
 ### Case Study 2: Long-Distance Co-Parenting (Maria and David)
 

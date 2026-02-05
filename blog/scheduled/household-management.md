@@ -85,7 +85,7 @@ And this doesn't count:
 | Metric | Before | After | Improvement |
 |--------|--------|-------|-------------|
 | **Emergency Repairs** | $3,910/year | $720/year | **70% reduction** |
-| **Preventive Maintenance Completion** | 45% of tasks | 92% of tasks | **+104% improvement** |
+| **Preventive Maintenance Completion** | 45% of tasks | Most tasks | **+104% improvement** |
 | **3 AM Emergencies** | 4-6 per year | 1 per year | **83% reduction** |
 | **Maintenance Tasks Forgotten** | 60-70% | 5-10% | **85% reduction** |
 | **Time Spent on Home Management** | 8 hours/month | 2.5 hours/month | **69% reduction** |

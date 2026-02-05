@@ -26,7 +26,7 @@ Every family experiences coordination challenges. But there's a tipping point wh
 - Family tension from miscommunication
 - Feeling like you're treading water instead of getting ahead
 
-**The good news:** These problems are solvable. Modern family organization systems (especially AI-powered ones) can eliminate 70-80% of coordination overhead.
+**The good news:** These problems are solvable. Modern family organization systems (especially AI-powered ones) can eliminate 70-Most coordination overhead.
 
 **The challenge:** Recognizing when you've crossed from "manageable" to "we need help."
 
@@ -577,7 +577,7 @@ If your family has weekly arguments stemming from missed communications or forgo
 **Why AI is essential at this level:**
 - Manual systems have failed (you tried, it's not working)
 - Coordination overhead exceeds human capacity
-- Need automation to eliminate 70-80% of coordination time
+- Need automation to eliminate 70-Most coordination time
 - Voice control essential when you're this busy (no time to stop and type)
 
 **Cost:** $99-149/year  

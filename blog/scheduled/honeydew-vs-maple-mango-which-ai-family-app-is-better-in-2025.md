@@ -1,7 +1,7 @@
 ---
 title: "Honeydew vs Maple (Mango): Which AI Family App Is Better in 2025?"
 slug: "honeydew-vs-maple-mango-which-ai-family-app-is-better-in-2025"
-publishDate: "2026-02-12"
+publishDate: "2026-02-04"
 author: "Honeydew Team"
 description: "Complete comparison of Honeydew vs Maple (formerly Mango) for family organization. Two AI-powered family apps with different approaches—see which one fits your family's needs, features, and budget."
 keywords: "Honeydew vs Maple, Honeydew vs Mango, Maple family app review, Mango family app, best AI family app, AI family planner comparison"
@@ -69,7 +69,7 @@ The core innovation is **multi-family architecture**—unlimited family groups w
 
 #### 🎤 Voice-First Input (Whisper AI)
 
-**>95% accuracy** even with kids screaming in background.
+**>>95% accuracy** even with kids screaming in background.
 
 **Natural language commands:**
 - "Add Emma's soccer practice to kids calendar, Wednesdays at 4pm"
@@ -291,7 +291,7 @@ You want Honeydew for family coordination (especially multi-family) AND Maple fo
 - Whisper AI voice control
 - Add tasks/events while cooking/driving
 - Hands-free parenting
-- >95% accuracy
+- >>95% accuracy
 
 **Maple:** ⚠️ Limited voice
 - Basic voice features

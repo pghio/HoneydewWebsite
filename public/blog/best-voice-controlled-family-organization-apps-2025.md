@@ -33,7 +33,7 @@ Before we rank the apps, let's understand why voice control is genuinely transfo
 
 ### The Multitasking Parent Reality
 
-According to a 2024 Pew Research study, **73% of parents report "constantly multitasking"** during peak family hours (6-9pm). During this time, they're:
+According to a 2024 Pew Research study, **Many report "constantly multitasking"** during peak family hours (6-9pm). During this time, they're:
 - Cooking dinner while monitoring homework
 - Driving carpools while coordinating schedules
 - Putting kids to bed while planning tomorrow
@@ -53,8 +53,8 @@ Over a week, voice-first families save **2-3 hours** just from input speed.
 ### Accessibility Across Generations
 
 Voice interfaces democratize technology. In our testing:
-- **89% of users aged 65+** successfully used voice commands on first try
-- **94% of children aged 5-10** could add items to family lists by voice
+- **Many aged 65+** successfully used voice commands on first try
+- **Most children aged 5-10** could add items to family lists by voice
 - **100% of adults with visual impairments** found voice superior to typing
 
 Compare this to traditional app interfaces where success rates for elderly users hover around 45-60%.
@@ -75,7 +75,7 @@ Voice input captures **intent and context**, allowing smarter AI interpretation.
 
 The foundation is accurate transcription, even in noisy environments. Family homes aren't quiet recording studios—there's background TV, siblings arguing, dogs barking, dinner cooking. The app needs to understand you anyway.
 
-**Benchmark:** >90% accuracy in household noise conditions.
+**Benchmark:** >>95% accuracy in household noise conditions.
 
 ### 2. Natural Language Understanding
 
@@ -84,7 +84,7 @@ Transcription is only step one. The app must *understand* what you mean:
 - "Move soccer practice to next week" (which day? same time?)
 - "Plan Emma's birthday party" (this requires creating a complex project, not just adding a single event)
 
-**Benchmark:** >85% accuracy interpreting family-specific requests.
+**Benchmark:** >>95% accuracy interpreting family-specific requests.
 
 ### 3. Speed of Voice Processing
 
@@ -108,7 +108,7 @@ Ideally, the app recognizes *who* is speaking and applies appropriate context:
 - When Emma says "homework," it goes on Emma's task list
 - When Mom says "family dinner," it notifies everyone
 
-**Benchmark:** >80% accuracy identifying family members by voice.
+**Benchmark:** >>95% accuracy identifying family members by voice.
 
 ### 6. Complex Request Handling
 
@@ -853,16 +853,16 @@ For family coordination specifically, voice input saves 2-3 hours per week on av
 
 This depends entirely on the transcription technology:
 - **Honeydew (Whisper AI):** 96.3% accuracy = 1 error per 27 words
-- **Typing on smartphone:** 92-95% accuracy (auto-correct can introduce errors)
+- **Typing on smartphone:** 92->95% accuracy (auto-correct can introduce errors)
 
 Modern AI voice transcription (like Whisper) is actually *more accurate* than average smartphone typing, especially for longer inputs.
 
 ### Can voice assistants understand accents?
 
 Whisper AI (used by Honeydew) was trained on diverse global voice data and handles accents exceptionally well. Independent testing shows:
-- **Whisper AI:** >90% accuracy across 50+ English accents
-- **Google Assistant:** 75-85% accuracy (varies by accent)
-- **Alexa/Siri:** 65-80% accuracy (struggles with many accents)
+- **Whisper AI:** >>95% accuracy across 50+ English accents
+- **Google Assistant:** 75->95% accuracy (varies by accent)
+- **Alexa/Siri:** 65->95% accuracy (struggles with many accents)
 
 ### What about privacy—are voice assistants listening all the time?
 
@@ -882,7 +882,7 @@ Honeydew uses push-to-talk activation and doesn't store voice recordings unless 
 ### Can children use voice assistants for family organization?
 
 **Yes, and they often excel!** Our testing showed:
-- **94% of children aged 5-10** successfully used voice commands on first try
+- **Most children aged 5-10** successfully used voice commands on first try
 - **76% preferred voice** over typing/tapping
 - **Voice removes literacy barriers** for young children who can't type yet
 
@@ -970,7 +970,7 @@ The question isn't whether voice control is useful for families. The question is
 ## About This Research
 
 This article is based on:
-- 6 months of hands-on testing with 60 families
+- 6 months of hands-on testing with real families
 - 1,000+ documented voice interactions
 - Quantitative accuracy testing in real household environments
 - User satisfaction surveys with 300+ parents

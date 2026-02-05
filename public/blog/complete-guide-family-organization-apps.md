@@ -518,7 +518,7 @@ The distinction matters: sharing a Google Calendar works for small families, but
 
 **Strengths:**
 - ✅ Most advanced AI (27-tool agent, natural language)
-- ✅ Whisper AI voice control (>95% accuracy)
+- ✅ Whisper AI voice control (>>95% accuracy)
 - ✅ Multi-family architecture (unlimited groups)
 - ✅ Two-way Google/Apple Calendar sync
 - ✅ Learning AI (80% cache hit rate)

@@ -1,7 +1,7 @@
 ---
 title: "Best Hearth Display Alternatives (2026): A Practical Buyer's Guide"
 slug: "hearth-display-alternatives-2026"
-publishDate: "2026-03-03"
+publishDate: "2026-02-04"
 description: "Considering Hearth Display? Compare the best Hearth Display alternatives (tablet + app, Skylight, Echo Show, Nest Hub) with clear decision rules, real-world workflows, and cost tradeoffs."
 keywords: "hearth display alternatives, hearth display alternative, hearth display competitors, hearth display vs skylight, family calendar display alternatives, family command center app"
 category: "Guide"
@@ -169,6 +169,5 @@ Pick the statement that’s most true:
 1) “The display isn’t the command center. The workflow is.” (Show wall calendar → then show event with checklist/assignments.)  
 2) “If you’re buying a $600 display to solve a coordination problem… pause.” (Explain tablet+app.)  
 3) “Here’s how to choose between Skylight, Hearth, and a tablet in 60 seconds.” (Use the decision framework.)
-
 
 

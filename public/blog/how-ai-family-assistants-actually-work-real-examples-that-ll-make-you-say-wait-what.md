@@ -801,7 +801,7 @@ Both! Type if you prefer. Voice shines when:
 - You're tired of typing
 - You have a lot to say
 
-Some people use voice 80% of the time. Others never use it. Totally up to you.
+Some people use voice Most the time. Others never use it. Totally up to you.
 
 ---
 
@@ -876,7 +876,7 @@ That's it. That's the interface.
 
 ### Can I see what it's going to create before it saves?
 
-Different apps handle this differently. Honeydew creates things instantly (because 95% of the time it's right), but you can immediately edit or delete. Some people prefer this. Others want preview mode. Check your app's settings.
+Different apps handle this differently. Honeydew creates things instantly (because Most the time it's right), but you can immediately edit or delete. Some people prefer this. Others want preview mode. Check your app's settings.
 
 ---
 

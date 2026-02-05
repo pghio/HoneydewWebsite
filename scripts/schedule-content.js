@@ -38,11 +38,22 @@ const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
 /**
  * Get next publish date based on configured days
  */
-function getNextPublishDate(fromDate = new Date()) {
-  const date = new Date(fromDate);
+function getNextPublishDate(fromDate = null) {
+  // Use configured startDate if no fromDate provided and startDate exists
+  let date;
+  if (!fromDate && config.publishing.startDate) {
+    date = new Date(config.publishing.startDate + 'T00:00:00');
+    // Check if startDate itself is a valid publish day
+    const publishDays = config.publishing.daysOfWeek || [1, 3, 5];
+    if (publishDays.includes(date.getDay())) {
+      return date;
+    }
+  } else {
+    date = new Date(fromDate || new Date());
+  }
   date.setHours(0, 0, 0, 0);
   
-  const publishDays = config.publishing.daysOfWeek || [1, 4]; // Default: Mon, Thu
+  const publishDays = config.publishing.daysOfWeek || [1, 3, 5]; // Default: Mon, Wed, Fri
   
   while (true) {
     date.setDate(date.getDate() + 1);

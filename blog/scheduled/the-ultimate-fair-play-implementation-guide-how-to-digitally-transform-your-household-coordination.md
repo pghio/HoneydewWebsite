@@ -17,7 +17,7 @@ featured: true
 
 If you've ever felt like you're drowning in an endless sea of household tasks while your partner seems blissfully unaware, you're not alone. Eve Rodsky's Fair Play methodology has revolutionized how couples think about the division of domestic labor, but the physical card system has one major limitation: **it's not designed for the digital age**.
 
-**Quick Answer**: Digital Fair Play implementation using Honeydew transforms Eve Rodsky's 100-card system into an AI-powered coordination platform that reduces mental load by 80%, increases task completion from 70% to 95%, and saves couples 10-12 hours per week in household coordination time. Unlike physical cards that get lost and require manual tracking, digital implementation provides automated CPE (Conception, Planning, Execution) workflows, voice-first coordination, multi-family group support for divorced parents, protected Unicorn Space time blocking, and real-time progress analytics that make Fair Play actually stick long-term. Setup takes 15-30 minutes (vs. 3-5 hours for physical cards), with 92% of couples continuing to use the system after 6 months compared to 55% with physical cards.
+**Quick Answer**: Digital Fair Play implementation using Honeydew transforms Eve Rodsky's 100-card system into an AI-powered coordination platform that reduces mental load by 80%, increases task completion from 70% to 95%, and saves couples 10-12 hours per week in household coordination time. Unlike physical cards that get lost and require manual tracking, digital implementation provides automated CPE (Conception, Planning, Execution) workflows, voice-first coordination, multi-family group support for divorced parents, protected Unicorn Space time blocking, and real-time progress analytics that make Fair Play actually stick long-term. Setup takes 15-30 minutes (vs. 3-5 hours for physical cards), with Most couples continuing to use the system after 6 months compared to 55% with physical cards.
 
 This comprehensive guide shows you exactly how to implement Fair Play using Honeydew's AI-powered family coordination platform. We'll cover everything from setting up your digital card system to tracking Unicorn Space and measuring relationship improvements.
 
@@ -469,7 +469,7 @@ After 30 days of use, Honeydew's AI analyzes your patterns and suggests optimiza
 **Profile**: Sarah, 35, marketing director, two kids (ages 7 and 10), husband works from home
 
 **Before Digital Fair Play**:
-- Carrying 80% of mental load
+- Carrying Most mental load
 - Constantly reminding husband about tasks
 - No time for personal interests
 - Weekly arguments about household responsibilities

@@ -23,6 +23,13 @@ import VsFamilyWallPage from './pages/VsFamilyWallPage'
 import VsEchoShowPage from './pages/VsEchoShowPage'
 import VsGoogleCalendarPage from './pages/VsGoogleCalendarPage'
 import VsMangoPage from './pages/VsMangoPage'
+import VsDakboardPage from './pages/VsDakboardPage'
+import VsOurFamilyWizardPage from './pages/VsOurFamilyWizardPage'
+import Vs2housesPage from './pages/Vs2housesPage'
+import VsPicniicPage from './pages/VsPicniicPage'
+import VsFantasticalPage from './pages/VsFantasticalPage'
+import VsAppClosePage from './pages/VsAppClosePage'
+import VsMagicMirrorPage from './pages/VsMagicMirrorPage'
 import CookieBanner from './components/CookieBanner'
 import ComparisonsHubPage from './pages/ComparisonsHubPage'
 import DisambiguationPage from './pages/DisambiguationPage'
@@ -83,6 +90,13 @@ function AppContent() {
           <Route path="/why-honeydew/vs-echoshow" element={<VsEchoShowPage />} />
           <Route path="/why-honeydew/vs-google" element={<VsGoogleCalendarPage />} />
           <Route path="/why-honeydew/vs-mango" element={<VsMangoPage />} />
+          <Route path="/why-honeydew/vs-dakboard" element={<VsDakboardPage />} />
+          <Route path="/why-honeydew/vs-ourfamilywizard" element={<VsOurFamilyWizardPage />} />
+          <Route path="/why-honeydew/vs-2houses" element={<Vs2housesPage />} />
+          <Route path="/why-honeydew/vs-fantastical" element={<VsFantasticalPage />} />
+          <Route path="/why-honeydew/vs-picniic" element={<VsPicniicPage />} />
+          <Route path="/why-honeydew/vs-appclose" element={<VsAppClosePage />} />
+          <Route path="/why-honeydew/vs-magicmirror" element={<VsMagicMirrorPage />} />
           <Route path="/help" element={<PlaceholderPage title="Help Center" description="Comprehensive guides and FAQs for getting the most out of Honeydew." />} />
           <Route path="/docs" element={<PlaceholderPage title="Documentation" description="Detailed technical documentation and API references for developers." />} />
           <Route path="/api" element={<PlaceholderPage title="API Reference" description="Complete API documentation for integrating with Honeydew." />} />

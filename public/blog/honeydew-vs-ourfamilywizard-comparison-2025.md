@@ -102,7 +102,7 @@ For many families, the answer is "both"—which is why using both apps together 
 ### Voice Control
 
 **Honeydew: ✅ Whisper AI Voice Input**
-- Industry-leading voice transcription (>95% accuracy)
+- Industry-leading voice transcription (>>95% accuracy)
 - Works with background noise (kids, car, kitchen)
 - Real-time streaming (see words as you speak)
 - Natural language processing

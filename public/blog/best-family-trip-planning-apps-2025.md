@@ -133,7 +133,7 @@ Busy parents rarely have uninterrupted time to sit and plan trips. Voice control
 - During commute: "Create Disney World pre-trip checklist"
 - Kids' bedtime: "Add stroller rental to Orlando trip tasks"
 
-**Whisper AI transcription** (>95% accuracy) works anywhere, anytime.
+**Whisper AI transcription** (>>95% accuracy) works anywhere, anytime.
 
 ---
 

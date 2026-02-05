@@ -89,7 +89,7 @@ featured: true
 
 **Honeydew: ✅ Whisper AI**
 - Industry-leading voice transcription
-- >95% accuracy even with background noise
+- >>95% accuracy even with background noise
 - Works while driving, cooking, multitasking
 - Complex requests understood
 - Hands-free family management

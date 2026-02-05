@@ -226,48 +226,48 @@ featured: true
 
 ### Choose Talking Parents If:
 
-✅ **You need documentation "just in case"**  
+✅ **You need documentation "just in case"** 
 Even if not currently in court, having records can prevent "I never said that" disputes.
 
-✅ **Medium-conflict relationship**  
+✅ **Medium-conflict relationship** 
 Communication is strained but not hostile enough for OurFamilyWizard.
 
-✅ **Want simpler alternative to OurFamilyWizard**  
+✅ **Want simpler alternative to OurFamilyWizard** 
 Same accountability concept, less complexity, lower cost.
 
-✅ **Need call recording**  
+✅ **Need call recording** 
 Unique feature for documenting verbal conversations.
 
-✅ **Expense disputes are common**  
+✅ **Expense disputes are common** 
 Built-in expense tracking with receipts.
 
 ### Choose Honeydew If:
 
-✅ **Cooperative co-parenting relationship**  
+✅ **Cooperative co-parenting relationship** 
 Don't need legal documentation, just efficiency.
 
-✅ **Want AI to reduce coordination work**  
+✅ **Want AI to reduce coordination work** 
 80%+ reduction in coordination texts and calls.
 
-✅ **Busy single parent needing voice control**  
+✅ **Busy single parent needing voice control** 
 Add to calendar while driving, cooking, multitasking.
 
-✅ **Need household management too**  
+✅ **Need household management too** 
 Not just co-parenting, but your entire family organization.
 
-✅ **Blended family complexity**  
+✅ **Blended family complexity** 
 Stepkids, new partners, extended family helping.
 
-✅ **Value modern technology and design**  
+✅ **Value modern technology and design** 
 AI, voice, fast sync, pleasant experience.
 
 ### Use BOTH If:
 
-✅ **Medium-conflict with documentation needs**  
+✅ **Medium-conflict with documentation needs** 
 - Talking Parents for formal communication (documented)
 - Honeydew for daily coordination (efficient)
 
-✅ **Transitioning conflict levels**  
+✅ **Transitioning conflict levels** 
 - Keep Talking Parents for accountability
 - Add Honeydew for better organization
 
@@ -313,8 +313,7 @@ Many co-parents find that Talking Parents and Honeydew serve **complementary pur
 - **Talking Parents:** All communication about schedule changes, expenses
 - **Honeydew:** Daily coordination, packing lists, grandparent pickup coordination
 
-**Amanda's experience:**
-> "I feel secure knowing our communication is documented, but Talking Parents doesn't help me actually organize anything. Honeydew's AI does the heavy lifting for daily logistics. The voice control saves me 30 minutes a day."
+**The takeaway:** Documentation provides security, but Talking Parents doesn't help with actual organization. Honeydew's AI handles the daily logistics—voice control alone saves significant time daily.
 
 ---
 
@@ -332,8 +331,7 @@ Many co-parents find that Talking Parents and Honeydew serve **complementary pur
 - Voice control for busy schedules
 - Multi-family groups include both households + grandparents
 
-**David's experience:**
-> "We tried Talking Parents but it felt like overkill. We don't need court-admissible records—we text each other normally. Honeydew's AI is what we actually needed. 'Add Jake's game Saturday' takes 3 seconds instead of opening an app and typing."
+**The takeaway:** For cooperative co-parents who don't need court documentation, Talking Parents feels like overkill. Honeydew's AI is what actually reduces coordination friction.
 
 ---
 
@@ -350,8 +348,7 @@ Many co-parents find that Talking Parents and Honeydew serve **complementary pur
 - Documents without being confrontational
 - Read receipts prove messages were seen
 
-**Sarah's experience:**
-> "I'm not trying to build a court case, but I want records. When he says 'you never told me about the field trip,' I can show the timestamped message. It's not hostile—just factual."
+**The takeaway:** Talking Parents isn't about building a court case—it's about having factual records when "I never said that" arguments arise. The timestamped messages eliminate ambiguity.
 
 ---
 
@@ -428,42 +425,42 @@ A: Depends on your state's recording consent laws. Some states require two-party
 ## TikTok Script Ideas (6 videos)
 
 1. **"Talking Parents vs Honeydew: Different tools for different problems"** (60 sec)
-   - TP: Documentation and accountability
-   - Honeydew: Automation and efficiency
-   - You might need both
-   - "Know what you actually need"
+ - TP: Documentation and accountability
+ - Honeydew: Automation and efficiency
+ - You might need both
+ - "Know what you actually need"
 
 2. **"Why I use TWO co-parenting apps"** (45 sec)
-   - Talking Parents for formal stuff
-   - Honeydew for daily coordination
-   - Best of both worlds
-   - Not redundant—complementary
+ - Talking Parents for formal stuff
+ - Honeydew for daily coordination
+ - Best of both worlds
+ - Not redundant—complementary
 
 3. **"The read receipt that saved my co-parenting"** (45 sec)
-   - Ex claimed "I never saw that"
-   - Showed Talking Parents read receipt
-   - Timestamped, undeniable
-   - "Documentation matters"
+ - Ex claimed "I never saw that"
+ - Showed Talking Parents read receipt
+ - Timestamped, undeniable
+ - "Documentation matters"
 
 4. **"POV: Voice-adding to shared custody calendar"** (30 sec)
-   - "Add soccer practice Saturday at 10"
-   - Both parents notified
-   - Gear list attached
-   - Zero typing
-   - TP can't do this
+ - "Add soccer practice Saturday at 10"
+ - Both parents notified
+ - Gear list attached
+ - Zero typing
+ - TP can't do this
 
 5. **"$192/year for documentation vs $149 for AI"** (45 sec)
-   - Talking Parents: Court records
-   - Honeydew: AI + voice + automation
-   - What do you actually need?
-   - Low conflict = Honeydew alone
+ - Talking Parents: Court records
+ - Honeydew: AI + voice + automation
+ - What do you actually need?
+ - Low conflict = Honeydew alone
 
 6. **"My co-parenting app strategy after divorce"** (60 sec)
-   - Month 1-6: Both apps (uncertain)
-   - Month 6-12: Realized low-conflict
-   - Now: Honeydew only
-   - Saved $200/year
-   - "Evaluate your actual needs"
+ - Month 1-6: Both apps (uncertain)
+ - Month 6-12: Realized low-conflict
+ - Now: Honeydew only
+ - Saved $200/year
+ - "Evaluate your actual needs"
 
 ---
 

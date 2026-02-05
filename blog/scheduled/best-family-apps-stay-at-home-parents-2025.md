@@ -505,43 +505,43 @@ A: Voice input is actually easier than any other method. Just talk. No typing, n
 ## TikTok Script Ideas (6 videos)
 
 1. **"Stay at home parent apps nobody talks about"** (60 sec)
-   - Cozi is fine but basic
-   - Google is fragmented
-   - Show Honeydew with voice + AI
-   - "Actually designed for chaos"
+ - Cozi is fine but basic
+ - Google is fragmented
+ - Show Honeydew with voice + AI
+ - "Actually designed for chaos"
 
 2. **"POV: Adding to calendar while changing a diaper"** (30 sec)
-   - Hands clearly occupied
-   - "Add pediatrician Thursday at 10"
-   - Event appears
-   - "Voice input is non-negotiable for SAHPs"
+ - Hands clearly occupied
+ - "Add pediatrician Thursday at 10"
+ - Event appears
+ - "Voice input is non-negotiable for SAHPs"
 
 3. **"How I got my husband in the loop"** (45 sec)
-   - Before: "What's happening this weekend?" every Friday
-   - After: He checks shared calendar
-   - Notifications remind him
-   - "I'm not the information desk anymore"
+ - Before: "What's happening this weekend?" every Friday
+ - After: He checks shared calendar
+ - Notifications remind him
+ - "I'm not the information desk anymore"
 
 4. **"AI just planned my meal week"** (45 sec)
-   - "Suggest easy dinners for busy week"
-   - AI generates 5 dinner ideas
-   - "Add to meal calendar"
-   - Generate grocery list
-   - "Decision fatigue: solved"
+ - "Suggest easy dinners for busy week"
+ - AI generates 5 dinner ideas
+ - "Add to meal calendar"
+ - Generate grocery list
+ - "Decision fatigue: solved"
 
 5. **"The mental load is real—here's my solution"** (60 sec)
-   - Show overwhelming mental to-do
-   - Voice brain dump into Honeydew
-   - AI organizes
-   - External reminders
-   - "I'm not carrying it alone anymore"
+ - Show overwhelming mental to-do
+ - Voice brain dump into Honeydew
+ - AI organizes
+ - External reminders
+ - "I'm not carrying it alone anymore"
 
 6. **"SAHP organization hack that actually works"** (45 sec)
-   - Evening brain dump (voice)
-   - Morning: AI has organized
-   - Smart reminders throughout day
-   - Partner synced automatically
-   - "Finally feel organized"
+ - Evening brain dump (voice)
+ - Morning: AI has organized
+ - Smart reminders throughout day
+ - Partner synced automatically
+ - "Finally feel organized"
 
 ---
 

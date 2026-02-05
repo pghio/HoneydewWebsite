@@ -583,9 +583,9 @@ You're not replacing Apple Calendar—you're enhancing it. Here's how:
 
 - Continue using Apple Calendar for viewing (habit stays)
 - Test Honeydew's AI features:
-  - Try voice commands: "Add grocery list for this week"
-  - Test AI planning: "Plan birthday party for Saturday"
-  - Create a list attached to a calendar event
+ - Try voice commands: "Add grocery list for this week"
+ - Test AI planning: "Plan birthday party for Saturday"
+ - Create a list attached to a calendar event
 - Observe two-way sync working (events appear in both apps)
 
 ### Week 3: Build New Habits

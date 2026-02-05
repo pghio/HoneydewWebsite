@@ -352,10 +352,10 @@ Honeydew if you want AI + voice + family coordination. OurGroceries if you want 
 **With Honeydew:**
 - **Input:** "Plan next week with soccer Tue/Thu, dentist Friday, and grocery list for lunches."
 - **Output (seconds):**
-  - ✅ Events added to calendars
-  - ✅ Grocery list generated and shared
-  - ✅ Reminders assigned to household owners
-  - ✅ Conflicts flagged automatically
+ - ✅ Events added to calendars
+ - ✅ Grocery list generated and shared
+ - ✅ Reminders assigned to household owners
+ - ✅ Conflicts flagged automatically
 
 **Time saved:** 2-4 hours/week for a typical busy family.
 
@@ -411,28 +411,28 @@ A: Yes. Honeydew syncs both Google and Apple calendars bi-directionally, so you 
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Best Voice Input Grocery List Apps 2026: Hands-Free Shopping Lists",
-  "description": "The best grocery list apps with voice input in 2026. Compare Honeydew, AnyList, OurGroceries, and others for hands-free list building, family sharing, and smart shopping.",
-  "image": "https://www.gethoneydew.app/og-image-ai.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2026-02-24",
-  "dateModified": "2026-02-24",
-  "mainEntityOfPage": "https://www.gethoneydew.app/blog/best-voice-input-grocery-list-apps-2026",
-  "keywords": "best voice input grocery list app, voice grocery list app, hands free shopping list app, best shared grocery list app 2026, voice controlled shopping list, grocery list app with voice",
-  "articleSection": "Guide"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Best Voice Input Grocery List Apps 2026: Hands-Free Shopping Lists",
+ "description": "The best grocery list apps with voice input in 2026. Compare Honeydew, AnyList, OurGroceries, and others for hands-free list building, family sharing, and smart shopping.",
+ "image": "https://www.gethoneydew.app/og-image-ai.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://www.gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2026-02-24",
+ "dateModified": "2026-02-24",
+ "mainEntityOfPage": "https://www.gethoneydew.app/blog/best-voice-input-grocery-list-apps-2026",
+ "keywords": "best voice input grocery list app, voice grocery list app, hands free shopping list app, best shared grocery list app 2026, voice controlled shopping list, grocery list app with voice",
+ "articleSection": "Guide"
 }
 ```
 
@@ -554,14 +554,14 @@ If you want a system that **plans** and not just stores, choose Honeydew. If you
 ## Quick Decision Tree
 
 1. **Do you want AI to plan, not just store?**
-   - Yes → Honeydew
-   - No → Basic shared calendar
+ - Yes → Honeydew
+ - No → Basic shared calendar
 2. **Do you need multi-household or co-parenting support?**
-   - Yes → Honeydew
-   - No → Either option
+ - Yes → Honeydew
+ - No → Either option
 3. **Do you need voice or photo capture?**
-   - Yes → Honeydew
-   - No → Any standard app works
+ - Yes → Honeydew
+ - No → Any standard app works
 
 ---
 

@@ -91,21 +91,21 @@ If your tool *doesn’t* support attached checklists, keep a shared list titled 
 Use chat for coordination, but make the calendar/event notes the record.
 
 ### Offer a ride
-> I can drive **[EVENT]** on **[DATE]**.  
-> Seats available: **[#]**.  
-> Pickup route: **[neighborhoods / schools]**.  
+> I can drive **[EVENT]** on **[DATE]**. 
+> Seats available: **[#]**. 
+> Pickup route: **[neighborhoods / schools]**. 
 > Reply “IN” by **[TIME]**.
 
 ### Request a ride
-> Can anyone take **[KID NAME]** to **[EVENT]** on **[DATE]**?  
-> We can do pickup from **[LOCATION]** at **[TIME]**.  
+> Can anyone take **[KID NAME]** to **[EVENT]** on **[DATE]**? 
+> We can do pickup from **[LOCATION]** at **[TIME]**. 
 > I can return the favor on **[DATE OPTIONS]**.
 
 ### Confirm the final plan (post this once)
-> Confirmed for **[EVENT + DATE]**:  
-> Driver: **[NAME]**  
-> Riders: **[NAMES]**  
-> Pickup: **[TIME + LOCATION]**  
+> Confirmed for **[EVENT + DATE]**: 
+> Driver: **[NAME]** 
+> Riders: **[NAMES]** 
+> Pickup: **[TIME + LOCATION]** 
 > Dropoff: **[TIME + LOCATION]**
 
 Then update the calendar event notes/checklist so the plan lives in one place.
@@ -117,15 +117,15 @@ Then update the calendar event notes/checklist so the plan lives in one place.
 Use a default policy so you don’t renegotiate every week:
 
 - If a driver cancels < 4 hours before the event, they post **“Driver cancel”** and propose **two alternatives**:
-  - alternate driver, or
-  - split ride (one parent there, another back)
+ - alternate driver, or
+ - split ride (one parent there, another back)
 
 This avoids the “anyone???” spam thread.
 
 ### A simple escalation ladder
 When things go sideways, you need a pre-agreed fallback:
-1) Ask the **backup driver** (set one on Sunday)  
-2) Split ride (one there, one back)  
+1) Ask the **backup driver** (set one on Sunday) 
+2) Split ride (one there, one back) 
 3) One parent does both legs and logs a “drive credit” owed
 
 ---
@@ -182,16 +182,16 @@ Related reading:
 
 ## FAQ
 
-**Q:** Should we coordinate carpools in a group chat or in a calendar?  
+**Q:** Should we coordinate carpools in a group chat or in a calendar? 
 **A:** Use chat for offers/requests, but the final plan should live in the calendar event (or a shared checklist). That prevents “I didn’t see that message.”
 
-**Q:** What’s the most important piece of information to standardize?  
+**Q:** What’s the most important piece of information to standardize? 
 **A:** Pickup time + location. Most carpool failures are “where/when” misunderstandings, not unwillingness.
 
-**Q:** How do we avoid one parent doing all the driving?  
+**Q:** How do we avoid one parent doing all the driving? 
 **A:** Track it. Add a simple counter per month (e.g., “drives: 3 / rides: 2”). Consistent visibility changes behavior.
 
-**Q:** What’s the simplest weekly ritual that actually works?  
+**Q:** What’s the simplest weekly ritual that actually works? 
 **A:** A 5-minute “Sunday night lock” where drivers are assigned for the week and posted once.
 
 ---

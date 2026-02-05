@@ -199,7 +199,7 @@ Large families often have parents with work calendars, school calendars, activit
 **Honeydew's Calendar:**
 - **Two-Way Sync:** Changes flow both directions automatically
 - **Google Calendar:** Full bidirectional integration
-- **Apple Calendar:** Full bidirectional integration  
+- **Apple Calendar:** Full bidirectional integration 
 - **15-Minute Intervals:** Near-real-time synchronization
 - **Conflict Detection:** AI identifies scheduling conflicts automatically
 - **Lists Attached to Events:** Packing lists auto-attached to trip events
@@ -691,11 +691,11 @@ Picniic and Honeydew both want to solve family organization, but they approach i
 **With Honeydew:**
 - **Input:** "Plan our week—Emma has gymnastics Monday and Wednesday, Jake has baseball Tuesday, Sophie has dance Thursday, and I need dinners for 7 people with at least 2 vegetarian options"
 - **Output (30 seconds):**
-  - ✅ All activities added to calendar
-  - ✅ Conflicts flagged (Jake's baseball overlaps with pickup time)
-  - ✅ 7 dinners planned with vegetarian variety
-  - ✅ Shopping list generated with quantities for 7
-  - ✅ Packing reminders for activity bags added
+ - ✅ All activities added to calendar
+ - ✅ Conflicts flagged (Jake's baseball overlaps with pickup time)
+ - ✅ 7 dinners planned with vegetarian variety
+ - ✅ Shopping list generated with quantities for 7
+ - ✅ Packing reminders for activity bags added
 - Total: 10 minutes including review
 
 **Time saved:** 1.5+ hours every Sunday—recovered for family time.
@@ -769,28 +769,28 @@ Answer: If your current system works perfectly, keep it. But most "organized" fa
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Honeydew vs Picniic: Family Organization Apps Compared 2026",
-  "description": "Picniic or Honeydew for your large family? Honeydew's AI agent and voice control outperform Picniic's manual approach. Complete comparison of features, pricing, and which app fits your family.",
-  "image": "https://www.gethoneydew.app/og-image-ai.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2026-02-03",
-  "dateModified": "2026-02-03",
-  "mainEntityOfPage": "https://www.gethoneydew.app/blog/honeydew-vs-picniic-comparison-2026",
-  "keywords": "picniic alternative, picniic review, best app for large families, family organization app, picniic vs cozi, picniic vs honeydew, large family calendar app, honeydew vs picniic",
-  "articleSection": "Comparison"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Honeydew vs Picniic: Family Organization Apps Compared 2026",
+ "description": "Picniic or Honeydew for your large family? Honeydew's AI agent and voice control outperform Picniic's manual approach. Complete comparison of features, pricing, and which app fits your family.",
+ "image": "https://www.gethoneydew.app/og-image-ai.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://www.gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2026-02-03",
+ "dateModified": "2026-02-03",
+ "mainEntityOfPage": "https://www.gethoneydew.app/blog/honeydew-vs-picniic-comparison-2026",
+ "keywords": "picniic alternative, picniic review, best app for large families, family organization app, picniic vs cozi, picniic vs honeydew, large family calendar app, honeydew vs picniic",
+ "articleSection": "Comparison"
 }
 ```
 

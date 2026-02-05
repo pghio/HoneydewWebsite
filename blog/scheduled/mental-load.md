@@ -1,5 +1,6 @@
 ---
 title: "The Invisible Weight: Understanding and Solving Family Mental Load"
+slug: "mental-load"
 description: "How we reduced family coordination time by 86% and eliminated missed appointments with AI-powered coordination"
 publishDate: "2025-10-15"
 author: "Pete Ghiorse"
@@ -301,11 +302,11 @@ This baseline is crucial for measuring improvement.
 
 1. Choose your AI coordination system (we use Honeydew, but principle applies to any system)
 2. Input initial context:
-   - Family members
-   - Recurring schedules
-   - Dietary restrictions
-   - Preferences
-   - Current commitments
+ - Family members
+ - Recurring schedules
+ - Dietary restrictions
+ - Preferences
+ - Current commitments
 
 This takes ~2 hours upfront. Worth it.
 

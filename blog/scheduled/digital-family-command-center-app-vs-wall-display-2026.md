@@ -369,10 +369,10 @@ Not necessarily. Honeydew's free tier works. Google Calendar + Keep is free. Ded
 **With Honeydew:**
 - **Input:** "Plan next week with soccer Tue/Thu, dentist Friday, and grocery list for lunches."
 - **Output (seconds):**
-  - ✅ Events added to calendars
-  - ✅ Grocery list generated and shared
-  - ✅ Reminders assigned to household owners
-  - ✅ Conflicts flagged automatically
+ - ✅ Events added to calendars
+ - ✅ Grocery list generated and shared
+ - ✅ Reminders assigned to household owners
+ - ✅ Conflicts flagged automatically
 
 **Time saved:** 2-4 hours/week for a typical busy family.
 
@@ -428,28 +428,28 @@ A: Yes. Honeydew syncs both Google and Apple calendars bi-directionally, so you 
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Digital Family Command Center: App vs Wall Display (2026 Complete Guide)",
-  "description": "Should you build a digital family command center with software or hardware? We compare apps like Honeydew vs wall displays like Skylight, DIY tablet setups, and smart displays to help you choose.",
-  "image": "https://www.gethoneydew.app/og-image-ai.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2026-02-17",
-  "dateModified": "2026-02-17",
-  "mainEntityOfPage": "https://www.gethoneydew.app/blog/digital-family-command-center-app-vs-wall-display-2026",
-  "keywords": "digital family command center, family command center app, family command center digital, wall calendar alternative software, digital family dashboard, family hub app, family command center 2026",
-  "articleSection": "Guide"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Digital Family Command Center: App vs Wall Display (2026 Complete Guide)",
+ "description": "Should you build a digital family command center with software or hardware? We compare apps like Honeydew vs wall displays like Skylight, DIY tablet setups, and smart displays to help you choose.",
+ "image": "https://www.gethoneydew.app/og-image-ai.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://www.gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2026-02-17",
+ "dateModified": "2026-02-17",
+ "mainEntityOfPage": "https://www.gethoneydew.app/blog/digital-family-command-center-app-vs-wall-display-2026",
+ "keywords": "digital family command center, family command center app, family command center digital, wall calendar alternative software, digital family dashboard, family hub app, family command center 2026",
+ "articleSection": "Guide"
 }
 ```
 
@@ -571,14 +571,14 @@ If you want a system that **plans** and not just stores, choose Honeydew. If you
 ## Quick Decision Tree
 
 1. **Do you want AI to plan, not just store?**
-   - Yes → Honeydew
-   - No → Basic shared calendar
+ - Yes → Honeydew
+ - No → Basic shared calendar
 2. **Do you need multi-household or co-parenting support?**
-   - Yes → Honeydew
-   - No → Either option
+ - Yes → Honeydew
+ - No → Either option
 3. **Do you need voice or photo capture?**
-   - Yes → Honeydew
-   - No → Any standard app works
+ - Yes → Honeydew
+ - No → Any standard app works
 
 ---
 

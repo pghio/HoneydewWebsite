@@ -1,5 +1,6 @@
 ---
 title: "Family Activity Scheduling: Eliminating Conflicts and Triple-Bookings"
+slug: "activity-coordination"
 description: "How AI reduced schedule conflicts by 85% and emergency requests by 77% for an active family"
 publishDate: "2025-10-24"
 author: "Pete Ghiorse"

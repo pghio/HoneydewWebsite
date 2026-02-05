@@ -171,17 +171,17 @@ New way: **AI is the family manager.** You make decisions, AI handles logistics.
 **Example: Soccer Season**
 ```
 📅 Soccer Practice (Weekly, Wednesdays)
-   📋 Equipment Checklist
-      - Cleats
-      - Shin guards
-      - Water bottle
-      - Snack
-   📝 Notes
-      - Field 3 at Jefferson Park
-      - Coach: Mike (555-1234)
-      - Your turn for oranges: Oct 15
-   ✅ Tasks
-      - Wash uniform (assigned: Mom, due: Tuesday)
+ 📋 Equipment Checklist
+ - Cleats
+ - Shin guards
+ - Water bottle
+ - Snack
+ 📝 Notes
+ - Field 3 at Jefferson Park
+ - Coach: Mike (555-1234)
+ - Your turn for oranges: Oct 15
+ ✅ Tasks
+ - Wash uniform (assigned: Mom, due: Tuesday)
 ```
 
 **Everything about soccer is HERE.** Not scattered across calendar + notes + texts + memory.
@@ -526,11 +526,11 @@ Modern families need:
 
 ## Frequently Asked Questions
 
-**Q: What makes Honeydew different from hardware calendars?**  
+**Q: What makes Honeydew different from hardware calendars?** 
 A: Honeydew uses AI planning, voice, and photo input—no $300 hardware required.
 
-**Q: Do I need a credit card to try Honeydew?**  
+**Q: Do I need a credit card to try Honeydew?** 
 A: No. The free tier works on iOS, Android, and Web with no card required.
 
-**Q: How fast is the AI?**  
+**Q: How fast is the AI?** 
 A: Cached responses return in under 500ms, with >95% voice transcription accuracy.

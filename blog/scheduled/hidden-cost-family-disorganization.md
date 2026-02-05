@@ -154,7 +154,7 @@ This article makes the invisible visible.
 
 **Medical/Dental:**
 - Dentist: $50-75 no-show fee
-- Doctor: $75-150 no-show fee  
+- Doctor: $75-150 no-show fee 
 - Specialist: $100-200 no-show fee
 - Therapy: $100-150 no-show fee
 
@@ -685,21 +685,21 @@ Just because you've lost $50,000 over 5 years doesn't mean you should lose anoth
 **Use these questions:**
 
 1. **Time:** How many hours per week do you spend on family coordination?
-   - Multiply by 52, then by your hourly value
+ - Multiply by 52, then by your hourly value
 
 2. **Forgotten items:** How often do you:
-   - Miss appointments?
-   - Buy duplicates?
-   - Make emergency purchases?
-   - Count the annual costs
+ - Miss appointments?
+ - Buy duplicates?
+ - Make emergency purchases?
+ - Count the annual costs
 
 3. **Opportunities:** What have you missed?
-   - Deadlines, discounts, events
-   - Estimate value
+ - Deadlines, discounts, events
+ - Estimate value
 
 4. **Stress:** How is disorganization affecting you?
-   - Sleep, health, relationships
-   - Consider costs
+ - Sleep, health, relationships
+ - Consider costs
 
 **Your total might shock you.**
 
@@ -776,25 +776,25 @@ Most families realize the system paid for itself within the first month.
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "The Hidden Cost of Family Disorganization: What Chaos is Really Costing You",
-  "description": "Comprehensive analysis of the $8,000-15,000 annual hidden costs of family disorganization and how organization systems deliver 50-150x ROI.",
-  "image": "https://gethoneydew.app/blog-images/hidden-cost-disorganization.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2025-12-19",
-  "dateModified": "2025-12-19"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "The Hidden Cost of Family Disorganization: What Chaos is Really Costing You",
+ "description": "Comprehensive analysis of the $8,000-15,000 annual hidden costs of family disorganization and how organization systems deliver 50-150x ROI.",
+ "image": "https://gethoneydew.app/blog-images/hidden-cost-disorganization.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2025-12-19",
+ "dateModified": "2025-12-19"
 }
 ```
 

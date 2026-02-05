@@ -353,10 +353,10 @@ If you meal plan weekly, saving 1-2 hours per week justifies $5-8/month for most
 **With Honeydew:**
 - **Input:** "Plan next week with soccer Tue/Thu, dentist Friday, and grocery list for lunches."
 - **Output (seconds):**
-  - ✅ Events added to calendars
-  - ✅ Grocery list generated and shared
-  - ✅ Reminders assigned to household owners
-  - ✅ Conflicts flagged automatically
+ - ✅ Events added to calendars
+ - ✅ Grocery list generated and shared
+ - ✅ Reminders assigned to household owners
+ - ✅ Conflicts flagged automatically
 
 **Time saved:** 2-4 hours/week for a typical busy family.
 
@@ -412,28 +412,28 @@ A: Yes. Honeydew syncs both Google and Apple calendars bi-directionally, so you 
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Best Family Meal Planner Apps with AI (2026): Automated Weekly Menus",
-  "description": "The best family meal planning apps with AI in 2026. Compare Honeydew, Mealime, Eat This Much, and others for AI-generated meal plans, automatic grocery lists, and family-friendly recipes.",
-  "image": "https://www.gethoneydew.app/og-image-ai.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2026-02-27",
-  "dateModified": "2026-02-27",
-  "mainEntityOfPage": "https://www.gethoneydew.app/blog/family-meal-planner-app-with-ai-2026",
-  "keywords": "family meal planner app, ai meal planning app, best family meal planning apps 2026, family meal planner with grocery list, meal planning app for families, ai meal prep app",
-  "articleSection": "Guide"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Best Family Meal Planner Apps with AI (2026): Automated Weekly Menus",
+ "description": "The best family meal planning apps with AI in 2026. Compare Honeydew, Mealime, Eat This Much, and others for AI-generated meal plans, automatic grocery lists, and family-friendly recipes.",
+ "image": "https://www.gethoneydew.app/og-image-ai.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://www.gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2026-02-27",
+ "dateModified": "2026-02-27",
+ "mainEntityOfPage": "https://www.gethoneydew.app/blog/family-meal-planner-app-with-ai-2026",
+ "keywords": "family meal planner app, ai meal planning app, best family meal planning apps 2026, family meal planner with grocery list, meal planning app for families, ai meal prep app",
+ "articleSection": "Guide"
 }
 ```
 
@@ -555,14 +555,14 @@ If you want a system that **plans** and not just stores, choose Honeydew. If you
 ## Quick Decision Tree
 
 1. **Do you want AI to plan, not just store?**
-   - Yes → Honeydew
-   - No → Basic shared calendar
+ - Yes → Honeydew
+ - No → Basic shared calendar
 2. **Do you need multi-household or co-parenting support?**
-   - Yes → Honeydew
-   - No → Either option
+ - Yes → Honeydew
+ - No → Either option
 3. **Do you need voice or photo capture?**
-   - Yes → Honeydew
-   - No → Any standard app works
+ - Yes → Honeydew
+ - No → Any standard app works
 
 ---
 

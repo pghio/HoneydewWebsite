@@ -49,10 +49,10 @@ featured: true
 ❌ **Moderate accuracy**
 - 85->95% accuracy in ideal conditions
 - Struggles with:
-  - Background noise
-  - Accents
-  - Informal speech
-  - Family-specific terms
+ - Background noise
+ - Accents
+ - Informal speech
+ - Family-specific terms
 
 ❌ **Slow for complex input**
 - Must dictate structured data
@@ -75,11 +75,11 @@ featured: true
 ✅ **Industry-leading accuracy**
 - >>95% accuracy even in noisy environments
 - Handles:
-  - Kids screaming
-  - Kitchen noise
-  - Traffic
-  - Music playing
-  - Multiple accents
+ - Kids screaming
+ - Kitchen noise
+ - Traffic
+ - Music playing
+ - Multiple accents
 
 ✅ **Fast for everything**
 - Real-time streaming (see words as you speak)
@@ -220,21 +220,21 @@ featured: true
 
 **Trip planning:**
 - "Plan our camping trip Memorial Day weekend"
-  - AI creates event, generates packing list, creates prep timeline
+ - AI creates event, generates packing list, creates prep timeline
 - "Create beach vacation packing list for family of four"
-  - AI generates 50+ items by category
+ - AI generates 50+ items by category
 
 **Event preparation:**
 - "Create birthday party checklist for 15 kids"
-  - AI generates complete party planning list
+ - AI generates complete party planning list
 - "Generate back-to-school preparation list"
-  - AI creates comprehensive school readiness checklist
+ - AI creates comprehensive school readiness checklist
 
 **Complex requests:**
 - "Plan Emma's birthday party, create shopping list and task list"
-  - AI orchestrates multiple tools, creates everything
+ - AI orchestrates multiple tools, creates everything
 - "Prepare for our Disney World trip next month"
-  - AI generates trip plan, packing list, preparation timeline
+ - AI generates trip plan, packing list, preparation timeline
 
 **The power:** Multi-step workflows executed with one voice command
 
@@ -432,8 +432,8 @@ featured: true
 - While setting table: "Schedule oil change next Tuesday" (3 sec)
 - While serving food: "Add birthday gift shopping to Saturday tasks" (3 sec)
 
-**Total voice time:** 15 seconds  
-**Items captured:** 5 of 5 (100%)  
+**Total voice time:** 15 seconds 
+**Items captured:** 5 of 5 (100%) 
 **Never interrupted cooking**
 
 **Result:** Dinner on time, all coordination captured, zero forgotten items
@@ -460,8 +460,8 @@ featured: true
 - Next thought: "Add milk, bread, and eggs to grocery list" (3 sec)
 - Next thought: "Create reminder to confirm camping reservation" (3 sec)
 
-**Total voice time:** 10 seconds  
-**Zero time stopped/distracted**  
+**Total voice time:** 10 seconds 
+**Zero time stopped/distracted** 
 **All items captured**
 
 **Result:** Safe driving, productive commute, complete family coordination
@@ -518,8 +518,8 @@ featured: true
 - On way to car: "Add sports equipment to shopping list" (2 sec)
 - Driving home: "Schedule parent-teacher conference Wednesday" (3 sec)
 
-**Total time:** 13 seconds spread across 2 hours  
-**Items captured:** 5 of 5 while fully engaged with family  
+**Total time:** 13 seconds spread across 2 hours 
+**Items captured:** 5 of 5 while fully engaged with family 
 **Never took phone out of pocket**
 
 **Result:** Present with family, all coordination captured
@@ -911,25 +911,25 @@ Text Output (transcription)
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Complete Guide to Voice Input with Whisper AI: Family Organization Made Hands-Free",
-  "description": "Comprehensive guide to Whisper AI voice control for family organization, including how it works, usage tips, and why it's transformative for busy parents.",
-  "image": "https://gethoneydew.app/blog-images/whisper-ai-voice-guide.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2025-12-12",
-  "dateModified": "2025-12-12"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Complete Guide to Voice Input with Whisper AI: Family Organization Made Hands-Free",
+ "description": "Comprehensive guide to Whisper AI voice control for family organization, including how it works, usage tips, and why it's transformative for busy parents.",
+ "image": "https://gethoneydew.app/blog-images/whisper-ai-voice-guide.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2025-12-12",
+ "dateModified": "2025-12-12"
 }
 ```
 

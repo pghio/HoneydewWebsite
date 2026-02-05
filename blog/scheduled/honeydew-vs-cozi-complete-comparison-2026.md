@@ -192,7 +192,7 @@ None. Zero voice recognition. Every input requires typing, which means stopping 
 
 **Winner: Honeydew** — Cozi doesn't compete in this category at all.
 
-**The voice control advantage is bigger than you think:** Parents consistently underestimate how much voice input changes their daily routine. In user studies, families reported that the ability to add items to lists while cooking, driving, or holding children was the single most impactful feature—even more than the AI planning. It removes the friction between "I should remember this" and "it's captured in the app."
+**The voice control advantage is bigger than you think:** Parents consistently underestimate how much voice input changes their daily routine. The ability to add items to lists while cooking, driving, or holding children is often the single most impactful feature—even more than the AI planning. It removes the friction between "I should remember this" and "it's captured in the app."
 
 Consider a typical morning: you're making breakfast, helping kids get ready, remembering that picture day is tomorrow and you need to iron a shirt, noticing you're out of milk, realizing you forgot to RSVP to the birthday party. With Cozi, you'd need to stop, find your phone, unlock it, open the app, navigate to lists or calendar, and type. Most parents don't do it—and those items get forgotten.
 
@@ -249,10 +249,10 @@ Family structures in 2026 are complex. You might coordinate with:
 **Honeydew's Multi-Family Architecture:**
 - **Unlimited family groups** with instant switching
 - Create separate groups for different contexts:
-  - "Kids - Mom & Dad" (co-parenting coordination)
-  - "My Household" (private home management)
-  - "Extended Family" (grandparents, siblings)
-  - "Soccer Parents" (carpools, snack schedules)
+ - "Kids - Mom & Dad" (co-parenting coordination)
+ - "My Household" (private home management)
+ - "Extended Family" (grandparents, siblings)
+ - "Soccer Parents" (carpools, snack schedules)
 - Each group has its own calendar and lists
 - Privacy by default—groups don't see each other
 - One-tap switching takes <1 second
@@ -412,7 +412,7 @@ Free tier works, but most advanced features require $7.99/month. AI feels like o
 **With Cozi:**
 **Nearly impossible to manage properly.** You'd need:
 - One Cozi for him + his ex
-- One Cozi for her + her ex  
+- One Cozi for her + her ex 
 - One Cozi for the new household
 - Constant switching between three accounts
 - Manual coordination between all three

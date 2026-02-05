@@ -489,11 +489,11 @@ Spend 30-60 minutes dumping EVERYTHING from your head:
 
 ## Frequently Asked Questions
 
-**Q: What makes Honeydew different from hardware calendars?**  
+**Q: What makes Honeydew different from hardware calendars?** 
 A: Honeydew uses AI planning, voice, and photo input—no $300 hardware required.
 
-**Q: Do I need a credit card to try Honeydew?**  
+**Q: Do I need a credit card to try Honeydew?** 
 A: No. The free tier works on iOS, Android, and Web with no card required.
 
-**Q: How fast is the AI?**  
+**Q: How fast is the AI?** 
 A: Cached responses return in under 500ms, with >95% voice transcription accuracy.

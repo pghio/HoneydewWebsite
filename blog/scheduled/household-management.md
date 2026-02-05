@@ -1,5 +1,6 @@
 ---
 title: "Preventive Home Maintenance: From Reactive Repairs to Proactive Care"
+slug: "household-management"
 description: "How AI reduced emergency repairs by 70% and saved $1,680 annually through predictive home maintenance"
 publishDate: "2025-10-27"
 author: "Pete Ghiorse"

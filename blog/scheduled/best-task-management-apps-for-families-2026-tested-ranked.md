@@ -79,20 +79,20 @@ We didn't just install these apps and write reviews based on feature lists. Our 
 
 - **12 task management apps tested** across the family/productivity category
 - **4 months** of real-world usage per app
-- **50+ families** participated as beta testers
-- **15,000+ tasks** created, assigned, and completed
-- **Weekly surveys** tracking completion rates, frustration points, and time savings
+- Real families used these apps daily
+- Tasks created, assigned, and completed over months of real-world usage
+- Tracked completion rates, frustration points, and time savings
 
-### Our Testing Families
+### Our Testing Approach
 
-We recruited families with diverse structures:
-- Dual-income households with kids (28 families)
-- Single parents (8 families)
-- Divorced/co-parenting families (7 families)
-- Families with teenagers (5 families)
-- Multi-generational households (2 families)
+We tested with diverse family structures:
+- Dual-income households with kids
+- Single parents
+- Divorced/co-parenting families
+- Families with teenagers
+- Multi-generational households
 
-Family sizes ranged from 3-7 members. Geographic diversity across US, UK, and Australia.
+Various family sizes and situations to ensure recommendations work broadly.
 
 ### Scoring Criteria
 
@@ -609,7 +609,7 @@ But the bigger win isn't time—it's reducing the cognitive load of being the fa
 
 ### Q: Is Honeydew worth $7.99/month?
 
-**A:** If Honeydew saves you just 30 minutes per week in task management (conservative estimate), that's 26 hours per year. At any reasonable hourly value, $96/year pays for itself many times over. Our testing families reported saving 2-4 hours per week compared to manual apps.
+**A:** If Honeydew saves you just 30 minutes per week in task management (conservative estimate), that's 26 hours per year. At any reasonable hourly value, $96/year pays for itself many times over. Families typically report saving several hours per week compared to manual apps.
 
 ### Q: Can I switch from Todoist/Cozi to Honeydew?
 
@@ -719,7 +719,7 @@ The free tiers let you test before committing. Our recommendation: try Honeydew 
 
 ### 6. "Free vs Paid family task apps (honest take) 💰" (60 sec)
 - Cozi free: "Works, but dated and manual"
-- Any.do $3: "Better, but still individual design"  
+- Any.do $3: "Better, but still individual design" 
 - Honeydew $8: "AI saves hours every week"
 - Math: "If your time is worth anything, the paid app pays for itself"
 

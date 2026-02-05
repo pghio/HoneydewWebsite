@@ -59,7 +59,7 @@ The core innovation is **multi-family architecture**—unlimited family groups w
 **The Setup:**
 - "Kids - Mom & Dad" (shared with ex-spouse)
 - "Mom's Household" (private)
-- "Dad's Household" (private)  
+- "Dad's Household" (private) 
 - "Grandparents" (extended family coordination)
 - "Trip Planning - Friends" (non-family groups)
 

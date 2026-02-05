@@ -132,29 +132,29 @@ When you're doing everything alone, voice input isn't a convenience—it's a nec
 >
 > **AI generates comprehensive list:**
 > - **Pre-Move (8 weeks out)**
->   - Schedule TMO counseling
->   - Get orders
->   - Research schools at new location
->   - Medical/dental records
->   - Pet arrangements (if applicable)
->   
+> - Schedule TMO counseling
+> - Get orders
+> - Research schools at new location
+> - Medical/dental records
+> - Pet arrangements (if applicable)
+> 
 > - **Pre-Move (4 weeks out)**
->   - Schedule household goods pickup
->   - Notify current schools
->   - Change address with DEERS
->   - Clean housing/schedule inspection
->   
+> - Schedule household goods pickup
+> - Notify current schools
+> - Change address with DEERS
+> - Clean housing/schedule inspection
+> 
 > - **Moving Week**
->   - Final utility disconnects
->   - House inspection
->   - Temporary lodging arrangements
->   
+> - Final utility disconnects
+> - House inspection
+> - Temporary lodging arrangements
+> 
 > - **Arrival**
->   - Check into new unit
->   - DEERS update
->   - School enrollment
->   - Housing setup
->   - Find new doctors/dentists
+> - Check into new unit
+> - DEERS update
+> - School enrollment
+> - Housing setup
+> - Find new doctors/dentists
 
 **One voice command vs. hours of list-making.**
 
@@ -520,42 +520,42 @@ A: Yes. Notifications are time-zone aware. An event at "6pm local" notifies each
 ## TikTok Script Ideas (6 videos)
 
 1. **"Military spouse app that actually gets it"** (60 sec)
-   - Show deployment reality
-   - Solo parenting, coordinating with grandparents
-   - Voice input during chaos
-   - AI for PCS planning
-   - "Finally designed for military life"
+ - Show deployment reality
+ - Solo parenting, coordinating with grandparents
+ - Voice input during chaos
+ - AI for PCS planning
+ - "Finally designed for military life"
 
 2. **"How we stay connected during deployment"** (45 sec)
-   - Deployed parent sees family calendar
-   - Knows about soccer games, recitals
-   - Adds notes for kids
-   - "More than phone calls"
-   - Connection despite distance
+ - Deployed parent sees family calendar
+ - Knows about soccer games, recitals
+ - Adds notes for kids
+ - "More than phone calls"
+ - Connection despite distance
 
 3. **"PCS move planning hack 📦"** (45 sec)
-   - "Create PCS checklist for family of 4"
-   - AI generates comprehensive list
-   - Military-specific tasks included
-   - "Would have taken hours manually"
+ - "Create PCS checklist for family of 4"
+ - AI generates comprehensive list
+ - Military-specific tasks included
+ - "Would have taken hours manually"
 
 4. **"Coordinating with grandparents 1,000 miles away"** (45 sec)
-   - Grandparents in separate family group
-   - See kid pickups, activities
-   - Get notifications for their responsibilities
-   - "Deployment support made easy"
+ - Grandparents in separate family group
+ - See kid pickups, activities
+ - Get notifications for their responsibilities
+ - "Deployment support made easy"
 
 5. **"Solo parenting voice hack"** (30 sec)
-   - Doing everything alone
-   - "Add dentist appointment Thursday 2pm"
-   - Captured without stopping
-   - "Can't type, can always talk"
+ - Doing everything alone
+ - "Add dentist appointment Thursday 2pm"
+ - Captured without stopping
+ - "Can't type, can always talk"
 
 6. **"Military family app comparison"** (60 sec)
-   - Cozi: No multi-family
-   - Google: Too fragmented
-   - Honeydew: Multi-family + voice + AI
-   - "Built for deployment reality"
+ - Cozi: No multi-family
+ - Google: Too fragmented
+ - Honeydew: Multi-family + voice + AI
+ - "Built for deployment reality"
 
 ---
 

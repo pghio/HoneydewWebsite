@@ -461,14 +461,14 @@ Special needs parenting involves **relentless cognitive load**:
 
 ## What Special Needs Parents Say
 
-> **"Voice input during meltdowns changed everything"** — Mom of autistic 7-year-old
-> "I can capture notes, add appointments, and update schedules even during crisis moments. Before, I'd forget everything by the time I could sit down."
+**Voice input during crisis moments:**
+When you're managing a meltdown or handling a difficult moment, you can't stop to type. Voice capture lets you add notes, appointments, and updates hands-free—capturing information that would otherwise be forgotten by the time things calm down.
 
-> **"AI checklists for specialist appointments"** — Dad of child with multiple diagnoses
-> "I used to spend 30 minutes before each appointment trying to remember what to bring and document. Now AI generates a comprehensive checklist in 5 seconds."
+**AI checklists for specialist appointments:**
+Instead of spending 30 minutes trying to remember what to bring and document before each appointment, AI generates a comprehensive checklist in seconds. Less prep stress means better appointments.
 
-> **"Finally coordinating with grandparents properly"** — Mom of child with CP
-> "My parents help with therapy shuttling but don't need to see our whole life. Honeydew lets me share exactly what they need."
+**Coordinating with helpers without oversharing:**
+When grandparents or other helpers assist with therapy shuttling, they need specific information without seeing your whole life. Multi-family groups let you share exactly what each helper needs.
 
 ---
 
@@ -527,43 +527,43 @@ A: Create a "Respite Care" group that includes only the caregiver and relevant i
 ## TikTok Script Ideas (6 videos)
 
 1. **"Special needs parent app that actually helps"** (60 sec)
-   - Show therapy schedule complexity
-   - Voice capture during chaos
-   - AI checklists for appointments
-   - Multi-caregiver coordination
-   - "Built for our reality"
+ - Show therapy schedule complexity
+ - Voice capture during chaos
+ - AI checklists for appointments
+ - Multi-caregiver coordination
+ - "Built for our reality"
 
 2. **"Never forget therapy supplies again"** (45 sec)
-   - Show attached checklist to OT appointment
-   - Notification: "OT in 2 hours—checklist ready"
-   - Sensory bag, communication device, reinforcers
-   - "The list is always there"
+ - Show attached checklist to OT appointment
+ - Notification: "OT in 2 hours—checklist ready"
+ - Sensory bag, communication device, reinforcers
+ - "The list is always there"
 
 3. **"How I coordinate with 5 different caregivers"** (45 sec)
-   - Parents, grandparents, respite, babysitter, therapist
-   - Each has appropriate access
-   - No one sees more than needed
-   - "Finally organized"
+ - Parents, grandparents, respite, babysitter, therapist
+ - Each has appropriate access
+ - No one sees more than needed
+ - "Finally organized"
 
 4. **"IEP meeting prep in 30 seconds"** (30 sec)
-   - "Create IEP preparation checklist"
-   - AI generates comprehensive list
-   - Progress notes, goals, questions
-   - "Ready for the meeting"
+ - "Create IEP preparation checklist"
+ - AI generates comprehensive list
+ - Progress notes, goals, questions
+ - "Ready for the meeting"
 
 5. **"Voice logging for medical appointments"** (45 sec)
-   - Capture throughout month: "Add to dev peds notes..."
-   - Day before: organized summary ready
-   - Doctor gets complete picture
-   - "No more forgetting what to report"
+ - Capture throughout month: "Add to dev peds notes..."
+ - Day before: organized summary ready
+ - Doctor gets complete picture
+ - "No more forgetting what to report"
 
 6. **"The cognitive load is real—here's my solution"** (60 sec)
-   - Show mental load of special needs parenting
-   - Voice capture
-   - AI checklists
-   - Smart notifications
-   - Care team coordination
-   - "My brain can finally let go"
+ - Show mental load of special needs parenting
+ - Voice capture
+ - AI checklists
+ - Smart notifications
+ - Care team coordination
+ - "My brain can finally let go"
 
 ---
 

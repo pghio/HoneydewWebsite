@@ -307,10 +307,10 @@ They're different needs. Some families want both in one device. Others prefer a 
 **With Honeydew:**
 1. "Plan a beach trip to Rehoboth August 15-20 with packing list for 2 adults and 3 kids ages 4, 7, and 10"
 2. Honeydew generates:
-   - Calendar event for August 15-20
-   - Packing list tailored to beach trips (sunscreen, sand toys, swimsuits by person)
-   - Activity suggestions for the dates
-   - Items categorized by who's responsible
+ - Calendar event for August 15-20
+ - Packing list tailored to beach trips (sunscreen, sand toys, swimsuits by person)
+ - Activity suggestions for the dates
+ - Items categorized by who's responsible
 3. Packing list is attached to the trip event
 4. Spouse sees it instantly via shared family group
 5. "Add beach chairs and cooler" → Done
@@ -542,7 +542,7 @@ Here's the core insight: **Honeydew + any tablet does more than either dedicated
 **A:** No. Alexa can add events and set reminders, but it can't:
 - Generate packing lists from a trip description
 - Create meal plans and grocery lists
-- Detect scheduling conflicts intelligently  
+- Detect scheduling conflicts intelligently 
 - Support multi-family groups
 - Attach lists to calendar events
 - Learn your family's preferences over time
@@ -651,28 +651,28 @@ You might find you don't need dedicated display hardware at all—or you might w
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Echo Show 15 vs Skylight vs Honeydew: Family Display Battle 2026",
-  "description": "Three different approaches to family calendars: Amazon's smart display, Skylight's dedicated hardware, or Honeydew's AI software on any screen. Compare costs, features, and find the best fit for your family.",
-  "image": "https://www.gethoneydew.app/og-image-ai.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2026-02-03",
-  "dateModified": "2026-02-03",
-  "mainEntityOfPage": "https://www.gethoneydew.app/blog/echo-show-15-vs-skylight-vs-honeydew-2026",
-  "keywords": "echo show 15 vs skylight, family display comparison, alexa family calendar, skylight calendar alternative, best family calendar display",
-  "articleSection": "Comparison"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Echo Show 15 vs Skylight vs Honeydew: Family Display Battle 2026",
+ "description": "Three different approaches to family calendars: Amazon's smart display, Skylight's dedicated hardware, or Honeydew's AI software on any screen. Compare costs, features, and find the best fit for your family.",
+ "image": "https://www.gethoneydew.app/og-image-ai.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://www.gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2026-02-03",
+ "dateModified": "2026-02-03",
+ "mainEntityOfPage": "https://www.gethoneydew.app/blog/echo-show-15-vs-skylight-vs-honeydew-2026",
+ "keywords": "echo show 15 vs skylight, family display comparison, alexa family calendar, skylight calendar alternative, best family calendar display",
+ "articleSection": "Comparison"
 }
 ```
 
@@ -739,20 +739,20 @@ You might find you don't need dedicated display hardware at all—or you might w
 ## Quick Decision Tree
 
 1. **Is smart home control your primary need?**
-   - Yes → Echo Show 15
-   - No → Continue
+ - Yes → Echo Show 15
+ - No → Continue
 
 2. **Is wall display aesthetics your top priority?**
-   - Yes → Skylight
-   - No → Continue
+ - Yes → Skylight
+ - No → Continue
 
 3. **Do you need AI planning or multi-family support?**
-   - Yes → Honeydew
-   - No → Any option works
+ - Yes → Honeydew
+ - No → Any option works
 
 4. **Are you budget-conscious?**
-   - Yes → Honeydew (free or $79/year)
-   - No → Choose based on other priorities
+ - Yes → Honeydew (free or $79/year)
+ - No → Choose based on other priorities
 
 ---
 

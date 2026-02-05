@@ -74,25 +74,25 @@ The project gained significant popularity in the maker and DIY communities becau
 Building a MagicMirror requires:
 
 - **Hardware:**
-  - Raspberry Pi 3/4/5 ($35-80)
-  - SD card ($10-20)
-  - Display monitor ($50-200)
-  - Two-way mirror or acrylic ($30-150)
-  - Frame and mounting materials ($20-100)
-  - Power supplies, cables, adapters ($20-50)
-  
+ - Raspberry Pi 3/4/5 ($35-80)
+ - SD card ($10-20)
+ - Display monitor ($50-200)
+ - Two-way mirror or acrylic ($30-150)
+ - Frame and mounting materials ($20-100)
+ - Power supplies, cables, adapters ($20-50)
+ 
 - **Technical skills:**
-  - Raspberry Pi OS installation
-  - Command line/terminal usage
-  - Basic JavaScript for configuration
-  - Network configuration
-  - Troubleshooting Linux errors
-  - Hardware assembly
+ - Raspberry Pi OS installation
+ - Command line/terminal usage
+ - Basic JavaScript for configuration
+ - Network configuration
+ - Troubleshooting Linux errors
+ - Hardware assembly
 
 - **Time investment:**
-  - First build: 8-20+ hours (including troubleshooting)
-  - Configuration: 2-4 hours per module
-  - Ongoing maintenance: 1-2 hours/month for updates and fixes
+ - First build: 8-20+ hours (including troubleshooting)
+ - Configuration: 2-4 hours per module
+ - Ongoing maintenance: 1-2 hours/month for updates and fixes
 
 ### MagicMirror's "Pricing"
 
@@ -351,10 +351,10 @@ With Honeydew:
 - **Privacy Controls:** Each group is completely separate unless you choose to share
 - **Role-Based Access:** Admin, member, and view-only permissions
 - **Perfect for:**
-  - Divorced/separated parents (coordinate across two households)
-  - Extended family care (siblings coordinating aging parent care)
-  - Multi-generational households
-  - Friend group coordination (trips, carpools)
+ - Divorced/separated parents (coordinate across two households)
+ - Extended family care (siblings coordinating aging parent care)
+ - Multi-generational households
+ - Friend group coordination (trips, carpools)
 
 **Real-world example:**
 - "Kids - Mom & Dad" group (both parents coordinate custody, activities)

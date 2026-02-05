@@ -238,7 +238,7 @@ Honeydew's 27-tool AI agent is trained specifically for family coordination:
 
 The Echo Show 15 is mounted on your wall. Its microphone range is maybe 25 feet. If you're:
 - In the car during school pickup → No voice access
-- At the office remembering something → No voice access  
+- At the office remembering something → No voice access 
 - In the backyard → Probably out of range
 - At your ex-spouse's house → Definitely no access
 
@@ -300,7 +300,7 @@ With Honeydew, changes flow both directions. Add on phone → appears everywhere
 
 Modern families are complicated:
 - 50% of marriages involve divorce or remarriage
-- Extended families coordinate across multiple households  
+- Extended families coordinate across multiple households 
 - Friend groups share carpools and activities
 - Sandwich generation manages children AND aging parents
 

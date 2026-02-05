@@ -1,5 +1,6 @@
 ---
 title: "Multi-Generational Care Coordination: Bridging the Technology Gap"
+slug: "multi-generational"
 description: "How AI reduced coordination calls by 60% and emergency situations by 75% across three generations"
 publishDate: "2025-10-18"
 author: "Pete Ghiorse"

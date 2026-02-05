@@ -137,16 +137,16 @@ If you’re comparing directly: **[Honeydew vs Hearth Display](/why-honeydew/vs-
 
 Pick the statement that’s most true:
 
-1) **“I want a wall display, but I mostly need automation.”**  
+1) **“I want a wall display, but I mostly need automation.”** 
 → Choose **tablet + family app**.
 
-2) **“I want calendar visibility; our system is simple.”**  
+2) **“I want calendar visibility; our system is simple.”** 
 → Choose **Skylight**.
 
-3) **“I want voice + smart home controls on the wall.”**  
+3) **“I want voice + smart home controls on the wall.”** 
 → Choose **Echo Show / Nest Hub** (or Hearth, if you want premium).
 
-4) **“I’m optimizing for design and don’t mind the cost.”**  
+4) **“I’m optimizing for design and don’t mind the cost.”** 
 → Choose **Hearth**.
 
 ---
@@ -166,8 +166,8 @@ Pick the statement that’s most true:
 
 ## TikTok / Reels script ideas
 
-1) “The display isn’t the command center. The workflow is.” (Show wall calendar → then show event with checklist/assignments.)  
-2) “If you’re buying a $600 display to solve a coordination problem… pause.” (Explain tablet+app.)  
+1) “The display isn’t the command center. The workflow is.” (Show wall calendar → then show event with checklist/assignments.) 
+2) “If you’re buying a $600 display to solve a coordination problem… pause.” (Explain tablet+app.) 
 3) “Here’s how to choose between Skylight, Hearth, and a tablet in 60 seconds.” (Use the decision framework.)
 
 

@@ -72,8 +72,8 @@ We didn't just glance at spec sheets. Our process:
 
 - **12 solutions tested** across all three categories
 - **8 months** of continuous real-world usage
-- **47 families** participated as beta testers
-- **15,000+ events** created and tracked
+- Real families used these products daily
+- Thousands of events created and tracked
 - **Real scenarios:** Meal planning, vacation coordination, co-parenting schedules, kids' activities
 
 ### What We Measured

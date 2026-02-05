@@ -164,15 +164,15 @@ No remembering to cross-reference. Context and action together.
 **ROI for ADHD:** If Honeydew prevents one forgotten pickup, one missed appointment, or one abandoned packing session, it's worth years of subscription.
 
 ### Best For
-✅ ADHD parents who forget things mid-task  
-✅ Those who think of things while multitasking  
-✅ Parents overwhelmed by planning steps  
-✅ Anyone who ignores traditional app reminders  
-✅ Visual thinkers who need clean interfaces  
+✅ ADHD parents who forget things mid-task 
+✅ Those who think of things while multitasking 
+✅ Parents overwhelmed by planning steps 
+✅ Anyone who ignores traditional app reminders 
+✅ Visual thinkers who need clean interfaces 
 
 ### Limitations
-⚠️ Learning curve for AI features (though voice is intuitive)  
-⚠️ Requires building new habits (voice instead of forgetting)  
+⚠️ Learning curve for AI features (though voice is intuitive) 
+⚠️ Requires building new habits (voice instead of forgetting) 
 
 **[Try Honeydew Free →](https://gethoneydew.app/)**
 
@@ -444,14 +444,14 @@ Powerful tool for organized people. Overwhelming for ADHD. The flexibility that 
 
 ## What ADHD Parents Say About Honeydew
 
-> **"Voice input changed everything"** — Sarah, mom of 2, diagnosed ADHD
-> "I used to forget Most what I needed to add to calendars and lists. Now I speak it the moment I think it. My brain can let go because it's captured."
+**Voice input is a game-changer for ADHD brains:**
+The ability to speak tasks the moment you think them means ideas get captured before they're forgotten. No more "I'll add that later" that never happens.
 
-> **"AI does the planning I can't"** — Marcus, dad of 3, ADHD
-> "Planning a birthday party used to take me 2 weeks of procrastination. I said 'plan birthday party' and had a complete checklist in 5 seconds. I actually did it."
+**AI handles the planning paralysis:**
+Birthday party planning that might take weeks of procrastination becomes a 5-second voice command that generates a complete checklist. The hardest part (starting) is eliminated.
 
-> **"Finally an app that works with my brain"** — Jennifer, single mom, ADHD
-> "Every other app required consistent effort I couldn't maintain. Honeydew works even when I forget about it for 3 days because the notifications bring me back."
+**Works even when you're inconsistent:**
+Unlike apps that require daily engagement, Honeydew's notifications bring you back even after days of forgetting to check it. The system works around ADHD patterns rather than fighting them.
 
 ---
 
@@ -506,44 +506,44 @@ A: You can create recurring medication reminders with voice: "Remind me to take 
 ## TikTok Script Ideas (6 videos)
 
 1. **"ADHD parent? This app gets it"** (60 sec)
-   - Show forgetting mid-task
-   - Voice capture immediately
-   - "Add while you think it"
-   - AI organizes for you
-   - "Finally doesn't require consistency"
+ - Show forgetting mid-task
+ - Voice capture immediately
+ - "Add while you think it"
+ - AI organizes for you
+ - "Finally doesn't require consistency"
 
 2. **"POV: ADHD brain dump into AI"** (45 sec)
-   - Stream of consciousness voice input
-   - Watch AI parse into events, tasks, lists
-   - "I could never organize this myself"
-   - "AI does it in 5 seconds"
+ - Stream of consciousness voice input
+ - Watch AI parse into events, tasks, lists
+ - "I could never organize this myself"
+ - "AI does it in 5 seconds"
 
 3. **"Why I failed with every family app until this one"** (60 sec)
-   - Cozi: Forgot to check
-   - Google: Too fragmented
-   - Todoist: Too overwhelming
-   - Honeydew: Voice + AI + forgiveness
-   - "Works with ADHD, not against it"
+ - Cozi: Forgot to check
+ - Google: Too fragmented
+ - Todoist: Too overwhelming
+ - Honeydew: Voice + AI + forgiveness
+ - "Works with ADHD, not against it"
 
 4. **"The birthday party I actually planned 🎂"** (45 sec)
-   - "Plan Emma's birthday party"
-   - AI generates complete checklist
-   - "I would have procrastinated 2 weeks"
-   - Done in 5 seconds
-   - "ADHD-friendly planning"
+ - "Plan Emma's birthday party"
+ - AI generates complete checklist
+ - "I would have procrastinated 2 weeks"
+ - Done in 5 seconds
+ - "ADHD-friendly planning"
 
 5. **"ADHD hack: Speak it before you forget it"** (30 sec)
-   - Thought while driving
-   - By the time you stop, gone
-   - Voice button → speak immediately
-   - Captured forever
-   - "My ADHD superpower now"
+ - Thought while driving
+ - By the time you stop, gone
+ - Voice button → speak immediately
+ - Captured forever
+ - "My ADHD superpower now"
 
 6. **"Smart notifications for ADHD brains"** (45 sec)
-   - Regular app: "Event in 1 hour" (ignored)
-   - Honeydew: "Soccer in 2 hours—checklist: cleats ✓, uniform ❌, water ❌"
-   - Action attached to reminder
-   - "Actually useful notifications"
+ - Regular app: "Event in 1 hour" (ignored)
+ - Honeydew: "Soccer in 2 hours—checklist: cleats ✓, uniform ❌, water ❌"
+ - Action attached to reminder
+ - "Actually useful notifications"
 
 ---
 

@@ -850,50 +850,50 @@ After 6 months testing 12 apps with real families, **Honeydew** emerges as the b
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is the best co-parenting app in 2026?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Based on testing 12 apps with real families, Honeydew is the best co-parenting app for most divorced parents in 2026. Its AI-powered coordination, multi-family architecture, and $79/year price make it the best value. For high-conflict court-ordered situations, OurFamilyWizard remains the legal standard."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the best free co-parenting app?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Cozi is free and can work for very amicable co-parents. Honeydew's free tier offers better multi-household privacy. For court documentation needs, there are no good free options."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What co-parenting app do courts recommend?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "OurFamilyWizard is most commonly ordered by family courts due to its long track record and attorney access features. AppClose and Talking Parents are also court-recognized."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is OurFamilyWizard worth the cost?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "At $149.99/year per parent ($300 total), OurFamilyWizard is expensive. It's worth it if a court ordered it, your attorney needs platform access, or you're in high-conflict litigation. For amicable to moderate-conflict co-parenting, Honeydew at $79/year total provides better daily functionality."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's the best co-parenting app for blended families?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Honeydew is designed for complex family structures. Its multi-family groups let you include step-parents, grandparents, and multiple households while maintaining appropriate privacy boundaries."
-      }
-    }
-  ]
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+ {
+ "@type": "Question",
+ "name": "What is the best co-parenting app in 2026?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Based on testing 12 apps with real families, Honeydew is the best co-parenting app for most divorced parents in 2026. Its AI-powered coordination, multi-family architecture, and $79/year price make it the best value. For high-conflict court-ordered situations, OurFamilyWizard remains the legal standard."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "What is the best free co-parenting app?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Cozi is free and can work for very amicable co-parents. Honeydew's free tier offers better multi-household privacy. For court documentation needs, there are no good free options."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "What co-parenting app do courts recommend?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "OurFamilyWizard is most commonly ordered by family courts due to its long track record and attorney access features. AppClose and Talking Parents are also court-recognized."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "Is OurFamilyWizard worth the cost?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "At $149.99/year per parent ($300 total), OurFamilyWizard is expensive. It's worth it if a court ordered it, your attorney needs platform access, or you're in high-conflict litigation. For amicable to moderate-conflict co-parenting, Honeydew at $79/year total provides better daily functionality."
+ }
+ },
+ {
+ "@type": "Question",
+ "name": "What's the best co-parenting app for blended families?",
+ "acceptedAnswer": {
+ "@type": "Answer",
+ "text": "Honeydew is designed for complex family structures. Its multi-family groups let you include step-parents, grandparents, and multiple households while maintaining appropriate privacy boundaries."
+ }
+ }
+ ]
 }
 ```
 
@@ -902,51 +902,51 @@ After 6 months testing 12 apps with real families, **Honeydew** emerges as the b
 ## TikTok Script Ideas (8 videos)
 
 1. **"We tested every co-parenting app so you don't have to 📱"** (60 sec)
-   - Quick montage of testing 12 apps
-   - Rapid-fire pros/cons
-   - Rankings reveal
-   - "Link in bio for full guide"
+ - Quick montage of testing 12 apps
+ - Rapid-fire pros/cons
+ - Rankings reveal
+ - "Link in bio for full guide"
 
 2. **"The $300 co-parenting app vs the $79 one 💸"** (45 sec)
-   - Show OurFamilyWizard pricing
-   - Show Honeydew pricing
-   - Compare features side by side
-   - "Which would you choose?"
+ - Show OurFamilyWizard pricing
+ - Show Honeydew pricing
+ - Compare features side by side
+ - "Which would you choose?"
 
 3. **"POV: Your co-parenting app has AI 🤖"** (45 sec)
-   - Show manual scheduling struggle
-   - Voice command to Honeydew
-   - Watch it auto-schedule
-   - Both parents get notification
-   - "Technology finally helping divorced parents"
+ - Show manual scheduling struggle
+ - Voice command to Honeydew
+ - Watch it auto-schedule
+ - Both parents get notification
+ - "Technology finally helping divorced parents"
 
 4. **"Which co-parenting app do courts actually use? ⚖️"** (60 sec)
-   - Explain OurFamilyWizard dominance
-   - Why courts like it
-   - When you need it vs don't
-   - Alternatives for amicable situations
+ - Explain OurFamilyWizard dominance
+ - Why courts like it
+ - When you need it vs don't
+ - Alternatives for amicable situations
 
 5. **"Divorced parent hack: Stop paying per-parent 💡"** (45 sec)
-   - Show per-parent pricing math
-   - Honeydew's family pricing
-   - Annual savings
-   - "You're welcome"
+ - Show per-parent pricing math
+ - Honeydew's family pricing
+ - Annual savings
+ - "You're welcome"
 
 6. **"The co-parenting app feature that changed everything 🏠"** (45 sec)
-   - Explain multi-household problem
-   - Show Honeydew's solution
-   - Your house, their house, kids' stuff
-   - "Finally, privacy AND coordination"
+ - Explain multi-household problem
+ - Show Honeydew's solution
+ - Your house, their house, kids' stuff
+ - "Finally, privacy AND coordination"
 
 7. **"Signs you need a co-parenting app (and which one) 📋"** (60 sec)
-   - Scenario-based recommendations
-   - Amicable → Honeydew
-   - Court case → OurFamilyWizard
-   - Budget → 2houses
-   - "Comment which situation is you"
+ - Scenario-based recommendations
+ - Amicable → Honeydew
+ - Court case → OurFamilyWizard
+ - Budget → 2houses
+ - "Comment which situation is you"
 
 8. **"What I wish I knew about co-parenting apps 💭"** (45 sec)
-   - Both parents must commit
-   - Kids shouldn't see it
-   - Treat it like work communication
-   - "The app doesn't fix the relationship"
+ - Both parents must commit
+ - Kids shouldn't see it
+ - Treat it like work communication
+ - "The app doesn't fix the relationship"

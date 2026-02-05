@@ -35,12 +35,12 @@ Honeydew assumes you don't want to manage folders—you want things done. Instea
 
 ### 2. AI Capabilities
 **Honeydew:**
-*   "Plan our weekend" → Generates itinerary, packing lists, and reminders.
-*   "We're out of milk" → Adds to grocery list contextually.
-*   Proactive: "You have a free evening Thursday, want to tackle that project?"
+* "Plan our weekend" → Generates itinerary, packing lists, and reminders.
+* "We're out of milk" → Adds to grocery list contextually.
+* Proactive: "You have a free evening Thursday, want to tackle that project?"
 
 **Maple:**
-*   Uses AI mostly for "Magic Tools" (like a meal planner), but it feels like a separate feature you invoke, not an integrated brain that knows your schedule.
+* Uses AI mostly for "Magic Tools" (like a meal planner), but it feels like a separate feature you invoke, not an integrated brain that knows your schedule.
 
 ### 3. The "Marketplace" (Maple's Unique Feature)
 **Maple** has a built-in marketplace to hire people (house cleaners, landscapers, etc.). If your version of solving mental load is *outsourcing to a human*, Maple is superior. Honeydew focuses on solving the coordination problem itself, not hiring gig workers.
@@ -66,16 +66,16 @@ Honeydew assumes you don't want to manage folders—you want things done. Instea
 ## Which One Is For You?
 
 ### Choose Maple if:
-*   You love categorizing things into folders.
-*   You treat your family like a business (Slack-style interface).
-*   You frequently look to hire local help for tasks.
-*   You want a "shared inbox" feel.
+* You love categorizing things into folders.
+* You treat your family like a business (Slack-style interface).
+* You frequently look to hire local help for tasks.
+* You want a "shared inbox" feel.
 
 ### Choose Honeydew if:
-*   You hate navigating menus and just want to "say it and forget it."
-*   You want AI to actively plan for you, not just store your plans.
-*   You value speed (Voice AI) over structure.
-*   You want the "Assistant" experience, not the "Manager" experience.
+* You hate navigating menus and just want to "say it and forget it."
+* You want AI to actively plan for you, not just store your plans.
+* You value speed (Voice AI) over structure.
+* You want the "Assistant" experience, not the "Manager" experience.
 
 ---
 

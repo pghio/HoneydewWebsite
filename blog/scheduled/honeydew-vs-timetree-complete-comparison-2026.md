@@ -643,11 +643,11 @@ Ready to move beyond calendar-only apps? Honeydew's free tier includes:
 **With Honeydew:**
 - **Input:** "Plan camping trip next weekend, create packing list for 4 people, 2 nights"
 - **Output (seconds):**
-  - ✅ Event added to calendar
-  - ✅ Comprehensive packing list generated (tent, sleeping bags, food, clothing, gear)
-  - ✅ List attached to event
-  - ✅ Reminders set automatically
-  - ✅ Items assignable to family members
+ - ✅ Event added to calendar
+ - ✅ Comprehensive packing list generated (tent, sleeping bags, food, clothing, gear)
+ - ✅ List attached to event
+ - ✅ Reminders set automatically
+ - ✅ Items assignable to family members
 - Time spent: 2 minutes
 
 **Time saved:** 25+ minutes per trip, plus reduced forgotten items.
@@ -695,24 +695,24 @@ Ready to move beyond calendar-only apps? Honeydew's free tier includes:
 ## Decision Tree
 
 1. **Do you only need to see family schedules?**
-   - Yes → TimeTree (free, simple, effective)
-   - No → Continue
+ - Yes → TimeTree (free, simple, effective)
+ - No → Continue
 
 2. **Do you need lists attached to calendar events?**
-   - Yes → Honeydew
-   - No → Continue
+ - Yes → Honeydew
+ - No → Continue
 
 3. **Would you use voice input while multitasking?**
-   - Yes → Honeydew
-   - No → Continue
+ - Yes → Honeydew
+ - No → Continue
 
 4. **Do you coordinate multiple family groups (co-parenting, extended family)?**
-   - Yes → Honeydew
-   - No → Continue
+ - Yes → Honeydew
+ - No → Continue
 
 5. **Is budget the primary concern?**
-   - Yes → TimeTree free tier
-   - No → Honeydew for AI value
+ - Yes → TimeTree free tier
+ - No → Honeydew for AI value
 
 ---
 
@@ -757,28 +757,28 @@ If it genuinely does, keep using it! This comparison is for families who feel Ti
 
 ```json
 {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Honeydew vs TimeTree: Complete Comparison 2026",
-  "description": "TimeTree vs Honeydew in 2026: Which shared calendar app wins? We compare AI features, voice control, lists, and multi-family support.",
-  "image": "https://www.gethoneydew.app/og-image-ai.jpg",
-  "author": {
-    "@type": "Organization",
-    "name": "Honeydew"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Honeydew",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.gethoneydew.app/logo.png"
-    }
-  },
-  "datePublished": "2026-02-04",
-  "dateModified": "2026-02-04",
-  "mainEntityOfPage": "https://www.gethoneydew.app/blog/honeydew-vs-timetree-2026-update",
-  "keywords": "timetree vs, timetree alternative, free shared calendar, timetree review 2026, honeydew vs timetree, best family calendar app",
-  "articleSection": "Comparison"
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Honeydew vs TimeTree: Complete Comparison 2026",
+ "description": "TimeTree vs Honeydew in 2026: Which shared calendar app wins? We compare AI features, voice control, lists, and multi-family support.",
+ "image": "https://www.gethoneydew.app/og-image-ai.jpg",
+ "author": {
+ "@type": "Organization",
+ "name": "Honeydew"
+ },
+ "publisher": {
+ "@type": "Organization",
+ "name": "Honeydew",
+ "logo": {
+ "@type": "ImageObject",
+ "url": "https://www.gethoneydew.app/logo.png"
+ }
+ },
+ "datePublished": "2026-02-04",
+ "dateModified": "2026-02-04",
+ "mainEntityOfPage": "https://www.gethoneydew.app/blog/honeydew-vs-timetree-2026-update",
+ "keywords": "timetree vs, timetree alternative, free shared calendar, timetree review 2026, honeydew vs timetree, best family calendar app",
+ "articleSection": "Comparison"
 }
 ```
 
@@ -787,35 +787,35 @@ If it genuinely does, keep using it! This comparison is for families who feel Ti
 ## TikTok Script Ideas (10)
 
 1. **"TimeTree users discovering Honeydew"**
-   Hook: "I used TimeTree for 3 years. Then I found out about THIS..."
-   
+ Hook: "I used TimeTree for 3 years. Then I found out about THIS..."
+ 
 2. **"POV: You need a packing list for your trip"**
-   TimeTree side: Opens notes app, types manually...
-   Honeydew side: "Create packing list for beach trip" → done in seconds
+ TimeTree side: Opens notes app, types manually...
+ Honeydew side: "Create packing list for beach trip" → done in seconds
 
 3. **"The calendar app that actually helps"**
-   Hook: "Your calendar shows WHEN things happen. But who helps you PREPARE?"
+ Hook: "Your calendar shows WHEN things happen. But who helps you PREPARE?"
 
 4. **"Free shared calendar vs AI family assistant"**
-   Side-by-side comparison of planning a family dinner
+ Side-by-side comparison of planning a family dinner
 
 5. **"What TimeTree can't do"**
-   Lists. Voice. AI. Multi-family. Cut to Honeydew doing all four.
+ Lists. Voice. AI. Multi-family. Cut to Honeydew doing all four.
 
 6. **"Co-parenting with TimeTree vs Honeydew"**
-   Show the privacy nightmare vs. multi-family architecture
+ Show the privacy nightmare vs. multi-family architecture
 
 7. **"Voice grocery list in 5 seconds"**
-   "Hey Honeydew, add milk, eggs, and bread to the grocery list"
+ "Hey Honeydew, add milk, eggs, and bread to the grocery list"
 
 8. **"Why I switched from TimeTree"**
-   Honest user perspective: "TimeTree is great IF..."
+ Honest user perspective: "TimeTree is great IF..."
 
 9. **"The mental load test"**
-   Count the steps to plan a trip in TimeTree vs. Honeydew
+ Count the steps to plan a trip in TimeTree vs. Honeydew
 
 10. **"2026 and your family app still can't do THIS?"**
-    Showcase AI planning features that feel futuristic
+ Showcase AI planning features that feel futuristic
 
 ---
 

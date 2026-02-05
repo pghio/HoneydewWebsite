@@ -227,7 +227,7 @@ The fundamental problem: if you add an event on Mango Display, your spouse check
 **Honeydew's Calendar Sync:**
 - **True Two-Way Sync:** Changes flow both directions
 - **Google Calendar:** Full bidirectional integration
-- **Apple Calendar:** Full bidirectional integration  
+- **Apple Calendar:** Full bidirectional integration 
 - **15-Minute Intervals:** Near-real-time synchronization
 - **Conflict Detection:** AI identifies double-bookings automatically
 - **Single Source of Truth:** Edit anywhere, see everywhere
@@ -298,7 +298,7 @@ The fundamental problem: if you add an event on Mango Display, your spouse check
 **Real Problem for Divorced Parents:**
 If parents share custody, they need to coordinate across two households. With Mango Display:
 - Parent A has display at their house ($500)
-- Parent B needs separate display at their house ($500)  
+- Parent B needs separate display at their house ($500) 
 - Two systems that can't talk to each other
 - Kids' schedules exist in two places, creating conflicts
 - **Total cost: $1,000+ and it still doesn't solve the problem**
@@ -441,7 +441,7 @@ For most families, that trade-off doesn't work. But for a specific subset who pr
 
 **With Mango Display:**
 - Beautiful display in kitchen, but they're at work all day
-- Can't add items from office, car, or grocery store  
+- Can't add items from office, car, or grocery store 
 - Both leave for work at 7am, return at 6pm—display sits unused 11 hours daily
 - Marcus thinks of something at work → texts Sarah → she adds it when home → delay and friction
 - No AI help managing the complexity

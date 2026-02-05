@@ -155,11 +155,11 @@ Here's what makes Honeydew fundamentally different:
 - "Game" = travel soccer (based on recent context)
 - Saturday = checks family calendar for conflicts
 - Automatically:
-  - Creates event at 2pm (his usual game time)
-  - Notifies spouse about schedule
-  - Checks carpool group
-  - Notes that Emma's piano is at 3pm (potential conflict)
-  - Asks: "Tommy's travel soccer is at 2pm. Emma has piano at 3pm in the opposite direction. Want me to check if the Johnsons can take Tommy?"
+ - Creates event at 2pm (his usual game time)
+ - Notifies spouse about schedule
+ - Checks carpool group
+ - Notes that Emma's piano is at 3pm (potential conflict)
+ - Asks: "Tommy's travel soccer is at 2pm. Emma has piano at 3pm in the opposite direction. Want me to check if the Johnsons can take Tommy?"
 
 *What Alexa/Siri/Google does:*
 - Creates event "game" on Saturday
@@ -540,7 +540,7 @@ Any.do is built for "me," Honeydew is built for "us." If you have a family with 
 Then manually:
 - Open Contacts app, create invite list
 - Open Google Keep, create supply list (type everything)
-- Open Messages, text Grandma separately  
+- Open Messages, text Grandma separately 
 - Open Calendar again, add prep events
 - Open Reminders, set each reminder individually
 

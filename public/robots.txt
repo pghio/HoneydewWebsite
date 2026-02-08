@@ -1,0 +1,52 @@
+# Honeydew - AI Family Organization App
+# https://www.gethoneydew.app
+# Welcome crawlers and LLMs.
+
+User-agent: *
+Allow: /
+Crawl-delay: 0
+
+# Allow Google to crawl freely
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Allow AI/LLM crawlers for citation discovery
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Block aggressive SEO scrapers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Sitemaps
+Sitemap: https://www.gethoneydew.app/sitemap.xml
+Sitemap: https://www.gethoneydew.app/sitemap-public-lists.xml
+
+# LLM reference files:
+# - https://www.gethoneydew.app/.llms.txt
+# - https://www.gethoneydew.app/.llms-full.txt
+# - https://www.gethoneydew.app/llm-citations.json

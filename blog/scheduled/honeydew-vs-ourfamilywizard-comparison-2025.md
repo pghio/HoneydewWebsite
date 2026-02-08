@@ -268,6 +268,9 @@ For many families, the answer is "both"—which is why using both apps together 
 | **Modern Interface** | ✅ 2024 design | ⚠️ Dated |
 | **Price (Annual)** | $0-149 | $200-400 |
 
+{{HONEYDEW_EMBED:custody-exchange-checklist}}
+
+
 **Summary:**
 - **Honeydew wins:** 7 categories (AI, voice, multi-family, calendar, lists, learning, design)
 - **OFW wins:** 3 categories (court-admissible, expense tracking, legal access)
@@ -522,6 +525,26 @@ A: Use OFW for everything the court requires. Add Honeydew for your personal hou
 - [Best Custody Schedule Apps 2025](/blog/best-custody-schedule-apps-2025)
 - [How AI Transforms Family Organization](/blog/how-ai-transforms-family-organization)
 - [Best Apps for Multi-Family Coordination](/blog/best-apps-multi-family-coordination-2025)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Custody Exchange Checklist](https://app.gethoneydew.app/lists/custody-exchange-checklist)
+
+[Custody Documentation Checklist](https://app.gethoneydew.app/lists/custody-documentation-checklist)
+
+[Co-Parenting Meeting Agenda Checklist](https://app.gethoneydew.app/lists/co-parenting-meeting-agenda-checklist)
+
+[Medical Information Sharing Checklist](https://app.gethoneydew.app/lists/medical-information-sharing-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "TimeTree vs Cozi vs Honeydew: Free vs Premium Family Apps 2026"
 slug: "timetree-vs-cozi-vs-honeydew-free-vs-premium-2026"
-publishDate: "2026-02-04"
+publishDate: "2026-03-02"
 author: "Honeydew Team"
 description: "Compare TimeTree (free), Cozi ($0-30/yr), and Honeydew ($95/yr). Is premium worth it? We analyze the ROI of each app—spoiler: AI saves enough time to pay for itself 10x over."
 keywords: "timetree vs cozi, best free family calendar, cozi alternative, timetree vs honeydew, free family calendar app, cozi vs honeydew, family calendar comparison 2026"
@@ -140,6 +140,9 @@ Honeydew represents the next generation of family apps. Instead of just storing 
 | Outlook sync | ✓ | Limited | ✓ |
 | Multiple calendar views | ✓ | ✓ | ✓ |
 | Activity feed | ✓ "Keep Me Posted" | ✗ | ✓ Notifications |
+
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
 
 **Verdict:** TimeTree and Honeydew tie for calendar features. Cozi's one-way-only Google sync (and no Apple sync) is a significant limitation.
 
@@ -880,6 +883,26 @@ A: One subscription covers unlimited family members. No per-person fees.
  "articleSection": "Comparison"
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

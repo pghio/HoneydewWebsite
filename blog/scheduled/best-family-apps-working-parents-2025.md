@@ -223,6 +223,9 @@ featured: true
 
 Honeydew was specifically designed for time-starved families. Every feature prioritizes reducing time and mental load.
 
+{{HONEYDEW_EMBED:working-parent-daily-checklist}}
+
+
 ### Why Honeydew Wins for Working Parents
 
 #### ⏱️ Time Savings: 3-5 Hours Per Week
@@ -798,6 +801,28 @@ Test Honeydew for 30 days:
  "dateModified": "2025-12-16"
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Working Parent Daily Checklist](https://app.gethoneydew.app/lists/working-parent-daily-checklist)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[School Morning Routine Checklist](https://app.gethoneydew.app/lists/school-morning-routine-checklist)
+
+[After School Routine Checklist](https://app.gethoneydew.app/lists/after-school-routine-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

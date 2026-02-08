@@ -1,7 +1,7 @@
 ---
 title: "Honeydew vs Skylight Calendar: Complete Comparison 2026"
 slug: "honeydew-vs-skylight-calendar-complete-comparison-2026"
-publishDate: "2026-02-04"
+publishDate: "2026-02-06"
 author: "Honeydew Team"
 description: "Honeydew's AI agent vs Skylight's $400 wall display: which family organizer wins in 2026? Compare features, pricing, and real family scenarios to find the best choice for your home."
 keywords: "skylight calendar alternative, skylight calendar review, honeydew vs skylight, wall mounted family calendar, skylight calendar 2026, best family calendar app, skylight vs honeydew"
@@ -53,6 +53,9 @@ Honeydew's AI can understand "plan our beach trip with packing list" and create 
 ## What is Skylight Calendar?
 
 Skylight Calendar is a wall-mounted digital calendar display designed for family coordination. Launched by Skylight (the same company that makes digital photo frames), the Calendar aims to replace the paper calendar on your refrigerator with a touchscreen display everyone can see.
+
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
 
 ### Skylight's Core Promise
 
@@ -801,6 +804,26 @@ Skylight's marketing is beautiful. Gorgeous kitchen shots. Happy families gather
 - [7 Best Skylight Calendar Alternatives 2026](/blog/7-best-skylight-calendar-alternatives-2026)
 - [Digital Family Command Center: App vs Wall Display 2026](/blog/digital-family-command-center-app-vs-wall-display-2026)
 - [Compare All Family Apps](/compare)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[School Morning Routine Checklist](https://app.gethoneydew.app/lists/school-morning-routine-checklist)
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

@@ -72,6 +72,9 @@ And you wonder why I had anxiety.
 
 ## Results: Before and After AI Activity Coordination
 
+{{HONEYDEW_EMBED:soccer-season-checklist}}
+
+
 | Metric | Before | After | Improvement |
 |--------|--------|-------|-------------|
 | **Schedule Conflicts** | 6-8 per month | 0-1 per month | **85% reduction** |
@@ -548,3 +551,23 @@ Ready to eliminate schedule conflicts? [Try Honeydew free for 14 days](https://a
 
 Questions about activity coordination? Email pete@gethoneydew.app
 
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Soccer Season Checklist](https://app.gethoneydew.app/lists/soccer-season-checklist)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Summer Activities Bucket List](https://app.gethoneydew.app/lists/summer-activities-bucket-list)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->

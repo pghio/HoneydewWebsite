@@ -50,6 +50,9 @@ Voice bypasses the Screen Barrier. It is a **surgical strike** on your mental lo
 1. **The "Brain Dump":**
  * *"Honeydew, I'm overwhelmed. Put 'Call mom' on my list, schedule a vet appointment for next week, and remind me to buy milk."* (It parses this into three separate actions).
 
+{{HONEYDEW_EMBED:master-grocery-list-template}}
+
+
 2. **The "Driving Home" Prep:**
  * *"Read me my schedule for tomorrow morning."* (Keeps your eyes on the road).
 
@@ -67,3 +70,22 @@ Voice bypasses the Screen Barrier. It is a **surgical strike** on your mental lo
 ## Conclusion: Look Up
 
 Technology should support your life, not interrupt it. The promise of AI isn't just "smarter" apps—it's **invisible** apps. By moving to a Voice-First family system, you aren't just getting organized. You're getting your eyes back.
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[School Morning Routine Checklist](https://app.gethoneydew.app/lists/school-morning-routine-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->

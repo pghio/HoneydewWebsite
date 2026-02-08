@@ -431,6 +431,9 @@ This comprehensive comparison examines both honestly, including when Google Cale
 | **Family-Specific Features** | ❌ | ✅ Purpose-built |
 | **Platform Support** | ✅ All platforms | ✅ iOS, Android, Web |
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Summary:**
 - **Google Calendar wins:** Price, ecosystem, integrations, familiarity
 - **Honeydew wins:** AI, voice control, family features, list management, multi-family support
@@ -843,6 +846,26 @@ A: Keep using it! Add Honeydew's features on top via two-way sync. Your family c
  ]
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

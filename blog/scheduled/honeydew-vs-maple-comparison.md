@@ -56,6 +56,9 @@ Honeydew assumes you don't want to manage folders—you want things done. Instea
 4. Text partner in the Health Topic chat.
 5. Go to Calendar tab to check conflicts.
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **With Honeydew:**
 1. Tap Voice.
 2. Say: *"Jack is sick. Cancel his soccer practice, move my 4pm meeting, and remind me to give him ibuprofen in 4 hours."*
@@ -82,3 +85,20 @@ Honeydew assumes you don't want to manage folders—you want things done. Instea
 ## The Verdict
 
 Maple is the best **filing system** for families. Honeydew is the best **active assistant** for families. In 2025, we believe families need less administrative work (filing), and more actual help (AI). That's why we built Honeydew.
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->

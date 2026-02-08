@@ -149,6 +149,9 @@ featured: true
 - Use natural language
 - Don't worry about exact phrasing
 
+{{HONEYDEW_EMBED:master-grocery-list-template}}
+
+
 **Step 3: Watch Real-Time Transcription**
 - Words appear as you speak
 - See what Whisper heard
@@ -932,6 +935,26 @@ Text Output (transcription)
  "dateModified": "2025-12-12"
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Household Essentials Shopping List](https://app.gethoneydew.app/lists/household-essentials-shopping-list)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

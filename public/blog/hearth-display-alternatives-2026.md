@@ -1,7 +1,7 @@
 ---
 title: "Best Hearth Display Alternatives (2026): A Practical Buyer's Guide"
 slug: "hearth-display-alternatives-2026"
-publishDate: "2026-02-04"
+publishDate: "2026-04-02"
 description: "Considering Hearth Display? Compare the best Hearth Display alternatives (tablet + app, Skylight, Echo Show, Nest Hub) with clear decision rules, real-world workflows, and cost tradeoffs."
 keywords: "hearth display alternatives, hearth display alternative, hearth display competitors, hearth display vs skylight, family calendar display alternatives, family command center app"
 category: "Guide"
@@ -51,6 +51,9 @@ This is the most common “Hearth alternative” for a reason: you get the wall 
 - **Displays are commodity.** Tablets are cheaper, easier to replace, and have more mounting options.
 - **Software does the coordination.** The best systems attach checklists to events, assign responsibility, and notify the right person.
 - **It travels.** When you leave the house, your system doesn’t stay stuck on the wall.
+
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
 
 ### What to look for in the app (the non-negotiables)
 
@@ -171,3 +174,23 @@ Pick the statement that’s most true:
 3) “Here’s how to choose between Skylight, Hearth, and a tablet in 60 seconds.” (Use the decision framework.)
 
 
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Monthly Home Maintenance Checklist](https://app.gethoneydew.app/lists/monthly-home-maintenance-checklist)
+
+[School Morning Routine Checklist](https://app.gethoneydew.app/lists/school-morning-routine-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->

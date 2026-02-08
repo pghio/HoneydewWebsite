@@ -78,6 +78,9 @@ This comprehensive compilation shows the actual results from couples who've impl
 - **Relationship**: "We feel like roommates, not partners"
 - **Personal Time**: 0 hours/week for either partner
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Results After 90 Days**:
 
 | Metric | Before | After | Improvement |
@@ -268,6 +271,26 @@ The couples in these case studies started exactly where you are: overwhelmed, fr
 - [Fair Play for Busy Working Parents](#)
 - [Divorced Parents: Fair Play Across Households](#)
 - [Mental Load vs Fair Play: Understanding Both](#)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Kids Age-Appropriate Chores](https://app.gethoneydew.app/lists/kids-age-appropriate-chores)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+[Self-Care Sunday Checklist](https://app.gethoneydew.app/lists/self-care-sunday-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Honeydew vs Any.Do: Task + Calendar for Families 2026"
 slug: "honeydew-vs-anydo-comparison-2026"
-publishDate: "2026-02-04"
+publishDate: "2026-02-26"
 author: "Honeydew Team"
 description: "Comprehensive comparison of Honeydew vs Any.Do for family task management and calendaring. Compare AI capabilities, family features, pricing, and multi-family support. Find out which app wins for families in 2026."
 keywords: "any.do alternative, any.do family, task app with calendar, any.do vs todoist, family task app, any.do review, honeydew vs any.do, best family task manager"
@@ -342,6 +342,9 @@ Is your family's time worth more than $0.63/hour? For most families, yes.
 | **Free Tier** | ✅ Unlimited members, basic AI | ✅ Basic individual |
 | **Price (Annual)** | $99 | $36-60 |
 | **Price Per Member (Family of 5)** | $1.65/member/month | N/A (can't support 5) |
+
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
 
 **Summary:**
 - **Honeydew wins:** 12 categories (family-focused features)
@@ -722,6 +725,26 @@ For most families, that's not even a question.
 - [Honeydew vs Cozi: Which Family App is Better?](/blog/honeydew-vs-cozi-comparison-2025)
 - [Honeydew vs Todoist for Families](/blog/honeydew-vs-todoist-families)
 - [Best Apps for Divorced Parents Co-Parenting](/blog/best-coparenting-apps-2026)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

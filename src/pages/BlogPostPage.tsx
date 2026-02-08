@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import Footer from '../components/Footer'
+import ListEmbedCard from '../components/ListEmbedCard'
 import { trackLinkClick } from '../utils/analytics'
 import { 
   createScrollTracker, 
@@ -972,6 +973,14 @@ const BlogPostPage = () => {
                 
                 // Enhanced paragraphs with emoji highlighting
                 p: ({node, children, ...props}) => {
+                  // Detect Honeydew list embed markers: {{HONEYDEW_EMBED:slug}}
+                  const rawText = typeof children === 'string' ? children.trim() :
+                    (Array.isArray(children) ? children.map(c => typeof c === 'string' ? c : '').join('').trim() : '')
+                  const embedMatch = rawText.match(/^\{\{HONEYDEW_EMBED:([a-z0-9-]+)\}\}$/)
+                  if (embedMatch) {
+                    return <ListEmbedCard listSlug={embedMatch[1]} articleSlug={slug} />
+                  }
+
                   // Only process simple text content, not complex React elements
                   const isSimpleText = typeof children === 'string' || 
                     (Array.isArray(children) && children.every(child => typeof child === 'string'))
@@ -1027,6 +1036,83 @@ const BlogPostPage = () => {
                         className="rounded-xl shadow-2xl my-8 w-full"
                       />
                     </picture>
+                  )
+                },
+
+                // Rich list preview cards for app.gethoneydew.app/lists/ links
+                a: ({node, href, children, ...props}) => {
+                  const isListLink = href && href.includes('app.gethoneydew.app/lists')
+                  
+                  if (!isListLink) {
+                    // Default link rendering with existing green styling
+                    const isExternal = href && (href.startsWith('http') || href.startsWith('//'))
+                    return (
+                      <a
+                        href={href}
+                        {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                        className="text-[#92C5A7] font-medium no-underline hover:underline hover:text-[#78E6AF] transition-colors"
+                        {...props}
+                      >
+                        {children}
+                      </a>
+                    )
+                  }
+
+                  // Build UTM-tracked deep link
+                  const separator = href.includes('?') ? '&' : '?'
+                  const utmParams = `utm_source=blog&utm_medium=embedded_list&utm_campaign=${encodeURIComponent(slug || 'blog_article')}`
+                  const trackedHref = `${href}${separator}${utmParams}`
+                  
+                  const isBrowseAll = href.endsWith('/lists') || href.endsWith('/lists/')
+                  const linkText = typeof children === 'string' ? children : 
+                    Array.isArray(children) ? children.map(c => typeof c === 'string' ? c : '').join('') : ''
+
+                  if (isBrowseAll) {
+                    // "Browse All" renders as a CTA button
+                    return (
+                      <a
+                        href={trackedHref}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="not-prose inline-flex items-center gap-2 rounded-xl bg-[#92C5A7] px-6 py-3 font-semibold text-gray-900 hover:bg-[#86b89b] transition-colors no-underline shadow-sm hover:shadow-md"
+                        onClick={() => trackLinkClick({
+                          href: trackedHref,
+                          source: 'blog_post_list_browse_all',
+                          label: 'Browse All Lists',
+                          campaign: 'list_crosslink',
+                          additionalParams: { blog_slug: slug }
+                        })}
+                      >
+                        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+                        </svg>
+                        {children}
+                      </a>
+                    )
+                  }
+
+                  // Individual list link → rich interactive card
+                  return (
+                    <a
+                      href={trackedHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="not-prose group flex items-center gap-3 my-2 px-4 py-3 rounded-xl border border-[#92C5A7]/25 bg-gradient-to-r from-white to-[#92C5A7]/5 hover:border-[#92C5A7] hover:shadow-md transition-all no-underline cursor-pointer"
+                      onClick={() => trackLinkClick({
+                        href: trackedHref,
+                        source: 'blog_post_list_crosslink',
+                        label: linkText || 'list_link',
+                        campaign: 'list_crosslink',
+                        additionalParams: { blog_slug: slug }
+                      })}
+                    >
+                      <span className="flex-shrink-0 w-10 h-10 rounded-lg bg-[#92C5A7]/15 flex items-center justify-center text-lg">📋</span>
+                      <span className="flex-1 min-w-0">
+                        <span className="block font-semibold text-gray-900 group-hover:text-[#2F3C36] text-base leading-tight">{children}</span>
+                        <span className="block text-sm text-gray-500 mt-0.5">Free interactive checklist · Tap to customize</span>
+                      </span>
+                      <span className="flex-shrink-0 text-[#92C5A7] font-semibold text-sm hidden sm:block group-hover:translate-x-0.5 transition-transform">Use&nbsp;List&nbsp;→</span>
+                    </a>
                   )
                 },
               }}

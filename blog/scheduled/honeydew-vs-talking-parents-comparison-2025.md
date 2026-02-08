@@ -207,6 +207,9 @@ featured: true
 
 ## Side-by-Side Comparison Table
 
+{{HONEYDEW_EMBED:custody-exchange-checklist}}
+
+
 | Feature | Honeydew | Talking Parents |
 |---------|----------|-----------------|
 | **Court-Admissible** | ❌ No | ✅ Yes |
@@ -419,6 +422,26 @@ A: Depends on your state's recording consent laws. Some states require two-party
 - [Honeydew vs OurFamilyWizard Comparison](/blog/honeydew-vs-ourfamilywizard-comparison-2025)
 - [Best Family Apps for Divorced Parents](/blog/best-family-apps-divorced-parents-2025)
 - [How AI Transforms Family Organization](/blog/how-ai-transforms-family-organization)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Custody Exchange Checklist](https://app.gethoneydew.app/lists/custody-exchange-checklist)
+
+[Parallel Parenting Communication Guide](https://app.gethoneydew.app/lists/parallel-parenting-communication-guide)
+
+[Custody Documentation Checklist](https://app.gethoneydew.app/lists/custody-documentation-checklist)
+
+[Emergency Contact Coordination List](https://app.gethoneydew.app/lists/emergency-contact-coordination-list)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

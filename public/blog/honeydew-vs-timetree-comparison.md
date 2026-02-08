@@ -382,6 +382,9 @@ If you use both calendars, you must decide where to create events. Create in Tim
 | **Ads** | ⚠️ Free version | ❌ Never |
 | **Platform Support** | ✅ All major | ✅ All major |
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Summary:**
 - **TimeTree wins:** Price (free), social features
 - **Honeydew wins:** AI, voice, lists, multi-family, automation, two-way sync
@@ -680,6 +683,24 @@ For most busy families in 2025, **time is the scarcest resource**, making Honeyd
  "dateModified": "2025-12-02"
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

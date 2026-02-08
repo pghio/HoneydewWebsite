@@ -81,6 +81,9 @@ We tested each app with real families over 30 days, evaluating:
 **Pricing:** Free tier available; Premium $7.99/month or $7.99/month 
 **Platforms:** iOS, Android, Web
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 #### Why Honeydew Ranks #1
 
 **Revolutionary AI Agent (27+ Tools):**
@@ -774,6 +777,28 @@ A: Cozi or TimeTree. Both are extremely simple, though limited in features.
 - [Honeydew vs Cozi: Complete Comparison](/blog/honeydew-vs-cozi-comparison-2025)
 - [Best Voice-Controlled Family Organization Apps](/blog/best-voice-controlled-family-organization-apps-2025)
 - [Best Apps for Coordinating Multi-Family Groups](/blog/best-apps-for-coordinating-multi-family-groups-2025)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Household Essentials Shopping List](https://app.gethoneydew.app/lists/household-essentials-shopping-list)
+
+[Monthly Home Maintenance Checklist](https://app.gethoneydew.app/lists/monthly-home-maintenance-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Cozi vs OurHome vs Honeydew: Free Family Apps Compared 2026"
 slug: "cozi-vs-ourhome-vs-honeydew-2026"
-publishDate: "2026-02-04"
+publishDate: "2026-03-12"
 author: "Honeydew Team"
 description: "Three-way comparison of Cozi, OurHome, and Honeydew family apps. We compare free vs paid, chore charts vs AI planning, and which app fits different family types—from budget-conscious to time-starved parents."
 keywords: "cozi vs ourhome, best free family app, family organization app comparison, cozi vs honeydew, ourhome vs honeydew, free family calendar app, family planner comparison 2026"
@@ -82,6 +82,9 @@ Honeydew asks a different question: "What if AI could do the planning work?" Ins
 | Reminders (Gold/Premium) | Multiple w/ Gold | ✓ | ✓ |
 | AI schedule suggestions | ✗ | ✗ | ✓ |
 | Conflict detection | ✗ | ✗ | ✓ |
+
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
 
 **Verdict:** Honeydew wins decisively. Two-way sync with *both* Google and Apple calendars (every 15 minutes) means you never have to choose between ecosystems. Cozi's one-way import means changes don't flow back. OurHome's calendar is an afterthought.
 
@@ -873,6 +876,26 @@ A: Depends on your time value. $80/year ÷ 100 hours saved = $0.80/hour. If your
  "articleSection": "Comparison"
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Kids Age-Appropriate Chores](https://app.gethoneydew.app/lists/kids-age-appropriate-chores)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

@@ -390,6 +390,9 @@ Text-to-speech (optional)
 
 **Let's trace a real request through the entire system:**
 
+{{HONEYDEW_EMBED:weekly-meal-plan-template}}
+
+
 ### User Request: "Plan our camping trip Memorial Day weekend"
 
 ---
@@ -959,3 +962,22 @@ A: No, not without explicit opt-in consent. Your family data is private. General
 **Reading time: ~15 minutes**
 **Target keywords: 6 variations optimized**
 **Technical deep dive content**
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Ultimate Beach Vacation Packing List 2026](https://app.gethoneydew.app/lists/ultimate-beach-vacation-packing-list-2026)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->

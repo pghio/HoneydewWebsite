@@ -1,7 +1,7 @@
 ---
 title: "Best Apps for Divorced Parents 2026: Complete Guide by Category"
 slug: "best-apps-for-divorced-parents-2026-complete-guide-by-category"
-publishDate: "2026-02-04"
+publishDate: "2026-02-09"
 author: "Honeydew Team"
 description: "The best apps for divorced parents in 2026 organized by need: coordination, legal documentation, expense tracking, calendars, and communication. Honeydew leads for daily coordination without the legal overhead. Tested 18 apps across 5 categories."
 keywords: "best apps for divorced parents, apps for co-parenting, divorced family apps, custody apps, separation apps, co-parenting apps 2026, shared custody apps"
@@ -60,6 +60,9 @@ We tested 18 apps over 6 months with 45 divorced and separated families across d
 | **Value** | 15% | Price vs. features, family pricing |
 | **Conflict Reduction** | 10% | Does it reduce or increase co-parenting friction? |
 | **Modern Features** | 10% | AI, voice control, automation |
+
+{{HONEYDEW_EMBED:custody-exchange-checklist}}
+
 
 ### Important Context
 
@@ -862,6 +865,28 @@ Don't overcomplicate things. Start simple and add tools only as needed.
  }
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Custody Exchange Checklist](https://app.gethoneydew.app/lists/custody-exchange-checklist)
+
+[Co-Parent Information Sharing Checklist](https://app.gethoneydew.app/lists/co-parent-information-sharing-checklist)
+
+[Divorce Preparation Checklist with Kids](https://app.gethoneydew.app/lists/divorce-preparation-checklist-with-kids)
+
+[Medication Tracking Between Houses](https://app.gethoneydew.app/lists/medication-tracking-between-houses)
+
+[Back to School Co-Parent Checklist](https://app.gethoneydew.app/lists/back-to-school-co-parent-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

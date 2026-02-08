@@ -1,7 +1,7 @@
 ---
 title: "Calendar Like Skylight Without Subscription (2026): Free & Low-Cost Alternatives"
 slug: "calendar-like-skylight-without-subscription-2026"
-publishDate: "2026-02-04"
+publishDate: "2026-03-30"
 author: "Honeydew Team"
 description: "Want a family calendar display like Skylight but without the $79/year subscription? Here are the best subscription-free alternatives, from DIY tablet setups to one-time-purchase displays."
 keywords: "calendar like skylight without subscription, skylight alternative no subscription, skylight calendar alternative free, family calendar no subscription, skylight calendar free alternative, wall calendar without subscription"
@@ -89,6 +89,9 @@ For tech-savvy families, a Raspberry Pi + old monitor creates a fully custom fam
 | Old monitor or TV | $0 (repurpose) or $50–100 |
 | VESA mount | $15–20 |
 | **Total** | **$80–185 one-time** |
+
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
 
 ### How It Works
 
@@ -341,6 +344,26 @@ A: Yes. Honeydew syncs both Google and Apple calendars bi-directionally, so you 
  "articleSection": "Comparison"
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Monthly Home Maintenance Checklist](https://app.gethoneydew.app/lists/monthly-home-maintenance-checklist)
+
+[School Morning Routine Checklist](https://app.gethoneydew.app/lists/school-morning-routine-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Honeydew vs TimeTree: Complete Comparison 2026"
 slug: "honeydew-vs-timetree-complete-comparison-2026"
-publishDate: "2026-02-04"
+publishDate: "2026-02-12"
 author: "Honeydew Team"
 description: "TimeTree vs Honeydew in 2026: Which shared calendar app wins? We compare AI features, voice control, lists, and multi-family support. TimeTree excels at free calendar sharing; Honeydew delivers full family coordination."
 keywords: "timetree vs, timetree alternative, free shared calendar, timetree review 2026, honeydew vs timetree, best family calendar app, timetree comparison, shared calendar app"
@@ -67,6 +67,9 @@ This table captures the fundamental difference. TimeTree is a calendar. Honeydew
 | **Sticker Sharing** | ❌ | ✅ |
 | **Ad-Free Experience** | ✅ (Free tier is ad-free) | ⚠️ (Ads in free tier) |
 | **Price** | Free / $7.99/mo | Free / $4.49/mo |
+
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
 
 **Key Insight:** TimeTree and Honeydew are tied on basic calendar features. The difference is everything *beyond* the calendar—and there, TimeTree offers nothing while Honeydew offers AI planning, lists, voice control, and multi-family support.
 
@@ -781,6 +784,26 @@ If it genuinely does, keep using it! This comparison is for families who feel Ti
  "articleSection": "Comparison"
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+[First Day of School Checklist](https://app.gethoneydew.app/lists/first-day-of-school-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

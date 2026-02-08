@@ -1,7 +1,7 @@
 ---
 title: "Carpool & Sports Coordination Across Multiple Families (2025): The No-Drama System"
 slug: "carpool-sports-coordination-across-multiple-families-2025-the-no-drama-system"
-publishDate: "2026-02-04"
+publishDate: "2026-04-09"
 author: "Honeydew Team"
 description: "A practical guide to coordinating carpools, practices, and game-day logistics across multiple families. Includes a shared calendar setup, carpool templates, and an AI-assisted workflow."
 keywords: "carpool coordination app, sports team carpool schedule, multi-family coordination, shared calendar for sports, team logistics app, family carpool organizer"
@@ -64,6 +64,9 @@ Here’s what “good” looks like:
 ### Best practice: include the “handoff buffer”
 Add a 10–15 minute buffer in the event title or notes:
 - “Practice (arrive 10 min early)”
+
+{{HONEYDEW_EMBED:soccer-season-checklist}}
+
 
 ### Best practice: include the “parking lot plan”
 If the venue is chaotic, add one line:
@@ -201,3 +204,24 @@ Related reading:
 1) “If your carpool plan is in a text thread, it’s already broken.” (Show the calendar event with checklist.)
 2) “This is the only message format that keeps team chats from exploding.” (Read the ‘Confirm the final plan’ template.)
 3) “Multi-family coordination hack: separate carpool group from your private calendar.” (Explain multi-group setup.)
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Soccer Season Checklist](https://app.gethoneydew.app/lists/soccer-season-checklist)
+
+[Baseball/Softball Season Checklist](https://app.gethoneydew.app/lists/baseball-softball-season-checklist)
+
+[Basketball Season Checklist](https://app.gethoneydew.app/lists/basketball-season-checklist)
+
+[Swim Team Checklist](https://app.gethoneydew.app/lists/swim-team-checklist)
+
+[Dance Class Checklist](https://app.gethoneydew.app/lists/dance-class-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->

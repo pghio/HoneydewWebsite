@@ -436,6 +436,9 @@ Many families use their personal Google/Apple Calendar for work, personal, and f
 | **Web App** | ✅ | ✅ |
 | **Price (Annual)** | $99-$149 | $0-$36 |
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Summary:**
 - **Honeydew wins:** 15 categories
 - **Cozi wins:** 1 category (meal planning)
@@ -831,6 +834,26 @@ No risk, no commitment. Just real-world testing with your actual family.
 - [Best AI Calendar Apps for Family Coordination 2025](/blog/best-ai-calendar-apps-for-families-2025)
 - [Best Family Organization Apps 2025](/blog/best-family-organization-apps-2025)
 - [Free vs Paid Family Apps: The $6,500 Truth](/blog/free-vs-paid-family-apps-comparison)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Household Essentials Shopping List](https://app.gethoneydew.app/lists/household-essentials-shopping-list)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

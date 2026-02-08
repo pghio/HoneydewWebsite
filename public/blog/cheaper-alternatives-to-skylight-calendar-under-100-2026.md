@@ -1,7 +1,7 @@
 ---
 title: "Cheaper Alternatives to Skylight Calendar Under $100 (2026 Guide)"
 slug: "cheaper-alternatives-to-skylight-calendar-under-100-2026"
-publishDate: "2026-02-04"
+publishDate: "2026-03-30"
 author: "Honeydew Team"
 description: "Looking for a Skylight Calendar alternative under $100? We cover the best budget-friendly options: tablet setups, free apps, and DIY solutions that give you the same family calendar experience for a fraction of the cost."
 keywords: "cheaper alternatives to skylight calendar, skylight calendar alternative cheaper, cheap skylight alternative, skylight calendar alternatives free, budget family calendar, skylight dupe, cheaper skylight"
@@ -136,6 +136,9 @@ Refurbished smart displays occasionally drop under $100:
 ---
 
 ## Feature Comparison: Skylight vs Budget Alternatives
+
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
 
 | Feature | Skylight ($378+) | Tablet + Free App ($65–100) | Old iPad ($0–20) |
 |---------|------------------|-----------------------------|------------------|
@@ -418,6 +421,26 @@ A: Yes. Honeydew syncs both Google and Apple calendars bi-directionally, so you 
  "articleSection": "Comparison"
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[School Morning Routine Checklist](https://app.gethoneydew.app/lists/school-morning-routine-checklist)
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

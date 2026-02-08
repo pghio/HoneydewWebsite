@@ -119,6 +119,9 @@ Let me show you a real example from David, a dad who experienced this "it rememb
 
 David's drinking coffee and thinking out loud. He opens the app and says:
 
+{{HONEYDEW_EMBED:weekly-meal-plan-template}}
+
+
 > *"I'm thinking about a camping trip next weekend"*
 
 **AI responds:**
@@ -755,6 +758,26 @@ If the idea of saying "update the camping trip" and having it JUST WORK sounds a
 ---
 
 **Because you shouldn't have to repeat yourself to an app that's supposed to help you.**
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Family Road Trip Packing List](https://app.gethoneydew.app/lists/family-road-trip-packing-list)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

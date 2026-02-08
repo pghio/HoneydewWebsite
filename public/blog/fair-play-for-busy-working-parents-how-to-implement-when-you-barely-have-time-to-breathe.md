@@ -68,6 +68,9 @@ Open Honeydew and take the 30-second Fair Play assessment:
 - What are your biggest coordination pain points?
 - How much time do you currently spend on household planning?
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **AI Response**: "Based on your 50-hour workweek and two kids, I recommend starting with these 10 core cards that will save you the most time."
 
 ### Step 2: AI-Guided Setup (7 minutes)
@@ -329,6 +332,26 @@ Digital Fair Play isn't about adding one more thing to your plate—it's about r
 - [Mental Load vs Fair Play: Understanding Both Solutions](#)
 - [Unicorn Space: Reclaiming Your Right to Be Interesting](#)
 - [The Invisible Weight: Understanding Family Mental Load](#)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+[Working Parent Daily Checklist](https://app.gethoneydew.app/lists/working-parent-daily-checklist)
+
+[Self-Care Sunday Checklist](https://app.gethoneydew.app/lists/self-care-sunday-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

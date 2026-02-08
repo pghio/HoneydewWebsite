@@ -1,7 +1,7 @@
 ---
 title: "Co-Parenting Schedule Changes Without Conflict (2025): Templates, Rules, and App Setup"
 slug: "co-parenting-schedule-changes-without-conflict-2025-templates-rules-and-app-setup"
-publishDate: "2026-02-04"
+publishDate: "2026-04-09"
 author: "Honeydew Team"
 description: "A practical, low-drama system for custody schedule changes: message templates, decision rules, and a shared calendar setup that reduces back-and-forth. Built for divorced and separated parents in 2025."
 keywords: "co-parenting schedule changes, custody schedule change template, co-parenting calendar app, parenting schedule swap request, shared custody calendar, divorced parents app"
@@ -46,6 +46,9 @@ Most schedule conflicts come from unclear expectations:
 - Is a swap a swap (equal time), or a favor?
 - Who proposes make-up time?
 - Where is the *source of truth* (texts, email threads, a calendar, or “I thought you said…”)
+
+{{HONEYDEW_EMBED:custody-schedule-modification-checklist}}
+
 
 So we’ll standardize those.
 
@@ -224,3 +227,22 @@ Related deep dives:
 
 3) **Hook:** “If your swaps live in texts, you’re going to lose one.”  
    - Demonstrate: text thread → forgotten → calendar + list → solved.
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Custody Schedule Modification Checklist](https://app.gethoneydew.app/lists/custody-schedule-modification-checklist)
+
+[Custody Exchange Checklist](https://app.gethoneydew.app/lists/custody-exchange-checklist)
+
+[Co-Parenting Meeting Agenda Checklist](https://app.gethoneydew.app/lists/co-parenting-meeting-agenda-checklist)
+
+[Parallel Parenting Communication Guide](https://app.gethoneydew.app/lists/parallel-parenting-communication-guide)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->

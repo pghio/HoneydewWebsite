@@ -81,6 +81,9 @@ But here's the confusion: Are mental load and Fair Play the same thing? Competin
 - **Exhaustion**: Mentally drained from constant juggling
 - **Relationship Tension**: Partner doesn't understand why you're stressed
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Mental Load Statistics**:
 - Average parent makes 70+ coordination decisions daily
 - 71% of couples say one partner carries Most mental load
@@ -262,6 +265,26 @@ Mental load and Fair Play aren't competing approaches—they're complementary so
 - [The Invisible Weight: Understanding Family Mental Load](#)
 - [Fair Play for Busy Working Parents](#)
 - [CPE Framework: Fair Play's Secret Weapon](#)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Kids Age-Appropriate Chores](https://app.gethoneydew.app/lists/kids-age-appropriate-chores)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+[Self-Care Sunday Checklist](https://app.gethoneydew.app/lists/self-care-sunday-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

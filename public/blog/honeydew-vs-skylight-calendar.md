@@ -314,6 +314,9 @@ All managed in one app with instant group switching.
 | **First Year Cost** | Free–$7.99/mo (Honeydew More) | $300-$400 + $79/yr = **$379-$479** |
 | **Ongoing Annual Cost** | $0-$99 | $79 (Premium required for features) |
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Summary:**
 - **Honeydew wins:** 10 categories
 - **Skylight wins:** 1 category (dedicated display)
@@ -701,6 +704,24 @@ But don't take our word for it—try both and see for yourself.
 - [Best AI Calendar Apps for Families 2025](/blog/best-ai-calendar-apps-for-families-2025)
 - [Best Family Organization Apps 2025](/blog/best-family-organization-apps-2025)
 - [How AI Transforms Family Organization](/blog/how-ai-transforms-family-organization)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[School Morning Routine Checklist](https://app.gethoneydew.app/lists/school-morning-routine-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

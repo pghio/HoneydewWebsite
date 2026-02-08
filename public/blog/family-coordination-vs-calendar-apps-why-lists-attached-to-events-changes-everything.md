@@ -79,6 +79,9 @@ Imagine if your calendar worked like this:
 - [ ] Snack (granola bars in pantry)
 - [ ] Orange slices (your turn this week)
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **📝 Notes:**
 - Leave by 3:30 (15 min buffer)
 - Dad picking up after
@@ -439,6 +442,26 @@ Apple and Google are optimizing calendar for scheduling meetings. Honeydew is bu
 - [Best Family Organization Apps 2025](/blog/best-family-organization-apps-2025)
 - [How AI Transforms Family Organization](/blog/how-ai-transforms-family-organization)
 - [The Hidden Cost of Family Disorganization](/blog/hidden-cost-family-disorganization)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+[Family Road Trip Packing List](https://app.gethoneydew.app/lists/family-road-trip-packing-list)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

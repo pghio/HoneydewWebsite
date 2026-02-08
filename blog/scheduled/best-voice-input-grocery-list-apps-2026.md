@@ -1,7 +1,7 @@
 ---
 title: "Best Voice Input Grocery List Apps 2026: Hands-Free Shopping Lists"
 slug: "best-voice-input-grocery-list-apps-2026"
-publishDate: "2026-02-04"
+publishDate: "2026-04-02"
 author: "Honeydew Team"
 description: "The best grocery list apps with voice input in 2026. Compare Honeydew, AnyList, OurGroceries, and others for hands-free list building, family sharing, and smart shopping."
 keywords: "best voice input grocery list app, voice grocery list app, hands free shopping list app, best shared grocery list app 2026, voice controlled shopping list, grocery list app with voice"
@@ -63,6 +63,9 @@ featured: true
 | Multiple items at once | ✓ | Sometimes |
 | Auto-categorization | ✓ (AI sorts by store aisle) | Rarely |
 | Works offline | Voice requires connection | Same |
+
+{{HONEYDEW_EMBED:master-grocery-list-template}}
+
 
 ### Additional AI Features
 - **AI list generation:** "What do I need for taco night?" → Complete ingredient list
@@ -435,6 +438,28 @@ A: Yes. Honeydew syncs both Google and Apple calendars bi-directionally, so you 
  "articleSection": "Guide"
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Grocery List by Aisle](https://app.gethoneydew.app/lists/grocery-list-by-aisle)
+
+[Pantry Staples Checklist](https://app.gethoneydew.app/lists/pantry-staples-checklist)
+
+[Household Essentials Shopping List](https://app.gethoneydew.app/lists/household-essentials-shopping-list)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

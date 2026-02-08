@@ -158,6 +158,9 @@ This article makes the invisible visible.
 - Specialist: $100-200 no-show fee
 - Therapy: $100-150 no-show fee
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Services:**
 - Haircut/salon: $25-75 cancellation within 24 hours
 - Pet grooming: $30-50
@@ -797,6 +800,26 @@ Most families realize the system paid for itself within the first month.
  "dateModified": "2025-12-19"
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Monthly Budget Checklist](https://app.gethoneydew.app/lists/monthly-budget-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Monthly Home Maintenance Checklist](https://app.gethoneydew.app/lists/monthly-home-maintenance-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

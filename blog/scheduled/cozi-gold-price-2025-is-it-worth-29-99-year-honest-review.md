@@ -69,6 +69,9 @@ featured: true
 
 The ads in Cozi Free are annoying—banner ads on every screen, occasional full-screen interruptions. If you use Cozi daily, $30/year to remove them is reasonable.
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **2. You want the month view**
 
 The free version limits you to week/agenda views. If seeing the full month at a glance is important (great for busy families), Gold unlocks this.
@@ -316,3 +319,20 @@ The $66/year difference pays for itself many times over in time saved.
 - [Best Family Organization Apps 2025](/blog/best-family-organization-apps-2025)
 - [Free vs Paid Family Apps: What's Worth the Upgrade?](/blog/free-vs-paid-family-apps-comparison)
 - [Best AI Calendar Apps for Families 2025](/blog/best-ai-calendar-apps-for-families-2025)
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->

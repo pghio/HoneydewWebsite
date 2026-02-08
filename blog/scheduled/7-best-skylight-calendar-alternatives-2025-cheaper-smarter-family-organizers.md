@@ -55,6 +55,9 @@ Many families want the *idea* of Skylight—a centralized family hub—without t
 
 Honeydew replaces Skylight's wall display with AI that works on devices you already own. Instead of buying new hardware, you get smarter software:
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 - **Natural language planning**: Just say "plan our camping trip" and the AI creates packing lists, adds calendar events, and shares with family
 - **Voice and photo input**: Speak a quick command or photograph a handwritten list
 - **Two-way calendar sync**: Updates flow both ways with Google Calendar and Apple Calendar
@@ -426,3 +429,22 @@ If you specifically want a wall display, **Hearth Display** is nicer than Skylig
 - [Honeydew vs. Cozi: Which Family Organizer Is Better?](/blog/honeydew-vs-cozi-comparison-2025)
 - [Best AI Calendar Apps for Families 2025](/blog/best-ai-calendar-apps-for-families-2025)
 - [Best Family Organization Apps 2025](/blog/best-family-organization-apps-2025)
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+[School Morning Routine Checklist](https://app.gethoneydew.app/lists/school-morning-routine-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->

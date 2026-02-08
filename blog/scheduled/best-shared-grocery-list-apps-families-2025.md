@@ -75,6 +75,9 @@ featured: true
 
 If your grocery list should be **part of your family organization** (not a separate app), Honeydew integrates shopping with everything else.
 
+{{HONEYDEW_EMBED:master-grocery-list-template}}
+
+
 #### Voice Input: Add While Cooking
 
 > **Standing at open refrigerator:**
@@ -612,6 +615,28 @@ A: Yes, probably. Review before shopping. Or set up separate "Kids' Requests" li
 - [Best Family Meal Planning Apps 2025](/blog/best-family-meal-planning-apps-2025)
 - [Best Voice-Controlled Family Apps 2025](/blog/best-voice-controlled-family-apps-2025)
 - [Family Command Center App Guide](/blog/family-command-center-app-digital-alternative-2025)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Grocery List by Aisle](https://app.gethoneydew.app/lists/grocery-list-by-aisle)
+
+[Pantry Staples Checklist](https://app.gethoneydew.app/lists/pantry-staples-checklist)
+
+[Costco Shopping List](https://app.gethoneydew.app/lists/costco-shopping-list)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

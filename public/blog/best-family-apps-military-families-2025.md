@@ -79,6 +79,9 @@ Apps assume everyone is nearby. Military families need:
 
 #### 🏠 Multi-Family Groups: Built for Military Reality
 
+{{HONEYDEW_EMBED:pcs-move-checklist}}
+
+
 **Set up groups that mirror military family structure:**
 
 **Group 1: "Our Family"**
@@ -514,6 +517,26 @@ A: Yes. Notifications are time-zone aware. An event at "6pm local" notifies each
 - [Best Apps for Multi-Family Coordination](/blog/best-apps-multi-family-coordination-2025)
 - [Best Voice-Controlled Family Apps 2025](/blog/best-voice-controlled-family-apps-2025)
 - [How AI Transforms Family Organization](/blog/how-ai-transforms-family-organization)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[PCS Move Checklist](https://app.gethoneydew.app/lists/pcs-move-checklist)
+
+[Deployment Preparation Checklist](https://app.gethoneydew.app/lists/deployment-preparation-checklist)
+
+[Military Family Homecoming Checklist](https://app.gethoneydew.app/lists/military-family-homecoming-checklist)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

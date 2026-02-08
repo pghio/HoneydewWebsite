@@ -76,6 +76,9 @@ The distinction matters: sharing a Google Calendar works for small families, but
 - Divorced/separated parents coordinating across households (25% of kids)
 - Information overload (300+ emails/texts per week)
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Result:** The average family manages **40-60 discrete events per week** with **200-600 associated details** (who, what, when, where, what to bring).
 
 **Human coordination capacity:** ~20 events with ~60 details comfortably
@@ -1084,3 +1087,24 @@ Behavior change takes 2-3 weeks
 **Reading time: ~18 minutes**
 **Target keywords: 8 variations optimized**
 **Comprehensive pillar content**
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Monthly Home Maintenance Checklist](https://app.gethoneydew.app/lists/monthly-home-maintenance-checklist)
+
+[Household Essentials Shopping List](https://app.gethoneydew.app/lists/household-essentials-shopping-list)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->

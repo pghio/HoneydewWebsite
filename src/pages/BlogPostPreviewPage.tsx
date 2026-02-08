@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { motion } from 'framer-motion'
 import { ArrowLeft, Calendar, Tag } from 'lucide-react'
+import ListEmbedCard from '../components/ListEmbedCard'
 
 const getWebpSource = (src?: string): string | null => {
   if (!src) return null
@@ -167,8 +168,16 @@ const BlogPostPreviewPage = () => {
                     <table className="min-w-full border border-gray-200 rounded-lg" {...props} />
                   </div>
                 ),
-                // Style checkmarks and crosses
+                // Style checkmarks and crosses + embed markers
                 p: ({node, children, ...props}) => {
+                  // Detect Honeydew list embed markers: {{HONEYDEW_EMBED:slug}}
+                  const rawText = typeof children === 'string' ? children.trim() :
+                    (Array.isArray(children) ? children.map(c => typeof c === 'string' ? c : '').join('').trim() : '')
+                  const embedMatch = rawText.match(/^\{\{HONEYDEW_EMBED:([a-z0-9-]+)\}\}$/)
+                  if (embedMatch) {
+                    return <ListEmbedCard listSlug={embedMatch[1]} articleSlug={slug} />
+                  }
+
                   const content = String(children)
                   if (content.includes('✅')) {
                     return <p className="flex items-start gap-2" {...props}><span className="text-green-500 flex-shrink-0">✅</span><span>{content.replace('✅', '').trim()}</span></p>
@@ -202,6 +211,58 @@ const BlogPostPreviewPage = () => {
                     )
                   })()
                 ),
+
+                // Rich list preview cards for app.gethoneydew.app/lists/ links
+                a: ({node, href, children, ...props}) => {
+                  const isListLink = href && href.includes('app.gethoneydew.app/lists')
+                  
+                  if (!isListLink) {
+                    const isExternal = href && (href.startsWith('http') || href.startsWith('//'))
+                    return (
+                      <a
+                        href={href}
+                        {...(isExternal ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                        className="text-blue-600 hover:underline"
+                        {...props}
+                      >
+                        {children}
+                      </a>
+                    )
+                  }
+
+                  const separator = href.includes('?') ? '&' : '?'
+                  const trackedHref = `${href}${separator}utm_source=blog_preview&utm_medium=embedded_list&utm_campaign=${slug || 'blog_article'}`
+                  const isBrowseAll = href.endsWith('/lists') || href.endsWith('/lists/')
+
+                  if (isBrowseAll) {
+                    return (
+                      <a
+                        href={trackedHref}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="not-prose inline-flex items-center gap-2 rounded-xl bg-blue-600 px-6 py-3 font-semibold text-white hover:bg-blue-700 transition-colors no-underline shadow-sm"
+                      >
+                        {children}
+                      </a>
+                    )
+                  }
+
+                  return (
+                    <a
+                      href={trackedHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="not-prose group flex items-center gap-3 my-2 px-4 py-3 rounded-xl border border-blue-200 bg-gradient-to-r from-white to-blue-50 hover:border-blue-400 hover:shadow-md transition-all no-underline"
+                    >
+                      <span className="flex-shrink-0 w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center text-lg">📋</span>
+                      <span className="flex-1 min-w-0">
+                        <span className="block font-semibold text-gray-900 group-hover:text-blue-700 text-base leading-tight">{children}</span>
+                        <span className="block text-sm text-gray-500 mt-0.5">Free interactive checklist · Tap to customize</span>
+                      </span>
+                      <span className="flex-shrink-0 text-blue-600 font-semibold text-sm hidden sm:block">Use&nbsp;List&nbsp;→</span>
+                    </a>
+                  )
+                },
               }}
             >
               {content}

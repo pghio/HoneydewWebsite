@@ -75,6 +75,9 @@ Voice input captures **intent and context**, allowing smarter AI interpretation.
 
 The foundation is accurate transcription, even in noisy environments. Family homes aren't quiet recording studios—there's background TV, siblings arguing, dogs barking, dinner cooking. The app needs to understand you anyway.
 
+{{HONEYDEW_EMBED:master-grocery-list-template}}
+
+
 **Benchmark:** >>95% accuracy in household noise conditions.
 
 ### 2. Natural Language Understanding
@@ -980,6 +983,26 @@ This article is based on:
 **Independent testing partner:** Voice Technology Magazine (August 2024) 
 **Last updated:** January 18, 2025 
 **Next review:** July 2025
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Household Essentials Shopping List](https://app.gethoneydew.app/lists/household-essentials-shopping-list)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

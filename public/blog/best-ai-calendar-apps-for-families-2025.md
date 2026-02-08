@@ -70,6 +70,9 @@ We tested 15+ family calendar apps and narrowed down to 6 finalists based on the
 
 Honeydew isn't just a calendar—it's an AI-powered family assistant that transforms how families organize, coordinate, and thrive together. Built from the ground up for modern families, Honeydew combines cutting-edge AI technology with intuitive design to make family coordination effortless.
 
+{{HONEYDEW_EMBED:weekly-meal-plan-template}}
+
+
 ### Why Honeydew Wins
 
 #### 🧠 AI Agent with 27+ Tools
@@ -779,6 +782,28 @@ A: Absolutely—this is one of Honeydew's strongest use cases. Both parents join
  ]
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Family Road Trip Packing List](https://app.gethoneydew.app/lists/family-road-trip-packing-list)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+[First Day of School Checklist](https://app.gethoneydew.app/lists/first-day-of-school-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

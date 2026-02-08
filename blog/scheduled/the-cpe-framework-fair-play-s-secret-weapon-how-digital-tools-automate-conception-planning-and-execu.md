@@ -74,6 +74,9 @@ Each Fair Play card in Honeydew displays as an interactive card with three disti
 - 👥 **Assigned**: Sarah
 - ⏰ **Due**: Sunday 6 PM
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Interactive Elements**:
 - **Tap Conception**: Opens detailed thinking prompts and AI suggestions
 - **Tap Planning**: Shows preparation checklist and scheduling options
@@ -231,6 +234,26 @@ The CPE framework isn't just a nice theory—it's the operational system that ma
 - [The Ultimate Fair Play Implementation Guide](#)
 - [Fair Play for Busy Working Parents](#)
 - [Digital Fair Play Cards: Interactive Implementation](#)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

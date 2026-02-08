@@ -182,6 +182,9 @@ Sarah is a working mom with two kids. It's Wednesday evening—she just got home
 
 **Emma's 7th birthday party is THIS SATURDAY.**
 
+{{HONEYDEW_EMBED:weekly-meal-plan-template}}
+
+
 Her stomach drops. Guests, decorations, food, activities, the cake... she hasn't planned ANY of it.
 
 ### The Old Way: Spiral Mode
@@ -972,6 +975,26 @@ Honeydew is built specifically for families—with all the features we've covere
 
 👉 **[Get Honeydew - iOS App Store](https://apps.apple.com/us/app/honeydew-family-organizer/id1546892037)** 
 👉 **[Learn more at GetHoneydew.app](https://gethoneydew.app)**
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

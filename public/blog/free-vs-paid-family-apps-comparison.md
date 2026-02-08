@@ -219,6 +219,9 @@ featured: true
 
 **Upfront cost:** $30-36/year
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Features vs free:**
 - ✅ Everything in free version
 - ✅ No ads (better experience)
@@ -853,6 +856,26 @@ But Cozi Gold doesn't save much time (no AI), so ROI is modest.
 - [Honeydew vs Cozi 2025](/blog/honeydew-vs-cozi-comparison-2025) — The most common "free vs paid" decision: Cozi ($30/yr) vs Honeydew ($99/yr).
 - [Best Family Organization Apps 2025](/blog/best-family-organization-apps-2025) — Compare all 15+ apps across every price point.
 - [Cozi Gold Price 2025: Is It Worth $29.99/Year?](/blog/cozi-gold-price-2025-is-it-worth-29-99-year-honest-review) — Deep dive into whether Cozi's paid tier delivers value.
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Household Essentials Shopping List](https://app.gethoneydew.app/lists/household-essentials-shopping-list)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

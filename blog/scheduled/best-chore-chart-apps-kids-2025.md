@@ -69,6 +69,9 @@ Both can work. The right choice depends on your kids' ages and your family's org
 
 If you want chores as **part of family life** (not a separate game), Honeydew integrates task management with your family's overall organization.
 
+{{HONEYDEW_EMBED:kids-age-appropriate-chores}}
+
+
 #### How Chores Work in Honeydew
 
 **AI-Powered Chore Assignment:**
@@ -513,6 +516,28 @@ A: Start with Honeydew's integrated approach—it's a family calendar that happe
 - [Best Apps for Stay-at-Home Parents](/blog/best-family-apps-stay-at-home-parents-2025)
 - [How AI Transforms Family Organization](/blog/how-ai-transforms-family-organization)
 - [Family Command Center App Guide](/blog/family-command-center-app-digital-alternative-2025)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Kids Age-Appropriate Chores](https://app.gethoneydew.app/lists/kids-age-appropriate-chores)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+[Weekend Chore Checklist](https://app.gethoneydew.app/lists/weekend-chore-checklist)
+
+[Before Bed Routine Checklist](https://app.gethoneydew.app/lists/before-bed-routine-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

@@ -89,6 +89,9 @@ image: "/blog-images/multi-family-coordination.jpg"
 
 **Verdict:** **The ONLY app designed for multi-family coordination**
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 #### How Honeydew's Multi-Family Architecture Works
 
 **Unlimited Family Groups:**
@@ -659,6 +662,26 @@ A: Yes! Admins can delete groups. All members get notified before deletion.
 - [Honeydew vs Cozi: Complete Comparison](#)
 - [Best Family Organization Apps 2025](#)
 - [Best Voice-Controlled Family Organization Apps](#)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+[Soccer Season Checklist](https://app.gethoneydew.app/lists/soccer-season-checklist)
+
+[Family Road Trip Packing List](https://app.gethoneydew.app/lists/family-road-trip-packing-list)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

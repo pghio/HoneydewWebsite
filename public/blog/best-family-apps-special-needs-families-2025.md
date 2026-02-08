@@ -85,6 +85,9 @@ Special needs families coordinate with:
 
 #### 👥 Multi-Caregiver Coordination
 
+{{HONEYDEW_EMBED:iep-meeting-preparation-checklist}}
+
+
 **Set up groups for everyone involved:**
 
 **Group 1: "Our Family"**
@@ -521,6 +524,28 @@ A: Create a "Respite Care" group that includes only the caregiver and relevant i
 - [Best Apps for ADHD Parents](/blog/best-family-organization-apps-adhd-parents-2025)
 - [Best Voice-Controlled Family Apps 2025](/blog/best-voice-controlled-family-apps-2025)
 - [How AI Transforms Family Organization](/blog/how-ai-transforms-family-organization)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[IEP Meeting Preparation Checklist](https://app.gethoneydew.app/lists/iep-meeting-preparation-checklist)
+
+[ADHD Family Organization Checklist](https://app.gethoneydew.app/lists/adhd-family-organization-checklist)
+
+[Sensory-Friendly Packing List](https://app.gethoneydew.app/lists/sensory-friendly-packing-list)
+
+[Therapy Appointment Tracker](https://app.gethoneydew.app/lists/therapy-appointment-tracker)
+
+[504 Plan Checklist](https://app.gethoneydew.app/lists/504-plan-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

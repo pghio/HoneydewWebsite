@@ -80,6 +80,9 @@ A family command center app is a **single digital hub** that replaces:
 5. **Message Board** → Family communication and updates
 6. **Menu Planner** → Meal planning with grocery list generation
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **All accessible from everyone's phone, tablet, or computer.**
 
 ---
@@ -454,6 +457,28 @@ A: Create a "Weekly Meals" list in Honeydew. Add meals to calendar days if you w
 - [7 Best Skylight Calendar Alternatives](/blog/7-best-skylight-calendar-alternatives-2025)
 - [How AI Transforms Family Organization](/blog/how-ai-transforms-family-organization)
 - [Best Voice-Controlled Family Apps 2025](/blog/best-voice-controlled-family-apps-2025)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[School Morning Routine Checklist](https://app.gethoneydew.app/lists/school-morning-routine-checklist)
+
+[Monthly Home Maintenance Checklist](https://app.gethoneydew.app/lists/monthly-home-maintenance-checklist)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

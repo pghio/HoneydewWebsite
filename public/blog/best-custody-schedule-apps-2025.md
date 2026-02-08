@@ -79,6 +79,9 @@ We tested 15+ apps designed for co-parenting and evaluated them on:
 **Price:** Free tier; Premium $7.99/month; Family $149/year
 **Platforms:** iOS, Android, Web
 
+{{HONEYDEW_EMBED:custody-exchange-checklist}}
+
+
 Honeydew wasn't originally designed as a "custody app," but its multi-family architecture and AI capabilities make it the best tool for actually managing custody schedules efficiently.
 
 #### Why Honeydew Wins
@@ -756,6 +759,28 @@ A: In cooperative relationships, Honeydew's shared calendar lets you propose cha
 - [Honeydew vs OurFamilyWizard Comparison](/blog/honeydew-vs-ourfamilywizard-comparison-2025)
 - [How AI Transforms Family Organization](/blog/how-ai-transforms-family-organization)
 - [Best Apps for Multi-Family Coordination](/blog/best-apps-multi-family-coordination-2025)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Custody Exchange Checklist](https://app.gethoneydew.app/lists/custody-exchange-checklist)
+
+[Week-On Week-Off Custody Packing List](https://app.gethoneydew.app/lists/week-on-week-off-custody-packing-list)
+
+[Custody Schedule Modification Checklist](https://app.gethoneydew.app/lists/custody-schedule-modification-checklist)
+
+[Summer Vacation Custody Checklist](https://app.gethoneydew.app/lists/summer-vacation-custody-checklist)
+
+[Shared Custody Christmas Checklist](https://app.gethoneydew.app/lists/shared-custody-christmas-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

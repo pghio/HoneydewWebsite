@@ -85,6 +85,9 @@ Honeydew transforms Fair Play from a static system into a dynamic, AI-powered co
  - "Shared Family" (visible to both)
 4. **Configure Privacy Settings** so each partner only sees their assigned cards and shared items
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Pro Tip**: Use Honeydew's **one-tap switching** between "Family Coordination" and "My Personal" views to maintain the right balance of transparency and privacy.
 
 ### Importing the 100 Fair Play Cards
@@ -614,6 +617,28 @@ The mental load crisis affects millions of families. Digital Fair Play is the so
 - [The CPE Framework: Fair Play's Secret Weapon](#)
 - [Mental Load vs Fair Play: Understanding Both Solutions](#)
 - [The Invisible Weight: Understanding Family Mental Load](#)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Kids Age-Appropriate Chores](https://app.gethoneydew.app/lists/kids-age-appropriate-chores)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "GTD for Families: How to Apply Getting Things Done to Family Organization in 2025"
 slug: "gtd-for-families-how-to-apply-getting-things-done-to-family-organization-in-2025"
-publishDate: "2026-02-04"
+publishDate: "2026-04-06"
 author: "Honeydew Team"
 description: "Learn how to adapt David Allen's Getting Things Done (GTD) methodology for family life. Discover AI-powered tools that make GTD actually work for busy parents coordinating households, activities, and multiple family members."
 keywords: "GTD for families, Getting Things Done family, GTD parenting, family productivity system, GTD with kids, family organization GTD, David Allen family"
@@ -78,6 +78,9 @@ For those new to GTD, here's the 60-second version:
 - **Shared capture point** everyone can add to
 - **Clear ownership** (who's responsible for each item)
 - **Visibility** (everyone sees the full picture)
+
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
 
 ### Challenge 2: Constant Interruptions
 
@@ -558,6 +561,28 @@ When you're not holding 100 things in your head, you can:
 - [How AI Transforms Family Organization](/blog/how-ai-transforms-family-organization)
 - [Best Family Organization Apps 2025](/blog/best-family-organization-apps-2025)
 - [Mental Load vs Fair Play: What's the Difference](/blog/mental-load-vs-fair-play)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+[Morning Routine Checklist](https://app.gethoneydew.app/lists/morning-routine-checklist-adults)
+
+[Before Bed Routine Checklist](https://app.gethoneydew.app/lists/before-bed-routine-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

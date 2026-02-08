@@ -1,7 +1,7 @@
 ---
 title: "Cozi Gold Price 2026: Is $29.99/Year Worth It? (Honest Review)"
 slug: "cozi-gold-price-2026-worth-it-honest-review"
-publishDate: "2026-02-04"
+publishDate: "2026-02-12"
 author: "Honeydew Team"
 description: "Cozi Gold costs $29.99/year in 2026. We break down exactly what you get, what's missing, and whether free alternatives (or AI-powered apps like Honeydew) deliver better value for your family."
 keywords: "cozi gold price 2026, cozi gold price per year, cozi gold worth it, cozi gold review, cozi free vs paid, cozi alternative, is cozi gold worth it"
@@ -52,6 +52,9 @@ Cozi Gold is billed annually only—there's no monthly option. The price has rem
 ## What Cozi Gold Does NOT Include
 
 Even with Gold, Cozi lacks features that modern families increasingly expect:
+
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
 
 | Feature | Cozi Gold | Honeydew | Why It Matters |
 |---------|-----------|----------|----------------|
@@ -283,6 +286,26 @@ A: Yes. Honeydew syncs both Google and Apple calendars bi-directionally, so you 
  "articleSection": "Comparison"
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

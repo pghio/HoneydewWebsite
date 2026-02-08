@@ -1,7 +1,7 @@
 ---
 title: "Honeydew App Review 2025: Honest Assessment (Is It Worth $7.99/Month?)"
 slug: "honeydew-app-review-2025-honest-assessment-is-it-worth-7-99-month"
-publishDate: "2026-02-04"
+publishDate: "2026-02-05"
 author: "Honeydew Team"
 description: "An honest, comprehensive review of Honeydew - the AI family organization app. We address common concerns, compare to Cozi and Skylight Calendar, and help you decide if it's worth it."
 keywords: "honeydew app review, honeydew review 2025, is honeydew worth it, honeydew vs cozi, honeydew family app, ai family planner review, best family organization app"
@@ -98,6 +98,9 @@ Honeydew's free tier includes:
 - Mobile & web apps
 
 To unlock unlimited AI planning, voice input, photo recognition, and multi-family support, you need Honeydew More at $7.99/month.
+
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
 
 **Our take:** This is less than a single coffee, and families save 3-5 hours weekly. The ROI is 30-50x. But if you need completely free, Cozi Gold at $30/year is cheaper (though with far fewer features).
 
@@ -274,6 +277,28 @@ Ready to see if AI-powered family organization is for you?
 - Full free tier features
 - 14-day premium trial available
 - Cancel anytime
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Family Road Trip Packing List](https://app.gethoneydew.app/lists/family-road-trip-packing-list)
+
+[Custody Exchange Checklist](https://app.gethoneydew.app/lists/custody-exchange-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

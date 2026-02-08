@@ -91,6 +91,9 @@ This comprehensive guide explains exactly how AI transforms family organization,
 - Set reminders
 - Save
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Time: 3-5 minutes**
 
 **New way (AI with NLP):**
@@ -693,6 +696,26 @@ A: Basic features (calendar, lists, voice input) are immediately intuitive. Adva
  ]
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Family Road Trip Packing List](https://app.gethoneydew.app/lists/family-road-trip-packing-list)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

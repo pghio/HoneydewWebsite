@@ -1,7 +1,7 @@
 ---
 title: "Best Family Meal Planner Apps with AI (2026): Automated Weekly Menus"
 slug: "family-meal-planner-app-with-ai-2026"
-publishDate: "2026-02-04"
+publishDate: "2026-04-06"
 author: "Honeydew Team"
 description: "The best family meal planning apps with AI in 2026. Compare Honeydew, Mealime, Eat This Much, and others for AI-generated meal plans, automatic grocery lists, and family-friendly recipes."
 keywords: "family meal planner app, ai meal planning app, best family meal planning apps 2026, family meal planner with grocery list, meal planning app for families, ai meal prep app"
@@ -61,6 +61,9 @@ featured: true
 ### Why Honeydew Wins for Families
 
 Honeydew isn't just a meal planner—it's an AI family assistant where meal planning is one workflow among many.
+
+{{HONEYDEW_EMBED:weekly-meal-plan-template}}
+
 
 **AI Meal Planning Features:**
 | Feature | How It Works |
@@ -436,6 +439,28 @@ A: Yes. Honeydew syncs both Google and Apple calendars bi-directionally, so you 
  "articleSection": "Guide"
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Family Meal Planning Checklist](https://app.gethoneydew.app/lists/family-meal-planning-checklist)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Picky Eater Meal Ideas](https://app.gethoneydew.app/lists/picky-eater-meal-ideas)
+
+[30-Minute Meals List](https://app.gethoneydew.app/lists/30-minute-meals-list)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

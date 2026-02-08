@@ -87,6 +87,9 @@ The app must natively support belonging to multiple separate groups simultaneous
 **Minimum requirement:** 3+ independent groups per user 
 **Ideal:** Unlimited groups
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 ### 2. Easy Group Switching
 
 Users need one-tap switching between family contexts. Forcing navigation through menus to change contexts creates cognitive load and errors (posting to wrong group).
@@ -1002,6 +1005,26 @@ This article is based on:
 
 **Last updated:** January 22, 2025 
 **Next review:** July 2025
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+[Carpool Coordination Checklist](https://app.gethoneydew.app/lists/soccer-season-checklist)
+
+[Family Road Trip Packing List](https://app.gethoneydew.app/lists/family-road-trip-packing-list)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

@@ -87,6 +87,9 @@ Families needing true AI family coordination, divorced parent support, or lists 
 ✅ **Photo frame** — Google Photos integration
 ✅ **Face Match** — Personalized results by family member
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 #### Family Calendar Limitations
 
 ❌ **No AI family features** — Google Calendar AI is basic
@@ -405,6 +408,26 @@ For most families wanting a family calendar display in 2025:
 - [Best AI Calendar Apps for Families 2025](/blog/best-ai-calendar-apps-for-families-2025)
 - [Why Apple & Google Calendar AI Won't Replace Family Apps](/blog/why-apple-google-calendar-ai-wont-replace-family-apps-2025)
 - [Best Family Organization Apps 2025](/blog/best-family-organization-apps-2025)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Monthly Home Maintenance Checklist](https://app.gethoneydew.app/lists/monthly-home-maintenance-checklist)
+
+[First Day of School Checklist](https://app.gethoneydew.app/lists/first-day-of-school-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

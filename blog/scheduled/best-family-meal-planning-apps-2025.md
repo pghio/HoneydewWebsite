@@ -76,6 +76,9 @@ Sound familiar? The "what's for dinner" question is among the most dreaded daily
 
 If meal planning is **part of your overall family organization**, Honeydew integrates meals with your calendar, lists, and family coordination.
 
+{{HONEYDEW_EMBED:weekly-meal-plan-template}}
+
+
 #### AI-Powered Meal Suggestions
 
 > "Suggest easy weeknight dinners for a family of 4"
@@ -587,6 +590,28 @@ A: Plans are guidelines, not mandates. In Honeydew, voice-adjust anytime: "Chang
 - [Best Shared Grocery List Apps for Families](/blog/best-shared-grocery-list-apps-families-2025)
 - [Family Command Center App Guide](/blog/family-command-center-app-digital-alternative-2025)
 - [How AI Transforms Family Organization](/blog/how-ai-transforms-family-organization)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Family Meal Planning Checklist](https://app.gethoneydew.app/lists/family-meal-planning-checklist)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Budget Meal Planning List](https://app.gethoneydew.app/lists/budget-meal-planning-list)
+
+[Quick Weeknight Dinners List](https://app.gethoneydew.app/lists/quick-weeknight-dinners-list)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

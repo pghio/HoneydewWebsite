@@ -1,0 +1,69 @@
+{
+  "siteUrl": "https://www.gethoneydew.app",
+  "appLinks": {
+    "web": "https://app.gethoneydew.app/",
+    "ios": "https://apps.apple.com/us/app/honeydew-family-organizer/id1546892037",
+    "android": "https://play.google.com/store/apps/details?id=app.gethoneydew.honeydew"
+  },
+  "directories": {
+    "publicBlog": "public/blog",
+    "scheduledBlog": "blog/scheduled",
+    "reports": "reports/website-manager"
+  },
+  "blogChecks": {
+    "requiredFrontmatter": [
+      "title",
+      "slug",
+      "description",
+      "keywords",
+      "category",
+      "featured",
+      "author",
+      "publishDate"
+    ],
+    "requireQuickAnswer": true,
+    "quickAnswerPatterns": ["quick answer", "quick answer:"],
+    "requireTable": true,
+    "requireFAQ": true,
+    "faqPatterns": ["faq", "frequently asked questions"],
+    "requireTikTokIdeas": true,
+    "tiktokPatterns": ["tiktok"],
+    "requireCTA": true,
+    "ctaPatterns": [
+      "app.gethoneydew.app",
+      "apps.apple.com",
+      "play.google.com",
+      "app store",
+      "google play"
+    ],
+    "requireInternalLinks": true,
+    "internalLinkHost": "https://www.gethoneydew.app",
+    "minWordCount": 1500
+  },
+  "pageCtaChecks": [
+    {
+      "path": "src/components/Hero.tsx",
+      "requiredPatterns": ["APP_LINKS", "trackAppStoreClick"]
+    },
+    {
+      "path": "src/components/CallToAction.tsx",
+      "requiredPatterns": ["APP_LINKS", "trackAppStoreClick"]
+    },
+    {
+      "path": "src/components/Navbar.tsx",
+      "requiredPatterns": ["APP_LINKS"]
+    },
+    {
+      "path": "src/components/Footer.tsx",
+      "requiredPatterns": ["APP_LINKS"]
+    },
+    {
+      "path": "src/pages/BlogPostPage.tsx",
+      "requiredPatterns": ["buildBlogCTALink", "trackAppStoreClick"]
+    }
+  ],
+  "selfImprovement": {
+    "issueCarryoverThreshold": 2,
+    "focusDecayDays": 14
+  }
+}

@@ -1,7 +1,7 @@
 ---
 title: "Skylight vs Hearth Display vs Honeydew: Which Family Calendar Is Best in 2025?"
 slug: "skylight-vs-hearth-display-vs-honeydew-which-family-calendar-is-best-in-2025"
-publishDate: "2026-02-04"
+publishDate: "2026-03-23"
 author: "Honeydew Team"
 description: "Detailed comparison of Skylight Calendar ($300), Hearth Display ($600), and Honeydew (free/app) for family organization. See features, pricing, and which is worth your money."
 keywords: "Skylight vs Hearth Display, Hearth Display alternative, Skylight Calendar comparison, best family calendar display, wall calendar display, family hub comparison"
@@ -84,6 +84,9 @@ Each takes a fundamentally different approach to family organization. Let's brea
 ✅ **Photo slideshow** — Beautiful digital frame mode 
 ✅ **Premium build quality** — Looks and feels expensive (because it is) 
 ✅ **Customizable widgets** — Weather, calendar, photos, tasks
+
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
 
 ### Hearth's Limitations
 
@@ -439,3 +442,20 @@ Hardware displays are nice-to-have. AI coordination is need-to-have.
 - [Honeydew vs Skylight: Detailed Comparison](/blog/honeydew-vs-skylight-calendar)
 - [Best AI Calendar Apps for Families 2025](/blog/best-ai-calendar-apps-for-families-2025)
 - [Best Family Organization Apps 2025](/blog/best-family-organization-apps-2025)
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Monthly Home Maintenance Checklist](https://app.gethoneydew.app/lists/monthly-home-maintenance-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->

@@ -108,6 +108,9 @@ This comprehensive guide evaluates 7 apps specifically designed for or excellent
 
 Honeydew wasn't specifically built as a "co-parenting app," but its multi-family architecture makes it perfect for divorced parents coordinating across households.
 
+{{HONEYDEW_EMBED:custody-exchange-checklist}}
+
+
 ### Why Honeydew Wins
 
 #### 🏠 Multi-Family Architecture (Purpose-Built for This)
@@ -904,6 +907,28 @@ A: Even paying full $7.99/month yourself is worth it for time savings (3-5 hours
  "dateModified": "2025-11-21"
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Custody Exchange Checklist](https://app.gethoneydew.app/lists/custody-exchange-checklist)
+
+[Co-Parent Information Sharing Checklist](https://app.gethoneydew.app/lists/co-parent-information-sharing-checklist)
+
+[School Information Co-Parent Checklist](https://app.gethoneydew.app/lists/school-information-co-parent-checklist)
+
+[Medical Information Sharing Checklist](https://app.gethoneydew.app/lists/medical-information-sharing-checklist)
+
+[Birthday Party Coordination for Co-Parents](https://app.gethoneydew.app/lists/birthday-party-coordination-co-parents)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

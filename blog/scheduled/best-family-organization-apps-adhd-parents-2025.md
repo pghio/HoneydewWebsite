@@ -71,6 +71,9 @@ Does it provide enough reward/satisfaction to maintain engagement?
 
 Honeydew wasn't specifically designed for ADHD, but its core features address every major ADHD challenge.
 
+{{HONEYDEW_EMBED:adhd-family-organization-checklist}}
+
+
 ### Why Honeydew Works for ADHD
 
 #### 🎤 Voice Input: Capture Before You Forget
@@ -500,6 +503,28 @@ A: You can create recurring medication reminders with voice: "Remind me to take 
 - [Best Voice-Controlled Family Apps 2025](/blog/best-voice-controlled-family-apps-2025)
 - [How AI Transforms Family Organization](/blog/how-ai-transforms-family-organization)
 - [Family Command Center App: Digital Alternative](/blog/family-command-center-app-digital-alternative-2025)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[ADHD Family Organization Checklist](https://app.gethoneydew.app/lists/adhd-family-organization-checklist)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[School Morning Routine Checklist](https://app.gethoneydew.app/lists/school-morning-routine-checklist)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+[Before Bed Routine Checklist](https://app.gethoneydew.app/lists/before-bed-routine-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

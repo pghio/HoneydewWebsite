@@ -45,6 +45,9 @@ The fundamental problem: **Traditional tools fragment context.** Your grocery li
 
 ## Results Summary: Before and After AI Coordination
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 | Metric | Before | After | Improvement |
 |--------|--------|-------|-------------|
 | **Weekly Coordination Time** | 14 hours/week | 2 hours/week | **86% reduction** |
@@ -498,3 +501,25 @@ Ready to reduce your family's mental load? [Try Honeydew free for 14 days](https
 
 Questions? Email me at pete@gethoneydew.app - I respond to everyone.
 
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Self-Care Sunday Checklist](https://app.gethoneydew.app/lists/self-care-sunday-checklist)
+
+[Morning Routine Checklist](https://app.gethoneydew.app/lists/morning-routine-checklist-adults)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->

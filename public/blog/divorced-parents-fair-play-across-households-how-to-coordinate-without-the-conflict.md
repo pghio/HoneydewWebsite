@@ -74,6 +74,9 @@ Traditional Fair Play cards assume transparency: *"If you're doing laundry, I sh
 4. **Create "Kids Shared"** group (for coordinated activities, visible to both parents)
 5. **Set privacy controls** so each household only sees relevant information
 
+{{HONEYDEW_EMBED:custody-exchange-checklist}}
+
+
 **Pro Tip**: Use Honeydew's **one-tap switching** between household views to quickly move between your personal coordination and kids' shared activities.
 
 ### Step 2: Import Fair Play Cards for Co-Parenting (10 minutes)
@@ -210,6 +213,26 @@ Divorce is hard enough without turning kids' coordination into a battlefield. Di
 - [The Ultimate Fair Play Implementation Guide](#)
 - [Best Family Apps for Divorced Parents: Complete Guide](#)
 - [Fair Play for Busy Working Parents](#)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Custody Exchange Checklist](https://app.gethoneydew.app/lists/custody-exchange-checklist)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Co-Parent Information Sharing Checklist](https://app.gethoneydew.app/lists/co-parent-information-sharing-checklist)
+
+[School Information Co-Parent Checklist](https://app.gethoneydew.app/lists/school-information-co-parent-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

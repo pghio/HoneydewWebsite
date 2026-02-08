@@ -75,6 +75,12 @@
     }
   ],
   "rewrites": [
+    { "source": "/lists/:path*", "destination": "https://app.gethoneydew.app/lists/:path*" },
+    { "source": "/sitemap.xml", "destination": "https://app.gethoneydew.app/sitemap.xml" },
+    { "source": "/sitemap-public-lists.xml", "destination": "https://app.gethoneydew.app/sitemap-public-lists.xml" },
+    { "source": "/.llms.txt", "destination": "https://app.gethoneydew.app/.llms.txt" },
+    { "source": "/.llms-full.txt", "destination": "https://app.gethoneydew.app/.llms-full.txt" },
+    { "source": "/robots.txt", "destination": "https://app.gethoneydew.app/robots.txt" },
     { "source": "/app", "destination": "/index.html" },
     { "source": "/blog", "destination": "/index.html" },
     { "source": "/blog/:slug*", "destination": "/index.html" },

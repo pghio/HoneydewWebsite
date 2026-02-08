@@ -107,6 +107,9 @@ If you're texting coordination info constantly, **you don't have a family organi
 - 👕 Forgot spirit week theme (kid is only one not dressed up)
 - 🎂 Forgot friend's birthday party (last-minute gift run)
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **These aren't character flaws—they're system failures.**
 
 ### What's Actually Happening
@@ -710,6 +713,26 @@ The good news: Modern AI systems can solve these problems. The chaos is solvable
  "dateModified": "2025-11-25"
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+[School Morning Routine Checklist](https://app.gethoneydew.app/lists/school-morning-routine-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

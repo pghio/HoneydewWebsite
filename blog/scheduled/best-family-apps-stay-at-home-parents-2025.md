@@ -83,6 +83,9 @@ Kids interrupt every 30 seconds. Phone conversations get cut short. Emails don't
 
 #### 🎤 Voice Input: Capture During Chaos
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **The SAHP reality:** Your hands are never free.
 
 > **While cooking:** "Add milk, eggs, and butter to grocery list"
@@ -499,6 +502,28 @@ A: Voice input is actually easier than any other method. Just talk. No typing, n
 - [Best Voice-Controlled Family Apps 2025](/blog/best-voice-controlled-family-apps-2025)
 - [Family Command Center App: Digital Alternative](/blog/family-command-center-app-digital-alternative-2025)
 - [How AI Transforms Family Organization](/blog/how-ai-transforms-family-organization)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+[Rainy Day Activities for Kids](https://app.gethoneydew.app/lists/rainy-day-activities-for-kids)
+
+[Self-Care Sunday Checklist](https://app.gethoneydew.app/lists/self-care-sunday-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

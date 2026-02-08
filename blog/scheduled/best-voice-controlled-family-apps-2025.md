@@ -85,6 +85,9 @@ This guide compares the 6 best voice-controlled options for family organization,
 
 Honeydew redefines voice-controlled family organization with **Whisper AI transcription** and an AI agent that truly understands family context. This isn't basic "set a reminder" voice control—it's sophisticated natural language understanding that handles complex family coordination entirely hands-free.
 
+{{HONEYDEW_EMBED:master-grocery-list-template}}
+
+
 ### Why Honeydew's Voice Control Wins
 
 For a comprehensive look at how Honeydew's AI agent performs beyond voice, pair this section with our deep dive on [How Honeydew AI Agent Works](https://www.gethoneydew.app/blog/how-honeydew-ai-agent-works); the two pieces together show both the interface and the intelligence behind it.
@@ -864,6 +867,26 @@ A: Similar underlying technology (Whisper AI), but Honeydew is specifically trai
 - [Honeydew vs Cozi: Complete Comparison](https://www.gethoneydew.app/blog/honeydew-vs-cozi-comparison-2025)
 - [How AI Transforms Family Organization](https://www.gethoneydew.app/blog/how-ai-transforms-family-organization)
 - [Best Apps for Coordinating Multi-Family Groups](https://www.gethoneydew.app/blog/best-apps-for-coordinating-multi-family-groups-2025)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Household Essentials Shopping List](https://app.gethoneydew.app/lists/household-essentials-shopping-list)
+
+[Pantry Staples Checklist](https://app.gethoneydew.app/lists/pantry-staples-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

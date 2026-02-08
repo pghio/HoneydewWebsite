@@ -70,6 +70,9 @@ featured: true
 - Hard to track progress on personal goals
 - No integration with personal interests or suggestions
 
+{{HONEYDEW_EMBED:self-care-sunday-checklist}}
+
+
 **Digital Unicorn Space Advantages**:
 - **AI Protection**: System actively defends your time from family requests
 - **Smart Suggestions**: AI recommends activities based on your interests and available time
@@ -184,6 +187,26 @@ Unicorn Space isn't a luxury—it's a necessity for maintaining your identity, i
 - [The Ultimate Fair Play Implementation Guide](#)
 - [Fair Play for Busy Working Parents](#)
 - [Mental Load vs Fair Play: Understanding Both](#)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Self-Care Sunday Checklist](https://app.gethoneydew.app/lists/self-care-sunday-checklist)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+[Evening Wind-Down Routine](https://app.gethoneydew.app/lists/evening-wind-down-routine)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

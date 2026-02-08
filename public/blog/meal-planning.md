@@ -69,6 +69,9 @@ It's not about finding recipes. Pinterest has millions. The hard part is **conte
 6. **Budget** - Staying within grocery budget, minimizing waste
 7. **Skills** - Do I actually know how to make this? Is it realistic for a Tuesday night?
 
+{{HONEYDEW_EMBED:weekly-meal-plan-template}}
+
+
 Traditional meal planning requires holding all seven variables in your head simultaneously. That's why it's exhausting.
 
 **The real problem:** Your brain is trying to solve a multi-variable optimization problem every single week.
@@ -633,3 +636,25 @@ Ready to reclaim your Sunday evenings? [Try Honeydew free for 14 days](https://a
 
 Questions about meal planning? Email pete@gethoneydew.app
 
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Family Meal Planning Checklist](https://app.gethoneydew.app/lists/family-meal-planning-checklist)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Budget Meal Planning List](https://app.gethoneydew.app/lists/budget-meal-planning-list)
+
+[Healthy Meal Plan Checklist](https://app.gethoneydew.app/lists/healthy-meal-plan-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->

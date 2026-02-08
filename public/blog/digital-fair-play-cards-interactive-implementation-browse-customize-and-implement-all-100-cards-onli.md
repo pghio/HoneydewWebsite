@@ -72,6 +72,9 @@ If you've ever tried implementing Eve Rodsky's Fair Play system with physical ca
 - 🛒 Grocery Shopping (Most families)
 - 👕 Kids' Clothing (71% of families)
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Home Cards (Blue) - Property and Maintenance**:
 - 🏠 Home Maintenance (Most families)
 - 🛠️ Home Repairs (55% of families)
@@ -218,6 +221,26 @@ Digital Fair Play cards make the system work in real life, not just in theory.
 - [The Ultimate Fair Play Implementation Guide](#)
 - [CPE Framework: Fair Play's Secret Weapon](#)
 - [Fair Play for Busy Working Parents](#)
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Kids Age-Appropriate Chores](https://app.gethoneydew.app/lists/kids-age-appropriate-chores)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

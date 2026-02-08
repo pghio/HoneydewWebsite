@@ -1,7 +1,7 @@
 ---
 title: "TimeTree vs Honeydew (2026): Shared Calendar vs AI Family OS"
 slug: "timetree-vs-honeydew-complete-comparison-2026"
-publishDate: "2026-02-04"
+publishDate: "2026-03-26"
 author: "Honeydew Team"
 description: "Complete comparison of TimeTree and Honeydew. TimeTree excels at simple shared calendars; Honeydew adds AI planning, voice input, and lists. See which fits your family."
 keywords: "timetree vs honeydew, timetree alternative, timetree review, best shared calendar app, honeydew vs timetree, timetree family calendar, shared calendar comparison"
@@ -98,6 +98,9 @@ featured: false
 | Premium annual | $29.99/yr | $79/yr |
 
 **TimeTree Premium adds:** Ad removal, unlimited shared photos, event history, more customization.
+
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
 
 **Honeydew More adds:** Full AI capabilities, unlimited voice captures, priority support.
 
@@ -369,6 +372,24 @@ A: Yes. Honeydew syncs both Google and Apple calendars bi-directionally, so you 
  "articleSection": "Comparison"
 }
 ```
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

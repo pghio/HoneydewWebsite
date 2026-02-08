@@ -82,6 +82,9 @@ This happened 2-3 times per month.
 
 ## Results: Before and After AI Coordination
 
+{{HONEYDEW_EMBED:grandparent-visit-preparation}}
+
+
 | Metric | Before | After | Improvement |
 |--------|--------|-------|-------------|
 | **Weekly Coordination Calls** | 12-15 calls | 4-5 calls | **60% reduction** |
@@ -558,3 +561,23 @@ Ready to reduce coordination stress? [Try Honeydew free for 14 days](https://app
 
 Questions about multi-generational coordination? Email pete@gethoneydew.app
 
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Grandparent Visit Preparation](https://app.gethoneydew.app/lists/grandparent-visit-preparation)
+
+[Grandparent Emergency Information](https://app.gethoneydew.app/lists/grandparent-emergency-information)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Caring for Aging Parents Checklist](https://app.gethoneydew.app/lists/caring-for-aging-parents-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->

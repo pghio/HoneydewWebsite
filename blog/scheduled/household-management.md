@@ -83,6 +83,9 @@ And this doesn't count:
 
 ## Results: Before and After AI Home Management
 
+{{HONEYDEW_EMBED:weekly-house-cleaning-checklist}}
+
+
 | Metric | Before | After | Improvement |
 |--------|--------|-------|-------------|
 | **Emergency Repairs** | $3,910/year | $720/year | **70% reduction** |
@@ -641,3 +644,25 @@ Ready to prevent emergencies and save money? [Try Honeydew free for 14 days](htt
 
 Questions about home maintenance? Email pete@gethoneydew.app
 
+
+
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+[Deep Cleaning Checklist Room by Room](https://app.gethoneydew.app/lists/deep-cleaning-checklist-room-by-room)
+
+[Monthly Home Maintenance Checklist](https://app.gethoneydew.app/lists/monthly-home-maintenance-checklist)
+
+[Household Essentials Shopping List](https://app.gethoneydew.app/lists/household-essentials-shopping-list)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->

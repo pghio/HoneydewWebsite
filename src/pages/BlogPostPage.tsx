@@ -408,28 +408,32 @@ const BlogPostPage = () => {
     document.head.appendChild(script)
 
     // Add Review schema for comparison articles
+    // Google requires Review to be nested inside a supported parent type (SoftwareApplication),
+    // NOT as a top-level @type, to avoid "Invalid object type for field <parent_node>" errors.
     if (frontmatter.category === 'Comparison' && (frontmatter.slug?.includes('vs') || frontmatter.title?.toLowerCase().includes('vs'))) {
       const reviewSchema = {
         '@context': 'https://schema.org',
-        '@type': 'Review',
-        itemReviewed: {
-          '@type': 'SoftwareApplication',
-          name: 'Honeydew Family App',
-          alternateName: 'Honeydew Organizer',
-          applicationCategory: 'LifestyleApplication',
-          operatingSystem: 'iOS, Android, Web',
+        '@type': 'SoftwareApplication',
+        name: 'Honeydew Family App',
+        alternateName: 'Honeydew Organizer',
+        applicationCategory: 'LifestyleApplication',
+        operatingSystem: 'iOS, Android, Web',
+        url: 'https://www.gethoneydew.app',
+        review: {
+          '@type': 'Review',
+          reviewRating: {
+            '@type': 'Rating',
+            ratingValue: '4.8',
+            bestRating: '5',
+            worstRating: '1',
+          },
+          author: {
+            '@type': 'Person',
+            name: frontmatter.author || 'Honeydew Team',
+          },
+          reviewBody: frontmatter.description || '',
+          datePublished: frontmatter.publishDate || new Date().toISOString().split('T')[0],
         },
-        reviewRating: {
-          '@type': 'Rating',
-          ratingValue: '4.8',
-          bestRating: '5',
-        },
-        author: {
-          '@type': 'Person',
-          name: frontmatter.author || 'Honeydew Team',
-        },
-        reviewBody: frontmatter.description || '',
-        datePublished: frontmatter.publishDate || new Date().toISOString().split('T')[0],
       }
 
       const reviewScript = document.createElement('script')

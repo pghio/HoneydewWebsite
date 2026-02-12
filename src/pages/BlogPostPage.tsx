@@ -220,7 +220,7 @@ const BlogPostPage = () => {
     const articleUrl = `${baseUrl}/blog/${slug}`
     const imageUrl = frontmatter.image 
       ? `${baseUrl}${frontmatter.image}` 
-      : `${baseUrl}/og-image-ai.svg`
+      : `${baseUrl}/og-image-ai.jpg`
 
     // Set document title
     if (frontmatter.title) {
@@ -639,7 +639,7 @@ const BlogPostPage = () => {
         '@type': 'HowTo',
         name: frontmatter.title || '',
         description: frontmatter.description || '',
-        image: frontmatter.image ? `${baseUrl}${frontmatter.image}` : `${baseUrl}/og-image-ai.svg`,
+        image: frontmatter.image ? `${baseUrl}${frontmatter.image}` : `${baseUrl}/og-image-ai.jpg`,
         totalTime: frontmatter.readingTime || 'PT15M',
         estimatedCost: {
           '@type': 'MonetaryAmount',
@@ -1026,7 +1026,11 @@ const BlogPostPage = () => {
                 
                 // Images with proper alt text and lazy loading
                 img: ({node, ...props}) => {
-                  const originalSrc = typeof props.src === 'string' ? props.src : undefined
+                  let originalSrc = typeof props.src === 'string' ? props.src : undefined
+                  // Normalize relative image paths to /blog-images/ so they resolve correctly
+                  if (originalSrc && !originalSrc.startsWith('/') && !originalSrc.startsWith('http')) {
+                    originalSrc = `/blog-images/${originalSrc}`
+                  }
                   const webpSrc = getWebpSource(originalSrc)
                   return (
                     <picture>

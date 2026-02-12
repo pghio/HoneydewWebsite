@@ -194,7 +194,11 @@ const BlogPostPreviewPage = () => {
                 // Images with proper alt text and lazy loading
                 img: ({node, ...props}) => (
                   (() => {
-                    const originalSrc = typeof props.src === 'string' ? props.src : undefined
+                    let originalSrc = typeof props.src === 'string' ? props.src : undefined
+                    // Normalize relative image paths to /blog-images/ so they resolve correctly
+                    if (originalSrc && !originalSrc.startsWith('/') && !originalSrc.startsWith('http')) {
+                      originalSrc = `/blog-images/${originalSrc}`
+                    }
                     const webpSrc = getWebpSource(originalSrc)
                     return (
                       <picture>

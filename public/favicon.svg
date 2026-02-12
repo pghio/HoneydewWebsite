@@ -1,4 +1,10 @@
 <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Honeydew favicon">
-  <image href="/logo.png" x="0" y="0" width="32" height="32" />
+  <defs>
+    <linearGradient id="hg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#92C5A7" />
+      <stop offset="100%" style="stop-color:#78E6AF" />
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="6" fill="white"/>
+  <path d="M16 27 C16 27 5 19 5 13 C5 9.2 8 7 10.5 7 C13 7 15 8.5 16 9.5 C17 8.5 19 7 21.5 7 C24 7 27 9.2 27 13 C27 19 16 27 16 27Z" fill="url(#hg)"/>
 </svg>
-

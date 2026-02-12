@@ -1,0 +1,17 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grad5)"/>
+  <text x="600" y="260" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="white" text-anchor="middle">Multi-Family</text>
+  <text x="600" y="320" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="white" text-anchor="middle">Coordination</text>
+  <text x="600" y="380" font-family="Arial, sans-serif" font-size="32" fill="rgba(255,255,255,0.9)" text-anchor="middle">Connect Multiple Households</text>
+  <circle cx="400" cy="480" r="50" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="600" cy="500" r="60" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="800" cy="480" r="50" fill="rgba(255,255,255,0.3)"/>
+  <line x1="450" y1="480" x2="550" y2="500" stroke="white" stroke-width="3"/>
+  <line x1="650" y1="500" x2="750" y2="480" stroke="white" stroke-width="3"/>
+</svg>

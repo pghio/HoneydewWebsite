@@ -1,4 +1,13 @@
 <svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Honeydew logo">
-  <image href="/logo.png" x="0" y="0" width="512" height="512" />
+  <defs>
+    <linearGradient id="heartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#92C5A7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#78E6AF;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#2F3C36" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="white"/>
+  <path d="M256 430 C256 430 100 310 100 210 C100 150 148 108 200 108 C230 108 250 126 256 140 C262 126 282 108 312 108 C364 108 412 150 412 210 C412 310 256 430 256 430Z" fill="url(#heartGrad)" filter="url(#shadow)"/>
 </svg>
-

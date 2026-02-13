@@ -41,6 +41,7 @@ import HubSkylightAlternativesPage from './pages/HubSkylightAlternativesPage'
 import HubFairPlayPage from './pages/HubFairPlayPage'
 import HubCoParentingPage from './pages/HubCoParentingPage'
 import HubAIFamilyPlannerPage from './pages/HubAIFamilyPlannerPage'
+import NotFoundPage from './pages/NotFoundPage'
 
 function AppContent() {
   const location = useLocation()
@@ -101,6 +102,7 @@ function AppContent() {
           <Route path="/docs" element={<PlaceholderPage title="Documentation" description="Detailed technical documentation and API references for developers." />} />
           <Route path="/api" element={<PlaceholderPage title="API Reference" description="Complete API documentation for integrating with Honeydew." />} />
           <Route path="/community" element={<PlaceholderPage title="Community" description="Connect with other Honeydew users, share tips, and get inspired." />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </AnimatePresence>
       <CookieBanner hide={location.pathname === '/cookies' || isAppPage} />

@@ -74,6 +74,48 @@ const COMPARISON_PAGES = [
     description: 'Mango Display offers custom dashboards on $400 hardware. Honeydew delivers AI automations on every screen you own. Compare costs and features.',
     keywords: 'honeydew vs mango display, mango display alternative, family dashboard app, digital command center'
   },
+  {
+    path: '/why-honeydew/vs-dakboard',
+    title: 'Honeydew Family App vs DAKboard – AI Family OS vs DIY Display',
+    description: 'DAKboard is a customizable display. Honeydew is an AI-powered family OS that plans, organizes, and syncs across all devices. Compare features, pricing, and why families choose Honeydew over display-only solutions.',
+    keywords: 'honeydew vs dakboard, dakboard alternative, family dashboard app, smart family display, ai family calendar'
+  },
+  {
+    path: '/why-honeydew/vs-ourfamilywizard',
+    title: 'Honeydew vs OurFamilyWizard – Co-Parenting App Comparison 2025',
+    description: 'Compare Honeydew and OurFamilyWizard for co-parenting. OFW offers court documentation at $300/year. Honeydew provides AI planning, voice input, and full family organization for 74% less. See which fits your situation.',
+    keywords: 'honeydew vs ourfamilywizard, ourfamilywizard alternative, co-parenting app comparison, divorced parents calendar app, custody calendar app'
+  },
+  {
+    path: '/why-honeydew/vs-2houses',
+    title: 'Honeydew vs 2houses – AI-Powered Co-Parenting That Does More',
+    description: '2houses handles co-parent basics. Honeydew adds AI automation, voice input, and complete family organization—so you spend less time coordinating and more time with your kids.',
+    keywords: 'honeydew vs 2houses, 2houses alternative, ai co-parenting app, divorced parents calendar app, co-parenting app comparison'
+  },
+  {
+    path: '/why-honeydew/vs-fantastical',
+    title: 'Honeydew vs Fantastical – Family-First AI vs Beautiful Calendar (Cross-Platform)',
+    description: 'Fantastical is gorgeous but Apple-only and calendar-focused. Honeydew is the cross-platform AI family organizer with lists, meal planning, and multi-family coordination. Compare features, pricing, and which fits your family.',
+    keywords: 'honeydew vs fantastical, fantastical family alternative, cross-platform family calendar, ai family organizer'
+  },
+  {
+    path: '/why-honeydew/vs-picniic',
+    title: 'Honeydew vs Picniic – AI-Powered Family Organization for Large Families',
+    description: 'Picniic focuses on large families but lacks AI. Honeydew delivers AI automation, voice control, and modern design—handling big family chaos better. Compare features, pricing, and which app truly simplifies large family coordination.',
+    keywords: 'honeydew vs picniic, picniic alternative, large family app, family organization app, ai family planner'
+  },
+  {
+    path: '/why-honeydew/vs-appclose',
+    title: 'Honeydew vs AppClose – Collaborative Family Organizer vs Court Documentation App',
+    description: 'AppClose is built for court-ordered co-parenting documentation. Honeydew is an AI-powered family organizer for cooperative co-parenting and beyond. Compare features, pricing ($79 vs $215/year), and find the right fit.',
+    keywords: 'honeydew vs appclose, appclose alternative, co-parenting app, divorced parents app, custody app comparison'
+  },
+  {
+    path: '/why-honeydew/vs-magicmirror',
+    title: 'Honeydew Family App vs MagicMirror – AI Family OS vs DIY Smart Mirror',
+    description: 'MagicMirror requires coding and DIY hardware. Honeydew is the AI-first family OS that works instantly on all your devices. Compare automation, setup time, and how Honeydew handles voice, AI planning, and multi-family coordination.',
+    keywords: 'honeydew vs magicmirror, magicmirror alternative, smart mirror family, diy family calendar, ai family app'
+  },
 ];
 
 // Read the base index.html template

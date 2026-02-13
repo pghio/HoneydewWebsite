@@ -20,6 +20,7 @@ const PlaceholderPage = ({ title, description, comingSoon = true }: PlaceholderP
     keywords: `${title.toLowerCase()} honeydew, honeydew ${title.toLowerCase()} resources, honeydew coming soon`,
     image: '/blog-images/honeydew-ai-agent.jpg',
     type: 'website',
+    noindex: true,
   })
 
   return (

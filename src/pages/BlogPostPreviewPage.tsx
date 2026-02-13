@@ -5,6 +5,7 @@ import remarkGfm from 'remark-gfm'
 import { motion } from 'framer-motion'
 import { ArrowLeft, Calendar, Tag } from 'lucide-react'
 import ListEmbedCard from '../components/ListEmbedCard'
+import { useSEO } from '../utils/useSEO'
 
 const getWebpSource = (src?: string): string | null => {
   if (!src) return null
@@ -22,6 +23,12 @@ const BlogPostPreviewPage = () => {
   const [content, setContent] = useState('')
   const [frontmatter, setFrontmatter] = useState<any>(null)
   const [loading, setLoading] = useState(true)
+
+  useSEO({
+    title: 'Preview — Honeydew Family App',
+    description: 'Blog post preview page.',
+    noindex: true,
+  })
 
   useEffect(() => {
     const loadArticle = async () => {

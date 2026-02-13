@@ -32,6 +32,13 @@ const COMPARISON_SLUGS = [
   'vs-echoshow',
   'vs-google',
   'vs-mango',
+  'vs-dakboard',
+  'vs-ourfamilywizard',
+  'vs-2houses',
+  'vs-fantastical',
+  'vs-picniic',
+  'vs-appclose',
+  'vs-magicmirror',
 ];
 
 function formatDate(date) {
@@ -255,7 +262,7 @@ export function generateSitemapFile({
 
   fs.writeFileSync(outputPath, xml);
 
-  const staticUrlCount = 30;
+  const staticUrlCount = 37;
   const totalUrls = publishedSorted.length + staticUrlCount;
 
   if (log) {
@@ -264,7 +271,7 @@ export function generateSitemapFile({
     log.log(`   Published articles: ${publishedSorted.length}`);
     log.log(`   Scheduled articles: ${scheduledSorted.length}`);
     log.log(`   Total blog articles: ${articleSource.length}`);
-    log.log('   Why Honeydew pages: 8');
+    log.log('   Why Honeydew pages: 15');
     log.log('   Legal/Support pages: 5');
     log.log('   LLM indexing files: 2');
     log.log('   ─────────────────────────────');

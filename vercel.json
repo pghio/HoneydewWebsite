@@ -58,9 +58,81 @@
         { "key": "CDN-Cache-Control", "value": "public, max-age=0, must-revalidate" },
         { "key": "Vercel-CDN-Cache-Control", "value": "public, max-age=0, must-revalidate" }
       ]
+    },
+    {
+      "source": "/blog/:slug*.md",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+      ]
+    },
+    {
+      "source": "/blog-manifest.json",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+      ]
     }
   ],
   "redirects": [
+    {
+      "source": "/blog/best-voice-controlled-family-organization-apps-2025",
+      "destination": "/blog/best-voice-controlled-family-apps-2025",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-apps-multi-family-coordination-2025",
+      "destination": "/blog/best-apps-for-coordinating-multi-family-groups-2025",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honeydew-vs-maple-comparison",
+      "destination": "/blog/honeydew-vs-maple-ai-family-apps-compared-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honeydew-vs-cozi-comparison-2025",
+      "destination": "/blog/honeydew-vs-cozi-complete-comparison-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-family-organization-apps-2025",
+      "destination": "/blog/best-family-organization-apps-2026-the-complete-guide-20-apps-tested-ranked",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honeydew-vs-timetree-comparison",
+      "destination": "/blog/honeydew-vs-timetree-complete-comparison-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honeydew-vs-skylight-calendar",
+      "destination": "/blog/honeydew-vs-skylight-calendar-complete-comparison-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honeydew-vs-ourfamilywizard-comparison-2025",
+      "destination": "/blog/honeydew-vs-ourfamilywizard-comparison-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/honeydew-vs-talking-parents-comparison-2025",
+      "destination": "/blog/honeydew-vs-talking-parents-co-parenting-communication-2026",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-ai-calendar-apps-for-families-2025",
+      "destination": "/blog/best-family-calendar-apps-with-ai-in-2026-ranked-tested",
+      "permanent": true
+    },
+    {
+      "source": "/blog/best-family-apps-divorced-parents-2025",
+      "destination": "/blog/best-apps-for-divorced-parents-2026-complete-guide-by-category",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cozi-gold-price-2025-is-it-worth-29-99-year-honest-review",
+      "destination": "/blog/cozi-gold-price-2026-worth-it-honest-review",
+      "permanent": true
+    },
     {
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "gethoneydew.app" }],
@@ -72,22 +144,24 @@
       "has": [{ "type": "host", "value": "honeydew.app" }],
       "destination": "https://www.gethoneydew.app/$1",
       "permanent": true
+    },
+    {
+      "source": "/alternatives",
+      "destination": "/compare",
+      "permanent": true
     }
   ],
   "rewrites": [
     { "source": "/lists/:path*", "destination": "https://app.gethoneydew.app/lists/:path*" },
-    { "source": "/sitemap.xml", "destination": "https://app.gethoneydew.app/sitemap.xml" },
     { "source": "/sitemap-public-lists.xml", "destination": "https://app.gethoneydew.app/sitemap-public-lists.xml" },
     { "source": "/.llms.txt", "destination": "https://app.gethoneydew.app/.llms.txt" },
     { "source": "/.llms-full.txt", "destination": "https://app.gethoneydew.app/.llms-full.txt" },
-    { "source": "/robots.txt", "destination": "https://app.gethoneydew.app/robots.txt" },
     { "source": "/app", "destination": "/index.html" },
     { "source": "/blog", "destination": "/index.html" },
     { "source": "/blog/:slug*", "destination": "/index.html" },
     { "source": "/blog-preview", "destination": "/index.html" },
     { "source": "/blog-preview/:slug*", "destination": "/index.html" },
     { "source": "/compare", "destination": "/index.html" },
-    { "source": "/alternatives", "destination": "/index.html" },
     { "source": "/disambiguation", "destination": "/index.html" },
     { "source": "/about", "destination": "/index.html" },
     { "source": "/press", "destination": "/index.html" },

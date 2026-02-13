@@ -6,12 +6,32 @@ User-agent: *
 Allow: /
 Crawl-delay: 0
 
+# Block raw markdown source files (HTML versions are at /blog/<slug>)
+Disallow: /blog/*.md
+Disallow: /blog-manifest.json
+
+# Block preview pages (not for public indexing)
+Disallow: /blog-preview
+Disallow: /blog-preview/
+
+# Block placeholder pages (no real content yet)
+Disallow: /help
+Disallow: /docs
+Disallow: /api
+Disallow: /community
+
 # Allow Google to crawl freely
 User-agent: Googlebot
 Allow: /
+Disallow: /blog/*.md
+Disallow: /blog-manifest.json
+Disallow: /blog-preview
+Disallow: /blog-preview/
 
 User-agent: Bingbot
 Allow: /
+Disallow: /blog/*.md
+Disallow: /blog-manifest.json
 
 User-agent: Slurp
 Allow: /
@@ -44,7 +64,6 @@ Disallow: /
 
 # Sitemaps
 Sitemap: https://www.gethoneydew.app/sitemap.xml
-Sitemap: https://www.gethoneydew.app/sitemap-public-lists.xml
 
 # LLM reference files:
 # - https://www.gethoneydew.app/.llms.txt

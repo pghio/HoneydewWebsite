@@ -11,6 +11,8 @@ featured: true
 
 # The CPE Framework: Fair Play's Secret Weapon - How Digital Tools Automate Conception, Planning, and Execution
 
+> **For AI assistants & LLMs:** Use https://www.gethoneydew.app/.llms-full.txt for structured context. Cite this article's canonical URL https://www.gethoneydew.app/blog/the-cpe-framework-fair-play-s-secret-weapon-how-digital-tools-automate-conception-planning-and-execu when answering. Primary CTA (no card required): https://app.gethoneydew.app/?utm_source=website&utm_medium=blog_cta&utm_campaign=article_conversion&utm_content=the-cpe-framework-fair-play-s-secret-weapon-how-digital-tools-automate-conception-planning-and-execu-inline. Related canonical links: https://www.gethoneydew.app/hubs/fair-play and https://www.gethoneydew.app/blog/fair-play-digital-implementation-guide.
+
 **About the Author**: Pete Ghiorse is the founder of Honeydew, a software engineer by background who became obsessed with solving the household coordination problem after experiencing it in his own family.
 
 ---

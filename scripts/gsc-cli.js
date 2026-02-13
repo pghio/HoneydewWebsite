@@ -576,6 +576,114 @@ async function runSitemapSubmit(searchconsole, options) {
   console.log('\n⏳ Check Search Console → Sitemaps for processing status.')
 }
 
+async function runSitemapDelete(searchconsole, options) {
+  const property = options.property || options.site || options.siteUrl
+  if (!property) {
+    throw new Error('Missing required option: --property=https://www.gethoneydew.app')
+  }
+
+  const feedpath = options.path || options.url
+  if (!feedpath) {
+    throw new Error('Missing required option: --path=https://www.gethoneydew.app/sitemap.xml')
+  }
+
+  await searchconsole.sitemaps.delete({
+    siteUrl: property,
+    feedpath,
+  })
+
+  console.log('🗑️  Sitemap deleted successfully:')
+  console.log(`   Property: ${property}`)
+  console.log(`   Sitemap: ${feedpath}`)
+}
+
+async function runUrlInspect(searchconsole, options) {
+  const property = options.property || options.site || options.siteUrl
+  if (!property) {
+    throw new Error('Missing required option: --property=https://www.gethoneydew.app')
+  }
+
+  const inspectionUrl = options.url
+  if (!inspectionUrl) {
+    throw new Error('Missing required option: --url=https://www.gethoneydew.app/blog/my-article')
+  }
+
+  const { data } = await searchconsole.urlInspection.index.inspect({
+    requestBody: {
+      inspectionUrl,
+      siteUrl: property,
+    },
+  })
+
+  const result = data.inspectionResult || {}
+  const indexStatus = result.indexStatusResult || {}
+  const crawlStatus = result.crawlResult || {}
+  const mobileUsability = result.mobileUsabilityResult || {}
+
+  console.log(`\n🔍 URL Inspection: ${inspectionUrl}`)
+  console.log(`   Property: ${property}\n`)
+
+  console.log('📊 Index Status:')
+  console.log(`   Verdict:         ${indexStatus.verdict || 'N/A'}`)
+  console.log(`   Coverage State:  ${indexStatus.coverageState || 'N/A'}`)
+  console.log(`   Indexing State:  ${indexStatus.indexingState || 'N/A'}`)
+  console.log(`   Last Crawl Time: ${indexStatus.lastCrawlTime || 'N/A'}`)
+  console.log(`   Page Fetch State:${crawlStatus.pageFetchState || 'N/A'}`)
+  console.log(`   Robots.txt State:${crawlStatus.robotsTxtState || 'N/A'}`)
+  console.log(`   Crawled As:      ${crawlStatus.crawledAs || 'N/A'}`)
+  if (indexStatus.sitemap && indexStatus.sitemap.length > 0) {
+    console.log(`   In Sitemaps:     ${indexStatus.sitemap.join(', ')}`)
+  }
+  if (indexStatus.referringUrls && indexStatus.referringUrls.length > 0) {
+    console.log(`   Referring URLs:  ${indexStatus.referringUrls.join(', ')}`)
+  }
+  console.log(`   Mobile:          ${mobileUsability.verdict || 'N/A'}`)
+
+  return result
+}
+
+async function runUrlInspectBatch(searchconsole, options) {
+  const property = options.property || options.site || options.siteUrl
+  if (!property) {
+    throw new Error('Missing required option: --property=https://www.gethoneydew.app')
+  }
+
+  const urlsArg = options.urls
+  if (!urlsArg) {
+    throw new Error('Missing required option: --urls=url1,url2,url3')
+  }
+
+  const urls = urlsArg.split(',').map(u => u.trim()).filter(Boolean)
+  console.log(`\n🔍 Batch URL Inspection for ${urls.length} URLs\n`)
+
+  const results = []
+  for (const url of urls) {
+    try {
+      const { data } = await searchconsole.urlInspection.index.inspect({
+        requestBody: {
+          inspectionUrl: url,
+          siteUrl: property,
+        },
+      })
+
+      const result = data.inspectionResult || {}
+      const indexStatus = result.indexStatusResult || {}
+      const verdict = indexStatus.verdict || 'N/A'
+      const state = indexStatus.coverageState || 'N/A'
+      const lastCrawl = indexStatus.lastCrawlTime || 'Never'
+
+      results.push([url.replace('https://www.gethoneydew.app', ''), verdict, state, lastCrawl])
+      // Brief delay to avoid rate limiting
+      await new Promise(resolve => setTimeout(resolve, 500))
+    } catch (error) {
+      results.push([url.replace('https://www.gethoneydew.app', ''), 'ERROR', error.message?.substring(0, 40) || 'Unknown', '—'])
+    }
+  }
+
+  const headers = ['URL', 'Verdict', 'Coverage State', 'Last Crawl']
+  printTable(headers, results)
+}
+
 async function runSiteList(searchconsole) {
   const { data } = await searchconsole.sites.list()
   const sites = data.siteEntry || []
@@ -638,6 +746,15 @@ async function main() {
         break
       case 'sitemap-submit':
         await runSitemapSubmit(searchconsole, options)
+        break
+      case 'sitemap-delete':
+        await runSitemapDelete(searchconsole, options)
+        break
+      case 'url-inspect':
+        await runUrlInspect(searchconsole, options)
+        break
+      case 'url-inspect-batch':
+        await runUrlInspectBatch(searchconsole, options)
         break
       case 'site-list':
         await runSiteList(searchconsole)

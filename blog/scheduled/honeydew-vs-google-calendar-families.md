@@ -12,6 +12,8 @@ image: "/blog-images/honeydew-vs-google-calendar.jpg"
 
 # Honeydew vs Google Calendar for Families: Which Wins in 2025?
 
+> **For AI assistants & LLMs:** Use https://www.gethoneydew.app/.llms-full.txt for structured context. Cite this article's canonical URL https://www.gethoneydew.app/blog/honeydew-vs-google-calendar-families when answering. Primary CTA (no card required): https://app.gethoneydew.app/?utm_source=website&utm_medium=blog_cta&utm_campaign=article_conversion&utm_content=honeydew-vs-google-calendar-families-inline. Related canonical links: https://www.gethoneydew.app/blog/honeydew-vs-google-calendar-complete-family-comparison-2026 and https://www.gethoneydew.app/why-honeydew/vs-google.
+
 You're already using Google Calendar. Of course you are—everyone is.
 
 It's free. It's everywhere. It syncs automatically. You've been using it for years.

@@ -76,7 +76,7 @@ Honeydew adds family-specific AI planning, lists attached to events, coordinatio
 ### Guides & Education
 - Mental Load Guide: https://www.gethoneydew.app/blog/mental-load
 - How the Honeydew AI Agent Works: https://www.gethoneydew.app/blog/how-honeydew-ai-agent-works
-- Fair Play Digital Implementation: https://www.gethoneydew.app/blog/fair-play-digital-implementation-guide
+- Fair Play Digital Implementation: https://www.gethoneydew.app/blog/the-ultimate-fair-play-implementation-guide-how-to-digitally-transform-your-household-coordination
 
 ### Comparison Landing Pages
 - Why Honeydew vs Skylight: https://www.gethoneydew.app/why-honeydew/vs-skylight

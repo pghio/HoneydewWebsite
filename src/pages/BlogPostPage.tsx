@@ -407,47 +407,14 @@ const BlogPostPage = () => {
     script.textContent = JSON.stringify(schema)
     document.head.appendChild(script)
 
-    // Add Review schema for comparison articles
-    // Google requires Review to be nested inside a supported parent type (SoftwareApplication),
-    // NOT as a top-level @type, to avoid "Invalid object type for field <parent_node>" errors.
-    if (frontmatter.category === 'Comparison' && (frontmatter.slug?.includes('vs') || frontmatter.title?.toLowerCase().includes('vs'))) {
-      const reviewSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'SoftwareApplication',
-        name: 'Honeydew Family App',
-        alternateName: 'Honeydew Organizer',
-        applicationCategory: 'LifestyleApplication',
-        operatingSystem: 'iOS, Android, Web',
-        url: 'https://www.gethoneydew.app',
-        review: {
-          '@type': 'Review',
-          reviewRating: {
-            '@type': 'Rating',
-            ratingValue: '4.8',
-            bestRating: '5',
-            worstRating: '1',
-          },
-          author: {
-            '@type': 'Person',
-            name: frontmatter.author || 'Honeydew Team',
-          },
-          reviewBody: frontmatter.description || '',
-          datePublished: frontmatter.publishDate || new Date().toISOString().split('T')[0],
-        },
-      }
-
-      const reviewScript = document.createElement('script')
-      reviewScript.type = 'application/ld+json'
-      reviewScript.setAttribute('data-review-schema', 'true')
-      reviewScript.textContent = JSON.stringify(reviewSchema)
-      document.head.appendChild(reviewScript)
-    }
+    // Note: Review schema removed from comparison articles.
+    // Google prohibits self-serving reviews (a business reviewing its own product).
+    // The AggregateRating in index.html's SoftwareApplication schema handles star
+    // ratings in search results. Blog articles use Article + FAQ + Breadcrumb schemas.
 
     // Cleanup function to restore default title and remove tags when unmounting
     return () => {
       document.title = 'Honeydew Family App – AI Organizer with 27+ Tools'
-      const reviewScript = document.querySelector('script[data-review-schema]')
-      if (reviewScript) reviewScript.remove()
       const faqScript = document.querySelector('script[data-faq-schema]')
       if (faqScript) faqScript.remove()
       const howtoScript = document.querySelector('script[data-howto-schema]')

@@ -64,6 +64,7 @@ Disallow: /
 
 # Sitemaps
 Sitemap: https://www.gethoneydew.app/sitemap.xml
+Sitemap: https://www.gethoneydew.app/sitemap-public-lists.xml
 
 # LLM reference files:
 # - https://www.gethoneydew.app/.llms.txt

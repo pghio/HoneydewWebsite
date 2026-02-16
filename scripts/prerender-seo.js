@@ -275,15 +275,13 @@ async function main() {
   
   let prerenderedCount = 0;
   
-  // Prerender blog posts
-  console.log(`📝 Prerendering ${articles.length} blog posts...`);
+  // Prerender blog posts (all articles, including future-dated ones)
+  // This ensures Vercel returns 200 for all blog URLs, letting the SPA handle unpublished content
+  console.log(`📝 Prerendering ${articles.length} blog posts (including scheduled)...`);
   
-  const now = new Date();
   for (const article of articles) {
-    // Only prerender published articles
-    if (article.publishDate && new Date(article.publishDate) > now) {
-      continue;
-    }
+    // Prerender ALL articles to avoid 404s from Vercel
+    // The React app will check publishDate and show appropriate content
     
     const pagePath = `/blog/${article.slug}`;
     const title = `${article.title} | Honeydew Family App Blog`;
@@ -392,6 +390,36 @@ async function main() {
       title: 'Honeydew Family App — Disambiguation (Not honeydew.ai)',
       description: 'Clarifies the difference between Honeydew Family App and the unrelated honeydew.ai data platform.',
       keywords: 'Honeydew disambiguation, honeydew.ai not related',
+    },
+    {
+      path: '/cookies',
+      title: 'Cookie Policy — Honeydew Family App',
+      description: 'Cookie policy for Honeydew Family App. Learn how we use cookies to improve your experience.',
+      keywords: 'Honeydew cookies, cookie policy',
+    },
+    {
+      path: '/privacy',
+      title: 'Privacy Policy — Honeydew Family App',
+      description: 'Privacy policy for Honeydew Family App. Learn how we protect and handle your family data.',
+      keywords: 'Honeydew privacy, privacy policy',
+    },
+    {
+      path: '/terms',
+      title: 'Terms of Service — Honeydew Family App',
+      description: 'Terms of service for Honeydew Family App.',
+      keywords: 'Honeydew terms, terms of service',
+    },
+    {
+      path: '/security',
+      title: 'Security — Honeydew Family App',
+      description: 'Security practices and data protection at Honeydew Family App.',
+      keywords: 'Honeydew security, data security',
+    },
+    {
+      path: '/support',
+      title: 'Support — Honeydew Family App',
+      description: 'Get help with Honeydew Family App. Contact support, FAQs, and troubleshooting.',
+      keywords: 'Honeydew support, help, contact',
     },
   ];
   

@@ -31,6 +31,7 @@ import VsFantasticalPage from './pages/VsFantasticalPage'
 import VsAppClosePage from './pages/VsAppClosePage'
 import VsMagicMirrorPage from './pages/VsMagicMirrorPage'
 import CookieBanner from './components/CookieBanner'
+import ChatWidget from './components/ChatWidget'
 import ComparisonsHubPage from './pages/ComparisonsHubPage'
 import DisambiguationPage from './pages/DisambiguationPage'
 import AboutPage from './pages/AboutPage'
@@ -106,6 +107,7 @@ function AppContent() {
         </Routes>
       </AnimatePresence>
       <CookieBanner hide={location.pathname === '/cookies' || isAppPage} />
+      {!isAppPage && <ChatWidget />}
     </div>
   )
 }

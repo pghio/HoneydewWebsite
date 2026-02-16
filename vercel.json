@@ -152,6 +152,7 @@
     }
   ],
   "rewrites": [
+    { "source": "/api/public/:path*", "destination": "https://app.gethoneydew.app/api/public/:path*" },
     { "source": "/lists/:path*", "destination": "https://app.gethoneydew.app/lists/:path*" },
     { "source": "/sitemap-public-lists.xml", "destination": "https://app.gethoneydew.app/sitemap-public-lists.xml" },
     { "source": "/.llms.txt", "destination": "https://app.gethoneydew.app/.llms.txt" },

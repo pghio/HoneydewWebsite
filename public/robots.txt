@@ -14,6 +14,13 @@ Disallow: /blog-manifest.json
 Disallow: /blog-preview
 Disallow: /blog-preview/
 
+# Block URLs with tracking/gate parameters (reduce crawl budget waste)
+Disallow: /*?ref=value_gate*
+Disallow: /*?action=copy*
+Disallow: /*?utm_source=*
+Disallow: /*?utm_medium=*
+Disallow: /*?utm_campaign=*
+
 # Block placeholder pages (no real content yet)
 Disallow: /help
 Disallow: /docs

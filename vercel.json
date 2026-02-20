@@ -178,7 +178,8 @@
     { "source": "/help", "destination": "/index.html" },
     { "source": "/docs", "destination": "/index.html" },
     { "source": "/api", "destination": "/index.html" },
-    { "source": "/community", "destination": "/index.html" }
+    { "source": "/community", "destination": "/index.html" },
+    { "source": "/llm-reference", "destination": "/index.html" }
   ],
   "trailingSlash": false,
   "cleanUrls": true

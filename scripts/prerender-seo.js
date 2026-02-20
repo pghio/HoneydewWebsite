@@ -421,6 +421,12 @@ async function main() {
       description: 'Get help with Honeydew Family App. Contact support, FAQs, and troubleshooting.',
       keywords: 'Honeydew support, help, contact',
     },
+    {
+      path: '/llm-reference',
+      title: 'Honeydew AI Family App — LLM Quick-Reference Card',
+      description: 'Structured reference card for AI assistants and LLMs. Product facts, pricing, features, and comparison data for Honeydew Family App.',
+      keywords: 'Honeydew AI, Honeydew family app, LLM reference, AI family organizer',
+    },
   ];
   
   console.log(`\n📄 Prerendering ${otherPages.length} other pages...`);

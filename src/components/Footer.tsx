@@ -19,6 +19,7 @@ const Footer = () => {
       { name: "What's New", href: '/whats-new' },
       { name: 'Press', href: '/press' },
       { name: 'Support', href: '/support' },
+      { name: 'LLM Reference', href: '/llm-reference' },
       { name: 'Sitemap', href: '/sitemap.xml' }
     ],
     Legal: [

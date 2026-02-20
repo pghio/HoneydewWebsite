@@ -1,10 +1,10 @@
 ---
-title: "6 Best AI Family Calendar Apps 2025 | Voice Control & Smart Scheduling"
+title: "6 Best AI Family Calendar Apps (2026) — Voice Control & Smart Scheduling"
 slug: "best-ai-calendar-apps-for-families-2025"
 publishDate: "2025-10-28"
 author: "Honeydew Team"
-description: "The 6 best AI calendar apps for families in 2025. Voice control, automatic scheduling, and Google/Apple sync. Comparison table + pricing inside."
-keywords: "AI family calendar, smart family calendar app, best AI calendar apps for families, AI family scheduler, intelligent family coordination calendar, family calendar with AI, AI-powered family planner, best AI calendar apps 2025"
+description: "The 6 best AI calendar apps for families in 2026, tested and ranked. Voice control, auto-scheduling, Google/Apple sync. Comparison table + pricing."
+keywords: "AI family calendar, AI family calendar 2026, best AI calendar apps for families 2026, smart family calendar app, AI family scheduler, intelligent family coordination calendar, family calendar with AI, AI-powered family planner, best AI calendar apps"
 category: "Comparison"
 featured: true
 image: "/blog-images/ai-calendar-apps-families.jpg"

@@ -1,10 +1,10 @@
 ---
-title: "Best Apps for Coordinating Multiple Family Groups in 2025 (Divorced Parents, Extended Family)"
+title: "Best Multi-Family Coordination Apps (2026) — Divorced Parents & Extended Family"
 slug: "best-apps-for-coordinating-multi-family-groups-2025"
 publishDate: "2025-11-11"
 author: "Honeydew Team"
-description: "Find the best apps for coordinating across multiple family groups. Compare Honeydew's multi-family architecture vs Cozi, TimeTree, and others for divorced parents, extended family care, and friend groups. Features, pricing, and real use cases."
-keywords: "multi-family coordination app, divorced parents app, coordinate between two households, extended family app, blended family app, multiple family groups app, co-parenting app"
+description: "Coordinate across divorced households, extended family, and blended families. We compare 7 multi-family apps with real use cases. Pricing + features table."
+keywords: "multi-family coordination app, multi-family coordination app 2026, best apps for divorced parents, coordinate between two households, extended family app, blended family app, multiple family groups app, co-parenting app"
 category: "Comparison"
 featured: true
 ---

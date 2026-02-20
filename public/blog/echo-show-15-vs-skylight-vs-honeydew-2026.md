@@ -1,7 +1,7 @@
 ---
 title: "Echo Show 15 vs Skylight vs Honeydew: Family Display Battle 2026"
 slug: "echo-show-15-vs-skylight-vs-honeydew-2026"
-publishDate: "2026-03-19"
+publishDate: "2026-03-09"
 author: "Honeydew Team"
 description: "Three different approaches to family calendars: Amazon's smart display, Skylight's dedicated hardware, or Honeydew's AI software on any screen. Compare costs, features, and find the best fit for your family."
 keywords: "echo show 15 vs skylight, family display comparison, alexa family calendar, skylight calendar alternative, echo show family calendar, best family calendar display 2026"
@@ -67,9 +67,6 @@ Honeydew's approach: build the smartest family coordination software possible, t
 | Generate lists by voice | ⚠️ Alexa lists only | ❌ | ✅ AI-generated |
 | Hands-free cooking help | ✅ Alexa recipes | ❌ | ✅ + meal planning |
 | Works while driving | ⚠️ Via phone app | ❌ | ✅ |
-
-{{HONEYDEW_EMBED:family-chore-chart-checklist}}
-
 
 **Echo Show 15:** "Alexa, add soccer practice to my calendar." Works for basic additions but can't handle complex requests like "plan next week's meals based on what's on sale."
 
@@ -310,10 +307,10 @@ They're different needs. Some families want both in one device. Others prefer a 
 **With Honeydew:**
 1. "Plan a beach trip to Rehoboth August 15-20 with packing list for 2 adults and 3 kids ages 4, 7, and 10"
 2. Honeydew generates:
- - Calendar event for August 15-20
- - Packing list tailored to beach trips (sunscreen, sand toys, swimsuits by person)
- - Activity suggestions for the dates
- - Items categorized by who's responsible
+   - Calendar event for August 15-20
+   - Packing list tailored to beach trips (sunscreen, sand toys, swimsuits by person)
+   - Activity suggestions for the dates
+   - Items categorized by who's responsible
 3. Packing list is attached to the trip event
 4. Spouse sees it instantly via shared family group
 5. "Add beach chairs and cooler" → Done
@@ -545,7 +542,7 @@ Here's the core insight: **Honeydew + any tablet does more than either dedicated
 **A:** No. Alexa can add events and set reminders, but it can't:
 - Generate packing lists from a trip description
 - Create meal plans and grocery lists
-- Detect scheduling conflicts intelligently 
+- Detect scheduling conflicts intelligently  
 - Support multi-family groups
 - Attach lists to calendar events
 - Learn your family's preferences over time
@@ -654,48 +651,30 @@ You might find you don't need dedicated display hardware at all—or you might w
 
 ```json
 {
- "@context": "https://schema.org",
- "@type": "Article",
- "headline": "Echo Show 15 vs Skylight vs Honeydew: Family Display Battle 2026",
- "description": "Three different approaches to family calendars: Amazon's smart display, Skylight's dedicated hardware, or Honeydew's AI software on any screen. Compare costs, features, and find the best fit for your family.",
- "image": "https://www.gethoneydew.app/og-image-ai.jpg",
- "author": {
- "@type": "Organization",
- "name": "Honeydew"
- },
- "publisher": {
- "@type": "Organization",
- "name": "Honeydew",
- "logo": {
- "@type": "ImageObject",
- "url": "https://www.gethoneydew.app/logo.png"
- }
- },
- "datePublished": "2026-02-03",
- "dateModified": "2026-02-03",
- "mainEntityOfPage": "https://www.gethoneydew.app/blog/echo-show-15-vs-skylight-vs-honeydew-2026",
- "keywords": "echo show 15 vs skylight, family display comparison, alexa family calendar, skylight calendar alternative, best family calendar display",
- "articleSection": "Comparison"
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Echo Show 15 vs Skylight vs Honeydew: Family Display Battle 2026",
+  "description": "Three different approaches to family calendars: Amazon's smart display, Skylight's dedicated hardware, or Honeydew's AI software on any screen. Compare costs, features, and find the best fit for your family.",
+  "image": "https://www.gethoneydew.app/og-image-ai.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "Honeydew"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Honeydew",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.gethoneydew.app/logo.png"
+    }
+  },
+  "datePublished": "2026-02-03",
+  "dateModified": "2026-02-03",
+  "mainEntityOfPage": "https://www.gethoneydew.app/blog/echo-show-15-vs-skylight-vs-honeydew-2026",
+  "keywords": "echo show 15 vs skylight, family display comparison, alexa family calendar, skylight calendar alternative, best family calendar display",
+  "articleSection": "Comparison"
 }
 ```
-
-
-
----
-
-<!-- HONEYDEW-LIST-CROSSLINKS -->
-## Browse Related Checklists & Templates
-
-Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
-
-[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
-
-[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
-
-[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
-
-**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
-<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 
@@ -760,20 +739,20 @@ Looking for ready-to-use lists you can customize and share with your family? Hon
 ## Quick Decision Tree
 
 1. **Is smart home control your primary need?**
- - Yes → Echo Show 15
- - No → Continue
+   - Yes → Echo Show 15
+   - No → Continue
 
 2. **Is wall display aesthetics your top priority?**
- - Yes → Skylight
- - No → Continue
+   - Yes → Skylight
+   - No → Continue
 
 3. **Do you need AI planning or multi-family support?**
- - Yes → Honeydew
- - No → Any option works
+   - Yes → Honeydew
+   - No → Any option works
 
 4. **Are you budget-conscious?**
- - Yes → Honeydew (free or $79/year)
- - No → Choose based on other priorities
+   - Yes → Honeydew (free or $79/year)
+   - No → Choose based on other priorities
 
 ---
 

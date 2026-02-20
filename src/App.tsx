@@ -42,6 +42,7 @@ import HubSkylightAlternativesPage from './pages/HubSkylightAlternativesPage'
 import HubFairPlayPage from './pages/HubFairPlayPage'
 import HubCoParentingPage from './pages/HubCoParentingPage'
 import HubAIFamilyPlannerPage from './pages/HubAIFamilyPlannerPage'
+import LlmReferencePage from './pages/LlmReferencePage'
 import NotFoundPage from './pages/NotFoundPage'
 
 function AppContent() {
@@ -75,6 +76,7 @@ function AppContent() {
           <Route path="/hubs/fair-play" element={<HubFairPlayPage />} />
           <Route path="/hubs/co-parenting" element={<HubCoParentingPage />} />
           <Route path="/hubs/ai-family-planner" element={<HubAIFamilyPlannerPage />} />
+          <Route path="/llm-reference" element={<LlmReferencePage />} />
           <Route path="/blog" element={<BlogListPage />} />
           <Route path="/blog/:slug" element={<BlogPostPage />} />
           <Route path="/blog-preview" element={<BlogPreviewPage />} />

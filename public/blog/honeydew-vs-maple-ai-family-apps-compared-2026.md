@@ -1,7 +1,7 @@
 ---
 title: "Honeydew vs Maple: AI Family Apps Compared 2026"
 slug: "honeydew-vs-maple-ai-family-apps-compared-2026"
-publishDate: "2026-03-05"
+publishDate: "2026-04-13"
 author: "Honeydew Team"
 description: "In-depth comparison of Honeydew vs Maple for family organization. Both offer AI features, but they approach family coordination differently. See which AI-powered family app fits your needs."
 keywords: "maple app review, maple vs honeydew, AI family app comparison, maple family app, honeydew vs maple 2026, best AI family organizer, maple family organizer review"
@@ -77,9 +77,6 @@ This shared foundation is why comparing them requires nuance. They're playing th
 ## What is Maple?
 
 **Maple** (growmaple.com) is an AI-powered family organizer that positions itself as a "Family Operating System." It's structured, comprehensive, and particularly strong in meal planning and household management.
-
-{{HONEYDEW_EMBED:family-chore-chart-checklist}}
-
 
 ### Maple's Core Philosophy
 
@@ -336,11 +333,11 @@ Modern families are complicated. 50% of marriages involve divorce or remarriage.
 - Instant switching (<1 second)
 - Privacy between groups by default
 - Examples:
- - "Kids - Mom & Dad" (co-parenting)
- - "Dad's House" (private)
- - "Mom's House" (private)
- - "Grandparents" (extended family)
- - "Soccer Carpool" (community)
+  - "Kids - Mom & Dad" (co-parenting)
+  - "Dad's House" (private)
+  - "Mom's House" (private)
+  - "Grandparents" (extended family)
+  - "Soccer Carpool" (community)
 
 **Real-world scenario:**
 
@@ -794,7 +791,7 @@ Works, but no privacy between households.
 
 **With Honeydew:**
 1. Create "Kids - Both Parents" shared group
-2. Create "Mom's House" private group 
+2. Create "Mom's House" private group  
 3. Create "Dad's House" private group
 4. Add handoff to shared group
 5. Each parent adds private prep notes to their group
@@ -985,26 +982,6 @@ This is genuinely a closer comparison than most of our competitor articles. Mapl
 - [Best AI Family Apps 2026](/blog/best-ai-family-apps-2026)
 - [Best Family Organization Apps 2026](/blog/best-family-organization-apps-2026)
 - [Compare All Family Apps](/compare)
-
-
-
----
-
-<!-- HONEYDEW-LIST-CROSSLINKS -->
-## Browse Related Checklists & Templates
-
-Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
-
-[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
-
-[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
-
-[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
-
-[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
-
-**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
-<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

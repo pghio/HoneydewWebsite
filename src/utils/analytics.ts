@@ -79,6 +79,12 @@ const LLM_REFERRER_HOSTS = [
   'phind.com',
   'gemini.google.com',
   'copilot.microsoft.com',
+  'bing.com',
+  'meta.ai',
+  'deepseek.com',
+  'chat.deepseek.com',
+  'grok.x.ai',
+  'huggingface.co',
 ]
 
 const isLlmHost = (host: string): boolean => {
@@ -135,6 +141,9 @@ export const trackLlmReferralOnce = (): void => {
     event_category: 'acquisition',
     referrer,
     referrer_host: referrerHost,
+    llm_source: referrerHost || utmSource || 'unknown',
+    landing_page: win.location.pathname,
+    landing_url: win.location.href,
     utm_source: utmSource,
     utm_medium: utmMedium,
     utm_campaign: utmCampaign,

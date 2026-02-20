@@ -412,6 +412,9 @@ async function runSources(client, propertyId, options) {
           { filter: { fieldName: 'sessionSource', stringFilter: { matchType: 'CONTAINS', value: 'gemini', caseSensitive: false } } },
           { filter: { fieldName: 'sessionSource', stringFilter: { matchType: 'CONTAINS', value: 'copilot', caseSensitive: false } } },
           { filter: { fieldName: 'sessionSource', stringFilter: { matchType: 'CONTAINS', value: 'openai', caseSensitive: false } } },
+          { filter: { fieldName: 'sessionSource', stringFilter: { matchType: 'CONTAINS', value: 'deepseek', caseSensitive: false } } },
+          { filter: { fieldName: 'sessionSource', stringFilter: { matchType: 'CONTAINS', value: 'grok', caseSensitive: false } } },
+          { filter: { fieldName: 'sessionSource', stringFilter: { matchType: 'CONTAINS', value: 'meta.ai', caseSensitive: false } } },
         ],
       },
     },
@@ -426,7 +429,7 @@ async function runSources(client, propertyId, options) {
     )
   } else {
     console.log('No LLM referrals detected in this period.')
-    console.log('(Checking for: chatgpt, perplexity, claude, gemini, copilot, openai in session source)')
+    console.log('(Checking for: chatgpt, perplexity, claude, gemini, copilot, openai, deepseek, grok, meta.ai)')
   }
 }
 
@@ -518,6 +521,103 @@ async function runFullReport(client, propertyId, options) {
   console.log('═'.repeat(70))
 }
 
+async function runLlmReport(client, propertyId, options) {
+  const days = Number(options.days || 90)
+  const range = dateRange(days)
+  console.log(`\n🤖 LLM/AI REFERRAL REPORT  (${range.startDate} → ${range.endDate}, ${days}d)\n`)
+
+  const llmSources = ['chatgpt', 'perplexity', 'claude', 'gemini', 'copilot', 'openai', 'deepseek', 'grok', 'meta.ai', 'poe', 'you.com', 'phind']
+
+  const llmResponse = await queryReport(client, propertyId, {
+    ...range,
+    dimensions: ['sessionSource'],
+    metrics: ['sessions', 'activeUsers', 'newUsers', 'screenPageViews', 'averageSessionDuration', 'engagedSessions'],
+    dimensionFilter: {
+      orGroup: {
+        expressions: llmSources.map(s => ({
+          filter: { fieldName: 'sessionSource', stringFilter: { matchType: 'CONTAINS', value: s, caseSensitive: false } }
+        })),
+      },
+    },
+    orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
+    limit: 30,
+  })
+
+  const llmRows = extractRows(llmResponse)
+  if (llmRows.length > 0) {
+    console.log('📊 LLM Sources Summary:\n')
+    printTable(
+      ['LLM Source', 'Sessions', 'Users', 'New Users', 'Page Views', 'Avg Duration', 'Engaged'],
+      llmRows.map(row => [
+        dimVal(row),
+        fmt(metricVal(row, 0)),
+        fmt(metricVal(row, 1)),
+        fmt(metricVal(row, 2)),
+        fmt(metricVal(row, 3)),
+        fmtSeconds(metricVal(row, 4)),
+        fmt(metricVal(row, 5)),
+      ])
+    )
+
+    const totalSessions = llmRows.reduce((sum, row) => sum + metricVal(row, 0), 0)
+    const totalUsers = llmRows.reduce((sum, row) => sum + metricVal(row, 1), 0)
+    console.log(`\n  Total LLM Sessions: ${fmt(totalSessions)}`)
+    console.log(`  Total LLM Users: ${fmt(totalUsers)}`)
+  } else {
+    console.log('No LLM referral traffic detected in this period.')
+  }
+
+  const landingResponse = await queryReport(client, propertyId, {
+    ...range,
+    dimensions: ['landingPagePlusQueryString'],
+    metrics: ['sessions', 'activeUsers'],
+    dimensionFilter: {
+      orGroup: {
+        expressions: llmSources.map(s => ({
+          filter: { fieldName: 'sessionSource', stringFilter: { matchType: 'CONTAINS', value: s, caseSensitive: false } }
+        })),
+      },
+    },
+    orderBys: [{ metric: { metricName: 'sessions' }, desc: true }],
+    limit: 15,
+  })
+
+  const landingRows = extractRows(landingResponse)
+  if (landingRows.length > 0) {
+    console.log('\n📄 Top Landing Pages from LLM Referrals:\n')
+    printTable(
+      ['Landing Page', 'Sessions', 'Users'],
+      landingRows.map(row => [
+        dimVal(row).length > 70 ? dimVal(row).substring(0, 67) + '...' : dimVal(row),
+        fmt(metricVal(row, 0)),
+        fmt(metricVal(row, 1)),
+      ])
+    )
+  }
+
+  const eventResponse = await queryReport(client, propertyId, {
+    ...range,
+    dimensions: ['eventName'],
+    metrics: ['eventCount', 'totalUsers'],
+    dimensionFilter: {
+      filter: {
+        fieldName: 'eventName',
+        stringFilter: { matchType: 'EXACT', value: 'llm_referral' },
+      },
+    },
+    limit: 5,
+  })
+
+  const eventRows = extractRows(eventResponse)
+  if (eventRows.length > 0) {
+    console.log('\n⚡ Custom llm_referral Events Fired:\n')
+    printTable(
+      ['Event', 'Count', 'Unique Users'],
+      eventRows.map(row => [dimVal(row), fmt(metricVal(row, 0)), fmt(metricVal(row, 1))])
+    )
+  }
+}
+
 // ─── Main ───────────────────────────────────────────────────
 
 function printHelp() {
@@ -534,6 +634,7 @@ Commands:
   sources         Traffic source/medium breakdown + LLM referral detection
   events          All events ranked by count
   daily           Daily trend (users, sessions, page views per day)
+  llm-report      Dedicated LLM/AI referral traffic analysis
   full-report     Run ALL reports in one go
 
 Options:
@@ -591,6 +692,10 @@ async function main() {
         break
       case 'daily':
         await runDaily(client, propertyId, options)
+        break
+      case 'llm-report':
+      case 'llm':
+        await runLlmReport(client, propertyId, options)
         break
       case 'full-report':
       case 'full':

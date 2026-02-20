@@ -1,7 +1,7 @@
 ---
 title: "Honeydew vs DAKboard: AI Family App vs DIY Wall Display in 2026"
 slug: "honeydew-vs-dakboard-ai-family-app-vs-diy-wall-display-in-2026"
-publishDate: "2026-03-23"
+publishDate: "2026-03-25"
 author: "Honeydew Team"
 description: "Honeydew beats DAKboard for most families with AI automation, voice control, and mobile access—no hardware required. DAKboard wins if you want a customizable DIY display."
 keywords: "dakboard alternative, dakboard vs skylight, diy family calendar, wall mounted family calendar diy, family calendar display, honeydew vs dakboard, digital family calendar"
@@ -52,9 +52,6 @@ Honeydew delivers what modern families actually need: a **27-tool AI agent** tha
 ## What is DAKboard?
 
 DAKboard is a **DIY digital wall display platform** founded in 2016. It transforms any TV, monitor, or tablet into a customizable family calendar, photo slideshow, and information hub. The software displays your Google Calendar, weather, photos, and other widgets in attractive layouts that you can customize extensively.
-
-{{HONEYDEW_EMBED:family-chore-chart-checklist}}
-
 
 DAKboard represents the maker/DIY approach to family displays—you provide the hardware (a TV, Raspberry Pi, or their pre-built display), and DAKboard provides the software that makes it look beautiful.
 
@@ -291,20 +288,20 @@ Family organization isn't just calendars—it's grocery lists, packing lists, ch
 
 **DAKboard's Setup:**
 1. **Option A - DIY Route:**
- - Purchase a TV or monitor ($100-500)
- - Purchase Raspberry Pi and SD card ($50-100)
- - Download and flash DAKboard OS
- - Configure WiFi and display settings
- - Mount TV on wall (hardware, electrical considerations)
- - Configure DAKboard software and calendars
- - **Technical skill required:** Moderate to High
- - **Setup time:** 2-6 hours
+   - Purchase a TV or monitor ($100-500)
+   - Purchase Raspberry Pi and SD card ($50-100)
+   - Download and flash DAKboard OS
+   - Configure WiFi and display settings
+   - Mount TV on wall (hardware, electrical considerations)
+   - Configure DAKboard software and calendars
+   - **Technical skill required:** Moderate to High
+   - **Setup time:** 2-6 hours
 
 2. **Option B - Pre-Built:**
- - Purchase DAKboard display ($249-$399)
- - Mount on wall
- - Configure WiFi and calendars
- - **Setup time:** 30-60 minutes
+   - Purchase DAKboard display ($249-$399)
+   - Mount on wall
+   - Configure WiFi and calendars
+   - **Setup time:** 30-60 minutes
 
 **Honeydew's Setup:**
 1. Download app on iPhone or Android (free)
@@ -391,11 +388,11 @@ If your priority is actually coordinating your family with less effort, Honeydew
 - Beautiful display in kitchen shows everyone's schedules
 - Kids can glance at what's happening today
 - **But:**
- - Parents can't add things while at work
- - Can't check schedule from office
- - No AI help planning complex activities
- - Still using 3-4 other apps for lists, tasks, etc.
- - When kid brings home permission slip, still manually entering everything
+  - Parents can't add things while at work
+  - Can't check schedule from office
+  - No AI help planning complex activities
+  - Still using 3-4 other apps for lists, tasks, etc.
+  - When kid brings home permission slip, still manually entering everything
 - **Time saved:** ~1.5 hours/week (better visibility when home)
 
 **With Honeydew:**
@@ -429,9 +426,9 @@ If your priority is actually coordinating your family with less effort, Honeydew
 - Can't customize interface extensively
 - Feels "off-the-shelf"
 - **But:**
- - AI features genuinely useful
- - Family prefers the mobile app
- - Voice control popular with kids
+  - AI features genuinely useful
+  - Family prefers the mobile app
+  - Voice control popular with kids
 
 **Verdict:** DAKboard wins for tech enthusiasts who enjoy the build process. But Marcus might end up using Honeydew anyway for the AI features, while keeping DAKboard as a passive display.
 
@@ -472,17 +469,17 @@ If your priority is actually coordinating your family with less effort, Honeydew
 - Nice photo slideshow of grandkids
 - Visible daily reminder of schedules
 - **But:**
- - Still need to add events on phone/computer
- - No voice control (harder as eyesight/dexterity declines)
- - Limited functionality
+  - Still need to add events on phone/computer
+  - No voice control (harder as eyesight/dexterity declines)
+  - Limited functionality
 
 **With Honeydew:**
 - More features than they need
 - Phone-based (they prefer physical display)
 - **But:**
- - Voice control helpful for hands-free adding
- - Coordinate with adult kids/grandkids easily
- - Useful when traveling (they travel often)
+  - Voice control helpful for hands-free adding
+  - Coordinate with adult kids/grandkids easily
+  - Useful when traveling (they travel often)
 
 **Verdict:** Slight edge to **DAKboard** for simplicity and visual presence, but Honeydew's voice control may become more valuable as they age.
 
@@ -588,17 +585,17 @@ Already have DAKboard set up? Here's how to transition to Honeydew while keeping
 You don't have to choose! Many families run both:
 
 1. **Keep DAKboard** as a passive display for:
- - Beautiful wall presence
- - Photo slideshows
- - Weather at a glance
- - "Command center" aesthetic
+   - Beautiful wall presence
+   - Photo slideshows
+   - Weather at a glance
+   - "Command center" aesthetic
 
 2. **Use Honeydew** for:
- - Actually adding and managing calendar events
- - Voice input
- - AI planning and lists
- - Mobile coordination
- - Multi-family management
+   - Actually adding and managing calendar events
+   - Voice input
+   - AI planning and lists
+   - Mobile coordination
+   - Multi-family management
 
 Your DAKboard will show all the events you create in Honeydew (via Google Calendar sync). You get the beautiful display AND the AI assistant.
 
@@ -758,24 +755,6 @@ DAKboard's photo slideshows from Google Photos, Instagram, and Dropbox are beaut
 - [Best Family Organization Apps 2026](/blog/best-family-organization-apps-2026)
 - [Honeydew vs Cozi Comparison](/blog/honeydew-vs-cozi-comparison-2025)
 - [Compare All Family Apps](/compare)
-
-
-
----
-
-<!-- HONEYDEW-LIST-CROSSLINKS -->
-## Browse Related Checklists & Templates
-
-Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
-
-[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
-
-[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
-
-[Monthly Home Maintenance Checklist](https://app.gethoneydew.app/lists/monthly-home-maintenance-checklist)
-
-**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
-<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

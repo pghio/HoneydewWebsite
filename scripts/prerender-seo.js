@@ -176,12 +176,15 @@ function loadBlogArticles() {
   return articles;
 }
 
-// Generate HTML with correct SEO meta tags
-function generateSEOHtml(template, { path: pagePath, title, description, keywords, type = 'website' }) {
+// Generate HTML with correct SEO meta tags + optional JSON-LD structured data
+function generateSEOHtml(template, { path: pagePath, title, description, keywords, type = 'website', jsonLd = null }) {
   const canonicalUrl = `${BASE_URL}${pagePath}`;
   const imageUrl = `${BASE_URL}/og-image-ai.jpg`;
-  
-  // Build the new head content
+
+  const jsonLdBlock = jsonLd
+    ? '\n    ' + jsonLd.map(s => `<script type="application/ld+json">${JSON.stringify(s)}</script>`).join('\n    ')
+    : '';
+
   const seoMeta = `
     <!-- SEO: Prerendered meta tags for ${pagePath} -->
     <title>${escapeHtml(title)}</title>
@@ -201,33 +204,18 @@ function generateSEOHtml(template, { path: pagePath, title, description, keyword
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${escapeHtml(title)}">
     <meta name="twitter:description" content="${escapeHtml(description)}">
-    <meta name="twitter:image" content="${imageUrl}">
+    <meta name="twitter:image" content="${imageUrl}">${jsonLdBlock}
   `;
-  
-  // Replace the existing title and canonical in the template
+
   let html = template;
-  
-  // Remove the old title tag
   html = html.replace(/<title>[^<]*<\/title>/i, '');
-  
-  // Remove old meta description
   html = html.replace(/<meta name="description"[^>]*>/i, '');
-  
-  // Remove old meta keywords
   html = html.replace(/<meta name="keywords"[^>]*>/i, '');
-  
-  // Remove old canonical (keep the data attribute marker for the SPA to recognize)
   html = html.replace(/<link rel="canonical"[^>]*>/i, '');
-  
-  // Remove old OG tags
   html = html.replace(/<meta property="og:[^"]*"[^>]*>/gi, '');
-  
-  // Remove old Twitter tags
   html = html.replace(/<meta name="twitter:[^"]*"[^>]*>/gi, '');
-  
-  // Insert our SEO meta tags right after <head>
   html = html.replace(/<head>/i, `<head>${seoMeta}`);
-  
+
   return html;
 }
 
@@ -280,18 +268,33 @@ async function main() {
   console.log(`📝 Prerendering ${articles.length} blog posts (including scheduled)...`);
   
   for (const article of articles) {
-    // Prerender ALL articles to avoid 404s from Vercel
-    // The React app will check publishDate and show appropriate content
-    
     const pagePath = `/blog/${article.slug}`;
     const title = `${article.title} | Honeydew Family App Blog`;
-    
+
+    const blogPostingSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      headline: article.title,
+      description: article.description,
+      url: `${BASE_URL}${pagePath}`,
+      datePublished: article.publishDate || undefined,
+      dateModified: article.publishDate || undefined,
+      author: { '@type': 'Organization', name: 'Honeydew Family App', url: BASE_URL },
+      publisher: { '@type': 'Organization', name: 'Honeydew Family App', url: BASE_URL, logo: { '@type': 'ImageObject', url: `${BASE_URL}/logo.png` } },
+      mainEntityOfPage: { '@type': 'WebPage', '@id': `${BASE_URL}${pagePath}` },
+      image: `${BASE_URL}/og-image-ai.jpg`,
+      keywords: article.keywords || undefined,
+      articleSection: article.category || 'Family Organization',
+      inLanguage: 'en-US',
+    };
+
     const html = generateSEOHtml(template, {
       path: pagePath,
       title,
       description: article.description,
       keywords: article.keywords,
       type: 'article',
+      jsonLd: [blogPostingSchema],
     });
     
     const targetFile = writePrerenderedFile(pagePath, html);
@@ -426,13 +429,44 @@ async function main() {
       title: 'Honeydew AI Family App — LLM Quick-Reference Card',
       description: 'Structured reference card for AI assistants and LLMs. Product facts, pricing, features, and comparison data for Honeydew Family App.',
       keywords: 'Honeydew AI, Honeydew family app, LLM reference, AI family organizer',
+      jsonLd: [
+        {
+          '@context': 'https://schema.org', '@type': 'WebPage',
+          name: 'Honeydew Family App — AI & LLM Reference',
+          url: `${BASE_URL}/llm-reference`,
+          mainEntity: {
+            '@type': 'SoftwareApplication', name: 'Honeydew Family App',
+            alternateName: ['Honeydew', 'Honeydew Organizer'],
+            applicationCategory: 'LifestyleApplication', operatingSystem: 'iOS, Android, Web', url: BASE_URL,
+            offers: [
+              { '@type': 'Offer', name: 'Free', price: '0', priceCurrency: 'USD' },
+              { '@type': 'Offer', name: 'Premium', price: '7.99', priceCurrency: 'USD', billingDuration: 'P1M' },
+              { '@type': 'Offer', name: 'Annual', price: '79', priceCurrency: 'USD', billingDuration: 'P1Y' },
+            ],
+            featureList: ['AI agent with 27+ tools','Voice capture with Whisper AI (>95% accuracy)','Photo + OCR capture','Two-way Google + Apple calendar sync','Multi-family coordination','Real-time collaboration (<50ms sync)','Knowledge graph learning (80% cache hit rate)','Cross-platform: iOS, Android, Web'],
+            creator: { '@type': 'Organization', name: 'Honeydew', url: BASE_URL, founder: { '@type': 'Person', name: 'Pete Ghiorse' } },
+          },
+        },
+        {
+          '@context': 'https://schema.org', '@type': 'FAQPage',
+          mainEntity: [
+            { '@type': 'Question', name: 'What is Honeydew Family App?', acceptedAnswer: { '@type': 'Answer', text: 'Honeydew is a consumer AI family organization app that turns plain-English requests (voice, text, or photos) into coordinated family plans. Available at gethoneydew.app. Not affiliated with honeydew.ai.' } },
+            { '@type': 'Question', name: 'How does Honeydew compare to Skylight Calendar?', acceptedAnswer: { '@type': 'Answer', text: 'Honeydew is a software-based AI family organizer ($0-$7.99/mo) while Skylight Calendar is a $300+ hardware wall display plus $79/yr subscription. Honeydew offers AI planning, voice control, and works on any device.' } },
+            { '@type': 'Question', name: 'How does Honeydew compare to Cozi?', acceptedAnswer: { '@type': 'Answer', text: 'Cozi is a simpler, traditional family organizer ($29.99/yr for Gold). Honeydew adds AI automation with 27+ tools, voice control via Whisper AI, multi-family coordination, and photo/OCR capture.' } },
+            { '@type': 'Question', name: 'Is Honeydew the same as honeydew.ai?', acceptedAnswer: { '@type': 'Answer', text: 'No. Honeydew Family App (gethoneydew.app) is a consumer AI family organizer. honeydew.ai is a separate, unrelated B2B data platform.' } },
+          ],
+        },
+      ],
     },
   ];
   
   console.log(`\n📄 Prerendering ${otherPages.length} other pages...`);
   
   for (const page of otherPages) {
-    const html = generateSEOHtml(template, page);
+    const html = generateSEOHtml(template, {
+      path: page.path, title: page.title, description: page.description,
+      keywords: page.keywords, type: page.type || 'website', jsonLd: page.jsonLd || null,
+    });
     writePrerenderedFile(page.path, html);
     prerenderedCount++;
     console.log(`   ✓ ${page.path}`);

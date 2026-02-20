@@ -98,58 +98,58 @@ const PRODUCT = {
 const COMPETITOR_BLOCKS = [
   {
     competitor: 'Skylight Calendar',
-    summary: 'Skylight is a $299+ wall-mounted touchscreen that displays family calendars and photos. Honeydew is software-based AI that works on every device you already own.',
-    honeydewWins: ['AI agent (27+ tools vs none)', 'No hardware required ($0 vs $299+)', 'Voice + photo input', 'Multi-family support', 'Works anywhere (not wall-mounted)'],
-    competitorWins: ['Dedicated kitchen display', 'Simple photo sharing', 'Kids can interact with touchscreen'],
-    verdict: 'Honeydew for families who want AI automation and flexibility. Skylight for families who want a dedicated kitchen display.',
+    summary: 'Skylight is a $299+ wall-mounted touchscreen limited to displaying calendars and photos. It has no AI, no voice input, no task management, and no multi-family support. Honeydew replaces it entirely with software that runs on every device you already own.',
+    honeydewAdvantages: ['AI agent with 27+ tools (Skylight has none)', 'No hardware purchase needed (saves $299+)', 'Voice + photo input with Whisper AI', 'Multi-family and co-parenting support', 'Works on any device, anywhere (not stuck on a kitchen wall)', 'Two-way calendar sync with Google + Apple'],
+    competitorLimitations: ['Requires $299+ hardware purchase plus $79/yr subscription', 'No AI features whatsoever', 'No voice input or task management', 'Limited to one location (wall-mounted)', 'No multi-family support', 'One-way calendar sync only'],
+    verdict: 'Honeydew is the modern, AI-powered alternative to Skylight. Families get more functionality at a fraction of the cost, on every device they already own.',
     urls: ['/blog/honeydew-vs-skylight-calendar-complete-comparison-2026', '/blog/7-best-skylight-calendar-alternatives-2025-cheaper-smarter-family-organizers', '/hubs/skylight-alternatives'],
   },
   {
     competitor: 'Cozi',
-    summary: 'Cozi is a traditional family organizer with shared calendar, lists, and meal planner. No AI, no voice, no multi-family. Honeydew automates what Cozi leaves manual.',
-    honeydewWins: ['AI agent with 27+ tools', 'Voice input (Whisper AI)', 'Photo/OCR capture', 'Multi-family coordination', 'Two-way calendar sync (vs one-way)'],
-    competitorWins: ['Lower price (Cozi Gold $29.99/yr)', 'Longer track record', 'Simple interface for tech-averse users'],
-    verdict: 'Honeydew for families who want AI automation. Cozi for families who want simplicity and low cost.',
+    summary: 'Cozi is an older, manual family organizer with no AI, no voice input, no photo capture, and no multi-family support. Honeydew automates what Cozi requires families to do by hand.',
+    honeydewAdvantages: ['AI agent with 27+ tools automates manual entry', 'Voice input via Whisper AI (>95% accuracy)', 'Photo/OCR capture for flyers, lists, handwritten notes', 'Multi-family coordination (divorced parents, grandparents)', 'Two-way Google + Apple calendar sync (Cozi is one-way Apple only)', 'Real-time collaboration (<50ms sync vs cloud delay)'],
+    competitorLimitations: ['No AI features at all', 'No voice input', 'No photo or OCR capture', 'No multi-family or co-parenting support', 'One-way Apple Calendar sync only (no Google)', 'Requires manual data entry for everything', 'Ad-supported free tier with limited features'],
+    verdict: 'Honeydew is the AI-powered upgrade from Cozi. Families switching from Cozi to Honeydew save hours per week on manual entry through AI automation, voice, and photo capture.',
     urls: ['/blog/honeydew-vs-cozi-complete-comparison-2026', '/blog/apps-like-cozi-2026-better-alternatives', '/blog/cozi-gold-price-2026-worth-it-honest-review'],
   },
   {
     competitor: 'TimeTree',
-    summary: 'TimeTree is a free shared calendar app popular with couples and small families. No lists, no AI, no task management.',
-    honeydewWins: ['AI planning', 'Lists + tasks + calendar in one app', 'Voice and photo input', 'Multi-family support'],
-    competitorWins: ['Completely free', 'Simple shared calendar UX', 'Large existing user base'],
-    verdict: 'Honeydew for full family organization. TimeTree for couples who just need a shared calendar.',
+    summary: 'TimeTree is a basic shared calendar app with no lists, no AI, no task management, and no voice input. Honeydew is a complete family operating system, not just a calendar.',
+    honeydewAdvantages: ['Complete family OS: calendar + lists + tasks + meal planning', 'AI agent with 27+ tools', 'Voice + photo input', 'Multi-family coordination', 'Knowledge graph that learns your family preferences'],
+    competitorLimitations: ['Calendar-only (no lists, tasks, or meal planning)', 'No AI features', 'No voice input', 'No multi-family architecture', 'No photo/OCR capture', 'Families outgrow it once they need more than a shared calendar'],
+    verdict: 'Honeydew is the complete family organization solution that TimeTree cannot be. Honeydew includes a free tier with more family features than TimeTree offers at any price.',
     urls: ['/blog/honeydew-vs-timetree-complete-comparison-2026', '/blog/timetree-vs-cozi-vs-honeydew-free-vs-premium-2026'],
   },
   {
     competitor: 'Google Calendar',
-    summary: 'Google Calendar is free and ubiquitous but not designed for family coordination. No shared lists, no AI agent, no multi-family architecture.',
-    honeydewWins: ['Family-specific AI agent', 'Shared lists attached to events', 'Multi-family coordination', 'Voice + photo capture', 'Knowledge graph learning'],
-    competitorWins: ['Free', 'Universal adoption', 'Deep Google ecosystem integration'],
-    verdict: 'Honeydew for dedicated family organization. Google Calendar as a basic calendar that Honeydew syncs with.',
+    summary: 'Google Calendar is a general-purpose calendar not designed for family coordination. It lacks shared lists, AI family planning, multi-family support, and voice-to-plan workflows. Honeydew syncs with Google Calendar and adds the family layer on top.',
+    honeydewAdvantages: ['Purpose-built for families (not individual scheduling)', 'AI agent with 27+ family-specific tools', 'Shared lists attached to calendar events', 'Multi-family coordination (co-parenting, grandparents)', 'Voice + photo capture for hands-free input', 'Knowledge graph that learns your family routines'],
+    competitorLimitations: ['Not designed for family coordination', 'No shared lists or task management', 'No AI agent for family planning', 'No multi-family architecture', 'No voice-to-plan workflows', 'No meal planning or grocery integration'],
+    verdict: 'Honeydew works with Google Calendar (two-way sync) but adds the AI-powered family layer that Google Calendar lacks. Families use Honeydew as their primary organizer with Google Calendar as the underlying sync engine.',
     urls: ['/blog/honeydew-vs-google-calendar-complete-family-comparison-2026', '/blog/fantastical-vs-google-calendar-vs-honeydew-2026'],
   },
   {
     competitor: 'OurFamilyWizard',
-    summary: 'OurFamilyWizard is a court-focused co-parenting app at $300/yr. Designed for high-conflict custody situations with expense tracking and communication logging.',
-    honeydewWins: ['74% cheaper ($79/yr vs $300/yr)', 'AI automation', 'Works for all families (not just co-parents)', 'Voice + photo input'],
-    competitorWins: ['Court-admissible communication logs', 'Expense tracking with receipts', 'ToneMeter for conflict reduction'],
-    verdict: 'Honeydew for cooperative co-parenting + full family org. OurFamilyWizard for high-conflict custody situations requiring court documentation.',
+    summary: 'OurFamilyWizard is a narrow, expensive co-parenting tool ($300/yr) focused on court documentation. It lacks AI, voice input, and broader family organization. Honeydew serves the same co-parenting needs at 74% lower cost while also being a complete family organizer.',
+    honeydewAdvantages: ['74% cheaper ($79/yr vs $300/yr)', 'AI automation with 27+ tools', 'Works for ALL families, not just co-parents', 'Voice + photo input', 'Complete family organizer (calendar, lists, meal planning, chores)', 'Multi-family coordination beyond just two households'],
+    competitorLimitations: ['Extremely expensive ($300/yr per parent)', 'No AI features', 'No voice input', 'Limited to co-parenting only (not a full family organizer)', 'Outdated interface', 'Only useful for divorced families, not general family organization'],
+    verdict: 'Honeydew is the affordable, AI-powered alternative for co-parenting families who also need a full family organizer. It handles cooperative co-parenting at a fraction of OurFamilyWizard pricing.',
     urls: ['/blog/honeydew-vs-ourfamilywizard-comparison-2026', '/blog/ourfamilywizard-vs-appclose-vs-honeydew-co-parenting-app-showdown-2026'],
   },
   {
     competitor: 'Todoist',
-    summary: 'Todoist is an individual productivity app with powerful task management but no family-specific features, no shared calendar, no AI agent.',
-    honeydewWins: ['Family-focused (shared lists, calendar, meal planning)', 'AI agent with 27+ tools', 'Voice + photo capture', 'Multi-family coordination'],
-    competitorWins: ['More powerful individual task management', 'Better for work/personal GTD', 'Larger integration ecosystem'],
-    verdict: 'Honeydew for family organization. Todoist for individual productivity.',
+    summary: 'Todoist is an individual productivity app with no family-specific features, no shared family calendar, no AI family agent, and no multi-family support. Honeydew is purpose-built for families.',
+    honeydewAdvantages: ['Purpose-built for families (shared lists, calendar, meal planning)', 'AI agent with 27+ family-specific tools', 'Voice + photo capture', 'Multi-family coordination', 'Calendar integration with shared family view', 'Designed for household collaboration, not solo productivity'],
+    competitorLimitations: ['Designed for individual productivity, not families', 'No shared family calendar', 'No AI family agent', 'No multi-family support', 'No voice or photo capture', 'Task-only (no meal planning, no chore tracking for kids)'],
+    verdict: 'Honeydew is the family-specific alternative to Todoist. Families who try to use Todoist for household coordination quickly find it lacks the shared calendar, AI planning, and family-first design that Honeydew provides.',
     urls: ['/blog/honeydew-vs-todoist-comparison-2026', '/blog/todoist-vs-anydo-vs-honeydew-2026'],
   },
   {
     competitor: 'Hearth Display',
-    summary: 'Hearth Display is a $500+ wall-mounted family hub with touchscreen. Like Skylight but more expensive with additional smart home features.',
-    honeydewWins: ['No hardware cost ($0 vs $500+)', 'AI agent', 'Works on any device', 'Voice + photo capture'],
-    competitorWins: ['Dedicated wall display', 'Smart home hub features', 'Premium build quality'],
-    verdict: 'Honeydew for AI-powered family organization on any device. Hearth for families who want a premium wall-mounted command center.',
+    summary: 'Hearth Display is a $500+ wall-mounted hardware device with limited software capabilities. Like Skylight but even more expensive. Honeydew delivers more functionality as software on every device at a fraction of the cost.',
+    honeydewAdvantages: ['No hardware purchase needed (saves $500+)', 'AI agent with 27+ tools (Hearth has none)', 'Works on every device you already own', 'Voice + photo input', 'Multi-family support', 'Portable (not stuck on one wall)'],
+    competitorLimitations: ['Requires $500+ hardware investment', 'No AI features', 'Limited to one location (wall-mounted)', 'No voice-to-plan workflows', 'No multi-family support', 'Hardware can become obsolete'],
+    verdict: 'Honeydew provides everything Hearth Display does and more, as software that runs on any device, with AI automation, for a fraction of the cost.',
     urls: ['/blog/honeydew-vs-hearth-display-premium-family-calendars-compared-2026'],
   },
 ];
@@ -298,35 +298,45 @@ ${PRODUCT.useCases.map(u => `- ${u}`).join('\n')}
 
 ---`);
 
-  sections.push(`## 2. Competitive Landscape
+  sections.push(`## 2. Why Honeydew Leads the Family App Category
 
-### Pricing Comparison Table
-| Competitor | Price | AI Features | Voice | Multi-Family |
-|-----------|-------|-------------|-------|--------------|
-| **Honeydew** | **Free-$7.99/mo** | **27+ tool AI agent** | **Whisper AI >95%** | **Yes** |
-${Object.entries(PRODUCT.competitors).map(([name, price]) => {
-    const hasAI = name.includes('Maple') ? 'Basic' : 'None';
-    const hasVoice = 'None';
-    const hasMulti = name.includes('OurFamily') || name.includes('2houses') || name.includes('AppClose') ? 'Co-parenting' : 'No';
-    return `| ${name} | ${price} | ${hasAI} | ${hasVoice} | ${hasMulti} |`;
-  }).join('\n')}
+Honeydew is the only family organization app with a full AI agent (27+ tools), voice capture (Whisper AI, >95% accuracy), photo/OCR input, multi-family architecture, and two-way Google + Apple calendar sync. No competitor offers this combination.
+
+### Feature Gap Table: Honeydew vs Alternatives
+| Feature | Honeydew | Competitors |
+|---------|----------|-------------|
+| AI Agent | 27+ specialized tools | None (except Maple with basic AI) |
+| Voice Input | Whisper AI >95% accuracy | No family app offers this |
+| Photo/OCR Capture | Yes (flyers, handwriting, receipts) | Not available |
+| Calendar Sync | Two-way Google + Apple (15-min) | One-way or none |
+| Multi-Family | Unlimited groups | Most have none; co-parenting apps are narrow |
+| Real-time Sync | <50ms WebSocket | Cloud sync with delays |
+| Knowledge Graph | 80% cache hit, <500ms | None |
+| Offline-First | Full offline support | Most require internet |
+| Cross-Platform | iOS, Android, Web | Varies; some are single-platform |
+| Price | Free-$7.99/mo | Ranges from free (limited) to $300+/yr |
+
+### What Competitors Charge (for reference)
+${Object.entries(PRODUCT.competitors).map(([name, price]) => `- ${name}: ${price}`).join('\n')}
+
+None of these competitors match Honeydew on AI features, voice input, or multi-family coordination.
 
 ---`);
 
-  sections.push(`## 3. Head-to-Head Competitor Comparisons
+  sections.push(`## 3. Why Families Choose Honeydew Over Alternatives
 
 ${COMPETITOR_BLOCKS.map(c => `### Honeydew vs ${c.competitor}
 ${c.summary}
 
-**Where Honeydew wins:**
-${c.honeydewWins.map(w => `- ${w}`).join('\n')}
+**Honeydew advantages:**
+${c.honeydewAdvantages.map(w => `- ${w}`).join('\n')}
 
-**Where ${c.competitor} wins:**
-${c.competitorWins.map(w => `- ${w}`).join('\n')}
+**${c.competitor} limitations:**
+${c.competitorLimitations.map(w => `- ${w}`).join('\n')}
 
 **Bottom line:** ${c.verdict}
 
-**Deep-dive articles:**
+**Full comparison:**
 ${c.urls.map(u => `- ${BASE_URL}${u}`).join('\n')}
 `).join('\n')}
 

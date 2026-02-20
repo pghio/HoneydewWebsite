@@ -81,6 +81,9 @@ We didn't just read spec sheets and write reviews. Our testing process was rigor
 - **14,200+ events** created and tracked
 - **$4,500+ in hardware** purchased and evaluated
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Testing Families Breakdown:**
 - 8 two-parent households with children
 - 5 single-parent households
@@ -847,6 +850,24 @@ Dedicated displays are nice-to-have. AI coordination is need-to-have.
 - [Best AI Calendar Apps for Families 2026](/blog/best-ai-calendar-apps-for-families-2026)
 - [Best Family Organization Apps 2026](/blog/best-family-organization-apps-2025)
 - [Compare All Family Apps](/compare)
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[School Morning Routine Checklist](https://app.gethoneydew.app/lists/school-morning-routine-checklist)
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

@@ -103,6 +103,9 @@ Say "Plan Emma's 8th birthday party" and watch Honeydew create:
 - Day-of timeline (setup, activities, cleanup)
 - Reminder notifications for all family members
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Time: 8 seconds.** With OurHome: You'd need a separate app for party planning.
 
 **2. Voice Control (96.3% Accuracy)**
@@ -687,6 +690,24 @@ Both apps offer free tiers:
 | Sync latency | <50ms WebSocket | Refresh required | Real-time collaboration |
 | Learning speed | ~80% cache hit | None | Faster responses over time |
 | Gamification | Not included | Full system | Kid motivation vs adult planning |
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Kids Age-Appropriate Chores](https://app.gethoneydew.app/lists/kids-age-appropriate-chores)
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

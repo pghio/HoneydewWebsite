@@ -86,6 +86,9 @@ We conducted the most rigorous voice-testing protocol for family apps to date:
 - **12,847 voice commands** processed and analyzed
 - **Multiple environments:** Kitchen, car, outdoor, kids playing nearby
 
+{{HONEYDEW_EMBED:master-grocery-list-template}}
+
+
 ### Voice Testing Protocol
 
 | Test Category | What We Measured | Weight |
@@ -738,6 +741,26 @@ Voice AI that recognizes stress, frustration, or urgency and adjusts responses a
 Voice commands that coordinate across multiple families simultaneously. "Schedule the soccer carpool for all five families this week" with automatic conflict detection and optimization.
 
 **Honeydew is already building these features**, which is why we recommend families establish voice-first habits now. The coordination intelligence you build today becomes the foundation for even smarter assistance tomorrow.
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Household Essentials Shopping List](https://app.gethoneydew.app/lists/household-essentials-shopping-list)
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Pantry Staples Checklist](https://app.gethoneydew.app/lists/pantry-staples-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

@@ -16,6 +16,7 @@
     "seo-check": "node scripts/seo-check.js",
     "generate-sitemap": "node scripts/generate-sitemap.js",
     "generate-blog-manifest": "node scripts/generate-blog-manifest.js",
+    "refresh-list-catalog": "node scripts/fetch-list-catalog.js --refresh",
     "index-build": "node scripts/index-build.js",
     "index-build:qa": "node scripts/index-build.js dist-qa",
     "test": "npm run test:e2e",

@@ -63,6 +63,9 @@ But most divorced families aren't in high-conflict situations. They're two exhau
 | **Price (Both Parents)** | **$79/year total** | **$300/year total** |
 | **Savings with Honeydew** | — | **$221/year (74%)** |
 
+{{HONEYDEW_EMBED:custody-exchange-checklist}}
+
+
 **Quick Verdict:** OurFamilyWizard wins for legal protection (3 categories). Honeydew wins for daily life (8 categories). Choose based on your actual needs.
 
 ---
@@ -838,6 +841,24 @@ Honeydew is designed around the assumption that you and your co-parent both want
 - [Co-Parenting Schedule Changes Without Conflict](/blog/co-parenting-schedule-changes-without-conflict-2025-templates-rules-and-app-setup)
 - [How AI Transforms Family Organization](/blog/how-ai-transforms-family-organization)
 - [Best Apps for Multi-Family Coordination](/blog/best-apps-multi-family-coordination-2025)
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Custody Exchange Checklist](https://app.gethoneydew.app/lists/custody-exchange-checklist)
+
+[Custody Documentation Checklist](https://app.gethoneydew.app/lists/custody-documentation-checklist)
+
+[Co-Parenting Meeting Agenda Checklist](https://app.gethoneydew.app/lists/co-parenting-meeting-agenda-checklist)
+
+[Shared Custody Christmas Checklist](https://app.gethoneydew.app/lists/shared-custody-christmas-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

@@ -76,6 +76,9 @@ We didn't just glance at spec sheets. Our process:
 - **15,000+ events** created and tracked
 - **Real scenarios:** Meal planning, vacation coordination, co-parenting schedules, kids' activities
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 ### What We Measured
 
 | Criteria | Weight | What We Evaluated |
@@ -712,6 +715,24 @@ DIY solutions like DAKboard satisfy tinkerers but lack intelligence.
 - [Best Voice-Controlled Family Apps 2026](/blog/best-voice-controlled-family-apps-2025)
 - [Why Apple & Google Calendar AI Won't Replace Family Apps](/blog/why-apple-google-calendar-ai-wont-replace-family-apps-2025)
 - [Compare All Family Apps](/compare)
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+[Monthly Home Maintenance Checklist](https://app.gethoneydew.app/lists/monthly-home-maintenance-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

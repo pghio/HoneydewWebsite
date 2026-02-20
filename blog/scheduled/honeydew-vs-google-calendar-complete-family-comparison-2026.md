@@ -73,6 +73,9 @@ Most "vs" comparisons position apps as competitors. But Honeydew and Google Cale
    - Lists attached to calendar events
    - Multi-family groups with instant switching
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 ### Why This Matters
 
 **Your partner** can keep using Google Calendar (they're comfortable with it)
@@ -792,6 +795,24 @@ Honeydew isn't competing with Google Calendar—it's extending it. Keep everythi
 - [Honeydew vs Skylight Calendar](/blog/honeydew-vs-skylight-calendar)
 - [Best Family Organization Apps 2026](/blog/best-family-organization-apps-2025)
 - [Compare All Family Apps](/compare)
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[First Day of School Checklist](https://app.gethoneydew.app/lists/first-day-of-school-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

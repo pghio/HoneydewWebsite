@@ -89,6 +89,9 @@ This isn't a review based on reading feature lists. We conducted the most compre
 - **25,000+ tasks** managed across all apps
 - **Weekly surveys** on satisfaction, time saved, and frustration points
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 ### Scoring Criteria
 
 | Criteria | Weight | What We Measured |
@@ -1087,6 +1090,26 @@ After 6 months testing 20 apps with 150 families, here's what we learned:
 **Start free.** Test your top 2-3 picks. See which actually integrates into your daily life.
 
 **[Try Honeydew Free →](https://www.gethoneydew.app)**
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Kids Age-Appropriate Chores](https://app.gethoneydew.app/lists/kids-age-appropriate-chores)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

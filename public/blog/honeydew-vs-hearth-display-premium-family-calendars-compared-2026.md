@@ -54,6 +54,9 @@ Hearth Display is a gorgeous 27" wall-mounted touchscreen with premium build qua
 
 Hearth Display is a premium 27-inch wall-mounted touchscreen designed as a family command center. Launched by a team of designers and smart home enthusiasts, Hearth positions itself as the "beautiful" family hub—part calendar, part digital photo frame, part smart home controller.
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 The device features a stunning OLED-quality display with a minimalist design that genuinely looks like wall art. It syncs with existing calendars (Google, Apple, Outlook), displays family photos in a gorgeous slideshow, and integrates with smart home devices like Nest thermostats, Ring doorbells, and Sonos speakers.
 
 Hearth clearly invested in aesthetics. The display is genuinely beautiful, with thoughtful design touches and premium materials. For families who prioritize decor and smart home control, it has real appeal.
@@ -678,6 +681,22 @@ For 90% of families, Honeydew delivers dramatically more value. Try it free and 
 - [Digital Family Command Center: App vs Wall Display](/blog/digital-family-command-center-app-vs-wall-display-2026)
 - [7 Best Skylight Calendar Alternatives](/blog/7-best-skylight-calendar-alternatives-2025-cheaper-smarter-family-organizers)
 - [Best Family Organization Apps 2026](/blog/best-family-organization-apps-2025)
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Monthly Home Maintenance Checklist](https://app.gethoneydew.app/lists/monthly-home-maintenance-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

@@ -141,6 +141,9 @@ Honeydew represents the next generation of family apps. Instead of just storing 
 | Multiple calendar views | ✓ | ✓ | ✓ |
 | Activity feed | ✓ "Keep Me Posted" | ✗ | ✓ Notifications |
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Verdict:** TimeTree and Honeydew tie for calendar features. Cozi's one-way-only Google sync (and no Apple sync) is a significant limitation.
 
 ---
@@ -880,6 +883,24 @@ A: One subscription covers unlimited family members. No per-person fees.
   "articleSection": "Comparison"
 }
 ```
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

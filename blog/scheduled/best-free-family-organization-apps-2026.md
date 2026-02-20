@@ -104,6 +104,9 @@ Every free tier limits something valuable:
 
 > "Honeydew's free tier gives you something no other free family app offers: actual AI that understands what you're asking."
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 #### What You Get for Free
 
 **AI Assistant (Limited):**
@@ -798,6 +801,24 @@ Sometimes the best investment is the one that gives you your time back.
 
 *Last updated: February 2026*
 *Research conducted by Honeydew Team | [https://www.gethoneydew.app](https://www.gethoneydew.app)*
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

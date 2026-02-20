@@ -82,6 +82,9 @@ Honeydew is a **family coordination platform** that uses AI to actually help wit
 - WiFi configuration
 - Basic Linux command-line knowledge
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **The setup process:**
 
 1. **Hardware assembly** (1-2 hours)
@@ -774,6 +777,22 @@ If you want family coordination that actually coordinates—not just displays—
   "articleSection": "Comparison"
 }
 ```
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Monthly Home Maintenance Checklist](https://app.gethoneydew.app/lists/monthly-home-maintenance-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

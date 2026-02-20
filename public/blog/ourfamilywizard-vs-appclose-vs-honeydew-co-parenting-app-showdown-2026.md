@@ -95,6 +95,9 @@ This comparison matters because you might need one, the other, or both.
 - Communication tends toward hostile or manipulative
 - You need to prove what was said and when
 
+{{HONEYDEW_EMBED:custody-exchange-checklist}}
+
+
 **You need coordination (Honeydew) if:**
 - Your relationship is respectful, even if not friendly
 - You want to reduce the time spent on logistics
@@ -707,6 +710,26 @@ A: OFW/AppClose: Limited grandparent involvement. Honeydew: Yes, grandparents ca
 - [Honeydew vs Talking Parents](/blog/honeydew-vs-talking-parents-comparison-2025)
 - [Co-Parenting Schedule Changes Without Conflict](/blog/co-parenting-schedule-changes-without-conflict-2025-templates-rules-and-app-setup)
 - [Divorced Parents & Fair Play Across Households](/blog/divorced-parents-fair-play-across-households-how-to-coordinate-without-the-conflict)
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Custody Exchange Checklist](https://app.gethoneydew.app/lists/custody-exchange-checklist)
+
+[Custody Documentation Checklist](https://app.gethoneydew.app/lists/custody-documentation-checklist)
+
+[Child Support Expense Tracking List](https://app.gethoneydew.app/lists/child-support-expense-tracking-list)
+
+[Co-Parent Information Sharing Checklist](https://app.gethoneydew.app/lists/co-parent-information-sharing-checklist)
+
+[Custody Agreement Checklist](https://app.gethoneydew.app/lists/custody-agreement-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

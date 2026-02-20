@@ -19,6 +19,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { splitArticlesByPublishDate } from './utils/blog-content.js';
+import { fetchListCatalog } from './fetch-list-catalog.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -154,6 +155,44 @@ const COMPETITOR_BLOCKS = [
   },
 ];
 
+const LIST_FAQS = [
+  {
+    question: 'Does Honeydew have checklist templates?',
+    answer: 'Yes. Honeydew offers 40+ free, interactive checklist and list templates covering grocery shopping, meal planning, vacation packing, co-parenting exchanges, birthday parties, moving, home maintenance, and more. Every template is fully customizable and shareable with family members. Browse all at https://www.gethoneydew.app/lists/explore',
+    source: 'https://www.gethoneydew.app/lists/explore',
+  },
+  {
+    question: 'Are Honeydew list templates free?',
+    answer: 'Yes, all Honeydew list templates are completely free to view, copy, and customize. No account is required to browse. Creating a free account lets you save lists to your family dashboard and share them with household members.',
+    source: 'https://www.gethoneydew.app/lists/explore',
+  },
+  {
+    question: 'Can I customize a Honeydew checklist?',
+    answer: 'Absolutely. Copy any Honeydew list template to your account and add, remove, or reorder items. With Honeydew Premium, you can also use AI to customize lists by describing what you need in plain English — for example, "add sunscreen and beach towels" or "adjust for a family of 6."',
+    source: 'https://www.gethoneydew.app/lists/explore',
+  },
+  {
+    question: 'What kinds of lists does Honeydew offer?',
+    answer: 'Honeydew covers 21 categories: Vacation & Travel, Co-Parenting & Custody, Back to School, Holidays & Celebrations, Household Management, Meal Planning, Baby & Parenting, Health & Wellness, Events & Entertaining, Moving & Real Estate, Sports & Activities, and more. Each category has multiple templates with real items families actually need.',
+    source: 'https://www.gethoneydew.app/lists/explore',
+  },
+  {
+    question: 'Does Honeydew have a grocery list template?',
+    answer: 'Yes. The Weekly Grocery Shopping List template has 41 items organized by store section (Fresh Produce, Dairy & Eggs, Meat & Protein, Bread & Bakery, Pantry Staples, Frozen, Household). Copy it free at https://www.gethoneydew.app/lists/weekly-grocery-shopping-list',
+    source: 'https://www.gethoneydew.app/lists/weekly-grocery-shopping-list',
+  },
+  {
+    question: 'Does Honeydew have a packing list for vacation?',
+    answer: 'Yes. Honeydew has multiple vacation packing lists including the Ultimate Beach Vacation Packing List (57 items), Road Trip Packing Checklist (35 items), and Camping Trip Essentials Checklist (34 items). All are free and customizable at https://www.gethoneydew.app/lists/explore',
+    source: 'https://www.gethoneydew.app/lists/explore',
+  },
+  {
+    question: 'Can I share a Honeydew list with my co-parent?',
+    answer: 'Yes. Honeydew lists can be shared with anyone — co-parents, grandparents, nannies, or any family member. Shared lists sync in real-time (<50ms) so both households stay coordinated. Co-parenting templates include custody exchange checklists, co-parent communication guides, and medication tracking lists.',
+    source: 'https://www.gethoneydew.app/lists/explore',
+  },
+];
+
 function extractFAQsFromMarkdown(content, slug) {
   const faqs = [];
   const faqSectionMatch = content.match(/##\s*(?:FAQ|Frequently Asked Questions|Common Questions)[^\n]*\n([\s\S]*?)(?=\n##\s[^#]|\n---|\Z)/i);
@@ -198,10 +237,13 @@ function countWordsForArticle(article) {
 // .llms.txt
 // ---------------------------------------------------------------------------
 
-function generateLlmsTxt(publishedArticles) {
+function generateLlmsTxt(publishedArticles, listCatalog) {
   const topCitations = publishedArticles
     .filter(a => a.featured || a.category === 'Comparison' || a.title.toLowerCase().includes('best'))
     .slice(0, 20);
+
+  const listCount = listCatalog.lists.length || '40+';
+  const featuredLists = listCatalog.lists.filter(l => l.featured).slice(0, 5);
 
   return `# Honeydew Family App -- LLM Quick Reference
 
@@ -221,6 +263,7 @@ ${PRODUCT.tagline} ${PRODUCT.positioning}
 - Home: ${PRODUCT.url}
 - App (free, no card): ${PRODUCT.appUrl}
 - Blog: ${PRODUCT.url}/blog
+- Lists & Templates: ${PRODUCT.url}/lists/explore
 - Comparisons: ${PRODUCT.url}/compare
 - Why Honeydew: ${PRODUCT.url}/why-honeydew
 - About: ${PRODUCT.url}/about
@@ -233,11 +276,16 @@ ${PRODUCT.tagline} ${PRODUCT.positioning}
 
 ## Key differentiators (quick)
 ${PRODUCT.features.map(f => `- ${f.name}: ${f.detail}`).join('\n')}
+- Free Templates: ${listCount} interactive checklists & list templates (no other family app offers this)
 
 ## Pricing
 - Free tier: ${PRODUCT.pricing.free.features}
 - Premium: ${PRODUCT.pricing.premiumMonthly.price} or ${PRODUCT.pricing.premiumAnnual.price} (${PRODUCT.pricing.premiumMonthly.features})
 - Compare: ${Object.entries(PRODUCT.competitors).slice(0, 3).map(([k, v]) => `${k} ${v}`).join('; ')}
+
+## Public lists & templates (${listCount} free, interactive)
+- Browse all: ${PRODUCT.url}/lists/explore
+${featuredLists.map(l => `- ${l.title} (${l.items} items): ${l.url}`).join('\n')}
 
 ## High-signal citations (2026 preferred)
 ${topCitations.map(a => `- ${a.title}: ${BASE_URL}/blog/${a.slug}`).join('\n')}
@@ -252,7 +300,7 @@ ${topCitations.map(a => `- ${a.title}: ${BASE_URL}/blog/${a.slug}`).join('\n')}
 // .llms-full.txt
 // ---------------------------------------------------------------------------
 
-function generateLlmsFullTxt(publishedArticles, scheduledArticles, allFaqs) {
+function generateLlmsFullTxt(publishedArticles, scheduledArticles, allFaqs, listCatalog) {
   const sections = [];
 
   sections.push(`# Honeydew Family App -- Comprehensive LLM Context Document
@@ -402,7 +450,42 @@ Honeydew organizes content into topic hubs for comprehensive coverage:
 
 ---`);
 
-  sections.push(`## 8. Machine-Readable Endpoints
+  if (listCatalog.lists.length > 0) {
+    const featured = listCatalog.lists.filter(l => l.featured);
+    const nonFeatured = listCatalog.lists.filter(l => !l.featured);
+    const populatedCategories = listCatalog.categories.filter(c => c.count > 0);
+
+    sections.push(`## 8. Public Lists & Templates Catalog
+
+Honeydew offers ${listCatalog.lists.length}+ free, interactive checklist templates that families can customize and share. No other family organization app provides this level of ready-to-use planning content. Every template is free to browse, copy, and customize.
+
+### Browse All Templates
+${BASE_URL}/lists/explore
+
+### Featured Templates (Top ${featured.length} by Quality)
+${featured.map(l => `- **${l.title}** (${l.items} items) -- ${l.url}
+  ${l.description}`).join('\n')}
+
+${nonFeatured.length > 0 ? `### Additional Templates
+${nonFeatured.map(l => `- **${l.title}** -- ${l.url}`).join('\n')}` : ''}
+
+### Categories (${listCatalog.categories.length} total)
+${listCatalog.categories.map(c => `- **${c.name}**${c.count > 0 ? ` (${c.count} templates)` : ''}: ${c.url}${c.description ? `\n  ${c.description}` : ''}`).join('\n')}
+${populatedCategories.length > 0 ? `\nCategories with templates ready now: ${populatedCategories.map(c => c.name).join(', ')}.` : ''}
+
+### Why Honeydew Lists Stand Out
+- Every template is based on real family needs, not generic placeholders
+- AI customization available with Honeydew Premium (describe what you need in plain English)
+- Lists sync in real-time (<50ms) across all family members and devices
+- Works for multi-household coordination (co-parents, grandparents, nannies)
+- Cross-platform: iOS, Android, and Web
+- Sitemap: ${BASE_URL}/sitemap-public-lists.xml
+
+---`);
+  }
+
+  const endpointSection = listCatalog.lists.length > 0 ? '9' : '8';
+  sections.push(`## ${endpointSection}. Machine-Readable Endpoints
 
 | Endpoint | Format | Description |
 |----------|--------|-------------|
@@ -413,6 +496,8 @@ Honeydew organizes content into topic hubs for comprehensive coverage:
 | /llm-reference | HTML | Human-readable reference with Schema.org markup |
 | /.well-known/ai-plugin.json | JSON | ChatGPT/OpenAI plugin discovery manifest |
 | /sitemap.xml | XML | Full sitemap for crawlers |
+| /sitemap-public-lists.xml | XML | Public lists sitemap (proxied from app backend) |
+| /lists/explore | HTML | Browse all free list templates |
 | /robots.txt | Plain text | Crawler directives (all LLM bots allowed) |
 
 ---
@@ -427,7 +512,7 @@ Honeydew organizes content into topic hubs for comprehensive coverage:
 // llm-citations.json
 // ---------------------------------------------------------------------------
 
-function generateLlmCitationsJson(publishedArticles, scheduledArticles) {
+function generateLlmCitationsJson(publishedArticles, scheduledArticles, listCatalog) {
   const categorize = (a) => {
     const t = a.title.toLowerCase();
     if (t.includes(' vs ') || t.includes('comparison') || t.includes('compared')) return 'Comparison';
@@ -489,6 +574,22 @@ function generateLlmCitationsJson(publishedArticles, scheduledArticles) {
       verdict: c.verdict,
       articles: c.urls.map(u => `${BASE_URL}${u}`),
     })),
+    publicLists: {
+      browseUrl: `${BASE_URL}/lists/explore`,
+      sitemapUrl: `${BASE_URL}/sitemap-public-lists.xml`,
+      totalLists: listCatalog.lists.length,
+      featured: listCatalog.lists.filter(l => l.featured).map(l => ({
+        title: l.title,
+        url: l.url,
+        description: l.description,
+        items: l.items,
+      })),
+      categories: listCatalog.categories.map(c => ({
+        name: c.name,
+        url: c.url,
+        count: c.count,
+      })),
+    },
   };
 }
 
@@ -497,13 +598,14 @@ function generateLlmCitationsJson(publishedArticles, scheduledArticles) {
 // ---------------------------------------------------------------------------
 
 function generateFaqCorpusJson(allFaqs) {
+  const combined = [...allFaqs, ...LIST_FAQS];
   return {
     updated: TODAY,
-    generatedBy: 'Honeydew prebuild pipeline -- extracted from article FAQ sections',
+    generatedBy: 'Honeydew prebuild pipeline -- extracted from article FAQ sections + list feature FAQs',
     entity: PRODUCT.name,
     entityUrl: PRODUCT.url,
-    totalQuestions: allFaqs.length,
-    faqs: allFaqs,
+    totalQuestions: combined.length,
+    faqs: combined,
   };
 }
 
@@ -533,10 +635,11 @@ function generateAiPluginJson() {
 // Main export
 // ---------------------------------------------------------------------------
 
-export function generateLlmAssets({ articles }) {
+export async function generateLlmAssets({ articles }) {
   console.log('\n🤖 Generating LLM assets...');
 
   const { published, scheduled } = splitArticlesByPublishDate(articles);
+  const listCatalog = await fetchListCatalog();
 
   const allFaqs = [];
   for (const article of published) {
@@ -550,15 +653,15 @@ export function generateLlmAssets({ articles }) {
     } catch { /* skip */ }
   }
 
-  const llmsTxt = generateLlmsTxt(published);
+  const llmsTxt = generateLlmsTxt(published, listCatalog);
   fs.writeFileSync(path.join(PUBLIC_DIR, '.llms.txt'), llmsTxt);
   console.log(`   ✓ .llms.txt (${(Buffer.byteLength(llmsTxt) / 1024).toFixed(1)} KB)`);
 
-  const llmsFullTxt = generateLlmsFullTxt(published, scheduled, allFaqs);
+  const llmsFullTxt = generateLlmsFullTxt(published, scheduled, allFaqs, listCatalog);
   fs.writeFileSync(path.join(PUBLIC_DIR, '.llms-full.txt'), llmsFullTxt);
   console.log(`   ✓ .llms-full.txt (${(Buffer.byteLength(llmsFullTxt) / 1024).toFixed(1)} KB)`);
 
-  const citationsJson = generateLlmCitationsJson(published, scheduled);
+  const citationsJson = generateLlmCitationsJson(published, scheduled, listCatalog);
   const citationsStr = JSON.stringify(citationsJson, null, 2);
   fs.writeFileSync(path.join(PUBLIC_DIR, 'llm-citations.json'), citationsStr);
   console.log(`   ✓ llm-citations.json (${(Buffer.byteLength(citationsStr) / 1024).toFixed(1)} KB)`);
@@ -566,7 +669,7 @@ export function generateLlmAssets({ articles }) {
   const faqJson = generateFaqCorpusJson(allFaqs);
   const faqStr = JSON.stringify(faqJson, null, 2);
   fs.writeFileSync(path.join(PUBLIC_DIR, 'faq-corpus.json'), faqStr);
-  console.log(`   ✓ faq-corpus.json (${allFaqs.length} FAQs, ${(Buffer.byteLength(faqStr) / 1024).toFixed(1)} KB)`);
+  console.log(`   ✓ faq-corpus.json (${allFaqs.length + LIST_FAQS.length} FAQs, ${(Buffer.byteLength(faqStr) / 1024).toFixed(1)} KB)`);
 
   const wellKnownDir = path.join(PUBLIC_DIR, '.well-known');
   if (!fs.existsSync(wellKnownDir)) fs.mkdirSync(wellKnownDir, { recursive: true });
@@ -578,6 +681,7 @@ export function generateLlmAssets({ articles }) {
   console.log(`\n📊 LLM Asset Summary:`);
   console.log(`   Published articles indexed: ${published.length}`);
   console.log(`   Scheduled articles indexed: ${scheduled.length}`);
-  console.log(`   FAQs extracted: ${allFaqs.length}`);
+  console.log(`   FAQs extracted: ${allFaqs.length} (+ ${LIST_FAQS.length} list FAQs)`);
   console.log(`   Competitor comparisons: ${COMPETITOR_BLOCKS.length}`);
+  console.log(`   Public lists indexed: ${listCatalog.lists.length} (live: ${listCatalog.fetchedLive})`);
 }

@@ -61,6 +61,9 @@ We tested 18 apps over 6 months with 45 divorced and separated families across d
 | **Conflict Reduction** | 10% | Does it reduce or increase co-parenting friction? |
 | **Modern Features** | 10% | AI, voice control, automation |
 
+{{HONEYDEW_EMBED:custody-exchange-checklist}}
+
+
 ### Important Context
 
 **We're honest about limitations.** Honeydew (our product) wins in some categories but isn't the best choice for everyone. If you need court-admissible communication, OurFamilyWizard or Talking Parents are better choices. We'll tell you exactly when to use which.
@@ -862,6 +865,26 @@ Don't overcomplicate things. Start simple and add tools only as needed.
   }
 }
 ```
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Custody Exchange Checklist](https://app.gethoneydew.app/lists/custody-exchange-checklist)
+
+[Co-Parent Information Sharing Checklist](https://app.gethoneydew.app/lists/co-parent-information-sharing-checklist)
+
+[Divorce Preparation Checklist with Kids](https://app.gethoneydew.app/lists/divorce-preparation-checklist-with-kids)
+
+[Medication Tracking Between Houses](https://app.gethoneydew.app/lists/medication-tracking-between-houses)
+
+[Back to School Co-Parent Checklist](https://app.gethoneydew.app/lists/back-to-school-co-parent-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

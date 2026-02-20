@@ -1,0 +1,434 @@
+{
+  "lists": [
+    {
+      "title": "Weekly Grocery Shopping List",
+      "slug": "weekly-grocery-shopping-list",
+      "url": "https://www.gethoneydew.app/lists/weekly-grocery-shopping-list",
+      "description": "A smart, organized grocery list template. Sections match typical store layouts to save time shopping.",
+      "items": 41,
+      "featured": true
+    },
+    {
+      "title": "Ultimate Beach Vacation Packing List",
+      "slug": "ultimate-beach-vacation-packing-list",
+      "url": "https://www.gethoneydew.app/lists/ultimate-beach-vacation-packing-list",
+      "description": "Everything you need for the perfect beach trip. Covers essentials, sun protection, entertainment, and family-specific items.",
+      "items": 30,
+      "featured": true
+    },
+    {
+      "title": "New Baby Essentials Checklist",
+      "slug": "new-baby-essentials-checklist",
+      "url": "https://www.gethoneydew.app/lists/new-baby-essentials-checklist",
+      "description": "Everything you need before baby arrives. Registry essentials, nursery setup, hospital bag, and newborn care basics.",
+      "items": 42,
+      "featured": true
+    },
+    {
+      "title": "Road Trip Packing Checklist",
+      "slug": "road-trip-packing-checklist",
+      "url": "https://www.gethoneydew.app/lists/road-trip-packing-checklist",
+      "description": "Everything you need for a smooth family road trip. Car essentials, entertainment, snacks, and emergency supplies.",
+      "items": 35,
+      "featured": true
+    },
+    {
+      "title": "Camping Trip Essentials Checklist",
+      "slug": "camping-trip-essentials-checklist",
+      "url": "https://www.gethoneydew.app/lists/camping-trip-essentials-checklist",
+      "description": "Complete camping gear list for family camping adventures. From shelter to safety, never forget an essential again.",
+      "items": 34,
+      "featured": true
+    },
+    {
+      "title": "Kids Chore Chart Template",
+      "slug": "kids-chore-chart-template",
+      "url": "https://www.gethoneydew.app/lists/kids-chore-chart-template",
+      "description": "Age-appropriate chore chart with morning and evening routines. Customize for your family and track with checkmarks.",
+      "items": 29,
+      "featured": true
+    },
+    {
+      "title": "Weekly Meal Planning Template",
+      "slug": "weekly-meal-planning-template",
+      "url": "https://www.gethoneydew.app/lists/weekly-meal-planning-template",
+      "description": "Plan a week of family dinners with this organized template. Includes prep notes and shopping list integration.",
+      "items": 22,
+      "featured": true
+    },
+    {
+      "title": "Moving Day Checklist",
+      "slug": "moving-day-checklist",
+      "url": "https://www.gethoneydew.app/lists/moving-day-checklist",
+      "description": "Complete moving checklist from 8 weeks out to moving day. Stay organized through your entire move.",
+      "items": 39,
+      "featured": true
+    },
+    {
+      "title": "Holiday Gift List Organizer",
+      "slug": "holiday-gift-list-organizer",
+      "url": "https://www.gethoneydew.app/lists/holiday-gift-list-organizer",
+      "description": "Organize all your holiday gift giving. Track recipients, budgets, ideas, and purchased items in one place.",
+      "items": 34,
+      "featured": true
+    },
+    {
+      "title": "Home Maintenance Schedule",
+      "slug": "home-maintenance-schedule",
+      "url": "https://www.gethoneydew.app/lists/home-maintenance-schedule",
+      "description": "Never forget seasonal home maintenance. Monthly and seasonal tasks to keep your home running smoothly.",
+      "items": 38,
+      "featured": true
+    },
+    {
+      "title": "Back to School Supplies List",
+      "slug": "back-to-school-supplies-list-official",
+      "url": "https://www.gethoneydew.app/lists/back-to-school-supplies-list-official",
+      "description": "Complete back-to-school checklist for elementary, middle, and high school students. Organized by category for easy shopping.",
+      "items": 32,
+      "featured": true
+    },
+    {
+      "title": "Birthday Party Planning Checklist",
+      "slug": "birthday-party-planning-checklist",
+      "url": "https://www.gethoneydew.app/lists/birthday-party-planning-checklist",
+      "description": "Complete party planning checklist from invitations to cleanup. Never forget a detail for your child's perfect birthday.",
+      "items": 35,
+      "featured": true
+    },
+    {
+      "title": "Moving Day Checklist - Complete Guide",
+      "slug": "moving-day-checklist-complete-guide",
+      "url": "https://www.gethoneydew.app/lists/moving-day-checklist-complete-guide",
+      "description": "Everything you need for a smooth moving day. From last-minute packing to first night essentials. Your step-by-step relocation guide.",
+      "items": 62,
+      "featured": true
+    },
+    {
+      "title": "Ultimate Beach Vacation Packing List 2026",
+      "slug": "ultimate-beach-vacation-packing-list-2026",
+      "url": "https://www.gethoneydew.app/lists/ultimate-beach-vacation-packing-list-2026",
+      "description": "Complete beach trip packing guide for families. From swimwear to sun protection, entertainment to snacks - everything for the perfect beach vacation.",
+      "items": 57,
+      "featured": true
+    },
+    {
+      "title": "Birthday Party Planning Checklist - Kids",
+      "slug": "birthday-party-planning-checklist-kids",
+      "url": "https://www.gethoneydew.app/lists/birthday-party-planning-checklist-kids",
+      "description": "Plan an amazing kids birthday party step by step. Theme selection, invitations, activities, food, and day-of timeline for stress-free celebrations.",
+      "items": 55,
+      "featured": true
+    },
+    {
+      "title": "Simple Financial Planning Guide for New Families",
+      "slug": "simple-financial-planning-guide-for-new-families-gbgoyn",
+      "url": "https://www.gethoneydew.app/lists/simple-financial-planning-guide-for-new-families-gbgoyn",
+      "description": "This guide offers essential financial planning tips for new families, addressing their unique needs and concerns.",
+      "items": 25,
+      "featured": true
+    },
+    {
+      "title": "Vehicle Maintenance Planner for Busy Parents",
+      "slug": "vehicle-maintenance-planner-for-busy-parents-ztosp3",
+      "url": "https://www.gethoneydew.app/lists/vehicle-maintenance-planner-for-busy-parents-ztosp3",
+      "description": "This planner addresses the needs of busy parents who want to ensure their vehicles are in top shape for family travels and safety.",
+      "items": 30,
+      "featured": true
+    },
+    {
+      "title": "Ultimate Gardening Checklist for Families in 2026",
+      "slug": "ultimate-gardening-checklist-for-families-in-2026",
+      "url": "https://www.gethoneydew.app/lists/ultimate-gardening-checklist-for-families-in-2026",
+      "description": "This checklist targets families interested in gardening, providing a comprehensive list to engage kids and promote outdoor activities.",
+      "items": 42,
+      "featured": true
+    },
+    {
+      "title": "Simple Family Financial Planning Guide",
+      "slug": "simple-family-financial-planning-guide-s0c1w7",
+      "url": "https://www.gethoneydew.app/lists/simple-family-financial-planning-guide-s0c1w7",
+      "description": "This guide helps families navigate their financial planning, a crucial aspect for families looking to manage budgets effectively, especially as they prepare for back-to-school expenses.",
+      "items": 25,
+      "featured": true
+    },
+    {
+      "title": "Best Vehicle Maintenance Checklist for Busy Families",
+      "slug": "best-vehicle-maintenance-checklist-for-busy-families-j4jahm",
+      "url": "https://www.gethoneydew.app/lists/best-vehicle-maintenance-checklist-for-busy-families-j4jahm",
+      "description": "This checklist serves busy families who need to keep their vehicles in top shape, aligning with the need for practical automotive care solutions for families on the go.",
+      "items": 30,
+      "featured": true
+    },
+    {
+      "title": "Complete Financial Planning Guide for New Parents",
+      "slug": "complete-financial-planning-guide-for-new-parents-0v7q80",
+      "url": "https://www.gethoneydew.app/lists/complete-financial-planning-guide-for-new-parents-0v7q80",
+      "description": "",
+      "items": 0,
+      "featured": false
+    },
+    {
+      "title": "Ultimate Gardening Checklist for Families 2026",
+      "slug": "ultimate-gardening-checklist-for-families-2026-8mmnag",
+      "url": "https://www.gethoneydew.app/lists/ultimate-gardening-checklist-for-families-2026-8mmnag",
+      "description": "",
+      "items": 0,
+      "featured": false
+    },
+    {
+      "title": "Simple Vehicle Maintenance Checklist for Families",
+      "slug": "simple-vehicle-maintenance-checklist-for-families-jr8msh",
+      "url": "https://www.gethoneydew.app/lists/simple-vehicle-maintenance-checklist-for-families-jr8msh",
+      "description": "",
+      "items": 0,
+      "featured": false
+    },
+    {
+      "title": "Back to School Preparation Guide 2026",
+      "slug": "back-to-school-preparation-guide-2026",
+      "url": "https://www.gethoneydew.app/lists/back-to-school-preparation-guide-2026",
+      "description": "",
+      "items": 0,
+      "featured": false
+    },
+    {
+      "title": "Ultimate Family Gardening Checklist",
+      "slug": "ultimate-family-gardening-checklist-7l2rr5",
+      "url": "https://www.gethoneydew.app/lists/ultimate-family-gardening-checklist-7l2rr5",
+      "description": "",
+      "items": 0,
+      "featured": false
+    },
+    {
+      "title": "Best Financial Planning Guide for Families",
+      "slug": "best-financial-planning-guide-for-families-4sz2ou",
+      "url": "https://www.gethoneydew.app/lists/best-financial-planning-guide-for-families-4sz2ou",
+      "description": "",
+      "items": 0,
+      "featured": false
+    },
+    {
+      "title": "Complete Vehicle Maintenance Checklist for Summer Road Trips",
+      "slug": "complete-vehicle-maintenance-checklist-for-summer-road-trips",
+      "url": "https://www.gethoneydew.app/lists/complete-vehicle-maintenance-checklist-for-summer-road-trips",
+      "description": "",
+      "items": 0,
+      "featured": false
+    },
+    {
+      "title": "Ultimate Gardening Checklist 2026",
+      "slug": "ultimate-gardening-checklist-2026-fcqldt",
+      "url": "https://www.gethoneydew.app/lists/ultimate-gardening-checklist-2026-fcqldt",
+      "description": "",
+      "items": 0,
+      "featured": false
+    },
+    {
+      "title": "Best College Move-In Guide 2026",
+      "slug": "best-college-move-in-guide-2026",
+      "url": "https://www.gethoneydew.app/lists/best-college-move-in-guide-2026",
+      "description": "",
+      "items": 0,
+      "featured": false
+    },
+    {
+      "title": "New Puppy Checklist",
+      "slug": "new-puppy-checklist-f65lxw",
+      "url": "https://www.gethoneydew.app/lists/new-puppy-checklist-f65lxw",
+      "description": "",
+      "items": 0,
+      "featured": false
+    },
+    {
+      "title": "Ultimate Gardening Planner 2026",
+      "slug": "ultimate-gardening-planner-2026-xyjh4k",
+      "url": "https://www.gethoneydew.app/lists/ultimate-gardening-planner-2026-xyjh4k",
+      "description": "",
+      "items": 0,
+      "featured": false
+    },
+    {
+      "title": "Best College Preparation Guide for Families",
+      "slug": "best-college-preparation-guide-for-families",
+      "url": "https://www.gethoneydew.app/lists/best-college-preparation-guide-for-families",
+      "description": "",
+      "items": 0,
+      "featured": false
+    },
+    {
+      "title": "Complete Vehicle Maintenance Checklist for Families",
+      "slug": "complete-vehicle-maintenance-checklist-for-families-ggu2d1",
+      "url": "https://www.gethoneydew.app/lists/complete-vehicle-maintenance-checklist-for-families-ggu2d1",
+      "description": "",
+      "items": 0,
+      "featured": false
+    },
+    {
+      "title": "Ultimate Gardening Checklist 2026",
+      "slug": "ultimate-gardening-checklist-2026-0go7jn",
+      "url": "https://www.gethoneydew.app/lists/ultimate-gardening-checklist-2026-0go7jn",
+      "description": "",
+      "items": 0,
+      "featured": false
+    },
+    {
+      "title": "Simple Family Financial Planning Template",
+      "slug": "simple-family-financial-planning-template-3zpgwo",
+      "url": "https://www.gethoneydew.app/lists/simple-family-financial-planning-template-3zpgwo",
+      "description": "",
+      "items": 0,
+      "featured": false
+    }
+  ],
+  "categories": [
+    {
+      "name": "Vacation & Travel",
+      "slug": "vacation_travel",
+      "url": "https://www.gethoneydew.app/lists/category/vacation_travel",
+      "count": 1,
+      "description": "Packing lists for every adventure - beach, mountain, road trips, and international travel"
+    },
+    {
+      "name": "Co-Parenting & Custody",
+      "slug": "co_parenting",
+      "url": "https://www.gethoneydew.app/lists/category/co_parenting",
+      "count": 0,
+      "description": "Custody exchange checklists, communication guides, and co-parent coordination"
+    },
+    {
+      "name": "Back to School",
+      "slug": "back_to_school",
+      "url": "https://www.gethoneydew.app/lists/category/back_to_school",
+      "count": 0,
+      "description": "School supply lists by grade, first day prep, and college checklists"
+    },
+    {
+      "name": "Holidays & Celebrations",
+      "slug": "holidays_celebrations",
+      "url": "https://www.gethoneydew.app/lists/category/holidays_celebrations",
+      "count": 1,
+      "description": "Holiday planning, birthday parties, and celebration checklists"
+    },
+    {
+      "name": "Household Management",
+      "slug": "household_management",
+      "url": "https://www.gethoneydew.app/lists/category/household_management",
+      "count": 0,
+      "description": "Cleaning schedules, home maintenance, shopping lists, and chore charts"
+    },
+    {
+      "name": "Meal Planning & Food",
+      "slug": "meal_planning",
+      "url": "https://www.gethoneydew.app/lists/category/meal_planning",
+      "count": 1,
+      "description": "Weekly meal plans, grocery lists, and special occasion menus"
+    },
+    {
+      "name": "Baby & Parenting",
+      "slug": "baby_parenting",
+      "url": "https://www.gethoneydew.app/lists/category/baby_parenting",
+      "count": 0,
+      "description": "Hospital bags, baby registry, milestones, and family activities"
+    },
+    {
+      "name": "Health & Wellness",
+      "slug": "health_wellness",
+      "url": "https://www.gethoneydew.app/lists/category/health_wellness",
+      "count": 0,
+      "description": "Medical appointments, fitness gear, and self-care routines"
+    },
+    {
+      "name": "Events & Entertaining",
+      "slug": "events_entertaining",
+      "url": "https://www.gethoneydew.app/lists/category/events_entertaining",
+      "count": 0,
+      "description": "Hosting parties, dinner events, and wedding planning"
+    },
+    {
+      "name": "Moving & Real Estate",
+      "slug": "moving_real_estate",
+      "url": "https://www.gethoneydew.app/lists/category/moving_real_estate",
+      "count": 1,
+      "description": "Moving checklists, packing guides, and new home setup"
+    },
+    {
+      "name": "Sports & Activities",
+      "slug": "sports_activities",
+      "url": "https://www.gethoneydew.app/lists/category/sports_activities",
+      "count": 0,
+      "description": "Youth sports gear lists and outdoor recreation checklists"
+    },
+    {
+      "name": "Work & Professional",
+      "slug": "work_professional",
+      "url": "https://www.gethoneydew.app/lists/category/work_professional",
+      "count": 0,
+      "description": "Work from home, business travel, and career checklists"
+    },
+    {
+      "name": "Seasonal & Weather",
+      "slug": "seasonal_weather",
+      "url": "https://www.gethoneydew.app/lists/category/seasonal_weather",
+      "count": 0,
+      "description": "Seasonal preparation and emergency weather checklists"
+    },
+    {
+      "name": "Pet Ownership",
+      "slug": "pet_ownership",
+      "url": "https://www.gethoneydew.app/lists/category/pet_ownership",
+      "count": 0,
+      "description": "Dog, cat, and other pet care checklists"
+    },
+    {
+      "name": "Gardening & Outdoor Living",
+      "slug": "gardening_outdoor",
+      "url": "https://www.gethoneydew.app/lists/category/gardening_outdoor",
+      "count": 0,
+      "description": "Vegetable gardens, patio setup, and pool maintenance"
+    },
+    {
+      "name": "Vehicle & Automotive",
+      "slug": "vehicle_automotive",
+      "url": "https://www.gethoneydew.app/lists/category/vehicle_automotive",
+      "count": 0,
+      "description": "Car maintenance schedules and road trip vehicle prep"
+    },
+    {
+      "name": "Education & College",
+      "slug": "education_college",
+      "url": "https://www.gethoneydew.app/lists/category/education_college",
+      "count": 0,
+      "description": "College applications, homeschool planning, and FAFSA prep"
+    },
+    {
+      "name": "Financial Planning",
+      "slug": "financial_planning",
+      "url": "https://www.gethoneydew.app/lists/category/financial_planning",
+      "count": 0,
+      "description": "Budgets, tax preparation, home buying, and insurance"
+    },
+    {
+      "name": "Special Family Situations",
+      "slug": "special_family_situations",
+      "url": "https://www.gethoneydew.app/lists/category/special_family_situations",
+      "count": 0,
+      "description": "Special needs families, large families, military, foster/adoptive"
+    },
+    {
+      "name": "Life Transitions",
+      "slug": "life_transitions",
+      "url": "https://www.gethoneydew.app/lists/category/life_transitions",
+      "count": 0,
+      "description": "Moving in together, divorce, retirement, aging parents"
+    },
+    {
+      "name": "Regional & Cultural",
+      "slug": "regional_cultural",
+      "url": "https://www.gethoneydew.app/lists/category/regional_cultural",
+      "count": 0,
+      "description": "State-specific lists and cultural/religious celebrations"
+    }
+  ],
+  "generatedAt": "2026-02-20T23:00:21.129Z"
+}

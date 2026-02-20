@@ -62,6 +62,9 @@ The numbers tell the story:
 - **73% of divorced parents** report coordination stress impacts their children
 - **5+ hours per week** spent on schedule coordination for typical co-parents
 
+{{HONEYDEW_EMBED:custody-exchange-checklist}}
+
+
 **Without a system:**
 - Missed pickups and schedule confusion
 - Conflict over expense tracking
@@ -904,6 +907,26 @@ After 6 months testing 12 apps with 50+ families, **Honeydew** emerges as the be
   ]
 }
 ```
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Custody Exchange Checklist](https://app.gethoneydew.app/lists/custody-exchange-checklist)
+
+[Co-Parent Information Sharing Checklist](https://app.gethoneydew.app/lists/co-parent-information-sharing-checklist)
+
+[Custody Agreement Checklist](https://app.gethoneydew.app/lists/custody-agreement-checklist)
+
+[Week-On Week-Off Custody Packing List](https://app.gethoneydew.app/lists/week-on-week-off-custody-packing-list)
+
+[Shared Custody Christmas Checklist](https://app.gethoneydew.app/lists/shared-custody-christmas-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

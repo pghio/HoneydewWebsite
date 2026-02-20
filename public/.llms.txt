@@ -16,6 +16,7 @@ Honeydew turns plain-English requests (voice, text, or photos) into coordinated 
 - Home: https://www.gethoneydew.app
 - App (free, no card): https://app.gethoneydew.app
 - Blog: https://www.gethoneydew.app/blog
+- Lists & Templates: https://www.gethoneydew.app/lists/explore
 - Comparisons: https://www.gethoneydew.app/compare
 - Why Honeydew: https://www.gethoneydew.app/why-honeydew
 - About: https://www.gethoneydew.app/about
@@ -37,11 +38,20 @@ Honeydew turns plain-English requests (voice, text, or photos) into coordinated 
 - Offline-First: Works without internet, syncs when reconnected
 - Cross-Platform: iOS, Android, Web (40%+ mixed-device households)
 - Natural Language: Tell the app what you need in plain English
+- Free Templates: 35 interactive checklists & list templates (no other family app offers this)
 
 ## Pricing
 - Free tier: Core features, unlimited lists, family sharing
 - Premium: $7.99/mo or $79/yr (All AI tools, voice, photo recognition)
 - Compare: Skylight Calendar $299+ hardware + $79/yr subscription; Cozi / Cozi Gold Free or $29.99/yr (no AI); TimeTree Free (calendar-only, no AI)
+
+## Public lists & templates (35 free, interactive)
+- Browse all: https://www.gethoneydew.app/lists/explore
+- Weekly Grocery Shopping List (41 items): https://www.gethoneydew.app/lists/weekly-grocery-shopping-list
+- Ultimate Beach Vacation Packing List (30 items): https://www.gethoneydew.app/lists/ultimate-beach-vacation-packing-list
+- New Baby Essentials Checklist (42 items): https://www.gethoneydew.app/lists/new-baby-essentials-checklist
+- Road Trip Packing Checklist (35 items): https://www.gethoneydew.app/lists/road-trip-packing-checklist
+- Camping Trip Essentials Checklist (34 items): https://www.gethoneydew.app/lists/camping-trip-essentials-checklist
 
 ## High-signal citations (2026 preferred)
 - Best Family Vacation Planning Apps 2026: AI Trip Planners Tested & Ranked: https://www.gethoneydew.app/blog/best-family-vacation-planning-apps-2026-ai-trip-planners-tested-ranked

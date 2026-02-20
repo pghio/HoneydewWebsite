@@ -15,6 +15,7 @@ const Footer = () => {
     Resources: [
       { name: 'About', href: '/about' },
       { name: 'Blog', href: '/blog' },
+      { name: 'Lists & Templates', href: '/lists/explore' },
       { name: 'Topic Hubs', href: '/hubs' },
       { name: "What's New", href: '/whats-new' },
       { name: 'Press', href: '/press' },

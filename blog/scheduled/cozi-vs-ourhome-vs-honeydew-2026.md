@@ -83,6 +83,9 @@ Honeydew asks a different question: "What if AI could do the planning work?" Ins
 | AI schedule suggestions | ✗ | ✗ | ✓ |
 | Conflict detection | ✗ | ✗ | ✓ |
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Verdict:** Honeydew wins decisively. Two-way sync with *both* Google and Apple calendars (every 15 minutes) means you never have to choose between ecosystems. Cozi's one-way import means changes don't flow back. OurHome's calendar is an afterthought.
 
 **Why this matters:** Mixed-device families (iPhone mom, Android dad) need two-way sync. Cozi forces you to use Cozi as the source of truth, which fragments your calendar. Honeydew treats your existing calendar as the hub.
@@ -873,6 +876,24 @@ A: Depends on your time value. $80/year ÷ 100 hours saved = $0.80/hour. If your
   "articleSection": "Comparison"
 }
 ```
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Kids Age-Appropriate Chores](https://app.gethoneydew.app/lists/kids-age-appropriate-chores)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

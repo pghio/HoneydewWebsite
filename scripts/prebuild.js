@@ -3,10 +3,11 @@
 /**
  * Prebuild script
  *
- * Generates all derived blog assets (manifest + sitemap) in a single pass
- * to reduce duplicated disk IO during production builds.
+ * Generates all derived blog assets (manifest + sitemap + LLM context) in a
+ * single pass, then injects blog-to-list cross-links.
  */
 
+import { execSync } from 'child_process';
 import { loadBlogArticles } from './utils/blog-content.js';
 import { generateBlogManifest } from './generate-blog-manifest.js';
 import { generateSitemapFile } from './generate-sitemap.js';
@@ -20,7 +21,14 @@ async function main() {
 
   generateBlogManifest({ articles });
   generateSitemapFile({ articles });
-  generateLlmAssets({ articles });
+  await generateLlmAssets({ articles });
+
+  console.log('\n🔗 Injecting blog-to-list cross-links...');
+  try {
+    execSync('node scripts/inject-blog-list-crosslinks.cjs', { stdio: 'inherit' });
+  } catch {
+    console.log('   ⚠ Cross-link injection skipped (script not found or failed)');
+  }
 
   console.log('✅ Prebuild assets refreshed.');
 }

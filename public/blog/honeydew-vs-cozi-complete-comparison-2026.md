@@ -56,6 +56,9 @@ featured: true
 
 Before diving into specifics, it's worth understanding the context. When Cozi launched in 2005, the iPhone didn't exist. Facebook was a year old. Cloud computing was nascent. The idea of an AI assistant that could understand natural language was science fiction.
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 Cozi was revolutionary for its time. It gave families a shared digital space when most households still used paper calendars on the refrigerator. The app grew alongside smartphones, adapted to changing technology, and built a loyal user base of millions.
 
 Fast forward to 2026. AI assistants can genuinely understand and act on complex requests. Voice recognition has reached human-level accuracy. Real-time collaboration happens in milliseconds. The question is no longer "should families use digital tools?" but "which digital tools actually reduce the coordination burden rather than just digitizing it?"
@@ -709,6 +712,26 @@ Honeydew represents what family organization looks like when built with modern A
 - [Best Apps for Co-Parenting Coordination](/blog/best-apps-divorced-parents-co-parenting)
 - [How AI is Transforming Family Organization](/blog/ai-family-organization-guide)
 - [Compare All Family Apps](/compare)
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Household Essentials Shopping List](https://app.gethoneydew.app/lists/household-essentials-shopping-list)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

@@ -54,6 +54,9 @@ Honeydew's AI can understand "plan our beach trip with packing list" and create 
 
 Skylight Calendar is a wall-mounted digital calendar display designed for family coordination. Launched by Skylight (the same company that makes digital photo frames), the Calendar aims to replace the paper calendar on your refrigerator with a touchscreen display everyone can see.
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 ### Skylight's Core Promise
 
 The pitch is simple: Put a beautiful 15" or 27" touchscreen on your kitchen wall, and your family will always know what's happening. Everyone walks by it. Everyone sees the week at a glance. No more "I didn't know about that event."
@@ -801,6 +804,24 @@ Skylight's marketing is beautiful. Gorgeous kitchen shots. Happy families gather
 - [7 Best Skylight Calendar Alternatives 2026](/blog/7-best-skylight-calendar-alternatives-2026)
 - [Digital Family Command Center: App vs Wall Display 2026](/blog/digital-family-command-center-app-vs-wall-display-2026)
 - [Compare All Family Apps](/compare)
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[School Morning Routine Checklist](https://app.gethoneydew.app/lists/school-morning-routine-checklist)
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

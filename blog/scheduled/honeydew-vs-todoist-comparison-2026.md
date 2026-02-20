@@ -398,6 +398,9 @@ Todoist's task management is *exceptional*. The natural language input is the be
 | **Free Tier** | ✅ Unlimited members, basic AI | ✅ 5 projects, basic features |
 | **Price (Family of 4/year)** | $99 | $192 |
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Summary:**
 - **Honeydew wins:** 12 categories (family-focused features, AI, calendar, value for families)
 - **Todoist wins:** 5 categories (natural language, integrations, filters, gamification, templates)
@@ -820,6 +823,24 @@ For families, that's not even a close decision.
 - [Honeydew vs Cozi: Which Family App is Better?](/blog/honeydew-vs-cozi-comparison-2025)
 - [Honeydew vs Any.Do: Task + Calendar for Families](/blog/honeydew-vs-anydo-comparison-2026)
 - [Best Apps for Managing Family Mental Load](/blog/best-mental-load-apps-2026)
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Daily Household Tasks Checklist](https://app.gethoneydew.app/lists/daily-household-tasks-checklist)
+
+[Weekly House Cleaning Checklist](https://app.gethoneydew.app/lists/weekly-house-cleaning-checklist)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

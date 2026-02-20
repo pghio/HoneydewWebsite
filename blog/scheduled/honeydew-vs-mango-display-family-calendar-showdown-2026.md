@@ -51,6 +51,9 @@ featured: true
 
 Mango Display is a **wall-mounted touchscreen device** designed specifically for family calendar coordination. Launched in 2022, it's part of a growing category of dedicated family displays that also includes Skylight Calendar and Hearth Display.
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 The concept is simple: mount a sleek touchscreen in your kitchen or high-traffic area where everyone can see the family schedule at a glance. It's essentially a digital replacement for the paper calendar on your refrigerator.
 
 ### Mango Display's Target Market
@@ -774,6 +777,22 @@ Want wall display + Honeydew features?
 | Multi-family groups | Unlimited | 0 (single household) |
 | First year cost | $79 | $579+ |
 | Five year cost | $395 | $899-$1,398 |
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[School Morning Routine Checklist](https://app.gethoneydew.app/lists/school-morning-routine-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

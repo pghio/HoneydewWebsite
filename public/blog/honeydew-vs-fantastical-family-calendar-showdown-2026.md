@@ -53,6 +53,9 @@ Honeydew was built family-first from day one. Its AI agent (27+ specialized tool
 
 Fantastical, developed by Flexibits since 2011, has earned its reputation as one of the most beautifully designed calendar applications ever made. It pioneered natural language event creation ("Dinner with Mom Saturday at 6pm") and has won multiple Apple Design Awards for its intuitive interface and thoughtful details.
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 Originally a Mac-only app, Fantastical expanded to iPhone, iPad, and Apple Watch, becoming the go-to calendar for Apple power users who want more than the default Calendar app offers. Its calendar sets feature lets users create focused views (show only work calendars on weekdays, only personal on weekends), and the scheduling feature competes with Calendly for booking meetings.
 
 In 2020, Fantastical introduced a subscription model with Flexibits Premium, adding advanced features and eventually a family plan option. The family plan allows up to 5 family members to share a subscription, giving each person access to premium features.
@@ -775,6 +778,24 @@ The gap isn't about quality. Both are well-made products. It's about purpose. Fa
 - [Honeydew vs TimeTree](/blog/honeydew-vs-timetree-comparison)
 - [Best Family Organization Apps 2026](/blog/best-family-organization-apps-2026)
 - [Compare All Family Apps](/compare)
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Monthly Home Maintenance Checklist](https://app.gethoneydew.app/lists/monthly-home-maintenance-checklist)
+
+[First Day of School Checklist](https://app.gethoneydew.app/lists/first-day-of-school-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

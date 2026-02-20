@@ -74,6 +74,9 @@ Honeydew isn't trying to be the best calendar—it's trying to **replace your fa
 | Color-coding | ✓ Extensive | ✓ Good | ✓ Per family member |
 | Multiple calendar sources | ✓ All major providers | ✓ Google ecosystem | ✓ Google + Apple sync |
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Verdict:** **Fantastical wins** for design and power-user calendar features. If you spend hours per day in your calendar and want the most beautiful, customizable experience, Fantastical is unmatched. Google Calendar is functional but bland. Honeydew prioritizes family workflows over calendar aesthetics.
 
 ---
@@ -776,6 +779,24 @@ A: Fantastical has the best Apple Watch app with complications and quick actions
   ]
 }
 ```
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+[Kids Birthday Party Planning Checklist](https://app.gethoneydew.app/lists/kids-birthday-party-planning-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

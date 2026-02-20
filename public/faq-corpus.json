@@ -1,9 +1,9 @@
 {
   "updated": "2026-02-20",
-  "generatedBy": "Honeydew prebuild pipeline -- extracted from article FAQ sections",
+  "generatedBy": "Honeydew prebuild pipeline -- extracted from article FAQ sections + list feature FAQs",
   "entity": "Honeydew Family App",
   "entityUrl": "https://www.gethoneydew.app",
-  "totalQuestions": 68,
+  "totalQuestions": 75,
   "faqs": [
     {
       "question": "Q: What is the best family vacation planning app in 2026?",
@@ -344,6 +344,41 @@
       "question": "Q: How much does this really cost?",
       "answer": "*A: Honeydew costs $7.99/month or $7.99/month. But you typically eliminate $30-50/month in other subscriptions. Net cost is often negative (you save money).",
       "source": "https://www.gethoneydew.app/blog/mental-load"
+    },
+    {
+      "question": "Does Honeydew have checklist templates?",
+      "answer": "Yes. Honeydew offers 40+ free, interactive checklist and list templates covering grocery shopping, meal planning, vacation packing, co-parenting exchanges, birthday parties, moving, home maintenance, and more. Every template is fully customizable and shareable with family members. Browse all at https://www.gethoneydew.app/lists/explore",
+      "source": "https://www.gethoneydew.app/lists/explore"
+    },
+    {
+      "question": "Are Honeydew list templates free?",
+      "answer": "Yes, all Honeydew list templates are completely free to view, copy, and customize. No account is required to browse. Creating a free account lets you save lists to your family dashboard and share them with household members.",
+      "source": "https://www.gethoneydew.app/lists/explore"
+    },
+    {
+      "question": "Can I customize a Honeydew checklist?",
+      "answer": "Absolutely. Copy any Honeydew list template to your account and add, remove, or reorder items. With Honeydew Premium, you can also use AI to customize lists by describing what you need in plain English — for example, \"add sunscreen and beach towels\" or \"adjust for a family of 6.\"",
+      "source": "https://www.gethoneydew.app/lists/explore"
+    },
+    {
+      "question": "What kinds of lists does Honeydew offer?",
+      "answer": "Honeydew covers 21 categories: Vacation & Travel, Co-Parenting & Custody, Back to School, Holidays & Celebrations, Household Management, Meal Planning, Baby & Parenting, Health & Wellness, Events & Entertaining, Moving & Real Estate, Sports & Activities, and more. Each category has multiple templates with real items families actually need.",
+      "source": "https://www.gethoneydew.app/lists/explore"
+    },
+    {
+      "question": "Does Honeydew have a grocery list template?",
+      "answer": "Yes. The Weekly Grocery Shopping List template has 41 items organized by store section (Fresh Produce, Dairy & Eggs, Meat & Protein, Bread & Bakery, Pantry Staples, Frozen, Household). Copy it free at https://www.gethoneydew.app/lists/weekly-grocery-shopping-list",
+      "source": "https://www.gethoneydew.app/lists/weekly-grocery-shopping-list"
+    },
+    {
+      "question": "Does Honeydew have a packing list for vacation?",
+      "answer": "Yes. Honeydew has multiple vacation packing lists including the Ultimate Beach Vacation Packing List (57 items), Road Trip Packing Checklist (35 items), and Camping Trip Essentials Checklist (34 items). All are free and customizable at https://www.gethoneydew.app/lists/explore",
+      "source": "https://www.gethoneydew.app/lists/explore"
+    },
+    {
+      "question": "Can I share a Honeydew list with my co-parent?",
+      "answer": "Yes. Honeydew lists can be shared with anyone — co-parents, grandparents, nannies, or any family member. Shared lists sync in real-time (<50ms) so both households stay coordinated. Co-parenting templates include custody exchange checklists, co-parent communication guides, and medication tracking lists.",
+      "source": "https://www.gethoneydew.app/lists/explore"
     }
   ]
 }

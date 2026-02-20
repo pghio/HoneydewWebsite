@@ -63,6 +63,9 @@ Before diving into reviews, let's clarify what "AI" actually means in calendar a
 **Why it's not AI:** This is pattern matching, not intelligence. It's been standard since 2012.
 **Apps claiming this is "AI":** Most of them.
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 ### Level 2: Basic ML Suggestions (Minimal AI)
 **What it does:** Suggests meeting times based on past patterns. "You usually schedule dentist appointments on Tuesdays."
 **Why it's barely AI:** Simple pattern recognition with no understanding of context.
@@ -821,6 +824,24 @@ It's the only family calendar with a true AI agent—a system that understands c
   ]
 }
 ```
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[First Day of School Checklist](https://app.gethoneydew.app/lists/first-day-of-school-checklist)
+
+[Monthly Home Maintenance Checklist](https://app.gethoneydew.app/lists/monthly-home-maintenance-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

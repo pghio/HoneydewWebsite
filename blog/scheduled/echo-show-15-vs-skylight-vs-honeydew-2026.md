@@ -68,6 +68,9 @@ Honeydew's approach: build the smartest family coordination software possible, t
 | Hands-free cooking help | ✅ Alexa recipes | ❌ | ✅ + meal planning |
 | Works while driving | ⚠️ Via phone app | ❌ | ✅ |
 
+{{HONEYDEW_EMBED:family-chore-chart-checklist}}
+
+
 **Echo Show 15:** "Alexa, add soccer practice to my calendar." Works for basic additions but can't handle complex requests like "plan next week's meals based on what's on sale."
 
 **Skylight:** No voice control at all. You must walk to the display and tap. In 2026, that's a significant limitation for a $400+ device.
@@ -675,6 +678,22 @@ You might find you don't need dedicated display hardware at all—or you might w
   "articleSection": "Comparison"
 }
 ```
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Family Chore Chart Checklist](https://app.gethoneydew.app/lists/family-chore-chart-checklist)
+
+[Weekly Meal Plan Template](https://app.gethoneydew.app/lists/weekly-meal-plan-template)
+
+[Master Grocery List Template](https://app.gethoneydew.app/lists/master-grocery-list-template)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

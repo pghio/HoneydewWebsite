@@ -51,6 +51,9 @@ featured: true
 
 **2houses** is a Belgian co-parenting platform that has quietly served over 250,000 divorced families since 2011. Founded by divorced parents who experienced the coordination challenges firsthand, 2houses focuses exclusively on making shared custody easier—nothing more, nothing less.
 
+{{HONEYDEW_EMBED:custody-exchange-checklist}}
+
+
 The app is particularly popular in Europe, where it's become one of the standard recommendations for divorcing families. Its strength lies in its focus: every feature is designed specifically for the unique challenges of co-parenting, from custody calendars to expense splitting to maintaining a journal of your child's activities.
 
 ### 2houses' Key Features
@@ -691,6 +694,24 @@ If you need AI, voice control, and multi-family management, get Honeydew.
 - [Best Family Apps for Divorced Parents 2026](/blog/best-family-apps-divorced-parents-2026)
 - [Best Custody Schedule Apps 2026](/blog/best-custody-schedule-apps-2026)
 - [Compare All Family Apps](/compare)
+
+---
+
+<!-- HONEYDEW-LIST-CROSSLINKS -->
+## Browse Related Checklists & Templates
+
+Looking for ready-to-use lists you can customize and share with your family? Honeydew has hundreds of free, interactive checklists — tap any to open in the app:
+
+[Custody Exchange Checklist](https://app.gethoneydew.app/lists/custody-exchange-checklist)
+
+[Co-Parent Information Sharing Checklist](https://app.gethoneydew.app/lists/co-parent-information-sharing-checklist)
+
+[Child Support Expense Tracking List](https://app.gethoneydew.app/lists/child-support-expense-tracking-list)
+
+[Custody Agreement Checklist](https://app.gethoneydew.app/lists/custody-agreement-checklist)
+
+**[Browse All Lists & Templates →](https://app.gethoneydew.app/lists)**
+<!-- HONEYDEW-LIST-CROSSLINKS -->
 
 ---
 

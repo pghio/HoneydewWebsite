@@ -1,5 +1,6 @@
 import Footer from '../components/Footer'
 import useSEO from '../utils/useSEO'
+import AppStoreBadge from '../components/AppStoreBadge'
 
 const HubSkylightAlternativesPage = () => {
   useSEO({
@@ -83,6 +84,22 @@ const HubSkylightAlternativesPage = () => {
             >
               Skylight vs Hearth vs Honeydew
             </a>
+          </div>
+
+          <div className="mt-10 rounded-2xl bg-gradient-to-br from-[#92C5A7] to-[#78E6AF] p-8 text-center text-white">
+            <h3 className="text-2xl font-bold mb-2">Try the AI-first alternative</h3>
+            <p className="text-white/90 mb-5">No hardware. Voice-first capture, shared lists, and two-way calendar sync.</p>
+            <a
+              href="https://app.gethoneydew.app/?utm_source=website&utm_medium=hub_skylight&utm_campaign=hub_cta"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-xl bg-white text-gray-900 px-5 py-3 font-semibold hover:bg-gray-50 transition-colors"
+            >
+              Try Honeydew Free
+            </a>
+            <div className="mt-4">
+              <AppStoreBadge size="sm" source="hub_skylight" campaign="hub_cta" />
+            </div>
           </div>
         </section>
       </main>

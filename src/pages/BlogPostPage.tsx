@@ -11,8 +11,12 @@ import {
   createScrollTracker, 
   startTimeTracking, 
   buildBlogCTALink,
-  trackAppStoreClick 
+  trackAppStoreClick,
+  APP_LINKS,
+  APP_STORE_IOS_URL,
+  buildAppStoreLink,
 } from '../utils/funnelTracking'
+import AppStoreBadge, { AppStoreTextLink } from '../components/AppStoreBadge'
 import { buildRelatedComparisonLinks } from '../utils/comparisonLinks'
 
 type TocItem = {
@@ -338,8 +342,7 @@ const BlogPostPage = () => {
           url: `${baseUrl}/logo.png`,
         },
         sameAs: [
-          'https://apps.apple.com/app/honeydew-family-organizer/id6475768439',
-          'https://play.google.com/store/apps/details?id=app.gethoneydew.honeydew'
+          'https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362'
         ]
       },
       mainEntityOfPage: {
@@ -697,28 +700,31 @@ const BlogPostPage = () => {
             Voice, text, or photo → lists + calendar in seconds. No hardware required.
           </p>
         </div>
-        <a
-          href={midArticleCtaHref}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center justify-center rounded-xl bg-[#92C5A7] px-5 py-3 font-semibold text-gray-900 hover:bg-[#86b89b] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#92C5A7]/50"
-          onClick={() => {
-            trackLinkClick({
-              href: midArticleCtaHref,
-              source: 'blog_post_mid',
-              label: frontmatter.title ?? slug ?? 'blog_post',
-              campaign: 'article_conversion_mid',
-              additionalParams: {
-                blog_slug: slug,
-                article_category: frontmatter.category,
-              },
-            })
-            trackAppStoreClick('blog_cta_mid', `article_${slug}`, 'web')
-          }}
-        >
-          Try Honeydew Free
-          <ArrowRight className="ml-2 w-4 h-4" />
-        </a>
+        <div className="flex flex-col items-center gap-3">
+          <a
+            href={midArticleCtaHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-xl bg-[#92C5A7] px-5 py-3 font-semibold text-gray-900 hover:bg-[#86b89b] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#92C5A7]/50"
+            onClick={() => {
+              trackLinkClick({
+                href: midArticleCtaHref,
+                source: 'blog_post_mid',
+                label: frontmatter.title ?? slug ?? 'blog_post',
+                campaign: 'article_conversion_mid',
+                additionalParams: {
+                  blog_slug: slug,
+                  article_category: frontmatter.category,
+                },
+              })
+              trackAppStoreClick('blog_cta_mid', `article_${slug}`, 'web')
+            }}
+          >
+            Try Honeydew Free
+            <ArrowRight className="ml-2 w-4 h-4" />
+          </a>
+          <AppStoreBadge size="sm" source="blog_mid" campaign={`article_${slug}`} />
+        </div>
       </div>
     </div>
   )
@@ -1017,9 +1023,29 @@ const BlogPostPage = () => {
                 // Rich list preview cards for app.gethoneydew.app/lists/ links
                 a: ({node, href, children, ...props}) => {
                   const isListLink = href && href.includes('app.gethoneydew.app/lists')
+                  const isAppStoreLink = href && href.includes('apps.apple.com')
                   
+                  if (isAppStoreLink) {
+                    const trackedHref = href.includes('id6752225362') ? buildAppStoreLink({ campaignToken: `blog_md_${slug}` }) : href
+                    return (
+                      <a
+                        href={trackedHref}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="not-prose inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gray-900 text-white font-semibold text-sm hover:bg-gray-800 transition-colors no-underline shadow-sm"
+                        onClick={() => {
+                          trackLinkClick({ href: trackedHref, source: 'blog_markdown_appstore', label: String(children), campaign: `article_${slug}` })
+                          trackAppStoreClick('blog_markdown', `article_${slug}`, 'ios')
+                        }}
+                        {...props}
+                      >
+                        <svg className="w-4 h-4" viewBox="0 0 14 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M12.37 12.63c-.02 2.37 1.96 3.53 2.05 3.58-.02.06-.32 1.11-1.06 2.2-.64.94-1.3 1.87-2.35 1.89-1.03.02-1.36-.62-2.53-.62s-1.54.6-2.52.64c-1.01.04-1.78-1.02-2.43-1.96C2.21 16.35 1.25 13.1 2.6 10.88c.67-1.1 1.86-1.8 3.15-1.82 1-.02 1.93.68 2.54.68.61 0 1.75-.84 2.95-.72.5.02 1.91.21 2.82 1.55-.07.05-1.68 1-1.67 2.96m-1.94-5.78c.54-.66.9-1.57.8-2.48-.78.03-1.71.53-2.27 1.18-.5.58-.94 1.51-.82 2.4.86.07 1.74-.45 2.29-1.1" transform="translate(-1.5,-4.37)" /></svg>
+                        {children}
+                      </a>
+                    )
+                  }
+
                   if (!isListLink) {
-                    // Default link rendering with existing green styling
                     const isExternal = href && (href.startsWith('http') || href.startsWith('//'))
                     return (
                       <a
@@ -1164,29 +1190,32 @@ const BlogPostPage = () => {
             <p className="text-lg opacity-95 mb-6">
               Join thousands of families using the Honeydew Family App&#39;s AI-powered coordination
             </p>
-            <motion.a
-              href={blogCtaHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center bg-white text-[#92C5A7] px-8 py-4 rounded-lg font-bold hover:bg-gray-50 transition-colors shadow-md"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              onClick={() => {
-                trackLinkClick({
-                  href: blogCtaHref,
-                  source: 'blog_post_footer',
-                  label: frontmatter.title ?? slug ?? 'blog_post',
-                  campaign: 'article_conversion',
-                  additionalParams: {
-                    blog_slug: slug,
-                    article_category: frontmatter.category,
-                  },
-                })
-                trackAppStoreClick('blog_cta', `article_${slug}`, 'web')
-              }}
-            >
-              Try Honeydew Free
-            </motion.a>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <motion.a
+                href={blogCtaHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-white text-[#92C5A7] px-8 py-4 rounded-lg font-bold hover:bg-gray-50 transition-colors shadow-md"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => {
+                  trackLinkClick({
+                    href: blogCtaHref,
+                    source: 'blog_post_footer',
+                    label: frontmatter.title ?? slug ?? 'blog_post',
+                    campaign: 'article_conversion',
+                    additionalParams: {
+                      blog_slug: slug,
+                      article_category: frontmatter.category,
+                    },
+                  })
+                  trackAppStoreClick('blog_cta', `article_${slug}`, 'web')
+                }}
+              >
+                Try Honeydew Free
+              </motion.a>
+              <AppStoreBadge size="md" source="blog_bottom" campaign={`article_${slug}`} />
+            </div>
           </motion.div>
         </article>
       </motion.div>
@@ -1246,6 +1275,7 @@ const BlogPostPage = () => {
                 Try Honeydew Free
                 <ArrowRight className="w-4 h-4" />
               </motion.a>
+              <AppStoreTextLink source="blog_sticky" campaign={`article_${slug}`} className="text-gray-900/80 mt-2" />
             </div>
           </div>
         </motion.div>

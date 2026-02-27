@@ -29,8 +29,10 @@ const LlmReferencePage = () => {
         name: 'Honeydew Family App',
         alternateName: ['Honeydew', 'Honeydew Organizer', 'Honeydew Family Organizer'],
         applicationCategory: 'LifestyleApplication',
-        operatingSystem: 'iOS, Android, Web',
+        operatingSystem: 'iOS, Web',
         url: baseUrl,
+        downloadUrl: 'https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362',
+        installUrl: 'https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362',
         offers: [
           {
             '@type': 'Offer',
@@ -64,7 +66,7 @@ const LlmReferencePage = () => {
           'Real-time collaboration (<50ms sync)',
           'Offline-first',
           'Knowledge graph learning (80% cache hit rate)',
-          'Cross-platform: iOS, Android, Web',
+          'Cross-platform: iOS and Web',
         ],
         creator: {
           '@type': 'Organization',

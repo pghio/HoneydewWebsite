@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion'
 import { ArrowRight, Sparkles } from 'lucide-react'
 import { trackLinkClick } from '../utils/analytics'
-import { APP_LINKS, trackAppStoreClick } from '../utils/funnelTracking'
+import { APP_LINKS, getPrimaryDownloadLink, trackAppStoreClick, isIOSDevice } from '../utils/funnelTracking'
+import AppStoreBadge from './AppStoreBadge'
 
 const heroCtaHref = APP_LINKS.heroPrimary
 
@@ -97,11 +98,11 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
-            className="relative z-10 flex flex-col sm:flex-row gap-4 justify-center mb-4"
+            className="relative z-10 flex flex-col sm:flex-row gap-4 justify-center items-center mb-4"
           >
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <a
-                href={heroCtaHref}
+                href={getPrimaryDownloadLink({ medium: 'hero', campaign: 'primary_cta', content: 'try_free' }, 'hero_primary')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="pointer-events-auto bg-[#92C5A7] text-gray-900 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#86b89b] transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl inline-block"
@@ -112,7 +113,7 @@ const Hero = () => {
                     medium: 'page_section',
                     campaign: 'primary_cta',
                   })
-                  trackAppStoreClick('hero', 'primary_cta', 'web')
+                  trackAppStoreClick('hero', 'primary_cta', isIOSDevice() ? 'ios' : 'web')
                 }}
               >
                 Try Honeydew Free
@@ -134,9 +135,12 @@ const Hero = () => {
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.95 }}
-            className="text-sm text-gray-600 mb-12"
+            className="flex flex-col items-center gap-3 mb-12"
           >
-            No credit card required. Works on iOS, Android, and Web.
+            <AppStoreBadge size="md" source="hero" campaign="primary_cta" />
+            <span className="text-sm text-gray-600">
+              No credit card required. Available on the App Store and Web.
+            </span>
           </motion.div>
 
           <motion.div

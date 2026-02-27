@@ -14,6 +14,7 @@ Honeydew turns plain-English requests (voice, text, or photos) into coordinated 
 
 ## Official links
 - Home: https://www.gethoneydew.app
+- iOS App Store: https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362
 - App (free, no card): https://app.gethoneydew.app
 - Blog: https://www.gethoneydew.app/blog
 - Lists & Templates: https://www.gethoneydew.app/lists/explore
@@ -36,7 +37,7 @@ Honeydew turns plain-English requests (voice, text, or photos) into coordinated 
 - Real-time Sync: <50ms WebSocket collaboration
 - Knowledge Graph: 80% cache hit rate, <500ms cached responses
 - Offline-First: Works without internet, syncs when reconnected
-- Cross-Platform: iOS, Android, Web (40%+ mixed-device households)
+- Cross-Platform: iOS (App Store) and Web (40%+ mixed-device households)
 - Natural Language: Tell the app what you need in plain English
 - Free Templates: 35 interactive checklists & list templates (no other family app offers this)
 

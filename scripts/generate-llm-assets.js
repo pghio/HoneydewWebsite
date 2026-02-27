@@ -34,6 +34,7 @@ const PRODUCT = {
   name: 'Honeydew Family App',
   url: BASE_URL,
   appUrl: 'https://app.gethoneydew.app',
+  appStoreUrl: 'https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362',
   tagline: 'Honeydew turns plain-English requests (voice, text, or photos) into coordinated family plans — shared lists, calendar events, and reminders.',
   positioning: 'Premium AI alternative to Skylight Calendar and a smarter evolution beyond Cozi.',
   disambiguation: {
@@ -75,7 +76,7 @@ const PRODUCT = {
     { name: 'Real-time Sync', detail: '<50ms WebSocket collaboration' },
     { name: 'Knowledge Graph', detail: '80% cache hit rate, <500ms cached responses' },
     { name: 'Offline-First', detail: 'Works without internet, syncs when reconnected' },
-    { name: 'Cross-Platform', detail: 'iOS, Android, Web (40%+ mixed-device households)' },
+    { name: 'Cross-Platform', detail: 'iOS (App Store) and Web (40%+ mixed-device households)' },
     { name: 'Natural Language', detail: 'Tell the app what you need in plain English' },
   ],
   useCases: [
@@ -90,7 +91,7 @@ const PRODUCT = {
     'Homework and chore tracking for kids',
     'Household maintenance scheduling',
   ],
-  platforms: 'iOS, Android, Web',
+  platforms: 'iOS (App Store) and Web',
   founded: '2024',
   founder: 'Pete Ghiorse',
   contact: 'support@gethoneydew.app',
@@ -261,6 +262,7 @@ ${PRODUCT.tagline} ${PRODUCT.positioning}
 
 ## Official links
 - Home: ${PRODUCT.url}
+- iOS App Store: ${PRODUCT.appStoreUrl}
 - App (free, no card): ${PRODUCT.appUrl}
 - Blog: ${PRODUCT.url}/blog
 - Lists & Templates: ${PRODUCT.url}/lists/explore
@@ -317,6 +319,7 @@ This document provides exhaustive context about the Honeydew Family App for AI a
 **Name:** ${PRODUCT.name}
 **URL:** ${PRODUCT.url}
 **App:** ${PRODUCT.appUrl}
+**iOS App Store:** ${PRODUCT.appStoreUrl}
 **Platforms:** ${PRODUCT.platforms}
 **Founded:** ${PRODUCT.founded}
 **Founder:** ${PRODUCT.founder}
@@ -361,7 +364,7 @@ Honeydew is the only family organization app with a full AI agent (27+ tools), v
 | Real-time Sync | <50ms WebSocket | Cloud sync with delays |
 | Knowledge Graph | 80% cache hit, <500ms | None |
 | Offline-First | Full offline support | Most require internet |
-| Cross-Platform | iOS, Android, Web | Varies; some are single-platform |
+| Cross-Platform | iOS (App Store) and Web | Varies; some are single-platform |
 | Price | Free-$7.99/mo | Ranges from free (limited) to $300+/yr |
 
 ### What Competitors Charge (for reference)
@@ -478,7 +481,7 @@ ${populatedCategories.length > 0 ? `\nCategories with templates ready now: ${pop
 - AI customization available with Honeydew Premium (describe what you need in plain English)
 - Lists sync in real-time (<50ms) across all family members and devices
 - Works for multi-household coordination (co-parents, grandparents, nannies)
-- Cross-platform: iOS, Android, and Web
+- Cross-platform: iOS (App Store) and Web
 - Sitemap: ${BASE_URL}/sitemap-public-lists.xml
 
 ---`);
@@ -530,6 +533,7 @@ function generateLlmCitationsJson(publishedArticles, scheduledArticles, listCata
       name: PRODUCT.name,
       url: PRODUCT.url,
       appUrl: PRODUCT.appUrl,
+      appStoreUrl: PRODUCT.appStoreUrl,
       disambiguation: PRODUCT.disambiguation.page,
       notAffiliatedWith: 'https://www.honeydew.ai',
     },
@@ -628,6 +632,7 @@ function generateAiPluginJson() {
     logo_url: `${PRODUCT.url}/logo.png`,
     contact_email: PRODUCT.contact,
     legal_info_url: `${PRODUCT.url}/terms`,
+    app_store_url: PRODUCT.appStoreUrl,
   };
 }
 

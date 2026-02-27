@@ -5,6 +5,7 @@ import { ArrowRight, Sparkles } from 'lucide-react'
 import Footer from '../components/Footer'
 import useSEO from '../utils/useSEO'
 import comparisonLinks from '../utils/comparisonLinks'
+import AppStoreBadge from '../components/AppStoreBadge'
 
 const ComparisonsHubPage = () => {
   const baseUrl = 'https://www.gethoneydew.app'
@@ -153,6 +154,9 @@ const ComparisonsHubPage = () => {
                   Try Honeydew Free
                   <ArrowRight className="w-4 h-4" />
                 </a>
+                <div className="mt-4">
+                  <AppStoreBadge size="sm" source="comparison_hub" campaign="hub_cta" />
+                </div>
               </div>
             </section>
           </div>

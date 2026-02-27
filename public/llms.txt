@@ -12,6 +12,7 @@ It is **not** the unrelated B2B data platform at honeydew.ai.
 ## Quick Links
 
 - Home: https://www.gethoneydew.app
+- iOS App Store: https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362
 - App (free, no card): https://app.gethoneydew.app
 - Blog: https://www.gethoneydew.app/blog
 - Comparisons Hub: https://www.gethoneydew.app/compare
@@ -31,7 +32,7 @@ Honeydew is an AI-powered family organization app that turns natural-language re
 - **Two-way Google + Apple Calendar sync** (15-minute intervals)
 - **Multi-family architecture** — co-parenting, divorced families, extended family coordination
 - **Real-time collaboration** (<50ms WebSocket sync)
-- **Cross-platform** — iOS, Android, Web
+- **Cross-platform** — iOS ([App Store](https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362)) and Web
 - **Offline-first design** — works anywhere, syncs when connected
 
 ## Pricing

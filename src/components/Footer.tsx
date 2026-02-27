@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { Mail } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import AppStoreBadge from './AppStoreBadge'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -57,6 +58,11 @@ const Footer = () => {
               Built for multi-household coordination without the manual busywork.
             </p>
             
+            {/* Get the App */}
+            <div className="mb-4">
+              <AppStoreBadge size="md" source="footer" campaign="navigation" />
+            </div>
+
             {/* Contact */}
             <div className="flex items-center space-x-2 text-gray-400">
               <Mail className="w-5 h-5" />

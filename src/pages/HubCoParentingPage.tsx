@@ -1,5 +1,6 @@
 import Footer from '../components/Footer'
 import useSEO from '../utils/useSEO'
+import AppStoreBadge from '../components/AppStoreBadge'
 
 const HubCoParentingPage = () => {
   useSEO({
@@ -45,6 +46,22 @@ const HubCoParentingPage = () => {
             <a className="rounded-xl border border-gray-200 p-4 hover:border-[#92C5A7] transition-colors" href="/blog/co-parenting-schedule-changes-without-conflict-2025-templates-rules-and-app-setup">
               Co-Parenting Schedule Changes (templates)
             </a>
+          </div>
+
+          <div className="mt-10 rounded-2xl bg-gradient-to-br from-[#92C5A7] to-[#78E6AF] p-8 text-center text-white">
+            <h3 className="text-2xl font-bold mb-2">Coordinate without the back-and-forth</h3>
+            <p className="text-white/90 mb-5">Shared calendars, AI schedule changes, and multi-family groups in one app.</p>
+            <a
+              href="https://app.gethoneydew.app/?utm_source=website&utm_medium=hub_coparenting&utm_campaign=hub_cta"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-xl bg-white text-gray-900 px-5 py-3 font-semibold hover:bg-gray-50 transition-colors"
+            >
+              Try Honeydew Free
+            </a>
+            <div className="mt-4">
+              <AppStoreBadge size="sm" source="hub_coparenting" campaign="hub_cta" />
+            </div>
           </div>
         </section>
       </main>

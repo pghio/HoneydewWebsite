@@ -1,5 +1,6 @@
 import Footer from '../components/Footer'
 import useSEO from '../utils/useSEO'
+import AppStoreBadge from '../components/AppStoreBadge'
 
 const HubFairPlayPage = () => {
   useSEO({
@@ -45,6 +46,22 @@ const HubFairPlayPage = () => {
             <a className="rounded-xl border border-gray-200 p-4 hover:border-[#92C5A7] transition-colors" href="/blog/fair-play-for-busy-working-parents-how-to-implement-when-you-barely-have-time-to-breathe">
               Fair Play for Busy Parents
             </a>
+          </div>
+
+          <div className="mt-10 rounded-2xl bg-gradient-to-br from-[#92C5A7] to-[#78E6AF] p-8 text-center text-white">
+            <h3 className="text-2xl font-bold mb-2">Automate the mental load</h3>
+            <p className="text-white/90 mb-5">Honeydew turns ownership into automated checklists, reminders, and calendar events.</p>
+            <a
+              href="https://app.gethoneydew.app/?utm_source=website&utm_medium=hub_fairplay&utm_campaign=hub_cta"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-xl bg-white text-gray-900 px-5 py-3 font-semibold hover:bg-gray-50 transition-colors"
+            >
+              Try Honeydew Free
+            </a>
+            <div className="mt-4">
+              <AppStoreBadge size="sm" source="hub_fairplay" campaign="hub_cta" />
+            </div>
           </div>
         </section>
       </main>

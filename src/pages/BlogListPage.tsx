@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import useSEO from '../utils/useSEO'
 import { buildAppLink } from '../utils/funnelTracking'
 import { trackLinkClick } from '../utils/analytics'
+import AppStoreBadge from '../components/AppStoreBadge'
 
 interface Article {
   slug: string
@@ -125,25 +126,28 @@ const BlogListPage = () => {
                   Turn a voice note or photo into lists, calendar events, and shared hand-offs—no setup required.
                 </p>
               </div>
-              <motion.a
-                href={blogCtaHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center rounded-xl bg-[#92C5A7] px-6 py-3 font-semibold text-gray-900 hover:bg-[#86b89b] transition-colors"
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-                onClick={() =>
-                  trackLinkClick({
-                    href: blogCtaHref,
-                    source: 'blog_list',
-                    medium: 'page_section',
-                    campaign: 'primary_cta',
-                  })
-                }
-              >
-                Try Honeydew Free
-                <ArrowRight className="ml-2 w-4 h-4" />
-              </motion.a>
+              <div className="flex flex-col items-center gap-3">
+                <motion.a
+                  href={blogCtaHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center rounded-xl bg-[#92C5A7] px-6 py-3 font-semibold text-gray-900 hover:bg-[#86b89b] transition-colors"
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  onClick={() =>
+                    trackLinkClick({
+                      href: blogCtaHref,
+                      source: 'blog_list',
+                      medium: 'page_section',
+                      campaign: 'primary_cta',
+                    })
+                  }
+                >
+                  Try Honeydew Free
+                  <ArrowRight className="ml-2 w-4 h-4" />
+                </motion.a>
+                <AppStoreBadge size="sm" source="blog_list" campaign="primary_cta" />
+              </div>
             </div>
           </motion.div>
           {/* Featured Articles */}

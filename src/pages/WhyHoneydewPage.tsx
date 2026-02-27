@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import useSEO from '../utils/useSEO'
 import { useLocation } from 'react-router-dom'
 import { trackLinkClick } from '../utils/analytics'
+import AppStoreBadge, { AppStoreTextLink } from '../components/AppStoreBadge'
 
 interface TaskModule {
   title: string
@@ -354,6 +355,9 @@ const ComparisonPage = ({
               {stickyCta?.ctaLabel ?? 'Try Honeydew Free'}
               <ArrowRight className="w-5 h-5" />
             </motion.a>
+            <div className="mt-4">
+              <AppStoreBadge size="sm" source="comparison" campaign="vs_page" />
+            </div>
           </motion.div>
 
           {/* Who Should Choose */}
@@ -474,6 +478,9 @@ const ComparisonPage = ({
               Try Honeydew Free
               <ArrowRight className="w-5 h-5" />
             </motion.a>
+            <div className="mt-5">
+              <AppStoreBadge size="md" source="comparison" campaign="vs_page" />
+            </div>
             <p className="text-purple-100 text-sm mt-4">No credit card required • Free forever plan available</p>
           </motion.div>
 
@@ -538,6 +545,9 @@ const ComparisonPage = ({
                 {stickyCta?.ctaLabel ?? 'Start free trial'}
                 <ArrowRight className="w-4 h-4" />
               </motion.a>
+              <div className="mt-2 text-center">
+                <AppStoreTextLink source="comparison" campaign="vs_page" className="text-white/80 hover:text-white" />
+              </div>
             </div>
           </div>
         </motion.div>

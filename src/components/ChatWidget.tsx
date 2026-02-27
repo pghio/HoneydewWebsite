@@ -19,9 +19,9 @@ const knowledgeBase = [
   },
   {
     keywords: ['download', 'install', 'app store', 'get app', 'where', 'find app', 'ios', 'android', 'iphone', 'phone'],
-    response: "You can download Honeydew from the **App Store** (iOS) or access it via web at app.gethoneydew.app. We're working on Android too! The app works seamlessly across all your devices.",
+    response: "You can download Honeydew from the **App Store** (iOS) or access it via web at app.gethoneydew.app. The app works seamlessly across all your devices.",
     links: [
-      { text: 'Download on App Store', url: 'https://apps.apple.com/us/app/honeydew-family-organizer/id1546892037' },
+      { text: 'Download on App Store', url: 'https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362' },
       { text: 'Open Web App', url: 'https://app.gethoneydew.app' }
     ]
   },

@@ -975,7 +975,7 @@ Honeydew is built specifically for families—with all the features we've covere
 
 **Free to try. No credit card required.**
 
-👉 **[Get Honeydew - iOS App Store](https://apps.apple.com/us/app/honeydew-family-organizer/id1546892037)** 
+👉 **[Get Honeydew - iOS App Store](https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362)** 
 👉 **[Learn more at GetHoneydew.app](https://gethoneydew.app)**
 
 

@@ -36,7 +36,7 @@ const AboutPage = () => {
           email: 'support@gethoneydew.app',
         },
       ],
-      sameAs: ['https://apps.apple.com/us/app/honeydew-family-organizer/id1546892037'],
+      sameAs: ['https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362'],
     }
 
     const script = document.createElement('script')

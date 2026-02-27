@@ -259,7 +259,7 @@ While competitors like **[APP_2]** and **[APP_3]** have their strengths, only Ho
 
 The free tier lets you test everything before committing. Premium at $79/year is less than $1.50/week—less than a coffee—for technology that can save your family hours every week.
 
-**[Download Honeydew Free →](https://www.gethoneydew.app)**
+**[Download Honeydew on the App Store →](https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362)** | [Try the Web App](https://www.gethoneydew.app)
 
 ---
 

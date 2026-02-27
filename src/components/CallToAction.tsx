@@ -2,7 +2,8 @@ import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { ArrowRight, Star, Users, Zap } from 'lucide-react'
 import { trackLinkClick } from '../utils/analytics'
-import { APP_LINKS, trackAppStoreClick } from '../utils/funnelTracking'
+import { APP_LINKS, getPrimaryDownloadLink, trackAppStoreClick, isIOSDevice } from '../utils/funnelTracking'
+import AppStoreBadge from './AppStoreBadge'
 
 const CallToAction = () => {
   const ref = useRef(null)
@@ -58,44 +59,47 @@ const CallToAction = () => {
 
             {/* Primary CTA */}
             <motion.div
-              className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
+              className="flex flex-col gap-5 justify-center items-center mb-12"
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.4 }}
             >
-              <motion.div
-                whileHover={{ scale: 1.05, y: -2 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <a
-                  href={trialHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group bg-white text-primary-600 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-gray-50 transition-all duration-300 flex items-center gap-3 shadow-xl inline-block"
-                  onClick={() => {
-                    trackLinkClick({
-                      href: trialHref,
-                      source: 'call_to_action',
-                      medium: 'cta_section',
-                      campaign: 'primary_cta',
-                    })
-                    trackAppStoreClick('cta_section', 'primary_cta', 'web')
-                  }}
+              <div className="flex flex-col sm:flex-row gap-4 items-center">
+                <motion.div
+                  whileHover={{ scale: 1.05, y: -2 }}
+                  whileTap={{ scale: 0.95 }}
                 >
-                  Start Your Free Trial
-                  <motion.div
-                    animate={{ x: [0, 5, 0] }}
-                    transition={{ duration: 1.5, repeat: Infinity }}
+                  <a
+                    href={getPrimaryDownloadLink({ medium: 'cta_section', campaign: 'primary_cta', content: 'start_trial' }, 'cta_section')}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group bg-white text-primary-600 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-gray-50 transition-all duration-300 flex items-center gap-3 shadow-xl inline-block"
+                    onClick={() => {
+                      trackLinkClick({
+                        href: trialHref,
+                        source: 'call_to_action',
+                        medium: 'cta_section',
+                        campaign: 'primary_cta',
+                      })
+                      trackAppStoreClick('cta_section', 'primary_cta', isIOSDevice() ? 'ios' : 'web')
+                    }}
                   >
-                    <ArrowRight className="w-6 h-6" />
-                  </motion.div>
-                </a>
-              </motion.div>
-              
-              <div className="text-center sm:text-left">
-                <div className="text-sm opacity-75 mb-1">🎉 No credit card required</div>
-                <div className="text-sm opacity-75">✨ 30-day free trial</div>
+                    Start Your Free Trial
+                    <motion.div
+                      animate={{ x: [0, 5, 0] }}
+                      transition={{ duration: 1.5, repeat: Infinity }}
+                    >
+                      <ArrowRight className="w-6 h-6" />
+                    </motion.div>
+                  </a>
+                </motion.div>
+                
+                <div className="text-center sm:text-left">
+                  <div className="text-sm opacity-75 mb-1">🎉 No credit card required</div>
+                  <div className="text-sm opacity-75">✨ 30-day free trial</div>
+                </div>
               </div>
+              <AppStoreBadge size="md" source="cta_section" campaign="primary_cta" />
             </motion.div>
 
             {/* Social Proof Stats */}

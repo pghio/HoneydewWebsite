@@ -2,7 +2,7 @@
   "siteUrl": "https://www.gethoneydew.app",
   "appLinks": {
     "web": "https://app.gethoneydew.app/",
-    "ios": "https://apps.apple.com/us/app/honeydew-family-organizer/id1546892037",
+    "ios": "https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362",
     "android": "https://play.google.com/store/apps/details?id=app.gethoneydew.honeydew"
   },
   "directories": {
@@ -31,11 +31,12 @@
     "requireCTA": true,
     "ctaPatterns": [
       "app.gethoneydew.app",
-      "apps.apple.com",
-      "play.google.com",
-      "app store",
-      "google play"
+      "apps.apple.com/us/app/honeydew-family-calendar/id6752225362"
     ],
+    "requireAppStoreLink": true,
+    "appStoreLinkUrl": "https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362",
+    "appStoreLinkHighPriorityCategories": ["Comparison", "Review", "Guide"],
+    "staleAppStoreIds": ["id1546892037", "id6475768439"],
     "requireInternalLinks": true,
     "internalLinkHost": "https://www.gethoneydew.app",
     "minWordCount": 1500
@@ -43,11 +44,11 @@
   "pageCtaChecks": [
     {
       "path": "src/components/Hero.tsx",
-      "requiredPatterns": ["APP_LINKS", "trackAppStoreClick"]
+      "requiredPatterns": ["APP_LINKS", "trackAppStoreClick", "AppStoreBadge"]
     },
     {
       "path": "src/components/CallToAction.tsx",
-      "requiredPatterns": ["APP_LINKS", "trackAppStoreClick"]
+      "requiredPatterns": ["APP_LINKS", "trackAppStoreClick", "AppStoreBadge"]
     },
     {
       "path": "src/components/Navbar.tsx",
@@ -55,11 +56,15 @@
     },
     {
       "path": "src/components/Footer.tsx",
-      "requiredPatterns": ["APP_LINKS"]
+      "requiredPatterns": ["AppStoreBadge"]
     },
     {
       "path": "src/pages/BlogPostPage.tsx",
-      "requiredPatterns": ["buildBlogCTALink", "trackAppStoreClick"]
+      "requiredPatterns": ["buildBlogCTALink", "trackAppStoreClick", "AppStoreBadge"]
+    },
+    {
+      "path": "src/pages/WhyHoneydewPage.tsx",
+      "requiredPatterns": ["AppStoreBadge"]
     }
   ],
   "selfImprovement": {

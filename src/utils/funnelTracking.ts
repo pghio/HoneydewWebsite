@@ -21,6 +21,57 @@ type UTMParams = {
 
 const APP_BASE_URL = 'https://app.gethoneydew.app/'
 
+// ============================================
+// iOS App Store
+// ============================================
+
+export const APP_STORE_IOS_URL = 'https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362'
+
+type AppStoreCampaignParams = {
+  providerToken?: string
+  campaignToken: string
+  mediaType?: string
+}
+
+/**
+ * Build a tracked App Store link using Apple's campaign parameter format.
+ * Apple supports: pt (provider token), ct (campaign token), mt (media type).
+ */
+export const buildAppStoreLink = ({
+  providerToken,
+  campaignToken,
+  mediaType = '8',
+}: AppStoreCampaignParams): string => {
+  const params = new URLSearchParams({ ct: campaignToken, mt: mediaType })
+  if (providerToken) params.set('pt', providerToken)
+  return `${APP_STORE_IOS_URL}?${params.toString()}`
+}
+
+/**
+ * Detect whether the current visitor is on an iOS device.
+ */
+export const isIOSDevice = (): boolean => {
+  if (typeof navigator === 'undefined') return false
+  return /iPhone|iPad|iPod/.test(navigator.userAgent) ||
+    (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
+}
+
+/**
+ * Return the best download link for the current visitor:
+ * App Store for iOS users, web app for everyone else.
+ */
+export const getPrimaryDownloadLink = (
+  webParams: UTMParams,
+  appStoreCampaign?: string
+): string => {
+  if (isIOSDevice()) {
+    return appStoreCampaign
+      ? buildAppStoreLink({ campaignToken: appStoreCampaign })
+      : APP_STORE_IOS_URL
+  }
+  return buildAppLink(webParams)
+}
+
 /**
  * Build a properly attributed link to the Honeydew app
  * 
@@ -80,6 +131,14 @@ export const APP_LINKS = {
   features: buildAppLink({ medium: 'features_section', campaign: 'features', content: 'try_now' }),
   
   // Blog (dynamic - use buildBlogCTALink instead)
+
+  // iOS App Store
+  appStoreIOS: APP_STORE_IOS_URL,
+  appStoreHero: buildAppStoreLink({ campaignToken: 'hero_primary' }),
+  appStoreCta: buildAppStoreLink({ campaignToken: 'cta_section' }),
+  appStoreFooter: buildAppStoreLink({ campaignToken: 'footer' }),
+  appStoreBlog: buildAppStoreLink({ campaignToken: 'blog_cta' }),
+  appStoreComparison: buildAppStoreLink({ campaignToken: 'comparison_page' }),
 } as const
 
 /**

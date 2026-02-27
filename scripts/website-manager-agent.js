@@ -270,6 +270,31 @@ const run = () => {
       }
     }
 
+    if (config.blogChecks.requireAppStoreLink) {
+      const hasAppStoreLink = body.includes(config.blogChecks.appStoreLinkUrl) || body.includes('id6752225362')
+      const isHighPriority = (config.blogChecks.appStoreLinkHighPriorityCategories || []).some(
+        c => (frontmatter.category || '').toLowerCase().includes(c.toLowerCase())
+      )
+      if (!hasAppStoreLink) {
+        addIssue(
+          isHighPriority ? issues : opportunities,
+          'missing_app_store_link',
+          `Missing iOS App Store link: ${slug}`,
+          `Add canonical App Store link: ${config.blogChecks.appStoreLinkUrl}`
+        )
+      }
+      for (const staleId of (config.blogChecks.staleAppStoreIds || [])) {
+        if (body.includes(staleId)) {
+          addIssue(
+            issues,
+            'stale_app_store_id',
+            `Stale App Store ID ${staleId} in: ${slug}`,
+            `Replace with canonical: ${config.blogChecks.appStoreLinkUrl}`
+          )
+        }
+      }
+    }
+
     if (config.blogChecks.requireInternalLinks) {
       const internalLinks = getInternalBlogLinks(body, config.blogChecks.internalLinkHost)
       if (internalLinks.length === 0) {

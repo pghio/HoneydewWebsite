@@ -250,6 +250,30 @@ function ensureLLMBlock(body, slug) {
 }
 
 /**
+ * Ensure App Store download links are present in the article
+ */
+function ensureAppStoreLinks(body, slug) {
+  const APP_STORE_URL = 'https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362';
+  if (body.includes(APP_STORE_URL)) {
+    return body;
+  }
+
+  const safeSlug = slug || 'article';
+  const webCta = `https://app.gethoneydew.app/?utm_source=website&utm_medium=blog_cta&utm_campaign=article_conversion&utm_content=${safeSlug}_inline`;
+
+  const block = `\n\n---\n\n### Try Honeydew Free\n\n**[Download Honeydew on the App Store →](${APP_STORE_URL})**\n\nOr [try the web app](${webCta}) — no credit card required.\n`;
+
+  const faqIdx = body.search(/\n##\s+(frequently asked questions|faq)/i);
+  const relatedIdx = body.search(/\n##\s+related/i);
+  const insertIdx = faqIdx > -1 ? faqIdx : relatedIdx > -1 ? relatedIdx : -1;
+
+  if (insertIdx > -1) {
+    return body.slice(0, insertIdx) + block + body.slice(insertIdx);
+  }
+  return body + block;
+}
+
+/**
  * Ensure FAQ section exists (supports FAQ schema extraction)
  */
 function ensureFaqSection(body) {
@@ -341,8 +365,9 @@ function scheduleContent() {
       frontmatter.slug = generateSlug(frontmatter.title || filename.replace('.md', ''));
     }
 
-    // Apply automatic LLM discoverability + FAQ stubs
+    // Apply automatic LLM discoverability + FAQ stubs + App Store links
     let processedBody = ensureLLMBlock(body, frontmatter.slug);
+    processedBody = ensureAppStoreLinks(processedBody, frontmatter.slug);
     processedBody = ensureFaqSection(processedBody);
     
     // Assign publish date

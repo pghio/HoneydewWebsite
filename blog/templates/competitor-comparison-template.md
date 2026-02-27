@@ -373,7 +373,7 @@ At just $79/year, Honeydew pays for itself if it saves you just [X] minutes per 
 - You're tired of manual data entry
 - You want real two-way calendar sync
 
-**Ready to try Honeydew?** [Download free on iOS and Android](https://www.gethoneydew.app) and see the difference AI makes in family coordination.
+**Ready to try Honeydew?** [Download on the App Store](https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362) or [try the web app](https://www.gethoneydew.app) and see the difference AI makes in family coordination.
 
 ---
 

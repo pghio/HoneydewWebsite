@@ -12,8 +12,6 @@ import {
   startTimeTracking, 
   buildBlogCTALink,
   trackAppStoreClick,
-  APP_LINKS,
-  APP_STORE_IOS_URL,
   buildAppStoreLink,
 } from '../utils/funnelTracking'
 import AppStoreBadge, { AppStoreTextLink } from '../components/AppStoreBadge'

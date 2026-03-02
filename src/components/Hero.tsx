@@ -284,8 +284,10 @@ const Hero = () => {
                 <img
                   src="/blog-images/iphone-1-agent-conversation.png"
                   alt="Honeydew AI agent conversation building a family plan"
-                  loading="lazy"
+                  width={390}
+                  height={844}
                   decoding="async"
+                  fetchPriority="high"
                   className="w-full h-auto"
                 />
               </picture>
@@ -296,8 +298,10 @@ const Hero = () => {
                 <img
                   src="/blog-images/iphone-2-calendar-month.png"
                   alt="Honeydew family calendar month view with shared events"
-                  loading="lazy"
+                  width={390}
+                  height={844}
                   decoding="async"
+                  fetchPriority="high"
                   className="w-full h-auto"
                 />
               </picture>

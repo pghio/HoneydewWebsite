@@ -9,10 +9,17 @@ Crawl-delay: 0
 # Block raw markdown source files (HTML versions are at /blog/<slug>)
 Disallow: /blog/*.md
 Disallow: /blog-manifest.json
+Disallow: /blog/CONTENT_STATUS
 
 # Block preview pages (not for public indexing)
 Disallow: /blog-preview
 Disallow: /blog-preview/
+
+# Block non-HTML files (cause soft 404s in search engines)
+Disallow: /.llms.txt
+Disallow: /.llms-full.txt
+Disallow: /llm-citations.json
+Disallow: /faq-corpus.json
 
 # Block URLs with tracking/gate parameters (reduce crawl budget waste)
 Disallow: /*?ref=value_gate*
@@ -27,18 +34,28 @@ Disallow: /docs
 Disallow: /api
 Disallow: /community
 
-# Allow Google to crawl freely
+# Google-specific rules
 User-agent: Googlebot
 Allow: /
 Disallow: /blog/*.md
 Disallow: /blog-manifest.json
+Disallow: /blog/CONTENT_STATUS
 Disallow: /blog-preview
 Disallow: /blog-preview/
+Disallow: /.llms.txt
+Disallow: /.llms-full.txt
+Disallow: /llm-citations.json
+Disallow: /faq-corpus.json
 
+# Bing-specific rules
 User-agent: Bingbot
 Allow: /
 Disallow: /blog/*.md
 Disallow: /blog-manifest.json
+Disallow: /.llms.txt
+Disallow: /.llms-full.txt
+Disallow: /llm-citations.json
+Disallow: /faq-corpus.json
 
 User-agent: Slurp
 Allow: /

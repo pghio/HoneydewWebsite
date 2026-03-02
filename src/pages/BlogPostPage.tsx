@@ -16,6 +16,7 @@ import {
 } from '../utils/funnelTracking'
 import AppStoreBadge, { AppStoreTextLink } from '../components/AppStoreBadge'
 import { buildRelatedComparisonLinks } from '../utils/comparisonLinks'
+import { useSEO } from '../utils/useSEO'
 
 type TocItem = {
   id: string
@@ -100,11 +101,18 @@ const BlogPostPage = () => {
   const [content, setContent] = useState('')
   const [frontmatter, setFrontmatter] = useState<any>(null)
   const [loading, setLoading] = useState(true)
+  const [notFound, setNotFound] = useState(false)
   const [relatedArticles, setRelatedArticles] = useState<ManifestArticle[]>([])
   const [showStickyCTA, setShowStickyCTA] = useState(false)
   const [stickyDismissed, setStickyDismissed] = useState(false)
 
   const tocItems = useMemo(() => buildToc(content), [content])
+
+  useSEO(notFound ? {
+    title: 'Article Not Found | Honeydew',
+    description: 'The requested article could not be found.',
+    noindex: true,
+  } : {})
 
   useEffect(() => {
     const loadArticle = async () => {
@@ -133,12 +141,15 @@ const BlogPostPage = () => {
           
           setFrontmatter(fm)
           setContent(contentText)
+          setNotFound(false)
         } else {
           setContent(text)
+          setNotFound(true)
         }
       } catch (error) {
         console.error('Error loading article:', error)
         setContent('# Article not found\n\nThe requested article could not be loaded.')
+        setNotFound(true)
       } finally {
         setLoading(false)
       }
@@ -668,14 +679,29 @@ const BlogPostPage = () => {
     )
   }
 
-  if (!frontmatter) {
+  if (!frontmatter || notFound) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-white">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Honeydew Family App Article Not Found</h1>
-          <Link to="/" className="text-primary-600 hover:text-primary-700">
-            Return to Home
-          </Link>
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-amber-50 to-amber-100">
+        <div className="text-center max-w-md px-6">
+          <div className="text-7xl mb-6">🍯</div>
+          <h1 className="text-3xl font-bold text-amber-900 mb-4">Article Not Found</h1>
+          <p className="text-amber-800 mb-8">
+            Sorry, this article doesn't exist or may have been moved. Check out our other helpful resources!
+          </p>
+          <div className="flex gap-4 justify-center flex-wrap">
+            <Link 
+              to="/" 
+              className="px-6 py-3 bg-amber-500 text-white font-semibold rounded-lg hover:bg-amber-600 transition-colors"
+            >
+              Go Home
+            </Link>
+            <Link 
+              to="/blog" 
+              className="px-6 py-3 bg-transparent text-amber-900 font-semibold rounded-lg border-2 border-amber-500 hover:bg-amber-50 transition-colors"
+            >
+              Browse Blog
+            </Link>
+          </div>
         </div>
       </div>
     )

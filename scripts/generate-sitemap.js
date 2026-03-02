@@ -41,6 +41,23 @@ const COMPARISON_SLUGS = [
   'vs-magicmirror',
 ];
 
+// Blog slugs that are redirect sources - exclude from sitemap since they 301 redirect
+// These are defined in vercel.json and should not appear in sitemap
+const REDIRECT_SOURCE_SLUGS = new Set([
+  'best-voice-controlled-family-organization-apps-2025',
+  'best-apps-multi-family-coordination-2025',
+  'honeydew-vs-maple-comparison',
+  'honeydew-vs-cozi-comparison-2025',
+  'best-family-organization-apps-2025',
+  'honeydew-vs-timetree-comparison',
+  'honeydew-vs-skylight-calendar',
+  'honeydew-vs-ourfamilywizard-comparison-2025',
+  'honeydew-vs-talking-parents-comparison-2025',
+  'best-ai-calendar-apps-for-families-2025',
+  'best-family-apps-divorced-parents-2025',
+  'cozi-gold-price-2025-is-it-worth-29-99-year-honest-review',
+]);
+
 function formatDate(date) {
   if (typeof date === 'string') {
     return date;
@@ -100,12 +117,7 @@ function buildSitemapXml({ baseUrl, publishedArticles, today }) {
     priority: '0.8',
   });
 
-  addUrlEntry(lines, {
-    loc: `${baseUrl}/alternatives`,
-    lastmod: today,
-    changefreq: 'monthly',
-    priority: '0.7',
-  });
+  // NOTE: /alternatives removed - it 301 redirects to /compare
 
   addUrlEntry(lines, {
     loc: `${baseUrl}/disambiguation`,
@@ -210,25 +222,9 @@ function buildSitemapXml({ baseUrl, publishedArticles, today }) {
     priority: '0.5',
   });
 
-  lines.push('  <!-- LLM Indexing Files (High Priority for AI Search) -->');
-  addUrlEntry(lines, {
-    loc: `${baseUrl}/.llms.txt`,
-    lastmod: today,
-    changefreq: 'weekly',
-    priority: '1.0',
-  });
-  addUrlEntry(lines, {
-    loc: `${baseUrl}/.llms-full.txt`,
-    lastmod: today,
-    changefreq: 'weekly',
-    priority: '1.0',
-  });
-  addUrlEntry(lines, {
-    loc: `${baseUrl}/llm-citations.json`,
-    lastmod: today,
-    changefreq: 'weekly',
-    priority: '0.9',
-  });
+  // NOTE: LLM files (.llms.txt, .llms-full.txt, llm-citations.json) excluded from sitemap
+  // because they are non-HTML files that cause soft 404s in Google Search Console.
+  // These files are still accessible for LLM crawlers via robots.txt comments.
 
   lines.push('</urlset>');
   return `${lines.join('\n')}\n`;
@@ -247,7 +243,12 @@ export function generateSitemapFile({
   const { published, scheduled } = splitArticlesByPublishDate(articleSource, now);
   const today = formatDate(now);
 
-  const publishedSorted = [...published].sort(
+  // Filter out redirect source slugs - these 301 redirect and shouldn't be in sitemap
+  const publishedFiltered = published.filter(
+    (article) => !REDIRECT_SOURCE_SLUGS.has(article.slug)
+  );
+  
+  const publishedSorted = [...publishedFiltered].sort(
     (a, b) => (b.publishDateValue?.getTime() ?? 0) - (a.publishDateValue?.getTime() ?? 0),
   );
   const scheduledSorted = [...scheduled].sort(
@@ -262,18 +263,19 @@ export function generateSitemapFile({
 
   fs.writeFileSync(outputPath, xml);
 
-  const staticUrlCount = 37;
+  const staticUrlCount = 33; // Removed /alternatives (redirects) and LLM files (cause soft 404s)
   const totalUrls = publishedSorted.length + staticUrlCount;
 
+  const redirectsFiltered = published.length - publishedFiltered.length;
+  
   if (log) {
     log.log('🗺️  Generating sitemap.xml...\n');
     log.log('📊 Content Summary:');
-    log.log(`   Published articles: ${publishedSorted.length}`);
+    log.log(`   Published articles: ${publishedSorted.length}${redirectsFiltered > 0 ? ` (${redirectsFiltered} redirect sources excluded)` : ''}`);
     log.log(`   Scheduled articles: ${scheduledSorted.length}`);
     log.log(`   Total blog articles: ${articleSource.length}`);
     log.log('   Why Honeydew pages: 15');
     log.log('   Legal/Support pages: 5');
-    log.log('   LLM indexing files: 2');
     log.log('   ─────────────────────────────');
     log.log(`   Total URLs in sitemap: ${totalUrls}\n`);
     log.log(`✅ Sitemap generated: ${outputPath}`);

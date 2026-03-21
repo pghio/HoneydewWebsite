@@ -12,9 +12,9 @@ const CallToAction = () => {
   const trialHref = APP_LINKS.ctaSection
 
   const stats = [
-    { icon: Users, value: '50K+', label: 'Families Organized' },
-    { icon: Star, value: '4.9', label: 'App Store Rating' },
-    { icon: Zap, value: '2M+', label: 'Lists Created' }
+    { icon: Zap, value: '77', label: 'AI Tools Built for Families' },
+    { icon: Star, value: '3s', label: 'Average Planning Time' },
+    { icon: Users, value: '2', label: 'Calendars Synced (Google + Apple)' }
   ]
 
   return (
@@ -53,8 +53,8 @@ const CallToAction = () => {
               </motion.span>
             </h2>
             <p className="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto leading-relaxed mb-8">
-              Join thousands of families who have discovered the joy of effortless organization. 
-              Your journey to coordinated harmony starts with a single click.
+              Tell Honeydew what your family needs — grocery lists, trip plans, weekly schedules — and
+              watch AI organize it in seconds. Try it free, no credit card required.
             </p>
 
             {/* Primary CTA */}
@@ -127,7 +127,7 @@ const CallToAction = () => {
             </motion.div>
           </motion.div>
 
-          {/* Testimonial */}
+          {/* Built by Parents Callout */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -135,30 +135,18 @@ const CallToAction = () => {
             className="bg-white/10 backdrop-blur-md rounded-3xl p-8 max-w-4xl mx-auto border border-white/20"
           >
             <div className="text-center">
-              <div className="flex justify-center mb-4">
-                {[...Array(5)].map((_, i) => (
-                  <motion.div
-                    key={i}
-                    initial={{ opacity: 0, scale: 0 }}
-                    animate={isInView ? { opacity: 1, scale: 1 } : {}}
-                    transition={{ delay: 1.2 + (i * 0.1) }}
-                  >
-                    <Star className="w-6 h-6 fill-current text-yellow-400" />
-                  </motion.div>
-                ))}
-              </div>
               <blockquote className="text-xl md:text-2xl font-medium mb-6 leading-relaxed">
-                "Honeydew transformed our chaotic family life into organized harmony. 
-                The AI understands exactly what we need, and coordinating with my husband 
-                and kids has never been easier. This app is pure magic!"
+                Built by a parent who was tired of juggling Google Calendar, shared Notes,
+                grocery list apps, and group texts just to keep the family on the same page.
+                Honeydew replaces all of it with one AI that actually understands your family.
               </blockquote>
               <div className="flex items-center justify-center space-x-4">
                 <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center">
                   <Users className="w-6 h-6" />
                 </div>
                 <div>
-                  <div className="font-semibold text-lg">Sarah Chen</div>
-                  <div className="opacity-75">Mother of 3, San Francisco</div>
+                  <div className="font-semibold text-lg">Pete Ghiorse</div>
+                  <div className="opacity-75">Founder & Dad</div>
                 </div>
               </div>
             </div>
@@ -178,7 +166,7 @@ const CallToAction = () => {
                 transition={{ duration: 2, repeat: Infinity }}
               />
               <span className="text-sm font-medium">
-                Join 1,247 families who started organizing this week
+                New and growing — be among the first families to try Honeydew
               </span>
             </div>
           </motion.div>

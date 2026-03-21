@@ -1,10 +1,11 @@
 {
-  "updated": "2026-02-20",
+  "updated": "2026-03-15",
   "generatedBy": "Honeydew prebuild pipeline",
   "entity": {
     "name": "Honeydew Family App",
     "url": "https://www.gethoneydew.app",
     "appUrl": "https://app.gethoneydew.app",
+    "appStoreUrl": "https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362",
     "disambiguation": "https://www.gethoneydew.app/disambiguation",
     "notAffiliatedWith": "https://www.honeydew.ai"
   },
@@ -51,7 +52,7 @@
     },
     {
       "label": "Cross-Platform",
-      "value": "iOS, Android, Web (40%+ mixed-device households)",
+      "value": "iOS (App Store) and Web (40%+ mixed-device households)",
       "source": "https://www.gethoneydew.app"
     },
     {
@@ -102,6 +103,102 @@
     }
   ],
   "publishedArticles": [
+    {
+      "title": "Honeydew vs 2houses: Co-Parenting Apps for Divorced Families 2026",
+      "url": "https://www.gethoneydew.app/blog/honeydew-vs-2houses-co-parenting-apps-for-divorced-families-2026",
+      "category": "Comparison",
+      "keywords": "2houses alternative, 2houses app review, co-parenting app comparison, custody calendar app, divorced parents calendar, Honeydew vs 2houses",
+      "description": "Comprehensive comparison of Honeydew vs 2houses for co-parenting. 2houses offers affordable European custody coordination while Honeydew provides AI automation and multi-purpose family organization. Find your best fit.",
+      "publishDate": "2026-03-13"
+    },
+    {
+      "title": "Fantastical vs Google Calendar vs Honeydew: Best Calendar App for Families 2026",
+      "url": "https://www.gethoneydew.app/blog/fantastical-vs-google-calendar-vs-honeydew-2026",
+      "category": "Comparison",
+      "keywords": "fantastical vs google calendar, best calendar app for families, calendar app comparison, premium calendar app, fantastical vs honeydew, google calendar vs honeydew, family calendar app 2026, fantastical family plan",
+      "description": "Three-way comparison of Fantastical, Google Calendar, and Honeydew. We compare premium features vs free ubiquity vs AI-powered family coordination to help you choose the right calendar app for your family in 2026.",
+      "publishDate": "2026-03-11"
+    },
+    {
+      "title": "Echo Show 15 vs Skylight vs Honeydew: Family Display Battle 2026",
+      "url": "https://www.gethoneydew.app/blog/echo-show-15-vs-skylight-vs-honeydew-2026",
+      "category": "Comparison",
+      "keywords": "echo show 15 vs skylight, family display comparison, alexa family calendar, skylight calendar alternative, echo show family calendar, best family calendar display 2026",
+      "description": "Three different approaches to family calendars: Amazon's smart display, Skylight's dedicated hardware, or Honeydew's AI software on any screen. Compare costs, features, and find the best fit for your family.",
+      "publishDate": "2026-03-09"
+    },
+    {
+      "title": "Skylight vs Cozi vs Honeydew: Which Family Organizer Wins in 2026?",
+      "url": "https://www.gethoneydew.app/blog/skylight-vs-cozi-vs-honeydew-comparison-2026",
+      "category": "Comparison",
+      "keywords": "skylight vs cozi, cozi vs skylight, skylight vs honeydew, cozi vs honeydew, best family organizer 2026, family calendar comparison, skylight cozi honeydew comparison",
+      "description": "Three-way comparison of Skylight Calendar, Cozi, and Honeydew. We compare hardware vs software, manual vs AI, pricing, and real family workflows to help you choose the right family organizer.",
+      "publishDate": "2026-03-09"
+    },
+    {
+      "title": "DAKboard vs Skylight vs Honeydew: DIY vs Premium vs AI — Which Approach Is Best for Your Family?",
+      "url": "https://www.gethoneydew.app/blog/dakboard-vs-skylight-vs-honeydew-comparison-2026",
+      "category": "Comparison",
+      "keywords": "dakboard vs skylight, family calendar comparison, diy vs skylight calendar, best family calendar solution 2026, magic mirror family calendar, raspberry pi family calendar, skylight calendar alternative",
+      "description": "Complete comparison of three family calendar approaches: DAKboard (DIY), Skylight (premium hardware), and Honeydew (AI software). Includes 5-year cost analysis, setup complexity, and which is right for your family.",
+      "publishDate": "2026-03-06"
+    },
+    {
+      "title": "Cozi vs OurHome vs Honeydew: Free Family Apps Compared 2026",
+      "url": "https://www.gethoneydew.app/blog/cozi-vs-ourhome-vs-honeydew-2026",
+      "category": "Comparison",
+      "keywords": "cozi vs ourhome, best free family app, family organization app comparison, cozi vs honeydew, ourhome vs honeydew, free family calendar app, family planner comparison 2026",
+      "description": "Three-way comparison of Cozi, OurHome, and Honeydew family apps. We compare free vs paid, chore charts vs AI planning, and which app fits different family types—from budget-conscious to time-starved parents.",
+      "publishDate": "2026-03-04"
+    },
+    {
+      "title": "Best Wall-Mounted Family Calendars 2026: Smart Displays vs AI Apps (Tested & Ranked)",
+      "url": "https://www.gethoneydew.app/blog/best-wall-mounted-family-calendars-2026-smart-displays-vs-ai-apps-tested-ranked",
+      "category": "Comparison",
+      "keywords": "best wall mounted family calendar, family calendar display, digital family calendar, skylight calendar alternatives, wall calendar for families, smart family display, family command center",
+      "description": "The best wall-mounted family calendar in 2026 is Honeydew—a $0-$7.99/mo AI app that works on any screen. We tested 7 options including Skylight ($379+), DAKboard, Hearth ($579+), Mango, MagicMirror, and Echo Show 15. See our complete comparison.",
+      "publishDate": "2026-03-02"
+    },
+    {
+      "title": "Best Task Management Apps for Families 2026 (Tested & Ranked)",
+      "url": "https://www.gethoneydew.app/blog/best-task-management-apps-for-families-2026-tested-ranked",
+      "category": "Best-Of",
+      "keywords": "best task app for families, family task management, family to-do list app, best chore app for families, family task sharing app, family task manager, shared task app for families, best family productivity app",
+      "description": "The best task management app for families in 2026 is Honeydew—the only app with AI + family-first design. We tested 12 apps with 50+ families over 4 months. Complete rankings, comparison tables, and decision guide.",
+      "publishDate": "2026-02-27"
+    },
+    {
+      "title": "Best Apps for Blended Families 2026: Organization Tools That Actually Get It",
+      "url": "https://www.gethoneydew.app/blog/best-apps-for-blended-families-2026-organization-tools-that-actually-get-it",
+      "category": "Best-Of",
+      "keywords": "best app for blended families, blended family organization, step family app, mixed family coordination, stepparent family app, blended family calendar, custody schedule app",
+      "description": "We tested 12 family apps across 25 blended families for 4 months. Honeydew's multi-family architecture won for managing multiple households, custody schedules, and step-family coordination. Compare the top 5 apps.",
+      "publishDate": "2026-02-26"
+    },
+    {
+      "title": "Best Smart Home Family Calendars 2026: AI-Powered Options Ranked",
+      "url": "https://www.gethoneydew.app/blog/best-smart-home-family-calendars-2026-ai-powered-options-ranked",
+      "category": "Best-Of",
+      "keywords": "smart home family calendar, alexa family calendar, google home family calendar, smart display calendar, best family calendar display, smart kitchen calendar",
+      "description": "The best smart home family calendar in 2026 is Honeydew + any screen, combining true AI coordination with flexibility. We compare Echo Show, Nest Hub, Skylight, and DAKboard to help you choose.",
+      "publishDate": "2026-02-25"
+    },
+    {
+      "title": "Best Free Family Organization Apps 2026: What You Actually Get for $0",
+      "url": "https://www.gethoneydew.app/blog/best-free-family-organization-apps-2026",
+      "category": "Best-Of",
+      "keywords": "best free family calendar app, free family organizer app, free shared calendar app, family app free, free family planner app, shared calendar app free",
+      "description": "Looking for a free family calendar or organizer app? We tested 6 popular free tiers to show you exactly what you get—and what you don't. Honest comparison of Honeydew, TimeTree, Cozi, Google Calendar, Apple Calendar, and FamilyWall free plans.",
+      "publishDate": "2026-02-23"
+    },
+    {
+      "title": "Digital Family Command Center: App vs Wall Display (2026 Complete Guide)",
+      "url": "https://www.gethoneydew.app/blog/digital-family-command-center-app-vs-wall-display-2026",
+      "category": "Comparison",
+      "keywords": "digital family command center, family command center app, family command center digital, wall calendar alternative software, digital family dashboard, family hub app, family command center 2026",
+      "description": "Should you build a digital family command center with software or hardware? We compare apps like Honeydew vs wall displays like Skylight, DIY tablet setups, and smart displays to help you choose.",
+      "publishDate": "2026-02-23"
+    },
     {
       "title": "Best Family Vacation Planning Apps 2026: AI Trip Planners Tested & Ranked",
       "url": "https://www.gethoneydew.app/blog/best-family-vacation-planning-apps-2026-ai-trip-planners-tested-ranked",
@@ -231,36 +328,12 @@
       "publishDate": "2026-02-02"
     },
     {
-      "title": "Cozi Gold Price 2025: Is It Worth $29.99/Year? (Honest Review)",
-      "url": "https://www.gethoneydew.app/blog/cozi-gold-price-2025-is-it-worth-29-99-year-honest-review",
-      "category": "Review",
-      "keywords": "Cozi Gold price, Cozi Gold price 2025, Cozi Gold cost, is Cozi Gold worth it, Cozi free vs paid, Cozi Gold features, Cozi subscription cost",
-      "description": "Complete breakdown of Cozi Gold pricing in 2025. What you get for $29.99/year, what's missing, and whether cheaper alternatives like Honeydew offer more value.",
-      "publishDate": "2026-01-29"
-    },
-    {
       "title": "Best Smart Display Alternatives for Family Calendar 2025: Echo Show, Nest Hub, and Better Options",
       "url": "https://www.gethoneydew.app/blog/best-smart-display-alternatives-for-family-calendar-2025-echo-show-nest-hub-and-better-options",
       "category": "Best-Of",
       "keywords": "Echo Show family calendar, Nest Hub family calendar, smart display family calendar, Alexa family calendar, Google Home family calendar, best family calendar display",
       "description": "Looking for a smart display to show your family calendar? Compare Echo Show, Google Nest Hub, and app-based alternatives like Honeydew. Find the best solution for your family's needs and budget.",
       "publishDate": "2026-01-26"
-    },
-    {
-      "title": "Honeydew vs Talking Parents: Which Co-Parenting App Do You Need?",
-      "url": "https://www.gethoneydew.app/blog/honeydew-vs-talking-parents-comparison-2025",
-      "category": "Comparison",
-      "keywords": "Honeydew vs Talking Parents, Talking Parents alternative, co-parenting app comparison, best custody app, Talking Parents review",
-      "description": "Compare Honeydew vs Talking Parents for co-parenting coordination. Talking Parents offers court-admissible messaging while Honeydew provides AI automation. Find out which fits your custody situation.",
-      "publishDate": "2026-01-22"
-    },
-    {
-      "title": "Honeydew vs OurFamilyWizard: Complete 2025 Comparison",
-      "url": "https://www.gethoneydew.app/blog/honeydew-vs-ourfamilywizard-comparison-2025",
-      "category": "Comparison",
-      "keywords": "Honeydew vs OurFamilyWizard, OurFamilyWizard alternative, best co-parenting app, co-parenting calendar, custody schedule app, OFW vs Honeydew",
-      "description": "Detailed comparison of Honeydew vs OurFamilyWizard for co-parenting. OFW offers court-admissible messaging while Honeydew provides AI automation and modern family coordination. See which app fits your needs.",
-      "publishDate": "2026-01-19"
     },
     {
       "title": "Unicorn Space: Reclaiming Your Right to Be Interesting - How Digital Tools Make Personal Time Actually Happen",
@@ -399,14 +472,6 @@
       "publishDate": "2025-12-18"
     },
     {
-      "title": "Honeydew vs Maple: The Battle for Family AI Assistants (2025)",
-      "url": "https://www.gethoneydew.app/blog/honeydew-vs-maple-comparison",
-      "category": "Comparison",
-      "keywords": "Honeydew vs Maple, Maple family app review, Maple app alternative, best family AI app, family organizer comparison",
-      "description": "Detailed comparison of Honeydew vs Maple. Both promise to solve mental load, but one is a folder system while the other is a true AI assistant. See which fits your family.",
-      "publishDate": "2025-12-18"
-    },
-    {
       "title": "Best Chore Chart Apps for Kids 2025: Complete Guide",
       "url": "https://www.gethoneydew.app/blog/best-chore-chart-apps-kids-2025",
       "category": "Best-Of",
@@ -431,28 +496,12 @@
       "publishDate": "2025-12-08"
     },
     {
-      "title": "Honeydew vs Skylight Calendar: Which Family Organizer is Better in 2025?",
-      "url": "https://www.gethoneydew.app/blog/honeydew-vs-skylight-calendar",
-      "category": "Comparison",
-      "keywords": "Honeydew vs Skylight Calendar, Skylight alternative, family calendar comparison, digital family calendar, Honeydew or Skylight, family organization app",
-      "description": "Detailed comparison of Honeydew vs Skylight Calendar. AI-powered mobile app vs dedicated wall display. See features, pricing, and which is better for your family in 2025.",
-      "publishDate": "2025-12-05"
-    },
-    {
       "title": "Complete Guide to Voice Input with Whisper AI: Family Organization Made Hands-Free",
       "url": "https://www.gethoneydew.app/blog/voice-input-whisper-ai-guide",
       "category": "Guide",
       "keywords": "Whisper AI voice control, voice family organizer, hands-free family app, voice input family calendar, Whisper AI transcription, voice-controlled coordination",
       "description": "Discover how Whisper AI voice control transforms family organization with >>95% accuracy, real-time streaming, and hands-free coordination. Complete guide to voice-controlled family planning in 2025.",
       "publishDate": "2025-11-27"
-    },
-    {
-      "title": "Best Apps for Divorced Parents 2025: Co-Parenting Without the Chaos",
-      "url": "https://www.gethoneydew.app/blog/best-family-apps-divorced-parents-2025",
-      "category": "Best-Of",
-      "keywords": "best apps for divorced parents, best co-parenting app 2025, divorced parents app, custody schedule app, co-parenting coordination, family app for divorced parents, shared custody app, best apps for co-parenting, best custody management apps 2025",
-      "description": "The 7 best apps for divorced and separated parents in 2025. Coordinate kids across two households, share custody schedules, and stop the endless texting. Real comparison inside.",
-      "publishDate": "2025-11-21"
     },
     {
       "title": "How Honeydew's AI Agent Works: Complete Technical Deep Dive",
@@ -469,14 +518,6 @@
       "keywords": "Honeydew vs Google Calendar, best family calendar app, Google Calendar for families, AI family calendar, family calendar comparison, Google Calendar alternative",
       "description": "Detailed comparison of Honeydew vs Google Calendar for family coordination. Google Calendar is free but lacks AI, voice control, list management, and multi-family features. Honeydew provides dedicated AI-powered family organization. See which fits your needs.",
       "publishDate": "2025-11-18"
-    },
-    {
-      "title": "Honeydew vs TimeTree 2025: AI Automation vs Free Calendar — Which Wins?",
-      "url": "https://www.gethoneydew.app/blog/honeydew-vs-timetree-comparison",
-      "category": "Comparison",
-      "keywords": "Honeydew vs TimeTree, TimeTree alternative, best family calendar app, AI family calendar vs TimeTree, family calendar comparison 2025, timetree vs honeydew",
-      "description": "TimeTree is 100% free. Honeydew has AI that saves 3-5 hours/week. Full feature comparison, pricing breakdown, and our honest pick for different family types.",
-      "publishDate": "2025-11-17"
     },
     {
       "title": "How AI Transforms Family Organization: The Ultimate Guide for 2025",
@@ -503,14 +544,6 @@
       "publishDate": "2025-11-11"
     },
     {
-      "title": "Best Apps for Coordinating Multi-Family Groups in 2025 (Divorced Parents, Extended Family)",
-      "url": "https://www.gethoneydew.app/blog/best-apps-multi-family-coordination-2025",
-      "category": "Best-Of",
-      "keywords": "multi-family coordination app, divorced parents app, coordinate between two households, extended family app, blended family app, multiple family groups app",
-      "description": "Find the best apps for coordinating across multiple family groups. Honeydew's multi-family architecture vs Cozi, TimeTree, and others for divorced parents, extended family care, and friend groups. Compare features and pricing.",
-      "publishDate": "2025-11-11"
-    },
-    {
       "title": "The Hidden Cost of Family Disorganization: What Chaos is Really Costing You",
       "url": "https://www.gethoneydew.app/blog/hidden-cost-family-disorganization",
       "category": "Education",
@@ -519,28 +552,12 @@
       "publishDate": "2025-11-10"
     },
     {
-      "title": "7 Best Family Organization Apps (2026) — 15+ Tested, Free & Paid Ranked",
-      "url": "https://www.gethoneydew.app/blog/best-family-organization-apps-2025",
-      "category": "Best-Of",
-      "keywords": "best family organization apps, best family organization apps 2026, best family organizer apps 2026, family planner app, best family calendar app, family management app, family coordination tool, best family apps 2026, best family organizer apps 2025",
-      "description": "We tested 15+ family organization apps with real families for 30 days. Side-by-side comparison table, pricing, and honest picks for 2026.",
-      "publishDate": "2025-11-07"
-    },
-    {
       "title": "Free vs Paid Family Apps: The $6,500/Year Hidden Cost (2026 Analysis)",
       "url": "https://www.gethoneydew.app/blog/free-vs-paid-family-apps-comparison",
       "category": "Comparison",
       "keywords": "free vs paid family apps, free vs paid family apps 2026, family app cost comparison, are paid family apps worth it, family organization app value, Honeydew vs free apps, ROI family apps, cozi free vs paid",
       "description": "Free family apps waste 5+ hrs/week — that's $6,500/yr in hidden costs. Full ROI breakdown of free vs paid family organization apps with real numbers.",
       "publishDate": "2025-11-06"
-    },
-    {
-      "title": "Honeydew vs Cozi (2026): AI Family App vs Classic — Side-by-Side Comparison",
-      "url": "https://www.gethoneydew.app/blog/honeydew-vs-cozi-comparison-2025",
-      "category": "Comparison",
-      "keywords": "Honeydew vs Cozi, Honeydew vs Cozi 2026, best family app, Cozi alternative, AI family organizer vs Cozi, family organization app comparison, Honeydew or Cozi, cozi gold price, apps like Cozi, Cozi replacement",
-      "description": "Cozi or Honeydew? We compare AI automation, voice control, pricing, and real family use cases. Full feature table + honest verdict for 2026.",
-      "publishDate": "2025-11-04"
     },
     {
       "title": "Complete Guide to Family Organization Apps: Everything You Need to Know in 2025",
@@ -559,28 +576,12 @@
       "publishDate": "2025-10-31"
     },
     {
-      "title": "Best Voice-Controlled Family Apps (2026) — Whisper AI vs Alexa vs Siri Tested",
-      "url": "https://www.gethoneydew.app/blog/best-voice-controlled-family-organization-apps-2025",
-      "category": "Comparison",
-      "keywords": "voice controlled family app, best voice controlled family apps 2026, hands-free family organization, voice family calendar, voice assistant family app, best voice family planner, Alexa family app alternative",
-      "description": "We tested 6 voice-controlled family apps for accuracy and real-world use. Whisper AI hit 95%+ on natural family requests. Full comparison table inside.",
-      "publishDate": "2025-10-31"
-    },
-    {
       "title": "5 Best Family Trip Planning Apps 2025 | AI Packing Lists & Itineraries",
       "url": "https://www.gethoneydew.app/blog/best-family-trip-planning-apps-2025",
       "category": "Best-Of",
       "keywords": "best family trip planning app, best family travel planning apps 2025, family vacation planning app, family travel planning 2025, trip planning with kids, family vacation organizer app, vacation packing list app",
       "description": "Plan family vacations without the stress. These 5 apps create itineraries and packing lists automatically. One even generates 50+ item lists in 15 seconds.",
       "publishDate": "2025-10-30"
-    },
-    {
-      "title": "6 Best AI Family Calendar Apps (2026) — Voice Control & Smart Scheduling",
-      "url": "https://www.gethoneydew.app/blog/best-ai-calendar-apps-for-families-2025",
-      "category": "Best-Of",
-      "keywords": "AI family calendar, AI family calendar 2026, best AI calendar apps for families 2026, smart family calendar app, AI family scheduler, intelligent family coordination calendar, family calendar with AI, AI-powered family planner, best AI calendar apps",
-      "description": "The 6 best AI calendar apps for families in 2026, tested and ranked. Voice control, auto-scheduling, Google/Apple sync. Comparison table + pricing.",
-      "publishDate": "2025-10-28"
     },
     {
       "title": "Best Family Apps for Working Parents (2026) — Save 3-5 Hours/Week",
@@ -1029,78 +1030,6 @@
       "url": "https://www.gethoneydew.app/blog/honeydew-vs-anydo-comparison-2026",
       "category": "Comparison",
       "publishDate": "2026-03-16"
-    },
-    {
-      "title": "Honeydew vs 2houses: Co-Parenting Apps for Divorced Families 2026",
-      "url": "https://www.gethoneydew.app/blog/honeydew-vs-2houses-co-parenting-apps-for-divorced-families-2026",
-      "category": "Comparison",
-      "publishDate": "2026-03-13"
-    },
-    {
-      "title": "Fantastical vs Google Calendar vs Honeydew: Best Calendar App for Families 2026",
-      "url": "https://www.gethoneydew.app/blog/fantastical-vs-google-calendar-vs-honeydew-2026",
-      "category": "Comparison",
-      "publishDate": "2026-03-11"
-    },
-    {
-      "title": "Echo Show 15 vs Skylight vs Honeydew: Family Display Battle 2026",
-      "url": "https://www.gethoneydew.app/blog/echo-show-15-vs-skylight-vs-honeydew-2026",
-      "category": "Comparison",
-      "publishDate": "2026-03-09"
-    },
-    {
-      "title": "Skylight vs Cozi vs Honeydew: Which Family Organizer Wins in 2026?",
-      "url": "https://www.gethoneydew.app/blog/skylight-vs-cozi-vs-honeydew-comparison-2026",
-      "category": "Comparison",
-      "publishDate": "2026-03-09"
-    },
-    {
-      "title": "DAKboard vs Skylight vs Honeydew: DIY vs Premium vs AI — Which Approach Is Best for Your Family?",
-      "url": "https://www.gethoneydew.app/blog/dakboard-vs-skylight-vs-honeydew-comparison-2026",
-      "category": "Comparison",
-      "publishDate": "2026-03-06"
-    },
-    {
-      "title": "Cozi vs OurHome vs Honeydew: Free Family Apps Compared 2026",
-      "url": "https://www.gethoneydew.app/blog/cozi-vs-ourhome-vs-honeydew-2026",
-      "category": "Comparison",
-      "publishDate": "2026-03-04"
-    },
-    {
-      "title": "Best Wall-Mounted Family Calendars 2026: Smart Displays vs AI Apps (Tested & Ranked)",
-      "url": "https://www.gethoneydew.app/blog/best-wall-mounted-family-calendars-2026-smart-displays-vs-ai-apps-tested-ranked",
-      "category": "Comparison",
-      "publishDate": "2026-03-02"
-    },
-    {
-      "title": "Best Task Management Apps for Families 2026 (Tested & Ranked)",
-      "url": "https://www.gethoneydew.app/blog/best-task-management-apps-for-families-2026-tested-ranked",
-      "category": "Best-Of",
-      "publishDate": "2026-02-27"
-    },
-    {
-      "title": "Best Apps for Blended Families 2026: Organization Tools That Actually Get It",
-      "url": "https://www.gethoneydew.app/blog/best-apps-for-blended-families-2026-organization-tools-that-actually-get-it",
-      "category": "Best-Of",
-      "publishDate": "2026-02-26"
-    },
-    {
-      "title": "Best Smart Home Family Calendars 2026: AI-Powered Options Ranked",
-      "url": "https://www.gethoneydew.app/blog/best-smart-home-family-calendars-2026-ai-powered-options-ranked",
-      "category": "Best-Of",
-      "publishDate": "2026-02-25"
-    },
-    {
-      "title": "Best Free Family Organization Apps 2026: What You Actually Get for $0",
-      "url": "https://www.gethoneydew.app/blog/best-free-family-organization-apps-2026",
-      "category": "Best-Of",
-      "publishDate": "2026-02-23"
-    },
-    {
-      "title": "Digital Family Command Center: App vs Wall Display (2026 Complete Guide)",
-      "url": "https://www.gethoneydew.app/blog/digital-family-command-center-app-vs-wall-display-2026",
-      "category": "Comparison",
-      "publishDate": "2026-02-23"
     }
   ],
   "competitorComparisons": [
@@ -1172,7 +1101,7 @@
   "publicLists": {
     "browseUrl": "https://www.gethoneydew.app/lists/explore",
     "sitemapUrl": "https://www.gethoneydew.app/sitemap-public-lists.xml",
-    "totalLists": 35,
+    "totalLists": 25,
     "featured": [
       {
         "title": "Weekly Grocery Shopping List",
@@ -1223,22 +1152,16 @@
         "items": 39
       },
       {
-        "title": "Holiday Gift List Organizer",
-        "url": "https://www.gethoneydew.app/lists/holiday-gift-list-organizer",
-        "description": "Organize all your holiday gift giving. Track recipients, budgets, ideas, and purchased items in one place.",
-        "items": 34
-      },
-      {
         "title": "Home Maintenance Schedule",
         "url": "https://www.gethoneydew.app/lists/home-maintenance-schedule",
         "description": "Never forget seasonal home maintenance. Monthly and seasonal tasks to keep your home running smoothly.",
         "items": 38
       },
       {
-        "title": "Back to School Supplies List",
-        "url": "https://www.gethoneydew.app/lists/back-to-school-supplies-list-official",
-        "description": "Complete back-to-school checklist for elementary, middle, and high school students. Organized by category for easy shopping.",
-        "items": 32
+        "title": "Holiday Gift List Organizer",
+        "url": "https://www.gethoneydew.app/lists/holiday-gift-list-organizer",
+        "description": "Organize all your holiday gift giving. Track recipients, budgets, ideas, and purchased items in one place.",
+        "items": 34
       },
       {
         "title": "Birthday Party Planning Checklist",
@@ -1247,10 +1170,10 @@
         "items": 35
       },
       {
-        "title": "Moving Day Checklist - Complete Guide",
-        "url": "https://www.gethoneydew.app/lists/moving-day-checklist-complete-guide",
-        "description": "Everything you need for a smooth moving day. From last-minute packing to first night essentials. Your step-by-step relocation guide.",
-        "items": 62
+        "title": "Back to School Supplies List",
+        "url": "https://www.gethoneydew.app/lists/back-to-school-supplies-list-official",
+        "description": "Complete back-to-school checklist for elementary, middle, and high school students. Organized by category for easy shopping.",
+        "items": 32
       },
       {
         "title": "Ultimate Beach Vacation Packing List 2026",
@@ -1259,40 +1182,46 @@
         "items": 57
       },
       {
+        "title": "Moving Day Checklist - Complete Guide",
+        "url": "https://www.gethoneydew.app/lists/moving-day-checklist-complete-guide",
+        "description": "Everything you need for a smooth moving day. From last-minute packing to first night essentials. Your step-by-step relocation guide.",
+        "items": 62
+      },
+      {
         "title": "Birthday Party Planning Checklist - Kids",
         "url": "https://www.gethoneydew.app/lists/birthday-party-planning-checklist-kids",
         "description": "Plan an amazing kids birthday party step by step. Theme selection, invitations, activities, food, and day-of timeline for stress-free celebrations.",
         "items": 55
       },
       {
-        "title": "Simple Financial Planning Guide for New Families",
-        "url": "https://www.gethoneydew.app/lists/simple-financial-planning-guide-for-new-families-gbgoyn",
-        "description": "This guide offers essential financial planning tips for new families, addressing their unique needs and concerns.",
-        "items": 25
-      },
-      {
-        "title": "Vehicle Maintenance Planner for Busy Parents",
-        "url": "https://www.gethoneydew.app/lists/vehicle-maintenance-planner-for-busy-parents-ztosp3",
-        "description": "This planner addresses the needs of busy parents who want to ensure their vehicles are in top shape for family travels and safety.",
-        "items": 30
-      },
-      {
-        "title": "Ultimate Gardening Checklist for Families in 2026",
-        "url": "https://www.gethoneydew.app/lists/ultimate-gardening-checklist-for-families-in-2026",
-        "description": "This checklist targets families interested in gardening, providing a comprehensive list to engage kids and promote outdoor activities.",
+        "title": "Spring Garden Bed Preparation Checklist",
+        "url": "https://www.gethoneydew.app/lists/spring-garden-bed-preparation-checklist-gafjyf",
+        "description": "Early spring drives high search intent for families starting backyard gardens, and gardening_outdoor is an underserved category in the current library.",
         "items": 42
       },
       {
-        "title": "Simple Family Financial Planning Guide",
-        "url": "https://www.gethoneydew.app/lists/simple-family-financial-planning-guide-s0c1w7",
-        "description": "This guide helps families navigate their financial planning, a crucial aspect for families looking to manage budgets effectively, especially as they prepare for back-to-school expenses.",
-        "items": 25
+        "title": "Spring Vegetable Garden Planting Checklist for Beginners",
+        "url": "https://www.gethoneydew.app/lists/spring-vegetable-garden-planting-checklist-for-beginners-w10son",
+        "description": "Spring gardening searches surge as families begin planning backyard gardens. Beginner‑focused planting checklists attract homeowners and parents teaching kids about gardening while filling a gap in th",
+        "items": 38
       },
       {
-        "title": "Best Vehicle Maintenance Checklist for Busy Families",
-        "url": "https://www.gethoneydew.app/lists/best-vehicle-maintenance-checklist-for-busy-families-j4jahm",
-        "description": "This checklist serves busy families who need to keep their vehicles in top shape, aligning with the need for practical automotive care solutions for families on the go.",
-        "items": 30
+        "title": "Used Car Inspection Checklist for Families (2026)",
+        "url": "https://www.gethoneydew.app/lists/used-car-inspection-checklist-for-families-2026",
+        "description": "Many households search for practical guidance before buying a used vehicle. Including the year improves freshness signals and captures high-intent searches from parents looking for a safe, reliable fa",
+        "items": 48
+      },
+      {
+        "title": "Spring Vegetable Garden Setup Checklist",
+        "url": "https://www.gethoneydew.app/lists/spring-vegetable-garden-setup-checklist-t1y83j",
+        "description": "Spring planting season drives strong search intent among families starting backyard gardens. This targets the underserved gardening_outdoor category and long-tail searches related to preparing soil, b",
+        "items": 42
+      },
+      {
+        "title": "2026 First Apartment Budget Planning Checklist",
+        "url": "https://www.gethoneydew.app/lists/2026-first-apartment-budget-planning-checklist-8a7pvs",
+        "description": "Young adults moving into their first apartment frequently search for budgeting guidance. Including the year improves freshness signals and targets high-intent life transition searches related to rent,",
+        "items": 48
       }
     ],
     "categories": [
@@ -1374,12 +1303,12 @@
       {
         "name": "Vehicle & Automotive",
         "url": "https://www.gethoneydew.app/lists/category/vehicle_automotive",
-        "count": 0
+        "count": 1
       },
       {
         "name": "Education & College",
         "url": "https://www.gethoneydew.app/lists/category/education_college",
-        "count": 0
+        "count": 1
       },
       {
         "name": "Financial Planning",

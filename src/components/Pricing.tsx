@@ -12,7 +12,7 @@ const plans = [
     features: [
       '1 family group',
       'Basic AI features',
-      'Up to 5 lists',
+      'Up to 15 lists',
       'Calendar sync',
       'Mobile & web apps'
     ],
@@ -27,7 +27,7 @@ const plans = [
     description: 'Everything you need for family organization',
     features: [
       'Unlimited family groups',
-      'Full AI Agent (27 tools)',
+      'Full AI Agent (77 tools)',
       'Unlimited lists & tasks',
       'Voice & image input',
       'Priority support',

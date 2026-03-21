@@ -23,6 +23,7 @@ gsc-service-account.json
 # IDE files
 .vscode/
 .idea/
+.cursor/
 *.swp
 *.swo
 

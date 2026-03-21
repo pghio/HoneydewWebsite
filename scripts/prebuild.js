@@ -12,6 +12,8 @@ import { loadBlogArticles } from './utils/blog-content.js';
 import { generateBlogManifest } from './generate-blog-manifest.js';
 import { generateSitemapFile } from './generate-sitemap.js';
 import { generateLlmAssets } from './generate-llm-assets.js';
+import { generateRssFeed } from './generate-rss.js';
+import { generateOgImages } from './generate-og-images.js';
 
 async function main() {
   console.log('⚙️  Prebuild: indexing blog content...');
@@ -21,6 +23,8 @@ async function main() {
 
   generateBlogManifest({ articles });
   generateSitemapFile({ articles });
+  generateRssFeed({ articles });
+  await generateOgImages({ articles });
   await generateLlmAssets({ articles });
 
   console.log('\n🔗 Injecting blog-to-list cross-links...');

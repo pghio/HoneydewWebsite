@@ -16,6 +16,8 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { generateSitemapFile } from './generate-sitemap.js';
+import { generateBlogManifest } from './generate-blog-manifest.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -438,7 +440,12 @@ ${processedBody}`;
     sendEmailNotification(scheduled);
   }
   
-  // Next steps
+  // Regenerate sitemap and blog manifest to stay in sync
+  console.log('🔄 Regenerating sitemap and blog manifest...');
+  generateBlogManifest({ log: null });
+  generateSitemapFile({ log: null });
+  console.log('✅ Sitemap and blog manifest updated.\n');
+
   console.log('📋 Next Steps:');
   console.log('   1. Review scheduled articles: /blog/scheduled/');
   console.log('   2. Preview on site: http://localhost:5173/blog-preview');

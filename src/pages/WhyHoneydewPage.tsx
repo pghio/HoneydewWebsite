@@ -456,7 +456,7 @@ const ComparisonPage = ({
               Ready to Get Organized Smarter?
             </h2>
             <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-              Join thousands of families using Honeydew's AI to save hours every week on planning and coordination.
+              See why families are switching to AI-powered organization. Try Honeydew free — no credit card required.
             </p>
             <motion.a
               href={comparisonCtaHref}

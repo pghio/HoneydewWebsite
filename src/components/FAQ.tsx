@@ -91,14 +91,14 @@ const faqs = [
   },
   {
     question: "How much does Honeydew cost?",
-    answer: "Honeydew offers a free tier to get started. Honeydew More unlocks unlimited AI planning, advanced family coordination, and multi-family support for $7.99/month—less than a single coffee. That's less than a Skylight Calendar ($300+), and families report saving 3-5 hours weekly. The ROI is extraordinary: $8/month saves you $100+ in time value. Honeydew All with advanced features is coming soon.",
+    answer: "Honeydew offers a generous free tier: up to 15 lists, 50 AI requests per week, and 4 family members — enough for most families to use daily. Honeydew More ($7.99/month) unlocks unlimited everything, advanced calendar features, and multi-family coordination. That's less than a Skylight Calendar ($300+) and includes AI planning that Cozi and OurHome don't offer at any price.",
     icon: Lightbulb,
     color: 'text-emerald-600',
     bgColor: 'bg-emerald-50'
   },
   {
     question: "Is the app reliable across iPhone and Android?",
-    answer: "Yes, flawlessly. Over 40% of our active families use mixed iOS/Android devices. We maintain 99.9% uptime with real-time sync (<50ms latency). Our engineering team includes former Google and Apple engineers. If you ever have an issue, email support@gethoneydew.app and you'll hear from a human—often a founder—within hours.",
+    answer: "Honeydew works on iOS (App Store) and web browsers on any device. Real-time sync keeps everything updated across platforms with <50ms latency. If you ever have an issue, email support@gethoneydew.app and you'll hear from the founder directly.",
     icon: Heart,
     color: 'text-violet-600',
     bgColor: 'bg-violet-50'

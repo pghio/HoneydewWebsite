@@ -233,7 +233,7 @@ const BlogPostPage = () => {
     const articleUrl = `${baseUrl}/blog/${slug}`
     const imageUrl = frontmatter.image 
       ? `${baseUrl}${frontmatter.image}` 
-      : `${baseUrl}/og-image-ai.jpg`
+      : `${baseUrl}/og/${slug}.png`
 
     // Set document title
     if (frontmatter.title) {
@@ -618,7 +618,7 @@ const BlogPostPage = () => {
         '@type': 'HowTo',
         name: frontmatter.title || '',
         description: frontmatter.description || '',
-        image: frontmatter.image ? `${baseUrl}${frontmatter.image}` : `${baseUrl}/og-image-ai.jpg`,
+        image: frontmatter.image ? `${baseUrl}${frontmatter.image}` : `${baseUrl}/og/${slug}.png`,
         totalTime: frontmatter.readingTime || 'PT15M',
         estimatedCost: {
           '@type': 'MonetaryAmount',
@@ -1212,7 +1212,7 @@ const BlogPostPage = () => {
               Ready to Transform Your Family Organization?
             </h3>
             <p className="text-lg opacity-95 mb-6">
-              Join thousands of families using the Honeydew Family App&#39;s AI-powered coordination
+              Try Honeydew free — the AI family organizer that plans in seconds, not minutes
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <motion.a

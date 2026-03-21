@@ -14,7 +14,7 @@ interface Message {
 const knowledgeBase = [
   {
     keywords: ['price', 'cost', 'pricing', 'subscription', 'free', 'pay', 'money', 'expensive', 'cheap', 'afford', 'premium', 'plan'],
-    response: "Honeydew offers a **free tier** to get started! Our premium plan (Honeydew More) is **$7.99/month** and unlocks unlimited AI planning, advanced family coordination, and multi-family support. That's less than a coffee per week to save 3-5 hours of planning time!",
+    response: "Honeydew offers a **generous free tier**: up to 15 lists, 50 AI requests per week, and 4 family members. Our premium plan (Honeydew More) is **$7.99/month** and unlocks unlimited everything plus advanced calendar features and multi-family coordination.",
     links: [{ text: 'View Pricing', url: '/#pricing' }]
   },
   {

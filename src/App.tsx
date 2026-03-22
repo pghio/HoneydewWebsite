@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import { trackLlmReferralOnce, trackPageView } from './utils/analytics'
+import { trackPlatformDetectedOnce } from './utils/funnelTracking'
 import Navbar from './components/Navbar'
 import HomePage from './pages/HomePage'
 import AppPage from './pages/AppPage'
@@ -55,6 +56,7 @@ function AppContent() {
 
   useEffect(() => {
     trackLlmReferralOnce()
+    trackPlatformDetectedOnce()
     trackPageView()
   }, [location.pathname, location.search])
 

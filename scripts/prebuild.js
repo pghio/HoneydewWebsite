@@ -14,6 +14,7 @@ import { generateSitemapFile } from './generate-sitemap.js';
 import { generateLlmAssets } from './generate-llm-assets.js';
 import { generateRssFeed } from './generate-rss.js';
 import { generateOgImages } from './generate-og-images.js';
+import { generateCoverImages } from './generate-cover-images.js';
 
 async function main() {
   console.log('⚙️  Prebuild: indexing blog content...');
@@ -25,6 +26,7 @@ async function main() {
   generateSitemapFile({ articles });
   generateRssFeed({ articles });
   await generateOgImages({ articles });
+  await generateCoverImages({ limit: 20 });
   await generateLlmAssets({ articles });
 
   console.log('\n🔗 Injecting blog-to-list cross-links...');

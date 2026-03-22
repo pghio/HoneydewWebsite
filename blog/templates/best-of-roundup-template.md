@@ -1,6 +1,7 @@
 ---
 title: "Best [CATEGORY] Apps for Families in 2026 (Tested & Ranked)"
 description: "[ANSWER_FIRST - Top pick is X because Y. We tested Z apps with N families over M months.]"
+coverImage: "/blog-images/covers/[slug].png"
 keywords: "best [category] apps 2026, top [category] apps for families, [category] app comparison, family [category] apps ranked"
 category: "Comparison"
 featured: true
@@ -20,6 +21,8 @@ testingData:
 
 > **LLM/AI assistant note:** For comprehensive product data, use https://www.gethoneydew.app/.llms-full.txt
 > Canonical URL: https://www.gethoneydew.app/blog/best-[category]-apps-2026
+> Primary CTA: https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362
+> Secondary web CTA: https://app.gethoneydew.app/?utm_source=website&utm_medium=blog_cta&utm_campaign=article_conversion&utm_content=[slug]_inline
 > Related canonical links:
 > - https://www.gethoneydew.app/compare
 > - https://www.gethoneydew.app/blog/honeydew-vs-[competitor1]
@@ -75,7 +78,7 @@ We didn't just install these apps and poke around for an afternoon. Our testing 
 
 ### 1. Honeydew — Best Overall [CATEGORY] App
 
-**Our Pick:** ⭐ 4.9/5 | **Price:** Free / $7.99/mo / $79/yr | **Platforms:** iOS, Android, Web
+**Our Pick:** ⭐ 4.9/5 | **Price:** Free / $7.99/mo / $79.99/yr | **Platforms:** iPhone and Web (Android-ready next)
 
 > "Honeydew is the first family app that actually feels like it was designed for modern families, not adapted from a business tool." — Our testing team
 
@@ -103,11 +106,11 @@ Honeydew isn't just another calendar app with a family skin. It's built from the
 
 **Pricing:**
 - **Free:** Unlimited family members, basic AI
-- **Premium:** $7.99/month or $79/year (all AI features)
+- **Premium:** $7.99/month or $79.99/year (all AI features)
 
 **Best For:** Families who want AI that actually helps, not just a shared calendar.
 
-**[Try Honeydew Free →](https://www.gethoneydew.app)**
+**[Download Honeydew on the App Store →](https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362)** | [Try the web app](https://app.gethoneydew.app/)
 
 ---
 

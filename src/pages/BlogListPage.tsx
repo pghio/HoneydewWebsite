@@ -1,12 +1,10 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { Calendar, ArrowRight, Sparkles } from 'lucide-react'
-import { useState, useEffect } from 'react'
+import { useEffect, useState } from 'react'
+import DownloadCTA from '../components/DownloadCTA'
 import Footer from '../components/Footer'
 import useSEO from '../utils/useSEO'
-import { buildAppLink } from '../utils/funnelTracking'
-import { trackLinkClick } from '../utils/analytics'
-import AppStoreBadge from '../components/AppStoreBadge'
 
 interface Article {
   slug: string
@@ -15,12 +13,48 @@ interface Article {
   publishDate: string
   category: string
   featured?: boolean
+  coverImage?: string
+  image?: string
 }
+
+const CATEGORY_CLASSES: Record<string, { badge: string; fallback: string }> = {
+  'Case Study': {
+    badge: 'bg-[#92C5A7] text-white',
+    fallback: 'from-[#92C5A7] via-[#dff5e8] to-white',
+  },
+  Comparison: {
+    badge: 'bg-[#9DC3FF] text-gray-900',
+    fallback: 'from-[#9DC3FF] via-[#dcecff] to-white',
+  },
+  Guide: {
+    badge: 'bg-[#B794F6] text-white',
+    fallback: 'from-[#B794F6] via-[#efe6ff] to-white',
+  },
+  Tutorial: {
+    badge: 'bg-[#FFD166] text-gray-900',
+    fallback: 'from-[#FFD166] via-[#fff2c9] to-white',
+  },
+  Article: {
+    badge: 'bg-[#78E6AF] text-gray-900',
+    fallback: 'from-[#78E6AF] via-[#d9fae8] to-white',
+  },
+}
+
+const formatDate = (dateString: string) => {
+  if (!dateString) return ''
+  const date = new Date(dateString)
+  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+}
+
+const getCategoryClasses = (category: string) =>
+  CATEGORY_CLASSES[category] ?? CATEGORY_CLASSES.Article
+
+const getArticleCoverImage = (article: Article) =>
+  article.coverImage || article.image || `/og/${article.slug}.png`
 
 const BlogListPage = () => {
   const [articles, setArticles] = useState<Article[]>([])
   const [loading, setLoading] = useState(true)
-  const blogCtaHref = buildAppLink({ medium: 'blog_list', campaign: 'primary_cta', content: 'start_free' })
 
   useSEO({
     title: 'Honeydew Family App Blog – AI Organizer Guides & Playbooks',
@@ -30,31 +64,26 @@ const BlogListPage = () => {
     keywords:
       'voice-controlled family app, no hardware family calendar, AI meal planning for families, Honeydew Family App vs Skylight, Honeydew Family App vs Cozi, AI family organization tips, co-parenting automation, family OS blog',
     image: '/og-image-ai.jpg',
-    type: 'website'
+    type: 'website',
   })
 
   useEffect(() => {
-    // Fetch articles from blog manifest (auto-generated during build)
     const fetchArticles = async () => {
       try {
         const response = await fetch('/blog-manifest.json')
         if (!response.ok) {
           throw new Error('Manifest not found')
         }
-        
+
         const manifest = await response.json()
-        
-        // Filter to only published articles (current or past date)
         const published = manifest.articles.filter((article: Article) => {
           if (!article.publishDate) return true
           return new Date(article.publishDate) <= new Date()
         })
-        
+
         setArticles(published)
       } catch (error) {
         console.error('Error loading blog manifest:', error)
-        // Fallback: manifest not found, site will show no articles
-        // To fix: run `npm run generate-blog-manifest`
       } finally {
         setLoading(false)
       }
@@ -74,14 +103,13 @@ const BlogListPage = () => {
     )
   }
 
-  const featuredArticles = articles.filter(a => a.featured)
-  const regularArticles = articles.filter(a => !a.featured)
+  const featuredArticles = articles.filter(article => article.featured)
+  const regularArticles = articles.filter(article => !article.featured)
 
   return (
     <>
       <div className="min-h-screen bg-white">
-        {/* Hero Header */}
-        <header className="pt-24 pb-16 bg-gradient-to-b from-[#92C5A7]/10 to-white">
+        <header className="pt-24 pb-16 bg-gradient-to-b from-[#f8fbff] via-white to-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -90,69 +118,62 @@ const BlogListPage = () => {
               className="text-center"
             >
               <motion.div
-                className="inline-flex items-center bg-[#92C5A7]/10 text-[#4A5568] px-4 py-2 rounded-full text-sm font-medium mb-6 border border-[#92C5A7]/20"
+                className="inline-flex items-center bg-[#f4f2ff] text-[#6d5bb5] px-4 py-2 rounded-full text-sm font-medium mb-6 border border-[#e7e0ff]"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.2 }}
               >
-                <Sparkles className="w-4 h-4 mr-2 text-[#92C5A7]" />
-                Insights on AI & Family Organization
+                <Sparkles className="w-4 h-4 mr-2" />
+                AI family organization guides
               </motion.div>
-              <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-                Honeydew Family App <span className="text-[#92C5A7]">Blog</span>
+              <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+                Honeydew <span className="text-[#92C5A7]">Blog</span>
               </h1>
-              <p className="text-xl text-[#4A5568] max-w-3xl mx-auto leading-relaxed">
-                Real stories, practical guides, and deep dives into how AI is transforming family life
+              <p className="text-lg md:text-xl text-[#4A5568] max-w-3xl mx-auto leading-relaxed">
+                Comparison guides, practical workflows, and genuinely useful articles designed to earn trust before a family ever downloads the app.
               </p>
             </motion.div>
           </div>
         </header>
 
-        {/* Content */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.15 }}
-            className="mb-14 rounded-3xl border border-[#92C5A7]/30 bg-gradient-to-br from-[#92C5A7]/15 via-white to-[#78E6AF]/10 p-8"
+            className="mb-14 rounded-[28px] border border-[#e8edf4] bg-white p-8 shadow-[0_20px_70px_rgba(15,23,42,0.06)]"
           >
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-              <div>
-                <p className="text-sm font-semibold text-[#2F3C36] uppercase tracking-wide">Start here</p>
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mt-2">
-                  See Honeydew build a family plan in minutes
+            <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
+              <div className="max-w-2xl">
+                <p className="text-sm font-semibold text-[#8b7bd0] uppercase tracking-[0.2em]">Download-first content</p>
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mt-3">
+                  Start with the app, then explore the details
                 </h2>
-                <p className="text-gray-700 mt-2 max-w-2xl">
-                  Turn a voice note or photo into lists, calendar events, and shared hand-offs—no setup required.
+                <p className="text-gray-700 mt-3">
+                  The articles below are built to help families make a confident decision. When they are ready, every major CTA now points to the App Store first, with web as a lighter-weight fallback.
                 </p>
               </div>
-              <div className="flex flex-col items-center gap-3">
-                <motion.a
-                  href={blogCtaHref}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center rounded-xl bg-[#92C5A7] px-6 py-3 font-semibold text-gray-900 hover:bg-[#86b89b] transition-colors"
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                  onClick={() =>
-                    trackLinkClick({
-                      href: blogCtaHref,
-                      source: 'blog_list',
-                      medium: 'page_section',
-                      campaign: 'primary_cta',
-                    })
-                  }
-                >
-                  Try Honeydew Free
-                  <ArrowRight className="ml-2 w-4 h-4" />
-                </motion.a>
-                <AppStoreBadge size="sm" source="blog_list" campaign="primary_cta" />
-              </div>
+              <DownloadCTA
+                source="blog_list"
+                medium="blog_list"
+                campaign="primary_cta"
+                content="top_banner"
+                storeCampaign="blog_list_primary"
+                primaryLabel="Try Honeydew on the App Store"
+                secondaryLabel="Or explore Honeydew on the web before you download."
+                size="sm"
+                layout="stacked"
+                align="center"
+                className="w-full lg:w-auto"
+                buttonClassName="inline-flex items-center justify-center rounded-xl bg-[#92C5A7] px-6 py-3 font-semibold text-gray-900 hover:bg-[#86b89b] transition-colors min-h-12"
+                secondaryClassName="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+                badgesClassName="justify-center"
+              />
             </div>
           </motion.div>
-          {/* Featured Articles */}
+
           {featuredArticles.length > 0 && (
-            <motion.div
+            <motion.section
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
@@ -167,15 +188,14 @@ const BlogListPage = () => {
                   <ArticleCard key={article.slug} article={article} index={index} featured />
                 ))}
               </div>
-            </motion.div>
+            </motion.section>
           )}
 
-          {/* All Articles */}
           {regularArticles.length > 0 && (
-            <motion.div
+            <motion.section
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 }}
+              transition={{ delay: 0.35 }}
             >
               <h2 className="text-3xl font-bold text-gray-900 mb-8">All Articles</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -183,7 +203,7 @@ const BlogListPage = () => {
                   <ArticleCard key={article.slug} article={article} index={index} />
                 ))}
               </div>
-            </motion.div>
+            </motion.section>
           )}
 
           {articles.length === 0 && (
@@ -204,72 +224,63 @@ interface ArticleCardProps {
   featured?: boolean
 }
 
-const ArticleCard = ({ article, index, featured }: ArticleCardProps) => {
-  const formatDate = (dateString: string) => {
-    if (!dateString) return ''
-    const date = new Date(dateString)
-    return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
-  }
-
-  // Category color mapping based on Honeydew brand guide
-  const getCategoryColor = (category: string) => {
-    const colors: { [key: string]: string } = {
-      'Case Study': '#92C5A7', // Honeydew Green
-      'Comparison': '#9DC3FF', // Light Blue
-      'Guide': '#B794F6', // Purple
-      'Article': '#78E6AF', // Light Mint Green
-      'Tutorial': '#FFD166', // Yellow
-    }
-    return colors[category] || '#92C5A7'
-  }
+const ArticleCard = ({ article, index, featured = false }: ArticleCardProps) => {
+  const categoryClasses = getCategoryClasses(article.category)
+  const imageSrc = getArticleCoverImage(article)
 
   return (
-    <motion.div
+    <motion.article
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: index * 0.1 }}
-      whileHover={{ y: -8, scale: 1.02 }}
+      transition={{ delay: index * 0.08 }}
+      whileHover={{ y: -8 }}
       className="group"
     >
-      <Link to={`/blog/${article.slug}`}>
-        <div className={`h-full bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border-2 ${featured ? 'border-[#92C5A7]' : 'border-gray-100'}`}>
-          {/* Category Badge */}
-          <div 
-            className="px-6 py-3"
-            style={{ backgroundColor: getCategoryColor(article.category) }}
-          >
-            <span className="text-sm font-bold text-white uppercase tracking-wider">{article.category}</span>
+      <Link to={`/blog/${article.slug}`} className="block h-full">
+        <div className={`h-full overflow-hidden rounded-[28px] border bg-white shadow-sm transition-all duration-300 group-hover:shadow-[0_28px_60px_rgba(15,23,42,0.12)] ${featured ? 'border-[#cfe8d8]' : 'border-[#edf1f5]'}`}>
+          <div className="relative aspect-[16/10] overflow-hidden">
+            <div className={`absolute inset-0 bg-gradient-to-br ${categoryClasses.fallback}`}></div>
+            <img
+              src={imageSrc}
+              alt={article.title}
+              loading="lazy"
+              decoding="async"
+              className="relative z-10 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+            />
+            <div className="absolute inset-x-0 top-0 z-20 flex items-start justify-between p-4">
+              <span className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.14em] shadow-sm ${categoryClasses.badge}`}>
+                {article.category}
+              </span>
+              {featured && (
+                <span className="rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-gray-700 backdrop-blur">
+                  Featured
+                </span>
+              )}
+            </div>
           </div>
 
-          {/* Content */}
           <div className="p-6">
-            <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#92C5A7] transition-all line-clamp-2">
+            <div className="flex items-center gap-2 text-sm text-gray-500 mb-4">
+              <Calendar className="w-4 h-4 text-[#92C5A7]" />
+              <span>{formatDate(article.publishDate)}</span>
+            </div>
+
+            <h3 className="text-2xl font-bold text-gray-900 mb-3 leading-tight group-hover:text-[#2F3C36] transition-colors line-clamp-3">
               {article.title}
             </h3>
-            
-            <p className="text-[#4A5568] mb-4 line-clamp-3 leading-relaxed">
+
+            <p className="text-[#4A5568] mb-6 line-clamp-3 leading-relaxed">
               {article.description}
             </p>
 
-            {/* Meta Info */}
-            <div className="flex items-center justify-between text-sm text-gray-500 mb-4 pb-4 border-b border-gray-100">
-              {article.publishDate && (
-                <div className="flex items-center gap-2">
-                  <Calendar className="w-4 h-4 text-[#92C5A7]" />
-                  <span>{formatDate(article.publishDate)}</span>
-                </div>
-              )}
-            </div>
-
-            {/* Read More */}
-            <div className="flex items-center gap-2 text-[#92C5A7] font-semibold group-hover:gap-4 transition-all">
+            <div className="flex items-center gap-2 text-[#2F3C36] font-semibold group-hover:gap-3 transition-all">
               <span>Read Article</span>
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
             </div>
           </div>
         </div>
       </Link>
-    </motion.div>
+    </motion.article>
   )
 }
 

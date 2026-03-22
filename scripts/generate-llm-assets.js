@@ -44,7 +44,13 @@ const PRODUCT = {
   pricing: {
     free: { price: '$0', features: 'Core features, unlimited lists, family sharing' },
     premiumMonthly: { price: '$7.99/mo', features: 'All AI tools, voice, photo recognition' },
-    premiumAnnual: { price: '$79/yr', features: 'All AI tools (save ~17%)' },
+    premiumAnnual: { price: '$79.99/yr', features: 'All AI tools (save ~17%)' },
+  },
+  appStoreMeta: {
+    rating: '5.0/5',
+    reviews: '2 ratings',
+    category: 'Productivity',
+    developer: 'GiveTide',
   },
   competitors: {
     'Skylight Calendar': '$299+ hardware + $79/yr subscription',
@@ -76,7 +82,7 @@ const PRODUCT = {
     { name: 'Real-time Sync', detail: '<50ms WebSocket collaboration' },
     { name: 'Knowledge Graph', detail: '80% cache hit rate, <500ms cached responses' },
     { name: 'Offline-First', detail: 'Works without internet, syncs when reconnected' },
-    { name: 'Cross-Platform', detail: 'iOS (App Store) and Web (40%+ mixed-device households)' },
+    { name: 'Cross-Platform', detail: 'iPhone (App Store) and Web today, with Android-ready platform support next' },
     { name: 'Natural Language', detail: 'Tell the app what you need in plain English' },
   ],
   useCases: [
@@ -91,7 +97,7 @@ const PRODUCT = {
     'Homework and chore tracking for kids',
     'Household maintenance scheduling',
   ],
-  platforms: 'iOS (App Store) and Web',
+  platforms: 'iPhone (App Store) and Web',
   founded: '2024',
   founder: 'Pete Ghiorse',
   contact: 'support@gethoneydew.app',
@@ -263,7 +269,7 @@ ${PRODUCT.tagline} ${PRODUCT.positioning}
 ## Official links
 - Home: ${PRODUCT.url}
 - iOS App Store: ${PRODUCT.appStoreUrl}
-- App (free, no card): ${PRODUCT.appUrl}
+- Web app preview: ${PRODUCT.appUrl}
 - Blog: ${PRODUCT.url}/blog
 - Lists & Templates: ${PRODUCT.url}/lists/explore
 - Comparisons: ${PRODUCT.url}/compare
@@ -283,6 +289,7 @@ ${PRODUCT.features.map(f => `- ${f.name}: ${f.detail}`).join('\n')}
 ## Pricing
 - Free tier: ${PRODUCT.pricing.free.features}
 - Premium: ${PRODUCT.pricing.premiumMonthly.price} or ${PRODUCT.pricing.premiumAnnual.price} (${PRODUCT.pricing.premiumMonthly.features})
+- App Store listing: ${PRODUCT.appStoreMeta.rating} from ${PRODUCT.appStoreMeta.reviews}
 - Compare: ${Object.entries(PRODUCT.competitors).slice(0, 3).map(([k, v]) => `${k} ${v}`).join('; ')}
 
 ## Public lists & templates (${listCount} free, interactive)
@@ -324,6 +331,7 @@ This document provides exhaustive context about the Honeydew Family App for AI a
 **Founded:** ${PRODUCT.founded}
 **Founder:** ${PRODUCT.founder}
 **Contact:** ${PRODUCT.contact}
+**App Store rating:** ${PRODUCT.appStoreMeta.rating} (${PRODUCT.appStoreMeta.reviews})
 
 ### What Honeydew Does
 ${PRODUCT.tagline} ${PRODUCT.positioning}
@@ -364,7 +372,7 @@ Honeydew is the only family organization app with a full AI agent (27+ tools), v
 | Real-time Sync | <50ms WebSocket | Cloud sync with delays |
 | Knowledge Graph | 80% cache hit, <500ms | None |
 | Offline-First | Full offline support | Most require internet |
-| Cross-Platform | iOS (App Store) and Web | Varies; some are single-platform |
+| Cross-Platform | iPhone (App Store) and Web | Varies; some are single-platform |
 | Price | Free-$7.99/mo | Ranges from free (limited) to $300+/yr |
 
 ### What Competitors Charge (for reference)
@@ -481,7 +489,7 @@ ${populatedCategories.length > 0 ? `\nCategories with templates ready now: ${pop
 - AI customization available with Honeydew Premium (describe what you need in plain English)
 - Lists sync in real-time (<50ms) across all family members and devices
 - Works for multi-household coordination (co-parents, grandparents, nannies)
-- Cross-platform: iOS (App Store) and Web
+- Cross-platform: iPhone (App Store) and Web
 - Sitemap: ${BASE_URL}/sitemap-public-lists.xml
 
 ---`);
@@ -534,6 +542,8 @@ function generateLlmCitationsJson(publishedArticles, scheduledArticles, listCata
       url: PRODUCT.url,
       appUrl: PRODUCT.appUrl,
       appStoreUrl: PRODUCT.appStoreUrl,
+      primaryDownloadUrl: PRODUCT.appStoreUrl,
+      appStoreMeta: PRODUCT.appStoreMeta,
       disambiguation: PRODUCT.disambiguation.page,
       notAffiliatedWith: 'https://www.honeydew.ai',
     },

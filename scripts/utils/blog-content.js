@@ -61,6 +61,7 @@ export function loadBlogArticles({ sort = true } = {}) {
             frontmatter.featured === 'yes',
           keywords: frontmatter.keywords || '',
           author: frontmatter.author || 'Honeydew Team',
+          coverImage: frontmatter.coverImage || '',
           image: frontmatter.image || '',
           fileName: file,
           absolutePath: fullPath,

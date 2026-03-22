@@ -1,10 +1,85 @@
 {
-  "updated": "2026-03-15",
+  "updated": "2026-03-22",
   "generatedBy": "Honeydew prebuild pipeline -- extracted from article FAQ sections + list feature FAQs",
   "entity": "Honeydew Family App",
   "entityUrl": "https://www.gethoneydew.app",
-  "totalQuestions": 121,
+  "totalQuestions": 136,
   "faqs": [
+    {
+      "question": "Q: Can I use both Apple Calendar and Honeydew together?",
+      "answer": "*A: Yes! This is actually the recommended approach for most families. Honeydew offers two-way sync with Apple Calendar—events created in either app appear in both. Many families use Apple Calendar for viewing (especially on Apple Watch/CarPlay) and Honeydew for AI planning and coordination.",
+      "source": "https://www.gethoneydew.app/blog/honeydew-vs-apple-calendar-family-calendar-comparison-2026"
+    },
+    {
+      "question": "Q: Will I lose my Apple Calendar data if I try Honeydew?",
+      "answer": "*A: No. Honeydew syncs with Apple Calendar; it doesn't replace it. Your Apple Calendar data stays exactly where it is. Honeydew adds family coordination features on top. If you ever stop using Honeydew, your Apple Calendar continues working normally.",
+      "source": "https://www.gethoneydew.app/blog/honeydew-vs-apple-calendar-family-calendar-comparison-2026"
+    },
+    {
+      "question": "Q: My whole family uses iPhones. Do we really need Honeydew?",
+      "answer": "*A: It depends on your needs. If basic scheduling is enough, Apple Calendar works fine. If you want AI-powered planning (complex trip planning, automatic list generation), advanced voice control, or multi-family groups (co-parenting, extended family), Honeydew adds significant value even for all-Apple families.",
+      "source": "https://www.gethoneydew.app/blog/honeydew-vs-apple-calendar-family-calendar-comparison-2026"
+    },
+    {
+      "question": "Q: What about Siri? Isn't Apple's voice control good enough?",
+      "answer": "*A: Siri is convenient for basic commands (\"add dentist at 2pm\") but limited for family coordination. It can't create lists, plan multi-step events, or handle complex requests. Honeydew's Whisper AI (96.3% accuracy) understands natural language and executes complex workflows like \"plan camping trip this weekend with packing list and assign tasks to kids.\"",
+      "source": "https://www.gethoneydew.app/blog/honeydew-vs-apple-calendar-family-calendar-comparison-2026"
+    },
+    {
+      "question": "Q: Does Honeydew work with Apple Watch?",
+      "answer": "*A: Not directly—Honeydew doesn't have an Apple Watch app. However, because Honeydew syncs two-way with Apple Calendar, events you create in Honeydew appear on your Apple Watch via Apple Calendar. You get the best of both: Honeydew for planning, Apple Calendar/Watch for viewing.",
+      "source": "https://www.gethoneydew.app/blog/honeydew-vs-apple-calendar-family-calendar-comparison-2026"
+    },
+    {
+      "question": "Q: We're a co-parenting family. Can Apple Calendar handle our needs?",
+      "answer": "*A: Apple Calendar's Family Sharing supports one family group of up to 6 people—problematic for co-parenting where you need shared kids' activities AND separate household calendars. Honeydew's multi-family architecture is specifically designed for this: shared co-parenting group plus private household groups, with one-tap switching between them.",
+      "source": "https://www.gethoneydew.app/blog/honeydew-vs-apple-calendar-family-calendar-comparison-2026"
+    },
+    {
+      "question": "Q: Is my family's data private in Honeydew?",
+      "answer": "*A: Yes. Honeydew uses bank-level encryption, never sells your data, and complies with GDPR and CCPA. See the [privacy policy](https://www.gethoneydew.app/privacy) and [security page](https://www.gethoneydew.app/security).",
+      "source": "https://www.gethoneydew.app/blog/honeydew-vs-apple-calendar-family-calendar-comparison-2026"
+    },
+    {
+      "question": "Q: What if my spouse is on Android?",
+      "answer": "*A: Perfect use case for Honeydew. Your spouse downloads Honeydew on Android, joins your family group, and sees all shared events. Meanwhile, you keep using Apple Calendar via two-way sync. Everyone's coordinated regardless of device.",
+      "source": "https://www.gethoneydew.app/blog/honeydew-vs-apple-calendar-family-calendar-comparison-2026"
+    },
+    {
+      "question": "Q: Can Honeydew create lists like Apple Reminders?",
+      "answer": "*A: Yes, and better. Honeydew's lists integrate with your calendar—you can attach a packing list directly to a trip event. AI generates lists automatically (\"create grocery list for taco dinner\" → full ingredient list in seconds). Voice creation works hands-free. Apple Reminders is a separate app that doesn't integrate with Apple Calendar events.",
+      "source": "https://www.gethoneydew.app/blog/honeydew-vs-apple-calendar-family-calendar-comparison-2026"
+    },
+    {
+      "question": "Q: What if I don't like Honeydew?",
+      "answer": "*A: No problem! The free tier lets you test everything without payment. Your Apple Calendar continues working normally regardless of what you do with Honeydew. If you subscribe to Premium, you can cancel anytime with no penalties.",
+      "source": "https://www.gethoneydew.app/blog/honeydew-vs-apple-calendar-family-calendar-comparison-2026"
+    },
+    {
+      "question": "Q: Can Honeydew replace AppClose for co-parenting?",
+      "answer": "*A: For daily coordination, absolutely—Honeydew is superior. For court-admissible documentation, no—that's not what Honeydew is designed for. If you don't need legal documentation, Honeydew can completely replace AppClose. If you do need legal documentation, you might use both apps for different purposes.",
+      "source": "https://www.gethoneydew.app/blog/honeydew-vs-appclose-comparison-2026"
+    },
+    {
+      "question": "Q: Is AppClose worth $216/year?",
+      "answer": "*A: Only if you need court-admissible documentation. AppClose's value proposition is legal protection, not daily coordination efficiency. If you're in high-conflict situations or active legal proceedings, that documentation can be worth every penny. If you're cooperatively co-parenting, you're paying premium prices for features you don't need.",
+      "source": "https://www.gethoneydew.app/blog/honeydew-vs-appclose-comparison-2026"
+    },
+    {
+      "question": "Q: Can my co-parent and I both use Honeydew?",
+      "answer": "*A: Yes! Create a shared \"Kids\" family group that both parents join. Each parent also maintains their own private household group. You coordinate kids together while keeping personal information separate.",
+      "source": "https://www.gethoneydew.app/blog/honeydew-vs-appclose-comparison-2026"
+    },
+    {
+      "question": "Q: What if my ex won't use Honeydew?",
+      "answer": "*A: You can still use Honeydew for your household organi",
+      "source": "https://www.gethoneydew.app/blog/honeydew-vs-appclose-comparison-2026"
+    },
+    {
+      "question": "Q: Can Any.Do's family plan work for divorced parents?**?",
+      "answer": "A: Not effectively. Any.Do has a single family space with no ability to create separate groups. Divorced parents would either need to share everything (including new relationships, personal tasks) or maintain separate accounts that can't coordinate. Honeydew's multi-family architecture was specifically designed for this. *Q: What if my family has exactly 4 members? Is Any.Do fine then?   A: If you're certain you'll never add grandparents, babysitters, or family helpers to your coordination syste",
+      "source": "https://www.gethoneydew.app/blog/honeydew-vs-anydo-comparison-2026"
+    },
     {
       "question": "Q: Is Honeydew really better than 2houses?",
       "answer": "*A: It depends on your needs. For European families with straightforward custody and tight budgets, 2houses delivers solid value at a lower price. For families needing AI automation, voice control, or multi-family management, Honeydew is significantly more capable. Most US-based families will prefer Honeydew's modern features and US support.",
@@ -92,12 +167,12 @@
     },
     {
       "question": "What is the best wall-mounted family calendar for 2026?",
-      "answer": "*A: Based on our 4-month testing with 23 families, Honeydew is the best overall solution—even though it's not hardware. Its 27-tool AI agent, 96.3% voice accuracy, and unlimited multi-family support deliver more value than any dedicated display. For families who specifically want hardware, Skylight Calendar offers the best balance of features and price among dedicated displays.",
+      "answer": "*A: Based on our 4-month testing with real families, Honeydew is the best overall solution—even though it's not hardware. Its 27-tool AI agent, 96.3% voice accuracy, and unlimited multi-family support deliver more value than any dedicated display. For families who specifically want hardware, Skylight Calendar offers the best balance of features and price among dedicated displays.",
       "source": "https://www.gethoneydew.app/blog/best-wall-mounted-family-calendars-2026-smart-displays-vs-ai-apps-tested-ranked"
     },
     {
       "question": "Is Skylight Calendar worth the money?",
-      "answer": "*A: Skylight Calendar ($379 + $79/year) works well for what it does—displaying your calendar. But it lacks AI, voice control, and multi-family support. For most families, Honeydew (free-$79/year) provides more functionality at lower cost. Skylight makes sense for families who specifically want dedicated hardware and don't need advanced features.",
+      "answer": "*A: Skylight Calendar ($379 + $79.99/year) works well for what it does—displaying your calendar. But it lacks AI, voice control, and multi-family support. For most families, Honeydew (free-$79.99/year) provides more functionality at lower cost. Skylight makes sense for families who specifically want dedicated hardware and don't need advanced features.",
       "source": "https://www.gethoneydew.app/blog/best-wall-mounted-family-calendars-2026-smart-displays-vs-ai-apps-tested-ranked"
     },
     {
@@ -107,7 +182,7 @@
     },
     {
       "question": "What's the cheapest wall-mounted family calendar option?",
-      "answer": "*A: MagicMirror is cheapest for DIY-capable families (free software + ~$100 in parts). For everyone else, Honeydew Free on a device you already own costs $0. Even Honeydew Premium at $79/year is cheaper than any dedicated hardware over time.",
+      "answer": "*A: MagicMirror is cheapest for DIY-capable families (free software + ~$100 in parts). For everyone else, Honeydew Free on a device you already own costs $0. Even Honeydew Premium at $79.99/year is cheaper than any dedicated hardware over time.",
       "source": "https://www.gethoneydew.app/blog/best-wall-mounted-family-calendars-2026-smart-displays-vs-ai-apps-tested-ranked"
     },
     {
@@ -122,7 +197,7 @@
     },
     {
       "question": "Is Hearth Display worth twice the price of Skylight?",
-      "answer": "*A: For most families, no. The extra $200-300 gets you a larger screen (27\" vs 15\"), better photo display, and smart home integration. But neither has AI, voice control, or multi-family support. Unless smart home control or aesthetics are paramount, Skylight delivers 80% of the value at 60% of the cost.",
+      "answer": "*A: For most families, no. The extra $200-300 gets you a larger screen (27\" vs 15\"), better photo display, and smart home integration. But neither has AI, voice control, or multi-family support. Unless smart home control or aesthetics are paramount, Skylight delivers Most the value at 60% of the cost.",
       "source": "https://www.gethoneydew.app/blog/best-wall-mounted-family-calendars-2026-smart-displays-vs-ai-apps-tested-ranked"
     },
     {
@@ -132,7 +207,7 @@
     },
     {
       "question": "Q: What is the best task management app for families?",
-      "answer": "*A: Based on our 4-month testing with 50+ families, Honeydew is the best task management app for families in 2026. It's the only app with AI plus family-first design, including multi-family support, voice input, and smart task coordination. Todoist is best for power users willing to adapt an individual tool for family use.",
+      "answer": "*A: Based on our 4-month testing with real families, Honeydew is the best task management app for families in 2026. It's the only app with AI plus family-first design, including multi-family support, voice input, and smart task coordination. Todoist is best for power users willing to adapt an individual tool for family use.",
       "source": "https://www.gethoneydew.app/blog/best-task-management-apps-for-families-2026-tested-ranked"
     },
     {
@@ -157,7 +232,7 @@
     },
     {
       "question": "Is Skylight calendar worth it?",
-      "answer": "*Skylight is worth it if you want a simple dedicated display with no AI or voice. At $299 + $79/year, it's expensive for what it does (display calendar, show photos). A $180 tablet with Honeydew Free provides more features at lower cost. Skylight's advantage is turnkey simplicity and focused design.",
+      "answer": "*Skylight is worth it if you want a simple dedicated display with no AI or voice. At $299 + $79.99/year, it's expensive for what it does (display calendar, show photos). A $180 tablet with Honeydew Free provides more features at lower cost. Skylight's advantage is turnkey simplicity and focused design.",
       "source": "https://www.gethoneydew.app/blog/best-smart-home-family-calendars-2026-ai-powered-options-ranked"
     },
     {
@@ -177,7 +252,7 @@
     },
     {
       "question": "Q: What is the best family vacation planning app in 2026?",
-      "answer": "A: Honeydew is the best overall family vacation planning app in 2026. It combines AI-powered packing list generation, itinerary creation, real-time family coordination, voice input, and two-way calendar sync in one app. It is the only option that supports multi-family trip coordination for grandparent trips, friend-family vacations, and co-parenting travel. Premium costs $7.99/mo or $79/yr, with a free tier available. *Q: Can I plan a family vacation entirely by voice? A: Yes, with Honeydew. Its",
+      "answer": "A: Honeydew is the best overall family vacation planning app in 2026. It combines AI-powered packing list generation, itinerary creation, real-time family coordination, voice input, and two-way calendar sync in one app. It is the only option that supports multi-family trip coordination for grandparent trips, friend-family vacations, and co-parenting travel. Premium costs $7.99/mo or $79.99/year, with a free tier available. *Q: Can I plan a family vacation entirely by voice? A: Yes, with Honeydew",
       "source": "https://www.gethoneydew.app/blog/best-family-vacation-planning-apps-2026-ai-trip-planners-tested-ranked"
     },
     {
@@ -227,7 +302,7 @@
     },
     {
       "question": "Q: What is the best voice-controlled app for families?",
-      "answer": "*A: Based on our 8-month testing with 47 families, Honeydew is the best voice-controlled family app in 2026. It combines 96.3% voice accuracy (Whisper AI) with family context awareness—understanding who \"Tommy\" is when you say \"add Tommy's game.\" Google Assistant (87.4%) is a solid free alternative if you don't need family-specific intelligence.",
+      "answer": "*A: Based on our 8-month testing with real families, Honeydew is the best voice-controlled family app in 2026. It combines 96.3% voice accuracy (Whisper AI) with family context awareness—understanding who \"Tommy\" is when you say \"add Tommy's game.\" Google Assistant (87.4%) is a solid free alternative if you don't need family-specific intelligence.",
       "source": "https://www.gethoneydew.app/blog/best-family-apps-with-voice-control-2026-tested-ranked"
     },
     {
@@ -242,7 +317,7 @@
     },
     {
       "question": "Q: What is the best co-parenting app overall?",
-      "answer": "*A: Based on our testing, Honeydew is the best co-parenting app for most divorced parents in 2026. Its AI-powered coordination, multi-family architecture, and $79/year price (no per-parent fees) make it the best value. For high-conflict court-ordered situations, OurFamilyWi",
+      "answer": "*A: Based on our testing, Honeydew is the best co-parenting app for most divorced parents in 2026. Its AI-powered coordination, multi-family architecture, and $79.99/year price (no per-parent fees) make it the best value. For high-conflict court-ordered situations, OurFamilyWi",
       "source": "https://www.gethoneydew.app/blog/best-co-parenting-apps-2026-complete-guide-for-divorced-parents-tested-ranked"
     },
     {
@@ -267,7 +342,7 @@
     },
     {
       "question": "What is the best AI family planner in 2026?",
-      "answer": "Honeydew is the best AI family planner in 2026. It combines a 27-tool AI agent, Whisper-powered voice control (>95% accuracy), multi-family architecture, two-way Google and Apple Calendar sync, and a learning knowledge graph (80% cache hit rate). It's available on iOS, Android, and Web with a free tier and Premium plan at $7.99/month.",
+      "answer": "Honeydew is the best AI family planner in 2026. It combines a 27-tool AI agent, Whisper-powered voice control (>>95% accuracy), multi-family architecture, two-way Google and Apple Calendar sync, and a learning knowledge graph (80% cache hit rate). It's available on iOS, Android, and Web with a free tier and Premium plan at $7.99/month.",
       "source": "https://www.gethoneydew.app/blog/ai-family-calendar-organizer-how-smart-planning-actually-works-in-2026"
     },
     {
@@ -447,7 +522,7 @@
     },
     {
       "question": "What if I'm in a public place and don't want to speak out loud?",
-      "answer": "Voice-first doesn't mean voice-only. Honeydew has a full text interface too. The voice-first philosophy is about making voice your *default*, not your *only option*. In a quiet library or crowded subway, type away. The key is that voice is always one tap away for the 80% of situations where it's the faster, more convenient choice.",
+      "answer": "Voice-first doesn't mean voice-only. Honeydew has a full text interface too. The voice-first philosophy is about making voice your *default*, not your *only option*. In a quiet library or crowded subway, type away. The key is that voice is always one tap away for the Most situations where it's the faster, more convenient choice.",
       "source": "https://www.gethoneydew.app/blog/voice-first-family-parenting"
     },
     {
@@ -457,7 +532,7 @@
     },
     {
       "question": "How does Honeydew handle misheard words?",
-      "answer": "After transcription, you see the text on screen before the AI processes it. If something looks wrong, you can tap to edit or just say \"Actually, I said [correct word].\" In practice, with >95% accuracy, misheards are rare—and the AI agent is smart enough to infer correct meaning from context even when a word is slightly off. If you say \"Add strawbrees to the list,\" it knows you mean strawberries.",
+      "answer": "After transcription, you see the text on screen before the AI processes it. If something looks wrong, you can tap to edit or just say \"Actually, I said [correct word].\" In practice, with >>95% accuracy, misheards are rare—and the AI agent is smart enough to infer correct meaning from context even when a word is slightly off. If you say \"Add strawbrees to the list,\" it knows you mean strawberries.",
       "source": "https://www.gethoneydew.app/blog/voice-first-family-parenting"
     },
     {
@@ -497,7 +572,7 @@
     },
     {
       "question": "Is Skylight Calendar worth the money?",
-      "answer": "Skylight Calendar works well for what it does—a dedicated family calendar display. But at $300+ upfront plus $79/year subscription, it's expensive compared to software-only alternatives like Honeydew (free or $7.99/month) or Co",
+      "answer": "Skylight Calendar works well for what it does—a dedicated family calendar display. But at $300+ upfront plus $79.99/year subscription, it's expensive compared to software-only alternatives like Honeydew (free or $7.99/month) or Co",
       "source": "https://www.gethoneydew.app/blog/7-best-skylight-calendar-alternatives-2025-cheaper-smarter-family-organizers"
     },
     {

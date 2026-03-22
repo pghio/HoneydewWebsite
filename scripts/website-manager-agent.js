@@ -81,6 +81,21 @@ const wordCount = (text) => {
 const containsAny = (text, patterns) =>
   patterns.some((pattern) => text.toLowerCase().includes(pattern.toLowerCase()))
 
+const hasStaleHoneydewPricing = (text) => {
+  const patterns = [
+    /Honeydew[^.\n]{0,80}\$99(?:\/yr|\/year|\b| per year)/i,
+    /Honeydew[^.\n]{0,80}\$9\.99/i,
+    /family ai[^.\n]{0,80}\$99(?:\/yr|\/year|\b| per year)/i,
+    /family ai[^.\n]{0,80}\$9\.99/i,
+    /\$99(?:\/yr|\/year|\b| per year)[^.\n]{0,80}(?:Honeydew|family ai)/i,
+    /\$9\.99[^.\n]{0,80}(?:Honeydew|family ai)/i,
+    /Honeydew only[^|\n]*\|\s*\$9\.99\b/i,
+    /ROI vs \$99/i,
+  ]
+
+  return patterns.some((pattern) => pattern.test(text))
+}
+
 const getInternalBlogLinks = (text, host) => {
   const urls = []
   const linkRegex = /\[[^\]]*\]\(([^)]+)\)/g
@@ -293,6 +308,27 @@ const run = () => {
           )
         }
       }
+    }
+
+    const forbiddenCtaPatterns = config.blogChecks.forbiddenCtaPatterns || []
+    forbiddenCtaPatterns.forEach((pattern) => {
+      if (body.includes(pattern)) {
+        addIssue(
+          issues,
+          'stale_cta_copy',
+          `Stale CTA copy in ${slug}`,
+          `Replace legacy CTA text: ${pattern}`
+        )
+      }
+    })
+
+    if (hasStaleHoneydewPricing(body)) {
+      addIssue(
+        issues,
+        'stale_pricing_copy',
+        `Stale pricing copy in ${slug}`,
+        'Replace outdated Honeydew / family AI pricing references with $7.99/mo or $79.99/yr.'
+      )
     }
 
     if (config.blogChecks.requireInternalLinks) {

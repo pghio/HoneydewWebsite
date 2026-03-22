@@ -3,6 +3,7 @@ import { Menu, X, ChevronDown } from 'lucide-react'
 import { useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { trackLinkClick } from '../utils/analytics'
+import { getPrimaryDownloadDestination, trackAppStoreClick } from '../utils/funnelTracking'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -26,7 +27,11 @@ const Navbar = () => {
     { title: 'vs. Mango Display', href: '/why-honeydew/vs-mango' },
   ]
 
-  const navCtaHref = 'https://app.gethoneydew.app/?utm_source=website&utm_medium=nav&utm_campaign=primary_cta'
+  const navCta = getPrimaryDownloadDestination(
+    { medium: 'navbar', campaign: 'navigation', content: 'get_the_app' },
+    'navbar_primary',
+    'device_aware',
+  )
 
   return (
     <motion.nav
@@ -114,20 +119,22 @@ const Navbar = () => {
               whileTap={{ scale: 0.95 }}
             >
               <a
-                href={navCtaHref}
+                href={navCta.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary-500 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-600 transition-colors inline-block"
-                onClick={() =>
+                className="bg-primary-500 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-600 transition-colors inline-block min-h-11"
+                onClick={() => {
                   trackLinkClick({
-                    href: navCtaHref,
+                    href: navCta.href,
                     source: 'navbar',
                     variant: 'desktop',
                     medium: 'navigation',
+                    campaign: 'navigation',
                   })
-                }
+                  trackAppStoreClick('navbar', 'navigation', navCta.platform)
+                }}
               >
-                Try Honeydew
+                Get the App
               </a>
             </motion.div>
           </div>
@@ -191,20 +198,22 @@ const Navbar = () => {
               <a href="/about" className="text-gray-600 hover:text-primary-600 transition-colors">About</a>
               <a href={howItWorksHref} className="text-gray-600 hover:text-primary-600 transition-colors">How It Works</a>
               <a
-                href={navCtaHref}
+                href={navCta.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary-500 text-white px-6 py-2 rounded-lg font-medium hover:bg-primary-600 transition-colors w-full inline-block text-center"
-                onClick={() =>
+                className="bg-primary-500 text-white px-6 py-3 rounded-lg font-medium hover:bg-primary-600 transition-colors w-full inline-block text-center min-h-11"
+                onClick={() => {
                   trackLinkClick({
-                    href: navCtaHref,
+                    href: navCta.href,
                     source: 'navbar',
                     variant: 'mobile',
                     medium: 'navigation',
+                    campaign: 'navigation',
                   })
-                }
+                  trackAppStoreClick('navbar', 'navigation', navCta.platform)
+                }}
               >
-                Try Honeydew
+                Get the App
               </a>
             </div>
           </motion.div>

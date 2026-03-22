@@ -4,6 +4,7 @@ import { ArrowLeft, Calendar, Tag, RefreshCcw, ArrowRight, X } from 'lucide-reac
 import { useEffect, useMemo, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import DownloadCTA from '../components/DownloadCTA'
 import Footer from '../components/Footer'
 import ListEmbedCard from '../components/ListEmbedCard'
 import { trackLinkClick } from '../utils/analytics'
@@ -11,10 +12,11 @@ import {
   createScrollTracker, 
   startTimeTracking, 
   buildBlogCTALink,
+  getPrimaryDownloadDestination,
   trackAppStoreClick,
   buildAppStoreLink,
 } from '../utils/funnelTracking'
-import AppStoreBadge, { AppStoreTextLink } from '../components/AppStoreBadge'
+import { AppStoreTextLink } from '../components/AppStoreBadge'
 import { buildRelatedComparisonLinks } from '../utils/comparisonLinks'
 import { useSEO } from '../utils/useSEO'
 
@@ -32,6 +34,8 @@ type ManifestArticle = {
   category?: string
   featured?: boolean
   keywords?: string
+  coverImage?: string
+  image?: string
 }
 
 function stripFencedCodeBlocks(markdown: string) {
@@ -94,6 +98,30 @@ function buildToc(markdown: string): TocItem[] {
   }
 
   return items
+}
+
+function getWordCount(content: string, frontmatter: Record<string, string>): number {
+  const parsedWordCount = Number(frontmatter.wordCount)
+  if (Number.isFinite(parsedWordCount) && parsedWordCount > 0) {
+    return parsedWordCount
+  }
+
+  return content.split(/\s+/).filter(word => word.length > 0).length
+}
+
+function getReadingTimeLabel(content: string, frontmatter: Record<string, string>): string {
+  if (frontmatter.readingTime) {
+    return frontmatter.readingTime.replace(/^PT/i, '').replace(/M$/i, ' min read')
+  }
+
+  const minutes = Math.max(1, Math.ceil(getWordCount(content, frontmatter) / 200))
+  return `${minutes} min read`
+}
+
+function getArticleImagePath(frontmatter: Record<string, string>, slug?: string): string {
+  if (frontmatter.coverImage) return frontmatter.coverImage
+  if (frontmatter.image) return frontmatter.image
+  return `/og/${slug}.png`
 }
 
 const BlogPostPage = () => {
@@ -231,9 +259,8 @@ const BlogPostPage = () => {
 
     const baseUrl = 'https://www.gethoneydew.app'
     const articleUrl = `${baseUrl}/blog/${slug}`
-    const imageUrl = frontmatter.image 
-      ? `${baseUrl}${frontmatter.image}` 
-      : `${baseUrl}/og/${slug}.png`
+    const imagePath = getArticleImagePath(frontmatter, slug)
+    const imageUrl = imagePath.startsWith('http') ? imagePath : `${baseUrl}${imagePath}`
 
     // Set document title
     if (frontmatter.title) {
@@ -473,6 +500,8 @@ const BlogPostPage = () => {
 
     const baseUrl = 'https://www.gethoneydew.app'
     const articleUrl = `${baseUrl}/blog/${slug}`
+    const imagePath = getArticleImagePath(frontmatter, slug)
+    const imageUrl = imagePath.startsWith('http') ? imagePath : `${baseUrl}${imagePath}`
 
     // Add FAQ schema if article contains FAQ section
     if (content.toLowerCase().includes('frequently asked questions') || content.toLowerCase().includes('## faq')) {
@@ -618,7 +647,7 @@ const BlogPostPage = () => {
         '@type': 'HowTo',
         name: frontmatter.title || '',
         description: frontmatter.description || '',
-        image: frontmatter.image ? `${baseUrl}${frontmatter.image}` : `${baseUrl}/og/${slug}.png`,
+        image: imageUrl,
         totalTime: frontmatter.readingTime || 'PT15M',
         estimatedCost: {
           '@type': 'MonetaryAmount',
@@ -707,48 +736,49 @@ const BlogPostPage = () => {
     )
   }
 
-  const blogCtaHref = buildBlogCTALink(slug ?? 'unknown', 'bottom')
-  const midArticleCtaHref = buildBlogCTALink(slug ?? 'unknown', 'inline')
+  const articleImagePath = getArticleImagePath(frontmatter, slug)
+  const readingTimeLabel = getReadingTimeLabel(content, frontmatter)
   const stickyCtaHref = buildBlogCTALink(slug ?? 'unknown', 'sticky')
+  const stickyDestination = getPrimaryDownloadDestination(
+    {
+      medium: 'blog_cta',
+      campaign: 'blog_cta',
+      content: `${slug ?? 'unknown'}_sticky`,
+    },
+    `blog_cta_${slug ?? 'unknown'}_sticky`,
+    'store_first',
+  )
   const relatedComparisonLinks = buildRelatedComparisonLinks('__none__', 4)
 
   const MidArticleCTA = () => (
-    <div className="my-10 rounded-2xl border border-[#92C5A7]/30 bg-gradient-to-br from-[#92C5A7]/15 via-white to-[#78E6AF]/10 p-6 shadow-sm">
-      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+    <div className="my-10 rounded-[28px] border border-[#e6ebf1] bg-white p-6 shadow-[0_20px_60px_rgba(15,23,42,0.06)]">
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
         <div>
-          <p className="text-sm font-semibold text-[#2F3C36]">Want the “done-for-you” version of this?</p>
-          <h3 className="text-xl font-bold text-gray-900 mt-1">
-            Try Honeydew free and let AI build the plan
+          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-[#8b7bd0]">Try the app</p>
+          <h3 className="text-2xl font-bold text-gray-900 mt-2">
+            Try Honeydew on the App Store
           </h3>
           <p className="text-gray-700 mt-2">
-            Voice, text, or photo → lists + calendar in seconds. No hardware required.
+            Voice, text, or photo in. Lists, plans, and calendar hand-offs out in seconds.
           </p>
         </div>
-        <div className="flex flex-col items-center gap-3">
-          <a
-            href={midArticleCtaHref}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center rounded-xl bg-[#92C5A7] px-5 py-3 font-semibold text-gray-900 hover:bg-[#86b89b] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#92C5A7]/50"
-            onClick={() => {
-              trackLinkClick({
-                href: midArticleCtaHref,
-                source: 'blog_post_mid',
-                label: frontmatter.title ?? slug ?? 'blog_post',
-                campaign: 'article_conversion_mid',
-                additionalParams: {
-                  blog_slug: slug,
-                  article_category: frontmatter.category,
-                },
-              })
-              trackAppStoreClick('blog_cta_mid', `article_${slug}`, 'web')
-            }}
-          >
-            Try Honeydew Free
-            <ArrowRight className="ml-2 w-4 h-4" />
-          </a>
-          <AppStoreBadge size="sm" source="blog_mid" campaign={`article_${slug}`} />
-        </div>
+        <DownloadCTA
+          source="blog_cta_mid"
+          medium="blog_cta"
+          campaign={`article_${slug}`}
+          content={`${slug}_inline`}
+          storeCampaign={`blog_cta_${slug}_inline`}
+          additionalParams={{ blog_slug: slug, article_category: frontmatter.category }}
+          primaryLabel="Download on the App Store"
+          secondaryLabel="Or try Honeydew on the web if you want to browse first."
+          size="sm"
+          layout="stacked"
+          align="center"
+          className="md:min-w-[260px]"
+          buttonClassName="inline-flex items-center justify-center rounded-xl bg-[#92C5A7] px-5 py-3 font-semibold text-gray-900 hover:bg-[#86b89b] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#92C5A7]/50 min-h-12"
+          secondaryClassName="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+          badgesClassName="justify-center"
+        />
       </div>
     </div>
   )
@@ -761,12 +791,11 @@ const BlogPostPage = () => {
         exit={{ opacity: 0 }}
         className="min-h-screen bg-white"
       >
-        {/* Header */}
-        <header className="bg-gradient-to-br from-[#92C5A7] to-[#78E6AF] text-white py-16">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Link 
+        <header className="border-b border-[#edf1f5] bg-white py-12 md:py-16">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <Link
               to="/blog"
-              className="inline-flex items-center space-x-2 text-white/90 hover:text-white mb-8 transition-colors font-medium"
+              className="inline-flex items-center space-x-2 text-gray-600 hover:text-gray-900 mb-8 transition-colors font-medium"
             >
               <ArrowLeft className="w-4 h-4" />
               <span>Back to Blog</span>
@@ -777,54 +806,97 @@ const BlogPostPage = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2 }}
             >
-              <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                Honeydew Family App: {frontmatter.title}
+              {frontmatter.category && (
+                <div className="inline-flex items-center rounded-full bg-[#f4f2ff] px-4 py-2 text-sm font-semibold text-[#6d5bb5] border border-[#e7e0ff]">
+                  {frontmatter.category}
+                </div>
+              )}
+
+              <h1 className="mt-6 text-4xl md:text-6xl font-bold tracking-tight text-gray-900 max-w-4xl">
+                {frontmatter.title}
               </h1>
+
               {frontmatter.description && (
-                <p className="text-xl text-white/90 mb-6">
+                <p className="mt-5 text-lg md:text-xl text-gray-600 max-w-3xl leading-relaxed">
                   {frontmatter.description}
                 </p>
               )}
 
-              <div className="flex flex-wrap items-center gap-4 text-sm text-white/80">
-              {frontmatter.publishDate && (
+              <div className="mt-6 flex flex-wrap items-center gap-3 text-sm text-gray-500">
+                {frontmatter.publishDate && (
+                  <div className="inline-flex items-center gap-2">
+                    <Calendar className="w-4 h-4 text-[#92C5A7]" />
+                    <span>{new Date(frontmatter.publishDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                  </div>
+                )}
+                <span className="text-gray-300">•</span>
+                <span>{readingTimeLabel}</span>
+                {frontmatter.updatedOn && (
                   <>
-                    <div className="flex items-center space-x-2">
-                      <Calendar className="w-4 h-4" />
-                      <span>{new Date(frontmatter.publishDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                    <span className="text-gray-300">•</span>
+                    <div className="inline-flex items-center gap-2">
+                      <RefreshCcw className="w-4 h-4 text-[#92C5A7]" />
+                      <span>
+                        Updated{' '}
+                        {new Date(frontmatter.updatedOn).toLocaleDateString('en-US', {
+                          year: 'numeric',
+                          month: 'long',
+                          day: 'numeric',
+                        })}
+                      </span>
                     </div>
-                    <span>•</span>
                   </>
                 )}
-              {frontmatter.updatedOn && (
-                <>
-                  <div className="flex items-center space-x-2">
-                    <RefreshCcw className="w-4 h-4" />
-                    <span>
-                      Updated{' '}
-                      {new Date(frontmatter.updatedOn).toLocaleDateString('en-US', {
-                        year: 'numeric',
-                        month: 'long',
-                        day: 'numeric',
-                      })}
-                    </span>
-                  </div>
-                  <span>•</span>
-                </>
-              )}
                 {frontmatter.author && (
                   <>
-                    <span>By {frontmatter.author}</span>
-                    <span>•</span>
+                    <span className="text-gray-300">•</span>
+                    <span>{frontmatter.author}</span>
                   </>
                 )}
                 {frontmatter.category && (
-                  <div className="flex items-center space-x-2">
-                    <Tag className="w-4 h-4" />
-                    <span>{frontmatter.category}</span>
-                  </div>
+                  <>
+                    <span className="text-gray-300">•</span>
+                    <div className="inline-flex items-center gap-2">
+                      <Tag className="w-4 h-4 text-[#92C5A7]" />
+                      <span>{frontmatter.category}</span>
+                    </div>
+                  </>
                 )}
               </div>
+
+              <div className="mt-8">
+                <DownloadCTA
+                  source="blog_header"
+                  medium="blog_cta"
+                  campaign={`article_${slug}`}
+                  content={`${slug}_header`}
+                  storeCampaign={`blog_cta_${slug}_header`}
+                  additionalParams={{ blog_slug: slug, article_category: frontmatter.category }}
+                  primaryLabel="Try Honeydew on the App Store"
+                  secondaryLabel="Or use the web app first if you want a quick look around."
+                  size="md"
+                  layout="stacked"
+                  align="left"
+                  buttonClassName="inline-flex items-center justify-center rounded-xl bg-[#111827] px-6 py-3 font-semibold text-white hover:bg-[#1f2937] transition-colors min-h-12"
+                  secondaryClassName="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+                  badgesClassName="justify-start"
+                />
+              </div>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 24 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.35 }}
+              className="mt-10 overflow-hidden rounded-[32px] border border-[#edf1f5] shadow-[0_24px_80px_rgba(15,23,42,0.08)]"
+            >
+              <img
+                src={articleImagePath}
+                alt={frontmatter.title}
+                className="w-full aspect-[16/10] md:aspect-[16/8] object-cover"
+                loading="eager"
+                decoding="async"
+              />
             </motion.div>
           </div>
         </header>
@@ -921,11 +993,7 @@ const BlogPostPage = () => {
                 ),
                 
                 // Enhanced headings
-                h1: ({node, children, ...props}) => (
-                  <h1 className="text-4xl font-bold text-[#92C5A7] mb-6 mt-8" {...props}>
-                    Honeydew Family App: {children}
-                  </h1>
-                ),
+                h1: () => null,
                 h2: ({ node, children, ...props }) => {
                   h2Count += 1
                   const text = getPlainText(children)
@@ -1201,69 +1269,58 @@ const BlogPostPage = () => {
             </div>
           </div>
 
-          {/* CTA */}
           <motion.div
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.5 }}
-            className="mt-12 bg-gradient-to-br from-[#92C5A7] to-[#78E6AF] rounded-xl p-8 text-white text-center shadow-lg"
+            className="mt-12 rounded-[32px] border border-[#e6ebf1] bg-gradient-to-br from-[#f6f9fc] via-white to-[#eef8f2] p-8 text-center shadow-[0_24px_80px_rgba(15,23,42,0.08)]"
           >
-            <h3 className="text-2xl font-bold mb-4">
-              Ready to Transform Your Family Organization?
+            <h3 className="text-3xl font-bold text-gray-900 mb-4">
+              Ready to try Honeydew for real?
             </h3>
-            <p className="text-lg opacity-95 mb-6">
-              Try Honeydew free — the AI family organizer that plans in seconds, not minutes
+            <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
+              Move from reading to doing. Download Honeydew on the App Store and let the app turn real family inputs into organized plans in seconds.
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <motion.a
-                href={blogCtaHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center bg-white text-[#92C5A7] px-8 py-4 rounded-lg font-bold hover:bg-gray-50 transition-colors shadow-md"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={() => {
-                  trackLinkClick({
-                    href: blogCtaHref,
-                    source: 'blog_post_footer',
-                    label: frontmatter.title ?? slug ?? 'blog_post',
-                    campaign: 'article_conversion',
-                    additionalParams: {
-                      blog_slug: slug,
-                      article_category: frontmatter.category,
-                    },
-                  })
-                  trackAppStoreClick('blog_cta', `article_${slug}`, 'web')
-                }}
-              >
-                Try Honeydew Free
-              </motion.a>
-              <AppStoreBadge size="md" source="blog_bottom" campaign={`article_${slug}`} />
-            </div>
+            <DownloadCTA
+              source="blog_cta"
+              medium="blog_cta"
+              campaign={`article_${slug}`}
+              content={`${slug}_bottom`}
+              storeCampaign={`blog_cta_${slug}_bottom`}
+              additionalParams={{ blog_slug: slug, article_category: frontmatter.category }}
+              primaryLabel="Get Honeydew on the App Store"
+              secondaryLabel="Or open the web app if you want to explore first."
+              size="md"
+              layout="stacked"
+              align="center"
+              buttonClassName="inline-flex items-center justify-center bg-[#111827] text-white px-8 py-4 rounded-xl font-bold hover:bg-[#1f2937] transition-colors shadow-md min-h-12"
+              secondaryClassName="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+              badgesClassName="justify-center"
+            />
           </motion.div>
         </article>
       </motion.div>
       <Footer />
 
-      {/* Sticky CTA (conversion win without rewriting content) */}
+      {/* Sticky CTA */}
       {showStickyCTA && !stickyDismissed && (
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 40 }}
-          className="fixed bottom-4 left-4 right-4 md:right-6 md:left-auto md:w-[420px] z-40 drop-shadow-2xl"
+          className="fixed bottom-4 left-4 right-4 md:right-6 md:left-auto md:w-[440px] z-40 drop-shadow-2xl"
         >
-          <div className="rounded-2xl bg-gradient-to-r from-[#92C5A7] to-[#78E6AF] text-gray-900 border border-white/30 backdrop-blur-md">
+          <div className="rounded-3xl bg-white text-gray-900 border border-[#e6ebf1] backdrop-blur-md shadow-[0_24px_80px_rgba(15,23,42,0.18)]">
             <div className="p-5">
               <div className="flex items-start justify-between gap-3">
                 <div>
-                  <p className="text-xs uppercase tracking-wide text-gray-900/70 mb-1">Try the “done-for-you” version</p>
+                  <p className="text-xs uppercase tracking-[0.18em] text-[#8b7bd0] mb-1">Download Honeydew</p>
                   <p className="text-lg font-semibold leading-snug">
                     Turn voice, text, or photos into lists + calendar events in seconds.
                   </p>
                 </div>
                 <button
-                  className="rounded-lg p-2 text-gray-900/70 hover:text-gray-900 hover:bg-white/20 transition-colors"
+                  className="rounded-lg p-2 text-gray-500 hover:text-gray-900 hover:bg-gray-100 transition-colors"
                   aria-label="Dismiss"
                   onClick={() => {
                     if (typeof window !== 'undefined' && slug) {
@@ -1279,7 +1336,7 @@ const BlogPostPage = () => {
                 href={stickyCtaHref}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-white text-gray-900 font-semibold px-4 py-3 hover:bg-gray-50 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+                className="mt-4 inline-flex w-full min-h-12 items-center justify-center gap-2 rounded-xl bg-[#111827] text-white font-semibold px-4 py-3 hover:bg-[#1f2937] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#111827]/30"
                 whileHover={{ scale: 1.01 }}
                 whileTap={{ scale: 0.99 }}
                 onClick={() => {
@@ -1293,13 +1350,13 @@ const BlogPostPage = () => {
                       article_category: frontmatter.category,
                     },
                   })
-                  trackAppStoreClick('blog_cta_sticky', `article_${slug}`, 'web')
+                  trackAppStoreClick('blog_cta_sticky', `article_${slug}`, stickyDestination.platform)
                 }}
               >
-                Try Honeydew Free
+                Download free on the App Store
                 <ArrowRight className="w-4 h-4" />
               </motion.a>
-              <AppStoreTextLink source="blog_sticky" campaign={`article_${slug}`} className="text-gray-900/80 mt-2" />
+              <AppStoreTextLink source="blog_sticky" campaign={`article_${slug}`} className="text-gray-600 mt-3" />
             </div>
           </div>
         </motion.div>

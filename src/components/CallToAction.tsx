@@ -1,15 +1,11 @@
 import { motion, useInView } from 'framer-motion'
 import { useRef } from 'react'
-import { ArrowRight, Star, Users, Zap } from 'lucide-react'
-import { trackLinkClick } from '../utils/analytics'
-import { APP_LINKS, getPrimaryDownloadLink, trackAppStoreClick, isIOSDevice } from '../utils/funnelTracking'
-import AppStoreBadge from './AppStoreBadge'
+import { Star, Users, Zap } from 'lucide-react'
+import DownloadCTA from './DownloadCTA'
 
 const CallToAction = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px" })
-
-  const trialHref = APP_LINKS.ctaSection
 
   const stats = [
     { icon: Zap, value: '77', label: 'AI Tools Built for Families' },
@@ -54,7 +50,7 @@ const CallToAction = () => {
             </h2>
             <p className="text-xl md:text-2xl opacity-90 max-w-3xl mx-auto leading-relaxed mb-8">
               Tell Honeydew what your family needs — grocery lists, trip plans, weekly schedules — and
-              watch AI organize it in seconds. Try it free, no credit card required.
+              watch AI organize it in seconds. Start on the App Store, then keep everyone in sync across devices.
             </p>
 
             {/* Primary CTA */}
@@ -65,41 +61,26 @@ const CallToAction = () => {
               transition={{ delay: 0.4 }}
             >
               <div className="flex flex-col sm:flex-row gap-4 items-center">
-                <motion.div
-                  whileHover={{ scale: 1.05, y: -2 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <a
-                    href={getPrimaryDownloadLink({ medium: 'cta_section', campaign: 'primary_cta', content: 'start_trial' }, 'cta_section')}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group bg-white text-primary-600 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-gray-50 transition-all duration-300 flex items-center gap-3 shadow-xl inline-block"
-                    onClick={() => {
-                      trackLinkClick({
-                        href: trialHref,
-                        source: 'call_to_action',
-                        medium: 'cta_section',
-                        campaign: 'primary_cta',
-                      })
-                      trackAppStoreClick('cta_section', 'primary_cta', isIOSDevice() ? 'ios' : 'web')
-                    }}
-                  >
-                    Start Your Free Trial
-                    <motion.div
-                      animate={{ x: [0, 5, 0] }}
-                      transition={{ duration: 1.5, repeat: Infinity }}
-                    >
-                      <ArrowRight className="w-6 h-6" />
-                    </motion.div>
-                  </a>
-                </motion.div>
-                
+                <DownloadCTA
+                  source="cta_section"
+                  medium="cta_section"
+                  campaign="primary_cta"
+                  content="bottom_section"
+                  storeCampaign="cta_section"
+                  primaryLabel="Get Honeydew on the App Store"
+                  secondaryLabel="Or try the web app if you want to explore first."
+                  size="md"
+                  layout="stacked"
+                  align="center"
+                  buttonClassName="group bg-white text-primary-600 px-10 py-5 rounded-2xl font-bold text-xl hover:bg-gray-50 transition-all duration-300 shadow-xl inline-flex items-center justify-center min-h-12"
+                  secondaryClassName="text-sm text-white/85 hover:text-white transition-colors"
+                  badgesClassName="justify-center"
+                />
                 <div className="text-center sm:text-left">
                   <div className="text-sm opacity-75 mb-1">🎉 No credit card required</div>
-                  <div className="text-sm opacity-75">✨ 30-day free trial</div>
+                  <div className="text-sm opacity-75">✨ Available on iPhone now, Android-ready next</div>
                 </div>
               </div>
-              <AppStoreBadge size="md" source="cta_section" campaign="primary_cta" />
             </motion.div>
 
             {/* Social Proof Stats */}

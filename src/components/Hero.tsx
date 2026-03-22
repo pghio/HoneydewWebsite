@@ -1,10 +1,6 @@
 import { motion } from 'framer-motion'
-import { ArrowRight, Sparkles } from 'lucide-react'
-import { trackLinkClick } from '../utils/analytics'
-import { APP_LINKS, getPrimaryDownloadLink, trackAppStoreClick, isIOSDevice } from '../utils/funnelTracking'
-import AppStoreBadge from './AppStoreBadge'
-
-const heroCtaHref = APP_LINKS.heroPrimary
+import { Sparkles } from 'lucide-react'
+import DownloadCTA from './DownloadCTA'
 
 const Hero = () => {
   return (
@@ -98,55 +94,42 @@ const Hero = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.8 }}
-            className="relative z-10 flex flex-col sm:flex-row gap-4 justify-center items-center mb-4"
+            className="relative z-10 flex flex-col gap-4 justify-center items-center mb-4"
           >
-            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-              <a
-                href={getPrimaryDownloadLink({ medium: 'hero', campaign: 'primary_cta', content: 'try_free' }, 'hero_primary')}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="pointer-events-auto bg-[#92C5A7] text-gray-900 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#86b89b] transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl inline-block"
-                onClick={() => {
-                  trackLinkClick({
-                    href: heroCtaHref,
-                    source: 'hero',
-                    medium: 'page_section',
-                    campaign: 'primary_cta',
-                  })
-                  trackAppStoreClick('hero', 'primary_cta', isIOSDevice() ? 'ios' : 'web')
-                }}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                <DownloadCTA
+                  source="hero"
+                  medium="hero"
+                  campaign="primary_cta"
+                  content="app_store_launch"
+                  storeCampaign="hero_primary"
+                  primaryLabel="Try Honeydew on the App Store"
+                  secondaryLabel="Or try the web app. No credit card required."
+                  size="md"
+                  layout="stacked"
+                  align="center"
+                  buttonClassName="pointer-events-auto bg-[#92C5A7] text-gray-900 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#86b89b] transition-all duration-200 shadow-lg hover:shadow-xl inline-flex items-center justify-center min-h-12"
+                  secondaryClassName="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+                  badgesClassName="justify-center"
+                />
+              </motion.div>
+
+              <motion.a
+                href="#multimodal-demo"
+                className="pointer-events-auto border-2 border-[#92C5A7] text-[#2F3C36] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#92C5A7]/10 transition-all duration-200 inline-block min-h-12"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
               >
-                Try Honeydew Free
-                <ArrowRight className="w-5 h-5" />
-              </a>
-            </motion.div>
-
-            <motion.a
-              href="#multimodal-demo"
-              className="pointer-events-auto border-2 border-[#92C5A7] text-[#2F3C36] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#92C5A7]/10 transition-all duration-200 inline-block"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              See Voice & Image Demo
-            </motion.a>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.95 }}
-            className="flex flex-col items-center gap-3 mb-12"
-          >
-            <AppStoreBadge size="md" source="hero" campaign="primary_cta" />
-            <span className="text-sm text-gray-600">
-              No credit card required. Available on the App Store and Web.
-            </span>
+                See Voice & Image Demo
+              </motion.a>
+            </div>
           </motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.9 }}
+            transition={{ delay: 0.95 }}
             className="inline-flex items-center bg-white/80 px-5 py-3 rounded-full shadow-sm border border-[#E2E8F0] text-sm font-medium text-gray-700"
           >
             <img

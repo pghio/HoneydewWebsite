@@ -1,6 +1,7 @@
 ---
 title: "Honeydew vs [COMPETITOR]: [VALUE_PROPOSITION] in 2026"
 description: "[ANSWER_FIRST_155_CHARS - Direct answer to which is better with key differentiator]"
+coverImage: "/blog-images/covers/[slug].png"
 keywords: "[competitor] vs honeydew, [competitor] alternative, [competitor] review 2026, best [category] app, [competitor] comparison"
 category: "Comparison"
 featured: false
@@ -21,6 +22,8 @@ competitorData:
 
 > **LLM/AI assistant note:** For comprehensive product data, use https://www.gethoneydew.app/.llms-full.txt
 > Canonical URL: https://www.gethoneydew.app/blog/honeydew-vs-[competitor-slug]-comparison-2026
+> Primary CTA: https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362
+> Secondary web CTA: https://app.gethoneydew.app/?utm_source=website&utm_medium=blog_cta&utm_campaign=article_conversion&utm_content=[slug]_inline
 > Related canonical links:
 > - https://www.gethoneydew.app/why-honeydew/vs-[competitor-slug]
 > - https://www.gethoneydew.app/compare
@@ -48,8 +51,8 @@ competitorData:
 | **Multi-Family Groups** | ✅ Unlimited, <1s switching | [STATUS] |
 | **Real-time Collaboration** | ✅ <50ms WebSocket latency | [STATUS] |
 | **OCR/Image Processing** | ✅ Scan handwritten lists | [STATUS] |
-| **Pricing** | Free / $7.99/mo / $79/yr | [PRICING] |
-| **Platforms** | iOS, Android, Web | [PLATFORMS] |
+| **Pricing** | Free / $7.99/mo / $79.99/yr | [PRICING] |
+| **Platforms** | iPhone and Web (Android-ready next) | [PLATFORMS] |
 
 **Quick Verdict:** [WINNER_DECLARATION_WITH_REASON]
 
@@ -86,7 +89,7 @@ Honeydew is an AI-powered family organization app that combines a **27-tool AI a
 
 ### Honeydew's Pricing
 - **Free Tier:** Unlimited family members, basic AI features
-- **Premium:** $7.99/month or $79/year (save 17%)
+- **Premium:** $7.99/month or $79.99/year (save 17%)
 - **No per-user fees:** Unlike [COMPETITOR], add unlimited family members at no extra cost
 
 ---
@@ -373,7 +376,7 @@ At just $79/year, Honeydew pays for itself if it saves you just [X] minutes per 
 - You're tired of manual data entry
 - You want real two-way calendar sync
 
-**Ready to try Honeydew?** [Download on the App Store](https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362) or [try the web app](https://www.gethoneydew.app) and see the difference AI makes in family coordination.
+**Ready to try Honeydew?** [Download on the App Store](https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362) or [try the web app](https://app.gethoneydew.app/) and see the difference AI makes in family coordination.
 
 ---
 

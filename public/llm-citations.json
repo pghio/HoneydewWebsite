@@ -1,11 +1,18 @@
 {
-  "updated": "2026-03-15",
+  "updated": "2026-03-22",
   "generatedBy": "Honeydew prebuild pipeline",
   "entity": {
     "name": "Honeydew Family App",
     "url": "https://www.gethoneydew.app",
     "appUrl": "https://app.gethoneydew.app",
     "appStoreUrl": "https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362",
+    "primaryDownloadUrl": "https://apps.apple.com/us/app/honeydew-family-calendar/id6752225362",
+    "appStoreMeta": {
+      "rating": "5.0/5",
+      "reviews": "2 ratings",
+      "category": "Productivity",
+      "developer": "GiveTide"
+    },
     "disambiguation": "https://www.gethoneydew.app/disambiguation",
     "notAffiliatedWith": "https://www.honeydew.ai"
   },
@@ -52,7 +59,7 @@
     },
     {
       "label": "Cross-Platform",
-      "value": "iOS (App Store) and Web (40%+ mixed-device households)",
+      "value": "iPhone (App Store) and Web today, with Android-ready platform support next",
       "source": "https://www.gethoneydew.app"
     },
     {
@@ -71,7 +78,7 @@
       "features": "All AI tools, voice, photo recognition"
     },
     "premiumAnnual": {
-      "price": "$79/yr",
+      "price": "$79.99/yr",
       "features": "All AI tools (save ~17%)"
     }
   },
@@ -103,6 +110,30 @@
     }
   ],
   "publishedArticles": [
+    {
+      "title": "Honeydew vs Apple Calendar: Family Calendar Comparison 2026",
+      "url": "https://www.gethoneydew.app/blog/honeydew-vs-apple-calendar-family-calendar-comparison-2026",
+      "category": "Comparison",
+      "keywords": "apple calendar for families, icloud calendar family sharing, best family calendar iphone, apple calendar alternative, family calendar ios, honeydew vs apple calendar",
+      "description": "Detailed comparison of Honeydew vs Apple Calendar for families. Apple Calendar is free with great ecosystem integration, but lacks AI coordination, multi-family support, and cross-platform access. See how Honeydew enhances your Apple Calendar experience.",
+      "publishDate": "2026-03-20"
+    },
+    {
+      "title": "Honeydew vs AppClose: Co-Parenting Apps Compared 2026",
+      "url": "https://www.gethoneydew.app/blog/honeydew-vs-appclose-comparison-2026",
+      "category": "Comparison",
+      "keywords": "appclose alternative, appclose review, co-parenting app, appclose vs ourfamilywizard, best divorced parents app, appclose pricing, appclose vs honeydew",
+      "description": "Detailed comparison of Honeydew vs AppClose for co-parenting. AppClose offers court-admissible messaging for high-conflict situations while Honeydew provides AI-powered daily coordination at 63% lower cost. Find out which app fits your family.",
+      "publishDate": "2026-03-18"
+    },
+    {
+      "title": "Honeydew vs Any.Do: Task + Calendar for Families 2026",
+      "url": "https://www.gethoneydew.app/blog/honeydew-vs-anydo-comparison-2026",
+      "category": "Comparison",
+      "keywords": "any.do alternative, any.do family, task app with calendar, any.do vs todoist, family task app, any.do review, honeydew vs any.do, best family task manager",
+      "description": "Comprehensive comparison of Honeydew vs Any.Do for family task management and calendaring. Compare AI capabilities, family features, pricing, and multi-family support. Find out which app wins for families in 2026.",
+      "publishDate": "2026-03-16"
+    },
     {
       "title": "Honeydew vs 2houses: Co-Parenting Apps for Divorced Families 2026",
       "url": "https://www.gethoneydew.app/blog/honeydew-vs-2houses-co-parenting-apps-for-divorced-families-2026",
@@ -164,7 +195,7 @@
       "url": "https://www.gethoneydew.app/blog/best-task-management-apps-for-families-2026-tested-ranked",
       "category": "Best-Of",
       "keywords": "best task app for families, family task management, family to-do list app, best chore app for families, family task sharing app, family task manager, shared task app for families, best family productivity app",
-      "description": "The best task management app for families in 2026 is Honeydew—the only app with AI + family-first design. We tested 12 apps with 50+ families over 4 months. Complete rankings, comparison tables, and decision guide.",
+      "description": "The best task management app for families in 2026 is Honeydew—the only app with AI + family-first design. We tested 12 apps with real families over 4 months. Complete rankings, comparison tables, and decision guide.",
       "publishDate": "2026-02-27"
     },
     {
@@ -268,7 +299,7 @@
       "url": "https://www.gethoneydew.app/blog/best-co-parenting-apps-2026-complete-guide-for-divorced-parents-tested-ranked",
       "category": "Best-Of",
       "keywords": "best co-parenting apps, divorced parents apps, custody calendar app, co-parenting communication app, co-parenting schedule app, shared custody app, parallel parenting app, best apps for divorced parents 2026",
-      "description": "We tested 12 co-parenting apps over 6 months with 50+ divorced families. Honeydew ranks #1 for AI-powered coordination. See our complete rankings, comparison tables, and which app is right for your family.",
+      "description": "We tested 12 co-parenting apps over 6 months with real families. Honeydew ranks #1 for AI-powered coordination. See our complete rankings, comparison tables, and which app is right for your family.",
       "publishDate": "2026-02-11"
     },
     {
@@ -500,7 +531,7 @@
       "url": "https://www.gethoneydew.app/blog/voice-input-whisper-ai-guide",
       "category": "Guide",
       "keywords": "Whisper AI voice control, voice family organizer, hands-free family app, voice input family calendar, Whisper AI transcription, voice-controlled coordination",
-      "description": "Discover how Whisper AI voice control transforms family organization with >>95% accuracy, real-time streaming, and hands-free coordination. Complete guide to voice-controlled family planning in 2025.",
+      "description": "Discover how Whisper AI voice control transforms family organization with >>>95% accuracy, real-time streaming, and hands-free coordination. Complete guide to voice-controlled family planning in 2025.",
       "publishDate": "2025-11-27"
     },
     {
@@ -1012,24 +1043,6 @@
       "url": "https://www.gethoneydew.app/blog/skylight-vs-hearth-display-vs-honeydew-which-family-calendar-is-best-in-2025",
       "category": "Comparison",
       "publishDate": "2026-03-23"
-    },
-    {
-      "title": "Honeydew vs Apple Calendar: Family Calendar Comparison 2026",
-      "url": "https://www.gethoneydew.app/blog/honeydew-vs-apple-calendar-family-calendar-comparison-2026",
-      "category": "Comparison",
-      "publishDate": "2026-03-20"
-    },
-    {
-      "title": "Honeydew vs AppClose: Co-Parenting Apps Compared 2026",
-      "url": "https://www.gethoneydew.app/blog/honeydew-vs-appclose-comparison-2026",
-      "category": "Comparison",
-      "publishDate": "2026-03-18"
-    },
-    {
-      "title": "Honeydew vs Any.Do: Task + Calendar for Families 2026",
-      "url": "https://www.gethoneydew.app/blog/honeydew-vs-anydo-comparison-2026",
-      "category": "Comparison",
-      "publishDate": "2026-03-16"
     }
   ],
   "competitorComparisons": [
@@ -1101,25 +1114,19 @@
   "publicLists": {
     "browseUrl": "https://www.gethoneydew.app/lists/explore",
     "sitemapUrl": "https://www.gethoneydew.app/sitemap-public-lists.xml",
-    "totalLists": 25,
+    "totalLists": 20,
     "featured": [
-      {
-        "title": "Weekly Grocery Shopping List",
-        "url": "https://www.gethoneydew.app/lists/weekly-grocery-shopping-list",
-        "description": "A smart, organized grocery list template. Sections match typical store layouts to save time shopping.",
-        "items": 41
-      },
-      {
-        "title": "Ultimate Beach Vacation Packing List",
-        "url": "https://www.gethoneydew.app/lists/ultimate-beach-vacation-packing-list",
-        "description": "Everything you need for the perfect beach trip. Covers essentials, sun protection, entertainment, and family-specific items.",
-        "items": 30
-      },
       {
         "title": "New Baby Essentials Checklist",
         "url": "https://www.gethoneydew.app/lists/new-baby-essentials-checklist",
         "description": "Everything you need before baby arrives. Registry essentials, nursery setup, hospital bag, and newborn care basics.",
         "items": 42
+      },
+      {
+        "title": "Weekly Grocery Shopping List",
+        "url": "https://www.gethoneydew.app/lists/weekly-grocery-shopping-list",
+        "description": "A smart, organized grocery list template. Sections match typical store layouts to save time shopping.",
+        "items": 41
       },
       {
         "title": "Road Trip Packing Checklist",
@@ -1134,101 +1141,107 @@
         "items": 34
       },
       {
-        "title": "Kids Chore Chart Template",
-        "url": "https://www.gethoneydew.app/lists/kids-chore-chart-template",
-        "description": "Age-appropriate chore chart with morning and evening routines. Customize for your family and track with checkmarks.",
-        "items": 29
+        "title": "Ultimate Beach Vacation Packing List",
+        "url": "https://www.gethoneydew.app/lists/ultimate-beach-vacation-packing-list",
+        "description": "Everything you need for the perfect beach trip. Covers essentials, sun protection, entertainment, and family-specific items.",
+        "items": 30
       },
       {
-        "title": "Weekly Meal Planning Template",
-        "url": "https://www.gethoneydew.app/lists/weekly-meal-planning-template",
-        "description": "Plan a week of family dinners with this organized template. Includes prep notes and shopping list integration.",
-        "items": 22
+        "title": "Family Oil Change Schedule Checklist",
+        "url": "https://www.gethoneydew.app/lists/family-oil-change-schedule-checklist",
+        "description": "Family-friendly oil change schedule guide. Vehicle lists for maintenance, safety, and road trips.",
+        "items": 40
       },
       {
-        "title": "Moving Day Checklist",
-        "url": "https://www.gethoneydew.app/lists/moving-day-checklist",
-        "description": "Complete moving checklist from 8 weeks out to moving day. Stay organized through your entire move.",
-        "items": 39
-      },
-      {
-        "title": "Home Maintenance Schedule",
-        "url": "https://www.gethoneydew.app/lists/home-maintenance-schedule",
-        "description": "Never forget seasonal home maintenance. Monthly and seasonal tasks to keep your home running smoothly.",
-        "items": 38
-      },
-      {
-        "title": "Holiday Gift List Organizer",
-        "url": "https://www.gethoneydew.app/lists/holiday-gift-list-organizer",
-        "description": "Organize all your holiday gift giving. Track recipients, budgets, ideas, and purchased items in one place.",
-        "items": 34
-      },
-      {
-        "title": "Birthday Party Planning Checklist",
-        "url": "https://www.gethoneydew.app/lists/birthday-party-planning-checklist",
-        "description": "Complete party planning checklist from invitations to cleanup. Never forget a detail for your child's perfect birthday.",
+        "title": "Small-Space Garden Tool Checklist",
+        "url": "https://www.gethoneydew.app/lists/small-space-garden-tool-checklist",
+        "description": "Small-Space-friendly garden tool checklist guide. Garden and outdoor lists designed for seasonal success.",
         "items": 35
       },
       {
-        "title": "Back to School Supplies List",
-        "url": "https://www.gethoneydew.app/lists/back-to-school-supplies-list-official",
-        "description": "Complete back-to-school checklist for elementary, middle, and high school students. Organized by category for easy shopping.",
-        "items": 32
+        "title": "Budget Garden Tool Checklist",
+        "url": "https://www.gethoneydew.app/lists/budget-garden-tool-checklist",
+        "description": "Budget-friendly garden tool checklist guide. Garden and outdoor lists designed for seasonal success.",
+        "items": 35
       },
       {
-        "title": "Ultimate Beach Vacation Packing List 2026",
-        "url": "https://www.gethoneydew.app/lists/ultimate-beach-vacation-packing-list-2026",
-        "description": "Complete beach trip packing guide for families. From swimwear to sun protection, entertainment to snacks - everything for the perfect beach vacation.",
-        "items": 57
+        "title": "Busy Garden Tool Checklist",
+        "url": "https://www.gethoneydew.app/lists/busy-garden-tool-checklist",
+        "description": "Busy-friendly garden tool checklist guide. Garden and outdoor lists designed for seasonal success.",
+        "items": 35
       },
       {
-        "title": "Moving Day Checklist - Complete Guide",
-        "url": "https://www.gethoneydew.app/lists/moving-day-checklist-complete-guide",
-        "description": "Everything you need for a smooth moving day. From last-minute packing to first night essentials. Your step-by-step relocation guide.",
-        "items": 62
+        "title": "Family Garden Tool Checklist",
+        "url": "https://www.gethoneydew.app/lists/family-garden-tool-checklist",
+        "description": "Family-friendly garden tool checklist guide. Garden and outdoor lists designed for seasonal success.",
+        "items": 35
       },
       {
-        "title": "Birthday Party Planning Checklist - Kids",
-        "url": "https://www.gethoneydew.app/lists/birthday-party-planning-checklist-kids",
-        "description": "Plan an amazing kids birthday party step by step. Theme selection, invitations, activities, food, and day-of timeline for stress-free celebrations.",
-        "items": 55
+        "title": "Beginner Garden Tool Checklist",
+        "url": "https://www.gethoneydew.app/lists/beginner-garden-tool-checklist",
+        "description": "Beginner-friendly garden tool checklist guide. Garden and outdoor lists designed for seasonal success.",
+        "items": 35
       },
       {
-        "title": "Spring Garden Bed Preparation Checklist",
-        "url": "https://www.gethoneydew.app/lists/spring-garden-bed-preparation-checklist-gafjyf",
-        "description": "Early spring drives high search intent for families starting backyard gardens, and gardening_outdoor is an underserved category in the current library.",
-        "items": 42
+        "title": "Small-Space Seasonal Planting Checklist",
+        "url": "https://www.gethoneydew.app/lists/small-space-seasonal-planting-checklist",
+        "description": "Small-Space-friendly seasonal planting guide. Garden and outdoor lists designed for seasonal success.",
+        "items": 35
       },
       {
-        "title": "Spring Vegetable Garden Planting Checklist for Beginners",
-        "url": "https://www.gethoneydew.app/lists/spring-vegetable-garden-planting-checklist-for-beginners-w10son",
-        "description": "Spring gardening searches surge as families begin planning backyard gardens. Beginner‑focused planting checklists attract homeowners and parents teaching kids about gardening while filling a gap in th",
-        "items": 38
+        "title": "Budget Seasonal Planting Checklist",
+        "url": "https://www.gethoneydew.app/lists/budget-seasonal-planting-checklist",
+        "description": "Budget-friendly seasonal planting guide. Garden and outdoor lists designed for seasonal success.",
+        "items": 35
       },
       {
-        "title": "Used Car Inspection Checklist for Families (2026)",
-        "url": "https://www.gethoneydew.app/lists/used-car-inspection-checklist-for-families-2026",
-        "description": "Many households search for practical guidance before buying a used vehicle. Including the year improves freshness signals and captures high-intent searches from parents looking for a safe, reliable fa",
-        "items": 48
+        "title": "Busy Seasonal Planting Checklist",
+        "url": "https://www.gethoneydew.app/lists/busy-seasonal-planting-checklist",
+        "description": "Busy-friendly seasonal planting guide. Garden and outdoor lists designed for seasonal success.",
+        "items": 35
       },
       {
-        "title": "Spring Vegetable Garden Setup Checklist",
-        "url": "https://www.gethoneydew.app/lists/spring-vegetable-garden-setup-checklist-t1y83j",
-        "description": "Spring planting season drives strong search intent among families starting backyard gardens. This targets the underserved gardening_outdoor category and long-tail searches related to preparing soil, b",
-        "items": 42
+        "title": "Family Seasonal Planting Checklist",
+        "url": "https://www.gethoneydew.app/lists/family-seasonal-planting-checklist",
+        "description": "Family-friendly seasonal planting guide. Garden and outdoor lists designed for seasonal success.",
+        "items": 35
       },
       {
-        "title": "2026 First Apartment Budget Planning Checklist",
-        "url": "https://www.gethoneydew.app/lists/2026-first-apartment-budget-planning-checklist-8a7pvs",
-        "description": "Young adults moving into their first apartment frequently search for budgeting guidance. Including the year improves freshness signals and targets high-intent life transition searches related to rent,",
-        "items": 48
+        "title": "Beginner Seasonal Planting Checklist",
+        "url": "https://www.gethoneydew.app/lists/beginner-seasonal-planting-checklist",
+        "description": "Beginner-friendly seasonal planting guide. Garden and outdoor lists designed for seasonal success.",
+        "items": 35
+      },
+      {
+        "title": "Small-Space Composting Setup Checklist",
+        "url": "https://www.gethoneydew.app/lists/small-space-composting-setup-checklist",
+        "description": "Small-Space-friendly composting setup guide. Garden and outdoor lists designed for seasonal success.",
+        "items": 35
+      },
+      {
+        "title": "Budget Composting Setup Checklist",
+        "url": "https://www.gethoneydew.app/lists/budget-composting-setup-checklist",
+        "description": "Budget-friendly composting setup guide. Garden and outdoor lists designed for seasonal success.",
+        "items": 35
+      },
+      {
+        "title": "Busy Composting Setup Checklist",
+        "url": "https://www.gethoneydew.app/lists/busy-composting-setup-checklist",
+        "description": "Busy-friendly composting setup guide. Garden and outdoor lists designed for seasonal success.",
+        "items": 35
+      },
+      {
+        "title": "Family Composting Setup Checklist",
+        "url": "https://www.gethoneydew.app/lists/family-composting-setup-checklist",
+        "description": "Family-friendly composting setup guide. Garden and outdoor lists designed for seasonal success.",
+        "items": 35
       }
     ],
     "categories": [
       {
         "name": "Vacation & Travel",
         "url": "https://www.gethoneydew.app/lists/category/vacation_travel",
-        "count": 1
+        "count": 60
       },
       {
         "name": "Co-Parenting & Custody",
@@ -1243,7 +1256,7 @@
       {
         "name": "Holidays & Celebrations",
         "url": "https://www.gethoneydew.app/lists/category/holidays_celebrations",
-        "count": 1
+        "count": 0
       },
       {
         "name": "Household Management",
@@ -1253,7 +1266,7 @@
       {
         "name": "Meal Planning & Food",
         "url": "https://www.gethoneydew.app/lists/category/meal_planning",
-        "count": 1
+        "count": 0
       },
       {
         "name": "Baby & Parenting",
@@ -1263,42 +1276,42 @@
       {
         "name": "Health & Wellness",
         "url": "https://www.gethoneydew.app/lists/category/health_wellness",
-        "count": 0
+        "count": 44
       },
       {
         "name": "Events & Entertaining",
         "url": "https://www.gethoneydew.app/lists/category/events_entertaining",
-        "count": 0
+        "count": 50
       },
       {
         "name": "Moving & Real Estate",
         "url": "https://www.gethoneydew.app/lists/category/moving_real_estate",
-        "count": 1
+        "count": 50
       },
       {
         "name": "Sports & Activities",
         "url": "https://www.gethoneydew.app/lists/category/sports_activities",
-        "count": 0
+        "count": 50
       },
       {
         "name": "Work & Professional",
         "url": "https://www.gethoneydew.app/lists/category/work_professional",
-        "count": 0
+        "count": 50
       },
       {
         "name": "Seasonal & Weather",
         "url": "https://www.gethoneydew.app/lists/category/seasonal_weather",
-        "count": 0
+        "count": 45
       },
       {
         "name": "Pet Ownership",
         "url": "https://www.gethoneydew.app/lists/category/pet_ownership",
-        "count": 0
+        "count": 45
       },
       {
         "name": "Gardening & Outdoor Living",
         "url": "https://www.gethoneydew.app/lists/category/gardening_outdoor",
-        "count": 0
+        "count": 50
       },
       {
         "name": "Vehicle & Automotive",
@@ -1308,12 +1321,12 @@
       {
         "name": "Education & College",
         "url": "https://www.gethoneydew.app/lists/category/education_college",
-        "count": 1
+        "count": 0
       },
       {
         "name": "Financial Planning",
         "url": "https://www.gethoneydew.app/lists/category/financial_planning",
-        "count": 0
+        "count": 50
       },
       {
         "name": "Special Family Situations",

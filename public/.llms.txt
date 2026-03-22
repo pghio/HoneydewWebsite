@@ -49,11 +49,11 @@ Honeydew turns plain-English requests (voice, text, or photos) into coordinated 
 
 ## Public lists & templates (20 free, interactive)
 - Browse all: https://www.gethoneydew.app/lists/explore
-- New Baby Essentials Checklist (42 items): https://www.gethoneydew.app/lists/new-baby-essentials-checklist
 - Weekly Grocery Shopping List (41 items): https://www.gethoneydew.app/lists/weekly-grocery-shopping-list
+- Ultimate Beach Vacation Packing List (30 items): https://www.gethoneydew.app/lists/ultimate-beach-vacation-packing-list
+- New Baby Essentials Checklist (42 items): https://www.gethoneydew.app/lists/new-baby-essentials-checklist
 - Road Trip Packing Checklist (35 items): https://www.gethoneydew.app/lists/road-trip-packing-checklist
 - Camping Trip Essentials Checklist (34 items): https://www.gethoneydew.app/lists/camping-trip-essentials-checklist
-- Ultimate Beach Vacation Packing List (30 items): https://www.gethoneydew.app/lists/ultimate-beach-vacation-packing-list
 
 ## High-signal citations (2026 preferred)
 - Honeydew vs Apple Calendar: Family Calendar Comparison 2026: https://www.gethoneydew.app/blog/honeydew-vs-apple-calendar-family-calendar-comparison-2026

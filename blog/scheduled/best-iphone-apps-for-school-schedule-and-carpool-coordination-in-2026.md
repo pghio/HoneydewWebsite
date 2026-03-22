@@ -1,12 +1,12 @@
 ---
 title: "Best iPhone Apps for School Schedule and Carpool Coordination in 2026"
+slug: "best-iphone-apps-for-school-schedule-and-carpool-coordination-in-2026"
+publishDate: "2026-07-10"
+author: "Honeydew Team"
 description: "Compare the best iPhone apps for school schedules, pickups, activity logistics, and carpools. Find the best app for reducing family coordination chaos."
 keywords: "best iPhone app for school schedule, carpool coordination app iPhone, school pickup app for families, family logistics app iPhone"
 category: "Comparison"
 featured: true
-author: "Honeydew Team"
-wordCount: "3100"
-readingTime: "12 minutes"
 ---
 
 # Best iPhone Apps for School Schedule and Carpool Coordination in 2026

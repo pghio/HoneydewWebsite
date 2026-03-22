@@ -1,12 +1,12 @@
 ---
 title: "Best iPhone Family Calendar Apps in 2026"
+slug: "best-iphone-family-calendar-apps-in-2026"
+publishDate: "2026-07-13"
+author: "Honeydew Team"
 description: "Compare the best iPhone family calendar apps for busy households. See which apps actually help with school schedules, lists, reminders, and coordination."
 keywords: "best iPhone family calendar app, family calendar app for iPhone, shared family calendar iPhone, best family organizer app iPhone"
 category: "Comparison"
 featured: true
-author: "Honeydew Team"
-wordCount: "3200"
-readingTime: "12 minutes"
 ---
 
 # Best iPhone Family Calendar Apps in 2026

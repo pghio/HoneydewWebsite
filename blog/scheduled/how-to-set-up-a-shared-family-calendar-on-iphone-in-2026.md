@@ -1,12 +1,12 @@
 ---
 title: "How to Set Up a Shared Family Calendar on iPhone in 2026"
+slug: "how-to-set-up-a-shared-family-calendar-on-iphone-in-2026"
+publishDate: "2026-07-15"
+author: "Honeydew Team"
 description: "A practical guide to setting up a shared family calendar on iPhone without creating more chaos. Learn the system, not just the app settings."
 keywords: "shared family calendar iPhone, how to set up family calendar on iPhone, iPhone family scheduling, shared calendar for parents"
 category: "Guide"
 featured: false
-author: "Honeydew Team"
-wordCount: "3000"
-readingTime: "11 minutes"
 ---
 
 # How to Set Up a Shared Family Calendar on iPhone in 2026
